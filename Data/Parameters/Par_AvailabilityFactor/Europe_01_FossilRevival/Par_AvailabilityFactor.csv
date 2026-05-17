@@ -1,0 +1,17 @@
+Region,Technology,Year,Value,,Unit,Source,Updated at,Updated by
+All,CHP_Biomass_Solid_CCS,All,0,,Fraction,scenario assumption,10.02.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+All,CHP_Coal_Hardcoal_CCS,All,0,,Fraction,scenario assumption,10.02.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+All,CHP_Coal_Lignite_CCS,All,0,,Fraction,scenario assumption,10.02.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+All,CHP_Gas_CCGT_Biogas_CCS,All,0,,Fraction,scenario assumption,10.02.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+All,CHP_Gas_CCGT_Natural_CCS,All,0,,Fraction,scenario assumption,10.02.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+All,HHI_BF_BOF_CCS,All,0,,Fraction,scenario assumption,10.02.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+All,HHI_DRI_EAF_CCS,All,0,,Fraction,scenario assumption,10.02.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+All,HMHI_Gas_CCS,All,0,,Fraction,scenario assumption,10.02.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+All,HMHI_HardCoal_CCS,All,0,,Fraction,scenario assumption,10.02.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+All,P_Biomass_CCS,All,0,,Fraction,scenario assumption,10.02.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+All,P_Coal_Hardcoal_CCS,All,0,,Fraction,scenario assumption,10.02.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+All,P_Coal_Lignite_CCS,All,0,,Fraction,scenario assumption,10.02.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+All,P_Gas_CCS,All,0,,Fraction,scenario assumption,10.02.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+All,X_ATR_CCS,All,0,,Fraction,scenario assumption,10.02.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+All,X_DAC_HT,All,0,,Fraction,scenario assumption,10.02.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+All,X_DAC_LT,All,0,,Fraction,scenario assumption,10.02.2026,Konstantin Loffler <kl@wip.tu-berlin.de>

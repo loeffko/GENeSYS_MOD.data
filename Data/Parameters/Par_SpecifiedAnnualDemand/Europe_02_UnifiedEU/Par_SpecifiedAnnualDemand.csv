@@ -1,0 +1,281 @@
+Region,Fuel,Year,Value,,Unit,Source,Updated at,Updated by
+AT,H2,2018,11.9988,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+AT,H2,2021,11.9988,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+AT,H2,2025,11.9988,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+AT,H2,2030,17.0742,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+AT,H2,2035,17.0742,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+AT,H2,2040,29.3039,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+AT,H2,2045,29.3039,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+AT,H2,2050,47.6945,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+AT,H2,2055,47.6945,,PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+AT,H2,2060,47.6945,,PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BE,H2,2018,46.7953,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+BE,H2,2021,46.7953,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+BE,H2,2025,46.7953,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+BE,H2,2030,62.5211,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+BE,H2,2035,62.5211,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+BE,H2,2040,135.4721,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+BE,H2,2045,135.4721,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+BE,H2,2050,244.7497,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+BE,H2,2055,244.7497,,PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BE,H2,2060,244.7497,,PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BG,H2,2018,0,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+BG,H2,2021,0,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+BG,H2,2025,0,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+BG,H2,2030,4.1745,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+BG,H2,2035,4.1745,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+BG,H2,2040,13.356,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+BG,H2,2045,13.356,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+BG,H2,2050,26.2761,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+BG,H2,2055,26.2761,,PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BG,H2,2060,26.2761,,PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CH,H2,2018,2.3998,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+CH,H2,2021,2.3998,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+CH,H2,2025,2.3998,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+CH,H2,2030,2.3998,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+CH,H2,2035,2.3998,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+CH,H2,2040,2.3998,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+CH,H2,2045,2.3998,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+CH,H2,2050,2.3998,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+CH,H2,2055,2.3998,,PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CH,H2,2060,2.3998,,PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CZ,H2,2018,11.9988,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+CZ,H2,2021,11.9988,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+CZ,H2,2025,11.9988,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+CZ,H2,2030,17.0849,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+CZ,H2,2035,17.0849,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+CZ,H2,2040,35.892,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+CZ,H2,2045,35.892,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+CZ,H2,2050,59.3723,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+CZ,H2,2055,59.3723,,PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CZ,H2,2060,59.3723,,PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DE,H2,2018,209.979,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+DE,H2,2021,209.979,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+DE,H2,2025,209.979,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+DE,H2,2030,316.7546,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+DE,H2,2035,316.7546,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+DE,H2,2040,542.6885,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+DE,H2,2045,542.6885,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+DE,H2,2050,919.0224,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+DE,H2,2055,919.0224,,PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DE,H2,2060,919.0224,,PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DK,H2,2018,3.5996,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+DK,H2,2021,3.5996,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+DK,H2,2025,3.5996,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+DK,H2,2030,3.9796,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+DK,H2,2035,3.9796,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+DK,H2,2040,4.953,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+DK,H2,2045,4.953,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+DK,H2,2050,6.5735,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+DK,H2,2055,6.5735,,PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DK,H2,2060,6.5735,,PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+EE,H2,2018,0,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+EE,H2,2021,0,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+EE,H2,2025,0,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+EE,H2,2030,0.5021,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+EE,H2,2035,0.5021,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+EE,H2,2040,1.3601,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+EE,H2,2045,1.3601,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+EE,H2,2050,2.7834,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+EE,H2,2055,2.7834,,PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+EE,H2,2060,2.7834,,PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ES,H2,2018,72.5927,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+ES,H2,2021,72.5927,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+ES,H2,2025,72.5927,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+ES,H2,2030,79.3677,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+ES,H2,2035,79.3677,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+ES,H2,2040,106.8487,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+ES,H2,2045,106.8487,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+ES,H2,2050,149.7071,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+ES,H2,2055,149.7071,,PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ES,H2,2060,149.7071,,PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FI,H2,2018,22.1978,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+FI,H2,2021,22.1978,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+FI,H2,2025,22.1978,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+FI,H2,2030,22.1978,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+FI,H2,2035,22.1978,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+FI,H2,2040,47.1167,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+FI,H2,2045,47.1167,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+FI,H2,2050,89.888,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+FI,H2,2055,89.888,,PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FI,H2,2060,89.888,,PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FR,H2,2018,68.9931,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+FR,H2,2021,68.9931,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+FR,H2,2025,68.9931,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+FR,H2,2030,81.93,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+FR,H2,2035,81.93,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+FR,H2,2040,118.2065,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+FR,H2,2045,118.2065,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+FR,H2,2050,207.5229,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+FR,H2,2055,207.5229,,PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FR,H2,2060,207.5229,,PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+GR,H2,2018,37.1963,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+GR,H2,2021,37.1963,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+GR,H2,2025,37.1963,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+GR,H2,2030,40.2181,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+GR,H2,2035,40.2181,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+GR,H2,2040,47.4231,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+GR,H2,2045,47.4231,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+GR,H2,2050,56.2962,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+GR,H2,2055,56.2962,,PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+GR,H2,2060,56.2962,,PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HR,H2,2018,8.9991,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+HR,H2,2021,8.9991,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+HR,H2,2025,8.9991,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+HR,H2,2030,12.9267,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+HR,H2,2035,12.9267,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+HR,H2,2040,19.8947,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+HR,H2,2045,19.8947,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+HR,H2,2050,27.5891,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+HR,H2,2055,27.5891,,PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HR,H2,2060,27.5891,,PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HU,H2,2018,22.7977,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+HU,H2,2021,22.7977,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+HU,H2,2025,22.7977,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+HU,H2,2030,35.1783,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+HU,H2,2035,35.1783,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+HU,H2,2040,72.7904,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+HU,H2,2045,72.7904,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+HU,H2,2050,119.5818,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+HU,H2,2055,119.5818,,PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HU,H2,2060,119.5818,,PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IE,H2,2018,0.5999,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+IE,H2,2021,0.5999,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+IE,H2,2025,0.5999,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+IE,H2,2030,0.97,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+IE,H2,2035,0.97,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+IE,H2,2040,2.213,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+IE,H2,2045,2.213,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+IE,H2,2050,4.2239,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+IE,H2,2055,4.2239,,PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IE,H2,2060,4.2239,,PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IT,H2,2018,71.9928,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+IT,H2,2021,71.9928,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+IT,H2,2025,71.9928,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+IT,H2,2030,103.5088,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+IT,H2,2035,103.5088,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+IT,H2,2040,200.6104,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+IT,H2,2045,200.6104,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+IT,H2,2050,363.9316,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+IT,H2,2055,363.9316,,PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IT,H2,2060,363.9316,,PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LT,H2,2018,17.9982,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+LT,H2,2021,17.9982,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+LT,H2,2025,17.9982,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+LT,H2,2030,28.0379,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+LT,H2,2035,28.0379,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+LT,H2,2040,53.998,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+LT,H2,2045,53.998,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+LT,H2,2050,79.3688,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+LT,H2,2055,79.3688,,PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LT,H2,2060,79.3688,,PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LU,H2,2018,0,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+LU,H2,2021,0,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+LU,H2,2025,0,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+LU,H2,2030,0.1447,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+LU,H2,2035,0.1447,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+LU,H2,2040,0.4517,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+LU,H2,2045,0.4517,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+LU,H2,2050,0.9974,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+LU,H2,2055,0.9974,,PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LU,H2,2060,0.9974,,PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NL,H2,2018,118.7881,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+NL,H2,2021,118.7881,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+NL,H2,2025,118.7881,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+NL,H2,2030,168.3193,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+NL,H2,2035,168.3193,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+NL,H2,2040,261.3889,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+NL,H2,2045,261.3889,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+NL,H2,2050,397.5575,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+NL,H2,2055,397.5575,,PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NL,H2,2060,397.5575,,PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NO,H2,2018,20.398,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+NO,H2,2021,20.398,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+NO,H2,2025,20.398,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+NO,H2,2030,20.398,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+NO,H2,2035,20.398,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+NO,H2,2040,20.398,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+NO,H2,2045,20.398,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+NO,H2,2050,20.398,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+NO,H2,2055,20.398,,PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NO,H2,2060,20.398,,PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NONEU_Balkan,H2,2018,0,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+NONEU_Balkan,H2,2021,0,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+NONEU_Balkan,H2,2025,0,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+NONEU_Balkan,H2,2030,0,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+NONEU_Balkan,H2,2035,0,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+NONEU_Balkan,H2,2040,0,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+NONEU_Balkan,H2,2045,0,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+NONEU_Balkan,H2,2050,0,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+NONEU_Balkan,H2,2055,0,,PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NONEU_Balkan,H2,2060,0,,PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PL,H2,2018,94.7905,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+PL,H2,2021,94.7905,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+PL,H2,2025,94.7905,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+PL,H2,2030,133.6334,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+PL,H2,2035,133.6334,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+PL,H2,2040,205.7329,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+PL,H2,2045,205.7329,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+PL,H2,2050,287.6928,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+PL,H2,2055,287.6928,,PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PL,H2,2060,287.6928,,PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,H2,2018,11.9988,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+PT,H2,2021,11.9988,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+PT,H2,2025,11.9988,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+PT,H2,2030,15.0556,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+PT,H2,2035,15.0556,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+PT,H2,2040,21.3796,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+PT,H2,2045,21.3796,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+PT,H2,2050,29.4876,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+PT,H2,2055,29.4876,,PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,H2,2060,29.4876,,PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+RO,H2,2018,14.3986,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+RO,H2,2021,14.3986,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+RO,H2,2025,14.3986,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+RO,H2,2030,21.9561,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+RO,H2,2035,21.9561,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+RO,H2,2040,39.0283,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+RO,H2,2045,39.0283,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+RO,H2,2050,62.9444,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+RO,H2,2055,62.9444,,PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+RO,H2,2060,62.9444,,PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SE,H2,2018,21.5978,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+SE,H2,2021,21.5978,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+SE,H2,2025,21.5978,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+SE,H2,2030,31.3082,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+SE,H2,2035,31.3082,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+SE,H2,2040,51.204,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+SE,H2,2045,51.204,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+SE,H2,2050,84.2997,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+SE,H2,2055,84.2997,,PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SE,H2,2060,84.2997,,PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SI,H2,2018,0,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+SI,H2,2021,0,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+SI,H2,2025,0,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+SI,H2,2030,0.6383,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+SI,H2,2035,0.6383,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+SI,H2,2040,1.7873,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+SI,H2,2045,1.7873,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+SI,H2,2050,3.6574,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+SI,H2,2055,3.6574,,PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SI,H2,2060,3.6574,,PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SK,H2,2018,11.9988,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+SK,H2,2021,11.9988,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+SK,H2,2025,11.9988,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+SK,H2,2030,16.6738,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+SK,H2,2035,16.6738,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+SK,H2,2040,27.4636,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+SK,H2,2045,27.4636,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+SK,H2,2050,41.5263,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+SK,H2,2055,41.5263,,PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SK,H2,2060,41.5263,,PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+UK,H2,2018,70.7929,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+UK,H2,2021,70.7929,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+UK,H2,2025,70.7929,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+UK,H2,2030,84.6959,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+UK,H2,2035,84.6959,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+UK,H2,2040,115.7702,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+UK,H2,2045,115.7702,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+UK,H2,2050,165.7862,,PJ,see assumptions.txt,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+UK,H2,2055,165.7862,,PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+UK,H2,2060,165.7862,,PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
