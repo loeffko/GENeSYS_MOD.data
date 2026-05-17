@@ -1,4 +1,4 @@
-Fuel,Year,Value,,Unit,Source,Updated at,Updated by
+Fuel,Year,Value,Unnamed: 3,Unit,Source,Updated at,Updated by
 Air,All,0.025,,Percent,Assumption,08.09.2023,Konstantin Loffler <kl@wip.tu-berlin.de>
 Heat_Buildings,All,0.04,,Percent,Assumption,08.09.2023,Konstantin Loffler <kl@wip.tu-berlin.de>
 Heat_District,All,0.04,,Percent,Assumption,08.09.2023,Konstantin Loffler <kl@wip.tu-berlin.de>
@@ -57,3 +57,27 @@ Gas_Synth,2045,0.1,,Percent,Assumption,16.03.2026,Nikita Moskalenko <nim@wip.tu-
 Gas_Synth,2050,0.05,,Percent,Assumption,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
 Gas_Synth,2055,0.05,,Percent,Assumption,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
 Gas_Synth,2060,0.05,,Percent,Assumption,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
+H2,2026,0.108,,Percent,interpolated,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
+H2,2027,0.206,,Percent,interpolated,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
+H2,2028,0.304,,Percent,interpolated,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
+H2,2029,0.402,,Percent,interpolated,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
+H2,2031,0.45,,Percent,interpolated,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
+H2,2032,0.4,,Percent,interpolated,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
+H2,2033,0.35,,Percent,interpolated,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
+H2,2034,0.3,,Percent,interpolated,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
+H2,2036,0.22,,Percent,interpolated,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
+H2,2037,0.19,,Percent,interpolated,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
+H2,2038,0.16,,Percent,interpolated,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
+H2,2039,0.13,,Percent,interpolated,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Gas_Synth,2026,0.48,,Percent,interpolated,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Gas_Synth,2027,0.46,,Percent,interpolated,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Gas_Synth,2028,0.44,,Percent,interpolated,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Gas_Synth,2029,0.42,,Percent,interpolated,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Gas_Synth,2031,0.38,,Percent,interpolated,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Gas_Synth,2032,0.36,,Percent,interpolated,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Gas_Synth,2033,0.34,,Percent,interpolated,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Gas_Synth,2034,0.32,,Percent,interpolated,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Gas_Synth,2036,0.28,,Percent,interpolated,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Gas_Synth,2037,0.26,,Percent,interpolated,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Gas_Synth,2038,0.24,,Percent,interpolated,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Gas_Synth,2039,0.22,,Percent,interpolated,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>

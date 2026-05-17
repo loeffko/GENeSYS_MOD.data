@@ -1,4 +1,4 @@
-Region,Region.1,Fuel,Year,Value,,Unit,Source,Updated at,Updated by
+Region,Region.1,Fuel,Year,Value,Unnamed: 5,Unit,Source,Updated at,Updated by
 AT,DE,Gas_Natural,All,568.6889,,PJ,EntsoG2019,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 AT,DE_BY,Gas_Natural,All,834.849,,PJ,SciGRID_gas_IGGIELGN,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 AT,HU,Gas_Natural,All,185.0579,,PJ,EntsoG2019,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
@@ -348,3 +348,63 @@ UK,FR,Power,All,3,,GW,https://ember-climate.org/data/data-tools/electricity-inte
 UK,IE,Power,All,0.63,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 UK,NL,Power,All,1,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 UK,NO,Power,All,1.4,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,ERCOT,Gas_Natural,All,517.0418,,PJ,dummy data - empty entry,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
+California,MISO,Gas_Natural,All,502.4893,,PJ,dummy data - empty entry,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
+California,PJM,Gas_Natural,All,830.3343,,PJ,dummy data - empty entry,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
+California,SERC,Gas_Natural,All,2641.1206,,PJ,dummy data - empty entry,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
+California,WECC,Gas_Natural,All,823.3577,,PJ,dummy data - empty entry,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
+California,SPP,Gas_Natural,All,1329.4267,,PJ,dummy data - empty entry,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
+California,NewYork,Gas_Natural,All,303.919,,PJ,dummy data - empty entry,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
+California,ERCOT,Power,All,1.4,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,MISO,Power,All,1,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,PJM,Power,All,4.2,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,SERC,Power,All,1.6,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,WECC,Power,All,3,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,SPP,Power,All,3.95,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,NewYork,Power,All,1,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,MISO,Gas_Natural,All,354.752,,PJ,dummy data - empty entry,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
+WECC,PJM,Gas_Natural,All,342.138,,PJ,dummy data - empty entry,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
+WECC,California,Gas_Natural,All,0,,PJ,dummy data - empty entry,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
+WECC,Canada,Gas_Natural,All,235.4081,,PJ,dummy data - empty entry,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
+WECC,MISO,Power,All,2.8,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,PJM,Power,All,3.7,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,California,Power,All,3,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,Canada,Power,All,2.8,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,NewEngland,Power,All,2.9,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,MISO,Gas_Natural,All,1887.85,,PJ,dummy data - empty entry,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
+SPP,California,Gas_Natural,All,2629.8277,,PJ,dummy data - empty entry,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
+SPP,MISO,Power,All,1.4,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,California,Power,All,3.95,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,California,Gas_Natural,All,446.6692,,PJ,dummy data - empty entry,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
+MISO,WECC,Gas_Natural,All,1116.81,,PJ,dummy data - empty entry,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
+MISO,SPP,Gas_Natural,All,516.361,,PJ,dummy data - empty entry,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
+MISO,California,Power,All,1,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,WECC,Power,All,2.8,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,SPP,Power,All,2.4,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,California,Gas_Natural,All,568.6889,,PJ,dummy data - empty entry,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
+ERCOT,NewEngland,Gas_Natural,All,1633.042,,PJ,dummy data - empty entry,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
+ERCOT,PJM,Power,All,1.2,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,SERC,Power,All,0.9,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,California,Power,All,1.4,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,NewEngland,Power,All,0.41,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,California,Gas_Natural,All,1575.6649,,PJ,dummy data - empty entry,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
+SERC,NewYork,Gas_Natural,All,36.7891,,PJ,dummy data - empty entry,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
+SERC,ERCOT,Power,All,0.9,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,California,Power,All,1.6,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,NewYork,Power,All,1.4,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,WECC,Gas_Natural,All,131.389,,PJ,dummy data - empty entry,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
+PJM,NewEngland,Gas_Natural,All,888.2223,,PJ,dummy data - empty entry,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
+PJM,ERCOT,Power,All,1.2,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,California,Power,All,4.2,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,WECC,Power,All,3.7,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,NewEngland,Power,All,3.75,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,California,Gas_Natural,All,1328.3295,,PJ,dummy data - empty entry,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
+NewYork,SERC,Power,All,1.4,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,California,Power,All,1,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,ERCOT,Gas_Natural,All,1633.042,,PJ,dummy data - empty entry,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
+NewEngland,PJM,Gas_Natural,All,0,,PJ,dummy data - empty entry,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
+NewEngland,ERCOT,Power,All,0.41,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,PJM,Power,All,3.75,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,WECC,Power,All,3.1,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,WECC,Gas_Natural,All,321.011,,PJ,dummy data - empty entry,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
+Canada,WECC,Power,All,2.8,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>

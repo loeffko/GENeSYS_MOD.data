@@ -1,4 +1,4 @@
-Region,Technology,Year,Value,,Unit,Source,Updated at,Updated by
+Region,Technology,Year,Value,Unnamed: 4,Unit,Source,Updated at,Updated by
 World,A_Air,2018,0.5,,MEUR/GW,,,
 World,A_Air,2020,0.5,,MEUR/GW,,,
 World,A_Air,2021,0.5,,MEUR/GW,,,
@@ -1506,3 +1506,1503 @@ World,R_Waste,2045,0.01,,MEUR/GW,assumption: only varible costs,20.06.2025,Nikit
 World,R_Waste,2050,0.01,,MEUR/GW,assumption: only varible costs,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 World,R_Waste,2055,0.01,,MEUR/GW,assumption: only varible costs,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 World,R_Waste,2060,0.01,,MEUR/GW,assumption: only varible costs,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,A_Air,2026,0.5,,MEUR/GW,interpolated,,
+World,A_Air,2027,0.5,,MEUR/GW,interpolated,,
+World,A_Air,2028,0.5,,MEUR/GW,interpolated,,
+World,A_Air,2029,0.5,,MEUR/GW,interpolated,,
+World,A_Air,2031,0.5,,MEUR/GW,interpolated,,
+World,A_Air,2032,0.5,,MEUR/GW,interpolated,,
+World,A_Air,2033,0.5,,MEUR/GW,interpolated,,
+World,A_Air,2034,0.5,,MEUR/GW,interpolated,,
+World,A_Air,2036,0.5,,MEUR/GW,interpolated,,
+World,A_Air,2037,0.5,,MEUR/GW,interpolated,,
+World,A_Air,2038,0.5,,MEUR/GW,interpolated,,
+World,A_Air,2039,0.5,,MEUR/GW,interpolated,,
+World,CHP_Biomass_Solid,2026,3114,,MEUR/GW,interpolated,,
+World,CHP_Biomass_Solid,2027,3083,,MEUR/GW,interpolated,,
+World,CHP_Biomass_Solid,2028,3052,,MEUR/GW,interpolated,,
+World,CHP_Biomass_Solid,2029,3021,,MEUR/GW,interpolated,,
+World,CHP_Biomass_Solid,2031,2966,,MEUR/GW,interpolated,,
+World,CHP_Biomass_Solid,2032,2942,,MEUR/GW,interpolated,,
+World,CHP_Biomass_Solid,2033,2918,,MEUR/GW,interpolated,,
+World,CHP_Biomass_Solid,2034,2894,,MEUR/GW,interpolated,,
+World,CHP_Biomass_Solid,2036,2846,,MEUR/GW,interpolated,,
+World,CHP_Biomass_Solid,2037,2822,,MEUR/GW,interpolated,,
+World,CHP_Biomass_Solid,2038,2798,,MEUR/GW,interpolated,,
+World,CHP_Biomass_Solid,2039,2774,,MEUR/GW,interpolated,,
+World,CHP_Biomass_Solid_CCS,2026,5480.64,,MEUR/GW,interpolated,,
+World,CHP_Biomass_Solid_CCS,2027,5426.08,,MEUR/GW,interpolated,,
+World,CHP_Biomass_Solid_CCS,2028,5371.52,,MEUR/GW,interpolated,,
+World,CHP_Biomass_Solid_CCS,2029,5316.96,,MEUR/GW,interpolated,,
+World,CHP_Biomass_Solid_CCS,2031,5220.16,,MEUR/GW,interpolated,,
+World,CHP_Biomass_Solid_CCS,2032,5177.92,,MEUR/GW,interpolated,,
+World,CHP_Biomass_Solid_CCS,2033,5135.68,,MEUR/GW,interpolated,,
+World,CHP_Biomass_Solid_CCS,2034,5093.44,,MEUR/GW,interpolated,,
+World,CHP_Biomass_Solid_CCS,2036,5008.96,,MEUR/GW,interpolated,,
+World,CHP_Biomass_Solid_CCS,2037,4966.72,,MEUR/GW,interpolated,,
+World,CHP_Biomass_Solid_CCS,2038,4924.48,,MEUR/GW,interpolated,,
+World,CHP_Biomass_Solid_CCS,2039,4882.24,,MEUR/GW,interpolated,,
+World,CHP_Coal_Hardcoal,2026,2030,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,CHP_Coal_Hardcoal,2027,2030,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,CHP_Coal_Hardcoal,2028,2030,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,CHP_Coal_Hardcoal,2029,2030,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,CHP_Coal_Hardcoal,2031,2030,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,CHP_Coal_Hardcoal,2032,2030,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,CHP_Coal_Hardcoal,2033,2030,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,CHP_Coal_Hardcoal,2034,2030,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,CHP_Coal_Hardcoal,2036,2030,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,CHP_Coal_Hardcoal,2037,2030,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,CHP_Coal_Hardcoal,2038,2030,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,CHP_Coal_Hardcoal,2039,2030,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,CHP_Coal_Hardcoal_CCS,2026,3308.9,,MEUR/GW,interpolated,,
+World,CHP_Coal_Hardcoal_CCS,2027,3308.9,,MEUR/GW,interpolated,,
+World,CHP_Coal_Hardcoal_CCS,2028,3308.9,,MEUR/GW,interpolated,,
+World,CHP_Coal_Hardcoal_CCS,2029,3308.9,,MEUR/GW,interpolated,,
+World,CHP_Coal_Hardcoal_CCS,2031,3308.9,,MEUR/GW,interpolated,,
+World,CHP_Coal_Hardcoal_CCS,2032,3308.9,,MEUR/GW,interpolated,,
+World,CHP_Coal_Hardcoal_CCS,2033,3308.9,,MEUR/GW,interpolated,,
+World,CHP_Coal_Hardcoal_CCS,2034,3308.9,,MEUR/GW,interpolated,,
+World,CHP_Coal_Hardcoal_CCS,2036,3308.9,,MEUR/GW,interpolated,,
+World,CHP_Coal_Hardcoal_CCS,2037,3308.9,,MEUR/GW,interpolated,,
+World,CHP_Coal_Hardcoal_CCS,2038,3308.9,,MEUR/GW,interpolated,,
+World,CHP_Coal_Hardcoal_CCS,2039,3308.9,,MEUR/GW,interpolated,,
+World,CHP_Coal_Lignite,2026,2030,,MEUR/GW,interpolated,,
+World,CHP_Coal_Lignite,2027,2030,,MEUR/GW,interpolated,,
+World,CHP_Coal_Lignite,2028,2030,,MEUR/GW,interpolated,,
+World,CHP_Coal_Lignite,2029,2030,,MEUR/GW,interpolated,,
+World,CHP_Coal_Lignite,2031,2030,,MEUR/GW,interpolated,,
+World,CHP_Coal_Lignite,2032,2030,,MEUR/GW,interpolated,,
+World,CHP_Coal_Lignite,2033,2030,,MEUR/GW,interpolated,,
+World,CHP_Coal_Lignite,2034,2030,,MEUR/GW,interpolated,,
+World,CHP_Coal_Lignite,2036,2030,,MEUR/GW,interpolated,,
+World,CHP_Coal_Lignite,2037,2030,,MEUR/GW,interpolated,,
+World,CHP_Coal_Lignite,2038,2030,,MEUR/GW,interpolated,,
+World,CHP_Coal_Lignite,2039,2030,,MEUR/GW,interpolated,,
+World,CHP_Coal_Lignite_CCS,2026,3308.9,,MEUR/GW,interpolated,,
+World,CHP_Coal_Lignite_CCS,2027,3308.9,,MEUR/GW,interpolated,,
+World,CHP_Coal_Lignite_CCS,2028,3308.9,,MEUR/GW,interpolated,,
+World,CHP_Coal_Lignite_CCS,2029,3308.9,,MEUR/GW,interpolated,,
+World,CHP_Coal_Lignite_CCS,2031,3308.9,,MEUR/GW,interpolated,,
+World,CHP_Coal_Lignite_CCS,2032,3308.9,,MEUR/GW,interpolated,,
+World,CHP_Coal_Lignite_CCS,2033,3308.9,,MEUR/GW,interpolated,,
+World,CHP_Coal_Lignite_CCS,2034,3308.9,,MEUR/GW,interpolated,,
+World,CHP_Coal_Lignite_CCS,2036,3308.9,,MEUR/GW,interpolated,,
+World,CHP_Coal_Lignite_CCS,2037,3308.9,,MEUR/GW,interpolated,,
+World,CHP_Coal_Lignite_CCS,2038,3308.9,,MEUR/GW,interpolated,,
+World,CHP_Coal_Lignite_CCS,2039,3308.9,,MEUR/GW,interpolated,,
+World,CHP_Gas_CCGT_Biogas,2026,994,,MEUR/GW,interpolated,,
+World,CHP_Gas_CCGT_Biogas,2027,993,,MEUR/GW,interpolated,,
+World,CHP_Gas_CCGT_Biogas,2028,992,,MEUR/GW,interpolated,,
+World,CHP_Gas_CCGT_Biogas,2029,991,,MEUR/GW,interpolated,,
+World,CHP_Gas_CCGT_Biogas,2031,989,,MEUR/GW,interpolated,,
+World,CHP_Gas_CCGT_Biogas,2032,988,,MEUR/GW,interpolated,,
+World,CHP_Gas_CCGT_Biogas,2033,987,,MEUR/GW,interpolated,,
+World,CHP_Gas_CCGT_Biogas,2034,986,,MEUR/GW,interpolated,,
+World,CHP_Gas_CCGT_Biogas,2036,984,,MEUR/GW,interpolated,,
+World,CHP_Gas_CCGT_Biogas,2037,983,,MEUR/GW,interpolated,,
+World,CHP_Gas_CCGT_Biogas,2038,982,,MEUR/GW,interpolated,,
+World,CHP_Gas_CCGT_Biogas,2039,981,,MEUR/GW,interpolated,,
+World,CHP_Gas_CCGT_Biogas_CCS,2026,1749.44,,MEUR/GW,interpolated,,
+World,CHP_Gas_CCGT_Biogas_CCS,2027,1747.68,,MEUR/GW,interpolated,,
+World,CHP_Gas_CCGT_Biogas_CCS,2028,1745.92,,MEUR/GW,interpolated,,
+World,CHP_Gas_CCGT_Biogas_CCS,2029,1744.16,,MEUR/GW,interpolated,,
+World,CHP_Gas_CCGT_Biogas_CCS,2031,1740.64,,MEUR/GW,interpolated,,
+World,CHP_Gas_CCGT_Biogas_CCS,2032,1738.88,,MEUR/GW,interpolated,,
+World,CHP_Gas_CCGT_Biogas_CCS,2033,1737.12,,MEUR/GW,interpolated,,
+World,CHP_Gas_CCGT_Biogas_CCS,2034,1735.36,,MEUR/GW,interpolated,,
+World,CHP_Gas_CCGT_Biogas_CCS,2036,1731.84,,MEUR/GW,interpolated,,
+World,CHP_Gas_CCGT_Biogas_CCS,2037,1730.08,,MEUR/GW,interpolated,,
+World,CHP_Gas_CCGT_Biogas_CCS,2038,1728.32,,MEUR/GW,interpolated,,
+World,CHP_Gas_CCGT_Biogas_CCS,2039,1726.56,,MEUR/GW,interpolated,,
+World,CHP_Gas_CCGT_Natural,2026,994,,MEUR/GW,interpolated,,
+World,CHP_Gas_CCGT_Natural,2027,993,,MEUR/GW,interpolated,,
+World,CHP_Gas_CCGT_Natural,2028,992,,MEUR/GW,interpolated,,
+World,CHP_Gas_CCGT_Natural,2029,991,,MEUR/GW,interpolated,,
+World,CHP_Gas_CCGT_Natural,2031,989,,MEUR/GW,interpolated,,
+World,CHP_Gas_CCGT_Natural,2032,988,,MEUR/GW,interpolated,,
+World,CHP_Gas_CCGT_Natural,2033,987,,MEUR/GW,interpolated,,
+World,CHP_Gas_CCGT_Natural,2034,986,,MEUR/GW,interpolated,,
+World,CHP_Gas_CCGT_Natural,2036,984,,MEUR/GW,interpolated,,
+World,CHP_Gas_CCGT_Natural,2037,983,,MEUR/GW,interpolated,,
+World,CHP_Gas_CCGT_Natural,2038,982,,MEUR/GW,interpolated,,
+World,CHP_Gas_CCGT_Natural,2039,981,,MEUR/GW,interpolated,,
+World,CHP_Gas_CCGT_Natural_CCS,2026,1749.44,,MEUR/GW,interpolated,,
+World,CHP_Gas_CCGT_Natural_CCS,2027,1747.68,,MEUR/GW,interpolated,,
+World,CHP_Gas_CCGT_Natural_CCS,2028,1745.92,,MEUR/GW,interpolated,,
+World,CHP_Gas_CCGT_Natural_CCS,2029,1744.16,,MEUR/GW,interpolated,,
+World,CHP_Gas_CCGT_Natural_CCS,2031,1740.64,,MEUR/GW,interpolated,,
+World,CHP_Gas_CCGT_Natural_CCS,2032,1738.88,,MEUR/GW,interpolated,,
+World,CHP_Gas_CCGT_Natural_CCS,2033,1737.12,,MEUR/GW,interpolated,,
+World,CHP_Gas_CCGT_Natural_CCS,2034,1735.36,,MEUR/GW,interpolated,,
+World,CHP_Gas_CCGT_Natural_CCS,2036,1731.84,,MEUR/GW,interpolated,,
+World,CHP_Gas_CCGT_Natural_CCS,2037,1730.08,,MEUR/GW,interpolated,,
+World,CHP_Gas_CCGT_Natural_CCS,2038,1728.32,,MEUR/GW,interpolated,,
+World,CHP_Gas_CCGT_Natural_CCS,2039,1726.56,,MEUR/GW,interpolated,,
+World,CHP_Gas_CCGT_SynGas,2026,994,,MEUR/GW,interpolated,,
+World,CHP_Gas_CCGT_SynGas,2027,993,,MEUR/GW,interpolated,,
+World,CHP_Gas_CCGT_SynGas,2028,992,,MEUR/GW,interpolated,,
+World,CHP_Gas_CCGT_SynGas,2029,991,,MEUR/GW,interpolated,,
+World,CHP_Gas_CCGT_SynGas,2031,989,,MEUR/GW,interpolated,,
+World,CHP_Gas_CCGT_SynGas,2032,988,,MEUR/GW,interpolated,,
+World,CHP_Gas_CCGT_SynGas,2033,987,,MEUR/GW,interpolated,,
+World,CHP_Gas_CCGT_SynGas,2034,986,,MEUR/GW,interpolated,,
+World,CHP_Gas_CCGT_SynGas,2036,984,,MEUR/GW,interpolated,,
+World,CHP_Gas_CCGT_SynGas,2037,983,,MEUR/GW,interpolated,,
+World,CHP_Gas_CCGT_SynGas,2038,982,,MEUR/GW,interpolated,,
+World,CHP_Gas_CCGT_SynGas,2039,981,,MEUR/GW,interpolated,,
+World,CHP_Hydrogen_FuelCell,2026,4920,,MEUR/GW,interpolated,,
+World,CHP_Hydrogen_FuelCell,2027,4690,,MEUR/GW,interpolated,,
+World,CHP_Hydrogen_FuelCell,2028,4460,,MEUR/GW,interpolated,,
+World,CHP_Hydrogen_FuelCell,2029,4230,,MEUR/GW,interpolated,,
+World,CHP_Hydrogen_FuelCell,2031,3855,,MEUR/GW,interpolated,,
+World,CHP_Hydrogen_FuelCell,2032,3710,,MEUR/GW,interpolated,,
+World,CHP_Hydrogen_FuelCell,2033,3565,,MEUR/GW,interpolated,,
+World,CHP_Hydrogen_FuelCell,2034,3420,,MEUR/GW,interpolated,,
+World,CHP_Hydrogen_FuelCell,2036,3130,,MEUR/GW,interpolated,,
+World,CHP_Hydrogen_FuelCell,2037,2985,,MEUR/GW,interpolated,,
+World,CHP_Hydrogen_FuelCell,2038,2840,,MEUR/GW,interpolated,,
+World,CHP_Hydrogen_FuelCell,2039,2695,,MEUR/GW,interpolated,,
+World,CHP_Oil,2026,994,,MEUR/GW,interpolated,,
+World,CHP_Oil,2027,993,,MEUR/GW,interpolated,,
+World,CHP_Oil,2028,992,,MEUR/GW,interpolated,,
+World,CHP_Oil,2029,991,,MEUR/GW,interpolated,,
+World,CHP_Oil,2031,989,,MEUR/GW,interpolated,,
+World,CHP_Oil,2032,988,,MEUR/GW,interpolated,,
+World,CHP_Oil,2033,987,,MEUR/GW,interpolated,,
+World,CHP_Oil,2034,986,,MEUR/GW,interpolated,,
+World,CHP_Oil,2036,984,,MEUR/GW,interpolated,,
+World,CHP_Oil,2037,983,,MEUR/GW,interpolated,,
+World,CHP_Oil,2038,982,,MEUR/GW,interpolated,,
+World,CHP_Oil,2039,981,,MEUR/GW,interpolated,,
+World,CHP_WasteToEnergy,2026,9223.29,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,CHP_WasteToEnergy,2027,9178.2,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,CHP_WasteToEnergy,2028,9133.1,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,CHP_WasteToEnergy,2029,9088.01,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,CHP_WasteToEnergy,2031,8986.86,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,CHP_WasteToEnergy,2032,8930.81,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,CHP_WasteToEnergy,2033,8874.75,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,CHP_WasteToEnergy,2034,8818.7,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,CHP_WasteToEnergy,2036,8706.6,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,CHP_WasteToEnergy,2037,8650.54,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,CHP_WasteToEnergy,2038,8594.49,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,CHP_WasteToEnergy,2039,8538.44,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,D_Battery_Li-Ion,2026,204,,MEUR/GW,interpolated,22.07.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_Battery_Li-Ion,2027,193,,MEUR/GW,interpolated,22.07.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_Battery_Li-Ion,2028,182,,MEUR/GW,interpolated,22.07.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_Battery_Li-Ion,2029,171,,MEUR/GW,interpolated,22.07.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_Battery_Li-Ion,2031,154,,MEUR/GW,interpolated,22.07.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_Battery_Li-Ion,2032,148,,MEUR/GW,interpolated,22.07.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_Battery_Li-Ion,2033,142,,MEUR/GW,interpolated,22.07.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_Battery_Li-Ion,2034,136,,MEUR/GW,interpolated,22.07.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_Battery_Li-Ion,2036,124,,MEUR/GW,interpolated,22.07.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_Battery_Li-Ion,2037,118,,MEUR/GW,interpolated,22.07.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_Battery_Li-Ion,2038,112,,MEUR/GW,interpolated,22.07.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_Battery_Li-Ion,2039,106,,MEUR/GW,interpolated,22.07.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_CAES,2026,964.545,,MEUR/GW,interpolated,22.07.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_CAES,2027,964.545,,MEUR/GW,interpolated,22.07.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_CAES,2028,964.545,,MEUR/GW,interpolated,22.07.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_CAES,2029,964.545,,MEUR/GW,interpolated,22.07.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_CAES,2031,964.545,,MEUR/GW,interpolated,22.07.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_CAES,2032,964.545,,MEUR/GW,interpolated,22.07.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_CAES,2033,964.545,,MEUR/GW,interpolated,22.07.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_CAES,2034,964.545,,MEUR/GW,interpolated,22.07.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_CAES,2036,964.545,,MEUR/GW,interpolated,22.07.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_CAES,2037,964.545,,MEUR/GW,interpolated,22.07.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_CAES,2038,964.545,,MEUR/GW,interpolated,22.07.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_CAES,2039,964.545,,MEUR/GW,interpolated,22.07.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_HB_Tank_Small,2026,420,,MEUR/GW,interpolated,26.11.2024,Stian Backe <stian.backe@sintef.no>
+World,D_HB_Tank_Small,2027,420,,MEUR/GW,interpolated,26.11.2024,Stian Backe <stian.backe@sintef.no>
+World,D_HB_Tank_Small,2028,420,,MEUR/GW,interpolated,26.11.2024,Stian Backe <stian.backe@sintef.no>
+World,D_HB_Tank_Small,2029,420,,MEUR/GW,interpolated,26.11.2024,Stian Backe <stian.backe@sintef.no>
+World,D_HB_Tank_Small,2031,420,,MEUR/GW,interpolated,26.11.2024,Stian Backe <stian.backe@sintef.no>
+World,D_HB_Tank_Small,2032,420,,MEUR/GW,interpolated,26.11.2024,Stian Backe <stian.backe@sintef.no>
+World,D_HB_Tank_Small,2033,420,,MEUR/GW,interpolated,26.11.2024,Stian Backe <stian.backe@sintef.no>
+World,D_HB_Tank_Small,2034,420,,MEUR/GW,interpolated,26.11.2024,Stian Backe <stian.backe@sintef.no>
+World,D_HB_Tank_Small,2036,420,,MEUR/GW,interpolated,26.11.2024,Stian Backe <stian.backe@sintef.no>
+World,D_HB_Tank_Small,2037,420,,MEUR/GW,interpolated,26.11.2024,Stian Backe <stian.backe@sintef.no>
+World,D_HB_Tank_Small,2038,420,,MEUR/GW,interpolated,26.11.2024,Stian Backe <stian.backe@sintef.no>
+World,D_HB_Tank_Small,2039,420,,MEUR/GW,interpolated,26.11.2024,Stian Backe <stian.backe@sintef.no>
+World,D_HD_Pit,2026,85.8,,MEUR/GW,interpolated,26.11.2024,Stian Backe <stian.backe@sintef.no>
+World,D_HD_Pit,2027,85.35,,MEUR/GW,interpolated,26.11.2024,Stian Backe <stian.backe@sintef.no>
+World,D_HD_Pit,2028,84.9,,MEUR/GW,interpolated,26.11.2024,Stian Backe <stian.backe@sintef.no>
+World,D_HD_Pit,2029,84.45,,MEUR/GW,interpolated,26.11.2024,Stian Backe <stian.backe@sintef.no>
+World,D_HD_Pit,2031,83.7,,MEUR/GW,interpolated,26.11.2024,Stian Backe <stian.backe@sintef.no>
+World,D_HD_Pit,2032,83.4,,MEUR/GW,interpolated,26.11.2024,Stian Backe <stian.backe@sintef.no>
+World,D_HD_Pit,2033,83.1,,MEUR/GW,interpolated,26.11.2024,Stian Backe <stian.backe@sintef.no>
+World,D_HD_Pit,2034,82.8,,MEUR/GW,interpolated,26.11.2024,Stian Backe <stian.backe@sintef.no>
+World,D_HD_Pit,2036,82.2,,MEUR/GW,interpolated,26.11.2024,Stian Backe <stian.backe@sintef.no>
+World,D_HD_Pit,2037,81.9,,MEUR/GW,interpolated,26.11.2024,Stian Backe <stian.backe@sintef.no>
+World,D_HD_Pit,2038,81.6,,MEUR/GW,interpolated,26.11.2024,Stian Backe <stian.backe@sintef.no>
+World,D_HD_Pit,2039,81.3,,MEUR/GW,interpolated,26.11.2024,Stian Backe <stian.backe@sintef.no>
+World,D_HLI_Tank_Large,2026,181,,MEUR/GW,interpolated,26.11.2024,Stian Backe <stian.backe@sintef.no>
+World,D_HLI_Tank_Large,2027,181,,MEUR/GW,interpolated,26.11.2024,Stian Backe <stian.backe@sintef.no>
+World,D_HLI_Tank_Large,2028,181,,MEUR/GW,interpolated,26.11.2024,Stian Backe <stian.backe@sintef.no>
+World,D_HLI_Tank_Large,2029,181,,MEUR/GW,interpolated,26.11.2024,Stian Backe <stian.backe@sintef.no>
+World,D_HLI_Tank_Large,2031,181,,MEUR/GW,interpolated,26.11.2024,Stian Backe <stian.backe@sintef.no>
+World,D_HLI_Tank_Large,2032,181,,MEUR/GW,interpolated,26.11.2024,Stian Backe <stian.backe@sintef.no>
+World,D_HLI_Tank_Large,2033,181,,MEUR/GW,interpolated,26.11.2024,Stian Backe <stian.backe@sintef.no>
+World,D_HLI_Tank_Large,2034,181,,MEUR/GW,interpolated,26.11.2024,Stian Backe <stian.backe@sintef.no>
+World,D_HLI_Tank_Large,2036,181,,MEUR/GW,interpolated,26.11.2024,Stian Backe <stian.backe@sintef.no>
+World,D_HLI_Tank_Large,2037,181,,MEUR/GW,interpolated,26.11.2024,Stian Backe <stian.backe@sintef.no>
+World,D_HLI_Tank_Large,2038,181,,MEUR/GW,interpolated,26.11.2024,Stian Backe <stian.backe@sintef.no>
+World,D_HLI_Tank_Large,2039,181,,MEUR/GW,interpolated,26.11.2024,Stian Backe <stian.backe@sintef.no>
+World,D_PHS,2026,1424.25,,MEUR/GW,interpolated,22.07.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_PHS,2027,1424.25,,MEUR/GW,interpolated,22.07.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_PHS,2028,1424.25,,MEUR/GW,interpolated,22.07.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_PHS,2029,1424.25,,MEUR/GW,interpolated,22.07.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_PHS,2031,1424.25,,MEUR/GW,interpolated,22.07.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_PHS,2032,1424.25,,MEUR/GW,interpolated,22.07.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_PHS,2033,1424.25,,MEUR/GW,interpolated,22.07.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_PHS,2034,1424.25,,MEUR/GW,interpolated,22.07.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_PHS,2036,1424.25,,MEUR/GW,interpolated,22.07.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_PHS,2037,1424.25,,MEUR/GW,interpolated,22.07.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_PHS,2038,1424.25,,MEUR/GW,interpolated,22.07.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_PHS,2039,1424.25,,MEUR/GW,interpolated,22.07.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,FRT_Rail_Conv,2026,353.739,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Rail_Conv,2027,349.641,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Rail_Conv,2028,345.542,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Rail_Conv,2029,341.443,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Rail_Conv,2031,337.345,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Rail_Conv,2032,337.345,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Rail_Conv,2033,337.345,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Rail_Conv,2034,337.345,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Rail_Conv,2036,337.345,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Rail_Conv,2037,337.345,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Rail_Conv,2038,337.345,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Rail_Conv,2039,337.345,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Rail_Electric,2026,433.189,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Rail_Electric,2027,429.721,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Rail_Electric,2028,426.253,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Rail_Electric,2029,422.785,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Rail_Electric,2031,419.317,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Rail_Electric,2032,419.317,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Rail_Electric,2033,419.317,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Rail_Electric,2034,419.317,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Rail_Electric,2036,419.317,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Rail_Electric,2037,419.317,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Rail_Electric,2038,419.317,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Rail_Electric,2039,419.317,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_BEV,2026,602.96,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_BEV,2027,590.711,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_BEV,2028,578.462,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_BEV,2029,566.212,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_BEV,2031,553.963,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_BEV,2032,553.963,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_BEV,2033,553.963,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_BEV,2034,553.963,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_BEV,2036,529.464,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_BEV,2037,504.965,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_BEV,2038,480.466,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_BEV,2039,455.967,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_H2,2026,444.952,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_H2,2027,438.12,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_H2,2028,431.289,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_H2,2029,424.457,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_H2,2031,417.625,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_H2,2032,417.625,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_H2,2033,417.625,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_H2,2034,417.625,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_H2,2036,403.962,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_H2,2037,390.299,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_H2,2038,376.635,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_H2,2039,362.972,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_ICE,2026,393.078,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_ICE,2027,392.772,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_ICE,2028,392.467,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_ICE,2029,392.161,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_ICE,2031,388.217,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_ICE,2032,384.58,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_ICE,2033,380.942,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_ICE,2034,377.305,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_ICE,2036,373.591,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_ICE,2037,373.514,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_ICE,2038,373.438,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_ICE,2039,373.361,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_LNG,2026,499.439,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_LNG,2027,495.572,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_LNG,2028,491.705,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_LNG,2029,487.839,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_LNG,2031,483.896,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_LNG,2032,483.819,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_LNG,2033,483.743,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_LNG,2034,483.667,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_LNG,2036,483.515,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_LNG,2037,483.439,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_LNG,2038,483.363,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_LNG,2039,483.287,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_OH,2026,586.74,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_OH,2027,586.74,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_OH,2028,586.74,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_OH,2029,586.74,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_OH,2031,585.363,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_OH,2032,583.987,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_OH,2033,582.61,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_OH,2034,581.233,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_OH,2036,578.48,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_OH,2037,577.103,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_OH,2038,575.727,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_OH,2039,574.35,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_PHEV,2026,419.284,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_PHEV,2027,415.719,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_PHEV,2028,412.154,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_PHEV,2029,408.588,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_PHEV,2031,404.532,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_PHEV,2032,404.042,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_PHEV,2033,403.551,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_PHEV,2034,403.061,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_PHEV,2036,402.079,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_PHEV,2037,401.589,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_PHEV,2038,401.098,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Road_PHEV,2039,400.607,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Ship_Bio,2026,14.9593,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Ship_Bio,2027,14.9461,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Ship_Bio,2028,14.933,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Ship_Bio,2029,14.9199,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Ship_Bio,2031,14.9002,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Ship_Bio,2032,14.8936,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Ship_Bio,2033,14.887,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Ship_Bio,2034,14.8805,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Ship_Bio,2036,14.8673,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Ship_Bio,2037,14.8608,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Ship_Bio,2038,14.8542,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Ship_Bio,2039,14.8476,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Ship_Conv,2026,14.9593,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Ship_Conv,2027,14.9461,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Ship_Conv,2028,14.933,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Ship_Conv,2029,14.9199,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Ship_Conv,2031,14.9002,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Ship_Conv,2032,14.8936,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Ship_Conv,2033,14.887,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Ship_Conv,2034,14.8805,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Ship_Conv,2036,14.8673,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Ship_Conv,2037,14.8608,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Ship_Conv,2038,14.8542,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Ship_Conv,2039,14.8476,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Ship_LNG,2026,16.601,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Ship_LNG,2027,16.5879,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Ship_LNG,2028,16.5747,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Ship_LNG,2029,16.5616,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Ship_LNG,2031,16.5419,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Ship_LNG,2032,16.5353,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Ship_LNG,2033,16.5288,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Ship_LNG,2034,16.5222,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Ship_LNG,2036,16.5091,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Ship_LNG,2037,16.5025,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Ship_LNG,2038,16.4959,,MEUR/Gtkm/year,interpolated,,
+World,FRT_Ship_LNG,2039,16.4894,,MEUR/Gtkm/year,interpolated,,
+World,HB_Biomass,2026,394.125,,MEUR/GW,interpolated,,
+World,HB_Biomass,2027,392.219,,MEUR/GW,interpolated,,
+World,HB_Biomass,2028,390.312,,MEUR/GW,interpolated,,
+World,HB_Biomass,2029,388.406,,MEUR/GW,interpolated,,
+World,HB_Biomass,2031,384.591,,MEUR/GW,interpolated,,
+World,HB_Biomass,2032,382.681,,MEUR/GW,interpolated,,
+World,HB_Biomass,2033,380.772,,MEUR/GW,interpolated,,
+World,HB_Biomass,2034,378.863,,MEUR/GW,interpolated,,
+World,HB_Biomass,2036,375.044,,MEUR/GW,interpolated,,
+World,HB_Biomass,2037,373.134,,MEUR/GW,interpolated,,
+World,HB_Biomass,2038,371.225,,MEUR/GW,interpolated,,
+World,HB_Biomass,2039,369.316,,MEUR/GW,interpolated,,
+World,X_Convert_HD,2026,1,,MEUR/GW,interpolated,,
+World,X_Convert_HD,2027,1,,MEUR/GW,interpolated,,
+World,X_Convert_HD,2028,1,,MEUR/GW,interpolated,,
+World,X_Convert_HD,2029,1,,MEUR/GW,interpolated,,
+World,X_Convert_HD,2031,1,,MEUR/GW,interpolated,,
+World,X_Convert_HD,2032,1,,MEUR/GW,interpolated,,
+World,X_Convert_HD,2033,1,,MEUR/GW,interpolated,,
+World,X_Convert_HD,2034,1,,MEUR/GW,interpolated,,
+World,X_Convert_HD,2036,1,,MEUR/GW,interpolated,,
+World,X_Convert_HD,2037,1,,MEUR/GW,interpolated,,
+World,X_Convert_HD,2038,1,,MEUR/GW,interpolated,,
+World,X_Convert_HD,2039,1,,MEUR/GW,interpolated,,
+World,HB_Direct_Electric,2026,665.406,,MEUR/GW,interpolated,31.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HB_Direct_Electric,2027,662.095,,MEUR/GW,interpolated,31.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HB_Direct_Electric,2028,658.785,,MEUR/GW,interpolated,31.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HB_Direct_Electric,2029,655.475,,MEUR/GW,interpolated,31.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HB_Direct_Electric,2031,652.164,,MEUR/GW,interpolated,31.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HB_Direct_Electric,2032,652.164,,MEUR/GW,interpolated,31.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HB_Direct_Electric,2033,652.164,,MEUR/GW,interpolated,31.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HB_Direct_Electric,2034,652.164,,MEUR/GW,interpolated,31.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HB_Direct_Electric,2036,645.787,,MEUR/GW,interpolated,31.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HB_Direct_Electric,2037,639.411,,MEUR/GW,interpolated,31.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HB_Direct_Electric,2038,633.034,,MEUR/GW,interpolated,31.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HB_Direct_Electric,2039,626.657,,MEUR/GW,interpolated,31.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HB_Gas_Boiler,2026,186.184,,MEUR/GW,interpolated,,
+World,HB_Gas_Boiler,2027,185.466,,MEUR/GW,interpolated,,
+World,HB_Gas_Boiler,2028,184.748,,MEUR/GW,interpolated,,
+World,HB_Gas_Boiler,2029,184.03,,MEUR/GW,interpolated,,
+World,HB_Gas_Boiler,2031,182.445,,MEUR/GW,interpolated,,
+World,HB_Gas_Boiler,2032,181.577,,MEUR/GW,interpolated,,
+World,HB_Gas_Boiler,2033,180.709,,MEUR/GW,interpolated,,
+World,HB_Gas_Boiler,2034,179.841,,MEUR/GW,interpolated,,
+World,HB_Gas_Boiler,2036,178.105,,MEUR/GW,interpolated,,
+World,HB_Gas_Boiler,2037,177.238,,MEUR/GW,interpolated,,
+World,HB_Gas_Boiler,2038,176.37,,MEUR/GW,interpolated,,
+World,HB_Gas_Boiler,2039,175.502,,MEUR/GW,interpolated,,
+World,HB_Geothermal,2026,2788,,MEUR/GW,interpolated,,
+World,HB_Geothermal,2027,2756,,MEUR/GW,interpolated,,
+World,HB_Geothermal,2028,2724,,MEUR/GW,interpolated,,
+World,HB_Geothermal,2029,2692,,MEUR/GW,interpolated,,
+World,HB_Geothermal,2031,2653,,MEUR/GW,interpolated,,
+World,HB_Geothermal,2032,2646,,MEUR/GW,interpolated,,
+World,HB_Geothermal,2033,2639,,MEUR/GW,interpolated,,
+World,HB_Geothermal,2034,2632,,MEUR/GW,interpolated,,
+World,HB_Geothermal,2036,2618,,MEUR/GW,interpolated,,
+World,HB_Geothermal,2037,2611,,MEUR/GW,interpolated,,
+World,HB_Geothermal,2038,2604,,MEUR/GW,interpolated,,
+World,HB_Geothermal,2039,2597,,MEUR/GW,interpolated,,
+World,HB_H2_Boiler,2026,217.835,,MEUR/GW,interpolated,,
+World,HB_H2_Boiler,2027,216.995,,MEUR/GW,interpolated,,
+World,HB_H2_Boiler,2028,216.155,,MEUR/GW,interpolated,,
+World,HB_H2_Boiler,2029,215.316,,MEUR/GW,interpolated,,
+World,HB_H2_Boiler,2031,213.46,,MEUR/GW,interpolated,,
+World,HB_H2_Boiler,2032,212.445,,MEUR/GW,interpolated,,
+World,HB_H2_Boiler,2033,211.429,,MEUR/GW,interpolated,,
+World,HB_H2_Boiler,2034,210.414,,MEUR/GW,interpolated,,
+World,HB_H2_Boiler,2036,208.383,,MEUR/GW,interpolated,,
+World,HB_H2_Boiler,2037,207.368,,MEUR/GW,interpolated,,
+World,HB_H2_Boiler,2038,206.352,,MEUR/GW,interpolated,,
+World,HB_H2_Boiler,2039,205.337,,MEUR/GW,interpolated,,
+World,HB_Hardcoal,2026,383.523,,MEUR/GW,interpolated,,
+World,HB_Hardcoal,2027,388.925,,MEUR/GW,interpolated,,
+World,HB_Hardcoal,2028,394.327,,MEUR/GW,interpolated,,
+World,HB_Hardcoal,2029,399.728,,MEUR/GW,interpolated,,
+World,HB_Hardcoal,2031,405.13,,MEUR/GW,interpolated,,
+World,HB_Hardcoal,2032,405.13,,MEUR/GW,interpolated,,
+World,HB_Hardcoal,2033,405.13,,MEUR/GW,interpolated,,
+World,HB_Hardcoal,2034,405.13,,MEUR/GW,interpolated,,
+World,HB_Hardcoal,2036,405.13,,MEUR/GW,interpolated,,
+World,HB_Hardcoal,2037,405.13,,MEUR/GW,interpolated,,
+World,HB_Hardcoal,2038,405.13,,MEUR/GW,interpolated,,
+World,HB_Hardcoal,2039,405.13,,MEUR/GW,interpolated,,
+World,HB_Heatpump_Aerial,2026,253.564,,MEUR/GW,interpolated,31.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HB_Heatpump_Aerial,2027,252.288,,MEUR/GW,interpolated,31.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HB_Heatpump_Aerial,2028,251.012,,MEUR/GW,interpolated,31.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HB_Heatpump_Aerial,2029,249.736,,MEUR/GW,interpolated,31.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HB_Heatpump_Aerial,2031,248.46,,MEUR/GW,interpolated,31.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HB_Heatpump_Aerial,2032,248.46,,MEUR/GW,interpolated,31.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HB_Heatpump_Aerial,2033,248.46,,MEUR/GW,interpolated,31.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HB_Heatpump_Aerial,2034,248.46,,MEUR/GW,interpolated,31.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HB_Heatpump_Aerial,2036,246.09,,MEUR/GW,interpolated,31.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HB_Heatpump_Aerial,2037,243.72,,MEUR/GW,interpolated,31.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HB_Heatpump_Aerial,2038,241.35,,MEUR/GW,interpolated,31.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HB_Heatpump_Aerial,2039,238.98,,MEUR/GW,interpolated,31.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HB_Heatpump_Ground,2026,665.706,,MEUR/GW,interpolated,31.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HB_Heatpump_Ground,2027,654.732,,MEUR/GW,interpolated,31.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HB_Heatpump_Ground,2028,643.758,,MEUR/GW,interpolated,31.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HB_Heatpump_Ground,2029,632.784,,MEUR/GW,interpolated,31.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HB_Heatpump_Ground,2031,621.81,,MEUR/GW,interpolated,31.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HB_Heatpump_Ground,2032,621.81,,MEUR/GW,interpolated,31.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HB_Heatpump_Ground,2033,621.81,,MEUR/GW,interpolated,31.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HB_Heatpump_Ground,2034,621.81,,MEUR/GW,interpolated,31.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HB_Heatpump_Ground,2036,612.484,,MEUR/GW,interpolated,31.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HB_Heatpump_Ground,2037,603.158,,MEUR/GW,interpolated,31.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HB_Heatpump_Ground,2038,593.832,,MEUR/GW,interpolated,31.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HB_Heatpump_Ground,2039,584.506,,MEUR/GW,interpolated,31.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HB_Lignite,2026,457.613,,MEUR/GW,interpolated,,
+World,HB_Lignite,2027,464.058,,MEUR/GW,interpolated,,
+World,HB_Lignite,2028,470.503,,MEUR/GW,interpolated,,
+World,HB_Lignite,2029,476.949,,MEUR/GW,interpolated,,
+World,HB_Lignite,2031,483.394,,MEUR/GW,interpolated,,
+World,HB_Lignite,2032,483.394,,MEUR/GW,interpolated,,
+World,HB_Lignite,2033,483.394,,MEUR/GW,interpolated,,
+World,HB_Lignite,2034,483.394,,MEUR/GW,interpolated,,
+World,HB_Lignite,2036,483.394,,MEUR/GW,interpolated,,
+World,HB_Lignite,2037,483.394,,MEUR/GW,interpolated,,
+World,HB_Lignite,2038,483.394,,MEUR/GW,interpolated,,
+World,HB_Lignite,2039,483.394,,MEUR/GW,interpolated,,
+World,HB_Oil_Boiler,2026,212.088,,MEUR/GW,interpolated,,
+World,HB_Oil_Boiler,2027,211.488,,MEUR/GW,interpolated,,
+World,HB_Oil_Boiler,2028,210.887,,MEUR/GW,interpolated,,
+World,HB_Oil_Boiler,2029,210.287,,MEUR/GW,interpolated,,
+World,HB_Oil_Boiler,2031,208.688,,MEUR/GW,interpolated,,
+World,HB_Oil_Boiler,2032,207.688,,MEUR/GW,interpolated,,
+World,HB_Oil_Boiler,2033,206.688,,MEUR/GW,interpolated,,
+World,HB_Oil_Boiler,2034,205.688,,MEUR/GW,interpolated,,
+World,HB_Oil_Boiler,2036,203.688,,MEUR/GW,interpolated,,
+World,HB_Oil_Boiler,2037,202.688,,MEUR/GW,interpolated,,
+World,HB_Oil_Boiler,2038,201.688,,MEUR/GW,interpolated,,
+World,HB_Oil_Boiler,2039,200.688,,MEUR/GW,interpolated,,
+World,HB_Solar_Thermal,2026,645.714,,MEUR/GW,interpolated,,
+World,HB_Solar_Thermal,2027,640.238,,MEUR/GW,interpolated,,
+World,HB_Solar_Thermal,2028,634.762,,MEUR/GW,interpolated,,
+World,HB_Solar_Thermal,2029,629.286,,MEUR/GW,interpolated,,
+World,HB_Solar_Thermal,2031,620.833,,MEUR/GW,interpolated,,
+World,HB_Solar_Thermal,2032,617.857,,MEUR/GW,interpolated,,
+World,HB_Solar_Thermal,2033,614.881,,MEUR/GW,interpolated,,
+World,HB_Solar_Thermal,2034,611.905,,MEUR/GW,interpolated,,
+World,HB_Solar_Thermal,2036,605.952,,MEUR/GW,interpolated,,
+World,HB_Solar_Thermal,2037,602.976,,MEUR/GW,interpolated,,
+World,HB_Solar_Thermal,2038,600,,MEUR/GW,interpolated,,
+World,HB_Solar_Thermal,2039,597.024,,MEUR/GW,interpolated,,
+World,HD_Electric_Boiler,2026,109,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HD_Electric_Boiler,2027,108,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HD_Electric_Boiler,2028,107,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HD_Electric_Boiler,2029,106,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HD_Electric_Boiler,2031,104.75,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HD_Electric_Boiler,2032,104.5,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HD_Electric_Boiler,2033,104.25,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HD_Electric_Boiler,2034,104,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HD_Electric_Boiler,2036,103.5,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HD_Electric_Boiler,2037,103.25,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HD_Electric_Boiler,2038,103,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HD_Electric_Boiler,2039,102.75,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HD_Geothermal,2026,2552.8,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HD_Geothermal,2027,2529.6,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HD_Geothermal,2028,2506.4,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HD_Geothermal,2029,2483.2,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HD_Geothermal,2031,2453.2,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HD_Geothermal,2032,2446.4,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HD_Geothermal,2033,2439.6,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HD_Geothermal,2034,2432.8,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HD_Geothermal,2036,2419.2,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HD_Geothermal,2037,2412.4,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HD_Geothermal,2038,2405.6,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HD_Geothermal,2039,2398.8,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HD_Heatpump_Air,2026,890,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HD_Heatpump_Air,2027,870,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HD_Heatpump_Air,2028,850,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HD_Heatpump_Air,2029,830,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HD_Heatpump_Air,2031,810,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HD_Heatpump_Air,2032,810,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HD_Heatpump_Air,2033,810,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HD_Heatpump_Air,2034,810,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HD_Heatpump_Air,2036,810,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HD_Heatpump_Air,2037,810,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HD_Heatpump_Air,2038,810,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HD_Heatpump_Air,2039,810,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HD_Heatpump_ExcessHeat,2026,690,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HD_Heatpump_ExcessHeat,2027,670,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HD_Heatpump_ExcessHeat,2028,650,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HD_Heatpump_ExcessHeat,2029,630,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HD_Heatpump_ExcessHeat,2031,610,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HD_Heatpump_ExcessHeat,2032,610,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HD_Heatpump_ExcessHeat,2033,610,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HD_Heatpump_ExcessHeat,2034,610,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HD_Heatpump_ExcessHeat,2036,610,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HD_Heatpump_ExcessHeat,2037,610,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HD_Heatpump_ExcessHeat,2038,610,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HD_Heatpump_ExcessHeat,2039,610,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HD_Solar_Thermal,2026,323.266,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HD_Solar_Thermal,2027,322.202,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HD_Solar_Thermal,2028,321.138,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HD_Solar_Thermal,2029,320.074,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HD_Solar_Thermal,2031,317.947,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HD_Solar_Thermal,2032,316.884,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HD_Solar_Thermal,2033,315.821,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HD_Solar_Thermal,2034,314.758,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HD_Solar_Thermal,2036,312.632,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HD_Solar_Thermal,2037,311.568,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HD_Solar_Thermal,2038,310.505,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HD_Solar_Thermal,2039,309.441,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HHI_BF_BOF,2026,442,,MEUR/GW,interpolated,,
+World,HHI_BF_BOF,2027,442,,MEUR/GW,interpolated,,
+World,HHI_BF_BOF,2028,442,,MEUR/GW,interpolated,,
+World,HHI_BF_BOF,2029,442,,MEUR/GW,interpolated,,
+World,HHI_BF_BOF,2031,442,,MEUR/GW,interpolated,,
+World,HHI_BF_BOF,2032,442,,MEUR/GW,interpolated,,
+World,HHI_BF_BOF,2033,442,,MEUR/GW,interpolated,,
+World,HHI_BF_BOF,2034,442,,MEUR/GW,interpolated,,
+World,HHI_BF_BOF,2036,442,,MEUR/GW,interpolated,,
+World,HHI_BF_BOF,2037,442,,MEUR/GW,interpolated,,
+World,HHI_BF_BOF,2038,442,,MEUR/GW,interpolated,,
+World,HHI_BF_BOF,2039,442,,MEUR/GW,interpolated,,
+World,HLI_Biomass,2026,601.818,,MEUR/GW,interpolated,,
+World,HLI_Biomass,2027,599.091,,MEUR/GW,interpolated,,
+World,HLI_Biomass,2028,596.364,,MEUR/GW,interpolated,,
+World,HLI_Biomass,2029,593.636,,MEUR/GW,interpolated,,
+World,HLI_Biomass,2031,588.182,,MEUR/GW,interpolated,,
+World,HLI_Biomass,2032,585.455,,MEUR/GW,interpolated,,
+World,HLI_Biomass,2033,582.727,,MEUR/GW,interpolated,,
+World,HLI_Biomass,2034,580,,MEUR/GW,interpolated,,
+World,HLI_Biomass,2036,574.545,,MEUR/GW,interpolated,,
+World,HLI_Biomass,2037,571.818,,MEUR/GW,interpolated,,
+World,HLI_Biomass,2038,569.091,,MEUR/GW,interpolated,,
+World,HLI_Biomass,2039,566.364,,MEUR/GW,interpolated,,
+World,HLI_Direct_Electric,2026,76.4444,,MEUR/GW,interpolated,,
+World,HLI_Direct_Electric,2027,75.25,,MEUR/GW,interpolated,,
+World,HLI_Direct_Electric,2028,74.0556,,MEUR/GW,interpolated,,
+World,HLI_Direct_Electric,2029,72.8611,,MEUR/GW,interpolated,,
+World,HLI_Direct_Electric,2031,71.6667,,MEUR/GW,interpolated,,
+World,HLI_Direct_Electric,2032,71.6667,,MEUR/GW,interpolated,,
+World,HLI_Direct_Electric,2033,71.6667,,MEUR/GW,interpolated,,
+World,HLI_Direct_Electric,2034,71.6667,,MEUR/GW,interpolated,,
+World,HLI_Direct_Electric,2036,71.6667,,MEUR/GW,interpolated,,
+World,HLI_Direct_Electric,2037,71.6667,,MEUR/GW,interpolated,,
+World,HLI_Direct_Electric,2038,71.6667,,MEUR/GW,interpolated,,
+World,HLI_Direct_Electric,2039,71.6667,,MEUR/GW,interpolated,,
+World,HLI_Gas_Boiler,2026,39.2727,,MEUR/GW,interpolated,,
+World,HLI_Gas_Boiler,2027,38.5455,,MEUR/GW,interpolated,,
+World,HLI_Gas_Boiler,2028,37.8182,,MEUR/GW,interpolated,,
+World,HLI_Gas_Boiler,2029,37.0909,,MEUR/GW,interpolated,,
+World,HLI_Gas_Boiler,2031,36.3636,,MEUR/GW,interpolated,,
+World,HLI_Gas_Boiler,2032,36.3636,,MEUR/GW,interpolated,,
+World,HLI_Gas_Boiler,2033,36.3636,,MEUR/GW,interpolated,,
+World,HLI_Gas_Boiler,2034,36.3636,,MEUR/GW,interpolated,,
+World,HLI_Gas_Boiler,2036,36.3636,,MEUR/GW,interpolated,,
+World,HLI_Gas_Boiler,2037,36.3636,,MEUR/GW,interpolated,,
+World,HLI_Gas_Boiler,2038,36.3636,,MEUR/GW,interpolated,,
+World,HLI_Gas_Boiler,2039,36.3636,,MEUR/GW,interpolated,,
+World,HLI_Geothermal,2026,2788,,MEUR/GW,interpolated,,
+World,HLI_Geothermal,2027,2756,,MEUR/GW,interpolated,,
+World,HLI_Geothermal,2028,2724,,MEUR/GW,interpolated,,
+World,HLI_Geothermal,2029,2692,,MEUR/GW,interpolated,,
+World,HLI_Geothermal,2031,2653,,MEUR/GW,interpolated,,
+World,HLI_Geothermal,2032,2646,,MEUR/GW,interpolated,,
+World,HLI_Geothermal,2033,2639,,MEUR/GW,interpolated,,
+World,HLI_Geothermal,2034,2632,,MEUR/GW,interpolated,,
+World,HLI_Geothermal,2036,2618,,MEUR/GW,interpolated,,
+World,HLI_Geothermal,2037,2611,,MEUR/GW,interpolated,,
+World,HLI_Geothermal,2038,2604,,MEUR/GW,interpolated,,
+World,HLI_Geothermal,2039,2597,,MEUR/GW,interpolated,,
+World,HLI_H2_Boiler,2026,51.0545,,MEUR/GW,interpolated,,
+World,HLI_H2_Boiler,2027,50.1091,,MEUR/GW,interpolated,,
+World,HLI_H2_Boiler,2028,49.1636,,MEUR/GW,interpolated,,
+World,HLI_H2_Boiler,2029,48.2182,,MEUR/GW,interpolated,,
+World,HLI_H2_Boiler,2031,47.2727,,MEUR/GW,interpolated,,
+World,HLI_H2_Boiler,2032,47.2727,,MEUR/GW,interpolated,,
+World,HLI_H2_Boiler,2033,47.2727,,MEUR/GW,interpolated,,
+World,HLI_H2_Boiler,2034,47.2727,,MEUR/GW,interpolated,,
+World,HLI_H2_Boiler,2036,47.2727,,MEUR/GW,interpolated,,
+World,HLI_H2_Boiler,2037,47.2727,,MEUR/GW,interpolated,,
+World,HLI_H2_Boiler,2038,47.2727,,MEUR/GW,interpolated,,
+World,HLI_H2_Boiler,2039,47.2727,,MEUR/GW,interpolated,,
+World,HLI_Hardcoal,2026,500,,MEUR/GW,interpolated,,
+World,HLI_Hardcoal,2027,500,,MEUR/GW,interpolated,,
+World,HLI_Hardcoal,2028,500,,MEUR/GW,interpolated,,
+World,HLI_Hardcoal,2029,500,,MEUR/GW,interpolated,,
+World,HLI_Hardcoal,2031,500,,MEUR/GW,interpolated,,
+World,HLI_Hardcoal,2032,500,,MEUR/GW,interpolated,,
+World,HLI_Hardcoal,2033,500,,MEUR/GW,interpolated,,
+World,HLI_Hardcoal,2034,500,,MEUR/GW,interpolated,,
+World,HLI_Hardcoal,2036,500,,MEUR/GW,interpolated,,
+World,HLI_Hardcoal,2037,500,,MEUR/GW,interpolated,,
+World,HLI_Hardcoal,2038,500,,MEUR/GW,interpolated,,
+World,HLI_Hardcoal,2039,500,,MEUR/GW,interpolated,,
+World,HLI_Heatpump,2026,682,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HLI_Heatpump,2027,674,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HLI_Heatpump,2028,666,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HLI_Heatpump,2029,658,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HLI_Heatpump,2031,645,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HLI_Heatpump,2032,640,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HLI_Heatpump,2033,635,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HLI_Heatpump,2034,630,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HLI_Heatpump,2036,620,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HLI_Heatpump,2037,615,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HLI_Heatpump,2038,610,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HLI_Heatpump,2039,605,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HLI_Lignite,2026,595,,MEUR/GW,interpolated,,
+World,HLI_Lignite,2027,595,,MEUR/GW,interpolated,,
+World,HLI_Lignite,2028,595,,MEUR/GW,interpolated,,
+World,HLI_Lignite,2029,595,,MEUR/GW,interpolated,,
+World,HLI_Lignite,2031,595,,MEUR/GW,interpolated,,
+World,HLI_Lignite,2032,595,,MEUR/GW,interpolated,,
+World,HLI_Lignite,2033,595,,MEUR/GW,interpolated,,
+World,HLI_Lignite,2034,595,,MEUR/GW,interpolated,,
+World,HLI_Lignite,2036,595,,MEUR/GW,interpolated,,
+World,HLI_Lignite,2037,595,,MEUR/GW,interpolated,,
+World,HLI_Lignite,2038,595,,MEUR/GW,interpolated,,
+World,HLI_Lignite,2039,595,,MEUR/GW,interpolated,,
+World,HLI_Oil_Boiler,2026,49.9458,,MEUR/GW,interpolated,,
+World,HLI_Oil_Boiler,2027,49.1035,,MEUR/GW,interpolated,,
+World,HLI_Oil_Boiler,2028,48.2611,,MEUR/GW,interpolated,,
+World,HLI_Oil_Boiler,2029,47.4187,,MEUR/GW,interpolated,,
+World,HLI_Oil_Boiler,2031,46.3787,,MEUR/GW,interpolated,,
+World,HLI_Oil_Boiler,2032,46.1811,,MEUR/GW,interpolated,,
+World,HLI_Oil_Boiler,2033,45.9835,,MEUR/GW,interpolated,,
+World,HLI_Oil_Boiler,2034,45.7858,,MEUR/GW,interpolated,,
+World,HLI_Oil_Boiler,2036,45.3906,,MEUR/GW,interpolated,,
+World,HLI_Oil_Boiler,2037,45.1929,,MEUR/GW,interpolated,,
+World,HLI_Oil_Boiler,2038,44.9953,,MEUR/GW,interpolated,,
+World,HLI_Oil_Boiler,2039,44.7976,,MEUR/GW,interpolated,,
+World,HLI_Solar_Thermal,2026,645.714,,MEUR/GW,interpolated,,
+World,HLI_Solar_Thermal,2027,640.238,,MEUR/GW,interpolated,,
+World,HLI_Solar_Thermal,2028,634.762,,MEUR/GW,interpolated,,
+World,HLI_Solar_Thermal,2029,629.286,,MEUR/GW,interpolated,,
+World,HLI_Solar_Thermal,2031,620.833,,MEUR/GW,interpolated,,
+World,HLI_Solar_Thermal,2032,617.857,,MEUR/GW,interpolated,,
+World,HLI_Solar_Thermal,2033,614.881,,MEUR/GW,interpolated,,
+World,HLI_Solar_Thermal,2034,611.905,,MEUR/GW,interpolated,,
+World,HLI_Solar_Thermal,2036,605.952,,MEUR/GW,interpolated,,
+World,HLI_Solar_Thermal,2037,602.976,,MEUR/GW,interpolated,,
+World,HLI_Solar_Thermal,2038,600,,MEUR/GW,interpolated,,
+World,HLI_Solar_Thermal,2039,597.024,,MEUR/GW,interpolated,,
+World,HMHI_Biomass,2026,601.822,,MEUR/GW,interpolated,,
+World,HMHI_Biomass,2027,599.094,,MEUR/GW,interpolated,,
+World,HMHI_Biomass,2028,596.366,,MEUR/GW,interpolated,,
+World,HMHI_Biomass,2029,593.638,,MEUR/GW,interpolated,,
+World,HMHI_Biomass,2031,588.182,,MEUR/GW,interpolated,,
+World,HMHI_Biomass,2032,585.454,,MEUR/GW,interpolated,,
+World,HMHI_Biomass,2033,582.726,,MEUR/GW,interpolated,,
+World,HMHI_Biomass,2034,579.998,,MEUR/GW,interpolated,,
+World,HMHI_Biomass,2036,574.544,,MEUR/GW,interpolated,,
+World,HMHI_Biomass,2037,571.818,,MEUR/GW,interpolated,,
+World,HMHI_Biomass,2038,569.092,,MEUR/GW,interpolated,,
+World,HMHI_Biomass,2039,566.366,,MEUR/GW,interpolated,,
+World,HMHI_Gas,2026,49.09,,MEUR/GW,interpolated,,
+World,HMHI_Gas,2027,48.18,,MEUR/GW,interpolated,,
+World,HMHI_Gas,2028,47.27,,MEUR/GW,interpolated,,
+World,HMHI_Gas,2029,46.36,,MEUR/GW,interpolated,,
+World,HMHI_Gas,2031,45.45,,MEUR/GW,interpolated,,
+World,HMHI_Gas,2032,45.45,,MEUR/GW,interpolated,,
+World,HMHI_Gas,2033,45.45,,MEUR/GW,interpolated,,
+World,HMHI_Gas,2034,45.45,,MEUR/GW,interpolated,,
+World,HMHI_Gas,2036,45.45,,MEUR/GW,interpolated,,
+World,HMHI_Gas,2037,45.45,,MEUR/GW,interpolated,,
+World,HMHI_Gas,2038,45.45,,MEUR/GW,interpolated,,
+World,HMHI_Gas,2039,45.45,,MEUR/GW,interpolated,,
+World,HMHI_Gas_CCS,2026,86.4,,MEUR/GW,interpolated,,
+World,HMHI_Gas_CCS,2027,84.8,,MEUR/GW,interpolated,,
+World,HMHI_Gas_CCS,2028,83.2,,MEUR/GW,interpolated,,
+World,HMHI_Gas_CCS,2029,81.6,,MEUR/GW,interpolated,,
+World,HMHI_Gas_CCS,2031,80,,MEUR/GW,interpolated,,
+World,HMHI_Gas_CCS,2032,80,,MEUR/GW,interpolated,,
+World,HMHI_Gas_CCS,2033,80,,MEUR/GW,interpolated,,
+World,HMHI_Gas_CCS,2034,80,,MEUR/GW,interpolated,,
+World,HMHI_Gas_CCS,2036,80,,MEUR/GW,interpolated,,
+World,HMHI_Gas_CCS,2037,80,,MEUR/GW,interpolated,,
+World,HMHI_Gas_CCS,2038,80,,MEUR/GW,interpolated,,
+World,HMHI_Gas_CCS,2039,80,,MEUR/GW,interpolated,,
+World,HMHI_H2,2026,63.818,,MEUR/GW,interpolated,,
+World,HMHI_H2,2027,62.636,,MEUR/GW,interpolated,,
+World,HMHI_H2,2028,61.454,,MEUR/GW,interpolated,,
+World,HMHI_H2,2029,60.272,,MEUR/GW,interpolated,,
+World,HMHI_H2,2031,59.09,,MEUR/GW,interpolated,,
+World,HMHI_H2,2032,59.09,,MEUR/GW,interpolated,,
+World,HMHI_H2,2033,59.09,,MEUR/GW,interpolated,,
+World,HMHI_H2,2034,59.09,,MEUR/GW,interpolated,,
+World,HMHI_H2,2036,59.09,,MEUR/GW,interpolated,,
+World,HMHI_H2,2037,59.09,,MEUR/GW,interpolated,,
+World,HMHI_H2,2038,59.09,,MEUR/GW,interpolated,,
+World,HMHI_H2,2039,59.09,,MEUR/GW,interpolated,,
+World,HMHI_HardCoal,2026,479.456,,MEUR/GW,interpolated,,
+World,HMHI_HardCoal,2027,476.032,,MEUR/GW,interpolated,,
+World,HMHI_HardCoal,2028,472.608,,MEUR/GW,interpolated,,
+World,HMHI_HardCoal,2029,469.184,,MEUR/GW,interpolated,,
+World,HMHI_HardCoal,2031,463.784,,MEUR/GW,interpolated,,
+World,HMHI_HardCoal,2032,461.808,,MEUR/GW,interpolated,,
+World,HMHI_HardCoal,2033,459.832,,MEUR/GW,interpolated,,
+World,HMHI_HardCoal,2034,457.856,,MEUR/GW,interpolated,,
+World,HMHI_HardCoal,2036,453.904,,MEUR/GW,interpolated,,
+World,HMHI_HardCoal,2037,451.928,,MEUR/GW,interpolated,,
+World,HMHI_HardCoal,2038,449.952,,MEUR/GW,interpolated,,
+World,HMHI_HardCoal,2039,447.976,,MEUR/GW,interpolated,,
+World,HMHI_HardCoal_CCS,2026,781.52,,MEUR/GW,interpolated,,
+World,HMHI_HardCoal_CCS,2027,775.94,,MEUR/GW,interpolated,,
+World,HMHI_HardCoal_CCS,2028,770.36,,MEUR/GW,interpolated,,
+World,HMHI_HardCoal_CCS,2029,764.78,,MEUR/GW,interpolated,,
+World,HMHI_HardCoal_CCS,2031,755.978,,MEUR/GW,interpolated,,
+World,HMHI_HardCoal_CCS,2032,752.756,,MEUR/GW,interpolated,,
+World,HMHI_HardCoal_CCS,2033,749.534,,MEUR/GW,interpolated,,
+World,HMHI_HardCoal_CCS,2034,746.312,,MEUR/GW,interpolated,,
+World,HMHI_HardCoal_CCS,2036,739.868,,MEUR/GW,interpolated,,
+World,HMHI_HardCoal_CCS,2037,736.646,,MEUR/GW,interpolated,,
+World,HMHI_HardCoal_CCS,2038,733.424,,MEUR/GW,interpolated,,
+World,HMHI_HardCoal_CCS,2039,730.202,,MEUR/GW,interpolated,,
+World,HMHI_Oil,2026,49.948,,MEUR/GW,interpolated,,
+World,HMHI_Oil,2027,49.106,,MEUR/GW,interpolated,,
+World,HMHI_Oil,2028,48.264,,MEUR/GW,interpolated,,
+World,HMHI_Oil,2029,47.422,,MEUR/GW,interpolated,,
+World,HMHI_Oil,2031,46.382,,MEUR/GW,interpolated,,
+World,HMHI_Oil,2032,46.184,,MEUR/GW,interpolated,,
+World,HMHI_Oil,2033,45.986,,MEUR/GW,interpolated,,
+World,HMHI_Oil,2034,45.788,,MEUR/GW,interpolated,,
+World,HMHI_Oil,2036,45.392,,MEUR/GW,interpolated,,
+World,HMHI_Oil,2037,45.194,,MEUR/GW,interpolated,,
+World,HMHI_Oil,2038,44.996,,MEUR/GW,interpolated,,
+World,HMHI_Oil,2039,44.798,,MEUR/GW,interpolated,,
+World,HMHI_Steam_Electric,2026,88.386,,MEUR/GW,interpolated,,
+World,HMHI_Steam_Electric,2027,87.192,,MEUR/GW,interpolated,,
+World,HMHI_Steam_Electric,2028,85.998,,MEUR/GW,interpolated,,
+World,HMHI_Steam_Electric,2029,84.804,,MEUR/GW,interpolated,,
+World,HMHI_Steam_Electric,2031,83.61,,MEUR/GW,interpolated,,
+World,HMHI_Steam_Electric,2032,83.61,,MEUR/GW,interpolated,,
+World,HMHI_Steam_Electric,2033,83.61,,MEUR/GW,interpolated,,
+World,HMHI_Steam_Electric,2034,83.61,,MEUR/GW,interpolated,,
+World,HMHI_Steam_Electric,2036,83.61,,MEUR/GW,interpolated,,
+World,HMHI_Steam_Electric,2037,83.61,,MEUR/GW,interpolated,,
+World,HMHI_Steam_Electric,2038,83.61,,MEUR/GW,interpolated,,
+World,HMHI_Steam_Electric,2039,83.61,,MEUR/GW,interpolated,,
+World,HMLI_Heatpump,2026,1079.34,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HMLI_Heatpump,2027,1062,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HMLI_Heatpump,2028,1044.67,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HMLI_Heatpump,2029,1027.33,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HMLI_Heatpump,2031,997.334,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HMLI_Heatpump,2032,984.668,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HMLI_Heatpump,2033,972.002,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HMLI_Heatpump,2034,959.336,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HMLI_Heatpump,2036,934.002,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HMLI_Heatpump,2037,921.334,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HMLI_Heatpump,2038,908.666,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,HMLI_Heatpump,2039,895.998,,MEUR/GW,interpolated,13.12.2023,Frida Sather <frida.sather@sintef.no>
+World,PSNG_Air_Bio,2026,376.002,,MEUR/Gpkm/year,interpolated,,
+World,PSNG_Air_Bio,2027,372.806,,MEUR/Gpkm/year,interpolated,,
+World,PSNG_Air_Bio,2028,369.61,,MEUR/Gpkm/year,interpolated,,
+World,PSNG_Air_Bio,2029,366.413,,MEUR/Gpkm/year,interpolated,,
+World,PSNG_Air_Bio,2031,363.217,,MEUR/Gpkm/year,interpolated,,
+World,PSNG_Air_Bio,2032,363.217,,MEUR/Gpkm/year,interpolated,,
+World,PSNG_Air_Bio,2033,363.217,,MEUR/Gpkm/year,interpolated,,
+World,PSNG_Air_Bio,2034,363.217,,MEUR/Gpkm/year,interpolated,,
+World,PSNG_Air_Bio,2036,363.217,,MEUR/Gpkm/year,interpolated,,
+World,PSNG_Air_Bio,2037,363.217,,MEUR/Gpkm/year,interpolated,,
+World,PSNG_Air_Bio,2038,363.217,,MEUR/Gpkm/year,interpolated,,
+World,PSNG_Air_Bio,2039,363.217,,MEUR/Gpkm/year,interpolated,,
+World,PSNG_Air_Conv,2026,376.002,,MEUR/Gpkm/year,interpolated,,
+World,PSNG_Air_Conv,2027,372.806,,MEUR/Gpkm/year,interpolated,,
+World,PSNG_Air_Conv,2028,369.61,,MEUR/Gpkm/year,interpolated,,
+World,PSNG_Air_Conv,2029,366.413,,MEUR/Gpkm/year,interpolated,,
+World,PSNG_Air_Conv,2031,363.217,,MEUR/Gpkm/year,interpolated,,
+World,PSNG_Air_Conv,2032,363.217,,MEUR/Gpkm/year,interpolated,,
+World,PSNG_Air_Conv,2033,363.217,,MEUR/Gpkm/year,interpolated,,
+World,PSNG_Air_Conv,2034,363.217,,MEUR/Gpkm/year,interpolated,,
+World,PSNG_Air_Conv,2036,363.217,,MEUR/Gpkm/year,interpolated,,
+World,PSNG_Air_Conv,2037,363.217,,MEUR/Gpkm/year,interpolated,,
+World,PSNG_Air_Conv,2038,363.217,,MEUR/Gpkm/year,interpolated,,
+World,PSNG_Air_Conv,2039,363.217,,MEUR/Gpkm/year,interpolated,,
+World,PSNG_Air_H2,2026,464.918,,MEUR/Gpkm/year,interpolated,,
+World,PSNG_Air_H2,2027,464.918,,MEUR/Gpkm/year,interpolated,,
+World,PSNG_Air_H2,2028,464.918,,MEUR/Gpkm/year,interpolated,,
+World,PSNG_Air_H2,2029,464.918,,MEUR/Gpkm/year,interpolated,,
+World,PSNG_Air_H2,2031,462.012,,MEUR/Gpkm/year,interpolated,,
+World,PSNG_Air_H2,2032,459.107,,MEUR/Gpkm/year,interpolated,,
+World,PSNG_Air_H2,2033,456.201,,MEUR/Gpkm/year,interpolated,,
+World,PSNG_Air_H2,2034,453.295,,MEUR/Gpkm/year,interpolated,,
+World,PSNG_Air_H2,2036,447.484,,MEUR/Gpkm/year,interpolated,,
+World,PSNG_Air_H2,2037,444.578,,MEUR/Gpkm/year,interpolated,,
+World,PSNG_Air_H2,2038,441.672,,MEUR/Gpkm/year,interpolated,,
+World,PSNG_Air_H2,2039,438.766,,MEUR/Gpkm/year,interpolated,,
+World,PSNG_Rail_Conv,2026,116.436,,MEUR/Gpkm/year,interpolated,,
+World,PSNG_Rail_Conv,2027,115.704,,MEUR/Gpkm/year,interpolated,,
+World,PSNG_Rail_Conv,2028,114.971,,MEUR/Gpkm/year,interpolated,,
+World,PSNG_Rail_Conv,2029,114.239,,MEUR/Gpkm/year,interpolated,,
+World,PSNG_Rail_Conv,2031,113.507,,MEUR/Gpkm/year,interpolated,,
+World,PSNG_Rail_Conv,2032,113.507,,MEUR/Gpkm/year,interpolated,,
+World,PSNG_Rail_Conv,2033,113.507,,MEUR/Gpkm/year,interpolated,,
+World,PSNG_Rail_Conv,2034,113.507,,MEUR/Gpkm/year,interpolated,,
+World,PSNG_Rail_Conv,2036,113.507,,MEUR/Gpkm/year,interpolated,,
+World,PSNG_Rail_Conv,2037,113.507,,MEUR/Gpkm/year,interpolated,,
+World,PSNG_Rail_Conv,2038,113.507,,MEUR/Gpkm/year,interpolated,,
+World,PSNG_Rail_Conv,2039,113.507,,MEUR/Gpkm/year,interpolated,,
+World,PSNG_Rail_Electric,2026,158.421,,MEUR/Gpkm/year,interpolated,,
+World,PSNG_Rail_Electric,2027,157.567,,MEUR/Gpkm/year,interpolated,,
+World,PSNG_Rail_Electric,2028,156.713,,MEUR/Gpkm/year,interpolated,,
+World,PSNG_Rail_Electric,2029,155.858,,MEUR/Gpkm/year,interpolated,,
+World,PSNG_Rail_Electric,2031,155.004,,MEUR/Gpkm/year,interpolated,,
+World,PSNG_Rail_Electric,2032,155.004,,MEUR/Gpkm/year,interpolated,,
+World,PSNG_Rail_Electric,2033,155.004,,MEUR/Gpkm/year,interpolated,,
+World,PSNG_Rail_Electric,2034,155.004,,MEUR/Gpkm/year,interpolated,,
+World,PSNG_Rail_Electric,2036,155.004,,MEUR/Gpkm/year,interpolated,,
+World,PSNG_Rail_Electric,2037,155.004,,MEUR/Gpkm/year,interpolated,,
+World,PSNG_Rail_Electric,2038,155.004,,MEUR/Gpkm/year,interpolated,,
+World,PSNG_Rail_Electric,2039,155.004,,MEUR/Gpkm/year,interpolated,,
+World,PSNG_Road_BEV,2026,981.463,,MEUR/Gpkm/year,interpolated,18.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,PSNG_Road_BEV,2027,924.639,,MEUR/Gpkm/year,interpolated,18.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,PSNG_Road_BEV,2028,867.815,,MEUR/Gpkm/year,interpolated,18.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,PSNG_Road_BEV,2029,810.991,,MEUR/Gpkm/year,interpolated,18.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,PSNG_Road_BEV,2031,748.75,,MEUR/Gpkm/year,interpolated,18.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,PSNG_Road_BEV,2032,743.333,,MEUR/Gpkm/year,interpolated,18.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,PSNG_Road_BEV,2033,737.917,,MEUR/Gpkm/year,interpolated,18.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,PSNG_Road_BEV,2034,732.5,,MEUR/Gpkm/year,interpolated,18.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,PSNG_Road_BEV,2036,721.667,,MEUR/Gpkm/year,interpolated,18.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,PSNG_Road_BEV,2037,716.25,,MEUR/Gpkm/year,interpolated,18.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,PSNG_Road_BEV,2038,710.833,,MEUR/Gpkm/year,interpolated,18.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,PSNG_Road_BEV,2039,705.417,,MEUR/Gpkm/year,interpolated,18.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,PSNG_Road_H2,2026,1561.35,,MEUR/Gpkm/year,interpolated,18.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,PSNG_Road_H2,2027,1404.46,,MEUR/Gpkm/year,interpolated,18.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,PSNG_Road_H2,2028,1247.57,,MEUR/Gpkm/year,interpolated,18.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,PSNG_Road_H2,2029,1090.69,,MEUR/Gpkm/year,interpolated,18.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,PSNG_Road_H2,2031,919.954,,MEUR/Gpkm/year,interpolated,18.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,PSNG_Road_H2,2032,906.111,,MEUR/Gpkm/year,interpolated,18.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,PSNG_Road_H2,2033,892.269,,MEUR/Gpkm/year,interpolated,18.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,PSNG_Road_H2,2034,878.426,,MEUR/Gpkm/year,interpolated,18.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,PSNG_Road_H2,2036,850.741,,MEUR/Gpkm/year,interpolated,18.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,PSNG_Road_H2,2037,836.898,,MEUR/Gpkm/year,interpolated,18.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,PSNG_Road_H2,2038,823.056,,MEUR/Gpkm/year,interpolated,18.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,PSNG_Road_H2,2039,809.213,,MEUR/Gpkm/year,interpolated,18.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,PSNG_Road_ICE,2026,867.167,,MEUR/Gpkm/year,interpolated,18.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,PSNG_Road_ICE,2027,842.273,,MEUR/Gpkm/year,interpolated,18.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,PSNG_Road_ICE,2028,817.38,,MEUR/Gpkm/year,interpolated,18.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,PSNG_Road_ICE,2029,792.486,,MEUR/Gpkm/year,interpolated,18.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,PSNG_Road_ICE,2031,767.593,,MEUR/Gpkm/year,interpolated,18.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,PSNG_Road_ICE,2032,767.593,,MEUR/Gpkm/year,interpolated,18.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,PSNG_Road_ICE,2033,767.593,,MEUR/Gpkm/year,interpolated,18.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,PSNG_Road_ICE,2034,767.593,,MEUR/Gpkm/year,interpolated,18.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,PSNG_Road_ICE,2036,767.593,,MEUR/Gpkm/year,interpolated,18.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,PSNG_Road_ICE,2037,767.593,,MEUR/Gpkm/year,interpolated,18.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,PSNG_Road_ICE,2038,767.593,,MEUR/Gpkm/year,interpolated,18.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,PSNG_Road_ICE,2039,767.593,,MEUR/Gpkm/year,interpolated,18.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,PSNG_Road_LNG,2026,932.704,,MEUR/Gpkm/year,interpolated,18.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,PSNG_Road_LNG,2027,907.051,,MEUR/Gpkm/year,interpolated,18.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,PSNG_Road_LNG,2028,881.398,,MEUR/Gpkm/year,interpolated,18.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,PSNG_Road_LNG,2029,855.745,,MEUR/Gpkm/year,interpolated,18.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,PSNG_Road_LNG,2031,830.093,,MEUR/Gpkm/year,interpolated,18.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,PSNG_Road_LNG,2032,830.093,,MEUR/Gpkm/year,interpolated,18.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,PSNG_Road_LNG,2033,830.093,,MEUR/Gpkm/year,interpolated,18.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,PSNG_Road_LNG,2034,830.093,,MEUR/Gpkm/year,interpolated,18.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,PSNG_Road_LNG,2036,830.093,,MEUR/Gpkm/year,interpolated,18.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,PSNG_Road_LNG,2037,830.093,,MEUR/Gpkm/year,interpolated,18.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,PSNG_Road_LNG,2038,830.093,,MEUR/Gpkm/year,interpolated,18.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,PSNG_Road_LNG,2039,830.093,,MEUR/Gpkm/year,interpolated,18.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,PSNG_Road_PHEV,2026,1007.28,,MEUR/Gpkm/year,interpolated,18.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,PSNG_Road_PHEV,2027,945.736,,MEUR/Gpkm/year,interpolated,18.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,PSNG_Road_PHEV,2028,884.194,,MEUR/Gpkm/year,interpolated,18.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,PSNG_Road_PHEV,2029,822.653,,MEUR/Gpkm/year,interpolated,18.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,PSNG_Road_PHEV,2031,756.898,,MEUR/Gpkm/year,interpolated,18.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,PSNG_Road_PHEV,2032,752.685,,MEUR/Gpkm/year,interpolated,18.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,PSNG_Road_PHEV,2033,748.472,,MEUR/Gpkm/year,interpolated,18.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,PSNG_Road_PHEV,2034,744.259,,MEUR/Gpkm/year,interpolated,18.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,PSNG_Road_PHEV,2036,735.833,,MEUR/Gpkm/year,interpolated,18.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,PSNG_Road_PHEV,2037,731.62,,MEUR/Gpkm/year,interpolated,18.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,PSNG_Road_PHEV,2038,727.407,,MEUR/Gpkm/year,interpolated,18.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,PSNG_Road_PHEV,2039,723.194,,MEUR/Gpkm/year,interpolated,18.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Biomass,2026,1880,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Biomass,2027,1860,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Biomass,2028,1840,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Biomass,2029,1820,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Biomass,2031,1790,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Biomass,2032,1780,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Biomass,2033,1770,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Biomass,2034,1760,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Biomass,2036,1740,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Biomass,2037,1730,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Biomass,2038,1720,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Biomass,2039,1710,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Biomass_CCS,2026,3825,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Biomass_CCS,2027,3787.5,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Biomass_CCS,2028,3750,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Biomass_CCS,2029,3712.5,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Biomass_CCS,2031,3638,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Biomass_CCS,2032,3601,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Biomass_CCS,2033,3564,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Biomass_CCS,2034,3527,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Biomass_CCS,2036,3453,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Biomass_CCS,2037,3416,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Biomass_CCS,2038,3379,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Biomass_CCS,2039,3342,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_CSP,2026,941.4,,MEUR/GW,interpolated,,
+World,P_CSP,2027,936.8,,MEUR/GW,interpolated,,
+World,P_CSP,2028,932.2,,MEUR/GW,interpolated,,
+World,P_CSP,2029,927.6,,MEUR/GW,interpolated,,
+World,P_CSP,2031,918.8,,MEUR/GW,interpolated,,
+World,P_CSP,2032,914.6,,MEUR/GW,interpolated,,
+World,P_CSP,2033,910.4,,MEUR/GW,interpolated,,
+World,P_CSP,2034,906.2,,MEUR/GW,interpolated,,
+World,P_CSP,2036,897.6,,MEUR/GW,interpolated,,
+World,P_CSP,2037,893.2,,MEUR/GW,interpolated,,
+World,P_CSP,2038,888.8,,MEUR/GW,interpolated,,
+World,P_CSP,2039,884.4,,MEUR/GW,interpolated,,
+World,P_Coal_Hardcoal,2026,1650,,MEUR/GW,interpolated,05.09.2023,Stian Backe <stian.backe@sintef.no>
+World,P_Coal_Hardcoal,2027,1650,,MEUR/GW,interpolated,05.09.2023,Stian Backe <stian.backe@sintef.no>
+World,P_Coal_Hardcoal,2028,1650,,MEUR/GW,interpolated,05.09.2023,Stian Backe <stian.backe@sintef.no>
+World,P_Coal_Hardcoal,2029,1650,,MEUR/GW,interpolated,05.09.2023,Stian Backe <stian.backe@sintef.no>
+World,P_Coal_Hardcoal,2031,1650,,MEUR/GW,interpolated,05.09.2023,Stian Backe <stian.backe@sintef.no>
+World,P_Coal_Hardcoal,2032,1650,,MEUR/GW,interpolated,05.09.2023,Stian Backe <stian.backe@sintef.no>
+World,P_Coal_Hardcoal,2033,1650,,MEUR/GW,interpolated,05.09.2023,Stian Backe <stian.backe@sintef.no>
+World,P_Coal_Hardcoal,2034,1650,,MEUR/GW,interpolated,05.09.2023,Stian Backe <stian.backe@sintef.no>
+World,P_Coal_Hardcoal,2036,1650,,MEUR/GW,interpolated,05.09.2023,Stian Backe <stian.backe@sintef.no>
+World,P_Coal_Hardcoal,2037,1650,,MEUR/GW,interpolated,05.09.2023,Stian Backe <stian.backe@sintef.no>
+World,P_Coal_Hardcoal,2038,1650,,MEUR/GW,interpolated,05.09.2023,Stian Backe <stian.backe@sintef.no>
+World,P_Coal_Hardcoal,2039,1650,,MEUR/GW,interpolated,05.09.2023,Stian Backe <stian.backe@sintef.no>
+World,P_Coal_Hardcoal_CCS,2026,3342,,MEUR/GW,interpolated,,
+World,P_Coal_Hardcoal_CCS,2027,3324,,MEUR/GW,interpolated,,
+World,P_Coal_Hardcoal_CCS,2028,3306,,MEUR/GW,interpolated,,
+World,P_Coal_Hardcoal_CCS,2029,3288,,MEUR/GW,interpolated,,
+World,P_Coal_Hardcoal_CCS,2031,3260.5,,MEUR/GW,interpolated,,
+World,P_Coal_Hardcoal_CCS,2032,3251,,MEUR/GW,interpolated,,
+World,P_Coal_Hardcoal_CCS,2033,3241.5,,MEUR/GW,interpolated,,
+World,P_Coal_Hardcoal_CCS,2034,3232,,MEUR/GW,interpolated,,
+World,P_Coal_Hardcoal_CCS,2036,3213,,MEUR/GW,interpolated,,
+World,P_Coal_Hardcoal_CCS,2037,3203.5,,MEUR/GW,interpolated,,
+World,P_Coal_Hardcoal_CCS,2038,3194,,MEUR/GW,interpolated,,
+World,P_Coal_Hardcoal_CCS,2039,3184.5,,MEUR/GW,interpolated,,
+World,P_Coal_Lignite,2026,1800,,MEUR/GW,interpolated,05.09.2023,Stian Backe <stian.backe@sintef.no>
+World,P_Coal_Lignite,2027,1800,,MEUR/GW,interpolated,05.09.2023,Stian Backe <stian.backe@sintef.no>
+World,P_Coal_Lignite,2028,1800,,MEUR/GW,interpolated,05.09.2023,Stian Backe <stian.backe@sintef.no>
+World,P_Coal_Lignite,2029,1800,,MEUR/GW,interpolated,05.09.2023,Stian Backe <stian.backe@sintef.no>
+World,P_Coal_Lignite,2031,1800,,MEUR/GW,interpolated,05.09.2023,Stian Backe <stian.backe@sintef.no>
+World,P_Coal_Lignite,2032,1800,,MEUR/GW,interpolated,05.09.2023,Stian Backe <stian.backe@sintef.no>
+World,P_Coal_Lignite,2033,1800,,MEUR/GW,interpolated,05.09.2023,Stian Backe <stian.backe@sintef.no>
+World,P_Coal_Lignite,2034,1800,,MEUR/GW,interpolated,05.09.2023,Stian Backe <stian.backe@sintef.no>
+World,P_Coal_Lignite,2036,1800,,MEUR/GW,interpolated,05.09.2023,Stian Backe <stian.backe@sintef.no>
+World,P_Coal_Lignite,2037,1800,,MEUR/GW,interpolated,05.09.2023,Stian Backe <stian.backe@sintef.no>
+World,P_Coal_Lignite,2038,1800,,MEUR/GW,interpolated,05.09.2023,Stian Backe <stian.backe@sintef.no>
+World,P_Coal_Lignite,2039,1800,,MEUR/GW,interpolated,05.09.2023,Stian Backe <stian.backe@sintef.no>
+World,P_Coal_Lignite_CCS,2026,3507,,MEUR/GW,interpolated,,
+World,P_Coal_Lignite_CCS,2027,3491.5,,MEUR/GW,interpolated,,
+World,P_Coal_Lignite_CCS,2028,3476,,MEUR/GW,interpolated,,
+World,P_Coal_Lignite_CCS,2029,3460.5,,MEUR/GW,interpolated,,
+World,P_Coal_Lignite_CCS,2031,3436.5,,MEUR/GW,interpolated,,
+World,P_Coal_Lignite_CCS,2032,3428,,MEUR/GW,interpolated,,
+World,P_Coal_Lignite_CCS,2033,3419.5,,MEUR/GW,interpolated,,
+World,P_Coal_Lignite_CCS,2034,3411,,MEUR/GW,interpolated,,
+World,P_Coal_Lignite_CCS,2036,3394,,MEUR/GW,interpolated,,
+World,P_Coal_Lignite_CCS,2037,3385.5,,MEUR/GW,interpolated,,
+World,P_Coal_Lignite_CCS,2038,3377,,MEUR/GW,interpolated,,
+World,P_Coal_Lignite_CCS,2039,3368.5,,MEUR/GW,interpolated,,
+World,P_Gas_CCGT,2026,903.867,,MEUR/GW,interpolated,05.09.2023,Stian Backe <stian.backe@sintef.no>
+World,P_Gas_CCGT,2027,898.55,,MEUR/GW,interpolated,05.09.2023,Stian Backe <stian.backe@sintef.no>
+World,P_Gas_CCGT,2028,893.233,,MEUR/GW,interpolated,05.09.2023,Stian Backe <stian.backe@sintef.no>
+World,P_Gas_CCGT,2029,887.916,,MEUR/GW,interpolated,05.09.2023,Stian Backe <stian.backe@sintef.no>
+World,P_Gas_CCGT,2031,881.004,,MEUR/GW,interpolated,05.09.2023,Stian Backe <stian.backe@sintef.no>
+World,P_Gas_CCGT,2032,879.409,,MEUR/GW,interpolated,05.09.2023,Stian Backe <stian.backe@sintef.no>
+World,P_Gas_CCGT,2033,877.814,,MEUR/GW,interpolated,05.09.2023,Stian Backe <stian.backe@sintef.no>
+World,P_Gas_CCGT,2034,876.219,,MEUR/GW,interpolated,05.09.2023,Stian Backe <stian.backe@sintef.no>
+World,P_Gas_CCGT,2036,873.029,,MEUR/GW,interpolated,05.09.2023,Stian Backe <stian.backe@sintef.no>
+World,P_Gas_CCGT,2037,871.434,,MEUR/GW,interpolated,05.09.2023,Stian Backe <stian.backe@sintef.no>
+World,P_Gas_CCGT,2038,869.839,,MEUR/GW,interpolated,05.09.2023,Stian Backe <stian.backe@sintef.no>
+World,P_Gas_CCGT,2039,868.244,,MEUR/GW,interpolated,05.09.2023,Stian Backe <stian.backe@sintef.no>
+World,P_Gas_CCS,2026,2852,,MEUR/GW,interpolated,,
+World,P_Gas_CCS,2027,2852,,MEUR/GW,interpolated,,
+World,P_Gas_CCS,2028,2852,,MEUR/GW,interpolated,,
+World,P_Gas_CCS,2029,2852,,MEUR/GW,interpolated,,
+World,P_Gas_CCS,2031,2824.4,,MEUR/GW,interpolated,,
+World,P_Gas_CCS,2032,2796.8,,MEUR/GW,interpolated,,
+World,P_Gas_CCS,2033,2769.2,,MEUR/GW,interpolated,,
+World,P_Gas_CCS,2034,2741.6,,MEUR/GW,interpolated,,
+World,P_Gas_CCS,2036,2686.4,,MEUR/GW,interpolated,,
+World,P_Gas_CCS,2037,2658.8,,MEUR/GW,interpolated,,
+World,P_Gas_CCS,2038,2631.2,,MEUR/GW,interpolated,,
+World,P_Gas_CCS,2039,2603.6,,MEUR/GW,interpolated,,
+World,P_Gas_Engines,2026,974,,MEUR/GW,interpolated,,
+World,P_Gas_Engines,2027,968,,MEUR/GW,interpolated,,
+World,P_Gas_Engines,2028,962,,MEUR/GW,interpolated,,
+World,P_Gas_Engines,2029,956,,MEUR/GW,interpolated,,
+World,P_Gas_Engines,2031,947.5,,MEUR/GW,interpolated,,
+World,P_Gas_Engines,2032,945,,MEUR/GW,interpolated,,
+World,P_Gas_Engines,2033,942.5,,MEUR/GW,interpolated,,
+World,P_Gas_Engines,2034,940,,MEUR/GW,interpolated,,
+World,P_Gas_Engines,2036,935,,MEUR/GW,interpolated,,
+World,P_Gas_Engines,2037,932.5,,MEUR/GW,interpolated,,
+World,P_Gas_Engines,2038,930,,MEUR/GW,interpolated,,
+World,P_Gas_Engines,2039,927.5,,MEUR/GW,interpolated,,
+World,P_Gas_OCGT,2026,757.121,,MEUR/GW,interpolated,,
+World,P_Gas_OCGT,2027,753.931,,MEUR/GW,interpolated,,
+World,P_Gas_OCGT,2028,750.741,,MEUR/GW,interpolated,,
+World,P_Gas_OCGT,2029,747.551,,MEUR/GW,interpolated,,
+World,P_Gas_OCGT,2031,743.298,,MEUR/GW,interpolated,,
+World,P_Gas_OCGT,2032,742.234,,MEUR/GW,interpolated,,
+World,P_Gas_OCGT,2033,741.171,,MEUR/GW,interpolated,,
+World,P_Gas_OCGT,2034,740.107,,MEUR/GW,interpolated,,
+World,P_Gas_OCGT,2036,737.981,,MEUR/GW,interpolated,,
+World,P_Gas_OCGT,2037,736.917,,MEUR/GW,interpolated,,
+World,P_Gas_OCGT,2038,735.854,,MEUR/GW,interpolated,,
+World,P_Gas_OCGT,2039,734.791,,MEUR/GW,interpolated,,
+World,P_Geothermal,2026,2566.8,,MEUR/GW,interpolated,06.09.2023,Stian Backe <stian.backe@sintef.no>
+World,P_Geothermal,2027,2557.6,,MEUR/GW,interpolated,06.09.2023,Stian Backe <stian.backe@sintef.no>
+World,P_Geothermal,2028,2548.4,,MEUR/GW,interpolated,06.09.2023,Stian Backe <stian.backe@sintef.no>
+World,P_Geothermal,2029,2539.2,,MEUR/GW,interpolated,06.09.2023,Stian Backe <stian.backe@sintef.no>
+World,P_Geothermal,2031,2520.8,,MEUR/GW,interpolated,06.09.2023,Stian Backe <stian.backe@sintef.no>
+World,P_Geothermal,2032,2511.6,,MEUR/GW,interpolated,06.09.2023,Stian Backe <stian.backe@sintef.no>
+World,P_Geothermal,2033,2502.4,,MEUR/GW,interpolated,06.09.2023,Stian Backe <stian.backe@sintef.no>
+World,P_Geothermal,2034,2493.2,,MEUR/GW,interpolated,06.09.2023,Stian Backe <stian.backe@sintef.no>
+World,P_Geothermal,2036,2474.8,,MEUR/GW,interpolated,06.09.2023,Stian Backe <stian.backe@sintef.no>
+World,P_Geothermal,2037,2465.6,,MEUR/GW,interpolated,06.09.2023,Stian Backe <stian.backe@sintef.no>
+World,P_Geothermal,2038,2456.4,,MEUR/GW,interpolated,06.09.2023,Stian Backe <stian.backe@sintef.no>
+World,P_Geothermal,2039,2447.2,,MEUR/GW,interpolated,06.09.2023,Stian Backe <stian.backe@sintef.no>
+World,P_H2_OCGT,2026,870.69,,MEUR/GW,interpolated,,
+World,P_H2_OCGT,2027,867.021,,MEUR/GW,interpolated,,
+World,P_H2_OCGT,2028,863.352,,MEUR/GW,interpolated,,
+World,P_H2_OCGT,2029,859.684,,MEUR/GW,interpolated,,
+World,P_H2_OCGT,2031,854.792,,MEUR/GW,interpolated,,
+World,P_H2_OCGT,2032,853.569,,MEUR/GW,interpolated,,
+World,P_H2_OCGT,2033,852.346,,MEUR/GW,interpolated,,
+World,P_H2_OCGT,2034,851.124,,MEUR/GW,interpolated,,
+World,P_H2_OCGT,2036,848.678,,MEUR/GW,interpolated,,
+World,P_H2_OCGT,2037,847.455,,MEUR/GW,interpolated,,
+World,P_H2_OCGT,2038,846.232,,MEUR/GW,interpolated,,
+World,P_H2_OCGT,2039,845.009,,MEUR/GW,interpolated,,
+World,P_Hydro_Reservoir,2026,2100,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Hydro_Reservoir,2027,2100,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Hydro_Reservoir,2028,2100,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Hydro_Reservoir,2029,2100,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Hydro_Reservoir,2031,2100,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Hydro_Reservoir,2032,2100,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Hydro_Reservoir,2033,2100,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Hydro_Reservoir,2034,2100,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Hydro_Reservoir,2036,2100,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Hydro_Reservoir,2037,2100,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Hydro_Reservoir,2038,2100,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Hydro_Reservoir,2039,2100,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Hydro_RoR,2026,1688,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Hydro_RoR,2027,1683.5,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Hydro_RoR,2028,1679,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Hydro_RoR,2029,1674.5,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Hydro_RoR,2031,1669,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Hydro_RoR,2032,1668,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Hydro_RoR,2033,1667,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Hydro_RoR,2034,1666,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Hydro_RoR,2036,1664,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Hydro_RoR,2037,1663,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Hydro_RoR,2038,1662,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Hydro_RoR,2039,1661,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Nuclear,2026,6000,,MEUR/GW,interpolated,05.09.2023,Stian Backe <stian.backe@sintef.no>
+World,P_Nuclear,2027,6000,,MEUR/GW,interpolated,05.09.2023,Stian Backe <stian.backe@sintef.no>
+World,P_Nuclear,2028,6000,,MEUR/GW,interpolated,05.09.2023,Stian Backe <stian.backe@sintef.no>
+World,P_Nuclear,2029,6000,,MEUR/GW,interpolated,05.09.2023,Stian Backe <stian.backe@sintef.no>
+World,P_Nuclear,2031,6000,,MEUR/GW,interpolated,05.09.2023,Stian Backe <stian.backe@sintef.no>
+World,P_Nuclear,2032,6000,,MEUR/GW,interpolated,05.09.2023,Stian Backe <stian.backe@sintef.no>
+World,P_Nuclear,2033,6000,,MEUR/GW,interpolated,05.09.2023,Stian Backe <stian.backe@sintef.no>
+World,P_Nuclear,2034,6000,,MEUR/GW,interpolated,05.09.2023,Stian Backe <stian.backe@sintef.no>
+World,P_Nuclear,2036,6000,,MEUR/GW,interpolated,05.09.2023,Stian Backe <stian.backe@sintef.no>
+World,P_Nuclear,2037,6000,,MEUR/GW,interpolated,05.09.2023,Stian Backe <stian.backe@sintef.no>
+World,P_Nuclear,2038,6000,,MEUR/GW,interpolated,05.09.2023,Stian Backe <stian.backe@sintef.no>
+World,P_Nuclear,2039,6000,,MEUR/GW,interpolated,05.09.2023,Stian Backe <stian.backe@sintef.no>
+World,P_Ocean,2026,3306.4,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Ocean,2027,3145.8,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Ocean,2028,2985.2,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Ocean,2029,2824.6,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Ocean,2031,2629.5,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Ocean,2032,2595,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Ocean,2033,2560.5,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Ocean,2034,2526,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Ocean,2036,2457,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Ocean,2037,2422.5,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Ocean,2038,2388,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Ocean,2039,2353.5,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Oil,2026,9357.68,,MEUR/GW,interpolated,,
+World,P_Oil,2027,9357.68,,MEUR/GW,interpolated,,
+World,P_Oil,2028,9357.68,,MEUR/GW,interpolated,,
+World,P_Oil,2029,9357.68,,MEUR/GW,interpolated,,
+World,P_Oil,2031,9357.68,,MEUR/GW,interpolated,,
+World,P_Oil,2032,9357.68,,MEUR/GW,interpolated,,
+World,P_Oil,2033,9357.68,,MEUR/GW,interpolated,,
+World,P_Oil,2034,9357.68,,MEUR/GW,interpolated,,
+World,P_Oil,2036,9357.68,,MEUR/GW,interpolated,,
+World,P_Oil,2037,9357.68,,MEUR/GW,interpolated,,
+World,P_Oil,2038,9357.68,,MEUR/GW,interpolated,,
+World,P_Oil,2039,9357.68,,MEUR/GW,interpolated,,
+World,P_PV_Rooftop_Commercial,2026,690,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Rooftop_Commercial,2027,660,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Rooftop_Commercial,2028,630,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Rooftop_Commercial,2029,600,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Rooftop_Commercial,2031,559,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Rooftop_Commercial,2032,548,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Rooftop_Commercial,2033,537,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Rooftop_Commercial,2034,526,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Rooftop_Commercial,2036,504,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Rooftop_Commercial,2037,493,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Rooftop_Commercial,2038,482,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Rooftop_Commercial,2039,471,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Rooftop_Residential,2026,1000.8,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Rooftop_Residential,2027,960.613,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Rooftop_Residential,2028,920.424,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Rooftop_Residential,2029,880.235,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Rooftop_Residential,2031,825.954,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Rooftop_Residential,2032,811.862,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Rooftop_Residential,2033,797.769,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Rooftop_Residential,2034,783.677,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Rooftop_Residential,2036,755.492,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Rooftop_Residential,2037,741.4,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Rooftop_Residential,2038,727.308,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Rooftop_Residential,2039,713.215,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Utility_Avg,2026,452,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Utility_Avg,2027,434,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Utility_Avg,2028,416,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Utility_Avg,2029,398,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Utility_Avg,2031,374,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Utility_Avg,2032,368,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Utility_Avg,2033,362,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Utility_Avg,2034,356,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Utility_Avg,2036,344,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Utility_Avg,2037,338,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Utility_Avg,2038,332,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Utility_Avg,2039,326,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Utility_Inf,2026,452,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Utility_Inf,2027,434,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Utility_Inf,2028,416,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Utility_Inf,2029,398,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Utility_Inf,2031,374,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Utility_Inf,2032,368,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Utility_Inf,2033,362,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Utility_Inf,2034,356,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Utility_Inf,2036,344,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Utility_Inf,2037,338,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Utility_Inf,2038,332,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Utility_Inf,2039,326,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Utility_Opt,2026,452,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Utility_Opt,2027,434,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Utility_Opt,2028,416,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Utility_Opt,2029,398,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Utility_Opt,2031,374,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Utility_Opt,2032,368,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Utility_Opt,2033,362,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Utility_Opt,2034,356,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Utility_Opt,2036,344,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Utility_Opt,2037,338,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Utility_Opt,2038,332,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Utility_Opt,2039,326,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Utility_Tracking,2026,530,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Utility_Tracking,2027,510,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Utility_Tracking,2028,490,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Utility_Tracking,2029,470,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Utility_Tracking,2031,443,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Utility_Tracking,2032,436,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Utility_Tracking,2033,429,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Utility_Tracking,2034,422,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Utility_Tracking,2036,408,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Utility_Tracking,2037,401,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Utility_Tracking,2038,394,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_PV_Utility_Tracking,2039,387,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_Wind_Offshore_Deep,2026,3539.6,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,P_Wind_Offshore_Deep,2027,3460.2,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,P_Wind_Offshore_Deep,2028,3380.8,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,P_Wind_Offshore_Deep,2029,3301.4,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,P_Wind_Offshore_Deep,2031,3184,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,P_Wind_Offshore_Deep,2032,3146,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,P_Wind_Offshore_Deep,2033,3108,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,P_Wind_Offshore_Deep,2034,3070,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,P_Wind_Offshore_Deep,2036,3005.2,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,P_Wind_Offshore_Deep,2037,2978.4,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,P_Wind_Offshore_Deep,2038,2951.6,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,P_Wind_Offshore_Deep,2039,2924.8,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,P_Wind_Offshore_Shallow,2026,1861.6,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,P_Wind_Offshore_Shallow,2027,1808.2,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,P_Wind_Offshore_Shallow,2028,1754.8,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,P_Wind_Offshore_Shallow,2029,1701.4,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,P_Wind_Offshore_Shallow,2031,1628.2,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,P_Wind_Offshore_Shallow,2032,1608.4,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,P_Wind_Offshore_Shallow,2033,1588.6,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,P_Wind_Offshore_Shallow,2034,1568.8,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,P_Wind_Offshore_Shallow,2036,1534.2,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,P_Wind_Offshore_Shallow,2037,1519.4,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,P_Wind_Offshore_Shallow,2038,1504.6,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,P_Wind_Offshore_Shallow,2039,1489.8,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,P_Wind_Offshore_Transitional,2026,2702.6,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,P_Wind_Offshore_Transitional,2027,2625.2,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,P_Wind_Offshore_Transitional,2028,2547.8,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,P_Wind_Offshore_Transitional,2029,2470.4,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,P_Wind_Offshore_Transitional,2031,2364,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,P_Wind_Offshore_Transitional,2032,2335,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,P_Wind_Offshore_Transitional,2033,2306,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,P_Wind_Offshore_Transitional,2034,2277,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,P_Wind_Offshore_Transitional,2036,2226.6,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,P_Wind_Offshore_Transitional,2037,2205.2,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,P_Wind_Offshore_Transitional,2038,2183.8,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,P_Wind_Offshore_Transitional,2039,2162.4,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,P_Wind_Onshore_Avg,2026,1174,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Wind_Onshore_Avg,2027,1168,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Wind_Onshore_Avg,2028,1162,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Wind_Onshore_Avg,2029,1156,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Wind_Onshore_Avg,2031,1145,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Wind_Onshore_Avg,2032,1140,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Wind_Onshore_Avg,2033,1135,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Wind_Onshore_Avg,2034,1130,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Wind_Onshore_Avg,2036,1120,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Wind_Onshore_Avg,2037,1115,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Wind_Onshore_Avg,2038,1110,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Wind_Onshore_Avg,2039,1105,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Wind_Onshore_Inf,2026,1174,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Wind_Onshore_Inf,2027,1168,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Wind_Onshore_Inf,2028,1162,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Wind_Onshore_Inf,2029,1156,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Wind_Onshore_Inf,2031,1145,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Wind_Onshore_Inf,2032,1140,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Wind_Onshore_Inf,2033,1135,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Wind_Onshore_Inf,2034,1130,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Wind_Onshore_Inf,2036,1120,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Wind_Onshore_Inf,2037,1115,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Wind_Onshore_Inf,2038,1110,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Wind_Onshore_Inf,2039,1105,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Wind_Onshore_Opt,2026,1174,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Wind_Onshore_Opt,2027,1168,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Wind_Onshore_Opt,2028,1162,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Wind_Onshore_Opt,2029,1156,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Wind_Onshore_Opt,2031,1145,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Wind_Onshore_Opt,2032,1140,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Wind_Onshore_Opt,2033,1135,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Wind_Onshore_Opt,2034,1130,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Wind_Onshore_Opt,2036,1120,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Wind_Onshore_Opt,2037,1115,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Wind_Onshore_Opt,2038,1110,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,P_Wind_Onshore_Opt,2039,1105,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
+World,R_Biogas,2026,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Biogas,2027,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Biogas,2028,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Biogas,2029,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Biogas,2031,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Biogas,2032,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Biogas,2033,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Biogas,2034,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Biogas,2036,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Biogas,2037,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Biogas,2038,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Biogas,2039,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Grass,2026,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Grass,2027,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Grass,2028,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Grass,2029,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Grass,2031,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Grass,2032,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Grass,2033,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Grass,2034,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Grass,2036,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Grass,2037,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Grass,2038,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Grass,2039,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Paper_Cardboard,2026,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Paper_Cardboard,2027,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Paper_Cardboard,2028,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Paper_Cardboard,2029,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Paper_Cardboard,2031,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Paper_Cardboard,2032,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Paper_Cardboard,2033,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Paper_Cardboard,2034,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Paper_Cardboard,2036,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Paper_Cardboard,2037,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Paper_Cardboard,2038,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Paper_Cardboard,2039,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Residues,2026,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Residues,2027,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Residues,2028,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Residues,2029,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Residues,2031,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Residues,2032,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Residues,2033,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Residues,2034,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Residues,2036,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Residues,2037,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Residues,2038,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Residues,2039,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Roundwood,2026,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Roundwood,2027,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Roundwood,2028,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Roundwood,2029,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Roundwood,2031,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Roundwood,2032,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Roundwood,2033,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Roundwood,2034,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Roundwood,2036,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Roundwood,2037,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Roundwood,2038,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Roundwood,2039,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Wood,2026,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Wood,2027,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Wood,2028,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Wood,2029,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Wood,2031,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Wood,2032,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Wood,2033,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Wood,2034,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Wood,2036,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Wood,2037,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Wood,2038,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Wood,2039,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,X_ATR_CCS,2026,770,,MEUR/GW,interpolated,08.10.2024,Stian Backe <stian.backe@sintef.no>
+World,X_ATR_CCS,2027,765,,MEUR/GW,interpolated,08.10.2024,Stian Backe <stian.backe@sintef.no>
+World,X_ATR_CCS,2028,760,,MEUR/GW,interpolated,08.10.2024,Stian Backe <stian.backe@sintef.no>
+World,X_ATR_CCS,2029,755,,MEUR/GW,interpolated,08.10.2024,Stian Backe <stian.backe@sintef.no>
+World,X_ATR_CCS,2031,746.25,,MEUR/GW,interpolated,08.10.2024,Stian Backe <stian.backe@sintef.no>
+World,X_ATR_CCS,2032,742.5,,MEUR/GW,interpolated,08.10.2024,Stian Backe <stian.backe@sintef.no>
+World,X_ATR_CCS,2033,738.75,,MEUR/GW,interpolated,08.10.2024,Stian Backe <stian.backe@sintef.no>
+World,X_ATR_CCS,2034,735,,MEUR/GW,interpolated,08.10.2024,Stian Backe <stian.backe@sintef.no>
+World,X_ATR_CCS,2036,727.5,,MEUR/GW,interpolated,08.10.2024,Stian Backe <stian.backe@sintef.no>
+World,X_ATR_CCS,2037,723.75,,MEUR/GW,interpolated,08.10.2024,Stian Backe <stian.backe@sintef.no>
+World,X_ATR_CCS,2038,720,,MEUR/GW,interpolated,08.10.2024,Stian Backe <stian.backe@sintef.no>
+World,X_ATR_CCS,2039,716.25,,MEUR/GW,interpolated,08.10.2024,Stian Backe <stian.backe@sintef.no>
+World,X_Biofuel,2026,728,,MEUR/GW,interpolated,,
+World,X_Biofuel,2027,716,,MEUR/GW,interpolated,,
+World,X_Biofuel,2028,704,,MEUR/GW,interpolated,,
+World,X_Biofuel,2029,692,,MEUR/GW,interpolated,,
+World,X_Biofuel,2031,676,,MEUR/GW,interpolated,,
+World,X_Biofuel,2032,672,,MEUR/GW,interpolated,,
+World,X_Biofuel,2033,668,,MEUR/GW,interpolated,,
+World,X_Biofuel,2034,664,,MEUR/GW,interpolated,,
+World,X_Biofuel,2036,656,,MEUR/GW,interpolated,,
+World,X_Biofuel,2037,652,,MEUR/GW,interpolated,,
+World,X_Biofuel,2038,648,,MEUR/GW,interpolated,,
+World,X_Biofuel,2039,644,,MEUR/GW,interpolated,,
+World,X_Electrolysis,2026,810,,MEUR/GW,interpolated,29.08.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,X_Electrolysis,2027,745,,MEUR/GW,interpolated,29.08.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,X_Electrolysis,2028,680,,MEUR/GW,interpolated,29.08.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,X_Electrolysis,2029,615,,MEUR/GW,interpolated,29.08.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,X_Electrolysis,2031,537.5,,MEUR/GW,interpolated,29.08.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,X_Electrolysis,2032,525,,MEUR/GW,interpolated,29.08.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,X_Electrolysis,2033,512.5,,MEUR/GW,interpolated,29.08.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,X_Electrolysis,2034,500,,MEUR/GW,interpolated,29.08.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,X_Electrolysis,2036,475,,MEUR/GW,interpolated,29.08.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,X_Electrolysis,2037,462.5,,MEUR/GW,interpolated,29.08.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,X_Electrolysis,2038,450,,MEUR/GW,interpolated,29.08.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,X_Electrolysis,2039,437.5,,MEUR/GW,interpolated,29.08.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,X_Fuel_Cell,2026,3254.28,,MEUR/GW,interpolated,,
+World,X_Fuel_Cell,2027,3213.33,,MEUR/GW,interpolated,,
+World,X_Fuel_Cell,2028,3172.37,,MEUR/GW,interpolated,,
+World,X_Fuel_Cell,2029,3131.42,,MEUR/GW,interpolated,,
+World,X_Fuel_Cell,2031,3068.57,,MEUR/GW,interpolated,,
+World,X_Fuel_Cell,2032,3046.67,,MEUR/GW,interpolated,,
+World,X_Fuel_Cell,2033,3024.77,,MEUR/GW,interpolated,,
+World,X_Fuel_Cell,2034,3002.88,,MEUR/GW,interpolated,,
+World,X_Fuel_Cell,2036,2959.08,,MEUR/GW,interpolated,,
+World,X_Fuel_Cell,2037,2937.18,,MEUR/GW,interpolated,,
+World,X_Fuel_Cell,2038,2915.29,,MEUR/GW,interpolated,,
+World,X_Fuel_Cell,2039,2893.39,,MEUR/GW,interpolated,,
+World,X_Gasifier,2026,175,,MEUR/GW,interpolated,08.10.2024,Stian Backe <stian.backe@sintef.no>
+World,X_Gasifier,2027,175,,MEUR/GW,interpolated,08.10.2024,Stian Backe <stian.backe@sintef.no>
+World,X_Gasifier,2028,175,,MEUR/GW,interpolated,08.10.2024,Stian Backe <stian.backe@sintef.no>
+World,X_Gasifier,2029,175,,MEUR/GW,interpolated,08.10.2024,Stian Backe <stian.backe@sintef.no>
+World,X_Gasifier,2031,175,,MEUR/GW,interpolated,08.10.2024,Stian Backe <stian.backe@sintef.no>
+World,X_Gasifier,2032,175,,MEUR/GW,interpolated,08.10.2024,Stian Backe <stian.backe@sintef.no>
+World,X_Gasifier,2033,175,,MEUR/GW,interpolated,08.10.2024,Stian Backe <stian.backe@sintef.no>
+World,X_Gasifier,2034,175,,MEUR/GW,interpolated,08.10.2024,Stian Backe <stian.backe@sintef.no>
+World,X_Gasifier,2036,175,,MEUR/GW,interpolated,08.10.2024,Stian Backe <stian.backe@sintef.no>
+World,X_Gasifier,2037,175,,MEUR/GW,interpolated,08.10.2024,Stian Backe <stian.backe@sintef.no>
+World,X_Gasifier,2038,175,,MEUR/GW,interpolated,08.10.2024,Stian Backe <stian.backe@sintef.no>
+World,X_Gasifier,2039,175,,MEUR/GW,interpolated,08.10.2024,Stian Backe <stian.backe@sintef.no>
+World,X_Liquifier,2026,200,,MEUR/GW,interpolated,04.09.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,X_Liquifier,2027,200,,MEUR/GW,interpolated,04.09.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,X_Liquifier,2028,200,,MEUR/GW,interpolated,04.09.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,X_Liquifier,2029,200,,MEUR/GW,interpolated,04.09.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,X_Liquifier,2031,200,,MEUR/GW,interpolated,04.09.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,X_Liquifier,2032,200,,MEUR/GW,interpolated,04.09.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,X_Liquifier,2033,200,,MEUR/GW,interpolated,04.09.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,X_Liquifier,2034,200,,MEUR/GW,interpolated,04.09.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,X_Liquifier,2036,200,,MEUR/GW,interpolated,04.09.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,X_Liquifier,2037,200,,MEUR/GW,interpolated,04.09.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,X_Liquifier,2038,200,,MEUR/GW,interpolated,04.09.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,X_Liquifier,2039,200,,MEUR/GW,interpolated,04.09.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,X_Methanation,2026,919.8,,MEUR/GW,interpolated,09.10.2024,Stian Backe <stian.backe@sintef.no>
+World,X_Methanation,2027,873.1,,MEUR/GW,interpolated,09.10.2024,Stian Backe <stian.backe@sintef.no>
+World,X_Methanation,2028,826.4,,MEUR/GW,interpolated,09.10.2024,Stian Backe <stian.backe@sintef.no>
+World,X_Methanation,2029,779.7,,MEUR/GW,interpolated,09.10.2024,Stian Backe <stian.backe@sintef.no>
+World,X_Methanation,2031,709.5,,MEUR/GW,interpolated,09.10.2024,Stian Backe <stian.backe@sintef.no>
+World,X_Methanation,2032,686,,MEUR/GW,interpolated,09.10.2024,Stian Backe <stian.backe@sintef.no>
+World,X_Methanation,2033,662.5,,MEUR/GW,interpolated,09.10.2024,Stian Backe <stian.backe@sintef.no>
+World,X_Methanation,2034,639,,MEUR/GW,interpolated,09.10.2024,Stian Backe <stian.backe@sintef.no>
+World,X_Methanation,2036,592,,MEUR/GW,interpolated,09.10.2024,Stian Backe <stian.backe@sintef.no>
+World,X_Methanation,2037,568.5,,MEUR/GW,interpolated,09.10.2024,Stian Backe <stian.backe@sintef.no>
+World,X_Methanation,2038,545,,MEUR/GW,interpolated,09.10.2024,Stian Backe <stian.backe@sintef.no>
+World,X_Methanation,2039,521.5,,MEUR/GW,interpolated,09.10.2024,Stian Backe <stian.backe@sintef.no>
+World,X_Powerfuel,2026,2980,,MEUR/GW,interpolated,,
+World,X_Powerfuel,2027,2910,,MEUR/GW,interpolated,,
+World,X_Powerfuel,2028,2840,,MEUR/GW,interpolated,,
+World,X_Powerfuel,2029,2770,,MEUR/GW,interpolated,,
+World,X_Powerfuel,2031,2630,,MEUR/GW,interpolated,,
+World,X_Powerfuel,2032,2560,,MEUR/GW,interpolated,,
+World,X_Powerfuel,2033,2490,,MEUR/GW,interpolated,,
+World,X_Powerfuel,2034,2420,,MEUR/GW,interpolated,,
+World,X_Powerfuel,2036,2280,,MEUR/GW,interpolated,,
+World,X_Powerfuel,2037,2210,,MEUR/GW,interpolated,,
+World,X_Powerfuel,2038,2140,,MEUR/GW,interpolated,,
+World,X_Powerfuel,2039,2070,,MEUR/GW,interpolated,,
+World,X_SMR,2026,1683.4,,MEUR/GW,interpolated,28.09.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,X_SMR,2027,1639.8,,MEUR/GW,interpolated,28.09.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,X_SMR,2028,1596.2,,MEUR/GW,interpolated,28.09.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,X_SMR,2029,1552.6,,MEUR/GW,interpolated,28.09.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,X_SMR,2031,1509,,MEUR/GW,interpolated,28.09.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,X_SMR,2032,1509,,MEUR/GW,interpolated,28.09.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,X_SMR,2033,1509,,MEUR/GW,interpolated,28.09.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,X_SMR,2034,1509,,MEUR/GW,interpolated,28.09.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,X_SMR,2036,1509,,MEUR/GW,interpolated,28.09.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,X_SMR,2037,1509,,MEUR/GW,interpolated,28.09.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,X_SMR,2038,1509,,MEUR/GW,interpolated,28.09.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,X_SMR,2039,1509,,MEUR/GW,interpolated,28.09.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,R_Waste,2026,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Waste,2027,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Waste,2028,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Waste,2029,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Waste,2031,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Waste,2032,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Waste,2033,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Waste,2034,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Waste,2036,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Waste,2037,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Waste,2038,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,R_Waste,2039,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>

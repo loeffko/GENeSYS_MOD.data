@@ -1,4 +1,4 @@
-Region,Technology,Fuel,Mode_of_operation,Year,Value,,Unit,Source,Updated at,Updated by
+Region,Technology,Fuel,Mode_of_operation,Year,Value,Unnamed: 6,Unit,Source,Updated at,Updated by
 World,A_Air,Air,1,All,1,,Unit,irrelevant - no efficiency for air,06.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
 World,A_Rooftop_Commercial,Area_Rooftop_Commercial,1,All,1,,Unit,irrelevant - no efficiency for areas,06.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
 World,A_Rooftop_Residential,Area_Rooftop_Residential,1,All,1,,Unit,irrelevant - no efficiency for areas,06.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
@@ -391,3 +391,195 @@ World,Z_Import_H2,H2,1,All,1,,PJ,irrelevant,04.09.2024,Nikita Moskalenko <nim@wi
 World,Z_Import_Hardcoal,Hardcoal,1,All,1,,PJ,irrelevant,04.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
 World,Z_Import_LNG,LNG,1,All,1,,PJ,irrelevant,04.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
 World,Z_Import_Oil,Oil,1,All,1,,PJ,irrelevant,04.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Biomass_Solid,Heat_District,2,2026,2.48136,,PJ,interpolated,04.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Biomass_Solid,Heat_District,2,2027,2.47992,,PJ,interpolated,04.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Biomass_Solid,Heat_District,2,2028,2.47848,,PJ,interpolated,04.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Biomass_Solid,Heat_District,2,2029,2.47704,,PJ,interpolated,04.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Biomass_Solid,Heat_District,2,2031,2.47454,,PJ,interpolated,04.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Biomass_Solid,Heat_District,2,2032,2.47348,,PJ,interpolated,04.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Biomass_Solid,Heat_District,2,2033,2.47242,,PJ,interpolated,04.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Biomass_Solid,Heat_District,2,2034,2.47136,,PJ,interpolated,04.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Biomass_Solid,Heat_District,2,2036,2.46924,,PJ,interpolated,04.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Biomass_Solid,Heat_District,2,2037,2.46818,,PJ,interpolated,04.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Biomass_Solid,Heat_District,2,2038,2.46712,,PJ,interpolated,04.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Biomass_Solid,Heat_District,2,2039,2.46606,,PJ,interpolated,04.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Biomass_Solid_CCS,Heat_District,2,2026,2.48136,,PJ,interpolated,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Biomass_Solid_CCS,Heat_District,2,2027,2.47992,,PJ,interpolated,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Biomass_Solid_CCS,Heat_District,2,2028,2.47848,,PJ,interpolated,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Biomass_Solid_CCS,Heat_District,2,2029,2.47704,,PJ,interpolated,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Biomass_Solid_CCS,Heat_District,2,2031,2.47454,,PJ,interpolated,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Biomass_Solid_CCS,Heat_District,2,2032,2.47348,,PJ,interpolated,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Biomass_Solid_CCS,Heat_District,2,2033,2.47242,,PJ,interpolated,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Biomass_Solid_CCS,Heat_District,2,2034,2.47136,,PJ,interpolated,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Biomass_Solid_CCS,Heat_District,2,2036,2.46924,,PJ,interpolated,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Biomass_Solid_CCS,Heat_District,2,2037,2.46818,,PJ,interpolated,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Biomass_Solid_CCS,Heat_District,2,2038,2.46712,,PJ,interpolated,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Biomass_Solid_CCS,Heat_District,2,2039,2.46606,,PJ,interpolated,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Coal_Hardcoal,Heat_District,2,2026,1.0629,,PJ,interpolated,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Coal_Hardcoal,Heat_District,2,2027,1.0447,,PJ,interpolated,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Coal_Hardcoal,Heat_District,2,2028,1.0265,,PJ,interpolated,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Coal_Hardcoal,Heat_District,2,2029,1.0083,,PJ,interpolated,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Coal_Hardcoal,Heat_District,2,2031,0.9901,,PJ,interpolated,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Coal_Hardcoal,Heat_District,2,2032,0.9901,,PJ,interpolated,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Coal_Hardcoal,Heat_District,2,2033,0.9901,,PJ,interpolated,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Coal_Hardcoal,Heat_District,2,2034,0.9901,,PJ,interpolated,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Coal_Hardcoal,Heat_District,2,2036,0.9901,,PJ,interpolated,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Coal_Hardcoal,Heat_District,2,2037,0.9901,,PJ,interpolated,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Coal_Hardcoal,Heat_District,2,2038,0.9901,,PJ,interpolated,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Coal_Hardcoal,Heat_District,2,2039,0.9901,,PJ,interpolated,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Coal_Hardcoal_CCS,Heat_District,2,2026,1.0629,,PJ,interpolated,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Coal_Hardcoal_CCS,Heat_District,2,2027,1.0447,,PJ,interpolated,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Coal_Hardcoal_CCS,Heat_District,2,2028,1.0265,,PJ,interpolated,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Coal_Hardcoal_CCS,Heat_District,2,2029,1.0083,,PJ,interpolated,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Coal_Hardcoal_CCS,Heat_District,2,2031,0.9901,,PJ,interpolated,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Coal_Hardcoal_CCS,Heat_District,2,2032,0.9901,,PJ,interpolated,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Coal_Hardcoal_CCS,Heat_District,2,2033,0.9901,,PJ,interpolated,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Coal_Hardcoal_CCS,Heat_District,2,2034,0.9901,,PJ,interpolated,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Coal_Hardcoal_CCS,Heat_District,2,2036,0.9901,,PJ,interpolated,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Coal_Hardcoal_CCS,Heat_District,2,2037,0.9901,,PJ,interpolated,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Coal_Hardcoal_CCS,Heat_District,2,2038,0.9901,,PJ,interpolated,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Coal_Hardcoal_CCS,Heat_District,2,2039,0.9901,,PJ,interpolated,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Coal_Lignite,Heat_District,2,2026,1.0629,,PJ,interpolated,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Coal_Lignite,Heat_District,2,2027,1.0447,,PJ,interpolated,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Coal_Lignite,Heat_District,2,2028,1.0265,,PJ,interpolated,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Coal_Lignite,Heat_District,2,2029,1.0083,,PJ,interpolated,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Coal_Lignite,Heat_District,2,2031,0.9901,,PJ,interpolated,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Coal_Lignite,Heat_District,2,2032,0.9901,,PJ,interpolated,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Coal_Lignite,Heat_District,2,2033,0.9901,,PJ,interpolated,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Coal_Lignite,Heat_District,2,2034,0.9901,,PJ,interpolated,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Coal_Lignite,Heat_District,2,2036,0.9901,,PJ,interpolated,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Coal_Lignite,Heat_District,2,2037,0.9901,,PJ,interpolated,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Coal_Lignite,Heat_District,2,2038,0.9901,,PJ,interpolated,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Coal_Lignite,Heat_District,2,2039,0.9901,,PJ,interpolated,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Coal_Lignite_CCS,Heat_District,2,2026,1.0629,,PJ,interpolated,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Coal_Lignite_CCS,Heat_District,2,2027,1.0447,,PJ,interpolated,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Coal_Lignite_CCS,Heat_District,2,2028,1.0265,,PJ,interpolated,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Coal_Lignite_CCS,Heat_District,2,2029,1.0083,,PJ,interpolated,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Coal_Lignite_CCS,Heat_District,2,2031,0.9901,,PJ,interpolated,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Coal_Lignite_CCS,Heat_District,2,2032,0.9901,,PJ,interpolated,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Coal_Lignite_CCS,Heat_District,2,2033,0.9901,,PJ,interpolated,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Coal_Lignite_CCS,Heat_District,2,2034,0.9901,,PJ,interpolated,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Coal_Lignite_CCS,Heat_District,2,2036,0.9901,,PJ,interpolated,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Coal_Lignite_CCS,Heat_District,2,2037,0.9901,,PJ,interpolated,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Coal_Lignite_CCS,Heat_District,2,2038,0.9901,,PJ,interpolated,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Coal_Lignite_CCS,Heat_District,2,2039,0.9901,,PJ,interpolated,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Gas_CCGT_Biogas,Heat_District,2,2026,0.52104,,PJ,interpolated,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Gas_CCGT_Biogas,Heat_District,2,2027,0.51578,,PJ,interpolated,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Gas_CCGT_Biogas,Heat_District,2,2028,0.51052,,PJ,interpolated,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Gas_CCGT_Biogas,Heat_District,2,2029,0.50526,,PJ,interpolated,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Gas_CCGT_Biogas,Heat_District,2,2031,0.49756,,PJ,interpolated,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Gas_CCGT_Biogas,Heat_District,2,2032,0.49512,,PJ,interpolated,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Gas_CCGT_Biogas,Heat_District,2,2033,0.49268,,PJ,interpolated,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Gas_CCGT_Biogas,Heat_District,2,2034,0.49024,,PJ,interpolated,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Gas_CCGT_Biogas,Heat_District,2,2036,0.48548,,PJ,interpolated,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Gas_CCGT_Biogas,Heat_District,2,2037,0.48316,,PJ,interpolated,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Gas_CCGT_Biogas,Heat_District,2,2038,0.48084,,PJ,interpolated,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Gas_CCGT_Biogas,Heat_District,2,2039,0.47852,,PJ,interpolated,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Gas_CCGT_Biogas_CCS,Heat_District,2,2026,0.52104,,PJ,interpolated,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Gas_CCGT_Biogas_CCS,Heat_District,2,2027,0.51578,,PJ,interpolated,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Gas_CCGT_Biogas_CCS,Heat_District,2,2028,0.51052,,PJ,interpolated,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Gas_CCGT_Biogas_CCS,Heat_District,2,2029,0.50526,,PJ,interpolated,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Gas_CCGT_Biogas_CCS,Heat_District,2,2031,0.49756,,PJ,interpolated,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Gas_CCGT_Biogas_CCS,Heat_District,2,2032,0.49512,,PJ,interpolated,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Gas_CCGT_Biogas_CCS,Heat_District,2,2033,0.49268,,PJ,interpolated,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Gas_CCGT_Biogas_CCS,Heat_District,2,2034,0.49024,,PJ,interpolated,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Gas_CCGT_Biogas_CCS,Heat_District,2,2036,0.48548,,PJ,interpolated,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Gas_CCGT_Biogas_CCS,Heat_District,2,2037,0.48316,,PJ,interpolated,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Gas_CCGT_Biogas_CCS,Heat_District,2,2038,0.48084,,PJ,interpolated,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Gas_CCGT_Biogas_CCS,Heat_District,2,2039,0.47852,,PJ,interpolated,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Gas_CCGT_Natural,Heat_District,2,2026,0.52104,,PJ,interpolated,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Gas_CCGT_Natural,Heat_District,2,2027,0.51578,,PJ,interpolated,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Gas_CCGT_Natural,Heat_District,2,2028,0.51052,,PJ,interpolated,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Gas_CCGT_Natural,Heat_District,2,2029,0.50526,,PJ,interpolated,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Gas_CCGT_Natural,Heat_District,2,2031,0.49756,,PJ,interpolated,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Gas_CCGT_Natural,Heat_District,2,2032,0.49512,,PJ,interpolated,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Gas_CCGT_Natural,Heat_District,2,2033,0.49268,,PJ,interpolated,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Gas_CCGT_Natural,Heat_District,2,2034,0.49024,,PJ,interpolated,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Gas_CCGT_Natural,Heat_District,2,2036,0.48548,,PJ,interpolated,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Gas_CCGT_Natural,Heat_District,2,2037,0.48316,,PJ,interpolated,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Gas_CCGT_Natural,Heat_District,2,2038,0.48084,,PJ,interpolated,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Gas_CCGT_Natural,Heat_District,2,2039,0.47852,,PJ,interpolated,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Gas_CCGT_Natural_CCS,Heat_District,2,2026,0.52104,,PJ,interpolated,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Gas_CCGT_Natural_CCS,Heat_District,2,2027,0.51578,,PJ,interpolated,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Gas_CCGT_Natural_CCS,Heat_District,2,2028,0.51052,,PJ,interpolated,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Gas_CCGT_Natural_CCS,Heat_District,2,2029,0.50526,,PJ,interpolated,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Gas_CCGT_Natural_CCS,Heat_District,2,2031,0.49756,,PJ,interpolated,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Gas_CCGT_Natural_CCS,Heat_District,2,2032,0.49512,,PJ,interpolated,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Gas_CCGT_Natural_CCS,Heat_District,2,2033,0.49268,,PJ,interpolated,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Gas_CCGT_Natural_CCS,Heat_District,2,2034,0.49024,,PJ,interpolated,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Gas_CCGT_Natural_CCS,Heat_District,2,2036,0.48548,,PJ,interpolated,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Gas_CCGT_Natural_CCS,Heat_District,2,2037,0.48316,,PJ,interpolated,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Gas_CCGT_Natural_CCS,Heat_District,2,2038,0.48084,,PJ,interpolated,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Gas_CCGT_Natural_CCS,Heat_District,2,2039,0.47852,,PJ,interpolated,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Gas_CCGT_SynGas,Heat_District,2,2026,0.52104,,PJ,interpolated,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Gas_CCGT_SynGas,Heat_District,2,2027,0.51578,,PJ,interpolated,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Gas_CCGT_SynGas,Heat_District,2,2028,0.51052,,PJ,interpolated,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Gas_CCGT_SynGas,Heat_District,2,2029,0.50526,,PJ,interpolated,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Gas_CCGT_SynGas,Heat_District,2,2031,0.49756,,PJ,interpolated,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Gas_CCGT_SynGas,Heat_District,2,2032,0.49512,,PJ,interpolated,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Gas_CCGT_SynGas,Heat_District,2,2033,0.49268,,PJ,interpolated,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Gas_CCGT_SynGas,Heat_District,2,2034,0.49024,,PJ,interpolated,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Gas_CCGT_SynGas,Heat_District,2,2036,0.48548,,PJ,interpolated,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Gas_CCGT_SynGas,Heat_District,2,2037,0.48316,,PJ,interpolated,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Gas_CCGT_SynGas,Heat_District,2,2038,0.48084,,PJ,interpolated,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Gas_CCGT_SynGas,Heat_District,2,2039,0.47852,,PJ,interpolated,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,HHI_BF_BOF,Heat_High_Industrial,2,2026,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,2,2027,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,2,2028,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,2,2029,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,2,2031,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,2,2032,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,2,2033,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,2,2034,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,2,2036,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,2,2037,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,2,2038,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,2,2039,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,3,2026,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,3,2027,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,3,2028,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,3,2029,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,3,2031,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,3,2032,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,3,2033,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,3,2034,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,3,2036,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,3,2037,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,3,2038,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,3,2039,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,4,2026,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,4,2027,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,4,2028,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,4,2029,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,4,2031,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,4,2032,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,4,2033,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,4,2034,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,4,2036,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,4,2037,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,4,2038,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,4,2039,1,,PJ,interpolated,,
+World,HHI_DRI_EAF,Heat_High_Industrial,2,2026,1,,PJ,interpolated,,
+World,HHI_DRI_EAF,Heat_High_Industrial,2,2027,1,,PJ,interpolated,,
+World,HHI_DRI_EAF,Heat_High_Industrial,2,2028,1,,PJ,interpolated,,
+World,HHI_DRI_EAF,Heat_High_Industrial,2,2029,1,,PJ,interpolated,,
+World,HHI_DRI_EAF,Heat_High_Industrial,2,2031,1,,PJ,interpolated,,
+World,HHI_DRI_EAF,Heat_High_Industrial,2,2032,1,,PJ,interpolated,,
+World,HHI_DRI_EAF,Heat_High_Industrial,2,2033,1,,PJ,interpolated,,
+World,HHI_DRI_EAF,Heat_High_Industrial,2,2034,1,,PJ,interpolated,,
+World,HHI_DRI_EAF,Heat_High_Industrial,2,2036,1,,PJ,interpolated,,
+World,HHI_DRI_EAF,Heat_High_Industrial,2,2037,1,,PJ,interpolated,,
+World,HHI_DRI_EAF,Heat_High_Industrial,2,2038,1,,PJ,interpolated,,
+World,HHI_DRI_EAF,Heat_High_Industrial,2,2039,1,,PJ,interpolated,,
+World,HHI_DRI_EAF,Heat_High_Industrial,3,2026,1,,PJ,interpolated,,
+World,HHI_DRI_EAF,Heat_High_Industrial,3,2027,1,,PJ,interpolated,,
+World,HHI_DRI_EAF,Heat_High_Industrial,3,2028,1,,PJ,interpolated,,
+World,HHI_DRI_EAF,Heat_High_Industrial,3,2029,1,,PJ,interpolated,,
+World,HHI_DRI_EAF,Heat_High_Industrial,3,2031,1,,PJ,interpolated,,
+World,HHI_DRI_EAF,Heat_High_Industrial,3,2032,1,,PJ,interpolated,,
+World,HHI_DRI_EAF,Heat_High_Industrial,3,2033,1,,PJ,interpolated,,
+World,HHI_DRI_EAF,Heat_High_Industrial,3,2034,1,,PJ,interpolated,,
+World,HHI_DRI_EAF,Heat_High_Industrial,3,2036,1,,PJ,interpolated,,
+World,HHI_DRI_EAF,Heat_High_Industrial,3,2037,1,,PJ,interpolated,,
+World,HHI_DRI_EAF,Heat_High_Industrial,3,2038,1,,PJ,interpolated,,
+World,HHI_DRI_EAF,Heat_High_Industrial,3,2039,1,,PJ,interpolated,,

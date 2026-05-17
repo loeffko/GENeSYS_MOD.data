@@ -1,4 +1,4 @@
-Region,Value,,Unit,Source,Updated at,Updated by
+Region,Value,Unnamed: 2,Unit,Source,Updated at,Updated by
 AL,0,,Mton,Unlocking Europes CO2 Storage Potential (July 2023)- Theoretical CO2 storage capacity- Low estimates,23.10.2023,Stian Backe <stian.backe@sintef.no>
 AT,400,,Mton,Unlocking Europes CO2 Storage Potential (July 2023)- Theoretical CO2 storage capacity- Low estimates,23.10.2023,Stian Backe <stian.backe@sintef.no>
 BA,0,,Mton,Unlocking Europes CO2 Storage Potential (July 2023)- Theoretical CO2 storage capacity- Low estimates,23.10.2023,Stian Backe <stian.backe@sintef.no>
@@ -35,3 +35,13 @@ LT,300,,Mton,Unlocking Europes CO2 Storage Potential (July 2023)- Theoretical CO
 LV,40,,Mton,Unlocking Europes CO2 Storage Potential (July 2023)- Theoretical CO2 storage capacity- Low estimates,23.10.2023,Stian Backe <stian.backe@sintef.no>
 RU,0,,Mton,Unlocking Europes CO2 Storage Potential (July 2023)- Theoretical CO2 storage capacity- Low estimates,23.10.2023,Stian Backe <stian.backe@sintef.no>
 BY,0,,Mton,Unlocking Europes CO2 Storage Potential (July 2023)- Theoretical CO2 storage capacity- Low estimates,23.10.2023,Stian Backe <stian.backe@sintef.no>
+California,20000,,Mton,dummy data - empty entry,23.10.2023,Stian Backe <stian.backe@sintef.no>
+WECC,28000,,Mton,dummy data - empty entry,23.10.2023,Stian Backe <stian.backe@sintef.no>
+SPP,400,,Mton,dummy data - empty entry,23.10.2023,Stian Backe <stian.backe@sintef.no>
+MISO,200,,Mton,dummy data - empty entry,23.10.2023,Stian Backe <stian.backe@sintef.no>
+ERCOT,400,,Mton,dummy data - empty entry,23.10.2023,Stian Backe <stian.backe@sintef.no>
+SERC,2700,,Mton,dummy data - empty entry,23.10.2023,Stian Backe <stian.backe@sintef.no>
+PJM,2600,,Mton,dummy data - empty entry,23.10.2023,Stian Backe <stian.backe@sintef.no>
+NewYork,13000,,Mton,dummy data - empty entry,23.10.2023,Stian Backe <stian.backe@sintef.no>
+NewEngland,2900,,Mton,dummy data - empty entry,23.10.2023,Stian Backe <stian.backe@sintef.no>
+Canada,13000,,Mton,dummy data - empty entry,23.10.2023,Stian Backe <stian.backe@sintef.no>

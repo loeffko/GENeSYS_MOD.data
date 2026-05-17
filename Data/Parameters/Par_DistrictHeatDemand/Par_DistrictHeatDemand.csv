@@ -1,4 +1,4 @@
-Region,Year,Value,,Unit,Source,Updated at,Updated by
+Region,Year,Value,Unnamed: 3,Unit,Source,Updated at,Updated by
 AT,2018,70.2,,PJ,European Commission: District heating and cooling in the European Union + Fallahnejad et al. 2024: District heating potential in the EU-27 (see assumption and/or calculation file),10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 AT,2020,70.2,,PJ,European Commission: District heating and cooling in the European Union + Fallahnejad et al. 2024: District heating potential in the EU-27 (see assumption and/or calculation file),10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 AT,2021,69.5513,,PJ,European Commission: District heating and cooling in the European Union + Fallahnejad et al. 2024: District heating potential in the EU-27 (see assumption and/or calculation file),10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
@@ -329,3 +329,593 @@ UK,2045,43.2,,PJ,European Commission: District heating and cooling in the Europe
 UK,2050,43.2,,PJ,European Commission: District heating and cooling in the European Union + Fallahnejad et al. 2024: District heating potential in the EU-27 (see assumption and/or calculation file),10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 UK,2055,43.2,,PJ,European Commission: District heating and cooling in the European Union + Fallahnejad et al. 2024: District heating potential in the EU-27 (see assumption and/or calculation file),10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 UK,2060,43.2,,PJ,European Commission: District heating and cooling in the European Union + Fallahnejad et al. 2024: District heating potential in the EU-27 (see assumption and/or calculation file),10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,2018,368.7264,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,2020,368.7264,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,2021,368.3304,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,2025,366.7462,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,2030,364.766,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,2035,362.7858,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,2040,360.8056,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,2045,358.8255,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,2050,356.8453,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,2055,356.8453,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,2060,356.8453,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,2018,91.44,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,2020,91.44,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,2021,96.0257,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,2025,114.3687,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,2030,137.2974,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,2035,160.2262,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,2040,183.1549,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,2045,206.0836,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,2050,229.0123,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,2055,229.0123,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,2060,229.0123,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,2018,22.7952,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,2020,22.7952,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,2021,23.1497,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,2025,24.5679,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,2030,26.3407,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,2035,28.1134,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,2040,29.8862,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,2045,31.6589,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,2050,33.4316,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,2055,33.4316,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,2060,33.4316,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,2018,1.278,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,2020,1.278,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,2021,1.2996,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,2025,1.386,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,2030,1.4939,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,2035,1.6019,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,2040,1.7099,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,2045,1.8179,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,2050,1.9258,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,2055,1.9258,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,2060,1.9258,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,2018,70.2,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,2020,70.2,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,2021,69.5513,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,2025,66.9563,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,2030,63.7126,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,2035,60.4688,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,2040,57.2251,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,2045,53.9814,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,2050,50.7377,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,2055,50.7377,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,2060,50.7377,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,2018,60.4584,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,2020,60.4584,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,2021,60.4283,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,2025,60.3077,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,2030,60.157,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,2035,60.0063,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,2040,59.8556,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,2045,59.7049,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,2050,59.5542,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,2055,59.5542,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,2060,59.5542,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,2018,0,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,2020,0,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,2021,0,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,2025,0,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,2030,0,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,2035,0,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,2040,0,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,2045,0,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,2050,0,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,2055,0,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,2060,0,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,2018,233.4564,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,2020,233.4564,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,2021,231.4222,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,2025,223.2852,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,2030,213.114,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,2035,202.9428,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,2040,192.7717,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,2045,182.6005,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,2050,172.4293,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,2055,172.4293,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,2060,172.4293,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,2018,33.4404,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,2020,33.4404,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,2021,34.8182,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,2025,40.3294,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,2030,47.2183,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,2035,54.1073,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,2040,60.9963,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,2045,67.8853,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,2050,74.7742,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,2055,74.7742,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,2060,74.7742,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,2018,1.9188,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,2020,1.9188,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,2021,2.748,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,2025,6.0649,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,2030,10.2111,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,2035,14.3572,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,2040,18.5033,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,2045,22.6495,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,2050,26.7956,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,2055,26.7956,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,2060,26.7956,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+AT,2026,66.3076,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+AT,2027,65.6588,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+AT,2028,65.0101,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+AT,2029,64.3613,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+AT,2031,63.0638,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+AT,2032,62.4151,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+AT,2033,61.7663,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+AT,2034,61.1176,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+AT,2036,59.8201,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+AT,2037,59.1713,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+AT,2038,58.5226,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+AT,2039,57.8738,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BE,2026,1.40758,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BE,2027,1.42916,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BE,2028,1.45074,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BE,2029,1.47232,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BE,2031,1.5155,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BE,2032,1.5371,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BE,2033,1.5587,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BE,2034,1.5803,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BE,2036,1.6235,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BE,2037,1.6451,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BE,2038,1.6667,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BE,2039,1.6883,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BG,2026,19.6646,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BG,2027,19.5275,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BG,2028,19.3903,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BG,2029,19.2532,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BG,2031,18.9788,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BG,2032,18.8416,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BG,2033,18.7045,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BG,2034,18.5673,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BG,2036,18.2929,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BG,2037,18.1558,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BG,2038,18.0186,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BG,2039,17.8815,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CH,2026,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CH,2027,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CH,2028,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CH,2029,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CH,2031,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CH,2032,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CH,2033,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CH,2034,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CH,2036,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CH,2037,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CH,2038,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CH,2039,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CZ,2026,60.2776,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CZ,2027,60.2474,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CZ,2028,60.2173,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CZ,2029,60.1871,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CZ,2031,60.1269,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CZ,2032,60.0967,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CZ,2033,60.0666,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CZ,2034,60.0364,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CZ,2036,59.9762,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CZ,2037,59.946,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CZ,2038,59.9159,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CZ,2039,59.8857,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DE,2026,366.35,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DE,2027,365.954,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DE,2028,365.558,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DE,2029,365.162,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DE,2031,364.37,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DE,2032,363.974,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DE,2033,363.578,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DE,2034,363.182,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DE,2036,362.39,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DE,2037,361.994,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DE,2038,361.598,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DE,2039,361.202,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DK,2026,100.081,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DK,2027,98.4293,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DK,2028,96.7771,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DK,2029,95.125,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DK,2031,91.8206,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DK,2032,90.1685,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DK,2033,88.5163,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DK,2034,86.8642,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DK,2036,83.5598,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DK,2037,81.9076,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DK,2038,80.2555,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DK,2039,78.6033,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+EE,2026,18.1485,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+EE,2027,17.8973,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+EE,2028,17.646,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+EE,2029,17.3948,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+EE,2031,16.8923,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+EE,2032,16.641,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+EE,2033,16.3898,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+EE,2034,16.1385,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+EE,2036,15.636,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+EE,2037,15.3848,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+EE,2038,15.1335,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+EE,2039,14.8823,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ES,2026,6.89414,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ES,2027,7.72338,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ES,2028,8.55262,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ES,2029,9.38186,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ES,2031,11.0403,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ES,2032,11.8695,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ES,2033,12.6988,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ES,2034,13.528,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ES,2036,15.1864,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ES,2037,16.0156,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ES,2038,16.8449,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ES,2039,17.6741,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FI,2026,114.902,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FI,2027,113.952,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FI,2028,113.002,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FI,2029,112.053,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FI,2031,110.153,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FI,2032,109.204,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FI,2033,108.254,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FI,2034,107.304,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FI,2036,105.405,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FI,2037,104.455,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FI,2038,103.506,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FI,2039,102.556,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FR,2026,118.954,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FR,2027,123.54,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FR,2028,128.126,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FR,2029,132.712,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FR,2031,141.883,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FR,2032,146.469,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FR,2033,151.055,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FR,2034,155.64,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FR,2036,164.812,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FR,2037,169.398,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FR,2038,173.983,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FR,2039,178.569,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+GR,2026,4.04,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+GR,2027,4.13,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+GR,2028,4.22,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+GR,2029,4.31,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+GR,2031,4.49,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+GR,2032,4.58,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+GR,2033,4.67,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+GR,2034,4.76,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+GR,2036,4.94,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+GR,2037,5.03,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+GR,2038,5.12,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+GR,2039,5.21,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HR,2026,7.09956,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HR,2027,7.08402,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HR,2028,7.06848,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HR,2029,7.05294,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HR,2031,7.02184,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HR,2032,7.00628,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HR,2033,6.99072,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HR,2034,6.97516,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HR,2036,6.94406,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HR,2037,6.92852,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HR,2038,6.91298,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HR,2039,6.89744,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HU,2026,27.2047,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HU,2027,27.4146,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HU,2028,27.6245,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HU,2029,27.8344,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HU,2031,28.2542,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HU,2032,28.4641,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HU,2033,28.6741,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HU,2034,28.884,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HU,2036,29.3038,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HU,2037,29.5137,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HU,2038,29.7237,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HU,2039,29.9336,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IE,2026,0.576,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IE,2027,0.672,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IE,2028,0.768,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IE,2029,0.864,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IE,2031,1.056,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IE,2032,1.152,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IE,2033,1.248,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IE,2034,1.344,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IE,2036,1.536,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IE,2037,1.632,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IE,2038,1.728,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IE,2039,1.824,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IT,2026,41.7072,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IT,2027,43.085,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IT,2028,44.4627,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IT,2029,45.8405,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IT,2031,48.5961,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IT,2032,49.9739,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IT,2033,51.3517,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IT,2034,52.7295,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IT,2036,55.4851,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IT,2037,56.8629,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IT,2038,58.2407,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IT,2039,59.6185,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LT,2026,25.4497,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LT,2027,25.1044,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LT,2028,24.759,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LT,2029,24.4137,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LT,2031,23.7229,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LT,2032,23.3775,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LT,2033,23.0322,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LT,2034,22.6868,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LT,2036,21.996,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LT,2037,21.6506,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LT,2038,21.3053,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LT,2039,20.9599,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LU,2026,3.33804,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LU,2027,3.37898,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LU,2028,3.41992,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LU,2029,3.46086,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LU,2031,3.54276,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LU,2032,3.58372,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LU,2033,3.62468,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LU,2034,3.66564,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LU,2036,3.74754,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LU,2037,3.78848,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LU,2038,3.82942,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LU,2039,3.87036,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LV,2026,22.5973,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LV,2027,22.3093,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LV,2028,22.0214,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LV,2029,21.7334,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LV,2031,21.1574,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LV,2032,20.8694,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LV,2033,20.5815,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LV,2034,20.2935,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LV,2036,19.7175,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LV,2037,19.4295,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LV,2038,19.1416,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LV,2039,18.8536,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NL,2026,24.9225,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NL,2027,25.277,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NL,2028,25.6316,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NL,2029,25.9861,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NL,2031,26.6952,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NL,2032,27.0498,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NL,2033,27.4043,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NL,2034,27.7589,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NL,2036,28.468,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NL,2037,28.8225,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NL,2038,29.1771,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NL,2039,29.5316,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NO,2026,27.2459,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NO,2027,27.2459,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NO,2028,27.2459,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NO,2029,27.2459,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NO,2031,27.2459,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NO,2032,27.2459,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NO,2033,27.2459,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NO,2034,27.2459,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NO,2036,27.2459,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NO,2037,27.2459,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NO,2038,27.2459,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NO,2039,27.2459,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NONEU_Balkan,2026,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NONEU_Balkan,2027,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NONEU_Balkan,2028,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NONEU_Balkan,2029,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NONEU_Balkan,2031,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NONEU_Balkan,2032,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NONEU_Balkan,2033,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NONEU_Balkan,2034,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NONEU_Balkan,2036,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NONEU_Balkan,2037,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NONEU_Balkan,2038,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NONEU_Balkan,2039,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PL,2026,221.251,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PL,2027,219.217,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PL,2028,217.182,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PL,2029,215.148,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PL,2031,211.08,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PL,2032,209.046,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PL,2033,207.011,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PL,2034,204.977,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PL,2036,200.909,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PL,2037,198.874,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PL,2038,196.84,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PL,2039,194.806,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,2026,0.17028,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,2027,0.17286,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,2028,0.17544,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,2029,0.17802,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,2031,0.18318,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,2032,0.18576,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,2033,0.18834,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,2034,0.19092,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,2036,0.19608,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,2037,0.19866,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,2038,0.20124,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,2039,0.20382,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+RO,2026,33.9288,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+RO,2027,33.652,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+RO,2028,33.3751,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+RO,2029,33.0983,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+RO,2031,32.5447,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+RO,2032,32.2679,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+RO,2033,31.9911,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+RO,2034,31.7143,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+RO,2036,31.1607,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+RO,2037,30.8839,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+RO,2038,30.607,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+RO,2039,30.3302,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SE,2026,179.832,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SE,2027,179.234,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SE,2028,178.635,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SE,2029,178.037,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SE,2031,176.84,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SE,2032,176.241,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SE,2033,175.642,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SE,2034,175.044,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SE,2036,173.847,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SE,2037,173.248,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SE,2038,172.65,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SE,2039,172.051,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SI,2026,6.60732,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SI,2027,6.57034,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SI,2028,6.53336,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SI,2029,6.49638,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SI,2031,6.4224,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SI,2032,6.3854,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SI,2033,6.3484,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SI,2034,6.3114,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SI,2036,6.23742,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SI,2037,6.20044,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SI,2038,6.16346,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SI,2039,6.12648,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SK,2026,48.4289,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SK,2027,47.9378,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SK,2028,47.4466,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SK,2029,46.9555,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SK,2031,45.9733,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SK,2032,45.4822,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SK,2033,44.991,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SK,2034,44.4999,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SK,2036,43.5177,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SK,2037,43.0266,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SK,2038,42.5354,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SK,2039,42.0443,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+TR,2026,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+TR,2027,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+TR,2028,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+TR,2029,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+TR,2031,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+TR,2032,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+TR,2033,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+TR,2034,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+TR,2036,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+TR,2037,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+TR,2038,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+TR,2039,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+UK,2026,43.2,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+UK,2027,43.2,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+UK,2028,43.2,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+UK,2029,43.2,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+UK,2031,43.2,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+UK,2032,43.2,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+UK,2033,43.2,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+UK,2034,43.2,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+UK,2036,43.2,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+UK,2037,43.2,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+UK,2038,43.2,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+UK,2039,43.2,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,2026,366.35,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,2027,365.954,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,2028,365.558,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,2029,365.162,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,2031,364.37,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,2032,363.974,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,2033,363.578,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,2034,363.182,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,2036,362.39,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,2037,361.994,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,2038,361.598,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,2039,361.202,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,2026,118.954,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,2027,123.54,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,2028,128.126,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,2029,132.712,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,2031,141.883,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,2032,146.469,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,2033,151.055,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,2034,155.64,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,2036,164.812,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,2037,169.398,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,2038,173.983,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,2039,178.569,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,2026,24.9225,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,2027,25.277,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,2028,25.6316,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,2029,25.9861,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,2031,26.6952,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,2032,27.0498,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,2033,27.4043,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,2034,27.7589,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,2036,28.468,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,2037,28.8225,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,2038,29.1771,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,2039,29.5316,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,2026,1.40758,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,2027,1.42916,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,2028,1.45074,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,2029,1.47232,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,2031,1.5155,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,2032,1.5371,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,2033,1.5587,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,2034,1.5803,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,2036,1.6235,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,2037,1.6451,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,2038,1.6667,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,2039,1.6883,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,2026,66.3076,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,2027,65.6588,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,2028,65.0101,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,2029,64.3613,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,2031,63.0638,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,2032,62.4151,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,2033,61.7663,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,2034,61.1176,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,2036,59.8201,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,2037,59.1713,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,2038,58.5226,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,2039,57.8738,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,2026,60.2776,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,2027,60.2474,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,2028,60.2173,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,2029,60.1871,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,2031,60.1269,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,2032,60.0967,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,2033,60.0666,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,2034,60.0364,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,2036,59.9762,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,2037,59.946,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,2038,59.9159,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,2039,59.8857,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,2026,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,2027,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,2028,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,2029,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,2031,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,2032,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,2033,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,2034,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,2036,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,2037,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,2038,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,2039,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,2026,221.251,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,2027,219.217,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,2028,217.182,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,2029,215.148,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,2031,211.08,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,2032,209.046,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,2033,207.011,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,2034,204.977,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,2036,200.909,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,2037,198.874,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,2038,196.84,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,2039,194.806,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,2026,41.7072,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,2027,43.085,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,2028,44.4627,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,2029,45.8405,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,2031,48.5961,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,2032,49.9739,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,2033,51.3517,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,2034,52.7295,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,2036,55.4851,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,2037,56.8629,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,2038,58.2407,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,2039,59.6185,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,2026,6.89414,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,2027,7.72338,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,2028,8.55262,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,2029,9.38186,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,2031,11.0403,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,2032,11.8695,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,2033,12.6988,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,2034,13.528,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,2036,15.1864,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,2037,16.0156,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,2038,16.8449,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,2039,17.6741,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>

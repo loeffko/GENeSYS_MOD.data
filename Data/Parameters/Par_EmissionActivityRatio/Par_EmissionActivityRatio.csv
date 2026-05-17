@@ -1,4 +1,4 @@
-Region,Technology,Mode_of_operation,Emission,Year,Value,,Unit,Source,Updated at,Updated by
+Region,Technology,Mode_of_operation,Emission,Year,Value,Unnamed: 6,Unit,Source,Updated at,Updated by
 World,CHP_Biomass_Solid,All,CO2,All,0,,Fraction,no source needed - all emissions go into athmosphere,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 World,CHP_Biomass_Solid_CCS,All,CO2,All,-0.88,,Fraction,,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 World,CHP_Coal_Hardcoal,All,CO2,All,1,,Fraction,no source needed - all emissions go into athmosphere,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
@@ -114,3 +114,75 @@ World,X_DAC_LT,All,CO2,All,-1,,Fraction,CO2 removal from athmosphere,22.01.2025,
 World,X_SMR,All,CO2,All,1,,Fraction,no source needed - all emissions go into athmosphere,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 World,Z_ETS_Buy,All,CO2,All,-1,,Fraction,Emissions trading system,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 World,Z_ETS_Sell,All,CO2,All,1,,Fraction,Emissions trading system,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HHI_BF_BOF_CCS,All,CO2,2026,0.0836,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HHI_BF_BOF_CCS,All,CO2,2027,0.0832,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HHI_BF_BOF_CCS,All,CO2,2028,0.0828,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HHI_BF_BOF_CCS,All,CO2,2029,0.0824,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HHI_BF_BOF_CCS,All,CO2,2031,0.0818,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HHI_BF_BOF_CCS,All,CO2,2032,0.0816,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HHI_BF_BOF_CCS,All,CO2,2033,0.0814,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HHI_BF_BOF_CCS,All,CO2,2034,0.0812,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HHI_BF_BOF_CCS,All,CO2,2036,0.081,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HHI_BF_BOF_CCS,All,CO2,2037,0.081,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HHI_BF_BOF_CCS,All,CO2,2038,0.081,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HHI_BF_BOF_CCS,All,CO2,2039,0.081,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HHI_DRI_EAF_CCS,All,CO2,2026,0.0836,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HHI_DRI_EAF_CCS,All,CO2,2027,0.0832,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HHI_DRI_EAF_CCS,All,CO2,2028,0.0828,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HHI_DRI_EAF_CCS,All,CO2,2029,0.0824,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HHI_DRI_EAF_CCS,All,CO2,2031,0.0818,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HHI_DRI_EAF_CCS,All,CO2,2032,0.0816,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HHI_DRI_EAF_CCS,All,CO2,2033,0.0814,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HHI_DRI_EAF_CCS,All,CO2,2034,0.0812,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HHI_DRI_EAF_CCS,All,CO2,2036,0.081,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HHI_DRI_EAF_CCS,All,CO2,2037,0.081,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HHI_DRI_EAF_CCS,All,CO2,2038,0.081,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HHI_DRI_EAF_CCS,All,CO2,2039,0.081,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HMHI_Gas_CCS,All,CO2,2026,0.0836,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HMHI_Gas_CCS,All,CO2,2027,0.0832,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HMHI_Gas_CCS,All,CO2,2028,0.0828,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HMHI_Gas_CCS,All,CO2,2029,0.0824,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HMHI_Gas_CCS,All,CO2,2031,0.0818,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HMHI_Gas_CCS,All,CO2,2032,0.0816,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HMHI_Gas_CCS,All,CO2,2033,0.0814,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HMHI_Gas_CCS,All,CO2,2034,0.0812,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HMHI_Gas_CCS,All,CO2,2036,0.081,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HMHI_Gas_CCS,All,CO2,2037,0.081,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HMHI_Gas_CCS,All,CO2,2038,0.081,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HMHI_Gas_CCS,All,CO2,2039,0.081,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HMHI_HardCoal_CCS,All,CO2,2026,0.0836,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HMHI_HardCoal_CCS,All,CO2,2027,0.0832,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HMHI_HardCoal_CCS,All,CO2,2028,0.0828,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HMHI_HardCoal_CCS,All,CO2,2029,0.0824,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HMHI_HardCoal_CCS,All,CO2,2031,0.0818,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HMHI_HardCoal_CCS,All,CO2,2032,0.0816,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HMHI_HardCoal_CCS,All,CO2,2033,0.0814,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HMHI_HardCoal_CCS,All,CO2,2034,0.0812,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HMHI_HardCoal_CCS,All,CO2,2036,0.081,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HMHI_HardCoal_CCS,All,CO2,2037,0.081,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HMHI_HardCoal_CCS,All,CO2,2038,0.081,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,HMHI_HardCoal_CCS,All,CO2,2039,0.081,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Coal_Hardcoal_CCS,All,CO2,2026,0.0836,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Coal_Hardcoal_CCS,All,CO2,2027,0.0832,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Coal_Hardcoal_CCS,All,CO2,2028,0.0828,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Coal_Hardcoal_CCS,All,CO2,2029,0.0824,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Coal_Hardcoal_CCS,All,CO2,2031,0.0818,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Coal_Hardcoal_CCS,All,CO2,2032,0.0816,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Coal_Hardcoal_CCS,All,CO2,2033,0.0814,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Coal_Hardcoal_CCS,All,CO2,2034,0.0812,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Coal_Hardcoal_CCS,All,CO2,2036,0.081,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Coal_Hardcoal_CCS,All,CO2,2037,0.081,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Coal_Hardcoal_CCS,All,CO2,2038,0.081,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Coal_Hardcoal_CCS,All,CO2,2039,0.081,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Gas_CCS,All,CO2,2026,0.0836,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Gas_CCS,All,CO2,2027,0.0832,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Gas_CCS,All,CO2,2028,0.0828,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Gas_CCS,All,CO2,2029,0.0824,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Gas_CCS,All,CO2,2031,0.0818,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Gas_CCS,All,CO2,2032,0.0816,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Gas_CCS,All,CO2,2033,0.0814,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Gas_CCS,All,CO2,2034,0.0812,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Gas_CCS,All,CO2,2036,0.081,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Gas_CCS,All,CO2,2037,0.081,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Gas_CCS,All,CO2,2038,0.081,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Gas_CCS,All,CO2,2039,0.081,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>

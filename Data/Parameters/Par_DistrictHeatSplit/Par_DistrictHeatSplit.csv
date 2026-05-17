@@ -1,4 +1,4 @@
-Region,Sector,Year,Value,,Unit,Source,Updated at,Updated by
+Region,Sector,Year,Value,Unnamed: 4,Unit,Source,Updated at,Updated by
 AT,Buildings,2018,0.84,,PJ,European Commission: District heating and cooling in the European Union (see assumption and/or calculation file),10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 AT,Buildings,2020,0.84,,PJ,European Commission: District heating and cooling in the European Union (see assumption and/or calculation file),10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 AT,Buildings,2021,0.84,,PJ,European Commission: District heating and cooling in the European Union (see assumption and/or calculation file),10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
@@ -659,3 +659,1183 @@ UK,Industry,2045,0,,PJ,European Commission: District heating and cooling in the 
 UK,Industry,2050,0,,PJ,European Commission: District heating and cooling in the European Union (see assumption and/or calculation file),10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 UK,Industry,2055,0,,PJ,European Commission: District heating and cooling in the European Union (see assumption and/or calculation file),10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 UK,Industry,2060,0,,PJ,European Commission: District heating and cooling in the European Union (see assumption and/or calculation file),10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,Buildings,2018,0.78,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,Buildings,2020,0.78,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,Buildings,2021,0.78,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,Buildings,2025,0.78,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,Buildings,2030,0.74,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,Buildings,2035,0.7,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,Buildings,2040,0.66,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,Buildings,2045,0.62,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,Buildings,2050,0.59,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,Buildings,2055,0.59,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,Buildings,2060,0.59,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,Industry,2018,0.22,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,Industry,2020,0.22,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,Industry,2021,0.22,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,Industry,2025,0.22,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,Industry,2030,0.21,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,Industry,2035,0.2,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,Industry,2040,0.19,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,Industry,2045,0.18,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,Industry,2050,0.17,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,Industry,2055,0.17,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,Industry,2060,0.17,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,Buildings,2018,0.87,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,Buildings,2020,0.87,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,Buildings,2021,0.87,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,Buildings,2025,0.87,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,Buildings,2030,0.83,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,Buildings,2035,0.78,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,Buildings,2040,0.74,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,Buildings,2045,0.7,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,Buildings,2050,0.65,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,Buildings,2055,0.65,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,Buildings,2060,0.65,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,Industry,2018,0.13,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,Industry,2020,0.13,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,Industry,2021,0.13,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,Industry,2025,0.13,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,Industry,2030,0.12,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,Industry,2035,0.12,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,Industry,2040,0.11,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,Industry,2045,0.1,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,Industry,2050,0.1,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,Industry,2055,0.1,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,Industry,2060,0.1,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,Buildings,2018,0.79,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,Buildings,2020,0.79,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,Buildings,2021,0.79,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,Buildings,2025,0.79,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,Buildings,2030,0.75,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,Buildings,2035,0.71,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,Buildings,2040,0.67,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,Buildings,2045,0.63,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,Buildings,2050,0.59,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,Buildings,2055,0.59,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,Buildings,2060,0.59,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,Industry,2018,0.21,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,Industry,2020,0.21,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,Industry,2021,0.21,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,Industry,2025,0.21,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,Industry,2030,0.2,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,Industry,2035,0.19,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,Industry,2040,0.18,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,Industry,2045,0.17,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,Industry,2050,0.16,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,Industry,2055,0.16,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,Industry,2060,0.16,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,Buildings,2018,0.73,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,Buildings,2020,0.73,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,Buildings,2021,0.73,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,Buildings,2025,0.73,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,Buildings,2030,0.69,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,Buildings,2035,0.66,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,Buildings,2040,0.62,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,Buildings,2045,0.58,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,Buildings,2050,0.55,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,Buildings,2055,0.55,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,Buildings,2060,0.55,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,Industry,2018,0.27,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,Industry,2020,0.27,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,Industry,2021,0.27,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,Industry,2025,0.27,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,Industry,2030,0.26,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,Industry,2035,0.24,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,Industry,2040,0.23,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,Industry,2045,0.22,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,Industry,2050,0.2,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,Industry,2055,0.2,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,Industry,2060,0.2,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,Buildings,2018,0.84,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,Buildings,2020,0.84,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,Buildings,2021,0.84,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,Buildings,2025,0.84,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,Buildings,2030,0.8,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,Buildings,2035,0.76,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,Buildings,2040,0.71,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,Buildings,2045,0.67,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,Buildings,2050,0.63,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,Buildings,2055,0.63,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,Buildings,2060,0.63,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,Industry,2018,0.16,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,Industry,2020,0.16,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,Industry,2021,0.16,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,Industry,2025,0.16,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,Industry,2030,0.15,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,Industry,2035,0.14,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,Industry,2040,0.14,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,Industry,2045,0.13,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,Industry,2050,0.12,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,Industry,2055,0.12,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,Industry,2060,0.12,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,Buildings,2018,0.66,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,Buildings,2020,0.66,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,Buildings,2021,0.66,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,Buildings,2025,0.66,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,Buildings,2030,0.63,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,Buildings,2035,0.59,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,Buildings,2040,0.56,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,Buildings,2045,0.53,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,Buildings,2050,0.5,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,Buildings,2055,0.5,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,Buildings,2060,0.5,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,Industry,2018,0.34,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,Industry,2020,0.34,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,Industry,2021,0.34,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,Industry,2025,0.34,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,Industry,2030,0.32,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,Industry,2035,0.31,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,Industry,2040,0.29,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,Industry,2045,0.27,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,Industry,2050,0.26,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,Industry,2055,0.26,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,Industry,2060,0.26,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,Buildings,2018,0,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,Buildings,2020,0,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,Buildings,2021,0,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,Buildings,2025,0,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,Buildings,2030,0,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,Buildings,2035,0,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,Buildings,2040,0,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,Buildings,2045,0,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,Buildings,2050,0,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,Buildings,2055,0,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,Buildings,2060,0,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,Industry,2018,0,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,Industry,2020,0,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,Industry,2021,0,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,Industry,2025,0,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,Industry,2030,0,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,Industry,2035,0,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,Industry,2040,0,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,Industry,2045,0,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,Industry,2050,0,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,Industry,2055,0,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,Industry,2060,0,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,Buildings,2018,0.85,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,Buildings,2020,0.85,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,Buildings,2021,0.85,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,Buildings,2025,0.85,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,Buildings,2030,0.81,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,Buildings,2035,0.77,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,Buildings,2040,0.72,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,Buildings,2045,0.68,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,Buildings,2050,0.64,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,Buildings,2055,0.64,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,Buildings,2060,0.64,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,Industry,2018,0.15,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,Industry,2020,0.15,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,Industry,2021,0.15,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,Industry,2025,0.15,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,Industry,2030,0.14,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,Industry,2035,0.14,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,Industry,2040,0.13,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,Industry,2045,0.12,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,Industry,2050,0.11,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,Industry,2055,0.11,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,Industry,2060,0.11,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,Buildings,2018,0.97,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,Buildings,2020,0.97,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,Buildings,2021,0.97,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,Buildings,2025,0.97,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,Buildings,2030,0.92,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,Buildings,2035,0.87,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,Buildings,2040,0.82,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,Buildings,2045,0.78,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,Buildings,2050,0.73,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,Buildings,2055,0.73,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,Buildings,2060,0.73,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,Industry,2018,0.03,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,Industry,2020,0.03,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,Industry,2021,0.03,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,Industry,2025,0.03,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,Industry,2030,0.03,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,Industry,2035,0.03,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,Industry,2040,0.03,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,Industry,2045,0.02,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,Industry,2050,0.02,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,Industry,2055,0.02,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,Industry,2060,0.02,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,Buildings,2018,0.78,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,Buildings,2020,0.78,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,Buildings,2021,0.78,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,Buildings,2025,0.78,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,Buildings,2030,0.74,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,Buildings,2035,0.7,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,Buildings,2040,0.66,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,Buildings,2045,0.62,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,Buildings,2050,0.59,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,Buildings,2055,0.59,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,Buildings,2060,0.59,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,Industry,2018,0.22,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,Industry,2020,0.22,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,Industry,2021,0.22,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,Industry,2025,0.22,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,Industry,2030,0.21,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,Industry,2035,0.2,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,Industry,2040,0.19,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,Industry,2045,0.18,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,Industry,2050,0.17,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,Industry,2055,0.17,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,Industry,2060,0.17,,PJ,dummy data - empty entry,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+AT,Buildings,2026,0.832,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+AT,Buildings,2027,0.824,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+AT,Buildings,2028,0.816,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+AT,Buildings,2029,0.808,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+AT,Buildings,2031,0.792,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+AT,Buildings,2032,0.784,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+AT,Buildings,2033,0.776,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+AT,Buildings,2034,0.768,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+AT,Buildings,2036,0.75,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+AT,Buildings,2037,0.74,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+AT,Buildings,2038,0.73,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+AT,Buildings,2039,0.72,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BE,Buildings,2026,0.722,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BE,Buildings,2027,0.714,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BE,Buildings,2028,0.706,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BE,Buildings,2029,0.698,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BE,Buildings,2031,0.684,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BE,Buildings,2032,0.678,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BE,Buildings,2033,0.672,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BE,Buildings,2034,0.666,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BE,Buildings,2036,0.652,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BE,Buildings,2037,0.644,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BE,Buildings,2038,0.636,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BE,Buildings,2039,0.628,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BG,Buildings,2026,0.882,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BG,Buildings,2027,0.874,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BG,Buildings,2028,0.866,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BG,Buildings,2029,0.858,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BG,Buildings,2031,0.84,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BG,Buildings,2032,0.83,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BG,Buildings,2033,0.82,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BG,Buildings,2034,0.81,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BG,Buildings,2036,0.792,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BG,Buildings,2037,0.784,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BG,Buildings,2038,0.776,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BG,Buildings,2039,0.768,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CH,Buildings,2026,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CH,Buildings,2027,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CH,Buildings,2028,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CH,Buildings,2029,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CH,Buildings,2031,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CH,Buildings,2032,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CH,Buildings,2033,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CH,Buildings,2034,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CH,Buildings,2036,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CH,Buildings,2037,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CH,Buildings,2038,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CH,Buildings,2039,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CZ,Buildings,2026,0.654,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CZ,Buildings,2027,0.648,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CZ,Buildings,2028,0.642,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CZ,Buildings,2029,0.636,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CZ,Buildings,2031,0.622,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CZ,Buildings,2032,0.614,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CZ,Buildings,2033,0.606,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CZ,Buildings,2034,0.598,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CZ,Buildings,2036,0.584,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CZ,Buildings,2037,0.578,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CZ,Buildings,2038,0.572,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CZ,Buildings,2039,0.566,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DE,Buildings,2026,0.772,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DE,Buildings,2027,0.764,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DE,Buildings,2028,0.756,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DE,Buildings,2029,0.748,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DE,Buildings,2031,0.732,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DE,Buildings,2032,0.724,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DE,Buildings,2033,0.716,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DE,Buildings,2034,0.708,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DE,Buildings,2036,0.692,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DE,Buildings,2037,0.684,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DE,Buildings,2038,0.676,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DE,Buildings,2039,0.668,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DK,Buildings,2026,0.94,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DK,Buildings,2027,0.93,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DK,Buildings,2028,0.92,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DK,Buildings,2029,0.91,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DK,Buildings,2031,0.892,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DK,Buildings,2032,0.884,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DK,Buildings,2033,0.876,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DK,Buildings,2034,0.868,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DK,Buildings,2036,0.85,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DK,Buildings,2037,0.84,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DK,Buildings,2038,0.83,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DK,Buildings,2039,0.82,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+EE,Buildings,2026,0.91,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+EE,Buildings,2027,0.9,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+EE,Buildings,2028,0.89,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+EE,Buildings,2029,0.88,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+EE,Buildings,2031,0.862,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+EE,Buildings,2032,0.854,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+EE,Buildings,2033,0.846,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+EE,Buildings,2034,0.838,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+EE,Buildings,2036,0.82,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+EE,Buildings,2037,0.81,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+EE,Buildings,2038,0.8,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+EE,Buildings,2039,0.79,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ES,Buildings,2026,0.772,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ES,Buildings,2027,0.764,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ES,Buildings,2028,0.756,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ES,Buildings,2029,0.748,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ES,Buildings,2031,0.732,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ES,Buildings,2032,0.724,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ES,Buildings,2033,0.716,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ES,Buildings,2034,0.708,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ES,Buildings,2036,0.692,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ES,Buildings,2037,0.684,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ES,Buildings,2038,0.676,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ES,Buildings,2039,0.668,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FI,Buildings,2026,0.9,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FI,Buildings,2027,0.89,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FI,Buildings,2028,0.88,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FI,Buildings,2029,0.87,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FI,Buildings,2031,0.852,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FI,Buildings,2032,0.844,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FI,Buildings,2033,0.836,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FI,Buildings,2034,0.828,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FI,Buildings,2036,0.81,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FI,Buildings,2037,0.8,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FI,Buildings,2038,0.79,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FI,Buildings,2039,0.78,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FR,Buildings,2026,0.862,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FR,Buildings,2027,0.854,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FR,Buildings,2028,0.846,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FR,Buildings,2029,0.838,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FR,Buildings,2031,0.82,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FR,Buildings,2032,0.81,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FR,Buildings,2033,0.8,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FR,Buildings,2034,0.79,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FR,Buildings,2036,0.772,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FR,Buildings,2037,0.764,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FR,Buildings,2038,0.756,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FR,Buildings,2039,0.748,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+GR,Buildings,2026,0.99,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+GR,Buildings,2027,0.98,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+GR,Buildings,2028,0.97,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+GR,Buildings,2029,0.96,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+GR,Buildings,2031,0.94,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+GR,Buildings,2032,0.93,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+GR,Buildings,2033,0.92,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+GR,Buildings,2034,0.91,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+GR,Buildings,2036,0.89,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+GR,Buildings,2037,0.88,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+GR,Buildings,2038,0.87,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+GR,Buildings,2039,0.86,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HR,Buildings,2026,0.832,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HR,Buildings,2027,0.824,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HR,Buildings,2028,0.816,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HR,Buildings,2029,0.808,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HR,Buildings,2031,0.792,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HR,Buildings,2032,0.784,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HR,Buildings,2033,0.776,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HR,Buildings,2034,0.768,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HR,Buildings,2036,0.75,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HR,Buildings,2037,0.74,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HR,Buildings,2038,0.73,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HR,Buildings,2039,0.72,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HU,Buildings,2026,0.99,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HU,Buildings,2027,0.98,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HU,Buildings,2028,0.97,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HU,Buildings,2029,0.96,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HU,Buildings,2031,0.94,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HU,Buildings,2032,0.93,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HU,Buildings,2033,0.92,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HU,Buildings,2034,0.91,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HU,Buildings,2036,0.89,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HU,Buildings,2037,0.88,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HU,Buildings,2038,0.87,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HU,Buildings,2039,0.86,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IE,Buildings,2026,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IE,Buildings,2027,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IE,Buildings,2028,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IE,Buildings,2029,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IE,Buildings,2031,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IE,Buildings,2032,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IE,Buildings,2033,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IE,Buildings,2034,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IE,Buildings,2036,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IE,Buildings,2037,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IE,Buildings,2038,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IE,Buildings,2039,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IT,Buildings,2026,0.96,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IT,Buildings,2027,0.95,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IT,Buildings,2028,0.94,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IT,Buildings,2029,0.93,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IT,Buildings,2031,0.91,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IT,Buildings,2032,0.9,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IT,Buildings,2033,0.89,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IT,Buildings,2034,0.88,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IT,Buildings,2036,0.86,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IT,Buildings,2037,0.85,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IT,Buildings,2038,0.84,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IT,Buildings,2039,0.83,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LT,Buildings,2026,0.99,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LT,Buildings,2027,0.98,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LT,Buildings,2028,0.97,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LT,Buildings,2029,0.96,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LT,Buildings,2031,0.94,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LT,Buildings,2032,0.93,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LT,Buildings,2033,0.92,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LT,Buildings,2034,0.91,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LT,Buildings,2036,0.89,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LT,Buildings,2037,0.88,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LT,Buildings,2038,0.87,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LT,Buildings,2039,0.86,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LU,Buildings,2026,0.98,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LU,Buildings,2027,0.97,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LU,Buildings,2028,0.96,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LU,Buildings,2029,0.95,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LU,Buildings,2031,0.93,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LU,Buildings,2032,0.92,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LU,Buildings,2033,0.91,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LU,Buildings,2034,0.9,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LU,Buildings,2036,0.88,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LU,Buildings,2037,0.87,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LU,Buildings,2038,0.86,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LU,Buildings,2039,0.85,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LV,Buildings,2026,0.852,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LV,Buildings,2027,0.844,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LV,Buildings,2028,0.836,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LV,Buildings,2029,0.828,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LV,Buildings,2031,0.81,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LV,Buildings,2032,0.8,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LV,Buildings,2033,0.79,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LV,Buildings,2034,0.78,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LV,Buildings,2036,0.762,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LV,Buildings,2037,0.754,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LV,Buildings,2038,0.746,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LV,Buildings,2039,0.738,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NL,Buildings,2026,0.782,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NL,Buildings,2027,0.774,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NL,Buildings,2028,0.766,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NL,Buildings,2029,0.758,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NL,Buildings,2031,0.742,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NL,Buildings,2032,0.734,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NL,Buildings,2033,0.726,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NL,Buildings,2034,0.718,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NL,Buildings,2036,0.702,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NL,Buildings,2037,0.694,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NL,Buildings,2038,0.686,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NL,Buildings,2039,0.678,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NO,Buildings,2026,0.852,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NO,Buildings,2027,0.844,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NO,Buildings,2028,0.836,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NO,Buildings,2029,0.828,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NO,Buildings,2031,0.81,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NO,Buildings,2032,0.8,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NO,Buildings,2033,0.79,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NO,Buildings,2034,0.78,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NO,Buildings,2036,0.762,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NO,Buildings,2037,0.754,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NO,Buildings,2038,0.746,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NO,Buildings,2039,0.738,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NONEU_Balkan,Buildings,2026,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NONEU_Balkan,Buildings,2027,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NONEU_Balkan,Buildings,2028,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NONEU_Balkan,Buildings,2029,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NONEU_Balkan,Buildings,2031,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NONEU_Balkan,Buildings,2032,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NONEU_Balkan,Buildings,2033,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NONEU_Balkan,Buildings,2034,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NONEU_Balkan,Buildings,2036,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NONEU_Balkan,Buildings,2037,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NONEU_Balkan,Buildings,2038,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NONEU_Balkan,Buildings,2039,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PL,Buildings,2026,0.842,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PL,Buildings,2027,0.834,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PL,Buildings,2028,0.826,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PL,Buildings,2029,0.818,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PL,Buildings,2031,0.802,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PL,Buildings,2032,0.794,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PL,Buildings,2033,0.786,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PL,Buildings,2034,0.778,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PL,Buildings,2036,0.76,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PL,Buildings,2037,0.75,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PL,Buildings,2038,0.74,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PL,Buildings,2039,0.73,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,Buildings,2026,0.99,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,Buildings,2027,0.98,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,Buildings,2028,0.97,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,Buildings,2029,0.96,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,Buildings,2031,0.94,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,Buildings,2032,0.93,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,Buildings,2033,0.92,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,Buildings,2034,0.91,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,Buildings,2036,0.89,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,Buildings,2037,0.88,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,Buildings,2038,0.87,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,Buildings,2039,0.86,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+RO,Buildings,2026,0.99,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+RO,Buildings,2027,0.98,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+RO,Buildings,2028,0.97,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+RO,Buildings,2029,0.96,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+RO,Buildings,2031,0.94,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+RO,Buildings,2032,0.93,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+RO,Buildings,2033,0.92,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+RO,Buildings,2034,0.91,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+RO,Buildings,2036,0.89,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+RO,Buildings,2037,0.88,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+RO,Buildings,2038,0.87,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+RO,Buildings,2039,0.86,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SE,Buildings,2026,0.882,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SE,Buildings,2027,0.874,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SE,Buildings,2028,0.866,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SE,Buildings,2029,0.858,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SE,Buildings,2031,0.84,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SE,Buildings,2032,0.83,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SE,Buildings,2033,0.82,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SE,Buildings,2034,0.81,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SE,Buildings,2036,0.792,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SE,Buildings,2037,0.784,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SE,Buildings,2038,0.776,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SE,Buildings,2039,0.768,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SI,Buildings,2026,0.802,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SI,Buildings,2027,0.794,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SI,Buildings,2028,0.786,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SI,Buildings,2029,0.778,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SI,Buildings,2031,0.762,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SI,Buildings,2032,0.754,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SI,Buildings,2033,0.746,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SI,Buildings,2034,0.738,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SI,Buildings,2036,0.722,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SI,Buildings,2037,0.714,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SI,Buildings,2038,0.706,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SI,Buildings,2039,0.698,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SK,Buildings,2026,0.604,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SK,Buildings,2027,0.598,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SK,Buildings,2028,0.592,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SK,Buildings,2029,0.586,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SK,Buildings,2031,0.574,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SK,Buildings,2032,0.568,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SK,Buildings,2033,0.562,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SK,Buildings,2034,0.556,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SK,Buildings,2036,0.544,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SK,Buildings,2037,0.538,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SK,Buildings,2038,0.532,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SK,Buildings,2039,0.526,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+TR,Buildings,2026,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+TR,Buildings,2027,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+TR,Buildings,2028,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+TR,Buildings,2029,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+TR,Buildings,2031,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+TR,Buildings,2032,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+TR,Buildings,2033,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+TR,Buildings,2034,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+TR,Buildings,2036,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+TR,Buildings,2037,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+TR,Buildings,2038,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+TR,Buildings,2039,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+UK,Buildings,2026,0.99,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+UK,Buildings,2027,0.98,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+UK,Buildings,2028,0.97,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+UK,Buildings,2029,0.96,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+UK,Buildings,2031,0.94,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+UK,Buildings,2032,0.93,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+UK,Buildings,2033,0.92,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+UK,Buildings,2034,0.91,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+UK,Buildings,2036,0.89,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+UK,Buildings,2037,0.88,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+UK,Buildings,2038,0.87,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+UK,Buildings,2039,0.86,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+AT,Industry,2026,0.158,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+AT,Industry,2027,0.156,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+AT,Industry,2028,0.154,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+AT,Industry,2029,0.152,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+AT,Industry,2031,0.148,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+AT,Industry,2032,0.146,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+AT,Industry,2033,0.144,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+AT,Industry,2034,0.142,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+AT,Industry,2036,0.14,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+AT,Industry,2037,0.14,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+AT,Industry,2038,0.14,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+AT,Industry,2039,0.14,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BE,Industry,2026,0.268,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BE,Industry,2027,0.266,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BE,Industry,2028,0.264,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BE,Industry,2029,0.262,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BE,Industry,2031,0.256,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BE,Industry,2032,0.252,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BE,Industry,2033,0.248,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BE,Industry,2034,0.244,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BE,Industry,2036,0.238,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BE,Industry,2037,0.236,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BE,Industry,2038,0.234,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BE,Industry,2039,0.232,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BG,Industry,2026,0.108,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BG,Industry,2027,0.106,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BG,Industry,2028,0.104,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BG,Industry,2029,0.102,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BG,Industry,2031,0.1,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BG,Industry,2032,0.1,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BG,Industry,2033,0.1,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BG,Industry,2034,0.1,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BG,Industry,2036,0.098,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BG,Industry,2037,0.096,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BG,Industry,2038,0.094,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BG,Industry,2039,0.092,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CH,Industry,2026,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CH,Industry,2027,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CH,Industry,2028,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CH,Industry,2029,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CH,Industry,2031,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CH,Industry,2032,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CH,Industry,2033,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CH,Industry,2034,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CH,Industry,2036,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CH,Industry,2037,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CH,Industry,2038,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CH,Industry,2039,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CZ,Industry,2026,0.336,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CZ,Industry,2027,0.332,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CZ,Industry,2028,0.328,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CZ,Industry,2029,0.324,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CZ,Industry,2031,0.318,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CZ,Industry,2032,0.316,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CZ,Industry,2033,0.314,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CZ,Industry,2034,0.312,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CZ,Industry,2036,0.306,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CZ,Industry,2037,0.302,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CZ,Industry,2038,0.298,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+CZ,Industry,2039,0.294,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DE,Industry,2026,0.218,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DE,Industry,2027,0.216,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DE,Industry,2028,0.214,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DE,Industry,2029,0.212,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DE,Industry,2031,0.208,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DE,Industry,2032,0.206,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DE,Industry,2033,0.204,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DE,Industry,2034,0.202,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DE,Industry,2036,0.198,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DE,Industry,2037,0.196,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DE,Industry,2038,0.194,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DE,Industry,2039,0.192,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DK,Industry,2026,0.05,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DK,Industry,2027,0.05,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DK,Industry,2028,0.05,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DK,Industry,2029,0.05,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DK,Industry,2031,0.05,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DK,Industry,2032,0.05,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DK,Industry,2033,0.05,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DK,Industry,2034,0.05,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DK,Industry,2036,0.048,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DK,Industry,2037,0.046,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DK,Industry,2038,0.044,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DK,Industry,2039,0.042,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+EE,Industry,2026,0.08,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+EE,Industry,2027,0.08,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+EE,Industry,2028,0.08,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+EE,Industry,2029,0.08,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+EE,Industry,2031,0.078,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+EE,Industry,2032,0.076,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+EE,Industry,2033,0.074,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+EE,Industry,2034,0.072,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+EE,Industry,2036,0.07,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+EE,Industry,2037,0.07,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+EE,Industry,2038,0.07,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+EE,Industry,2039,0.07,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ES,Industry,2026,0.218,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ES,Industry,2027,0.216,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ES,Industry,2028,0.214,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ES,Industry,2029,0.212,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ES,Industry,2031,0.208,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ES,Industry,2032,0.206,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ES,Industry,2033,0.204,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ES,Industry,2034,0.202,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ES,Industry,2036,0.198,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ES,Industry,2037,0.196,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ES,Industry,2038,0.194,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ES,Industry,2039,0.192,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FI,Industry,2026,0.09,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FI,Industry,2027,0.09,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FI,Industry,2028,0.09,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FI,Industry,2029,0.09,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FI,Industry,2031,0.088,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FI,Industry,2032,0.086,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FI,Industry,2033,0.084,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FI,Industry,2034,0.082,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FI,Industry,2036,0.08,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FI,Industry,2037,0.08,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FI,Industry,2038,0.08,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FI,Industry,2039,0.08,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FR,Industry,2026,0.128,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FR,Industry,2027,0.126,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FR,Industry,2028,0.124,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FR,Industry,2029,0.122,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FR,Industry,2031,0.12,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FR,Industry,2032,0.12,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FR,Industry,2033,0.12,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FR,Industry,2034,0.12,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FR,Industry,2036,0.118,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FR,Industry,2037,0.116,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FR,Industry,2038,0.114,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FR,Industry,2039,0.112,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+GR,Industry,2026,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+GR,Industry,2027,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+GR,Industry,2028,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+GR,Industry,2029,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+GR,Industry,2031,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+GR,Industry,2032,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+GR,Industry,2033,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+GR,Industry,2034,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+GR,Industry,2036,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+GR,Industry,2037,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+GR,Industry,2038,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+GR,Industry,2039,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HR,Industry,2026,0.158,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HR,Industry,2027,0.156,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HR,Industry,2028,0.154,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HR,Industry,2029,0.152,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HR,Industry,2031,0.148,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HR,Industry,2032,0.146,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HR,Industry,2033,0.144,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HR,Industry,2034,0.142,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HR,Industry,2036,0.14,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HR,Industry,2037,0.14,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HR,Industry,2038,0.14,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HR,Industry,2039,0.14,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HU,Industry,2026,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HU,Industry,2027,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HU,Industry,2028,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HU,Industry,2029,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HU,Industry,2031,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HU,Industry,2032,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HU,Industry,2033,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HU,Industry,2034,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HU,Industry,2036,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HU,Industry,2037,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HU,Industry,2038,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+HU,Industry,2039,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IE,Industry,2026,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IE,Industry,2027,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IE,Industry,2028,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IE,Industry,2029,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IE,Industry,2031,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IE,Industry,2032,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IE,Industry,2033,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IE,Industry,2034,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IE,Industry,2036,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IE,Industry,2037,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IE,Industry,2038,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IE,Industry,2039,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IT,Industry,2026,0.03,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IT,Industry,2027,0.03,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IT,Industry,2028,0.03,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IT,Industry,2029,0.03,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IT,Industry,2031,0.03,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IT,Industry,2032,0.03,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IT,Industry,2033,0.03,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IT,Industry,2034,0.03,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IT,Industry,2036,0.03,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IT,Industry,2037,0.03,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IT,Industry,2038,0.03,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+IT,Industry,2039,0.03,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LT,Industry,2026,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LT,Industry,2027,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LT,Industry,2028,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LT,Industry,2029,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LT,Industry,2031,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LT,Industry,2032,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LT,Industry,2033,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LT,Industry,2034,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LT,Industry,2036,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LT,Industry,2037,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LT,Industry,2038,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LT,Industry,2039,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LU,Industry,2026,0.01,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LU,Industry,2027,0.01,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LU,Industry,2028,0.01,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LU,Industry,2029,0.01,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LU,Industry,2031,0.01,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LU,Industry,2032,0.01,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LU,Industry,2033,0.01,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LU,Industry,2034,0.01,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LU,Industry,2036,0.01,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LU,Industry,2037,0.01,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LU,Industry,2038,0.01,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LU,Industry,2039,0.01,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LV,Industry,2026,0.138,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LV,Industry,2027,0.136,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LV,Industry,2028,0.134,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LV,Industry,2029,0.132,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LV,Industry,2031,0.13,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LV,Industry,2032,0.13,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LV,Industry,2033,0.13,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LV,Industry,2034,0.13,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LV,Industry,2036,0.128,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LV,Industry,2037,0.126,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LV,Industry,2038,0.124,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LV,Industry,2039,0.122,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NL,Industry,2026,0.208,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NL,Industry,2027,0.206,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NL,Industry,2028,0.204,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NL,Industry,2029,0.202,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NL,Industry,2031,0.198,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NL,Industry,2032,0.196,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NL,Industry,2033,0.194,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NL,Industry,2034,0.192,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NL,Industry,2036,0.188,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NL,Industry,2037,0.186,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NL,Industry,2038,0.184,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NL,Industry,2039,0.182,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NO,Industry,2026,0.138,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NO,Industry,2027,0.136,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NO,Industry,2028,0.134,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NO,Industry,2029,0.132,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NO,Industry,2031,0.13,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NO,Industry,2032,0.13,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NO,Industry,2033,0.13,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NO,Industry,2034,0.13,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NO,Industry,2036,0.128,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NO,Industry,2037,0.126,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NO,Industry,2038,0.124,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NO,Industry,2039,0.122,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NONEU_Balkan,Industry,2026,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NONEU_Balkan,Industry,2027,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NONEU_Balkan,Industry,2028,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NONEU_Balkan,Industry,2029,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NONEU_Balkan,Industry,2031,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NONEU_Balkan,Industry,2032,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NONEU_Balkan,Industry,2033,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NONEU_Balkan,Industry,2034,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NONEU_Balkan,Industry,2036,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NONEU_Balkan,Industry,2037,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NONEU_Balkan,Industry,2038,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NONEU_Balkan,Industry,2039,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PL,Industry,2026,0.148,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PL,Industry,2027,0.146,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PL,Industry,2028,0.144,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PL,Industry,2029,0.142,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PL,Industry,2031,0.14,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PL,Industry,2032,0.14,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PL,Industry,2033,0.14,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PL,Industry,2034,0.14,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PL,Industry,2036,0.138,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PL,Industry,2037,0.136,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PL,Industry,2038,0.134,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PL,Industry,2039,0.132,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,Industry,2026,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,Industry,2027,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,Industry,2028,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,Industry,2029,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,Industry,2031,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,Industry,2032,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,Industry,2033,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,Industry,2034,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,Industry,2036,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,Industry,2037,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,Industry,2038,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,Industry,2039,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+RO,Industry,2026,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+RO,Industry,2027,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+RO,Industry,2028,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+RO,Industry,2029,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+RO,Industry,2031,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+RO,Industry,2032,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+RO,Industry,2033,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+RO,Industry,2034,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+RO,Industry,2036,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+RO,Industry,2037,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+RO,Industry,2038,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+RO,Industry,2039,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SE,Industry,2026,0.108,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SE,Industry,2027,0.106,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SE,Industry,2028,0.104,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SE,Industry,2029,0.102,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SE,Industry,2031,0.1,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SE,Industry,2032,0.1,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SE,Industry,2033,0.1,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SE,Industry,2034,0.1,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SE,Industry,2036,0.098,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SE,Industry,2037,0.096,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SE,Industry,2038,0.094,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SE,Industry,2039,0.092,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SI,Industry,2026,0.188,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SI,Industry,2027,0.186,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SI,Industry,2028,0.184,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SI,Industry,2029,0.182,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SI,Industry,2031,0.178,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SI,Industry,2032,0.176,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SI,Industry,2033,0.174,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SI,Industry,2034,0.172,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SI,Industry,2036,0.168,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SI,Industry,2037,0.166,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SI,Industry,2038,0.164,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SI,Industry,2039,0.162,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SK,Industry,2026,0.386,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SK,Industry,2027,0.382,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SK,Industry,2028,0.378,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SK,Industry,2029,0.374,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SK,Industry,2031,0.366,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SK,Industry,2032,0.362,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SK,Industry,2033,0.358,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SK,Industry,2034,0.354,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SK,Industry,2036,0.346,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SK,Industry,2037,0.342,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SK,Industry,2038,0.338,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SK,Industry,2039,0.334,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+TR,Industry,2026,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+TR,Industry,2027,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+TR,Industry,2028,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+TR,Industry,2029,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+TR,Industry,2031,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+TR,Industry,2032,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+TR,Industry,2033,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+TR,Industry,2034,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+TR,Industry,2036,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+TR,Industry,2037,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+TR,Industry,2038,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+TR,Industry,2039,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+UK,Industry,2026,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+UK,Industry,2027,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+UK,Industry,2028,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+UK,Industry,2029,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+UK,Industry,2031,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+UK,Industry,2032,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+UK,Industry,2033,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+UK,Industry,2034,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+UK,Industry,2036,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+UK,Industry,2037,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+UK,Industry,2038,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+UK,Industry,2039,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,Buildings,2026,0.772,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,Buildings,2027,0.764,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,Buildings,2028,0.756,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,Buildings,2029,0.748,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,Buildings,2031,0.732,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,Buildings,2032,0.724,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,Buildings,2033,0.716,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,Buildings,2034,0.708,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,Buildings,2036,0.692,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,Buildings,2037,0.684,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,Buildings,2038,0.676,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,Buildings,2039,0.668,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,Industry,2026,0.218,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,Industry,2027,0.216,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,Industry,2028,0.214,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,Industry,2029,0.212,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,Industry,2031,0.208,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,Industry,2032,0.206,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,Industry,2033,0.204,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,Industry,2034,0.202,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,Industry,2036,0.198,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,Industry,2037,0.196,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,Industry,2038,0.194,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,Industry,2039,0.192,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,Buildings,2026,0.862,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,Buildings,2027,0.854,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,Buildings,2028,0.846,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,Buildings,2029,0.838,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,Buildings,2031,0.82,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,Buildings,2032,0.81,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,Buildings,2033,0.8,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,Buildings,2034,0.79,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,Buildings,2036,0.772,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,Buildings,2037,0.764,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,Buildings,2038,0.756,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,Buildings,2039,0.748,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,Industry,2026,0.128,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,Industry,2027,0.126,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,Industry,2028,0.124,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,Industry,2029,0.122,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,Industry,2031,0.12,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,Industry,2032,0.12,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,Industry,2033,0.12,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,Industry,2034,0.12,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,Industry,2036,0.118,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,Industry,2037,0.116,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,Industry,2038,0.114,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,Industry,2039,0.112,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,Buildings,2026,0.782,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,Buildings,2027,0.774,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,Buildings,2028,0.766,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,Buildings,2029,0.758,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,Buildings,2031,0.742,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,Buildings,2032,0.734,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,Buildings,2033,0.726,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,Buildings,2034,0.718,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,Buildings,2036,0.702,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,Buildings,2037,0.694,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,Buildings,2038,0.686,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,Buildings,2039,0.678,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,Industry,2026,0.208,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,Industry,2027,0.206,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,Industry,2028,0.204,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,Industry,2029,0.202,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,Industry,2031,0.198,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,Industry,2032,0.196,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,Industry,2033,0.194,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,Industry,2034,0.192,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,Industry,2036,0.188,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,Industry,2037,0.186,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,Industry,2038,0.184,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,Industry,2039,0.182,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,Buildings,2026,0.722,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,Buildings,2027,0.714,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,Buildings,2028,0.706,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,Buildings,2029,0.698,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,Buildings,2031,0.684,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,Buildings,2032,0.678,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,Buildings,2033,0.672,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,Buildings,2034,0.666,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,Buildings,2036,0.652,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,Buildings,2037,0.644,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,Buildings,2038,0.636,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,Buildings,2039,0.628,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,Industry,2026,0.268,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,Industry,2027,0.266,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,Industry,2028,0.264,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,Industry,2029,0.262,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,Industry,2031,0.256,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,Industry,2032,0.252,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,Industry,2033,0.248,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,Industry,2034,0.244,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,Industry,2036,0.238,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,Industry,2037,0.236,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,Industry,2038,0.234,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,Industry,2039,0.232,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,Buildings,2026,0.832,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,Buildings,2027,0.824,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,Buildings,2028,0.816,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,Buildings,2029,0.808,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,Buildings,2031,0.792,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,Buildings,2032,0.784,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,Buildings,2033,0.776,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,Buildings,2034,0.768,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,Buildings,2036,0.75,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,Buildings,2037,0.74,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,Buildings,2038,0.73,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,Buildings,2039,0.72,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,Industry,2026,0.158,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,Industry,2027,0.156,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,Industry,2028,0.154,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,Industry,2029,0.152,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,Industry,2031,0.148,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,Industry,2032,0.146,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,Industry,2033,0.144,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,Industry,2034,0.142,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,Industry,2036,0.14,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,Industry,2037,0.14,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,Industry,2038,0.14,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,Industry,2039,0.14,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,Buildings,2026,0.654,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,Buildings,2027,0.648,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,Buildings,2028,0.642,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,Buildings,2029,0.636,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,Buildings,2031,0.622,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,Buildings,2032,0.614,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,Buildings,2033,0.606,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,Buildings,2034,0.598,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,Buildings,2036,0.584,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,Buildings,2037,0.578,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,Buildings,2038,0.572,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,Buildings,2039,0.566,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,Industry,2026,0.336,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,Industry,2027,0.332,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,Industry,2028,0.328,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,Industry,2029,0.324,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,Industry,2031,0.318,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,Industry,2032,0.316,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,Industry,2033,0.314,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,Industry,2034,0.312,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,Industry,2036,0.306,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,Industry,2037,0.302,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,Industry,2038,0.298,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,Industry,2039,0.294,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,Buildings,2026,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,Buildings,2027,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,Buildings,2028,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,Buildings,2029,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,Buildings,2031,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,Buildings,2032,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,Buildings,2033,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,Buildings,2034,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,Buildings,2036,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,Buildings,2037,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,Buildings,2038,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,Buildings,2039,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,Industry,2026,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,Industry,2027,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,Industry,2028,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,Industry,2029,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,Industry,2031,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,Industry,2032,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,Industry,2033,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,Industry,2034,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,Industry,2036,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,Industry,2037,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,Industry,2038,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PJM,Industry,2039,0,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,Buildings,2026,0.842,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,Buildings,2027,0.834,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,Buildings,2028,0.826,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,Buildings,2029,0.818,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,Buildings,2031,0.802,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,Buildings,2032,0.794,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,Buildings,2033,0.786,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,Buildings,2034,0.778,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,Buildings,2036,0.76,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,Buildings,2037,0.75,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,Buildings,2038,0.74,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,Buildings,2039,0.73,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,Industry,2026,0.148,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,Industry,2027,0.146,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,Industry,2028,0.144,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,Industry,2029,0.142,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,Industry,2031,0.14,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,Industry,2032,0.14,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,Industry,2033,0.14,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,Industry,2034,0.14,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,Industry,2036,0.138,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,Industry,2037,0.136,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,Industry,2038,0.134,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,Industry,2039,0.132,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,Buildings,2026,0.96,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,Buildings,2027,0.95,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,Buildings,2028,0.94,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,Buildings,2029,0.93,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,Buildings,2031,0.91,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,Buildings,2032,0.9,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,Buildings,2033,0.89,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,Buildings,2034,0.88,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,Buildings,2036,0.86,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,Buildings,2037,0.85,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,Buildings,2038,0.84,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,Buildings,2039,0.83,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,Industry,2026,0.03,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,Industry,2027,0.03,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,Industry,2028,0.03,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,Industry,2029,0.03,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,Industry,2031,0.03,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,Industry,2032,0.03,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,Industry,2033,0.03,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,Industry,2034,0.03,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,Industry,2036,0.03,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,Industry,2037,0.03,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,Industry,2038,0.03,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,Industry,2039,0.03,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,Buildings,2026,0.772,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,Buildings,2027,0.764,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,Buildings,2028,0.756,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,Buildings,2029,0.748,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,Buildings,2031,0.732,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,Buildings,2032,0.724,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,Buildings,2033,0.716,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,Buildings,2034,0.708,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,Buildings,2036,0.692,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,Buildings,2037,0.684,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,Buildings,2038,0.676,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,Buildings,2039,0.668,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,Industry,2026,0.218,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,Industry,2027,0.216,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,Industry,2028,0.214,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,Industry,2029,0.212,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,Industry,2031,0.208,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,Industry,2032,0.206,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,Industry,2033,0.204,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,Industry,2034,0.202,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,Industry,2036,0.198,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,Industry,2037,0.196,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,Industry,2038,0.194,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,Industry,2039,0.192,,PJ,interpolated,10.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>

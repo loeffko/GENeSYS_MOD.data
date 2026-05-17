@@ -1,4 +1,4 @@
-Region,Technology,Year,Value,,Unit,Source,Updated at,Updated by
+Region,Technology,Year,Value,Unnamed: 4,Unit,Source,Updated at,Updated by
 World,Z_Import_H2,2018,0,,GW,dummy,23.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 PT,P_Wind_Offshore_Deep,2025,0.025,,GW,Entso-e installed capacity per production type,15.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 PT,P_Wind_Offshore_Deep,2030,2,,GW,Feedback from Man0EUvRE Partner - LNEG,15.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
@@ -16,3 +16,16 @@ PL,D_Battery_Li-Ion,2025,1.9718,,GW,eurostat statistics: energy - infrastructure
 SI,D_Battery_Li-Ion,2025,0.0369,,GW,eurostat statistics: energy - infrastructure - batteries,03.02.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
 FI,D_Battery_Li-Ion,2025,0.095,,GW,eurostat statistics: energy - infrastructure - batteries,03.02.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
 SE,D_Battery_Li-Ion,2025,0.552,,GW,eurostat statistics: energy - infrastructure - batteries,03.02.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,D_Battery_Li-Ion,2025,0.755,,GW,dummy data - empty entry,03.02.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,D_Battery_Li-Ion,2025,1.0891,,GW,dummy data - empty entry,03.02.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,D_Battery_Li-Ion,2025,0.35,,GW,dummy data - empty entry,03.02.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,D_Battery_Li-Ion,2025,0.2561,,GW,dummy data - empty entry,03.02.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,D_Battery_Li-Ion,2025,0.008,,GW,dummy data - empty entry,03.02.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,D_Battery_Li-Ion,2025,0.0411,,GW,dummy data - empty entry,03.02.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,D_Battery_Li-Ion,2025,1.9718,,GW,dummy data - empty entry,03.02.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,D_Battery_Li-Ion,2025,5.6136,,GW,dummy data - empty entry,03.02.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,D_Battery_Li-Ion,2025,0.0252,,GW,dummy data - empty entry,03.02.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,P_Wind_Offshore_Deep,2026,0.42,,GW,interpolated,15.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,P_Wind_Offshore_Deep,2027,0.815,,GW,interpolated,15.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,P_Wind_Offshore_Deep,2028,1.21,,GW,interpolated,15.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,P_Wind_Offshore_Deep,2029,1.605,,GW,interpolated,15.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>

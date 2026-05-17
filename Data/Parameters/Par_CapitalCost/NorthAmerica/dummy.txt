@@ -1,0 +1,3 @@
+Placeholder so the conversion tool recognises "NorthAmerica" as a valid
+scenario. North America data lives in the base Par_*.csv files (added by
+expand_northamerica.py); no scenario-specific overrides are used.
