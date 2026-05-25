@@ -60,6 +60,37 @@ ENABLED_YEARS = [BASE_YEAR] + TARGET_YEARS
 # regions left enabled in the filter file (World must stay enabled)
 ENABLED_REGIONS = ["World"] + list(REGION_MAP.keys())
 
+# Power-only preset for the North America model: only these fuels / technologies /
+# storages stay enabled in Set_filter_file_NorthAmerica.xlsx; every other member is
+# set to 0. Transport, heat, industry, resources, transformation and fuel imports are
+# dropped. Thermal plants are KEPT and simply run without an input fuel (their input
+# fuels are filtered out). Emissions (currently fuel-input-side) drop to zero - rework
+# on the output side when emission limits are needed.
+POWER_FUELS = ["Power"]
+
+POWER_STORAGES = ["S_Battery_Li-Ion", "S_Battery_Redox", "S_CAES", "S_PHS"]
+
+POWER_TECHNOLOGIES = [
+    # Power generation (P_*)
+    "P_Biomass", "P_Biomass_CCS", "P_Coal_Hardcoal", "P_Coal_Hardcoal_CCS",
+    "P_Coal_Lignite", "P_Coal_Lignite_CCS", "P_CSP", "P_Gas_CCGT", "P_Gas_CCS",
+    "P_Gas_Engines", "P_Gas_OCGT", "P_Geothermal", "P_H2_OCGT",
+    "P_Hydro_Reservoir", "P_Hydro_RoR", "P_Nuclear", "P_Ocean", "P_Oil",
+    "P_PV_Rooftop_Commercial", "P_PV_Rooftop_Residential", "P_PV_Utility_Avg",
+    "P_PV_Utility_Inf", "P_PV_Utility_Opt", "P_PV_Utility_Tracking",
+    "P_Wind_Offshore_Deep", "P_Wind_Offshore_Shallow",
+    "P_Wind_Offshore_Transitional", "P_Wind_Onshore_Avg", "P_Wind_Onshore_Inf",
+    "P_Wind_Onshore_Opt",
+    # Combined heat & power (kept; heat output filtered out -> power only)
+    "CHP_Biomass_Solid", "CHP_Biomass_Solid_CCS", "CHP_Coal_Hardcoal",
+    "CHP_Coal_Hardcoal_CCS", "CHP_Coal_Lignite", "CHP_Coal_Lignite_CCS",
+    "CHP_Gas_CCGT_Biogas", "CHP_Gas_CCGT_Biogas_CCS", "CHP_Gas_CCGT_Natural",
+    "CHP_Gas_CCGT_Natural_CCS", "CHP_Gas_CCGT_SynGas", "CHP_Hydrogen_FuelCell",
+    "CHP_Oil", "CHP_WasteToEnergy",
+    # Power storage charge/discharge technologies
+    "D_Battery_Li-Ion", "D_Battery_Redox", "D_CAES", "D_PHS",
+]
+
 
 # ----------------------------------------------------------------------
 # Paths
@@ -130,6 +161,14 @@ def main():
                            add_rows=TARGET_YEARS)
     print(f"  {os.path.basename(NA_FILTER)} : regions {ENABLED_REGIONS}")
     print(f"  {os.path.basename(NA_FILTER)} : years {sorted(ENABLED_YEARS)}")
+
+    # Power-only preset: keep only power fuels / generation+CHP+storage techs;
+    # every other Fuel/Technology/Storage member is set to 0.
+    update_selection_sheet(NA_FILTER, "Fuel_selection",       enabled=POWER_FUELS)
+    update_selection_sheet(NA_FILTER, "Technology_selection", enabled=POWER_TECHNOLOGIES)
+    update_selection_sheet(NA_FILTER, "Storage_selection",    enabled=POWER_STORAGES)
+    print(f"  {os.path.basename(NA_FILTER)} : power-only (fuels={len(POWER_FUELS)}, "
+          f"techs={len(POWER_TECHNOLOGIES)}, storages={len(POWER_STORAGES)})")
 
     print("\nDone. Review with `git diff` in the GENeSYS_MOD.data repo.")
 
