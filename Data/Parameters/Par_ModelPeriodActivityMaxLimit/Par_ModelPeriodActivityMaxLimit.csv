@@ -46,3 +46,14 @@ NewYork,R_Gas,3768.12,,PJ,dummy data - empty entry,05.08.2024,Jonathan Hanto <jo
 NewEngland,R_Oil,3441.5496,,PJ,dummy data - empty entry,05.08.2024,Jonathan Hanto <joh@wip.tu-berlin.de>
 Canada,R_Coal_Hardcoal,25172,,PJ,dummy data - empty entry,05.08.2024,Jonathan Hanto <joh@wip.tu-berlin.de>
 Canada,R_Coal_Lignite,4785,,PJ,dummy data - empty entry,05.08.2024,Jonathan Hanto <joh@wip.tu-berlin.de>
+California,R_Coal_Hardcoal,232,,PJ,dummy data - empty entry,05.08.2024,Jonathan Hanto <joh@wip.tu-berlin.de>
+California,R_Coal_Lignite,541500,,PJ,dummy data - empty entry,05.08.2024,Jonathan Hanto <joh@wip.tu-berlin.de>
+SPP,R_Gas,26376.84,,PJ,dummy data - empty entry,05.08.2024,Jonathan Hanto <joh@wip.tu-berlin.de>
+SERC,R_Coal_Hardcoal,31871,,PJ,dummy data - empty entry,05.08.2024,Jonathan Hanto <joh@wip.tu-berlin.de>
+SERC,R_Coal_Lignite,38115,,PJ,dummy data - empty entry,05.08.2024,Jonathan Hanto <joh@wip.tu-berlin.de>
+NewYork,R_Coal_Hardcoal,574432,,PJ,dummy data - empty entry,05.08.2024,Jonathan Hanto <joh@wip.tu-berlin.de>
+NewYork,R_Coal_Lignite,90045,,PJ,dummy data - empty entry,05.08.2024,Jonathan Hanto <joh@wip.tu-berlin.de>
+NewYork,R_Gas,3768.12,,PJ,dummy data - empty entry,05.08.2024,Jonathan Hanto <joh@wip.tu-berlin.de>
+NewEngland,R_Oil,3441.5496,,PJ,dummy data - empty entry,05.08.2024,Jonathan Hanto <joh@wip.tu-berlin.de>
+Canada,R_Coal_Hardcoal,25172,,PJ,dummy data - empty entry,05.08.2024,Jonathan Hanto <joh@wip.tu-berlin.de>
+Canada,R_Coal_Lignite,4785,,PJ,dummy data - empty entry,05.08.2024,Jonathan Hanto <joh@wip.tu-berlin.de>

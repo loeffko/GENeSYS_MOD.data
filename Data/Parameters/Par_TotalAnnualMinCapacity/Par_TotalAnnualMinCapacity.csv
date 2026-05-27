@@ -29,3 +29,12 @@ PT,P_Wind_Offshore_Deep,2026,0.42,,GW,interpolated,15.04.2025,Nikita Moskalenko 
 PT,P_Wind_Offshore_Deep,2027,0.815,,GW,interpolated,15.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 PT,P_Wind_Offshore_Deep,2028,1.21,,GW,interpolated,15.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 PT,P_Wind_Offshore_Deep,2029,1.605,,GW,interpolated,15.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,D_Battery_Li-Ion,2025,0.755,,GW,dummy data - empty entry,03.02.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
+WECC,D_Battery_Li-Ion,2025,1.0891,,GW,dummy data - empty entry,03.02.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SPP,D_Battery_Li-Ion,2025,0.35,,GW,dummy data - empty entry,03.02.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
+MISO,D_Battery_Li-Ion,2025,0.2561,,GW,dummy data - empty entry,03.02.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ERCOT,D_Battery_Li-Ion,2025,0.008,,GW,dummy data - empty entry,03.02.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SERC,D_Battery_Li-Ion,2025,0.0411,,GW,dummy data - empty entry,03.02.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewYork,D_Battery_Li-Ion,2025,1.9718,,GW,dummy data - empty entry,03.02.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NewEngland,D_Battery_Li-Ion,2025,5.6136,,GW,dummy data - empty entry,03.02.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Canada,D_Battery_Li-Ion,2025,0.0252,,GW,dummy data - empty entry,03.02.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
