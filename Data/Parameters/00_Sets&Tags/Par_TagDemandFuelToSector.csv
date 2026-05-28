@@ -8,3 +8,9 @@ Heat_MediumLow_Industrial,Industry,1
 Heat_MediumHigh_Industrial,Industry,1
 Heat_High_Industrial,Industry,1
 Heat_District,DistrictHeating,1
+Power_General,Power,1
+Power_Buildings_Heat,Power,1
+Power_Buildings_Cooling,Power,1
+Power_DataCenter,Power,1
+Power_Hydrogen,Power,1
+Power_BEVs,Power,1

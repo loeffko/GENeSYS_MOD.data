@@ -140,33 +140,15 @@ NewEngland,P_Nuclear,2036,0.64,,GW,interpolated,03.06.2025,Nikita Moskalenko <ni
 NewEngland,P_Nuclear,2037,0.88,,GW,interpolated,03.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 NewEngland,P_Nuclear,2038,1.12,,GW,interpolated,03.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 NewEngland,P_Nuclear,2039,1.36,,GW,interpolated,03.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-WECC,P_Nuclear,2040,3.3,,GW,dummy data - empty entry,03.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-WECC,P_Nuclear,2045,9.9,,GW,dummy data - empty entry,03.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-WECC,P_Nuclear,2050,3.3,,GW,dummy data - empty entry,03.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-WECC,P_Nuclear,2055,3.3,,GW,dummy data - empty entry,03.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-WECC,P_Nuclear,2060,3.3,,GW,dummy data - empty entry,03.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-SPP,P_Nuclear,2035,1,,GW,dummy data - empty entry,03.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-SPP,P_Nuclear,2040,1,,GW,dummy data - empty entry,03.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 SPP,P_Nuclear,2036,1,,GW,dummy data - empty entry,03.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 SPP,P_Nuclear,2037,1,,GW,dummy data - empty entry,03.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 SPP,P_Nuclear,2038,1,,GW,dummy data - empty entry,03.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 SPP,P_Nuclear,2039,1,,GW,dummy data - empty entry,03.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-SERC,P_Nuclear,2040,2.2,,GW,dummy data - empty entry,03.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-SERC,P_Nuclear,2045,1.1,,GW,dummy data - empty entry,03.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-NewYork,P_Nuclear,2035,2.8,,GW,dummy data - empty entry,03.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-NewYork,P_Nuclear,2040,4.2,,GW,dummy data - empty entry,03.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-NewYork,P_Nuclear,2045,1.4,,GW,dummy data - empty entry,03.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 NewYork,P_Nuclear,2036,3.08,,GW,dummy data - empty entry,03.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 NewYork,P_Nuclear,2037,3.36,,GW,dummy data - empty entry,03.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 NewYork,P_Nuclear,2038,3.64,,GW,dummy data - empty entry,03.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 NewYork,P_Nuclear,2039,3.92,,GW,dummy data - empty entry,03.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-NewEngland,P_Nuclear,2035,0.4,,GW,dummy data - empty entry,03.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-NewEngland,P_Nuclear,2040,1.6,,GW,dummy data - empty entry,03.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-NewEngland,P_Nuclear,2045,1.5,,GW,dummy data - empty entry,03.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-NewEngland,P_Nuclear,2050,4.5,,GW,dummy data - empty entry,03.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 NewEngland,P_Nuclear,2036,0.64,,GW,dummy data - empty entry,03.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 NewEngland,P_Nuclear,2037,0.88,,GW,dummy data - empty entry,03.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 NewEngland,P_Nuclear,2038,1.12,,GW,dummy data - empty entry,03.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 NewEngland,P_Nuclear,2039,1.36,,GW,dummy data - empty entry,03.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-Canada,P_CSP,2025,2.304,,GW,dummy data - empty entry,20.02.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-Canada,P_CSP,2025,2.5,,GW,dummy data - empty entry,20.02.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>

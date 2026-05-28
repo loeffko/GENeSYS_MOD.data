@@ -583,3 +583,9 @@ World,HHI_DRI_EAF,Heat_High_Industrial,3,2036,1,,PJ,interpolated,,
 World,HHI_DRI_EAF,Heat_High_Industrial,3,2037,1,,PJ,interpolated,,
 World,HHI_DRI_EAF,Heat_High_Industrial,3,2038,1,,PJ,interpolated,,
 World,HHI_DRI_EAF,Heat_High_Industrial,3,2039,1,,PJ,interpolated,,
+World,X_Convert_Power,Power_General,1,All,1,,PJ,power demand splitter (eff=1),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,X_Convert_Power,Power_Buildings_Heat,2,All,1,,PJ,power demand splitter (eff=1),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,X_Convert_Power,Power_Buildings_Cooling,3,All,1,,PJ,power demand splitter (eff=1),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,X_Convert_Power,Power_DataCenter,4,All,1,,PJ,power demand splitter (eff=1),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,X_Convert_Power,Power_Hydrogen,5,All,1,,PJ,power demand splitter (eff=1),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,X_Convert_Power,Power_BEVs,6,All,1,,PJ,power demand splitter (eff=1),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>

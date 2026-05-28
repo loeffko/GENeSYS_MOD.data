@@ -605,3 +605,4 @@ P_Wind_Onshore_Opt,Onshore,1,,Binary,not relevant,07.05.2026,Nikita Moskalenko <
 P_Wind_Offshore_Shallow,Offshore,1,,Binary,not relevant,07.05.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
 P_Wind_Offshore_Transitional,Offshore,1,,Binary,not relevant,07.05.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
 P_Wind_Offshore_Deep,Offshore,1,,Binary,not relevant,07.05.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
+X_Convert_Power,Convert,1,,Binary,not relevant,2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>

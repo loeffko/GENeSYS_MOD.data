@@ -2545,3 +2545,9 @@ World,X_ATR_CCS,1,2036,0.3987,,MEUR/PJ,interpolated,22.01.2026,Nikita Moskalenko
 World,X_ATR_CCS,1,2037,0.3987,,MEUR/PJ,interpolated,22.01.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
 World,X_ATR_CCS,1,2038,0.3987,,MEUR/PJ,interpolated,22.01.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
 World,X_ATR_CCS,1,2039,0.3987,,MEUR/PJ,interpolated,22.01.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,X_Convert_Power,1,All,0.001,,MEUR/PJ,power demand splitter (eff=1),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,X_Convert_Power,2,All,0.001,,MEUR/PJ,power demand splitter (eff=1),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,X_Convert_Power,3,All,0.001,,MEUR/PJ,power demand splitter (eff=1),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,X_Convert_Power,4,All,0.001,,MEUR/PJ,power demand splitter (eff=1),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,X_Convert_Power,5,All,0.001,,MEUR/PJ,power demand splitter (eff=1),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,X_Convert_Power,6,All,0.001,,MEUR/PJ,power demand splitter (eff=1),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>

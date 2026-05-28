@@ -4228,17 +4228,9 @@ World,X_SOEC_Electrolysis,Power,1,2036,1.1551,,PJ,interpolated,03.09.2024,Nikita
 World,X_SOEC_Electrolysis,Power,1,2037,1.1548,,PJ,interpolated,03.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
 World,X_SOEC_Electrolysis,Power,1,2038,1.1545,,PJ,interpolated,03.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
 World,X_SOEC_Electrolysis,Power,1,2039,1.1542,,PJ,interpolated,03.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
-California,X_Convert_HD,Heat_District,1,All,1.3387,,PJ,dummy data - empty entry,26.02.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-California,X_Convert_HD,Heat_District,2,All,1.3387,,PJ,dummy data - empty entry,26.02.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-WECC,X_Convert_HD,Heat_District,1,All,1.3173,,PJ,dummy data - empty entry,26.02.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-WECC,X_Convert_HD,Heat_District,2,All,1.3173,,PJ,dummy data - empty entry,26.02.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-SPP,X_Convert_HD,Heat_District,1,All,1.2108,,PJ,dummy data - empty entry,26.02.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-SPP,X_Convert_HD,Heat_District,2,All,1.2108,,PJ,dummy data - empty entry,26.02.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-ERCOT,X_Convert_HD,Heat_District,1,All,1.1538,,PJ,dummy data - empty entry,26.02.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-ERCOT,X_Convert_HD,Heat_District,2,All,1.1538,,PJ,dummy data - empty entry,26.02.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-SERC,X_Convert_HD,Heat_District,1,All,1.4646,,PJ,dummy data - empty entry,26.02.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-SERC,X_Convert_HD,Heat_District,2,All,1.4646,,PJ,dummy data - empty entry,26.02.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-NewYork,X_Convert_HD,Heat_District,1,All,1.1447,,PJ,dummy data - empty entry,26.02.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-NewYork,X_Convert_HD,Heat_District,2,All,1.1447,,PJ,dummy data - empty entry,26.02.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-NewEngland,X_Convert_HD,Heat_District,1,All,1.209,,PJ,dummy data - empty entry,26.02.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-NewEngland,X_Convert_HD,Heat_District,2,All,1.209,,PJ,dummy data - empty entry,26.02.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,X_Convert_Power,Power,1,All,1,,PJ,power demand splitter (eff=1),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,X_Convert_Power,Power,2,All,1,,PJ,power demand splitter (eff=1),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,X_Convert_Power,Power,3,All,1,,PJ,power demand splitter (eff=1),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,X_Convert_Power,Power,4,All,1,,PJ,power demand splitter (eff=1),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,X_Convert_Power,Power,5,All,1,,PJ,power demand splitter (eff=1),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,X_Convert_Power,Power,6,All,1,,PJ,power demand splitter (eff=1),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
