@@ -63,32 +63,70 @@ def set_selection(xlsx, sheet, enabled_set):
     wb.save(xlsx)
 
 
+def _read_ts_selection(xlsx):
+    """Return [(name, flag), ...] from the Timeseries_selection sheet, or None."""
+    wb = openpyxl.load_workbook(xlsx)
+    if "Timeseries_selection" not in wb.sheetnames:
+        return None
+    ws = wb["Timeseries_selection"]
+    out = []
+    for r in range(2, ws.max_row + 1):
+        n = ws.cell(r, 1).value
+        v = ws.cell(r, 2).value
+        if n is not None:
+            out.append((str(n), v))
+    return out
+
+
+def _write_ts_selection(xlsx, entries):
+    """Overwrite the Timeseries_selection sheet with `entries` ([(name, flag),...])."""
+    wb = openpyxl.load_workbook(xlsx)
+    if "Timeseries_selection" in wb.sheetnames:
+        del wb["Timeseries_selection"]
+    ws = wb.create_sheet("Timeseries_selection")
+    ws.cell(1, 1, "Timeseries")
+    ws.cell(1, 2, "Timeseries selected")
+    for i, (n, v) in enumerate(entries, start=2):
+        ws.cell(i, 1, n)
+        ws.cell(i, 2, v if v is not None else 1)
+    wb.save(xlsx)
+
+
 def main():
     # 1) Build the power-only ME filter from the existing ME filter (keep its
     #    Regions/Years/Modes/Emissions/etc; narrow Tech/Fuel/Storage)
+    # Preserve any user-edited Timeseries_selection across the copy: the
+    # power-only filter file is the source of truth for which TS sheets get
+    # produced — only the tech/fuel/storage narrowing is rebuilt every run.
+    saved_ts_sel = _read_ts_selection(PWR_FILTER) if os.path.exists(PWR_FILTER) else None
     shutil.copyfile(BASE_FILTER, PWR_FILTER)
     set_selection(PWR_FILTER, "Technology_selection", POWER_TECHS)
     set_selection(PWR_FILTER, "Fuel_selection",       POWER_FUELS)
     set_selection(PWR_FILTER, "Storage_selection",    POWER_STORAGES)
+    if saved_ts_sel is not None:
+        _write_ts_selection(PWR_FILTER, saved_ts_sel)
     print(f"Built {os.path.basename(PWR_FILTER)}: "
           f"{len(POWER_TECHS)} techs / {len(POWER_FUELS)} fuels / "
           f"{len(POWER_STORAGES)} storages")
 
-    # 2) Run conversion (params only; existing Timeseries_MiddleEarth.xlsx
-    #    remains valid for the power-only run)
+    # 2) Run full conversion (params + timeseries). The power-only filter has a
+    #    Timeseries_selection that drops Heat/Cool/HP/Mobility TS sheets so the
+    #    generated Timeseries Excel stays lean.
     from functions.function_import import master_function
     master_function(os.path.basename(PWR_FILTER),
-                    "excel", "long", "parameters_only",
+                    "excel", "long", "both",
                     "MiddleEarth", False, "Gondor")
 
-    # 3) Rename output so power-only file sits next to the full one without
-    #    clobbering it
-    src = os.path.join(OUTPUT_DIR, "RegularParameters_MiddleEarth.xlsx")
-    dst = os.path.join(OUTPUT_DIR, "RegularParameters_MiddleEarth_powerOnly.xlsx")
-    if os.path.exists(dst):
-        os.remove(dst)
-    os.rename(src, dst)
-    print(f"Generated: {dst}")
+    # 3) Rename outputs so power-only files sit next to the full ones
+    for base in ("RegularParameters_MiddleEarth", "Timeseries_MiddleEarth"):
+        src = os.path.join(OUTPUT_DIR, f"{base}.xlsx")
+        dst = os.path.join(OUTPUT_DIR, f"{base}_powerOnly.xlsx")
+        if not os.path.exists(src):
+            continue
+        if os.path.exists(dst):
+            os.remove(dst)
+        os.rename(src, dst)
+        print(f"Generated: {dst}")
 
 
 if __name__ == "__main__":
