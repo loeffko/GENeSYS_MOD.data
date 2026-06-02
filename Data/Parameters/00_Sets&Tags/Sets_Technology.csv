@@ -151,3 +151,5 @@ Z_Import_Hardcoal
 Z_Import_LNG
 Z_Import_Oil
 X_Convert_Power
+Z_Import_Biomass
+Z_Import_Lignite

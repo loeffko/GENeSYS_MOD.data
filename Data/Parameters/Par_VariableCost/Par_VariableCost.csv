@@ -2551,3 +2551,5 @@ World,X_Convert_Power,3,All,0.001,,MEUR/PJ,power demand splitter (eff=1),2026-05
 World,X_Convert_Power,4,All,0.001,,MEUR/PJ,power demand splitter (eff=1),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
 World,X_Convert_Power,5,All,0.001,,MEUR/PJ,power demand splitter (eff=1),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
 World,X_Convert_Power,6,All,0.001,,MEUR/PJ,power demand splitter (eff=1),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,Z_Import_Biomass,1,All,3.0,,MEUR/PJ,dummy Z_Import added for power-only precompute path,2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,Z_Import_Lignite,1,All,1.5,,MEUR/PJ,dummy Z_Import added for power-only precompute path,2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>

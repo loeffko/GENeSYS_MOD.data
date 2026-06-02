@@ -380,6 +380,7 @@ FI,HB_Direct_Electric,Heat_Buildings,2018,51.24559004,,PJ,European Commission: l
 FI,HB_Heatpump_Aerial,Heat_Buildings,2018,17.43128601,,PJ,"European Commission: long-term renovation strategy 2020-2050 Finland
 SULPU: Cumulative Heat Pump Sales in Finland",03.11.2023,Nikita Moskalenko <nim@wip.tu-berlin.de>
 FI,HB_Heatpump_Ground,Heat_Buildings,2018,3.502546524,,PJ,"European Commission: long-term renovation strategy 2020-2050 Finland
+SULPU: Cumulative Heat Pump Sales in Finland",03.11.2023,Nikita Moskalenko <nim@wip.tu-berlin.de>
 FI,HB_Oil_Boiler,Heat_Buildings,2018,25.75779394,,PJ,European Commission: long-term renovation strategy 2020-2050 Finland,03.11.2023,Nikita Moskalenko <nim@wip.tu-berlin.de>
 FI,PSNG_Road_BEV,Mobility_Passenger,2025,1.60363415,,Gpkm,Share from European Commission: European Alternative Fuels Observatory (Country Comparison) multiplied with SpecifiedAnnualDemand,27.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 FI,PSNG_Road_PHEV,Mobility_Passenger,2025,2.4009718,,Gpkm,Share from European Commission: European Alternative Fuels Observatory (Country Comparison) multiplied with SpecifiedAnnualDemand,27.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>

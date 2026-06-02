@@ -1,4 +1,4 @@
-Region,Region.1,Fuel,Value,Unnamed: 4,Unit,Source,Updated at,Updated by
+Region,Region.1,Fuel,Value,,Unit,Source,Updated at,Updated by
 AT,CH,All,439,,km,Own calulation of distance - see txt.file for more Info,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 AT,CZ,All,286,,km,Own calulation of distance - see txt.file for more Info,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 AT,DE,All,487,,km,Own calulation of distance - see txt.file for more Info,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
@@ -1215,13 +1215,6 @@ BE,NO,Power,0,,km,Own calulation of distance - see txt.file for more Info,20.02.
 FR,NO,Power,0,,km,Own calulation of distance - see txt.file for more Info,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 NO,BE,Power,0,,km,Own calulation of distance - see txt.file for more Info,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 NO,FR,Power,0,,km,Own calulation of distance - see txt.file for more Info,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,ERCOT,All,487,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-California,MISO,All,385,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-California,PJM,All,457,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-California,SERC,All,398,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-California,WECC,All,729,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-California,SPP,All,350,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-California,NewYork,All,677,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 California,ERCOT,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 California,MISO,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 California,PJM,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
@@ -1231,11 +1224,6 @@ California,WECC,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <jo
 California,NewEngland,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 California,SPP,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 California,NewYork,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-WECC,MISO,All,477,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-WECC,PJM,All,462,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-WECC,California,All,729,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-WECC,Canada,All,843,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-WECC,NewEngland,All,960,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 WECC,ERCOT,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 WECC,MISO,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 WECC,PJM,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
@@ -1245,8 +1233,6 @@ WECC,Canada,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wi
 WECC,NewEngland,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 WECC,SPP,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 WECC,NewYork,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-SPP,MISO,All,173,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-SPP,California,All,350,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 SPP,ERCOT,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 SPP,MISO,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 SPP,PJM,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
@@ -1256,9 +1242,6 @@ SPP,Canada,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip
 SPP,WECC,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 SPP,NewEngland,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 SPP,NewYork,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-MISO,California,All,385,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-MISO,WECC,All,477,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-MISO,SPP,All,173,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 MISO,ERCOT,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 MISO,PJM,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 MISO,SERC,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
@@ -1268,10 +1251,6 @@ MISO,WECC,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.
 MISO,NewEngland,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 MISO,SPP,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 MISO,NewYork,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-ERCOT,PJM,All,439,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-ERCOT,SERC,All,286,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-ERCOT,California,All,487,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-ERCOT,NewEngland,All,576,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 ERCOT,MISO,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 ERCOT,PJM,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 ERCOT,SERC,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
@@ -1281,9 +1260,6 @@ ERCOT,WECC,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip
 ERCOT,NewEngland,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 ERCOT,SPP,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 ERCOT,NewYork,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-SERC,ERCOT,All,286,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-SERC,California,All,398,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-SERC,NewYork,All,415,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 SERC,ERCOT,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 SERC,MISO,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 SERC,PJM,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
@@ -1293,10 +1269,6 @@ SERC,WECC,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.
 SERC,NewEngland,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 SERC,SPP,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 SERC,NewYork,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-PJM,ERCOT,All,439,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-PJM,California,All,457,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-PJM,WECC,All,462,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-PJM,NewEngland,All,601,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 PJM,ERCOT,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 PJM,MISO,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 PJM,SERC,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
@@ -1306,8 +1278,6 @@ PJM,WECC,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.t
 PJM,NewEngland,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 PJM,SPP,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 PJM,NewYork,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-NewYork,SERC,All,415,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-NewYork,California,All,677,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 NewYork,ERCOT,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 NewYork,MISO,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 NewYork,PJM,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
@@ -1317,10 +1287,6 @@ NewYork,Canada,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh
 NewYork,WECC,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 NewYork,NewEngland,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 NewYork,SPP,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-NewEngland,ERCOT,All,576,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-NewEngland,PJM,All,601,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-NewEngland,Canada,All,1436,,km,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,WECC,All,960,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 NewEngland,ERCOT,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 NewEngland,MISO,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 NewEngland,PJM,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
@@ -1330,8 +1296,6 @@ NewEngland,Canada,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <
 NewEngland,WECC,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 NewEngland,SPP,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 NewEngland,NewYork,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-Canada,WECC,All,843,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-Canada,NewEngland,All,1436,,km,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 Canada,ERCOT,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 Canada,MISO,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 Canada,PJM,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
@@ -1341,3 +1305,39 @@ Canada,WECC,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wi
 Canada,NewEngland,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 Canada,SPP,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 Canada,NewYork,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
+California,WECC,All,786,,km,great-circle between region centroids,2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,California,All,786,,km,great-circle between region centroids,2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,SPP,All,1269,,km,great-circle between region centroids,2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,WECC,All,1269,,km,great-circle between region centroids,2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,MISO,All,1794,,km,great-circle between region centroids,2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,WECC,All,1794,,km,great-circle between region centroids,2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,ERCOT,All,1610,,km,great-circle between region centroids,2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,WECC,All,1610,,km,great-circle between region centroids,2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,Canada,All,2625,,km,great-circle between region centroids,2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,WECC,All,2625,,km,great-circle between region centroids,2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,ERCOT,All,845,,km,great-circle between region centroids,2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,SPP,All,845,,km,great-circle between region centroids,2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,MISO,All,683,,km,great-circle between region centroids,2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,SPP,All,683,,km,great-circle between region centroids,2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,SERC,All,1160,,km,great-circle between region centroids,2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,SPP,All,1160,,km,great-circle between region centroids,2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,ERCOT,All,1393,,km,great-circle between region centroids,2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,MISO,All,1393,,km,great-circle between region centroids,2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,SERC,All,893,,km,great-circle between region centroids,2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,MISO,All,893,,km,great-circle between region centroids,2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,PJM,All,905,,km,great-circle between region centroids,2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,MISO,All,905,,km,great-circle between region centroids,2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,Canada,All,1035,,km,great-circle between region centroids,2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,MISO,All,1035,,km,great-circle between region centroids,2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,PJM,All,764,,km,great-circle between region centroids,2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,SERC,All,764,,km,great-circle between region centroids,2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,NewYork,All,510,,km,great-circle between region centroids,2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,PJM,All,510,,km,great-circle between region centroids,2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,Canada,All,801,,km,great-circle between region centroids,2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,PJM,All,801,,km,great-circle between region centroids,2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,NewEngland,All,336,,km,great-circle between region centroids,2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,NewYork,All,336,,km,great-circle between region centroids,2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,Canada,All,577,,km,great-circle between region centroids,2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,NewYork,All,577,,km,great-circle between region centroids,2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,Canada,All,758,,km,great-circle between region centroids,2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,NewEngland,All,758,,km,great-circle between region centroids,2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>

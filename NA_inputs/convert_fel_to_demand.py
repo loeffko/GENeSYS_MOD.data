@@ -125,9 +125,12 @@ def main():
     # ---- build new rows (TWh -> PJ) ----
     new_rows = []
     for (r, y, fuel), twh in sorted(acc.items()):
+        # Clamp negatives to 0: the anonymized FEL file produces some negative bucket sums
+        # (artifact), and negative SpecifiedAnnualDemand makes the energy balance infeasible.
+        # Real data has no negatives, so this is a no-op there.
         new_rows.append({
             "Region": r, "Fuel": fuel, "Year": int(y),
-            "Value": twh * TWH_TO_PJ, "": "", "Unit": "PJ",
+            "Value": max(0.0, twh * TWH_TO_PJ), "": "", "Unit": "PJ",
             "Source": SOURCE, "Updated at": DATE, "Updated by": WHO,
         })
     df_new = pd.DataFrame(new_rows)

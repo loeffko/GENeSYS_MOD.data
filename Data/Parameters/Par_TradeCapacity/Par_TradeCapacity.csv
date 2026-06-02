@@ -1,4 +1,4 @@
-Region,Region.1,Fuel,Year,Value,Unnamed: 5,Unit,Source,Updated at,Updated by
+Region,Region.1,Fuel,Year,Value,,Unit,Source,Updated at,Updated by
 AT,DE,Gas_Natural,All,568.6889,,PJ,EntsoG2019,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 AT,DE_BY,Gas_Natural,All,834.849,,PJ,SciGRID_gas_IGGIELGN,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 AT,HU,Gas_Natural,All,185.0579,,PJ,EntsoG2019,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
@@ -11,10 +11,10 @@ BE,FR,Gas_Natural,All,1116.81,,PJ,EntsoG2019,20.09.2023,Jonathan Hanto <joh@wip.
 BE,LU,Gas_Natural,All,54.2152,,PJ,EntsoG2019,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 BE,NL,Gas_Natural,All,516.361,,PJ,EntsoG2019,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 BE,UK,Gas_Natural,All,1146.2235,,PJ,EntsoG2019,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-BG,GR,Gas_Natural,All,0,,PJ,EntsoG2019,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-BG,NONEU_Balkan,Gas_Natural,All,0,,PJ,EntsoG2019,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
+BG,GR,Gas_Natural,All,0.0,,PJ,EntsoG2019,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
+BG,NONEU_Balkan,Gas_Natural,All,0.0,,PJ,EntsoG2019,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 BG,RO,Gas_Natural,All,20.5162,,PJ,EntsoG2019,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-BG,TR,Gas_Natural,All,0,,PJ,EntsoG2019,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
+BG,TR,Gas_Natural,All,0.0,,PJ,EntsoG2019,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 CH,DE_BW,Gas_Natural,All,227.041,,PJ,SciGRID_gas_IGGIELGN,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 CH,FR,Gas_Natural,All,131.389,,PJ,EntsoG2019,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 CH,IT,Gas_Natural,All,888.2223,,PJ,EntsoG2019,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
@@ -87,7 +87,7 @@ ES,FR,Gas_Natural,All,321.011,,PJ,EntsoG2019,20.09.2023,Jonathan Hanto <joh@wip.
 ES,PT,Gas_Natural,All,205.4471,,PJ,EntsoG2019,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 FR,BE,Gas_Natural,All,354.752,,PJ,EntsoG2019,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 FR,CH,Gas_Natural,All,342.138,,PJ,EntsoG2019,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-FR,DE,Gas_Natural,All,0,,PJ,EntsoG2019,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
+FR,DE,Gas_Natural,All,0.0,,PJ,EntsoG2019,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 FR,ES,Gas_Natural,All,235.4081,,PJ,EntsoG2019,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 HR,HU,Gas_Natural,All,108.4304,,PJ,EntsoG2019,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 HU,HR,Gas_Natural,All,109.4291,,PJ,EntsoG2019,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
@@ -95,7 +95,7 @@ HU,NONEU_Balkan,Gas_Natural,All,202.6864,,PJ,EntsoG2019,20.09.2023,Jonathan Hant
 HU,RO,Gas_Natural,All,73.6185,,PJ,EntsoG2019,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 IE,UK,Gas_Natural,All,126.9777,,PJ,EntsoG2019,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 IT,AT,Gas_Natural,All,1633.042,,PJ,EntsoG2019,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-IT,CH,Gas_Natural,All,0,,PJ,EntsoG2019,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
+IT,CH,Gas_Natural,All,0.0,,PJ,EntsoG2019,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 IT,SI,Gas_Natural,All,40.3761,,PJ,EntsoG2019,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 LT,LV,Gas_Natural,All,96.1606,,PJ,EntsoG2019,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 LV,EE,Gas_Natural,All,261.089,,PJ,EntsoG2019,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
@@ -114,33 +114,33 @@ GR,NONEU_Balkan,Gas_Natural,All,20.2594,,PJ,EntsoG2019,20.09.2023,Jonathan Hanto
 PL,DE,Gas_Natural,All,1328.3295,,PJ,EntsoG2019,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 PL,DE_BB,Gas_Natural,All,1223.89,,PJ,SciGRID_gas_IGGIELGN,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 PT,ES,Gas_Natural,All,114.1373,,PJ,EntsoG2019,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-RO,BG,Gas_Natural,All,0,,PJ,EntsoG2019,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-RO,HU,Gas_Natural,All,0,,PJ,EntsoG2019,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-SI,AT,Gas_Natural,All,0,,PJ,EntsoG2019,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
+RO,BG,Gas_Natural,All,0.0,,PJ,EntsoG2019,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
+RO,HU,Gas_Natural,All,0.0,,PJ,EntsoG2019,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
+SI,AT,Gas_Natural,All,0.0,,PJ,EntsoG2019,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 SI,HR,Gas_Natural,All,76.6146,,PJ,EntsoG2019,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 SI,IT,Gas_Natural,All,30.5241,,PJ,EntsoG2019,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 SK,AT,Gas_Natural,All,2196.0009,,PJ,EntsoG2019,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 SK,CZ,Gas_Natural,All,741.8922,,PJ,EntsoG2019,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 SK,HU,Gas_Natural,All,181.143,,PJ,EntsoG2019,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-TR,GR,Gas_Natural,All,0,,PJ,EntsoG2019,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
+TR,GR,Gas_Natural,All,0.0,,PJ,EntsoG2019,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 UK,BE,Gas_Natural,All,898.9736,,PJ,EntsoG2019,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 UK,IE,Gas_Natural,All,487.9368,,PJ,EntsoG2019,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-UK,NL,Gas_Natural,All,0,,PJ,EntsoG2019,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
+UK,NL,Gas_Natural,All,0.0,,PJ,EntsoG2019,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 AT,CH,Power,All,1.2,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 AT,CZ,Power,All,0.9,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 AT,DE,Power,All,1.4,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-AT,DE_HB,Power,All,2,,GW,,,
+AT,DE_HB,Power,All,2.0,,GW,,,
 AT,HU,Power,All,0.8,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 AT,IT,Power,All,0.41,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 AT,SI,Power,All,0.95,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-AT,SK,Power,All,0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-BE,DE,Power,All,1,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-BE,DK,Power,All,0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+AT,SK,Power,All,0.0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+BE,DE,Power,All,1.0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+BE,DK,Power,All,0.0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 BE,FR,Power,All,2.8,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 BE,LU,Power,All,0.68,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 BE,NL,Power,All,2.4,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-BE,OBZ,Power,All,0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-BE,UK,Power,All,1,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+BE,OBZ,Power,All,0.0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+BE,UK,Power,All,1.0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 BG,GR,Power,All,0.77,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 BG,NONEU_Balkan,Power,All,0.82,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 BG,RO,Power,All,0.9,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
@@ -157,18 +157,18 @@ CZ,DE_ST,Power,All,0.8875,,GW,,,
 CZ,PL,Power,All,1.4,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 CZ,SK,Power,All,1.8,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 DE,AT,Power,All,1.4,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-DE,BE,Power,All,1,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+DE,BE,Power,All,1.0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 DE,CH,Power,All,4.2,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 DE,CZ,Power,All,1.6,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 DE,DK,Power,All,3.7,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-DE,FR,Power,All,3,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+DE,FR,Power,All,3.0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 DE,LU,Power,All,2.3,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 DE,NL,Power,All,3.95,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 DE,NO,Power,All,1.4,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-DE,OBZ,Power,All,0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-DE,PL,Power,All,1,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+DE,OBZ,Power,All,0.0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+DE,PL,Power,All,1.0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 DE,SE,Power,All,0.615,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-DE,UK,Power,All,0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+DE,UK,Power,All,0.0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 DE_BB,DE_BE,Power,All,6.979,,GW,,,
 DE_BB,DE_MV,Power,All,5.446,,GW,,,
 DE_BB,DE_SN,Power,All,7.14,,GW,,,
@@ -230,45 +230,45 @@ DE_TH,DE_BY,Power,All,4.76,,GW,,,
 DE_TH,DE_HE,Power,All,2.38,,GW,,,
 DE_TH,DE_SN,Power,All,6.132,,GW,,,
 DE_TH,DE_ST,Power,All,3.066,,GW,,,
-DK,BE,Power,All,0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+DK,BE,Power,All,0.0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 DK,DE,Power,All,3.7,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 DK,NL,Power,All,0.7,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 DK,NO,Power,All,1.64,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-DK,OBZ,Power,All,0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-DK,PL,Power,All,0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+DK,OBZ,Power,All,0.0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+DK,PL,Power,All,0.0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 DK,SE,Power,All,2.45,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-DK,UK,Power,All,0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+DK,UK,Power,All,0.0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 EE,FI,Power,All,1.016,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-EE,LV,Power,All,0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+EE,LV,Power,All,0.0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 ES,FR,Power,All,2.8,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 ES,PT,Power,All,2.3,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 FI,EE,Power,All,1.016,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-FI,NO,Power,All,0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+FI,NO,Power,All,0.0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 FI,SE,Power,All,2.4,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 FR,BE,Power,All,2.8,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 FR,CH,Power,All,3.7,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-FR,DE,Power,All,3,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+FR,DE,Power,All,3.0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 FR,DE_BY,Power,All,0.984,,GW,,,
 FR,DE_SN,Power,All,0.816,,GW,,,
 FR,ES,Power,All,2.8,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-FR,IE,Power,All,0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+FR,IE,Power,All,0.0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 FR,IT,Power,All,2.9,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 FR,LU,Power,All,0.38,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-FR,UK,Power,All,3,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+FR,UK,Power,All,3.0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 GR,BG,Power,All,1.1,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 GR,IT,Power,All,0.5,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 GR,NONEU_Balkan,Power,All,1.5,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 GR,TR,Power,All,0.66,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 HR,HU,Power,All,1.7,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 HR,NONEU_Balkan,Power,All,1.25,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-HR,SI,Power,All,2,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+HR,SI,Power,All,2.0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 HU,AT,Power,All,0.8,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 HU,HR,Power,All,1.7,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 HU,NONEU_Balkan,Power,All,0.75,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 HU,RO,Power,All,1.1,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-HU,SI,Power,All,0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+HU,SI,Power,All,0.0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 HU,SK,Power,All,1.8,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-IE,FR,Power,All,0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+IE,FR,Power,All,0.0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 IE,UK,Power,All,0.63,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 IT,AT,Power,All,0.41,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 IT,CH,Power,All,3.75,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
@@ -277,24 +277,24 @@ IT,GR,Power,All,0.5,,GW,https://ember-climate.org/data/data-tools/electricity-in
 IT,NONEU_Balkan,Power,All,0.6,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 IT,SI,Power,All,0.66,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 LT,LV,Power,All,0.95,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-LT,PL,Power,All,0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+LT,PL,Power,All,0.0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 LT,SE,Power,All,0.7,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 LU,BE,Power,All,0.68,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 LU,DE,Power,All,2.3,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 LU,FR,Power,All,0.38,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-LV,EE,Power,All,0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+LV,EE,Power,All,0.0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 LV,LT,Power,All,0.95,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-LV,SE,Power,All,0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+LV,SE,Power,All,0.0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 NL,BE,Power,All,1.4,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 NL,DE,Power,All,3.95,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 NL,DE_NRW,Power,All,1.2,,GW,,,
 NL,DE_RP,Power,All,1.2,,GW,,,
 NL,DK,Power,All,0.7,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 NL,NO,Power,All,0.7,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-NL,UK,Power,All,1,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+NL,UK,Power,All,1.0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 NO,DE,Power,All,1.4,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 NO,DK,Power,All,1.64,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-NO,FI,Power,All,0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+NO,FI,Power,All,0.0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 NO,NL,Power,All,0.7,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 NO,SE,Power,All,3.695,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 NO,UK,Power,All,1.4,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
@@ -305,11 +305,11 @@ NONEU_Balkan,HU,Power,All,0.75,,GW,https://ember-climate.org/data/data-tools/ele
 NONEU_Balkan,IT,Power,All,0.6,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 NONEU_Balkan,RO,Power,All,0.68,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 PL,CZ,Power,All,1.4,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-PL,DE,Power,All,1,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+PL,DE,Power,All,1.0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 PL,DE_BE,Power,All,0.1125,,GW,,,
 PL,DE_ST,Power,All,0.1125,,GW,,,
-PL,DK,Power,All,0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-PL,LT,Power,All,0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+PL,DK,Power,All,0.0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+PL,LT,Power,All,0.0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 PL,SE,Power,All,0.6,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 PL,SK,Power,All,1.98,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 PT,ES,Power,All,2.7,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
@@ -320,25 +320,25 @@ SE,DE,Power,All,0.615,,GW,https://ember-climate.org/data/data-tools/electricity-
 SE,DK,Power,All,2.45,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 SE,FI,Power,All,2.4,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 SE,LT,Power,All,0.7,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-SE,LV,Power,All,0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+SE,LV,Power,All,0.0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 SE,NO,Power,All,3.695,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 SE,PL,Power,All,0.6,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 SI,AT,Power,All,0.95,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-SI,HR,Power,All,2,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-SI,HU,Power,All,0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+SI,HR,Power,All,2.0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+SI,HU,Power,All,0.0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 SI,IT,Power,All,0.66,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-SK,AT,Power,All,0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+SK,AT,Power,All,0.0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 SK,CZ,Power,All,1.8,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 SK,HU,Power,All,1.3,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 SK,PL,Power,All,1.98,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 TR,BG,Power,All,0.9,,GW,assumption: symmetrical to BG-TR,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 TR,GR,Power,All,0.66,,GW,assumption: symmetrical to GR-TR,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-UK,BE,Power,All,1,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-UK,DE,Power,All,0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-UK,DK,Power,All,0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-UK,FR,Power,All,3,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+UK,BE,Power,All,1.0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+UK,DE,Power,All,0.0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+UK,DK,Power,All,0.0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+UK,FR,Power,All,3.0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 UK,IE,Power,All,0.63,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-UK,NL,Power,All,1,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+UK,NL,Power,All,1.0,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 UK,NO,Power,All,1.4,,GW,https://ember-climate.org/data/data-tools/electricity-interconnection-europe/,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 California,ERCOT,Gas_Natural,All,517.0418,,PJ,dummy data - empty entry,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 California,MISO,Gas_Natural,All,502.4893,,PJ,dummy data - empty entry,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
@@ -347,56 +347,51 @@ California,SERC,Gas_Natural,All,2641.1206,,PJ,dummy data - empty entry,20.09.202
 California,WECC,Gas_Natural,All,823.3577,,PJ,dummy data - empty entry,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 California,SPP,Gas_Natural,All,1329.4267,,PJ,dummy data - empty entry,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 California,NewYork,Gas_Natural,All,303.919,,PJ,dummy data - empty entry,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-California,ERCOT,Power,All,1.4,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,MISO,Power,All,1,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,PJM,Power,All,4.2,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,SERC,Power,All,1.6,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,WECC,Power,All,3,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,SPP,Power,All,3.95,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,NewYork,Power,All,1,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 WECC,MISO,Gas_Natural,All,354.752,,PJ,dummy data - empty entry,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 WECC,PJM,Gas_Natural,All,342.138,,PJ,dummy data - empty entry,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-WECC,California,Gas_Natural,All,0,,PJ,dummy data - empty entry,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
+WECC,California,Gas_Natural,All,0.0,,PJ,dummy data - empty entry,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 WECC,Canada,Gas_Natural,All,235.4081,,PJ,dummy data - empty entry,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-WECC,MISO,Power,All,2.8,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,PJM,Power,All,3.7,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,California,Power,All,3,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,Canada,Power,All,2.8,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,NewEngland,Power,All,2.9,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 SPP,MISO,Gas_Natural,All,1887.85,,PJ,dummy data - empty entry,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 SPP,California,Gas_Natural,All,2629.8277,,PJ,dummy data - empty entry,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-SPP,MISO,Power,All,1.4,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,California,Power,All,3.95,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 MISO,California,Gas_Natural,All,446.6692,,PJ,dummy data - empty entry,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 MISO,WECC,Gas_Natural,All,1116.81,,PJ,dummy data - empty entry,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 MISO,SPP,Gas_Natural,All,516.361,,PJ,dummy data - empty entry,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-MISO,California,Power,All,1,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,WECC,Power,All,2.8,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,SPP,Power,All,2.4,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 ERCOT,California,Gas_Natural,All,568.6889,,PJ,dummy data - empty entry,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 ERCOT,NewEngland,Gas_Natural,All,1633.042,,PJ,dummy data - empty entry,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-ERCOT,PJM,Power,All,1.2,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,SERC,Power,All,0.9,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,California,Power,All,1.4,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,NewEngland,Power,All,0.41,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 SERC,California,Gas_Natural,All,1575.6649,,PJ,dummy data - empty entry,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 SERC,NewYork,Gas_Natural,All,36.7891,,PJ,dummy data - empty entry,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-SERC,ERCOT,Power,All,0.9,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,California,Power,All,1.6,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,NewYork,Power,All,1.4,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 PJM,WECC,Gas_Natural,All,131.389,,PJ,dummy data - empty entry,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 PJM,NewEngland,Gas_Natural,All,888.2223,,PJ,dummy data - empty entry,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-PJM,ERCOT,Power,All,1.2,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,California,Power,All,4.2,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,WECC,Power,All,3.7,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,NewEngland,Power,All,3.75,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewYork,California,Gas_Natural,All,1328.3295,,PJ,dummy data - empty entry,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-NewYork,SERC,Power,All,1.4,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,California,Power,All,1,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewEngland,ERCOT,Gas_Natural,All,1633.042,,PJ,dummy data - empty entry,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-NewEngland,PJM,Gas_Natural,All,0,,PJ,dummy data - empty entry,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-NewEngland,ERCOT,Power,All,0.41,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,PJM,Power,All,3.75,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,WECC,Power,All,3.1,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,PJM,Gas_Natural,All,0.0,,PJ,dummy data - empty entry,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 Canada,WECC,Gas_Natural,All,321.011,,PJ,dummy data - empty entry,20.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-Canada,WECC,Power,All,2.8,,GW,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,MISO,Power,2025,45.174,,GW,pool_links 2025 (MW/1000),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,MISO,Power,2025,20.71,,GW,pool_links 2025 (MW/1000),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,WECC,Power,2025,17.797,,GW,pool_links 2025 (MW/1000),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,SERC,Power,2025,17.278,,GW,pool_links 2025 (MW/1000),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,California,Power,2025,16.914,,GW,pool_links 2025 (MW/1000),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,PJM,Power,2025,15.938,,GW,pool_links 2025 (MW/1000),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,MISO,Power,2025,6.854,,GW,pool_links 2025 (MW/1000),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,PJM,Power,2025,6.523,,GW,pool_links 2025 (MW/1000),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,Canada,Power,2025,6.421,,GW,pool_links 2025 (MW/1000),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,Canada,Power,2025,4.821,,GW,pool_links 2025 (MW/1000),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,NewYork,Power,2025,4.626,,GW,pool_links 2025 (MW/1000),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,NewYork,Power,2025,4.399,,GW,pool_links 2025 (MW/1000),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,SPP,Power,2025,4.382,,GW,pool_links 2025 (MW/1000),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,NewYork,Power,2025,3.502,,GW,pool_links 2025 (MW/1000),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,Canada,Power,2025,3.25,,GW,pool_links 2025 (MW/1000),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,MISO,Power,2025,3.152,,GW,pool_links 2025 (MW/1000),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,WECC,Power,2025,3.15,,GW,pool_links 2025 (MW/1000),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,SERC,Power,2025,3.111,,GW,pool_links 2025 (MW/1000),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,NewEngland,Power,2025,3.02,,GW,pool_links 2025 (MW/1000),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,ERCOT,Power,2025,3.0,,GW,pool_links 2025 (MW/1000),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,SPP,Power,2025,3.0,,GW,pool_links 2025 (MW/1000),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,NewEngland,Power,2025,2.395,,GW,pool_links 2025 (MW/1000),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,Canada,Power,2025,2.268,,GW,pool_links 2025 (MW/1000),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,SERC,Power,2025,0.707,,GW,pool_links 2025 (MW/1000),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,SPP,Power,2025,0.707,,GW,pool_links 2025 (MW/1000),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,WECC,Power,2025,0.61,,GW,pool_links 2025 (MW/1000),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,SPP,Power,2025,0.61,,GW,pool_links 2025 (MW/1000),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,Canada,Power,2025,0.3,,GW,pool_links 2025 (MW/1000),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,SPP,Power,2025,0.2,,GW,pool_links 2025 (MW/1000),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>

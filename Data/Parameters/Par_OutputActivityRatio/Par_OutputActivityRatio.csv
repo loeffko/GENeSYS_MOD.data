@@ -589,3 +589,5 @@ World,X_Convert_Power,Power_Buildings_Cooling,3,All,1,,PJ,power demand splitter 
 World,X_Convert_Power,Power_DataCenter,4,All,1,,PJ,power demand splitter (eff=1),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
 World,X_Convert_Power,Power_Hydrogen,5,All,1,,PJ,power demand splitter (eff=1),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
 World,X_Convert_Power,Power_BEVs,6,All,1,,PJ,power demand splitter (eff=1),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,Z_Import_Biomass,Biomass,1,All,1,,PJ,dummy Z_Import added for power-only precompute path,2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,Z_Import_Lignite,Lignite,1,All,1,,PJ,dummy Z_Import added for power-only precompute path,2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
