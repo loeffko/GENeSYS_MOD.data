@@ -53,7 +53,7 @@ EE,CO2,2025,0.0040659,,Gt,Own Calculation based on: https://unfccc.int/ghg-inven
 EE,CO2,2030,0.0030575,,Gt,Own Calculation based on: https://unfccc.int/ghg-inventories-annex-i-parties/2023 - CRT,15.08.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
 EE,CO2,2035,0.002049,,Gt,Own Calculation based on: https://unfccc.int/ghg-inventories-annex-i-parties/2023 - CRT,15.08.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
 EE,CO2,2040,0.0010406,,Gt,Own Calculation based on: https://unfccc.int/ghg-inventories-annex-i-parties/2023 - CRT,15.08.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-EE,CO2,2045,3.21e-05,,Gt,Own Calculation based on: https://unfccc.int/ghg-inventories-annex-i-parties/2023 - CRT,15.08.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
+EE,CO2,2045,3.21E-05,,Gt,Own Calculation based on: https://unfccc.int/ghg-inventories-annex-i-parties/2023 - CRT,15.08.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
 EE,CO2,2050,-0.0009763,,Gt,Own Calculation based on: https://unfccc.int/ghg-inventories-annex-i-parties/2023 - CRT,15.08.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
 ES,CO2,2021,0.0282681,,Gt,Own Calculation based on: https://unfccc.int/ghg-inventories-annex-i-parties/2023 - CRT,15.08.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
 ES,CO2,2025,0.0158335,,Gt,Own Calculation based on: https://unfccc.int/ghg-inventories-annex-i-parties/2023 - CRT,15.08.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
@@ -121,7 +121,7 @@ LT,CO2,2050,-0.008401,,Gt,Own Calculation based on: https://unfccc.int/ghg-inven
 LU,CO2,2021,0.0007433,,Gt,Own Calculation based on: https://unfccc.int/ghg-inventories-annex-i-parties/2023 - CRT,15.08.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
 LU,CO2,2025,0.0005055,,Gt,Own Calculation based on: https://unfccc.int/ghg-inventories-annex-i-parties/2023 - CRT,15.08.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
 LU,CO2,2030,0.0002677,,Gt,Own Calculation based on: https://unfccc.int/ghg-inventories-annex-i-parties/2023 - CRT,15.08.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-LU,CO2,2035,2.99e-05,,Gt,Own Calculation based on: https://unfccc.int/ghg-inventories-annex-i-parties/2023 - CRT,15.08.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
+LU,CO2,2035,2.99E-05,,Gt,Own Calculation based on: https://unfccc.int/ghg-inventories-annex-i-parties/2023 - CRT,15.08.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
 LU,CO2,2040,-0.0002079,,Gt,Own Calculation based on: https://unfccc.int/ghg-inventories-annex-i-parties/2023 - CRT,15.08.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
 LU,CO2,2045,-0.0004457,,Gt,Own Calculation based on: https://unfccc.int/ghg-inventories-annex-i-parties/2023 - CRT,15.08.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
 LU,CO2,2050,-0.0006834,,Gt,Own Calculation based on: https://unfccc.int/ghg-inventories-annex-i-parties/2023 - CRT,15.08.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
@@ -151,8 +151,8 @@ NONEU_Balkan,CO2,2025,0.0004368,,Gt,Own Calculation based on: https://unfccc.int
 NONEU_Balkan,CO2,2030,0.0003484,,Gt,Own Calculation based on: https://unfccc.int/ghg-inventories-annex-i-parties/2023 - CRT,15.08.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
 NONEU_Balkan,CO2,2035,0.00026,,Gt,Own Calculation based on: https://unfccc.int/ghg-inventories-annex-i-parties/2023 - CRT,15.08.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
 NONEU_Balkan,CO2,2040,0.0001717,,Gt,Own Calculation based on: https://unfccc.int/ghg-inventories-annex-i-parties/2023 - CRT,15.08.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-NONEU_Balkan,CO2,2045,8.33e-05,,Gt,Own Calculation based on: https://unfccc.int/ghg-inventories-annex-i-parties/2023 - CRT,15.08.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-NONEU_Balkan,CO2,2050,-5e-06,,Gt,Own Calculation based on: https://unfccc.int/ghg-inventories-annex-i-parties/2023 - CRT,15.08.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
+NONEU_Balkan,CO2,2045,8.33E-05,,Gt,Own Calculation based on: https://unfccc.int/ghg-inventories-annex-i-parties/2023 - CRT,15.08.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
+NONEU_Balkan,CO2,2050,-5.00E-06,,Gt,Own Calculation based on: https://unfccc.int/ghg-inventories-annex-i-parties/2023 - CRT,15.08.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
 PL,CO2,2021,0.0431733,,Gt,Own Calculation based on: https://unfccc.int/ghg-inventories-annex-i-parties/2023 - CRT,15.08.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
 PL,CO2,2025,0.0314373,,Gt,Own Calculation based on: https://unfccc.int/ghg-inventories-annex-i-parties/2023 - CRT,15.08.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
 PL,CO2,2030,0.0197014,,Gt,Own Calculation based on: https://unfccc.int/ghg-inventories-annex-i-parties/2023 - CRT,15.08.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
@@ -281,8 +281,8 @@ NL,CO2,2055,-0.0020904,,Gt,same as 2050 for now,29.01.2025,Nikita Moskalenko <ni
 NL,CO2,2060,-0.0020904,,Gt,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 NO,CO2,2055,-0.0204259,,Gt,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 NO,CO2,2060,-0.0204259,,Gt,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-NONEU_Balkan,CO2,2055,-5e-06,,Gt,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-NONEU_Balkan,CO2,2060,-5e-06,,Gt,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NONEU_Balkan,CO2,2055,-5.00E-06,,Gt,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+NONEU_Balkan,CO2,2060,-5.00E-06,,Gt,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 PL,CO2,2055,-0.0272423,,Gt,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 PL,CO2,2060,-0.0272423,,Gt,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 PT,CO2,2055,-0.0069081,,Gt,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
@@ -426,7 +426,7 @@ BE,CO2,2039,0.00918208,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu
 BG,CO2,2026,0.00137254,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
 BG,CO2,2027,0.00088688,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
 BG,CO2,2028,0.00040122,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-BG,CO2,2029,-8.444e-05,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
+BG,CO2,2029,-8.44E-05,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
 BG,CO2,2031,-0.00105574,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
 BG,CO2,2032,-0.00154138,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
 BG,CO2,2033,-0.00202702,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
@@ -545,7 +545,7 @@ GR,CO2,2038,0.0264306,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-
 GR,CO2,2039,0.0225915,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
 HR,CO2,2026,0.00053594,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
 HR,CO2,2027,0.00022998,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-HR,CO2,2028,-7.598e-05,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
+HR,CO2,2028,-7.60E-05,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
 HR,CO2,2029,-0.00038194,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
 HR,CO2,2031,-0.00099386,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
 HR,CO2,2032,-0.00129982,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
@@ -610,9 +610,9 @@ LU,CO2,2029,0.00031526,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu
 LU,CO2,2031,0.00022014,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
 LU,CO2,2032,0.00017258,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
 LU,CO2,2033,0.00012502,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-LU,CO2,2034,7.746e-05,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-LU,CO2,2036,-1.766e-05,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-LU,CO2,2037,-6.522e-05,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
+LU,CO2,2034,7.75E-05,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
+LU,CO2,2036,-1.77E-05,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
+LU,CO2,2037,-6.52E-05,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
 LU,CO2,2038,-0.00011278,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
 LU,CO2,2039,-0.00016034,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
 LV,CO2,2026,0.00430246,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
@@ -729,7 +729,7 @@ SK,CO2,2028,0.00241992,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu
 SK,CO2,2029,0.00195406,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
 SK,CO2,2031,0.00102232,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
 SK,CO2,2032,0.00055644,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-SK,CO2,2033,9.056e-05,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
+SK,CO2,2033,9.06E-05,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
 SK,CO2,2034,-0.00037532,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
 SK,CO2,2036,-0.00130708,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
 SK,CO2,2037,-0.00177296,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
@@ -759,243 +759,3 @@ UK,CO2,2036,0.0341087,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-
 UK,CO2,2037,0.0302696,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
 UK,CO2,2038,0.0264306,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
 UK,CO2,2039,0.0225915,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,CO2,2026,0.0874912,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,CO2,2027,0.081759,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,CO2,2028,0.0760269,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,CO2,2029,0.0702947,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,CO2,2031,0.0588303,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,CO2,2032,0.0530982,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,CO2,2033,0.047366,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,CO2,2034,0.0416339,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,CO2,2036,0.0301695,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,CO2,2037,0.0244373,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,CO2,2038,0.0187052,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,CO2,2039,0.012973,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,CO2,2026,0.0818551,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,CO2,2027,0.077187,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,CO2,2028,0.0725188,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,CO2,2029,0.0678507,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,CO2,2031,0.0585145,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,CO2,2032,0.0538463,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,CO2,2033,0.0491782,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,CO2,2034,0.04451,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,CO2,2036,0.0351738,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,CO2,2037,0.0305056,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,CO2,2038,0.0258375,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,CO2,2039,0.0211693,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,CO2,2026,0.0268371,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,CO2,2027,0.0256318,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,CO2,2028,0.0244264,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,CO2,2029,0.0232211,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,CO2,2031,0.0208105,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,CO2,2032,0.0196052,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,CO2,2033,0.0183999,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,CO2,2034,0.0171946,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,CO2,2036,0.014784,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,CO2,2037,0.0135787,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,CO2,2038,0.0123733,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,CO2,2039,0.011168,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,CO2,2026,0.0224026,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,CO2,2027,0.0213857,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,CO2,2028,0.0203687,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,CO2,2029,0.0193518,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,CO2,2031,0.0173178,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,CO2,2032,0.0163009,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,CO2,2033,0.0152839,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,CO2,2034,0.014267,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,CO2,2036,0.012233,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,CO2,2037,0.011216,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,CO2,2038,0.0101991,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,CO2,2039,0.00918208,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,CO2,2026,0.0095322,,Gt,interpolated,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,CO2,2027,0.0086247,,Gt,interpolated,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,CO2,2028,0.0077172,,Gt,interpolated,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,CO2,2029,0.0068097,,Gt,interpolated,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,CO2,2031,0.00499468,,Gt,interpolated,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,CO2,2032,0.00408716,,Gt,interpolated,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,CO2,2033,0.00317964,,Gt,interpolated,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,CO2,2034,0.00227212,,Gt,interpolated,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,CO2,2036,0.0004571,,Gt,interpolated,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,CO2,2037,-0.0004504,,Gt,interpolated,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,CO2,2038,-0.0013579,,Gt,interpolated,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,CO2,2039,-0.0022654,,Gt,interpolated,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,CO2,2026,0.029871,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,CO2,2027,0.0285033,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,CO2,2028,0.0271357,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,CO2,2029,0.025768,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,CO2,2031,0.0230326,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,CO2,2032,0.0216649,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,CO2,2033,0.0202972,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,CO2,2034,0.0189295,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,CO2,2036,0.0161941,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,CO2,2037,0.0148264,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,CO2,2038,0.0134587,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,CO2,2039,0.012091,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,CO2,2026,0.00667344,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,CO2,2027,0.00627058,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,CO2,2028,0.00586772,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,CO2,2029,0.00546486,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,CO2,2031,0.00465912,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,CO2,2032,0.00425624,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,CO2,2033,0.00385336,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,CO2,2034,0.00345048,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,CO2,2036,0.00264472,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,CO2,2037,0.00224184,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,CO2,2038,0.00183896,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,CO2,2039,0.00143608,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,CO2,2026,0.0290901,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,CO2,2027,0.0267429,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,CO2,2028,0.0243958,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,CO2,2029,0.0220486,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,CO2,2031,0.0173542,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,CO2,2032,0.015007,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,CO2,2033,0.0126599,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,CO2,2034,0.0103127,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,CO2,2036,0.0056183,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,CO2,2037,0.0032711,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,CO2,2038,0.0009239,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,CO2,2039,-0.0014233,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,CO2,2026,0.0391412,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,CO2,2027,0.0361204,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,CO2,2028,0.0330995,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,CO2,2029,0.0300787,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,CO2,2031,0.0240371,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,CO2,2032,0.0210163,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,CO2,2033,0.0179954,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,CO2,2034,0.0149746,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,CO2,2036,0.00893298,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,CO2,2037,0.00591216,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,CO2,2038,0.00289134,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,CO2,2039,-0.00012948,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,CO2,2026,0.0133466,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,CO2,2027,0.0108597,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,CO2,2028,0.00837274,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,CO2,2029,0.00588582,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,CO2,2031,0.000912,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,CO2,2032,-0.0015749,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,CO2,2033,-0.0040618,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,CO2,2034,-0.0065487,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,CO2,2036,-0.0115225,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,CO2,2037,-0.0140094,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,CO2,2038,-0.0164964,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,CO2,2039,-0.0189833,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,CO2,2026,0.0874912,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,CO2,2027,0.081759,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,CO2,2028,0.0760269,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,CO2,2029,0.0702947,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,CO2,2031,0.0588303,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,CO2,2032,0.0530982,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,CO2,2033,0.047366,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,CO2,2034,0.0416339,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,CO2,2036,0.0301695,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,CO2,2037,0.0244373,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,CO2,2038,0.0187052,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,CO2,2039,0.012973,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,CO2,2026,0.0818551,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,CO2,2027,0.077187,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,CO2,2028,0.0725188,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,CO2,2029,0.0678507,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,CO2,2031,0.0585145,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,CO2,2032,0.0538463,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,CO2,2033,0.0491782,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,CO2,2034,0.04451,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,CO2,2036,0.0351738,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,CO2,2037,0.0305056,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,CO2,2038,0.0258375,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,CO2,2039,0.0211693,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,CO2,2026,0.0268371,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,CO2,2027,0.0256318,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,CO2,2028,0.0244264,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,CO2,2029,0.0232211,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,CO2,2031,0.0208105,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,CO2,2032,0.0196052,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,CO2,2033,0.0183999,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,CO2,2034,0.0171946,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,CO2,2036,0.014784,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,CO2,2037,0.0135787,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,CO2,2038,0.0123733,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,CO2,2039,0.011168,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,CO2,2026,0.0224026,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,CO2,2027,0.0213857,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,CO2,2028,0.0203687,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,CO2,2029,0.0193518,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,CO2,2031,0.0173178,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,CO2,2032,0.0163009,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,CO2,2033,0.0152839,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,CO2,2034,0.014267,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,CO2,2036,0.012233,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,CO2,2037,0.011216,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,CO2,2038,0.0101991,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,CO2,2039,0.00918208,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,CO2,2026,0.0095322,,Gt,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,CO2,2027,0.0086247,,Gt,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,CO2,2028,0.0077172,,Gt,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,CO2,2029,0.0068097,,Gt,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,CO2,2031,0.00499468,,Gt,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,CO2,2032,0.00408716,,Gt,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,CO2,2033,0.00317964,,Gt,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,CO2,2034,0.00227212,,Gt,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,CO2,2036,0.0004571,,Gt,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,CO2,2037,-0.0004504,,Gt,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,CO2,2038,-0.0013579,,Gt,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,CO2,2039,-0.0022654,,Gt,dummy data - empty entry,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,CO2,2026,0.029871,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,CO2,2027,0.0285033,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,CO2,2028,0.0271357,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,CO2,2029,0.025768,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,CO2,2031,0.0230326,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,CO2,2032,0.0216649,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,CO2,2033,0.0202972,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,CO2,2034,0.0189295,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,CO2,2036,0.0161941,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,CO2,2037,0.0148264,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,CO2,2038,0.0134587,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,CO2,2039,0.012091,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,CO2,2026,0.00667344,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,CO2,2027,0.00627058,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,CO2,2028,0.00586772,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,CO2,2029,0.00546486,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,CO2,2031,0.00465912,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,CO2,2032,0.00425624,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,CO2,2033,0.00385336,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,CO2,2034,0.00345048,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,CO2,2036,0.00264472,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,CO2,2037,0.00224184,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,CO2,2038,0.00183896,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,CO2,2039,0.00143608,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,CO2,2026,0.0290901,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,CO2,2027,0.0267429,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,CO2,2028,0.0243958,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,CO2,2029,0.0220486,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,CO2,2031,0.0173542,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,CO2,2032,0.015007,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,CO2,2033,0.0126599,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,CO2,2034,0.0103127,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,CO2,2036,0.0056183,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,CO2,2037,0.0032711,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,CO2,2038,0.0009239,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,CO2,2039,-0.0014233,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,CO2,2026,0.0391412,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,CO2,2027,0.0361204,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,CO2,2028,0.0330995,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,CO2,2029,0.0300787,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,CO2,2031,0.0240371,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,CO2,2032,0.0210163,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,CO2,2033,0.0179954,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,CO2,2034,0.0149746,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,CO2,2036,0.00893298,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,CO2,2037,0.00591216,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,CO2,2038,0.00289134,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,CO2,2039,-0.00012948,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,CO2,2026,0.0133466,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,CO2,2027,0.0108597,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,CO2,2028,0.00837274,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,CO2,2029,0.00588582,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,CO2,2031,0.000912,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,CO2,2032,-0.0015749,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,CO2,2033,-0.0040618,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,CO2,2034,-0.0065487,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,CO2,2036,-0.0115225,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,CO2,2037,-0.0140094,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,CO2,2038,-0.0164964,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,CO2,2039,-0.0189833,,Gt,dummy data - empty entry,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
