@@ -1,2 +1,2 @@
-region,Area [km²],Suitable Area PV [km²],Suitable Area Wind [km²],Suitable Area Rooftops [km²],PV Capacity [GW],Rooftop Capacity [GW],Wind Capacity [GW]
-Canada,4119818.185814606,14560.034758333204,14560.034758333204,2928.4615860228,1456.0034758333204,292.84615860228,393.12093847499654
+region,Area [km²],Suitable Area PV [km²],Suitable Area Wind [km²],Suitable Area Rooftops [km²],PV Capacity [GW],Rooftop Capacity [GW],Wind Capacity [GW],Offshore Wind shallow [GW],Offshore Wind transitional [GW],Offshore Wind deep [GW],Offshore Wind Total [GW]
+Canada,4119818.186,14560.03476,14560.03476,2928.461586,1456.003476,292.8461586,393.1209385,49.0801408,56.27286053,200.4237044,305.7767057
