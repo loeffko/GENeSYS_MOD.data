@@ -21,3 +21,19 @@ Nuclear,USA,2037,121.43,,GW,US nuclear capacity target trajectory,2026-05-28,Kon
 Nuclear,USA,2038,123.932,,GW,US nuclear capacity target trajectory,2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
 Nuclear,USA,2039,123.932,,GW,US nuclear capacity target trajectory,2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
 Nuclear,USA,2040,129.832,,GW,US nuclear capacity target trajectory,2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+OffshoreWind,Other_Offshore_Regions,2025,0.0,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative, 'Other')",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+OffshoreWind,Other_Offshore_Regions,2026,0.0,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative, 'Other')",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+OffshoreWind,Other_Offshore_Regions,2027,0.0,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative, 'Other')",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+OffshoreWind,Other_Offshore_Regions,2028,0.0,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative, 'Other')",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+OffshoreWind,Other_Offshore_Regions,2029,0.038064,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative, 'Other')",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+OffshoreWind,Other_Offshore_Regions,2030,0.182861,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative, 'Other')",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+OffshoreWind,Other_Offshore_Regions,2031,0.206185,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative, 'Other')",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+OffshoreWind,Other_Offshore_Regions,2032,0.488955,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative, 'Other')",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+OffshoreWind,Other_Offshore_Regions,2033,0.798477,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative, 'Other')",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+OffshoreWind,Other_Offshore_Regions,2034,0.798477,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative, 'Other')",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+OffshoreWind,Other_Offshore_Regions,2035,0.798477,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative, 'Other')",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+OffshoreWind,Other_Offshore_Regions,2036,0.969479,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative, 'Other')",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+OffshoreWind,Other_Offshore_Regions,2037,0.969479,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative, 'Other')",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+OffshoreWind,Other_Offshore_Regions,2038,1.308858,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative, 'Other')",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+OffshoreWind,Other_Offshore_Regions,2039,1.308858,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative, 'Other')",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+OffshoreWind,Other_Offshore_Regions,2040,1.420537,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative, 'Other')",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
