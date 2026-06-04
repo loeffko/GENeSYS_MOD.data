@@ -165,9 +165,12 @@ def main():
 
     # 1) Guardrail funnel (5 fuel groups x US pool regions). We also accumulate
     #    per (region, year) the "excess" between the rep guardrail trajectory
-    #    and the rep's share of the per-region restool potential. That excess
-    #    is carried into the matching "_opt" variant in step 2.
-    excess_by_region_rep_year = {}   # {(region, rep_tech, year): excess_GW}
+    #    (max and min) and the rep's share of the per-region restool potential.
+    #    Max excess spills into _Opt (up to Opt's headroom). Min excess flows
+    #    through _Opt then _Inf so the per-region min requirement stays
+    #    satisfiable when the rep alone cannot carry it.
+    excess_by_region_rep_year     = {}   # {(region, rep, year): max_excess_GW}
+    excess_min_by_region_rep_year = {}   # {(region, rep, year): min_excess_GW}
     for region in pool_regions:
         # Rep's share of total potential (per family). Used to bound rep_cap
         # at the share and to compute excess (= rep guardrail - share).
@@ -206,15 +209,14 @@ def main():
                         raw_max = max_2035
 
                 # Cap rep tech at its share of total potential. Excess spills
-                # into the matching _opt variant downstream. Min is also capped
-                # at the rep ceiling so the (min ≤ max) invariant survives the
-                # anonymised-data noise.
+                # into _Opt (and, for min only, then into _Inf) so the (min ≤
+                # max) invariant survives capping by the regional potential.
                 share_cap = rep_share_pot.get(tech)
                 if share_cap is not None:
                     rep_max = min(raw_max, share_cap)
                     rep_min = min(raw_min, share_cap)
-                    excess = max(0.0, raw_max - share_cap)
-                    excess_by_region_rep_year[(region, tech, y)] = excess
+                    excess_by_region_rep_year[(region, tech, y)]     = max(0.0, raw_max - share_cap)
+                    excess_min_by_region_rep_year[(region, tech, y)] = max(0.0, raw_min - share_cap)
                 else:
                     rep_max = raw_max
                     rep_min = raw_min
@@ -222,34 +224,51 @@ def main():
                 max_rows.append((region, tech, y, round(rep_max, 6)))
 
         # 2) Non-rep restool variants per region. Behaviour:
-        #    - 2025-2035: cap = 0 (do not introduce these variants yet)
-        #    - 2036-2040: linear ramp from 0 to (share * total_potential) at 2040
-        #    - The matching _Opt variant additionally absorbs any "excess" from
-        #      the rep guardrail (so the rep stays bounded by its share of the
-        #      potential while the spillover stays accessible to the model).
-        #    - The spilled excess is capped at the Opt's remaining headroom
-        #      below its own share*pot, so total cap (Avg+Opt+Inf) never exceeds
-        #      the regional restool potential even with noisy guardrail data.
+        #    Max:
+        #     - 2025-2035: cap = 0 (do not introduce these variants yet)
+        #     - 2036-2040: linear ramp from 0 to (share * total_potential) at 2040
+        #     - _Opt additionally absorbs the rep's MAX excess, capped at its
+        #       remaining headroom below its own share*pot.
+        #    Min:
+        #     - The rep's MIN excess flows to _Opt first (bounded by Opt's
+        #       max value at year y), then any residual to _Inf (bounded by
+        #       Inf's max). So total per-region min is preserved without ever
+        #       requiring more than that variant's own max.
         for col, info in RESTOOL_MAP.items():
             pot_val = pot.get(region, {}).get(col, 0.0)
             rep = info["rep"]
-            for variant, share in info["variants"].items():
-                if variant == rep:
-                    continue
-                target = pot_val * share   # 2040 ceiling for this variant
-                is_opt = variant.endswith("_Opt")
-                for y in YEARS:
-                    if y <= 2035:
-                        base = 0.0
-                    else:
-                        base = target * ((y - 2035) / 5.0)
-                    if is_opt:
-                        excess = excess_by_region_rep_year.get((region, rep, y), 0.0)
-                        headroom = max(0.0, target - base)  # max share*pot - already-ramped base
-                        spill = min(excess, headroom)
-                    else:
-                        spill = 0.0
-                    max_rows.append((region, variant, y, round(base + spill, 6)))
+            if rep is None:
+                # Single variant (Rooftop) — share fraction flat across years
+                for variant, share in info["variants"].items():
+                    target = pot_val * share
+                    for y in YEARS:
+                        max_rows.append((region, variant, y, round(target, 6)))
+                continue
+            opt_tech = next((v for v in info["variants"] if v.endswith("_Opt")), None)
+            inf_tech = next((v for v in info["variants"] if v.endswith("_Inf")), None)
+            opt_share = info["variants"].get(opt_tech, 0.0)
+            inf_share = info["variants"].get(inf_tech, 0.0)
+            opt_target = pot_val * opt_share
+            inf_target = pot_val * inf_share
+            for y in YEARS:
+                frac = 0.0 if y <= 2035 else (y - 2035) / 5.0
+                opt_base = opt_target * frac
+                inf_base = inf_target * frac
+                exc_max = excess_by_region_rep_year.get((region, rep, y), 0.0)
+                opt_max = opt_base + min(exc_max, max(0.0, opt_target - opt_base))
+                inf_max = inf_base
+                # Min spillover: Opt -> Inf, each bounded by own max
+                exc_min = excess_min_by_region_rep_year.get((region, rep, y), 0.0)
+                opt_min = min(exc_min, opt_max)
+                inf_min = min(max(0.0, exc_min - opt_min), inf_max)
+                if opt_tech is not None:
+                    max_rows.append((region, opt_tech, y, round(opt_max, 6)))
+                    if opt_min > 0:
+                        min_rows.append((region, opt_tech, y, round(opt_min, 6)))
+                if inf_tech is not None:
+                    max_rows.append((region, inf_tech, y, round(inf_max, 6)))
+                    if inf_min > 0:
+                        min_rows.append((region, inf_tech, y, round(inf_min, 6)))
 
     # 3) Extra regions (Canada): only restool potentials (no Pool source data).
     #    Rep variant (_Avg) = share*pot flat across all years (no guardrail to
