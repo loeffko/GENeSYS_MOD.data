@@ -591,3 +591,7 @@ World,X_Convert_Power,Power_Hydrogen,5,All,1,,PJ,power demand splitter (eff=1),2
 World,X_Convert_Power,Power_BEVs,6,All,1,,PJ,power demand splitter (eff=1),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
 World,Z_Import_Biomass,Biomass,1,All,1,,PJ,dummy Z_Import added for power-only precompute path,2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
 World,Z_Import_Lignite,Lignite,1,All,1,,PJ,dummy Z_Import added for power-only precompute path,2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_EGS_R1,Power,1,All,1,,PJ,EGS dispatchable geothermal,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_EGS_R2,Power,1,All,1,,PJ,EGS dispatchable geothermal,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_EGS_R3,Power,1,All,1,,PJ,EGS dispatchable geothermal,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_EGS_R4,Power,1,All,1,,PJ,EGS dispatchable geothermal,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>

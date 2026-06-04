@@ -2947,3 +2947,7 @@ World,R_Waste,2037,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@
 World,R_Waste,2038,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>,
 World,R_Waste,2039,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>,
 World,X_Convert_Power,All,1,,MEUR/GW,power demand splitter (eff=1),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>,
+World,P_EGS_R1,All,119.6,,MEUR/GW,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>,
+World,P_EGS_R2,All,119.6,,MEUR/GW,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>,
+World,P_EGS_R3,All,119.6,,MEUR/GW,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>,
+World,P_EGS_R4,All,119.6,,MEUR/GW,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>,

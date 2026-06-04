@@ -2377,3 +2377,7 @@ World,PSNG_Air_H2,2029,0,,Fraction,interpolated,16.04.2026,Nikita Moskalenko <ni
 World,X_Convert_Power,All,1,,Fraction,by definition only 1,28/05/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 World,Z_Import_Biomass,All,1,,Fraction,by definition 1,28/05/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 World,Z_Import_Lignite,All,1,,Fraction,by definition 1,28/05/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_EGS_R1,All,0.9,,Fraction,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_EGS_R2,All,0.9,,Fraction,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_EGS_R3,All,0.9,,Fraction,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_EGS_R4,All,0.9,,Fraction,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
