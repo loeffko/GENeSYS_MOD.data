@@ -114,6 +114,23 @@ RETIRE_PER_TECH = {"P_Nuclear": 1.0}
 YEARS = list(range(2025, 2041))
 DATE, WHO = "2026-06-04", "Konstantin Loffler <kl@wip.tu-berlin.de>"
 
+# Max-side widening cap at 2035. Default is 1.30 (+30%). Hydro is narrower —
+# reservoirs are physically constrained, the funnel should not pretend they can
+# triple in capacity.
+MAX_WIDEN_2035_DEFAULT = 1.30
+MAX_WIDEN_2035_PER_TECH = {"P_Hydro_Reservoir": 1.10}
+
+# Annual MAX growth applied after 2035 for techs WITHOUT a restool potential
+# target. PV/Wind interpolate to the restool potential at 2040 (different code
+# path) — these rates only apply to thermal + hydro. Without this growth the
+# 2036-2040 cap would be flat which contradicts e.g. the Nuclear/USA target
+# floor reaching 129.8 GW in 2040.
+POST_2035_MAX_GROWTH = {
+    "P_Gas_CCGT":         0.05,
+    "P_Nuclear":          0.05,
+    "P_Hydro_Reservoir":  0.02,
+}
+
 # Nuclear/USA target floor (GroupTotalAnnualMinCapacity).
 NUCLEAR_USA_GROUP_MIN = {
     2035: 116.0,   2036: 118.3,   2037: 121.43,
@@ -122,14 +139,17 @@ NUCLEAR_USA_GROUP_MIN = {
 
 
 def margins(year, tech=None):
-    """(min_factor, max_factor) widening from +/-2% (<=2028) to -10%/+30% (>=2035)."""
+    """(min_factor, max_factor) widening from +/-2% (<=2028) to -10%/+max(2035)
+    where max(2035) is per-tech (1.30 default, 1.10 for hydro). Year capped at
+    2035 here; post-2035 growth is handled separately by POST_2035_MAX_GROWTH."""
     y = min(year, 2035)
+    mx_2035 = MAX_WIDEN_2035_PER_TECH.get(tech, MAX_WIDEN_2035_DEFAULT)
     if y <= 2028:
         mn, mx = 0.98, 1.02
     else:
         frac = (y - 2028) / (2035 - 2028)
         mn = 0.98 + (0.90 - 0.98) * frac
-        mx = 1.02 + (1.30 - 1.02) * frac
+        mx = 1.02 + (mx_2035 - 1.02) * frac
     if tech == "P_Nuclear":
         mn = 1.0
     return mn, mx
@@ -201,12 +221,15 @@ def main():
                 else:
                     # min: hold 2035 funnel min (no contraction post-2035)
                     raw_min = min_2035
-                    # max: interp 2035 funnel -> 2040 share-of-potential if available
+                    # max: interp 2035 funnel -> 2040 share-of-potential if a
+                    # restool target is available; otherwise compound growth
+                    # using POST_2035_MAX_GROWTH (thermal/hydro) or hold flat.
                     if target_2040 is not None and target_2040 > 0:
                         frac = (y - 2035) / 5.0
                         raw_max = max_2035 + (target_2040 - max_2035) * frac
                     else:
-                        raw_max = max_2035
+                        rate = POST_2035_MAX_GROWTH.get(tech, 0.0)
+                        raw_max = max_2035 * (1.0 + rate) ** (y - 2035)
 
                 # Cap rep tech at its share of total potential. Excess spills
                 # into _Opt (and, for min only, then into _Inf) so the (min ≤
