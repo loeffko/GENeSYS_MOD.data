@@ -61,7 +61,6 @@ AT,D_Battery_Li-Ion,2045,0,,PJ,based on ResidualCapacity of D_Battery_Li-Ion,03.
 AT,D_Battery_Li-Ion,2050,0,,PJ,based on ResidualCapacity of D_Battery_Li-Ion,03.02.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
 AT,D_Battery_Li-Ion,2055,0,,PJ,based on ResidualCapacity of D_Battery_Li-Ion,03.02.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
 AT,D_Battery_Li-Ion,2060,0,,PJ,based on ResidualCapacity of D_Battery_Li-Ion,03.02.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-Canada,S_PHS,All,1.0161,,PJ,dummy data - empty entry,12.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 BE,D_Battery_Li-Ion,2026,0.0001,,PJ,interpolated,03.02.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
 BE,D_Battery_Li-Ion,2027,0.0001,,PJ,interpolated,03.02.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
 BE,D_Battery_Li-Ion,2028,0.0001,,PJ,interpolated,03.02.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
