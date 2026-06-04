@@ -96,13 +96,23 @@ def main():
         shutil.copyfile(NA_FILTER, backup)
     shutil.copyfile(ALL_FILTER, NA_FILTER)
 
+    # 3) Preserve the existing power-only NA params Excel so that running this
+    #    script does not clobber it. master_function writes to the scenario-
+    #    derived filename (RegularParameters_NorthAmerica.xlsx); we move it
+    #    out of the way, run the conversion, rename the new output to
+    #    _allFuels, then put the power-only file back.
+    regular_path = os.path.join(OUTPUT_DIR, "RegularParameters_NorthAmerica.xlsx")
+    regular_bak  = regular_path + ".powerOnly.bak"
+    if os.path.exists(regular_path):
+        shutil.move(regular_path, regular_bak)
+
     try:
-        # 3) Run conversion (params only, no timeseries needed)
+        # 4) Run conversion (params only, no timeseries needed)
         from functions.function_import import master_function
         master_function("Set_filter_file_NorthAmerica.xlsx", "excel", "long",
                         "parameters_only", "NorthAmerica", False, "California")
 
-        # 4) Rename output to _allFuels (so the power-only Excel isn't clobbered)
+        # 5) Rename output to _allFuels
         src = os.path.join(OUTPUT_DIR, "RegularParameters_NorthAmerica.xlsx")
         dst = os.path.join(OUTPUT_DIR, "RegularParameters_NorthAmerica_allFuels.xlsx")
         if os.path.exists(dst):
@@ -110,10 +120,13 @@ def main():
         os.rename(src, dst)
         print(f"Generated: {dst}")
     finally:
-        # 5) Always restore the power-only NA filter
+        # 6) Always restore the power-only NA filter + Excel
         if os.path.exists(backup):
             shutil.copyfile(backup, NA_FILTER)
             print(f"Restored power-only NA filter from {os.path.basename(backup)}")
+        if os.path.exists(regular_bak):
+            shutil.move(regular_bak, regular_path)
+            print(f"Restored power-only NA Excel from {os.path.basename(regular_bak)}")
 
 
 if __name__ == "__main__":

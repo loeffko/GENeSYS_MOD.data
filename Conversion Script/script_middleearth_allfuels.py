@@ -85,17 +85,30 @@ def main():
     print(f"Built {os.path.basename(ALL_FILTER)} "
           f"(ME regions/years preserved; all fuels/techs/storages enabled)")
 
-    from functions.function_import import master_function
-    master_function(os.path.basename(ALL_FILTER),
-                    "excel", "long", "parameters_only",
-                    "MiddleEarth", False, "Gondor")
+    # Preserve any existing full-ME params Excel so this run does not clobber
+    # it (master_function writes to RegularParameters_MiddleEarth.xlsx based on
+    # scenario_option).
+    regular_path = os.path.join(OUTPUT_DIR, "RegularParameters_MiddleEarth.xlsx")
+    regular_bak  = regular_path + ".full.bak"
+    if os.path.exists(regular_path):
+        shutil.move(regular_path, regular_bak)
 
-    src = os.path.join(OUTPUT_DIR, "RegularParameters_MiddleEarth.xlsx")
-    dst = os.path.join(OUTPUT_DIR, "RegularParameters_MiddleEarth_allFuels.xlsx")
-    if os.path.exists(dst):
-        os.remove(dst)
-    os.rename(src, dst)
-    print(f"Generated: {dst}")
+    try:
+        from functions.function_import import master_function
+        master_function(os.path.basename(ALL_FILTER),
+                        "excel", "long", "parameters_only",
+                        "MiddleEarth", False, "Gondor")
+
+        src = os.path.join(OUTPUT_DIR, "RegularParameters_MiddleEarth.xlsx")
+        dst = os.path.join(OUTPUT_DIR, "RegularParameters_MiddleEarth_allFuels.xlsx")
+        if os.path.exists(dst):
+            os.remove(dst)
+        os.rename(src, dst)
+        print(f"Generated: {dst}")
+    finally:
+        if os.path.exists(regular_bak):
+            shutil.move(regular_bak, regular_path)
+            print(f"Restored full-ME Excel from {os.path.basename(regular_bak)}")
 
 
 if __name__ == "__main__":
