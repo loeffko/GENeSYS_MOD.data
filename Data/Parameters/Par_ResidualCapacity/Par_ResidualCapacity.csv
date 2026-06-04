@@ -56033,6 +56033,54 @@ Canada,PSNG_Road_PHEV,2036,0.0,,GW,dummy data - empty entry,09.04.2026,Nikita Mo
 Canada,PSNG_Road_PHEV,2037,0.0,,GW,dummy data - empty entry,09.04.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
 Canada,PSNG_Road_PHEV,2038,0.0,,GW,dummy data - empty entry,09.04.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
 Canada,PSNG_Road_PHEV,2039,0.0,,GW,dummy data - empty entry,09.04.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,P_EGS_R1,2025,2.4,,GW,"EIA 2025 Geothermal Market Report; linear decline 2025-2040 (avg fleet age 30yr, 30yr life)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_EGS_R1,2026,2.24,,GW,"EIA 2025 Geothermal Market Report; linear decline 2025-2040 (avg fleet age 30yr, 30yr life)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_EGS_R1,2027,2.08,,GW,"EIA 2025 Geothermal Market Report; linear decline 2025-2040 (avg fleet age 30yr, 30yr life)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_EGS_R1,2028,1.92,,GW,"EIA 2025 Geothermal Market Report; linear decline 2025-2040 (avg fleet age 30yr, 30yr life)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_EGS_R1,2029,1.76,,GW,"EIA 2025 Geothermal Market Report; linear decline 2025-2040 (avg fleet age 30yr, 30yr life)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_EGS_R1,2030,1.6,,GW,"EIA 2025 Geothermal Market Report; linear decline 2025-2040 (avg fleet age 30yr, 30yr life)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_EGS_R1,2031,1.44,,GW,"EIA 2025 Geothermal Market Report; linear decline 2025-2040 (avg fleet age 30yr, 30yr life)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_EGS_R1,2032,1.28,,GW,"EIA 2025 Geothermal Market Report; linear decline 2025-2040 (avg fleet age 30yr, 30yr life)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_EGS_R1,2033,1.12,,GW,"EIA 2025 Geothermal Market Report; linear decline 2025-2040 (avg fleet age 30yr, 30yr life)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_EGS_R1,2034,0.96,,GW,"EIA 2025 Geothermal Market Report; linear decline 2025-2040 (avg fleet age 30yr, 30yr life)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_EGS_R1,2035,0.8,,GW,"EIA 2025 Geothermal Market Report; linear decline 2025-2040 (avg fleet age 30yr, 30yr life)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_EGS_R1,2036,0.64,,GW,"EIA 2025 Geothermal Market Report; linear decline 2025-2040 (avg fleet age 30yr, 30yr life)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_EGS_R1,2037,0.48,,GW,"EIA 2025 Geothermal Market Report; linear decline 2025-2040 (avg fleet age 30yr, 30yr life)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_EGS_R1,2038,0.32,,GW,"EIA 2025 Geothermal Market Report; linear decline 2025-2040 (avg fleet age 30yr, 30yr life)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_EGS_R1,2039,0.16,,GW,"EIA 2025 Geothermal Market Report; linear decline 2025-2040 (avg fleet age 30yr, 30yr life)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_EGS_R1,2040,0.0,,GW,"EIA 2025 Geothermal Market Report; linear decline 2025-2040 (avg fleet age 30yr, 30yr life)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_EGS_R1,2025,0.1,,GW,"EIA 2025 Geothermal Market Report; linear decline 2025-2040 (avg fleet age 30yr, 30yr life)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_EGS_R1,2026,0.0933,,GW,"EIA 2025 Geothermal Market Report; linear decline 2025-2040 (avg fleet age 30yr, 30yr life)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_EGS_R1,2027,0.0867,,GW,"EIA 2025 Geothermal Market Report; linear decline 2025-2040 (avg fleet age 30yr, 30yr life)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_EGS_R1,2028,0.08,,GW,"EIA 2025 Geothermal Market Report; linear decline 2025-2040 (avg fleet age 30yr, 30yr life)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_EGS_R1,2029,0.0733,,GW,"EIA 2025 Geothermal Market Report; linear decline 2025-2040 (avg fleet age 30yr, 30yr life)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_EGS_R1,2030,0.0667,,GW,"EIA 2025 Geothermal Market Report; linear decline 2025-2040 (avg fleet age 30yr, 30yr life)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_EGS_R1,2031,0.06,,GW,"EIA 2025 Geothermal Market Report; linear decline 2025-2040 (avg fleet age 30yr, 30yr life)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_EGS_R1,2032,0.0533,,GW,"EIA 2025 Geothermal Market Report; linear decline 2025-2040 (avg fleet age 30yr, 30yr life)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_EGS_R1,2033,0.0467,,GW,"EIA 2025 Geothermal Market Report; linear decline 2025-2040 (avg fleet age 30yr, 30yr life)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_EGS_R1,2034,0.04,,GW,"EIA 2025 Geothermal Market Report; linear decline 2025-2040 (avg fleet age 30yr, 30yr life)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_EGS_R1,2035,0.0333,,GW,"EIA 2025 Geothermal Market Report; linear decline 2025-2040 (avg fleet age 30yr, 30yr life)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_EGS_R1,2036,0.0267,,GW,"EIA 2025 Geothermal Market Report; linear decline 2025-2040 (avg fleet age 30yr, 30yr life)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_EGS_R1,2037,0.02,,GW,"EIA 2025 Geothermal Market Report; linear decline 2025-2040 (avg fleet age 30yr, 30yr life)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_EGS_R1,2038,0.0133,,GW,"EIA 2025 Geothermal Market Report; linear decline 2025-2040 (avg fleet age 30yr, 30yr life)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_EGS_R1,2039,0.0067,,GW,"EIA 2025 Geothermal Market Report; linear decline 2025-2040 (avg fleet age 30yr, 30yr life)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_EGS_R1,2040,0.0,,GW,"EIA 2025 Geothermal Market Report; linear decline 2025-2040 (avg fleet age 30yr, 30yr life)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_EGS_R1,2025,1.4,,GW,"EIA 2025 Geothermal Market Report; linear decline 2025-2040 (avg fleet age 30yr, 30yr life)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_EGS_R1,2026,1.3067,,GW,"EIA 2025 Geothermal Market Report; linear decline 2025-2040 (avg fleet age 30yr, 30yr life)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_EGS_R1,2027,1.2133,,GW,"EIA 2025 Geothermal Market Report; linear decline 2025-2040 (avg fleet age 30yr, 30yr life)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_EGS_R1,2028,1.12,,GW,"EIA 2025 Geothermal Market Report; linear decline 2025-2040 (avg fleet age 30yr, 30yr life)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_EGS_R1,2029,1.0267,,GW,"EIA 2025 Geothermal Market Report; linear decline 2025-2040 (avg fleet age 30yr, 30yr life)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_EGS_R1,2030,0.9333,,GW,"EIA 2025 Geothermal Market Report; linear decline 2025-2040 (avg fleet age 30yr, 30yr life)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_EGS_R1,2031,0.84,,GW,"EIA 2025 Geothermal Market Report; linear decline 2025-2040 (avg fleet age 30yr, 30yr life)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_EGS_R1,2032,0.7467,,GW,"EIA 2025 Geothermal Market Report; linear decline 2025-2040 (avg fleet age 30yr, 30yr life)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_EGS_R1,2033,0.6533,,GW,"EIA 2025 Geothermal Market Report; linear decline 2025-2040 (avg fleet age 30yr, 30yr life)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_EGS_R1,2034,0.56,,GW,"EIA 2025 Geothermal Market Report; linear decline 2025-2040 (avg fleet age 30yr, 30yr life)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_EGS_R1,2035,0.4667,,GW,"EIA 2025 Geothermal Market Report; linear decline 2025-2040 (avg fleet age 30yr, 30yr life)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_EGS_R1,2036,0.3733,,GW,"EIA 2025 Geothermal Market Report; linear decline 2025-2040 (avg fleet age 30yr, 30yr life)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_EGS_R1,2037,0.28,,GW,"EIA 2025 Geothermal Market Report; linear decline 2025-2040 (avg fleet age 30yr, 30yr life)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_EGS_R1,2038,0.1867,,GW,"EIA 2025 Geothermal Market Report; linear decline 2025-2040 (avg fleet age 30yr, 30yr life)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_EGS_R1,2039,0.0933,,GW,"EIA 2025 Geothermal Market Report; linear decline 2025-2040 (avg fleet age 30yr, 30yr life)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_EGS_R1,2040,0.0,,GW,"EIA 2025 Geothermal Market Report; linear decline 2025-2040 (avg fleet age 30yr, 30yr life)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 California,P_Gas_CCGT,2025,8510.311187,,GW,"US Pools gen/cap 2025 base, 5%/yr retirement",2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
 California,P_Gas_CCGT,2026,8084.795628,,GW,"US Pools gen/cap 2025 base, 5%/yr retirement",2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
 California,P_Gas_CCGT,2027,7680.555846,,GW,"US Pools gen/cap 2025 base, 5%/yr retirement",2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>

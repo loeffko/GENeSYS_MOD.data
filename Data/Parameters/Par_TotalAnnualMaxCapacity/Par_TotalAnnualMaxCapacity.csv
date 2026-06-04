@@ -6621,3 +6621,31 @@ Canada,A_Rooftop_Residential,2035,292.846,,GW,GENeSYS-MOD.tools NA_restool,2026-
 Canada,A_Rooftop_Residential,2040,292.846,,GW,GENeSYS-MOD.tools NA_restool,2026-06-02,Konstantin Loffler <kl@wip.tu-berlin.de>
 Canada,A_Rooftop_Residential,2045,292.846,,GW,GENeSYS-MOD.tools NA_restool,2026-06-02,Konstantin Loffler <kl@wip.tu-berlin.de>
 Canada,A_Rooftop_Residential,2050,292.846,,GW,GENeSYS-MOD.tools NA_restool,2026-06-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_EGS_R1,All,23.0,,GW,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_EGS_R1,All,542.0,,GW,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_EGS_R1,All,181.0,,GW,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_EGS_R1,All,46.0,,GW,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_EGS_R1,All,1768.0,,GW,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_EGS_R2,All,46.0,,GW,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_EGS_R2,All,139.0,,GW,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_EGS_R2,All,253.0,,GW,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_EGS_R2,All,14.0,,GW,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_EGS_R2,All,74.0,,GW,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_EGS_R2,All,1151.0,,GW,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_EGS_R3,All,192.0,,GW,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_EGS_R3,All,169.0,,GW,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_EGS_R3,All,203.0,,GW,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_EGS_R3,All,4.0,,GW,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_EGS_R3,All,36.0,,GW,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_EGS_R3,All,130.0,,GW,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_EGS_R3,All,214.0,,GW,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_EGS_R3,All,791.0,,GW,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_EGS_R4,All,36.0,,GW,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_EGS_R4,All,40.0,,GW,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_EGS_R4,All,225.0,,GW,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_EGS_R4,All,131.0,,GW,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_EGS_R4,All,37.0,,GW,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_EGS_R4,All,222.0,,GW,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_EGS_R4,All,114.0,,GW,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_EGS_R4,All,96.0,,GW,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_EGS_R4,All,140.0,,GW,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>

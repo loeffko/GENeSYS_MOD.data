@@ -609,3 +609,15 @@ X_Convert_Power,Convert,1,,Binary,not relevant,2026-05-28,Konstantin Loffler <kl
 Z_Import_Biomass,ImportTechnology,1,,Binary,not relevant,2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
 Z_Import_Lignite,ImportTechnology,1,,Binary,not relevant,2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
 Z_Import_Lignite,FossilFuelGeneration,1,,Binary,not relevant,2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_EGS_R1,EGS,1,,Binary,not relevant,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_EGS_R1,Renewables,1,,Binary,not relevant,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_EGS_R1,PowerSupply,1,,Binary,not relevant,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_EGS_R2,EGS,1,,Binary,not relevant,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_EGS_R2,Renewables,1,,Binary,not relevant,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_EGS_R2,PowerSupply,1,,Binary,not relevant,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_EGS_R3,EGS,1,,Binary,not relevant,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_EGS_R3,Renewables,1,,Binary,not relevant,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_EGS_R3,PowerSupply,1,,Binary,not relevant,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_EGS_R4,EGS,1,,Binary,not relevant,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_EGS_R4,Renewables,1,,Binary,not relevant,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_EGS_R4,PowerSupply,1,,Binary,not relevant,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>

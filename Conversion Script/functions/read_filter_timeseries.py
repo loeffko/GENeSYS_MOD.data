@@ -7,7 +7,19 @@ def read_filter_timeseries(timeseries_dir, unique_values_concatenated, scenario_
 
     unique_regions = unique_values_concatenated['Region'].unique()
 
+    # Optional Timeseries_selection: when the filter file declares it, only
+    # TS_<NAME> folders whose name appears in the enabled list are processed.
+    # If the column is absent (older filter file) or empty, fall back to "all".
+    if 'Timeseries' in unique_values_concatenated.columns:
+        enabled_ts = set(str(v) for v in unique_values_concatenated['Timeseries'].dropna().unique())
+    else:
+        enabled_ts = None
+
     for subdir in os.listdir(timeseries_dir):
+        if enabled_ts is not None and subdir not in enabled_ts:
+            if debugging_output:
+                print(f"Skipping timeseries (filter disabled): {subdir}")
+            continue
         
         subdir_path = os.path.join(timeseries_dir, subdir)
         if os.path.isdir(subdir_path):
