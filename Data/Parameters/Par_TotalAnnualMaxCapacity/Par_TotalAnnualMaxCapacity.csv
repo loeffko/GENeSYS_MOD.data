@@ -6199,3 +6199,4 @@ Canada,P_Wind_Offshore_Transitional,2037,56.273,,GW,"SLA Offshore Wind Scenarios
 Canada,P_Wind_Offshore_Transitional,2038,56.273,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 Canada,P_Wind_Offshore_Transitional,2039,56.273,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 Canada,P_Wind_Offshore_Transitional,2040,56.273,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,X_Convert_Power,All,999999,,GW,"no source needed, unlimited",2026-06-08,Konstantin Loffler <kl@wip.tu-berlin.de>
