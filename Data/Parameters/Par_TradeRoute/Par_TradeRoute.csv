@@ -1341,3 +1341,5 @@ NewYork,Canada,Power,577,,km,great-circle between region centroids,28/05/2026,Ko
 Canada,NewYork,Power,577,,km,great-circle between region centroids,28/05/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewEngland,Canada,Power,758,,km,great-circle between region centroids,28/05/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 Canada,NewEngland,Power,758,,km,great-circle between region centroids,28/05/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,Canada,Power,1772,,km,great-circle between region centroids (route was missing although pool_links TradeCapacity exists),2026-06-11,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,SPP,Power,1772,,km,great-circle between region centroids (route was missing although pool_links TradeCapacity exists),2026-06-11,Konstantin Loffler <kl@wip.tu-berlin.de>
