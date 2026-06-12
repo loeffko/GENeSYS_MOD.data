@@ -4,9 +4,12 @@
 Writes the following NA-side parameters in one pass so guardrail vs. potential
 do not overlap:
 
-  Par_ResidualCapacity         : 2025 base * retire^(y-2025), 2025-2040. Default
-                                 retire = 0.95/yr (5% per year). P_Nuclear is
-                                 held flat (1.0/yr) — fleet assumed to stay on.
+  Par_ResidualCapacity         : 2025 base * (1 - 0.05*(y-2025)), 2025-2040 —
+                                 LINEAR retirement of 5% of the 2025 fleet per
+                                 year (constant absolute). P_Nuclear is held
+                                 flat (rate 0) — fleet assumed to stay on.
+                                 Gas techs additionally get a monotonic
+                                 (never-decreasing) TotalAnnualMaxCapacity.
 
   Par_TotalAnnualMinCapacity   : guardrail funnel 2026-2040
       2026-2028:  min = val*0.98 (±2%)
@@ -128,8 +131,21 @@ EXTERNAL_OWNERS = {
 # allowed to carry the rooftop potential).
 TECH_SHEET = lambda: os.path.join(DATA_REPO, "Data", "Parameters", "00_Sets&Tags", "Sets_Technology.csv")
 
-RETIRE_DEFAULT = 0.95
-RETIRE_PER_TECH = {"P_Nuclear": 1.0}
+# Retirement: LINEAR, as share of the 2025 base per year (5% of the 2025
+# fleet retires each year — constant absolute retirement, not geometric;
+# geometric 0.95^y made retirements slow down over time).
+RETIRE_RATE_DEFAULT = 0.05
+RETIRE_RATE_PER_TECH = {"P_Nuclear": 0.0}
+
+def residual_factor(tech, year):
+    rate = RETIRE_RATE_PER_TECH.get(tech, RETIRE_RATE_DEFAULT)
+    return max(0.0, 1.0 - rate * (year - 2025))
+
+# Gas technologies: TotalAnnualMaxCapacity must never decrease over the years
+# — a dipping cap forces the model to scrap capacity it was allowed (or
+# needed) to build earlier, which is infeasible with NewCapacity >= 0.
+MONOTONIC_MAX_TECHS = {"P_Gas_CCGT", "P_Gas_OCGT", "P_Gas_Steam", "P_Gas_Engines"}
+
 YEARS = list(range(2025, 2041))
 DATE, WHO = "2026-06-04", "Konstantin Loffler <kl@wip.tu-berlin.de>"
 
@@ -222,9 +238,8 @@ def main():
             rep_share_pot[rep] = (tot * TECH_SHARE.get(rep, 0.0)) if tot is not None else None
         for fuel, tech in TECH.items():
             base = gw(region, fuel, 2025)
-            retire = RETIRE_PER_TECH.get(tech, RETIRE_DEFAULT)
             for y in YEARS:
-                res_rows.append((region, tech, y, round(base * retire ** (y - 2025), 6)))
+                res_rows.append((region, tech, y, round(base * residual_factor(tech, y), 6)))
 
             # 2035 funnel anchors for post-2035 interp + min hold
             val_2035 = base if tech == "P_Nuclear" else gw(region, fuel, 2035)
@@ -234,6 +249,7 @@ def main():
 
             target_2040 = rep_share_pot.get(tech)  # rep share x total pot (None if N/A)
 
+            running_max = 0.0   # monotonic floor for MONOTONIC_MAX_TECHS
             for y in range(2026, 2041):
                 if y <= 2035:
                     val = base if tech == "P_Nuclear" else gw(region, fuel, y)
@@ -265,6 +281,9 @@ def main():
                 else:
                     rep_max = raw_max
                     rep_min = raw_min
+                if tech in MONOTONIC_MAX_TECHS:
+                    rep_max = max(rep_max, running_max)
+                    running_max = rep_max
                 min_rows.append((region, tech, y, round(rep_min, 6)))
                 max_rows.append((region, tech, y, round(rep_max, 6)))
 
@@ -276,12 +295,11 @@ def main():
         lign_base = min(LIGNITE_GW_2025.get(region, 0.0), coal_base)
         hard_base = max(0.0, coal_base - lign_base)
         for tech, base in (("P_Coal_Lignite", lign_base), ("P_Coal_Hardcoal", hard_base)):
-            retire = RETIRE_PER_TECH.get(tech, RETIRE_DEFAULT)
             for y in YEARS:
                 eff_base = base
                 if tech == "P_Coal_Lignite" and region == "ERCOT" and y >= SAN_MIGUEL_RETIRE_YEAR:
                     eff_base = max(0.0, base - SAN_MIGUEL_GW)
-                v = round(eff_base * retire ** (y - 2025), 6)
+                v = round(eff_base * residual_factor(tech, y), 6)
                 res_rows.append((region, tech, y, v))
                 max_rows.append((region, tech, y, v))   # no new coal builds
 
@@ -434,7 +452,7 @@ def main():
         return nd, len(new)
 
     r1 = write("Par_ResidualCapacity", res_rows,
-               "US Pools gen/cap 2025 base, 5%/yr retirement (Nuclear held flat)")
+               "US Pools gen/cap 2025 base, linear 5%-of-base/yr retirement (Nuclear held flat)")
     r2 = write("Par_TotalAnnualMinCapacity", min_rows,
                "US Pools gen/cap, widening band (min) — Nuclear pinned, post-2035 held at 2035 funnel min")
     r3 = write("Par_TotalAnnualMaxCapacity", max_rows,
