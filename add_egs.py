@@ -79,36 +79,36 @@ def read_lcoe():
 
 
 def read_allocation():
+    """Everything comes from the Output sheet:
+
+    - baseline: per-ISO Low-scenario 2025 values (rows 5-13) — used as the
+      model's 2025 residual fleet. Sums to the CONUS total 2025 (~4.07 GW),
+      so the base-year residual sits exactly on the group-min trajectory.
+    - low / central: the "CONUS total" rows (NOT the headline rows — those
+      carry a +0.07 GW non-CONUS offset that no ISO region can supply, which
+      made GroupMin 2025 (4.14) exceed the residual fleet => infeasible).
+    """
     wb = openpyxl.load_workbook(os.path.join(NA_DIR, "geothermal_allocation_model.xlsx"),
                                 read_only=True, data_only=True)
-    ws = wb["Inputs"]
+    ws = wb["Output"]
     rows = list(ws.iter_rows(values_only=True))
-    # Baseline 2024 fleet allocation (rows 20-28)
+
+    def conus_series(header_idx, conus_idx):
+        years, vals = rows[header_idx], rows[conus_idx]
+        assert str(vals[0]).startswith("CONUS"), f"expected CONUS row at {conus_idx}, got {vals[0]!r}"
+        return {int(y): float(v) for y, v in zip(years[1:], vals[1:])
+                if y is not None and int(y) >= 2025}
+
+    low     = conus_series(4, 14)    # Low block
+    central = conus_series(19, 29)   # Central block
+
+    # Per-ISO Low 2025 (Low block rows 5-13; column 2 = year 2025)
     baseline = {}
-    for r in rows[20:29]:
-        iso = r[0]; gw = r[1]
-        if iso == "Total": continue
+    for r in rows[5:14]:
+        iso, gw = r[0], r[2]
         mr = ISO_MAP.get(iso)
-        if mr and gw is not None and gw > 0:
+        if mr and gw is not None and float(gw) > 0:
             baseline[mr] = float(gw)
-    # Headline trajectories (rows 5-8 of Inputs)
-    anchor_low = {int(rows[5][0]): float(rows[5][1]),
-                  int(rows[6][0]): float(rows[6][1]),
-                  int(rows[7][0]): float(rows[7][1]),
-                  int(rows[8][0]): float(rows[8][1])}
-    anchor_central = {int(rows[5][0]): float(rows[5][2]),
-                      int(rows[6][0]): float(rows[6][2]),
-                      int(rows[7][0]): float(rows[7][2]),
-                      int(rows[8][0]): float(rows[8][2])}
-    # Pull full per-year series from Calc sheet (Low row 5, Central row 80)
-    ws = wb["Calc"]
-    calc_rows = list(ws.iter_rows(values_only=True))
-    low_yrs = calc_rows[4][1:18]
-    low_vals = calc_rows[5][1:18]
-    central_yrs = calc_rows[79][1:18]
-    central_vals = calc_rows[80][1:18]
-    low = {int(y): float(v) for y, v in zip(low_yrs, low_vals)}
-    central = {int(y): float(v) for y, v in zip(central_yrs, central_vals)}
     return baseline, low, central
 
 
@@ -226,10 +226,13 @@ def update_max_capacity(max_cap):
 
 def update_group_caps(low, central):
     # Min = Low scenario; Max = Central. Year subset = 2025-2040 model years.
+    # Min is FLOORED and Max CEILED at 3 decimals so per-row rounding of the
+    # residual capacities can never push the base-year fleet outside the cone.
+    import math
     yrs = sorted({y for y in low.keys() if 2025 <= y <= 2050})
-    rows_min = [["EGS", "USA", str(y), str(round(low[y], 3)), "", "GW", SRC_ALLOC, STAMP, AUTHOR]
+    rows_min = [["EGS", "USA", str(y), str(math.floor(low[y] * 1000) / 1000), "", "GW", SRC_ALLOC, STAMP, AUTHOR]
                 for y in yrs]
-    rows_max = [["EGS", "USA", str(y), str(round(central[y], 3)), "", "GW", SRC_ALLOC, STAMP, AUTHOR]
+    rows_max = [["EGS", "USA", str(y), str(math.ceil(central[y] * 1000) / 1000), "", "GW", SRC_ALLOC, STAMP, AUTHOR]
                 for y in yrs]
     p_min = os.path.join(PAR_DIR, "Par_GroupTotalAnnualMinCapacity", "Par_GroupTotalAnnualMinCapacity.csv")
     p_max = os.path.join(PAR_DIR, "Par_GroupTotalAnnualMaxCapacity", "Par_GroupTotalAnnualMaxCapacity.csv")
