@@ -51,11 +51,30 @@ POT_CA = os.path.join(DATA_REPO, "NA_restool", "canada_potentials_combined.csv")
 PARAM = lambda n: os.path.join(DATA_REPO, "Data", "Parameters", n, n + ".csv")
 apply = "--apply" in sys.argv
 
-# Guardrail fuel-group -> representative model tech (US Pools dataset)
-TECH = {"Natural Gas": "P_Gas_CCGT", "Solar": "P_PV_Utility_Avg",
-        "Wind": "P_Wind_Onshore_Avg", "Hydro": "P_Hydro_Reservoir",
+# Guardrail category -> representative model tech (US Pools dataset,
+# "Fuel + Technology" split since the 2026-06 file update).
+# "Coal" is handled separately (lignite/hardcoal split below).
+# "Storage" is deliberately unmapped for now (mixes pumped hydro + batteries).
+TECH = {"Natural Gas - CCCT":  "P_Gas_CCGT",
+        "Natural Gas - SCCT":  "P_Gas_OCGT",
+        "Natural Gas - ST":    "P_Gas_Steam",
+        "Natural Gas - Other": "P_Gas_Engines",
+        "Solar": "P_PV_Utility_Avg",
+        "Wind": "P_Wind_Onshore_Avg",
+        "Hydro": "P_Hydro_Reservoir",
         "Nuclear": "P_Nuclear"}
 MODEL_TECHS_GUARDRAIL = set(TECH.values())
+
+# Coal split: lignite is mine-mouth only (no interregional market). 2025 GW
+# per region from plant-level research (ND fleet ~3.9 in MISO, TX ~4.4 in
+# ERCOT incl. San Miguel, Red Hills 0.44 in SERC). Remainder of the US Pools
+# "Coal" category is hardcoal. No new coal builds: MaxCapacity follows the
+# residual trajectory exactly; all other regions get lignite MaxCapacity 0.
+COAL_CATEGORY = "Coal"
+LIGNITE_GW_2025 = {"MISO": 3.9, "ERCOT": 4.4, "SERC": 0.44}
+SAN_MIGUEL_GW, SAN_MIGUEL_RETIRE_YEAR = 0.41, 2028   # solar+storage conversion
+CANADA_LIGNITE_GW = 1.53   # SaskPower life-extension (10/2025), flat to 2040
+COAL_TECHS = {"P_Coal_Lignite", "P_Coal_Hardcoal"}
 
 # Restool potential column -> all model tech variants in that family.
 # Each variant gets a share of the per-region potential (placeholder split until
@@ -93,7 +112,7 @@ TECH_SHARE = {v: s for info in RESTOOL_MAP.values() for v, s in info["variants"]
 ALL_RESTOOL_TECHS = sorted(TECH_SHARE.keys())
 
 # Full set of techs this script directly writes positive caps for.
-ALL_MANAGED_TECHS = MODEL_TECHS_GUARDRAIL | set(ALL_RESTOOL_TECHS)
+ALL_MANAGED_TECHS = MODEL_TECHS_GUARDRAIL | set(ALL_RESTOOL_TECHS) | COAL_TECHS
 
 # Techs whose caps are owned by other scripts — leave them alone here.
 EXTERNAL_OWNERS = {
@@ -169,11 +188,14 @@ def read_restool_potentials():
 
 def main():
     df = pd.read_excel(SRC)
+    # 2026-06 file update: category column renamed to "Fuel + Technology",
+    # measure column is unnamed (3rd position).
+    df = df.rename(columns={df.columns[1]: "Category", df.columns[2]: "Measure"})
     cap = df[df["Measure"] == "Capacity MW"].copy()
     pot = read_restool_potentials()
 
     def gw(region, fuel, year):
-        sel = cap[(cap["Pool-Regions"] == region) & (cap["Fuel Group"] == fuel)]
+        sel = cap[(cap["Pool-Regions"] == region) & (cap["Category"] == fuel)]
         if sel.empty or year not in sel.columns:
             return 0.0
         return max(0.0, float(sel.iloc[0][year])) / 1000.0   # MW->GW, clamp >=0
@@ -246,6 +268,23 @@ def main():
                 min_rows.append((region, tech, y, round(rep_min, 6)))
                 max_rows.append((region, tech, y, round(rep_max, 6)))
 
+        # 1b) Coal: split the US Pools "Coal" capacity into lignite (fixed
+        #     regional fleet, mine-mouth fuel) and hardcoal (remainder).
+        #     No new coal builds in the US: MaxCapacity = residual trajectory.
+        #     San Miguel (ERCOT lignite, 0.41 GW) converts to solar+storage.
+        coal_base = gw(region, COAL_CATEGORY, 2025)
+        lign_base = min(LIGNITE_GW_2025.get(region, 0.0), coal_base)
+        hard_base = max(0.0, coal_base - lign_base)
+        for tech, base in (("P_Coal_Lignite", lign_base), ("P_Coal_Hardcoal", hard_base)):
+            retire = RETIRE_PER_TECH.get(tech, RETIRE_DEFAULT)
+            for y in YEARS:
+                eff_base = base
+                if tech == "P_Coal_Lignite" and region == "ERCOT" and y >= SAN_MIGUEL_RETIRE_YEAR:
+                    eff_base = max(0.0, base - SAN_MIGUEL_GW)
+                v = round(eff_base * retire ** (y - 2025), 6)
+                res_rows.append((region, tech, y, v))
+                max_rows.append((region, tech, y, v))   # no new coal builds
+
         # 2) Non-rep restool variants per region. Behaviour:
         #    Max:
         #     - 2025-2035: cap = 0 (do not introduce these variants yet)
@@ -310,6 +349,17 @@ def main():
                     else:
                         val = target * ((y - 2035) / 5.0)
                     max_rows.append((region, variant, y, round(val, 6)))
+
+    # 3b) Coal in extra regions: Canada keeps the SaskPower lignite fleet
+    #     (1.53 GW flat, life-extension to 2050 announced 10/2025); hardcoal
+    #     is gone (Alberta exited coal in 2024). MaxCapacity = residual.
+    for region in extra_regions:
+        lign = CANADA_LIGNITE_GW if region == "Canada" else 0.0
+        for y in YEARS:
+            res_rows.append((region, "P_Coal_Lignite", y, lign))
+            max_rows.append((region, "P_Coal_Lignite", y, lign))
+            res_rows.append((region, "P_Coal_Hardcoal", y, 0.0))
+            max_rows.append((region, "P_Coal_Hardcoal", y, 0.0))
 
     all_regions = pool_regions + extra_regions
 
