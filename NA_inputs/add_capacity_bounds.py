@@ -79,6 +79,80 @@ SAN_MIGUEL_GW, SAN_MIGUEL_RETIRE_YEAR = 0.41, 2028   # solar+storage conversion
 CANADA_LIGNITE_GW = 1.53   # SaskPower life-extension (10/2025), flat to 2040
 COAL_TECHS = {"P_Coal_Lignite", "P_Coal_Hardcoal"}
 
+# ---------------------------------------------------------------------------
+# Canada: CER "Canada's Energy Future 2026" (canada_power_ef2026.xlsx).
+# National primary_fuel capacity trajectory (Current Measures) drives residual
+# 2025 + min/max guardrails. The CER has no gas technology split, so the
+# "Natural Gas" total is divided by the operating-fleet shares from the GEM
+# Global Oil & Gas Plant Tracker (Jan 2026): CC 62 / GT 16 / ST 21.5 /
+# IC 0.5 % (gas-fired units; pure-oil units belong to the CER Oil category).
+# Solar is split utility/distributed by the CER technology-resolution ratio.
+# Canadian hardcoal (NS/NB/AB, ~2.5 GW in 2025) follows the CER decline to 0
+# by 2035; SK lignite stays at the SaskPower 1.53 GW flat.
+# ---------------------------------------------------------------------------
+CANADA_SRC = os.path.join(HERE, "canada_power_ef2026.xlsx")
+CANADA_SCENARIO = "Current Measures"
+CANADA_GAS_SPLIT = {"P_Gas_CCGT": 0.62, "P_Gas_OCGT": 0.16,
+                    "P_Gas_Steam": 0.215, "P_Gas_Engines": 0.005}
+CANADA_TECH = {  # CER primary_fuel category -> model tech (gas/solar special)
+    "Hydro / Wave / Tidal": "P_Hydro_Reservoir",
+    "Uranium": "P_Nuclear",
+    "Wind": "P_Wind_Onshore_Avg",
+    "Oil": "P_Oil",
+    "Biomass / Geothermal": "P_Biomass",
+}
+CANADA_SOLAR_DISTRIBUTED_SHARE = 0.24   # CER technology res: 1.70/7.15 in 2025
+# Doubled funnel vs the US (trajectory deliberately rougher): +/-4% to 2028,
+# widening to -20%/+60% at 2035 (hydro +20%), held from there (CER data runs
+# through 2040 so no post-2035 extrapolation is needed).
+CANADA_MARGIN_NEAR = 0.04
+CANADA_MARGIN_2035_MIN = 0.80
+CANADA_MARGIN_2035_MAX_DEFAULT = 1.60
+CANADA_MARGIN_2035_MAX_PER_TECH = {"P_Hydro_Reservoir": 1.20}
+
+def canada_margins(year, tech=None):
+    y = min(year, 2035)
+    mx_2035 = CANADA_MARGIN_2035_MAX_PER_TECH.get(tech, CANADA_MARGIN_2035_MAX_DEFAULT)
+    if y <= 2028:
+        mn, mx = 1 - CANADA_MARGIN_NEAR, 1 + CANADA_MARGIN_NEAR
+    else:
+        frac = (y - 2028) / (2035 - 2028)
+        mn = (1 - CANADA_MARGIN_NEAR) + (CANADA_MARGIN_2035_MIN - (1 - CANADA_MARGIN_NEAR)) * frac
+        mx = (1 + CANADA_MARGIN_NEAR) + (mx_2035 - (1 + CANADA_MARGIN_NEAR)) * frac
+    if tech == "P_Nuclear":
+        mn = 1.0
+    return mn, mx
+
+def read_canada_cer():
+    """Return ({tech: {year: GW}}, {year: hardcoal_GW}) from the CER workbook."""
+    df = pd.read_excel(CANADA_SRC, sheet_name="Capacity")
+    df["MW"] = pd.to_numeric(df["MW"], errors="coerce")
+    df["Year"] = pd.to_numeric(df["Year"], errors="coerce")
+    sel = df[(df["Scenario"] == CANADA_SCENARIO) & (df["Year"].between(2025, 2040))]
+    pf = sel[(sel["Resolution"] == "primary_fuel") & (sel["Region_Code"] == "CA")]
+
+    traj = {}
+    def series(variable):
+        s = pf[pf["Variable"] == variable]
+        return {int(y): float(m) / 1000.0 for y, m in zip(s["Year"], s["MW"])}
+
+    for var, tech in CANADA_TECH.items():
+        traj[tech] = series(var)
+    gas = series("Natural Gas")
+    for tech, share in CANADA_GAS_SPLIT.items():
+        traj[tech] = {y: v * share for y, v in gas.items()}
+    solar = series("Solar")
+    traj["P_PV_Utility_Avg"] = {y: v * (1 - CANADA_SOLAR_DISTRIBUTED_SHARE) for y, v in solar.items()}
+    traj["P_PV_Rooftop_Commercial"] = {y: v * CANADA_SOLAR_DISTRIBUTED_SHARE for y, v in solar.items()}
+
+    # Hardcoal: technology resolution, provinces ex-SK (SK = lignite), no CCUS
+    tech_res = sel[(sel["Resolution"] == "technology") &
+                   (sel["Variable"] == "Coal and Coke") &
+                   (~sel["Region_Code"].isin(["CA", "SK"]))]
+    hardcoal = tech_res.groupby("Year")["MW"].sum() / 1000.0
+    hardcoal = {int(y): float(v) for y, v in hardcoal.items()}
+    return traj, hardcoal
+
 # Restool potential column -> all model tech variants in that family.
 # Each variant gets a share of the per-region potential (placeholder split until
 # the resource-graded breakdown file lands): 40% Avg / 30% Opt / 30% Inf for
@@ -350,14 +424,36 @@ def main():
                     if inf_min > 0:
                         min_rows.append((region, inf_tech, y, round(inf_min, 6)))
 
-    # 3) Extra regions (Canada): only restool potentials (no Pool source data).
-    #    Rep variant (_Avg) = share*pot flat across all years (no guardrail to
-    #    follow). _Opt and _Inf ramp 0 -> share*pot linearly 2036-2040.
+    # 3) Canada: CER EF2026 trajectory drives residual 2025 + min/max funnel
+    #    (doubled margins vs the US). Restool keeps the _Opt/_Inf upside ramps
+    #    2036-2040 on top; the rep variants and rooftop are owned by the CER
+    #    block, so they are skipped in the restool loop below.
+    canada_techs = set()
+    if os.path.exists(CANADA_SRC) and "Canada" in extra_regions:
+        traj, ca_hardcoal = read_canada_cer()
+        canada_techs = set(traj.keys())
+        for tech, ser in sorted(traj.items()):
+            base = ser.get(2025, 0.0)
+            running_max = 0.0
+            for y in YEARS:
+                res_rows.append(("Canada", tech, y, round(base * residual_factor(tech, y), 6)))
+                mn, mx = canada_margins(y, tech)
+                val = ser.get(y, base)
+                rep_min, rep_max = val * mn, val * mx
+                if tech in MONOTONIC_MAX_TECHS:
+                    rep_max = max(rep_max, running_max)
+                    running_max = rep_max
+                min_rows.append(("Canada", tech, y, round(rep_min, 6)))
+                max_rows.append(("Canada", tech, y, round(rep_max, 6)))
+
+    # 3a) Other extra regions + Canada upside variants from restool potentials.
     for region in extra_regions:
         for col, info in RESTOOL_MAP.items():
             pot_val = pot.get(region, {}).get(col, 0.0)
             rep = info["rep"]
             for variant, share in info["variants"].items():
+                if region == "Canada" and variant in canada_techs:
+                    continue   # CER block owns rep + rooftop for Canada
                 target = pot_val * share
                 for y in YEARS:
                     if variant == rep or rep is None:
@@ -368,16 +464,18 @@ def main():
                         val = target * ((y - 2035) / 5.0)
                     max_rows.append((region, variant, y, round(val, 6)))
 
-    # 3b) Coal in extra regions: Canada keeps the SaskPower lignite fleet
-    #     (1.53 GW flat, life-extension to 2050 announced 10/2025); hardcoal
-    #     is gone (Alberta exited coal in 2024). MaxCapacity = residual.
+    # 3b) Coal in extra regions: SK lignite stays at the SaskPower 1.53 GW
+    #     flat (CER shows 1.39 incl. Boundary Dam CCS — same picture).
+    #     Hardcoal (NS/NB/AB) follows the CER decline to 0 by ~2035.
+    #     MaxCapacity = residual (no new coal builds).
     for region in extra_regions:
         lign = CANADA_LIGNITE_GW if region == "Canada" else 0.0
         for y in YEARS:
+            hard = ca_hardcoal.get(y, 0.0) if (region == "Canada" and canada_techs) else 0.0
             res_rows.append((region, "P_Coal_Lignite", y, lign))
             max_rows.append((region, "P_Coal_Lignite", y, lign))
-            res_rows.append((region, "P_Coal_Hardcoal", y, 0.0))
-            max_rows.append((region, "P_Coal_Hardcoal", y, 0.0))
+            res_rows.append((region, "P_Coal_Hardcoal", y, round(hard, 6)))
+            max_rows.append((region, "P_Coal_Hardcoal", y, round(hard, 6)))
 
     all_regions = pool_regions + extra_regions
 
@@ -396,6 +494,10 @@ def main():
     zero_rows = []
     for region in all_regions:
         for tech in zero_techs:
+            # Canada: techs carried by the CER block (e.g. P_Oil, P_Biomass)
+            # are managed there and must not be zeroed.
+            if region == "Canada" and tech in canada_techs:
+                continue
             for y in YEARS:
                 zero_rows.append((region, tech, y, 0.0))
     max_rows.extend(zero_rows)
