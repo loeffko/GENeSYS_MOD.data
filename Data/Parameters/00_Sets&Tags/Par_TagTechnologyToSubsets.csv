@@ -625,3 +625,5 @@ P_Nuclear,Nuclear,1,,Binary,not relevant,2026-05-28,Konstantin Loffler <kl@wip.t
 P_Wind_Offshore_Deep,OffshoreWind,1,,Binary,not relevant,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 P_Wind_Offshore_Shallow,OffshoreWind,1,,Binary,not relevant,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 P_Wind_Offshore_Transitional,OffshoreWind,1,,Binary,not relevant,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Gas_Steam,FossilPower,1,,Binary,not relevant,2026-06-12,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Gas_Steam,PowerSupply,1,,Binary,not relevant,2026-06-12,Konstantin Loffler <kl@wip.tu-berlin.de>

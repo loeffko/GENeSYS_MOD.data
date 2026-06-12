@@ -4234,3 +4234,4 @@ World,X_Convert_Power,Power,3,All,1,,PJ,power demand splitter (eff=1),2026-05-28
 World,X_Convert_Power,Power,4,All,1,,PJ,power demand splitter (eff=1),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
 World,X_Convert_Power,Power,5,All,1,,PJ,power demand splitter (eff=1),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
 World,X_Convert_Power,Power,6,All,1,,PJ,power demand splitter (eff=1),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Gas_Steam,Gas_Natural,1,All,3.0,,PJ,EIA AEO existing gas steam fleet (heat rate >10000 Btu/kWh; no new builds); legacy-fleet assumption,2026-06-12,Konstantin Loffler <kl@wip.tu-berlin.de>

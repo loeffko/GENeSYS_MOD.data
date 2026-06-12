@@ -186,3 +186,4 @@ World,P_Gas_CCS,All,CO2,2036,0.081,,Fraction,interpolated,22.01.2025,Konstantin 
 World,P_Gas_CCS,All,CO2,2037,0.081,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 World,P_Gas_CCS,All,CO2,2038,0.081,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 World,P_Gas_CCS,All,CO2,2039,0.081,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Gas_Steam,All,CO2,All,1,,Fraction,no source needed - all emissions go into athmosphere,2026-06-12,Konstantin Loffler <kl@wip.tu-berlin.de>

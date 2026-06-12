@@ -2951,3 +2951,4 @@ World,P_EGS_R1,All,119.6,,MEUR/GW,"EGS_LCOE_model.xlsx (Central scenario, ATB 20
 World,P_EGS_R2,All,119.6,,MEUR/GW,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>,
 World,P_EGS_R3,All,119.6,,MEUR/GW,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>,
 World,P_EGS_R4,All,119.6,,MEUR/GW,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>,
+World,P_Gas_Steam,All,33,,MEUR/GW,EIA/CAISO legacy gas steam FOM 30-45 USD/kW-yr,2026-06-12,Konstantin Loffler <kl@wip.tu-berlin.de>,

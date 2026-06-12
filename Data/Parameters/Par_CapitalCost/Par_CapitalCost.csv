@@ -3071,3 +3071,4 @@ World,P_EGS_R4,2037,6630.64,,MEUR/GW,"EGS_LCOE_model.xlsx (Central scenario, ATB
 World,P_EGS_R4,2038,6597.48,,MEUR/GW,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 World,P_EGS_R4,2039,6564.5,,MEUR/GW,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 World,P_EGS_R4,2040,6531.67,,MEUR/GW,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Gas_Steam,All,1100,,MEUR/GW,placeholder - no new gas steam builds expected; capacity capped at residual fleet,2026-06-12,Konstantin Loffler <kl@wip.tu-berlin.de>

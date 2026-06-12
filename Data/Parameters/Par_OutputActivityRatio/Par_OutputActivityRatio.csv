@@ -595,3 +595,4 @@ World,P_EGS_R1,Power,1,All,1,,PJ,EGS dispatchable geothermal,2026-06-04,Konstant
 World,P_EGS_R2,Power,1,All,1,,PJ,EGS dispatchable geothermal,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 World,P_EGS_R3,Power,1,All,1,,PJ,EGS dispatchable geothermal,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 World,P_EGS_R4,Power,1,All,1,,PJ,EGS dispatchable geothermal,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Gas_Steam,Power,1,All,1,,PJ,EIA AEO existing gas steam fleet (heat rate >10000 Btu/kWh; no new builds); legacy-fleet assumption,2026-06-12,Konstantin Loffler <kl@wip.tu-berlin.de>
