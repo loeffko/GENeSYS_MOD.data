@@ -83,11 +83,12 @@ all non-negative and matching the known regional battery leaders (CA, ERCOT).
 
 Outlook (aligned to the US Pools "Storage" trajectory):
 - D_PHS: existing fleet persists (residual = min = 2025 value). The max is NOT
-  a hard pin but a growth-rate-capped ceiling, 2025 fleet * (1+0.03)^(year-2025)
-  (<=3%/yr compound) — the real limit on new US PHS is the buildout rate (8-12 yr
-  lead times, siting/water/permits), not a hard cap, so the optimiser may add
-  modest PHS but cannot balloon it. Regions with no 2025 PHS (ERCOT, SPP) stay
-  ~0 (no greenfield assumed). ~22.8 GW US fleet -> <=~35.5 GW ceiling by 2040.
+  a hard pin but a growth-rate-capped ceiling, 2025 fleet * (1+0.015)^(year-2025)
+  (<=1.5%/yr compound) — the real limit on new US PHS is the buildout rate (8-12
+  yr lead times, siting/water/permits), not a hard cap. 1.5%/yr matches the
+  realistic US pipeline (~+6 GW new by 2040: Goldendale, Gordon Butte, Eagle
+  Mountain, Swan Lake, ...). Regions with no 2025 PHS (ERCOT, SPP) stay ~0 (no
+  greenfield assumed). ~22.8 GW US fleet -> <=~28.5 GW ceiling by 2040.
 - D_Battery_Li-Ion: ResidualCapacity = 2025 BESS retiring at the default linear
   rate; TotalAnnualMinCapacity = (US Pools Storage - PHS) through the standard
   guardrail funnel (2030-2035 trend extrapolated to 2040) — this FORCES the
@@ -99,7 +100,7 @@ Outlook (aligned to the US Pools "Storage" trajectory):
 Canada storage (from canada_power_ef2026.xlsx / CER EF2026, CANADA_SCENARIO):
 - D_PHS: 0.174 GW fixed (Sir Adam Beck PGS, Niagara ON — the only operational
   grid-scale pumped hydro in Canada; Marmora/Meaford/Canyon Creek are proposed,
-  not built). Max growth-capped like the US fleet (<=3%/yr).
+  not built). Max growth-capped like the US fleet (<=1.5%/yr).
 - D_Battery_Li-Ion: residual decays from the 2025 battery fleet; min funnels to
   the CER "Battery Storage" trajectory (national CA rollup, 1.62 GW 2025 ->
   ~10.5 GW 2040 under Current Measures), max left open. All Canadian grid

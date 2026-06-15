@@ -1,6 +1,6 @@
 Storage,Value,,Unit,Source,Updated at,Updated by
 S_Battery_Li-Ion,3,,GWh/GW,Danish Energy Agency Storage Data - https://ens.dk/en/our-services/technology-catalogues/technology-data-energy-storage,26.11.2024,Stian Backe <stian.backe@sintef.no>
-S_Battery_Redox,4,,GWh/GW,Danish Energy Agency Storage Data - https://ens.dk/en/our-services/technology-catalogues/technology-data-energy-storage,26.11.2024,Stian Backe <stian.backe@sintef.no>
+S_Battery_Redox,8,,GWh/GW,VRFB power/energy decoupled (modular) - 4h too short for LDES role; set to 8h within commercial VRFB range 4-12h (DEA tab 181 reference unit 2h is C-rate 1.0 not a duration limit),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 S_CAES,50,,GWh/GW,Danish Energy Agency Storage Data - https://ens.dk/en/our-services/technology-catalogues/technology-data-energy-storage,26.11.2024,Stian Backe <stian.backe@sintef.no>
 S_Gas_H2,167,,GWh/GW,Assumed 167 MWh/MW Danish Energy Agency Storage Data - https://ens.dk/en/our-services/technology-catalogues/technology-data-energy-storage,26.11.2024,Stian Backe <stian.backe@sintef.no>
 S_Gas_Methane,1,,GWh/GW,Danish Energy Agency Storage Data - https://ens.dk/en/our-services/technology-catalogues/technology-data-energy-storage,26.11.2024,Stian Backe <stian.backe@sintef.no>

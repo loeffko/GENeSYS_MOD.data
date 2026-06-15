@@ -101,9 +101,27 @@ HYDRO_MAX_HEADROOM = 1.10   # TotalAnnualMaxCapacity = strict sheet min * 1.10
 # hard cap. PHS_MAX_GROWTH lets the fleet grow at most that fraction/yr
 # (compound) from 2025; regions with no 2025 PHS stay ~0 (no greenfield).
 STORAGE_CATEGORY = "Storage"
-STORAGE_TECHS = {"D_PHS", "D_Battery_Li-Ion"}
+STORAGE_TECHS = {"D_PHS", "D_Battery_Li-Ion", "D_CAES"}
 STORAGE_UNCAPPED = 999999   # Li-Ion BESS max left open above the planned floor
-PHS_MAX_GROWTH = 0.03       # D_PHS max: <=3%/yr compound growth on the 2025 fleet
+PHS_MAX_GROWTH = 0.015      # D_PHS max: <=1.5%/yr compound on the 2025 fleet
+                            # (~22.8 -> ~28.5 GW NA by 2040, i.e. +~6 GW new,
+                            # matching the realistic US pipeline: Goldendale,
+                            # Gordon Butte, Eagle Mountain, Swan Lake, ...)
+# CAES (D_CAES): salt-cavern / A-CAES buildout is deployment-limited, not
+# geology-limited (CAES has deployed ~0.4 GW worldwide in 45 yr). Cap the
+# optimiser at a per-region 2040 ceiling (salt-weighted: Gulf Coast/Permian ->
+# ERCOT/SERC/SPP, Michigan/Williston -> MISO, Appalachian -> PJM/NewYork, A-CAES
+# -> WECC/California/Canada; NewEngland ~0, no geology). Optimistic ~12 GW NA
+# total, ramped linearly from 0 in 2025. Without it the LP over-builds CAES as a
+# generic cheap long-duration store.
+CAES_MAX_GW_2040 = {"ERCOT": 3.0, "SERC": 2.0, "SPP": 1.5, "MISO": 1.5,
+                    "PJM": 1.0, "WECC": 1.0, "California": 0.5, "NewYork": 0.5,
+                    "Canada": 1.0, "NewEngland": 0.0}
+# A TotalAnnualMaxCapacity of exactly 0 is read as "unset" and converted to
+# 999999 (= no limit) by genesysmod_bounds.jl for storage/transformation techs.
+# To actually FORBID / cap at ~0 (e.g. PHS in ERCOT/SPP, CAES in NewEngland, the
+# 2025 CAES ramp start) we must write a tiny nonzero ceiling instead of 0.
+FORBID_EPS = 0.001  # GW (~1 MW): effectively zero but survives the 0->999999 rule
 PHS_GW_2025 = {"California": 4.0, "SERC": 6.5, "PJM": 5.0, "MISO": 2.6,
                "NewEngland": 1.8, "WECC": 1.5, "NewYork": 1.4,
                "ERCOT": 0.0, "SPP": 0.0}
@@ -297,6 +315,17 @@ DATE, WHO = "2026-06-04", "Konstantin Loffler <kl@wip.tu-berlin.de>"
 MAX_WIDEN_2035_DEFAULT = 1.30
 MAX_WIDEN_2035_PER_TECH = {"P_Hydro_Reservoir": 1.10}
 
+# Restool upside (_Opt/_Inf) ramp. The variants stay gated at 0 through 2035
+# (near-term pinned to the capacity sheet), then open linearly to full
+# share-of-potential by RESTOOL_RAMP_END (2050, not 2040). The longer ramp files
+# down the 2035->2036 cliff and lowers the (non-binding) 2040 ceiling. The rep
+# (_Avg) max stays pinned through 2035, then extends its 2030-2035 trend.
+RESTOOL_RAMP_START = 2035
+RESTOOL_RAMP_END = 2050
+def restool_frac(y):
+    return max(0.0, min(1.0, (y - RESTOOL_RAMP_START) / (RESTOOL_RAMP_END - RESTOOL_RAMP_START)))
+
+
 # Annual MAX growth applied after 2035 for techs WITHOUT a restool potential
 # target. PV/Wind interpolate to the restool potential at 2040 (different code
 # path) — these rates only apply to thermal + hydro. Without this growth the
@@ -388,6 +417,10 @@ def main():
             mn_at_2035, mx_at_2035 = margins(2035, tech)
             max_2035 = val_2035 * mx_at_2035
             min_2035 = val_2035 * mn_at_2035
+            # slope of the rep max over 2030-2035, extended post-2035 (see below)
+            val_2030 = base if tech == "P_Nuclear" else gw(region, fuel, 2030)
+            _, mx_at_2030 = margins(2030, tech)
+            avg_slope_post2035 = (max_2035 - val_2030 * mx_at_2030) / 5.0
 
             target_2040 = rep_share_pot.get(tech)  # rep share x total pot (None if N/A)
 
@@ -405,8 +438,11 @@ def main():
                     # restool target is available; otherwise compound growth
                     # using POST_2035_MAX_GROWTH (thermal/hydro) or hold flat.
                     if target_2040 is not None and target_2040 > 0:
-                        frac = (y - 2035) / 5.0
-                        raw_max = max_2035 + (target_2040 - max_2035) * frac
+                        # extend the 2030-2035 max trend post-2035 instead of
+                        # ballooning to the full share-of-potential by 2040
+                        # (removes the 2035->2036 funnel cliff). Still capped at
+                        # the rep share below.
+                        raw_max = max_2035 + avg_slope_post2035 * (y - 2035)
                     else:
                         rate = POST_2035_MAX_GROWTH.get(tech, 0.0)
                         raw_max = max_2035 * (1.0 + rate) ** (y - 2035)
@@ -474,7 +510,7 @@ def main():
         for y in YEARS:
             res_rows.append((region, "D_PHS", y, round(phs, 6)))
             min_rows.append((region, "D_PHS", y, round(phs, 6)))
-            max_rows.append((region, "D_PHS", y, round(phs * (1.0 + PHS_MAX_GROWTH) ** (y - 2025), 6)))
+            max_rows.append((region, "D_PHS", y, round(max(FORBID_EPS, phs * (1.0 + PHS_MAX_GROWTH) ** (y - 2025)), 6)))
             bess = max(0.0, s_traj[y] - phs)
             mn, _ = margins(y)
             res_rows.append((region, "D_Battery_Li-Ion", y, round(bess_2025 * residual_factor("D_Battery_Li-Ion", y), 6)))
@@ -509,7 +545,7 @@ def main():
             opt_target = pot_val * opt_share
             inf_target = pot_val * inf_share
             for y in YEARS:
-                frac = 0.0 if y <= 2035 else (y - 2035) / 5.0
+                frac = restool_frac(y)
                 opt_base = opt_target * frac
                 inf_base = inf_target * frac
                 exc_max = excess_by_region_rep_year.get((region, rep, y), 0.0)
@@ -571,7 +607,7 @@ def main():
         for y in YEARS:
             res_rows.append(("Canada", "D_PHS", y, round(CANADA_PHS_GW_2025, 6)))
             min_rows.append(("Canada", "D_PHS", y, round(CANADA_PHS_GW_2025, 6)))
-            max_rows.append(("Canada", "D_PHS", y, round(CANADA_PHS_GW_2025 * (1.0 + PHS_MAX_GROWTH) ** (y - 2025), 6)))
+            max_rows.append(("Canada", "D_PHS", y, round(max(FORBID_EPS, CANADA_PHS_GW_2025 * (1.0 + PHS_MAX_GROWTH) ** (y - 2025)), 6)))
             bess = cer_bess.get(y, bess_2025)
             mn, _ = canada_margins(y)
             res_rows.append(("Canada", "D_Battery_Li-Ion", y, round(bess_2025 * residual_factor("D_Battery_Li-Ion", y), 6)))
@@ -590,10 +626,8 @@ def main():
                 for y in YEARS:
                     if variant == rep or rep is None:
                         val = target
-                    elif y <= 2035:
-                        val = 0.0
                     else:
-                        val = target * ((y - 2035) / 5.0)
+                        val = target * restool_frac(y)
                     max_rows.append((region, variant, y, round(val, 6)))
 
     # 3b) Coal in extra regions: SK lignite stays at the SaskPower 1.53 GW
@@ -610,6 +644,18 @@ def main():
             max_rows.append((region, "P_Coal_Hardcoal", y, round(hard, 6)))
 
     all_regions = pool_regions + extra_regions
+
+    # 3c) CAES (D_CAES): per-region deployment ceiling (CAES_MAX_GW_2040),
+    #     ramped linearly 0 (2025) -> ceiling (2040), flat after. Residual 0
+    #     (existing ~0; McIntosh 0.11 GW negligible). No min. This bounds the
+    #     long-duration store so the optimiser cannot over-build cheap CAES and
+    #     must turn to the next LDES option (e.g. Redox-Flow) for the remainder.
+    for region in all_regions:
+        ceil40 = CAES_MAX_GW_2040.get(region, 0.0)
+        for y in YEARS:
+            frac = min(1.0, max(0.0, (y - 2025) / (2040 - 2025)))
+            res_rows.append((region, "D_CAES", y, 0.0))
+            max_rows.append((region, "D_CAES", y, round(max(FORBID_EPS, ceil40 * frac), 6)))
 
     # 4) Zero-out unmanaged power-producing techs (P_*, CHP_*) for the NA
     #    regions + Canada. Storage (D_*, S_*) and sector-coupling techs are
@@ -636,11 +682,11 @@ def main():
 
     all_written_techs = ALL_MANAGED_TECHS | set(zero_techs)
 
-    def write(param, rows, src):
+    def write(param, rows, src, techs=None):
         path = PARAM(param)
         d = pd.read_csv(path)
         d = d.rename(columns={"Unnamed: 4": ""})
-        drop = d["Region"].isin(all_regions) & d["Technology"].isin(all_written_techs)
+        drop = d["Region"].isin(all_regions) & d["Technology"].isin(all_written_techs if techs is None else techs)
         nd = int(drop.sum())
         d = d[~drop]
         add = pd.DataFrame([{"Region": r, "Technology": t, "Year": y, "Value": v, "": "",
