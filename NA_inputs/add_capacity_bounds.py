@@ -10,6 +10,14 @@ do not overlap:
                                  flat (rate 0) — fleet assumed to stay on.
                                  Gas techs additionally get a monotonic
                                  (never-decreasing) TotalAnnualMaxCapacity.
+                                 Hydro is the exception: split reservoir/RoR,
+                                 residual held FLAT (no retirement) with growth
+                                 forced via a strict TotalAnnualMinCapacity (see
+                                 the hydro block + Par_ResidualCapacity/
+                                 Assumptions.txt). Storage is split into PHS
+                                 (fixed existing fleet) + Li-Ion BESS (residual +
+                                 min forced to the US Pools storage trajectory,
+                                 max open) — block 1d.
 
   Par_TotalAnnualMinCapacity   : guardrail funnel 2026-2040
       2026-2028:  min = val*0.98 (±2%)
@@ -48,7 +56,7 @@ import pandas as pd
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA_REPO = os.path.normpath(os.path.join(HERE, ".."))
-SRC = os.path.join(HERE, "US Pools - Generation and Capacity_anonymized.xlsx")
+SRC = os.path.join(HERE, "US Pools - Generation and Capacity.xlsx")
 POT_NA = os.path.join(DATA_REPO, "NA_restool", "northamerica_potentials_combined.csv")
 POT_CA = os.path.join(DATA_REPO, "NA_restool", "canada_potentials_combined.csv")
 PARAM = lambda n: os.path.join(DATA_REPO, "Data", "Parameters", n, n + ".csv")
@@ -57,16 +65,43 @@ apply = "--apply" in sys.argv
 # Guardrail category -> representative model tech (US Pools dataset,
 # "Fuel + Technology" split since the 2026-06 file update).
 # "Coal" is handled separately (lignite/hardcoal split below).
-# "Storage" is deliberately unmapped for now (mixes pumped hydro + batteries).
+# "Storage" is split into PHS + Li-Ion BESS in a dedicated block (1d).
 TECH = {"Natural Gas - CCCT":  "P_Gas_CCGT",
         "Natural Gas - SCCT":  "P_Gas_OCGT",
         "Natural Gas - ST":    "P_Gas_Steam",
         "Natural Gas - Other": "P_Gas_Engines",
         "Solar": "P_PV_Utility_Avg",
         "Wind": "P_Wind_Onshore_Avg",
-        "Hydro": "P_Hydro_Reservoir",
         "Nuclear": "P_Nuclear"}
 MODEL_TECHS_GUARDRAIL = set(TECH.values())
+
+# Hydro is split into reservoir + run-of-river and handled in a dedicated block
+# (NOT the generic decaying-residual loop): the existing fleet does not retire,
+# so ResidualCapacity is FLAT at the 2025 value, and growth to the planned
+# trajectory is forced through TotalAnnualMinCapacity (strict to the US Pools
+# capacity sheet, with the 2030-2035 trend extrapolated to 2040). Per-region
+# run-of-river share — methodology + sources in
+# Data/Parameters/Par_ResidualCapacity/Assumptions.txt.
+HYDRO_CATEGORY = "Hydro"
+HYDRO_TECHS = {"P_Hydro_Reservoir", "P_Hydro_RoR"}
+HYDRO_ROR_SHARE = {"NewYork": 0.80, "WECC": 0.60, "MISO": 0.60, "SPP": 0.60,
+                   "NewEngland": 0.50, "California": 0.35, "SERC": 0.20,
+                   "ERCOT": 0.15, "PJM": 0.10, "Canada": 0.30}
+HYDRO_ROR_DEFAULT = 0.40
+HYDRO_MAX_HEADROOM = 1.10   # TotalAnnualMaxCapacity = strict sheet min * 1.10
+
+# Storage split: the US Pools "Storage" category lumps pumped hydro + batteries.
+# It is split into existing pumped hydro (D_PHS, fixed fleet — there is no new
+# US PHS at scale) and battery storage, which is mapped to Li-Ion (essentially
+# all deployed US grid batteries today are Li-Ion). The 2025 PHS fleet per
+# region (GW, EIA-860 / known plants — see Assumptions.txt); the remainder of
+# US Pools "Storage" (and all of its growth) is Li-Ion BESS.
+STORAGE_CATEGORY = "Storage"
+STORAGE_TECHS = {"D_PHS", "D_Battery_Li-Ion"}
+STORAGE_UNCAPPED = 999999   # Li-Ion BESS max left open above the planned floor
+PHS_GW_2025 = {"California": 4.0, "SERC": 6.5, "PJM": 5.0, "MISO": 2.6,
+               "NewEngland": 1.8, "WECC": 1.5, "NewYork": 1.4,
+               "ERCOT": 0.0, "SPP": 0.0}
 
 # Coal split: lignite is mine-mouth only (no interregional market). 2025 GW
 # per region from plant-level research (ND fleet ~3.9 in MISO, TX ~4.4 in
@@ -189,7 +224,7 @@ TECH_SHARE = {v: s for info in RESTOOL_MAP.values() for v, s in info["variants"]
 ALL_RESTOOL_TECHS = sorted(TECH_SHARE.keys())
 
 # Full set of techs this script directly writes positive caps for.
-ALL_MANAGED_TECHS = MODEL_TECHS_GUARDRAIL | set(ALL_RESTOOL_TECHS) | COAL_TECHS
+ALL_MANAGED_TECHS = MODEL_TECHS_GUARDRAIL | set(ALL_RESTOOL_TECHS) | COAL_TECHS | HYDRO_TECHS | STORAGE_TECHS
 
 # Techs whose caps are owned by other scripts — leave them alone here.
 EXTERNAL_OWNERS = {
@@ -214,6 +249,16 @@ RETIRE_RATE_PER_TECH = {"P_Nuclear": 0.0}
 def residual_factor(tech, year):
     rate = RETIRE_RATE_PER_TECH.get(tech, RETIRE_RATE_DEFAULT)
     return max(0.0, 1.0 - rate * (year - 2025))
+
+def hydro_sheet_traj(values_2025_2035):
+    """Hydro capacity trajectory: the US Pools sheet 2025-2035 verbatim, with
+    2036-2040 linearly extrapolated from the 2030-2035 trend. `values_2025_2035`
+    is a {year: GW} dict that must cover 2025..2035."""
+    s = dict(values_2025_2035)
+    slope = (s[2035] - s.get(2030, s[2035])) / 5.0
+    for y in range(2036, 2041):
+        s[y] = max(0.0, s[2035] + slope * (y - 2035))
+    return s
 
 # Gas technologies: TotalAnnualMaxCapacity must never decrease over the years
 # — a dipping cap forces the model to scrap capacity it was allowed (or
@@ -377,6 +422,39 @@ def main():
                 res_rows.append((region, tech, y, v))
                 max_rows.append((region, tech, y, v))   # no new coal builds
 
+        # 1c) Hydro: split into reservoir + run-of-river (per-region RoR share).
+        #     Residual is FLAT at the 2025 fleet (hydro does not retire); the
+        #     planned growth is forced via TotalAnnualMinCapacity strict to the
+        #     US Pools sheet (2030-2035 trend extrapolated to 2040). Max keeps a
+        #     small headroom (HYDRO_MAX_HEADROOM) above the strict min.
+        h_traj = hydro_sheet_traj({y: gw(region, HYDRO_CATEGORY, y) for y in range(2025, 2036)})
+        ror = HYDRO_ROR_SHARE.get(region, HYDRO_ROR_DEFAULT)
+        for tech, sh in (("P_Hydro_Reservoir", 1.0 - ror), ("P_Hydro_RoR", ror)):
+            for y in YEARS:
+                res_rows.append((region, tech, y, round(sh * h_traj[2025], 6)))
+                min_rows.append((region, tech, y, round(sh * h_traj[y], 6)))
+                max_rows.append((region, tech, y, round(sh * h_traj[y] * HYDRO_MAX_HEADROOM, 6)))
+
+        # 1d) Storage: split US Pools "Storage" into existing pumped hydro (fixed)
+        #     + Li-Ion BESS. PHS is held flat at the 2025 fleet (residual = min =
+        #     max, no new US PHS). The battery share (Storage - PHS) and all its
+        #     growth go to D_Battery_Li-Ion: residual = the 2025 battery fleet
+        #     (retiring at the default rate), TotalAnnualMinCapacity forces the
+        #     US Pools storage trajectory (2030-2035 trend -> 2040) via the
+        #     standard funnel, and the max is left open above that floor.
+        s_traj = hydro_sheet_traj({y: gw(region, STORAGE_CATEGORY, y) for y in range(2025, 2036)})
+        phs = min(PHS_GW_2025.get(region, 0.0), s_traj[2025])
+        bess_2025 = max(0.0, s_traj[2025] - phs)
+        for y in YEARS:
+            res_rows.append((region, "D_PHS", y, round(phs, 6)))
+            min_rows.append((region, "D_PHS", y, round(phs, 6)))
+            max_rows.append((region, "D_PHS", y, round(phs, 6)))
+            bess = max(0.0, s_traj[y] - phs)
+            mn, _ = margins(y)
+            res_rows.append((region, "D_Battery_Li-Ion", y, round(bess_2025 * residual_factor("D_Battery_Li-Ion", y), 6)))
+            min_rows.append((region, "D_Battery_Li-Ion", y, round(bess * mn, 6)))
+            max_rows.append((region, "D_Battery_Li-Ion", y, round(STORAGE_UNCAPPED, 6)))
+
         # 2) Non-rep restool variants per region. Behaviour:
         #    Max:
         #     - 2025-2035: cap = 0 (do not introduce these variants yet)
@@ -431,9 +509,20 @@ def main():
     canada_techs = set()
     if os.path.exists(CANADA_SRC) and "Canada" in extra_regions:
         traj, ca_hardcoal = read_canada_cer()
-        canada_techs = set(traj.keys())
+        canada_techs = set(traj.keys()) | {"P_Hydro_RoR"}   # RoR also CER-owned
         for tech, ser in sorted(traj.items()):
             base = ser.get(2025, 0.0)
+            # Hydro: same treatment as the US pools — flat residual, strict min
+            # to the CER trajectory, split reservoir/run-of-river.
+            if tech == "P_Hydro_Reservoir":
+                ror = HYDRO_ROR_SHARE.get("Canada", HYDRO_ROR_DEFAULT)
+                for ht, sh in (("P_Hydro_Reservoir", 1.0 - ror), ("P_Hydro_RoR", ror)):
+                    for y in YEARS:
+                        val = ser.get(y, base)
+                        res_rows.append(("Canada", ht, y, round(sh * base, 6)))
+                        min_rows.append(("Canada", ht, y, round(sh * val, 6)))
+                        max_rows.append(("Canada", ht, y, round(sh * val * HYDRO_MAX_HEADROOM, 6)))
+                continue
             running_max = 0.0
             for y in YEARS:
                 res_rows.append(("Canada", tech, y, round(base * residual_factor(tech, y), 6)))

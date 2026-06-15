@@ -9,3 +9,86 @@ Source:
 - HRE4: Baseline scenario of the heating and cooling demand in buildings and industry until 2050
 	- All parametres for BE - Belgium
 
+================================================================================
+North America — Hydropower split (P_Hydro_Reservoir vs P_Hydro_RoR)
+Written by NA_inputs/add_capacity_bounds.py. Touches Par_ResidualCapacity,
+Par_TotalAnnualMinCapacity, Par_TotalAnnualMaxCapacity.
+================================================================================
+
+The US Pools and CER capacity data report hydropower as a single lumped
+"Hydro" figure per region. GENeSYS-MOD distinguishes reservoir hydro
+(dispatchable, storage behind a dam) from run-of-river (RoR, non-dispatchable,
+follows river flow), which behave very differently. The lumped figure is
+therefore split into P_Hydro_Reservoir and P_Hydro_RoR per region.
+
+Capacity treatment (all hydro):
+- ResidualCapacity is held FLAT at the 2025 fleet for every year (existing
+  hydro does not retire; no 5%/yr decay as for thermal).
+- The planned build-out is enforced through TotalAnnualMinCapacity, kept STRICT
+  to the capacity-input trajectory: US regions use the US Pools "Hydro" series
+  2025-2035 verbatim, with 2036-2040 linearly extrapolated from the 2030-2035
+  trend; Canada uses the CER "Hydro / Wave / Tidal" trajectory (2025-2040).
+- TotalAnnualMaxCapacity = TotalAnnualMinCapacity * 1.10 (10% headroom), i.e. a
+  tight band around the planned trajectory.
+
+Run-of-river share per region (RoR fraction of total hydro capacity):
+  NewYork 0.80, WECC 0.60, MISO 0.60, SPP 0.60, NewEngland 0.50,
+  California 0.35, SERC 0.20, ERCOT 0.15, PJM 0.10, Canada 0.30.
+  (regions not listed: default 0.40)
+
+Methodology / basis for the RoR shares:
+- Primary quantitative signal: the regional aggregate hydro capacity factor
+  computed from the (un-anonymized) US Pools "Generation and Capacity" sheet
+  (Output MWh / (Capacity MW * 8760), 2025). RoR plants run continuously on
+  river flow (high, steady CF ~0.45-0.7); reservoir/peaking plants are
+  dispatched for peaks (lower CF ~0.15-0.30). Observed 2025 CF: NewYork 0.72,
+  MISO 0.47, SPP 0.45, NewEngland 0.44, WECC 0.42, California 0.38, SERC 0.24,
+  ERCOT 0.20, PJM 0.16 — monotonically informing the shares above.
+- Adjusted for known dominant plant modes where the blended CF understates the
+  physical mix: WECC raised to 0.60 (Columbia/Snake run-of-river dams dominate
+  Pacific-NW hydro); NewYork 0.80 (Niagara + St-Lawrence-FDR are run-of-river);
+  SERC/PJM kept low (TVA and PJM hydro are reservoir/peaking).
+- Cross-reference for plant-mode classification: ORNL HydroSource / Existing
+  Hydropower Assets (EHA) plant database (per-plant run-of-river vs reservoir
+  mode), and the DOE U.S. Hydropower Market Report 2023. Canada (reservoir-
+  dominated: Quebec/BC/Manitoba large storage) set to 0.30 RoR.
+- The shares can be refined later from the ORNL EHA plant-level dataset
+  aggregated to the model pool regions; the CF-based values here are the
+  traceable first-order estimate.
+
+================================================================================
+North America — Storage split (D_PHS vs D_Battery_Li-Ion)
+Written by NA_inputs/add_capacity_bounds.py (block 1d). Touches Par_Residual-
+Capacity, Par_TotalAnnualMinCapacity, Par_TotalAnnualMaxCapacity.
+================================================================================
+
+The US Pools "Storage" category lumps pumped hydro and batteries. It is split:
+- Pumped hydro (D_PHS): the existing fleet, held FIXED (residual = min = max =
+  the 2025 value) — there is essentially no new US pumped hydro at scale.
+- Battery (D_Battery_Li-Ion): the remainder of the 2025 "Storage" figure, and
+  all of its growth. Effectively all deployed US grid-scale batteries today are
+  lithium-ion, so battery storage maps to D_Battery_Li-Ion (not Redox/CAES).
+
+Per-region existing pumped-hydro (GW, 2025) — EIA-860 / known plant list:
+  SERC 6.5 (Raccoon Mtn, Bad Creek, Jocassee, Rocky Mtn, Carters, ...),
+  PJM 5.0 (Bath County 3.0, Muddy Run, Smith Mtn, Seneca, Yards Creek),
+  California 4.0 (Helms, Castaic, Gianelli/San Luis, Hyatt-Thermalito),
+  MISO 2.6 (Ludington 2.17, Taum Sauk), NewEngland 1.8 (Northfield Mtn, Bear
+  Swamp), WECC 1.5, NewYork 1.4 (Blenheim-Gilboa, Lewiston), ERCOT 0, SPP 0.
+  Total ~22.8 GW, consistent with the ~22 GW US installed PHS (EIA).
+
+Implied 2025 battery (BESS = Storage - PHS, GW): California 13.7, ERCOT 10.3,
+WECC 6.3, SERC 1.6, MISO 0.8, PJM 0.7, SPP 0.7, NewEngland 0.6, NewYork 0.3 —
+all non-negative and matching the known regional battery leaders (CA, ERCOT).
+
+Outlook (aligned to the US Pools "Storage" trajectory):
+- D_PHS: flat at the 2025 fleet, every year.
+- D_Battery_Li-Ion: ResidualCapacity = 2025 BESS retiring at the default linear
+  rate; TotalAnnualMinCapacity = (US Pools Storage - PHS) through the standard
+  guardrail funnel (2030-2035 trend extrapolated to 2040) — this FORCES the
+  planned battery fleet. TotalAnnualMaxCapacity is left open (999999) so the
+  optimiser may add storage above the planned floor.
+- Redox / CAES carry no NA residual or cap here: any long-duration storage the
+  model adds beyond the Li-Ion floor is its own optimisation choice.
+Canada storage is not in the US Pools file and is left to the optimiser for now.
+
