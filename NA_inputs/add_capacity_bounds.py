@@ -91,17 +91,28 @@ HYDRO_ROR_DEFAULT = 0.40
 HYDRO_MAX_HEADROOM = 1.10   # TotalAnnualMaxCapacity = strict sheet min * 1.10
 
 # Storage split: the US Pools "Storage" category lumps pumped hydro + batteries.
-# It is split into existing pumped hydro (D_PHS, fixed fleet — there is no new
-# US PHS at scale) and battery storage, which is mapped to Li-Ion (essentially
-# all deployed US grid batteries today are Li-Ion). The 2025 PHS fleet per
-# region (GW, EIA-860 / known plants — see Assumptions.txt); the remainder of
-# US Pools "Storage" (and all of its growth) is Li-Ion BESS.
+# It is split into existing pumped hydro (D_PHS) and battery storage, which is
+# mapped to Li-Ion (essentially all deployed US grid batteries today are
+# Li-Ion). The 2025 PHS fleet per region (GW, EIA-860 / known plants — see
+# Assumptions.txt); the remainder of US Pools "Storage" (and all of its growth)
+# is Li-Ion BESS. PHS existing fleet persists (residual = min = 2025 value);
+# its max is not a hard pin but a growth-rate-capped ceiling — the real-world
+# limit on new US PHS is the buildout rate (long lead times, siting), not a
+# hard cap. PHS_MAX_GROWTH lets the fleet grow at most that fraction/yr
+# (compound) from 2025; regions with no 2025 PHS stay ~0 (no greenfield).
 STORAGE_CATEGORY = "Storage"
 STORAGE_TECHS = {"D_PHS", "D_Battery_Li-Ion"}
 STORAGE_UNCAPPED = 999999   # Li-Ion BESS max left open above the planned floor
+PHS_MAX_GROWTH = 0.03       # D_PHS max: <=3%/yr compound growth on the 2025 fleet
 PHS_GW_2025 = {"California": 4.0, "SERC": 6.5, "PJM": 5.0, "MISO": 2.6,
                "NewEngland": 1.8, "WECC": 1.5, "NewYork": 1.4,
                "ERCOT": 0.0, "SPP": 0.0}
+# Canada storage: only one grid-scale pumped-hydro plant operates — Sir Adam
+# Beck PGS (Niagara, ON, 0.174 GW); Marmora/Meaford/Canyon Creek are proposed,
+# not built. Treated like the US PHS fleet (fixed existing + growth-capped max).
+# All other Canadian grid storage today is batteries -> Li-Ion, taken from the
+# CER EF2026 "Battery Storage" series (canada_power_ef2026.xlsx, CANADA_SCENARIO).
+CANADA_PHS_GW_2025 = 0.174
 
 # Coal split: lignite is mine-mouth only (no interregional market). 2025 GW
 # per region from plant-level research (ND fleet ~3.9 in MISO, TX ~4.4 in
@@ -187,6 +198,18 @@ def read_canada_cer():
     hardcoal = tech_res.groupby("Year")["MW"].sum() / 1000.0
     hardcoal = {int(y): float(v) for y, v in hardcoal.items()}
     return traj, hardcoal
+
+def read_canada_storage():
+    """Return {year: GW} of CER EF2026 'Battery Storage' for national Canada."""
+    df = pd.read_excel(CANADA_SRC, sheet_name="Capacity")
+    df["MW"] = pd.to_numeric(df["MW"], errors="coerce")
+    df["Year"] = pd.to_numeric(df["Year"], errors="coerce")
+    s = df[(df["Scenario"] == CANADA_SCENARIO) &
+           (df["Resolution"] == "primary_fuel") &
+           (df["Region_Code"] == "CA") &
+           (df["Variable"] == "Battery Storage") &
+           (df["Year"].between(2025, 2040))]
+    return {int(y): float(m) / 1000.0 for y, m in zip(s["Year"], s["MW"])}
 
 # Restool potential column -> all model tech variants in that family.
 # Each variant gets a share of the per-region potential (placeholder split until
@@ -435,20 +458,23 @@ def main():
                 min_rows.append((region, tech, y, round(sh * h_traj[y], 6)))
                 max_rows.append((region, tech, y, round(sh * h_traj[y] * HYDRO_MAX_HEADROOM, 6)))
 
-        # 1d) Storage: split US Pools "Storage" into existing pumped hydro (fixed)
-        #     + Li-Ion BESS. PHS is held flat at the 2025 fleet (residual = min =
-        #     max, no new US PHS). The battery share (Storage - PHS) and all its
-        #     growth go to D_Battery_Li-Ion: residual = the 2025 battery fleet
-        #     (retiring at the default rate), TotalAnnualMinCapacity forces the
-        #     US Pools storage trajectory (2030-2035 trend -> 2040) via the
-        #     standard funnel, and the max is left open above that floor.
+        # 1d) Storage: split US Pools "Storage" into existing pumped hydro + Li-Ion
+        #     BESS. PHS existing fleet persists (residual = min = the 2025 fleet);
+        #     its max is a growth-rate-capped ceiling (phs * (1+PHS_MAX_GROWTH)^
+        #     (y-2025)) — the real limit on new US PHS is buildout rate, not a
+        #     hard pin, so the optimiser may add modest PHS but cannot balloon it
+        #     (regions with no 2025 PHS stay ~0). The battery share (Storage -
+        #     PHS) and all its growth go to D_Battery_Li-Ion: residual = the 2025
+        #     battery fleet (retiring at the default rate), TotalAnnualMinCapacity
+        #     forces the US Pools storage trajectory (2030-2035 trend -> 2040) via
+        #     the standard funnel, and the max is left open above that floor.
         s_traj = hydro_sheet_traj({y: gw(region, STORAGE_CATEGORY, y) for y in range(2025, 2036)})
         phs = min(PHS_GW_2025.get(region, 0.0), s_traj[2025])
         bess_2025 = max(0.0, s_traj[2025] - phs)
         for y in YEARS:
             res_rows.append((region, "D_PHS", y, round(phs, 6)))
             min_rows.append((region, "D_PHS", y, round(phs, 6)))
-            max_rows.append((region, "D_PHS", y, round(phs, 6)))
+            max_rows.append((region, "D_PHS", y, round(phs * (1.0 + PHS_MAX_GROWTH) ** (y - 2025), 6)))
             bess = max(0.0, s_traj[y] - phs)
             mn, _ = margins(y)
             res_rows.append((region, "D_Battery_Li-Ion", y, round(bess_2025 * residual_factor("D_Battery_Li-Ion", y), 6)))
@@ -534,6 +560,23 @@ def main():
                     running_max = rep_max
                 min_rows.append(("Canada", tech, y, round(rep_min, 6)))
                 max_rows.append(("Canada", tech, y, round(rep_max, 6)))
+
+        # Canada storage: Sir Adam Beck PHS (fixed + growth-capped max) + battery
+        # (CER EF2026 "Battery Storage" -> Li-Ion). Mirrors the US block 1d: PHS
+        # residual = min = 2025 fleet, max grows <=PHS_MAX_GROWTH/yr; Li-Ion
+        # residual decays from the 2025 battery fleet, min funnels to the CER
+        # trajectory (forces the planned fleet), max left open.
+        cer_bess = read_canada_storage()
+        bess_2025 = cer_bess.get(2025, 0.0)
+        for y in YEARS:
+            res_rows.append(("Canada", "D_PHS", y, round(CANADA_PHS_GW_2025, 6)))
+            min_rows.append(("Canada", "D_PHS", y, round(CANADA_PHS_GW_2025, 6)))
+            max_rows.append(("Canada", "D_PHS", y, round(CANADA_PHS_GW_2025 * (1.0 + PHS_MAX_GROWTH) ** (y - 2025), 6)))
+            bess = cer_bess.get(y, bess_2025)
+            mn, _ = canada_margins(y)
+            res_rows.append(("Canada", "D_Battery_Li-Ion", y, round(bess_2025 * residual_factor("D_Battery_Li-Ion", y), 6)))
+            min_rows.append(("Canada", "D_Battery_Li-Ion", y, round(bess * mn, 6)))
+            max_rows.append(("Canada", "D_Battery_Li-Ion", y, round(STORAGE_UNCAPPED, 6)))
 
     # 3a) Other extra regions + Canada upside variants from restool potentials.
     for region in extra_regions:

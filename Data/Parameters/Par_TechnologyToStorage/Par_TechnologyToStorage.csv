@@ -1,13 +1,27 @@
 Technology,Storage,Mode_of_operation,Year,Value,Unnamed: 5,Unit,Source,Updated at,Updated by
 D_Battery_Li-Ion,S_Battery_Li-Ion,1,2018,0.98,,Fraction,Energy Agency Denmark (2024): Lithium-Ion - upper,01.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
 D_Battery_Li-Ion,S_Battery_Li-Ion,1,All,0.985,,Fraction,Energy Agency Denmark (2024): Lithium-Ion - upper,01.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
-D_Battery_Redox,S_Battery_Redox,1,2035,0.91125,,Fraction,Huang et al. (2023): https://doi.org/10.1016/j.electacta.2023.143025- Possible RTE improvements of 9%- interpolated until 2050,05.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
-D_Battery_Redox,S_Battery_Redox,1,2040,0.9225,,Fraction,Huang et al. (2023): https://doi.org/10.1016/j.electacta.2023.143025- Possible RTE improvements of 9%- interpolated until 2051,05.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
-D_Battery_Redox,S_Battery_Redox,1,2045,0.93375,,Fraction,Huang et al. (2023): https://doi.org/10.1016/j.electacta.2023.143025- Possible RTE improvements of 9%- interpolated until 2052,05.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
-D_Battery_Redox,S_Battery_Redox,1,2050,0.945,,Fraction,Huang et al. (2023): https://doi.org/10.1016/j.electacta.2023.143025- Possible RTE improvements of 9%- interpolated until 2053,05.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
-D_Battery_Redox,S_Battery_Redox,1,2055,0.945,,Fraction,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-D_Battery_Redox,S_Battery_Redox,1,2060,0.945,,Fraction,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-D_Battery_Redox,S_Battery_Redox,1,All,0.9,,Fraction,Viswanathan et al. (2022): Publication No: PNNL-33283- Assumption: 80% RTE- charge and discharge same,05.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+D_Battery_Redox,S_Battery_Redox,1,All,0.88318,,Fraction,DEA Technology Data for Energy Storage cat.0010 (2024) tab 181 VRFB; DC round-trip eff; charge=discharge=sqrt(RTE_DC),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+D_Battery_Redox,S_Battery_Redox,1,2025,0.88318,,Fraction,DEA Technology Data for Energy Storage cat.0010 (2024) tab 181 VRFB; DC round-trip eff; charge=discharge=sqrt(RTE_DC),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+D_Battery_Redox,S_Battery_Redox,1,2026,0.88544,,Fraction,DEA Technology Data for Energy Storage cat.0010 (2024) tab 181 VRFB; DC round-trip eff; charge=discharge=sqrt(RTE_DC),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+D_Battery_Redox,S_Battery_Redox,1,2027,0.88769,,Fraction,DEA Technology Data for Energy Storage cat.0010 (2024) tab 181 VRFB; DC round-trip eff; charge=discharge=sqrt(RTE_DC),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+D_Battery_Redox,S_Battery_Redox,1,2028,0.88994,,Fraction,DEA Technology Data for Energy Storage cat.0010 (2024) tab 181 VRFB; DC round-trip eff; charge=discharge=sqrt(RTE_DC),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+D_Battery_Redox,S_Battery_Redox,1,2029,0.89219,,Fraction,DEA Technology Data for Energy Storage cat.0010 (2024) tab 181 VRFB; DC round-trip eff; charge=discharge=sqrt(RTE_DC),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+D_Battery_Redox,S_Battery_Redox,1,2030,0.89443,,Fraction,DEA Technology Data for Energy Storage cat.0010 (2024) tab 181 VRFB; DC round-trip eff; charge=discharge=sqrt(RTE_DC),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+D_Battery_Redox,S_Battery_Redox,1,2031,0.89443,,Fraction,DEA Technology Data for Energy Storage cat.0010 (2024) tab 181 VRFB; DC round-trip eff; charge=discharge=sqrt(RTE_DC),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+D_Battery_Redox,S_Battery_Redox,1,2032,0.89443,,Fraction,DEA Technology Data for Energy Storage cat.0010 (2024) tab 181 VRFB; DC round-trip eff; charge=discharge=sqrt(RTE_DC),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+D_Battery_Redox,S_Battery_Redox,1,2033,0.89443,,Fraction,DEA Technology Data for Energy Storage cat.0010 (2024) tab 181 VRFB; DC round-trip eff; charge=discharge=sqrt(RTE_DC),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+D_Battery_Redox,S_Battery_Redox,1,2034,0.89443,,Fraction,DEA Technology Data for Energy Storage cat.0010 (2024) tab 181 VRFB; DC round-trip eff; charge=discharge=sqrt(RTE_DC),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+D_Battery_Redox,S_Battery_Redox,1,2035,0.89443,,Fraction,DEA Technology Data for Energy Storage cat.0010 (2024) tab 181 VRFB; DC round-trip eff; charge=discharge=sqrt(RTE_DC),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+D_Battery_Redox,S_Battery_Redox,1,2036,0.89778,,Fraction,DEA Technology Data for Energy Storage cat.0010 (2024) tab 181 VRFB; DC round-trip eff; charge=discharge=sqrt(RTE_DC),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+D_Battery_Redox,S_Battery_Redox,1,2037,0.90111,,Fraction,DEA Technology Data for Energy Storage cat.0010 (2024) tab 181 VRFB; DC round-trip eff; charge=discharge=sqrt(RTE_DC),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+D_Battery_Redox,S_Battery_Redox,1,2038,0.90443,,Fraction,DEA Technology Data for Energy Storage cat.0010 (2024) tab 181 VRFB; DC round-trip eff; charge=discharge=sqrt(RTE_DC),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+D_Battery_Redox,S_Battery_Redox,1,2039,0.90774,,Fraction,DEA Technology Data for Energy Storage cat.0010 (2024) tab 181 VRFB; DC round-trip eff; charge=discharge=sqrt(RTE_DC),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+D_Battery_Redox,S_Battery_Redox,1,2040,0.91104,,Fraction,DEA Technology Data for Energy Storage cat.0010 (2024) tab 181 VRFB; DC round-trip eff; charge=discharge=sqrt(RTE_DC),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+D_Battery_Redox,S_Battery_Redox,1,2045,0.91652,,Fraction,DEA Technology Data for Energy Storage cat.0010 (2024) tab 181 VRFB; DC round-trip eff; charge=discharge=sqrt(RTE_DC),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+D_Battery_Redox,S_Battery_Redox,1,2050,0.92195,,Fraction,DEA Technology Data for Energy Storage cat.0010 (2024) tab 181 VRFB; DC round-trip eff; charge=discharge=sqrt(RTE_DC),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+D_Battery_Redox,S_Battery_Redox,1,2055,0.92195,,Fraction,DEA Technology Data for Energy Storage cat.0010 (2024) tab 181 VRFB; DC round-trip eff; charge=discharge=sqrt(RTE_DC),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+D_Battery_Redox,S_Battery_Redox,1,2060,0.92195,,Fraction,DEA Technology Data for Energy Storage cat.0010 (2024) tab 181 VRFB; DC round-trip eff; charge=discharge=sqrt(RTE_DC),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 D_CAES,S_CAES,1,2030,0.84,,Fraction,Energy Agency Denmark (2024): CAES - upper,01.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
 D_CAES,S_CAES,1,2035,0.84,,Fraction,Energy Agency Denmark (2024): CAES - upper,01.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
 D_CAES,S_CAES,1,2040,0.84,,Fraction,Energy Agency Denmark (2024): CAES - upper,01.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
@@ -22,10 +36,6 @@ D_HB_Tank_Small,S_HB_Tank_Small,1,All,1.0,,Fraction,Energy Agency Denmark (2024)
 D_HD_Pit,S_HD_Pit,1,All,0.84,,Fraction,Energy Agency Denmark (2024): PTES round-trip efficiency 70 percent,26.11.2024,Stian Backe <stian.backe@sintef.no>
 D_HLI_Tank_Large,S_HLI_Tank_Large,1,All,1.0,,Fraction,Energy Agency Denmark (2024): Large Hot Water Tank,01.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
 D_PHS,S_PHS,1,All,0.9,,Fraction,Rozali et al. (2013): ISBN 978-88-95608-26-6,05.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
-D_Battery_Redox,S_Battery_Redox,1,2036,0.9135,,Fraction,interpolated,05.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
-D_Battery_Redox,S_Battery_Redox,1,2037,0.91575,,Fraction,interpolated,05.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
-D_Battery_Redox,S_Battery_Redox,1,2038,0.918,,Fraction,interpolated,05.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
-D_Battery_Redox,S_Battery_Redox,1,2039,0.92025,,Fraction,interpolated,05.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
 D_CAES,S_CAES,1,2031,0.84,,Fraction,interpolated,01.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
 D_CAES,S_CAES,1,2032,0.84,,Fraction,interpolated,01.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
 D_CAES,S_CAES,1,2033,0.84,,Fraction,interpolated,01.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>

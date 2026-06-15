@@ -178,14 +178,26 @@ World,D_Battery_Li-Ion,2060,60,,MEUR/GW,same as 2050 for now,29.01.2025,Nikita M
 World,D_Battery_Redox,2018,450,,MEUR/GW,Danish Energy Agency Storage Data https://ens.dk/en/our-services/technology-catalogues/technology-data-energy-storage,22.07.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
 World,D_Battery_Redox,2020,410,,MEUR/GW,Danish Energy Agency Storage Data https://ens.dk/en/our-services/technology-catalogues/technology-data-energy-storage,22.07.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
 World,D_Battery_Redox,2021,,,MEUR/GW,Danish Energy Agency Storage Data https://ens.dk/en/our-services/technology-catalogues/technology-data-energy-storage,22.07.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,D_Battery_Redox,2025,330,,MEUR/GW,Danish Energy Agency Storage Data https://ens.dk/en/our-services/technology-catalogues/technology-data-energy-storage,22.07.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,D_Battery_Redox,2030,330,,MEUR/GW,Danish Energy Agency Storage Data https://ens.dk/en/our-services/technology-catalogues/technology-data-energy-storage,22.07.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,D_Battery_Redox,2035,330,,MEUR/GW,Danish Energy Agency Storage Data https://ens.dk/en/our-services/technology-catalogues/technology-data-energy-storage,22.07.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,D_Battery_Redox,2040,330,,MEUR/GW,Danish Energy Agency Storage Data https://ens.dk/en/our-services/technology-catalogues/technology-data-energy-storage,22.07.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,D_Battery_Redox,2045,330,,MEUR/GW,Danish Energy Agency Storage Data https://ens.dk/en/our-services/technology-catalogues/technology-data-energy-storage,22.07.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,D_Battery_Redox,2050,330,,MEUR/GW,Danish Energy Agency Storage Data https://ens.dk/en/our-services/technology-catalogues/technology-data-energy-storage,22.07.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,D_Battery_Redox,2055,330,,MEUR/GW,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,D_Battery_Redox,2060,330,,MEUR/GW,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,D_Battery_Redox,2025,380.0,,MEUR/GW,Danish Energy Agency Technology Data for Energy Storage cat.0010 (2024) tab 181 VRFB; MEUR2020; capacity-comp->power energy+other->energy,15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_Battery_Redox,2026,370.0,,MEUR/GW,Danish Energy Agency Technology Data for Energy Storage cat.0010 (2024) tab 181 VRFB; MEUR2020; capacity-comp->power energy+other->energy,15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_Battery_Redox,2027,360.0,,MEUR/GW,Danish Energy Agency Technology Data for Energy Storage cat.0010 (2024) tab 181 VRFB; MEUR2020; capacity-comp->power energy+other->energy,15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_Battery_Redox,2028,350.0,,MEUR/GW,Danish Energy Agency Technology Data for Energy Storage cat.0010 (2024) tab 181 VRFB; MEUR2020; capacity-comp->power energy+other->energy,15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_Battery_Redox,2029,340.0,,MEUR/GW,Danish Energy Agency Technology Data for Energy Storage cat.0010 (2024) tab 181 VRFB; MEUR2020; capacity-comp->power energy+other->energy,15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_Battery_Redox,2030,330.0,,MEUR/GW,Danish Energy Agency Technology Data for Energy Storage cat.0010 (2024) tab 181 VRFB; MEUR2020; capacity-comp->power energy+other->energy,15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_Battery_Redox,2031,320.0,,MEUR/GW,Danish Energy Agency Technology Data for Energy Storage cat.0010 (2024) tab 181 VRFB; MEUR2020; capacity-comp->power energy+other->energy,15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_Battery_Redox,2032,310.0,,MEUR/GW,Danish Energy Agency Technology Data for Energy Storage cat.0010 (2024) tab 181 VRFB; MEUR2020; capacity-comp->power energy+other->energy,15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_Battery_Redox,2033,300.0,,MEUR/GW,Danish Energy Agency Technology Data for Energy Storage cat.0010 (2024) tab 181 VRFB; MEUR2020; capacity-comp->power energy+other->energy,15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_Battery_Redox,2034,290.0,,MEUR/GW,Danish Energy Agency Technology Data for Energy Storage cat.0010 (2024) tab 181 VRFB; MEUR2020; capacity-comp->power energy+other->energy,15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_Battery_Redox,2035,280.0,,MEUR/GW,Danish Energy Agency Technology Data for Energy Storage cat.0010 (2024) tab 181 VRFB; MEUR2020; capacity-comp->power energy+other->energy,15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_Battery_Redox,2036,274.0,,MEUR/GW,Danish Energy Agency Technology Data for Energy Storage cat.0010 (2024) tab 181 VRFB; MEUR2020; capacity-comp->power energy+other->energy,15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_Battery_Redox,2037,268.0,,MEUR/GW,Danish Energy Agency Technology Data for Energy Storage cat.0010 (2024) tab 181 VRFB; MEUR2020; capacity-comp->power energy+other->energy,15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_Battery_Redox,2038,262.0,,MEUR/GW,Danish Energy Agency Technology Data for Energy Storage cat.0010 (2024) tab 181 VRFB; MEUR2020; capacity-comp->power energy+other->energy,15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_Battery_Redox,2039,256.0,,MEUR/GW,Danish Energy Agency Technology Data for Energy Storage cat.0010 (2024) tab 181 VRFB; MEUR2020; capacity-comp->power energy+other->energy,15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_Battery_Redox,2040,250.0,,MEUR/GW,Danish Energy Agency Technology Data for Energy Storage cat.0010 (2024) tab 181 VRFB; MEUR2020; capacity-comp->power energy+other->energy,15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_Battery_Redox,2045,240.0,,MEUR/GW,Danish Energy Agency Technology Data for Energy Storage cat.0010 (2024) tab 181 VRFB; MEUR2020; capacity-comp->power energy+other->energy,15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_Battery_Redox,2050,230.0,,MEUR/GW,Danish Energy Agency Technology Data for Energy Storage cat.0010 (2024) tab 181 VRFB; MEUR2020; capacity-comp->power energy+other->energy,15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_Battery_Redox,2055,230.0,,MEUR/GW,Danish Energy Agency Technology Data for Energy Storage cat.0010 (2024) tab 181 VRFB; MEUR2020; capacity-comp->power energy+other->energy,15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_Battery_Redox,2060,230.0,,MEUR/GW,Danish Energy Agency Technology Data for Energy Storage cat.0010 (2024) tab 181 VRFB; MEUR2020; capacity-comp->power energy+other->energy,15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 World,D_CAES,2018,964.5454545,,MEUR/GW,PNNL Storage Data https://www.pnnl.gov/sites/default/files/media/file/ESGC%20Cost%20Performance%20Report%202022%20PNNL-33283.pdf,22.07.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
 World,D_CAES,2020,964.5454545,,MEUR/GW,PNNL Storage Data https://www.pnnl.gov/sites/default/files/media/file/ESGC%20Cost%20Performance%20Report%202022%20PNNL-33283.pdf,22.07.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
 World,D_CAES,2021,964.5454545,,MEUR/GW,PNNL Storage Data https://www.pnnl.gov/sites/default/files/media/file/ESGC%20Cost%20Performance%20Report%202022%20PNNL-33283.pdf,22.07.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
@@ -1146,14 +1158,26 @@ World,P_Hydro_RoR,2060,1650,,MEUR/GW,same as 2050 for now,29.01.2025,Nikita Mosk
 World,P_Nuclear,2018,6000,,MEUR/GW,Nuclear III gen. (no economies of scale)- Power&Heat- EU Reference Scenario 2020,05.09.2023,Stian Backe <stian.backe@sintef.no>
 World,P_Nuclear,2020,6000,,MEUR/GW,Nuclear III gen. (no economies of scale)- Power&Heat- EU Reference Scenario 2020,05.09.2023,Stian Backe <stian.backe@sintef.no>
 World,P_Nuclear,2021,6000,,MEUR/GW,Nuclear III gen. (no economies of scale)- Power&Heat- EU Reference Scenario 2020,05.09.2023,Stian Backe <stian.backe@sintef.no>
-World,P_Nuclear,2025,6000,,MEUR/GW,Nuclear III gen. (no economies of scale)- Power&Heat- EU Reference Scenario 2020,05.09.2023,Stian Backe <stian.backe@sintef.no>
-World,P_Nuclear,2030,6000,,MEUR/GW,Nuclear III gen. (no economies of scale)- Power&Heat- EU Reference Scenario 2020,05.09.2023,Stian Backe <stian.backe@sintef.no>
-World,P_Nuclear,2035,6000,,MEUR/GW,Nuclear III gen. (no economies of scale)- Power&Heat- EU Reference Scenario 2020,05.09.2023,Stian Backe <stian.backe@sintef.no>
-World,P_Nuclear,2040,6000,,MEUR/GW,Nuclear III gen. (no economies of scale)- Power&Heat- EU Reference Scenario 2020,05.09.2023,Stian Backe <stian.backe@sintef.no>
-World,P_Nuclear,2045,6000,,MEUR/GW,Nuclear III gen. (no economies of scale)- Power&Heat- EU Reference Scenario 2020,05.09.2023,Stian Backe <stian.backe@sintef.no>
-World,P_Nuclear,2050,6000,,MEUR/GW,Nuclear III gen. (no economies of scale)- Power&Heat- EU Reference Scenario 2020,05.09.2023,Stian Backe <stian.backe@sintef.no>
-World,P_Nuclear,2055,6000,,MEUR/GW,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Nuclear,2060,6000,,MEUR/GW,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,P_Nuclear,2025,10000,,MEUR/GW,uprated to upper end of IEA/Lazard Western new-build range (~10000 EUR/kW; EPR/Vogtle 7-10 kEUR/kW),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Nuclear,2026,10000,,MEUR/GW,uprated to upper end of IEA/Lazard Western new-build range (~10000 EUR/kW; EPR/Vogtle 7-10 kEUR/kW),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Nuclear,2027,10000,,MEUR/GW,uprated to upper end of IEA/Lazard Western new-build range (~10000 EUR/kW; EPR/Vogtle 7-10 kEUR/kW),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Nuclear,2028,10000,,MEUR/GW,uprated to upper end of IEA/Lazard Western new-build range (~10000 EUR/kW; EPR/Vogtle 7-10 kEUR/kW),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Nuclear,2029,10000,,MEUR/GW,uprated to upper end of IEA/Lazard Western new-build range (~10000 EUR/kW; EPR/Vogtle 7-10 kEUR/kW),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Nuclear,2030,10000,,MEUR/GW,uprated to upper end of IEA/Lazard Western new-build range (~10000 EUR/kW; EPR/Vogtle 7-10 kEUR/kW),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Nuclear,2031,10000,,MEUR/GW,uprated to upper end of IEA/Lazard Western new-build range (~10000 EUR/kW; EPR/Vogtle 7-10 kEUR/kW),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Nuclear,2032,10000,,MEUR/GW,uprated to upper end of IEA/Lazard Western new-build range (~10000 EUR/kW; EPR/Vogtle 7-10 kEUR/kW),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Nuclear,2033,10000,,MEUR/GW,uprated to upper end of IEA/Lazard Western new-build range (~10000 EUR/kW; EPR/Vogtle 7-10 kEUR/kW),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Nuclear,2034,10000,,MEUR/GW,uprated to upper end of IEA/Lazard Western new-build range (~10000 EUR/kW; EPR/Vogtle 7-10 kEUR/kW),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Nuclear,2035,10000,,MEUR/GW,uprated to upper end of IEA/Lazard Western new-build range (~10000 EUR/kW; EPR/Vogtle 7-10 kEUR/kW),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Nuclear,2036,10000,,MEUR/GW,uprated to upper end of IEA/Lazard Western new-build range (~10000 EUR/kW; EPR/Vogtle 7-10 kEUR/kW),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Nuclear,2037,10000,,MEUR/GW,uprated to upper end of IEA/Lazard Western new-build range (~10000 EUR/kW; EPR/Vogtle 7-10 kEUR/kW),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Nuclear,2038,10000,,MEUR/GW,uprated to upper end of IEA/Lazard Western new-build range (~10000 EUR/kW; EPR/Vogtle 7-10 kEUR/kW),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Nuclear,2039,10000,,MEUR/GW,uprated to upper end of IEA/Lazard Western new-build range (~10000 EUR/kW; EPR/Vogtle 7-10 kEUR/kW),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Nuclear,2040,10000,,MEUR/GW,uprated to upper end of IEA/Lazard Western new-build range (~10000 EUR/kW; EPR/Vogtle 7-10 kEUR/kW),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Nuclear,2045,10000,,MEUR/GW,uprated to upper end of IEA/Lazard Western new-build range (~10000 EUR/kW; EPR/Vogtle 7-10 kEUR/kW),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Nuclear,2050,10000,,MEUR/GW,uprated to upper end of IEA/Lazard Western new-build range (~10000 EUR/kW; EPR/Vogtle 7-10 kEUR/kW),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Nuclear,2055,10000,,MEUR/GW,uprated to upper end of IEA/Lazard Western new-build range (~10000 EUR/kW; EPR/Vogtle 7-10 kEUR/kW),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Nuclear,2060,10000,,MEUR/GW,uprated to upper end of IEA/Lazard Western new-build range (~10000 EUR/kW; EPR/Vogtle 7-10 kEUR/kW),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 World,P_Ocean,2018,4270,,MEUR/GW,Tidal and waves- Power&Heat- EU Reference Scenario 2020,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
 World,P_Ocean,2020,4270,,MEUR/GW,Tidal and waves- Power&Heat- EU Reference Scenario 2020,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
 World,P_Ocean,2021,4270,,MEUR/GW,Tidal and waves- Power&Heat- EU Reference Scenario 2020,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
@@ -2634,18 +2658,6 @@ World,P_Hydro_RoR,2036,1664,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <
 World,P_Hydro_RoR,2037,1663,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
 World,P_Hydro_RoR,2038,1662,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
 World,P_Hydro_RoR,2039,1661,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
-World,P_Nuclear,2026,6000,,MEUR/GW,interpolated,05.09.2023,Stian Backe <stian.backe@sintef.no>
-World,P_Nuclear,2027,6000,,MEUR/GW,interpolated,05.09.2023,Stian Backe <stian.backe@sintef.no>
-World,P_Nuclear,2028,6000,,MEUR/GW,interpolated,05.09.2023,Stian Backe <stian.backe@sintef.no>
-World,P_Nuclear,2029,6000,,MEUR/GW,interpolated,05.09.2023,Stian Backe <stian.backe@sintef.no>
-World,P_Nuclear,2031,6000,,MEUR/GW,interpolated,05.09.2023,Stian Backe <stian.backe@sintef.no>
-World,P_Nuclear,2032,6000,,MEUR/GW,interpolated,05.09.2023,Stian Backe <stian.backe@sintef.no>
-World,P_Nuclear,2033,6000,,MEUR/GW,interpolated,05.09.2023,Stian Backe <stian.backe@sintef.no>
-World,P_Nuclear,2034,6000,,MEUR/GW,interpolated,05.09.2023,Stian Backe <stian.backe@sintef.no>
-World,P_Nuclear,2036,6000,,MEUR/GW,interpolated,05.09.2023,Stian Backe <stian.backe@sintef.no>
-World,P_Nuclear,2037,6000,,MEUR/GW,interpolated,05.09.2023,Stian Backe <stian.backe@sintef.no>
-World,P_Nuclear,2038,6000,,MEUR/GW,interpolated,05.09.2023,Stian Backe <stian.backe@sintef.no>
-World,P_Nuclear,2039,6000,,MEUR/GW,interpolated,05.09.2023,Stian Backe <stian.backe@sintef.no>
 World,P_Ocean,2026,3306.4,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
 World,P_Ocean,2027,3145.8,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
 World,P_Ocean,2028,2985.2,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
@@ -3007,6 +3019,7 @@ World,R_Waste,2037,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@
 World,R_Waste,2038,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 World,R_Waste,2039,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 World,X_Convert_Power,All,1,,MEUR/GW,power demand splitter (eff=1),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Gas_Steam,All,1100,,MEUR/GW,placeholder - no new gas steam builds expected; capacity capped at residual fleet,2026-06-12,Konstantin Loffler <kl@wip.tu-berlin.de>
 World,P_EGS_R1,2025,6220.13,,MEUR/GW,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 World,P_EGS_R1,2026,6017.39,,MEUR/GW,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 World,P_EGS_R1,2027,5821.26,,MEUR/GW,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
@@ -3071,4 +3084,3 @@ World,P_EGS_R4,2037,6630.64,,MEUR/GW,"EGS_LCOE_model.xlsx (Central scenario, ATB
 World,P_EGS_R4,2038,6597.48,,MEUR/GW,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 World,P_EGS_R4,2039,6564.5,,MEUR/GW,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 World,P_EGS_R4,2040,6531.67,,MEUR/GW,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,P_Gas_Steam,All,1100,,MEUR/GW,placeholder - no new gas steam builds expected; capacity capped at residual fleet,2026-06-12,Konstantin Loffler <kl@wip.tu-berlin.de>
