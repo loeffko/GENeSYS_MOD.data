@@ -315,13 +315,14 @@ DATE, WHO = "2026-06-04", "Konstantin Loffler <kl@wip.tu-berlin.de>"
 MAX_WIDEN_2035_DEFAULT = 1.30
 MAX_WIDEN_2035_PER_TECH = {"P_Hydro_Reservoir": 1.10}
 
-# Restool upside (_Opt/_Inf) ramp. The variants stay gated at 0 through 2035
-# (near-term pinned to the capacity sheet), then open linearly to full
-# share-of-potential by RESTOOL_RAMP_END (2050, not 2040). The longer ramp files
-# down the 2035->2036 cliff and lowers the (non-binding) 2040 ceiling. The rep
-# (_Avg) max stays pinned through 2035, then extends its 2030-2035 trend.
-RESTOOL_RAMP_START = 2035
-RESTOOL_RAMP_END = 2050
+# Restool upside (_Opt/_Inf) ramp. The variants open linearly from 0 at
+# RESTOOL_RAMP_START to full share-of-potential at RESTOOL_RAMP_END. With
+# switch_investLimit on, SC2 (+NewRESCapacity) paces the per-year build, so the
+# funnel can be widened without re-introducing the 2036 spike: open from 2031 and
+# reach full potential by 2045 (was 2035->2050). The rep (_Avg) max stays pinned
+# through 2035, then extends its 2030-2035 trend.
+RESTOOL_RAMP_START = 2031
+RESTOOL_RAMP_END = 2045
 def restool_frac(y):
     return max(0.0, min(1.0, (y - RESTOOL_RAMP_START) / (RESTOOL_RAMP_END - RESTOOL_RAMP_START)))
 
