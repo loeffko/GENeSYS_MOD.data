@@ -53,10 +53,14 @@ Run:  python NA_inputs/add_capacity_bounds.py            # dry-run (sample print
 """
 import os, sys
 import pandas as pd
+import openpyxl
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA_REPO = os.path.normpath(os.path.join(HERE, ".."))
 SRC = os.path.join(HERE, "US Pools - Generation and Capacity.xlsx")
+# US nuclear forecast (per-unit; Summary "Total LSR") + US coal trajectory model
+NUCLEAR_SRC = os.path.join(HERE, "PMK_Nuclear Operating and Forecast Through 2040_4.15.2026.xlsx")
+COAL_SRC = os.path.join(HERE, "Coal_Trajectory_Model.xlsx")
 POT_NA = os.path.join(DATA_REPO, "NA_restool", "northamerica_potentials_combined.csv")
 POT_CA = os.path.join(DATA_REPO, "NA_restool", "canada_potentials_combined.csv")
 PARAM = lambda n: os.path.join(DATA_REPO, "Data", "Parameters", n, n + ".csv")
@@ -135,13 +139,24 @@ CANADA_PHS_GW_2025 = 0.174
 # Coal split: lignite is mine-mouth only (no interregional market). 2025 GW
 # per region from plant-level research (ND fleet ~3.9 in MISO, TX ~4.4 in
 # ERCOT incl. San Miguel, Red Hills 0.44 in SERC). Remainder of the US Pools
-# "Coal" category is hardcoal. No new coal builds: MaxCapacity follows the
-# residual trajectory exactly; all other regions get lignite MaxCapacity 0.
+# "Coal" category is hardcoal. US coal capacity now follows the US Coal
+# Trajectory Model (Coal_Trajectory_Model.xlsx): each region's 2025 base is
+# scaled by the national case path (current shares x national decline) —
+# ResidualCapacity = LOW case, TotalAnnualMinCapacity = CENTRAL, MaxCapacity =
+# HIGH (the central-low gap is built as boiler refurbishment / life-extension).
+# Coal->gas conversions (LOW case) become P_Gas_Steam residual (split by the
+# regional coal share). The trajectory is US-only; Canada coal keeps the CER path.
 COAL_CATEGORY = "Coal"
 LIGNITE_GW_2025 = {"MISO": 3.9, "ERCOT": 4.4, "SERC": 0.44}
 SAN_MIGUEL_GW, SAN_MIGUEL_RETIRE_YEAR = 0.41, 2028   # solar+storage conversion
 CANADA_LIGNITE_GW = 1.53   # SaskPower life-extension (10/2025), flat to 2040
 COAL_TECHS = {"P_Coal_Lignite", "P_Coal_Hardcoal"}
+
+# US nuclear (P_Nuclear) follows the PMK "Total LSR" forecast per region as a
+# min-target: residual = 2025 LSR (flat — the fleet does not retire in-horizon),
+# TotalAnnualMinCapacity = LSR per year (model builds the announced growth),
+# max = LSR x this headroom. Supersedes the US-aggregate Nuclear group-min.
+NUCLEAR_MAX_HEADROOM = 1.10
 
 # ---------------------------------------------------------------------------
 # Canada: CER "Canada's Energy Future 2026" (canada_power_ef2026.xlsx).
@@ -229,6 +244,115 @@ def read_canada_storage():
            (df["Year"].between(2025, 2040))]
     return {int(y): float(m) / 1000.0 for y, m in zip(s["Year"], s["MW"])}
 
+# US nuclear: PMK "Operating and Forecast Through 2040". The Summary "Total LSR"
+# = non-SMR nuclear, cumulative by in-service date, US only (AnR + IRP/RFP
+# sheets). Reconstructed per unit and mapped to the model's US pool regions
+# (validated to reproduce the Summary Total-LSR row exactly). SMR units excluded.
+def _nuc_anr_region(iso, nerc, state, subregion=None):
+    if subregion and str(subregion).endswith("-CN"):
+        return "Canada"  # e.g. MRO-CN (Saskatchewan SMR): filed in the US sheet but Canadian
+    if iso == "CAISO":
+        return "California" if state == "CA" else "WECC"  # Palo Verde (AZ) sells into CAISO but is WECC
+    m = {"PJM": "PJM", "MISO": "MISO", "ERCOT": "ERCOT",
+         "New York": "NewYork", "New England": "NewEngland", "SPP": "SPP"}
+    if iso in m:
+        return m[iso]
+    if nerc == "SERC": return "SERC"
+    if nerc == "TRE":  return "ERCOT"
+    if nerc == "RFC":  return "MISO" if state == "MI" else "PJM"
+    if nerc == "WECC": return "California" if state == "CA" else "WECC"
+    if nerc == "NPCC": return "NewYork" if state == "NY" else "NewEngland"
+    if nerc == "MRO":  return "SPP" if state in ("NE", "KS", "SD", "ND") else "MISO"
+    return None
+
+def _nuc_irp_region(area, state):
+    p = (area or "").split("_")[0]
+    if p == "WECC":
+        return "California" if "(CA)" in (state or "") else "WECC"
+    return {"SPP": "SPP", "MISO": "MISO", "NY": "NewYork", "isoNE": "NewEngland",
+            "PJM": "PJM", "SERC": "SERC", "ERCOT": "ERCOT"}.get(p)
+
+def read_nuclear_lsr():
+    """Return {region: {year: GW}} of US Large-Scale-Reactor (non-SMR) nuclear,
+    cumulative installed by in-service date, 2025-2040 (US pool regions only)."""
+    wb = openpyxl.load_workbook(NUCLEAR_SRC, data_only=True, read_only=True)
+    out = {r: {y: 0.0 for y in YEARS} for r in
+           ("California", "WECC", "SPP", "MISO", "ERCOT", "SERC", "PJM", "NewYork", "NewEngland")}
+    # AnR sheet: C=SMR(2) E=status(4) K=state(10) L=iso(11) M=cap(12) O=date(14) V=nerc(21)
+    for row in wb["US AnR Units"].iter_rows(min_row=2, values_only=True):
+        smr, state, iso, cap, o, nerc = row[2], row[10], row[11], row[12], row[14], row[21]
+        sub = row[22] if len(row) > 22 else None
+        if smr == "SMR" or cap is None or not hasattr(o, "year"):
+            continue
+        reg = _nuc_anr_region(iso, nerc, state, sub)
+        if reg is None or reg == "Canada":   # Canadian units come from the CER block
+            continue
+        for y in YEARS:
+            if o.year <= y:
+                out[reg][y] += cap / 1000.0   # MW -> GW
+    # IRP/RFP sheet: E=status(4) F=cap(5) G=year(6) I=state(8) K=area(10) M=tech(12)
+    for row in wb["US IRP_RFP Units"].iter_rows(min_row=2, values_only=True):
+        tech, cap, gy, state, area = row[12], row[5], row[6], row[8], row[10]
+        if tech == "SMR" or cap is None or gy is None:
+            continue
+        reg = _nuc_irp_region(area, state)
+        if reg is None:
+            continue
+        for y in YEARS:
+            if gy <= y:
+                out[reg][y] += cap / 1000.0
+    wb.close()
+    return out
+
+def read_coal_trajectory():
+    """Return national {case: {year: GW}} from Coal_Trajectory_Model.xlsx
+    (Trajectory sheet). Coal-fired rows: Low=20, Central=12, High=25;
+    Conversion Low=21. Columns C..R = 2025..2040."""
+    wb = openpyxl.load_workbook(COAL_SRC, data_only=True, read_only=True)
+    ws = wb["Trajectory"]
+    def rowvals(r):
+        return {YEARS[i]: float(ws.cell(row=r, column=3 + i).value) for i in range(len(YEARS))}
+    out = {"coal_low": rowvals(20), "coal_central": rowvals(12),
+           "coal_high": rowvals(25), "conv_low": rowvals(21)}
+    wb.close()
+    return out
+
+def read_nuclear_smr():
+    """Return (smr_max, smr_min) per region/year (GW) for P_Nuclear_SMR.
+    max = every SMR unit (AnR any status + IRP/RFP), cumulative by in-service
+    date — reproduces the Summary 'Total SMR' (~18.7 GW US 2040). min = only the
+    firmly-committed AnR 'Development' SMRs (~2.8 GW US 2040); 'Announced' AnR and
+    utility-plan IRP SMRs are excluded as not-yet-very-far-ahead."""
+    wb = openpyxl.load_workbook(NUCLEAR_SRC, data_only=True, read_only=True)
+    regs = ("California", "WECC", "SPP", "MISO", "ERCOT", "SERC", "PJM", "NewYork", "NewEngland", "Canada")
+    smr_max = {r: {y: 0.0 for y in YEARS} for r in regs}
+    smr_min = {r: {y: 0.0 for y in YEARS} for r in regs}
+    for row in wb["US AnR Units"].iter_rows(min_row=2, values_only=True):
+        smr, status, state, iso, cap, o, nerc = row[2], row[4], row[10], row[11], row[12], row[14], row[21]
+        sub = row[22] if len(row) > 22 else None
+        if smr != "SMR" or cap is None or not hasattr(o, "year"):
+            continue
+        reg = _nuc_anr_region(iso, nerc, state, sub)
+        if reg is None:
+            continue
+        for y in YEARS:
+            if o.year <= y:
+                smr_max[reg][y] += cap / 1000.0
+                if status == "Development":          # firmly-committed subset -> min
+                    smr_min[reg][y] += cap / 1000.0
+    for row in wb["US IRP_RFP Units"].iter_rows(min_row=2, values_only=True):
+        tech, cap, gy, state, area = row[12], row[5], row[6], row[8], row[10]
+        if tech != "SMR" or cap is None or gy is None:
+            continue
+        reg = _nuc_irp_region(area, state)
+        if reg is None:
+            continue
+        for y in YEARS:
+            if gy <= y:
+                smr_max[reg][y] += cap / 1000.0      # utility IRP SMR -> max only
+    wb.close()
+    return smr_max, smr_min
+
 # Restool potential column -> all model tech variants in that family.
 # Each variant gets a share of the per-region potential (placeholder split until
 # the resource-graded breakdown file lands): 40% Avg / 30% Opt / 30% Inf for
@@ -265,7 +389,8 @@ TECH_SHARE = {v: s for info in RESTOOL_MAP.values() for v, s in info["variants"]
 ALL_RESTOOL_TECHS = sorted(TECH_SHARE.keys())
 
 # Full set of techs this script directly writes positive caps for.
-ALL_MANAGED_TECHS = MODEL_TECHS_GUARDRAIL | set(ALL_RESTOOL_TECHS) | COAL_TECHS | HYDRO_TECHS | STORAGE_TECHS
+NUCLEAR_SMR_TECHS = {"P_Nuclear_SMR"}
+ALL_MANAGED_TECHS = MODEL_TECHS_GUARDRAIL | set(ALL_RESTOOL_TECHS) | COAL_TECHS | HYDRO_TECHS | STORAGE_TECHS | NUCLEAR_SMR_TECHS
 
 # Techs whose caps are owned by other scripts — leave them alone here.
 EXTERNAL_OWNERS = {
@@ -393,6 +518,25 @@ def main():
 
     res_rows, min_rows, max_rows = [], [], []
 
+    # US coal trajectory (national) + per-region 2025 coal shares. Each region's
+    # coal base is scaled by the national case ratio (1.0 at 2025 since the
+    # uncertainty band is 0 there). Coal->gas conversions (LOW case) are split by
+    # the regional coal share and added to P_Gas_Steam residual.
+    coal_traj = read_coal_trajectory()
+    c0 = coal_traj["coal_low"][2025]   # = central[2025] = high[2025] = 171
+    coal_ratio_low     = {y: coal_traj["coal_low"][y] / c0     for y in YEARS}
+    coal_ratio_central = {y: coal_traj["coal_central"][y] / c0 for y in YEARS}
+    coal_ratio_high    = {y: coal_traj["coal_high"][y] / c0    for y in YEARS}
+    conv_low = coal_traj["conv_low"]
+    coal_2025 = {r: gw(r, COAL_CATEGORY, 2025) for r in pool_regions}
+    coal_tot = sum(coal_2025.values())
+    coal_share = {r: (coal_2025[r] / coal_tot if coal_tot else 0.0) for r in pool_regions}
+
+    # US nuclear LSR trajectory per pool region (Canada nuclear = CER block).
+    nuclear_lsr = read_nuclear_lsr()
+    # SMR (P_Nuclear_SMR): full forecast (max) + committed-Development subset (min).
+    nuclear_smr_max, nuclear_smr_min = read_nuclear_smr()
+
     # 1) Guardrail funnel (5 fuel groups x US pool regions). We also accumulate
     #    per (region, year) the "excess" between the rep guardrail trajectory
     #    (max and min) and the rep's share of the per-region restool potential.
@@ -409,9 +553,14 @@ def main():
             tot = pot.get(region, {}).get(col)
             rep_share_pot[rep] = (tot * TECH_SHARE.get(rep, 0.0)) if tot is not None else None
         for fuel, tech in TECH.items():
+            if tech == "P_Nuclear":
+                continue   # handled in the dedicated LSR block (1b2) below
             base = gw(region, fuel, 2025)
             for y in YEARS:
-                res_rows.append((region, tech, y, round(base * residual_factor(tech, y), 6)))
+                res_val = base * residual_factor(tech, y)
+                if tech == "P_Gas_Steam":
+                    res_val += conv_low.get(y, 0.0) * coal_share.get(region, 0.0)
+                res_rows.append((region, tech, y, round(res_val, 6)))
 
             # 2035 funnel anchors for post-2035 interp + min hold
             val_2035 = base if tech == "P_Nuclear" else gw(region, fuel, 2035)
@@ -460,6 +609,10 @@ def main():
                 else:
                     rep_max = raw_max
                     rep_min = raw_min
+                if tech == "P_Gas_Steam":
+                    # max must cover the residual incl. coal->gas conversions
+                    gs_res = base * residual_factor(tech, y) + conv_low.get(y, 0.0) * coal_share.get(region, 0.0)
+                    rep_max = max(rep_max, gs_res)
                 if tech in MONOTONIC_MAX_TECHS:
                     rep_max = max(rep_max, running_max)
                     running_max = rep_max
@@ -467,9 +620,12 @@ def main():
                 max_rows.append((region, tech, y, round(rep_max, 6)))
 
         # 1b) Coal: split the US Pools "Coal" capacity into lignite (fixed
-        #     regional fleet, mine-mouth fuel) and hardcoal (remainder).
-        #     No new coal builds in the US: MaxCapacity = residual trajectory.
-        #     San Miguel (ERCOT lignite, 0.41 GW) converts to solar+storage.
+        #     regional fleet, mine-mouth fuel) and hardcoal (remainder), then
+        #     scale each region's 2025 base by the US Coal Trajectory Model case
+        #     path: ResidualCapacity = LOW, TotalAnnualMinCapacity = CENTRAL,
+        #     MaxCapacity = HIGH (the central-low gap is built as refurbishment /
+        #     life-extension). San Miguel (ERCOT lignite, 0.41 GW) converts to
+        #     solar+storage. Conversions feed P_Gas_Steam residual (gas block).
         coal_base = gw(region, COAL_CATEGORY, 2025)
         lign_base = min(LIGNITE_GW_2025.get(region, 0.0), coal_base)
         hard_base = max(0.0, coal_base - lign_base)
@@ -478,9 +634,21 @@ def main():
                 eff_base = base
                 if tech == "P_Coal_Lignite" and region == "ERCOT" and y >= SAN_MIGUEL_RETIRE_YEAR:
                     eff_base = max(0.0, base - SAN_MIGUEL_GW)
-                v = round(eff_base * residual_factor(tech, y), 6)
-                res_rows.append((region, tech, y, v))
-                max_rows.append((region, tech, y, v))   # no new coal builds
+                res_rows.append((region, tech, y, round(eff_base * coal_ratio_low[y], 6)))
+                min_rows.append((region, tech, y, round(eff_base * coal_ratio_central[y], 6)))
+                max_rows.append((region, tech, y, round(eff_base * coal_ratio_high[y], 6)))
+
+        # 1b2) Nuclear: PMK "Total LSR" forecast per region (min-target).
+        #     ResidualCapacity = 2025 LSR (flat; fleet does not retire in-horizon),
+        #     TotalAnnualMinCapacity = LSR per year (model builds the announced
+        #     growth, paying nuclear capex), max = LSR x NUCLEAR_MAX_HEADROOM.
+        lsr = nuclear_lsr.get(region, {})
+        base_lsr = lsr.get(2025, 0.0)
+        for y in YEARS:
+            tgt = lsr.get(y, base_lsr)
+            res_rows.append((region, "P_Nuclear", y, round(base_lsr, 6)))
+            min_rows.append((region, "P_Nuclear", y, round(tgt, 6)))
+            max_rows.append((region, "P_Nuclear", y, round(tgt * NUCLEAR_MAX_HEADROOM, 6)))
 
         # 1c) Hydro: split into reservoir + run-of-river (per-region RoR share).
         #     Residual is FLAT at the 2025 fleet (hydro does not retire); the
@@ -658,6 +826,21 @@ def main():
             res_rows.append((region, "D_CAES", y, 0.0))
             max_rows.append((region, "D_CAES", y, round(max(FORBID_EPS, ceil40 * frac), 6)))
 
+    # 3d) Nuclear SMR (P_Nuclear_SMR) for every region: residual 0 (no SMR fleet
+    #     in 2025), TotalAnnualMaxCapacity = full PMK SMR forecast (FORBID_EPS
+    #     where 0 so the 0->999999 thermal rule does not make it unlimited),
+    #     TotalAnnualMinCapacity = committed "Development" SMRs. Canada carries
+    #     the Saskatchewan unit (filed in the US sheet, NERC subregion MRO-CN).
+    for region in all_regions:
+        smr_mx = nuclear_smr_max.get(region, {})
+        smr_mn = nuclear_smr_min.get(region, {})
+        for y in YEARS:
+            res_rows.append((region, "P_Nuclear_SMR", y, 0.0))
+            mn = round(smr_mn.get(y, 0.0), 6)
+            if mn > 0:
+                min_rows.append((region, "P_Nuclear_SMR", y, mn))
+            max_rows.append((region, "P_Nuclear_SMR", y, round(max(FORBID_EPS, smr_mx.get(y, 0.0)), 6)))
+
     # 4) Zero-out unmanaged power-producing techs (P_*, CHP_*) for the NA
     #    regions + Canada. Storage (D_*, S_*) and sector-coupling techs are
     #    untouched. Techs covered by sibling scripts (offshore wind, EGS) stay.
@@ -722,31 +905,37 @@ def main():
         drop = (d["TechnologySubset"] == tech_subset) & (d["RegionSubset"] == region_subset)
         nd = int(drop.sum())
         d = d[~drop]
-        new = pd.DataFrame([{"TechnologySubset": tech_subset, "RegionSubset": region_subset,
-                             "Year": y, "Value": v, "": "", "Unit": "GW", "Source": src,
-                             "Updated at": DATE, "Updated by": WHO}
-                            for y, v in sorted(year_to_gw.items())])
-        new = new[d.columns]
-        out = pd.concat([d, new], ignore_index=True)
+        rows = [{"TechnologySubset": tech_subset, "RegionSubset": region_subset,
+                 "Year": y, "Value": v, "": "", "Unit": "GW", "Source": src,
+                 "Updated at": DATE, "Updated by": WHO}
+                for y, v in sorted(year_to_gw.items())]
+        if rows:                      # empty year_to_gw => purge-only
+            out = pd.concat([d, pd.DataFrame(rows)[d.columns]], ignore_index=True)
+        else:
+            out = d
         if apply:
             out.to_csv(path, index=False)
-        return nd, len(new)
+        return nd, len(rows)
 
     r1 = write("Par_ResidualCapacity", res_rows,
-               "US Pools gen/cap 2025 base, linear 5%-of-base/yr retirement (Nuclear held flat)")
+               "US Pools 2025 base x retirement; Nuclear=2025 LSR (PMK); Coal=US Coal Trajectory LOW; "
+               "P_Gas_Steam incl. coal->gas conversions (LOW)")
     r2 = write("Par_TotalAnnualMinCapacity", min_rows,
-               "US Pools gen/cap, widening band (min) — Nuclear pinned, post-2035 held at 2035 funnel min")
+               "US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL")
     r3 = write("Par_TotalAnnualMaxCapacity", max_rows,
-               "Guardrail (2026-2035) + interp to NA_restool potential (2036-2040); "
-               "non-rep variants & Canada use restool potential flat across years")
+               "Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; "
+               "Coal=US Coal Trajectory HIGH")
 
     r4 = write_subset_row("Par_TagTechnologyToSubsets", "P_Nuclear", "Nuclear")
-    r5 = write_group_min(NUCLEAR_USA_GROUP_MIN, "Nuclear", "USA",
-                         "US nuclear capacity target trajectory")
+    # Per-region P_Nuclear TotalAnnualMinCapacity now enforces the LSR trajectory,
+    # so purge the superseded US-aggregate Nuclear group-min (add nothing).
+    r5 = write_group_min({}, "Nuclear", "USA", "superseded by per-region P_Nuclear min")
 
     # Sample print: PJM P_Gas_CCGT (no restool ceiling — held flat post-2035)
     #               PJM P_PV_Utility_Avg (interpolates to PV potential at 2040)
-    for ex_r, ex_t in (("PJM", "P_Gas_CCGT"), ("PJM", "P_PV_Utility_Avg")):
+    for ex_r, ex_t in (("PJM", "P_Gas_CCGT"), ("PJM", "P_PV_Utility_Avg"),
+                       ("SERC", "P_Nuclear"), ("MISO", "P_Coal_Hardcoal"),
+                       ("MISO", "P_Gas_Steam"), ("PJM", "P_Nuclear_SMR")):
         print(f"\nSample {ex_r} {ex_t} (GW):  Year  Residual    Min      Max")
         res = {y: v for (r, t, y, v) in res_rows if r == ex_r and t == ex_t}
         mn = {y: v for (r, t, y, v) in min_rows if r == ex_r and t == ex_t}
