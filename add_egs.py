@@ -268,9 +268,16 @@ def update_group_new_caps():
     if sub_rows:
         append_rows(tag_path, sub_rows)
         print(f"  Par_TagRegionToSubsets (single-region subsets): +{len(sub_rows)}")
-    # 2) create the new param dir+file (header) if missing, then write EGS rows
-    d = os.path.join(PAR_DIR, "Par_GroupTotalAnnualMaxNewCapacity")
-    path = os.path.join(d, "Par_GroupTotalAnnualMaxNewCapacity.csv")
+    # 2) create the new param dir+file (header) if missing, then write EGS rows.
+    #    NOTE: the sheet name must be <= 31 chars (Excel limit), else the converter
+    #    truncates it and the model can't match it -- so the param is "...MaxNewCap",
+    #    not "...MaxNewCapacity". Remove the old over-length dir if it lingers.
+    import shutil
+    old = os.path.join(PAR_DIR, "Par_GroupTotalAnnualMaxNewCapacity")
+    if os.path.isdir(old):
+        shutil.rmtree(old)
+    d = os.path.join(PAR_DIR, "Par_GroupTotalAnnualMaxNewCap")
+    path = os.path.join(d, "Par_GroupTotalAnnualMaxNewCap.csv")
     if not os.path.exists(path):
         os.makedirs(d, exist_ok=True)
         with open(path, "w", encoding="utf-8", newline="") as f:
@@ -281,7 +288,7 @@ def update_group_new_caps():
         rows += [["EGS", reg, str(y), str(lim), "", "GW",
                   "EGS build-rate smoothing (TU Berlin assumption)", STAMP, AUTHOR] for y in yrs]
     append_rows(path, rows)
-    print(f"  Par_GroupTotalAnnualMaxNewCapacity (EGS x {list(EGS_NEWCAP_LIMIT)}): +{len(rows)}")
+    print(f"  Par_GroupTotalAnnualMaxNewCap (EGS x {list(EGS_NEWCAP_LIMIT)}): +{len(rows)}")
 
 
 def update_residual_capacity(baseline):
