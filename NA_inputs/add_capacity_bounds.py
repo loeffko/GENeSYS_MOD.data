@@ -636,7 +636,10 @@ def main():
                     eff_base = max(0.0, base - SAN_MIGUEL_GW)
                 res_rows.append((region, tech, y, round(eff_base * coal_ratio_low[y], 6)))
                 min_rows.append((region, tech, y, round(eff_base * coal_ratio_central[y], 6)))
-                max_rows.append((region, tech, y, round(eff_base * coal_ratio_high[y], 6)))
+                # FORBID_EPS floor: lignite-free / coal-free regions (base 0) must
+                # stay forbidden, else max==0 -> 999999 (FossilPower rule) lets them
+                # build UNLIMITED coal/lignite.
+                max_rows.append((region, tech, y, round(max(FORBID_EPS, eff_base * coal_ratio_high[y]), 6)))
 
         # 1b2) Nuclear: PMK "Total LSR" forecast per region (min-target).
         #     ResidualCapacity = 2025 LSR (flat; fleet does not retire in-horizon),
@@ -808,9 +811,11 @@ def main():
         for y in YEARS:
             hard = ca_hardcoal.get(y, 0.0) if (region == "Canada" and canada_techs) else 0.0
             res_rows.append((region, "P_Coal_Lignite", y, lign))
-            max_rows.append((region, "P_Coal_Lignite", y, lign))
+            max_rows.append((region, "P_Coal_Lignite", y, max(FORBID_EPS, lign)))
             res_rows.append((region, "P_Coal_Hardcoal", y, round(hard, 6)))
-            max_rows.append((region, "P_Coal_Hardcoal", y, round(hard, 6)))
+            # FORBID_EPS floor so Canadian hardcoal (CER -> 0 by ~2035) and any
+            # coal-free extra region don't flip to unlimited via the 0->999999 rule.
+            max_rows.append((region, "P_Coal_Hardcoal", y, round(max(FORBID_EPS, hard), 6)))
 
     all_regions = pool_regions + extra_regions
 
@@ -861,7 +866,11 @@ def main():
             if region == "Canada" and tech in canada_techs:
                 continue
             for y in YEARS:
-                zero_rows.append((region, tech, y, 0.0))
+                # FORBID_EPS, not 0: most of these unmanaged techs are FossilPower/
+                # CHP/Biomass-tagged, so a 0 max is flipped to 999999 (UNLIMITED) by
+                # genesysmod_bounds. Writing 0.001 actually forbids them — otherwise
+                # e.g. CHP_Coal_Lignite builds ~unlimited cheap lignite in every region.
+                zero_rows.append((region, tech, y, FORBID_EPS))
     max_rows.extend(zero_rows)
 
     all_written_techs = ALL_MANAGED_TECHS | set(zero_techs)
