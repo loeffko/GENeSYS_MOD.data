@@ -244,6 +244,46 @@ def update_group_caps(low, central):
     print(f"  GroupTotalAnnualMaxCapacity (Central): +{len(rows_max)}")
 
 
+# EGS build-rate smoothing: SC2's %-of-max cap is toothless for EGS (its max is the
+# full resource potential ~7000 GW), so the build path is smoothed with the new
+# GroupTotalAnnualMaxNewCapacity parameter (caps summed annual NewCapacity over a
+# tech subset × region subset; TCC5 in genesysmod_equ.jl). Region-specific via a
+# single-region subset, so no per-region hardcode lives in the model code.
+EGS_NEWCAP_LIMIT = {"ERCOT": 2.4}   # GW/yr of new EGS capacity, per region
+
+
+def update_group_new_caps():
+    yrs = list(range(2025, 2041))
+    # 1) ensure a single-region region-subset exists for each capped region
+    tag_path = os.path.join(SETS_DIR, "Par_TagRegionToSubsets.csv")
+    have = set()
+    with open(tag_path, "r", encoding="utf-8") as f:
+        next(f, None)
+        for line in f:
+            p = line.split(",")
+            if len(p) >= 2:
+                have.add((p[0].strip(), p[1].strip()))
+    sub_rows = [[reg, reg, "1", "", "Binary", "not relevant", STAMP, AUTHOR]
+                for reg in EGS_NEWCAP_LIMIT if (reg, reg) not in have]
+    if sub_rows:
+        append_rows(tag_path, sub_rows)
+        print(f"  Par_TagRegionToSubsets (single-region subsets): +{len(sub_rows)}")
+    # 2) create the new param dir+file (header) if missing, then write EGS rows
+    d = os.path.join(PAR_DIR, "Par_GroupTotalAnnualMaxNewCapacity")
+    path = os.path.join(d, "Par_GroupTotalAnnualMaxNewCapacity.csv")
+    if not os.path.exists(path):
+        os.makedirs(d, exist_ok=True)
+        with open(path, "w", encoding="utf-8", newline="") as f:
+            f.write("TechnologySubset,RegionSubset,Year,Value,,Unit,Source,Updated at,Updated by\n")
+    rows = []
+    for reg, lim in EGS_NEWCAP_LIMIT.items():
+        _drop_subset_rows(path, "EGS", reg)
+        rows += [["EGS", reg, str(y), str(lim), "", "GW",
+                  "EGS build-rate smoothing (TU Berlin assumption)", STAMP, AUTHOR] for y in yrs]
+    append_rows(path, rows)
+    print(f"  Par_GroupTotalAnnualMaxNewCapacity (EGS x {list(EGS_NEWCAP_LIMIT)}): +{len(rows)}")
+
+
 def update_residual_capacity(baseline):
     # 2025 = baseline (P_EGS_R1 only — existing fleet best represented as Prime).
     # Linear decline to 0 by 2040 (avg fleet age ~30yr in 2025; 30yr lifetime).
@@ -315,6 +355,7 @@ def main():
     update_tag_sector()
     update_max_capacity(max_cap)
     update_group_caps(low, central)
+    update_group_new_caps()
     update_residual_capacity(baseline)
     print("\nDone.")
 
