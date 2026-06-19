@@ -528,6 +528,14 @@ def main():
     coal_ratio_central = {y: coal_traj["coal_central"][y] / c0 for y in YEARS}
     coal_ratio_high    = {y: coal_traj["coal_high"][y] / c0    for y in YEARS}
     conv_low = coal_traj["conv_low"]
+    # The Natural-Gas-ST base already bakes in the coal->gas conversions that had
+    # happened by the base year (conv_low[2025] ~ 11 GW), so only the *additional*
+    # conversions since 2025 may be added to the P_Gas_Steam residual -- adding the
+    # absolute conv_low[y] would double-count the base-year fleet. Floor at 0 so a
+    # net decline (converted plants retiring) is handled by the base residual decay,
+    # not by subtracting capacity here.
+    conv_base = conv_low.get(2025, 0.0)
+    conv_add = {y: max(0.0, conv_low.get(y, 0.0) - conv_base) for y in YEARS}
     coal_2025 = {r: gw(r, COAL_CATEGORY, 2025) for r in pool_regions}
     coal_tot = sum(coal_2025.values())
     coal_share = {r: (coal_2025[r] / coal_tot if coal_tot else 0.0) for r in pool_regions}
@@ -559,7 +567,7 @@ def main():
             for y in YEARS:
                 res_val = base * residual_factor(tech, y)
                 if tech == "P_Gas_Steam":
-                    res_val += conv_low.get(y, 0.0) * coal_share.get(region, 0.0)
+                    res_val += conv_add[y] * coal_share.get(region, 0.0)
                 res_rows.append((region, tech, y, round(res_val, 6)))
 
             # 2035 funnel anchors for post-2035 interp + min hold
@@ -610,8 +618,9 @@ def main():
                     rep_max = raw_max
                     rep_min = raw_min
                 if tech == "P_Gas_Steam":
-                    # max must cover the residual incl. coal->gas conversions
-                    gs_res = base * residual_factor(tech, y) + conv_low.get(y, 0.0) * coal_share.get(region, 0.0)
+                    # max must cover the residual incl. coal->gas conversions (added
+                    # since the base year only; see conv_add)
+                    gs_res = base * residual_factor(tech, y) + conv_add[y] * coal_share.get(region, 0.0)
                     rep_max = max(rep_max, gs_res)
                 if tech in MONOTONIC_MAX_TECHS:
                     rep_max = max(rep_max, running_max)
