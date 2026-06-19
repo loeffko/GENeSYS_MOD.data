@@ -13,7 +13,8 @@ Writes (idempotent — old rows replaced before append):
 
   1. For each directly-mentioned region (CAISO/ISO-NE/NYISO/PJM):
         Par_TotalAnnualMinCapacity  : Low-scenario cumulative,  per year, P_Wind_Offshore_Shallow
-        Par_TotalAnnualMaxCapacity  : High-scenario cumulative, per year, P_Wind_Offshore_Shallow
+        Par_TotalAnnualMaxCapacity  : Central cumulative up to 2033, High cumulative
+                                      from 2034, per year, P_Wind_Offshore_Shallow
      (Single representative offshore tech — model picks Shallow / Deep / Transitional
       via cost, but the aggregate cap binds Shallow which is the largest pool.)
 
@@ -29,7 +30,7 @@ Writes (idempotent — old rows replaced before append):
 
   5. Par_GroupTotalAnnualMinCapacity / MaxCapacity rows for
         OffshoreWind x Other_Offshore_Regions x year, with the FEL "Other"
-        Low cumulative as min and "Other" High cumulative as max.
+        Low cumulative as min and "Other" Central(<=2033)/High(>2033) cumulative as max.
 
 Run:  python NA_inputs/add_offshore_wind_bounds.py            # dry-run
       python NA_inputs/add_offshore_wind_bounds.py --apply
@@ -86,6 +87,24 @@ def cumulative(yr_to_val):
     for y in YEARS:
         run += yr_to_val.get(y, 0.0)
         out[y] = round(run, 6)
+    return out
+
+
+CENTRAL_UNTIL = 2033   # Central case is the upper bound through this year; High after
+
+
+def offshore_max(central, high):
+    """Upper bound = Central cumulative up to and incl. CENTRAL_UNTIL (2033), High
+    cumulative from the year after. Forced non-decreasing: a cumulative capacity cap
+    must never shrink, and in the anonymized data the 'Other' Central can exceed High
+    (which would otherwise make the cap drop and become infeasible). Both args are
+    cumulative dicts."""
+    out, run = {}, 0.0
+    for y in YEARS:
+        v = central[y] if y <= CENTRAL_UNTIL else high[y]
+        v = max(v, run)
+        out[y] = round(v, 6)
+        run = v
     return out
 
 
@@ -166,14 +185,19 @@ def main():
     fel = read_fel()
     pot = read_offshore_potential()
 
-    # 1) Per-region direct: cumulative Low/High for P_Wind_Offshore_Shallow
+    # 1) Per-region direct: min = Low cumulative; max = Central cumulative up to and
+    #    incl. 2033, then High cumulative from 2034 on (offshore ramps too fast if
+    #    High is allowed near-term, so cap at Central and only open the High headroom
+    #    later).
     min_rows, max_rows = [], []
     for label, model_region in DIRECT.items():
         low = cumulative(fel.get(("Low Case", label), {}))
+        central = cumulative(fel.get(("Central Case", label), {}))
         high = cumulative(fel.get(("High Case", label), {}))
+        omax = offshore_max(central, high)
         for y in YEARS:
             min_rows.append((model_region, REP_TECH, y, low[y]))
-            max_rows.append((model_region, REP_TECH, y, high[y]))
+            max_rows.append((model_region, REP_TECH, y, omax[y]))
 
     # 2) Not directly mentioned (Other_Offshore_Regions + Canada): use restool
     #    per-type offshore potential flat across years.
@@ -216,17 +240,20 @@ def main():
     s2 = _accum(_add_subset("Par_TagRegionToSubsets", "Region", r, "Other_Offshore_Regions")
                 for r in OTHER_OFFSHORE_REGIONS)
 
-    # 5) Group caps for OffshoreWind x Other_Offshore_Regions
+    # 5) Group caps for OffshoreWind x Other_Offshore_Regions (max = Central <=2033,
+    #    High >2033, same near-term throttle as the per-region direct bounds)
     other_low = cumulative(fel.get(("Low Case", "Other"), {}))
+    other_central = cumulative(fel.get(("Central Case", "Other"), {}))
     other_high = cumulative(fel.get(("High Case", "Other"), {}))
+    other_max = offshore_max(other_central, other_high)
     g_min = _rewrite_group("Par_GroupTotalAnnualMinCapacity",
                            "OffshoreWind", "Other_Offshore_Regions",
                            other_low,
                            "SLA Offshore Wind Scenarios (Low Case, cumulative, 'Other')")
     g_max = _rewrite_group("Par_GroupTotalAnnualMaxCapacity",
                            "OffshoreWind", "Other_Offshore_Regions",
-                           other_high,
-                           "SLA Offshore Wind Scenarios (High Case, cumulative, 'Other')")
+                           other_max,
+                           "SLA Offshore Wind Scenarios (Central<=2035 / High>2035, cumulative, 'Other')")
 
     print(f"\n{'APPLIED' if apply else 'DRY-RUN'}:")
     print(f"  TotalAnnualMinCap (4 direct regions x {REP_TECH}): -{r_min[0]}/+{r_min[1]}")
@@ -239,9 +266,11 @@ def main():
     print(f"\n  Cumulative samples (GW):")
     for label in ("CAISO", "PJM", "Other"):
         low = cumulative(fel.get(("Low Case", label), {}))
+        central = cumulative(fel.get(("Central Case", label), {}))
         high = cumulative(fel.get(("High Case", label), {}))
-        print(f"    {label:6s}  2025/2030/2040  Low: {low[2025]:.2f} / {low[2030]:.2f} / {low[2040]:.2f}"
-              f"   High: {high[2025]:.2f} / {high[2030]:.2f} / {high[2040]:.2f}")
+        print(f"    {label:6s} cum GW | min(Low) 2030={low[2030]:.2f} 2040={low[2040]:.2f}"
+              f" | max=Central<=2033 (2030={central[2030]:.2f} 2033={central[2033]:.2f})"
+              f" then High>2033 (2034={high[2034]:.2f} 2040={high[2040]:.2f})")
     if not apply:
         print("\n  (use --apply to write)")
 
