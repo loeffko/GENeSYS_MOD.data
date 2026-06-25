@@ -71,13 +71,36 @@ def read_existing_tradecapacity():
     return out
 
 
-def bound_rows(df, case, source, existing, mode):
+CTC = os.path.join(PARAMS, "Par_CommissionedTradeCapacity", "Par_CommissionedTradeCapacity.csv")
+
+
+def read_commissioned():
+    """{(region, region2): {year: GW}} of exogenous Commissioned trade additions.
+    These add to TotalTradeCapacity in TrC2b, so the ceiling must clear
+    existing + cumulative Commissioned, not just the 2025 existing value."""
+    if not os.path.exists(CTC):
+        return {}
+    df = pd.read_csv(CTC)
+    key2 = "Region.1" if "Region.1" in df.columns else "Region2"
+    out = {}
+    for _, r in df.iterrows():
+        if r["Region"] in NA and r[key2] in NA and str(r["Fuel"]) == "Power":
+            try:
+                y = int(float(str(r["Year"])))
+            except (ValueError, TypeError):
+                continue
+            out.setdefault((r["Region"], r[key2]), {})[y] = float(r["Value"])
+    return out
+
+
+def bound_rows(df, case, source, existing, commissioned, mode):
     """Interpolated annual GW rows for one case, directional (region_from->region_to).
 
     Clamped against the existing installed capacity so the bounds never contradict the
     un-retirable start-year TradeCapacity:
-      mode="max": ceiling = max(IC, existing) and non-decreasing year-on-year (the model
-                  cannot drop below what is already built).
+      mode="max": ceiling = max(IC, existing + cumulative Commissioned) and
+                  non-decreasing year-on-year (the model cannot drop below what is
+                  already built or exogenously commissioned).
       mode="min": floor = min(IC, existing) so it never forces growth above the existing
                   capacity (which, with the symmetric-expansion constraint TrC6, could make
                   the opposite direction infeasible).
@@ -93,14 +116,17 @@ def bound_rows(df, case, source, existing, mode):
         if any(np.isnan(miles_mw)):
             continue
         ex = existing.get((a, b), 0.0)
+        comm = commissioned.get((a, b), {})
         vals = np.interp(YEARS, MILES, miles_mw) / 1000.0     # MW -> GW
         run = 0.0
+        cumcomm = 0.0
         for y, v in zip(YEARS, vals):
+            cumcomm += comm.get(y, 0.0)
             if mode == "max":
-                v = max(v, ex, run)   # never below existing, never decreasing
+                v = max(v, ex + cumcomm, run)   # >= existing + commissioned, non-decreasing
                 run = v
             else:
-                v = min(v, ex)        # floor never forces growth above existing
+                v = min(v, ex)                  # floor never forces growth above existing
             rows.append({"Region": a, "Region.1": b, "Fuel": "Power", "Year": int(y),
                          "Value": round(float(v), 6), "": "", "Unit": "GW",
                          "Source": source, "Updated at": DATE, "Updated by": WHO})
@@ -134,8 +160,9 @@ def main():
         sys.exit("IC file not found: " + IC)
     df = pd.read_csv(IC)
     existing = read_existing_tradecapacity()
-    maxr = bound_rows(df, "High", "IC transfer capability, High/NTP ceiling (MW/1000), floored at existing", existing, "max")
-    minr = bound_rows(df, "Low",  "IC transfer capability, Low floor (MW/1000), capped at existing", existing, "min")
+    commissioned = read_commissioned()
+    maxr = bound_rows(df, "High", "IC transfer capability, High/NTP ceiling (MW/1000), floored at existing+commissioned", existing, commissioned, "max")
+    minr = bound_rows(df, "Low",  "IC transfer capability, Low floor (MW/1000), capped at existing", existing, commissioned, "min")
     pairs = sorted({(r["Region"], r["Region.1"]) for r in maxr})
     cost_rows = [{"Region": a, "Region2": b, "Fuel": "Power", "Value": GROWTH_COST, "": "",
                   "Unit": "M€/GWkm", "Source": "Saadi et al. (2018) 10.1039/C7EE01987D",

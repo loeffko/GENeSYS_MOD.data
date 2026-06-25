@@ -13,8 +13,9 @@ Chain (order matters, enforce_max_ge_min must be last):
   1. NA_inputs/add_capacity_bounds.py     residuals + min/max funnels + potentials
   2. NA_inputs/add_offshore_wind_bounds.py offshore wind caps
   3. NA_inputs/add_trade_capacity.py      pool interconnection trade capacities
-  4. NA_inputs/convert_fel_to_demand.py   FEL workbook -> Power_* annual demand
-  5. enforce_max_ge_min.py                final max >= min invariant sweep
+  4. NA_inputs/add_ic_trade_bounds.py     IC AnnualMin/MaxTradeCapacity bounds + trade cost
+  5. NA_inputs/convert_fel_to_demand.py   FEL workbook -> Power_* annual demand
+  6. enforce_max_ge_min.py                final max >= min invariant sweep
 
 Any non-zero exit aborts the chain so later scripts never run on
 half-written data.
@@ -32,6 +33,7 @@ SCRIPTS = [
     (os.path.join("NA_inputs", "add_capacity_bounds.py"), True),
     (os.path.join("NA_inputs", "add_offshore_wind_bounds.py"), True),
     (os.path.join("NA_inputs", "add_trade_capacity.py"), True),
+    (os.path.join("NA_inputs", "add_ic_trade_bounds.py"), True),
     (os.path.join("NA_inputs", "convert_fel_to_demand.py"), False),
     ("enforce_max_ge_min.py", True),
 ]
