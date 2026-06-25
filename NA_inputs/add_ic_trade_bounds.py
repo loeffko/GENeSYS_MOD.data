@@ -46,6 +46,14 @@ NA = set(NODE_MAP.values())
 MILES = [2025, 2030, 2035, 2040]
 YEARS = list(range(2025, 2041))                 # modelled years (annual)
 GROWTH_COST = 0.444626714                        # M€/GWkm, Saadi et al. (2018) 10.1039/C7EE01987D
+# Per-corridor cap on AnnualMax expansion pace. The *buildable* interregional pace is the
+# binding realism limit, not the NTP cost-optimal High ceiling: Princeton REPEAT puts the
+# realistic-accelerated HV pace at ~2.3%/yr, DOE/NTP put the 2035-clean *need* at +2..5x.
+# Cap each corridor's AnnualMax growth at IC_GROWTH_RATE/yr off its existing capacity
+# (corridor = max of both directions); the IC High value stays the hard ceiling. New
+# (0-capacity) corridors get NEW_CORRIDOR_SEED so a fresh tie can still grow modestly.
+IC_GROWTH_RATE = 0.03        # 3%/yr per corridor -> ~+56% (~320 GW) network-wide by 2040
+NEW_CORRIDOR_SEED = 2.0      # GW base for 0-capacity corridors so new ties aren't blocked
 DATE, WHO = "2026-06-25", "Konstantin Loffler <kl@wip.tu-berlin.de>"
 
 BOUND_COLS = ["Region", "Region.1", "Fuel", "Year", "Value", "", "Unit", "Source", "Updated at", "Updated by"]
@@ -117,13 +125,18 @@ def bound_rows(df, case, source, existing, commissioned, mode):
             continue
         ex = existing.get((a, b), 0.0)
         comm = commissioned.get((a, b), {})
+        # pace base = this corridor's own existing capacity (directional, matching the
+        # model's directional TradeCapacity); 0-capacity (new) directed ties use a seed.
+        corridor_base = ex if ex > 0 else NEW_CORRIDOR_SEED
         vals = np.interp(YEARS, MILES, miles_mw) / 1000.0     # MW -> GW
         run = 0.0
         cumcomm = 0.0
         for y, v in zip(YEARS, vals):
             cumcomm += comm.get(y, 0.0)
             if mode == "max":
-                v = max(v, ex + cumcomm, run)   # >= existing + commissioned, non-decreasing
+                pace = corridor_base * (1.0 + IC_GROWTH_RATE) ** (y - 2025)  # buildable pace
+                v = min(v, pace)                # cap the IC High ceiling at the realistic pace
+                v = max(v, ex + cumcomm, run)   # but never below existing+commissioned; non-decreasing
                 run = v
             else:
                 v = min(v, ex)                  # floor never forces growth above existing
