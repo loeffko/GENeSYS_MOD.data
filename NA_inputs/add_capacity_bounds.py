@@ -109,6 +109,13 @@ HYDRO_MAX_HEADROOM = 1.10   # TotalAnnualMaxCapacity = strict sheet min * 1.10
 STORAGE_CATEGORY = "Storage"
 STORAGE_TECHS = {"D_PHS", "D_Battery_Li-Ion", "D_CAES"}
 STORAGE_UNCAPPED = 999999   # Li-Ion BESS max left open above the planned floor
+# Redox flow batteries (D_Battery_Redox): emerging tech, no existing fleet. Forbid new
+# build before REDOX_START_YEAR, then cap annual additions to REDOX_ANNUAL_CAP GW/region
+# via a ramping TotalAnnualMaxCapacity — otherwise the optimiser builds tens of GW in the
+# first year (e.g. >50 GW ERCOT 2026).
+REDOX_TECHS = {"D_Battery_Redox"}
+REDOX_START_YEAR = 2030
+REDOX_ANNUAL_CAP = 2.0      # GW/yr per region, allowed only from REDOX_START_YEAR
 PHS_MAX_GROWTH = 0.015      # D_PHS max: <=1.5%/yr compound on the 2025 fleet
                             # (~22.8 -> ~28.5 GW NA by 2040, i.e. +~6 GW new,
                             # matching the realistic US pipeline: Goldendale,
@@ -895,7 +902,18 @@ def main():
                 zero_rows.append((region, tech, y, FORBID_EPS))
     max_rows.extend(zero_rows)
 
-    all_written_techs = ALL_MANAGED_TECHS | set(zero_techs)
+    # 4b) Redox flow batteries: forbid new build before REDOX_START_YEAR, then a ramping
+    #     ceiling capping annual additions at REDOX_ANNUAL_CAP GW/region (residual 0, no
+    #     forced min). Stops the optimiser building tens of GW of Redox up front.
+    for region in all_regions:
+        for y in YEARS:
+            res_rows.append((region, "D_Battery_Redox", y, 0.0))
+            if y < REDOX_START_YEAR:
+                max_rows.append((region, "D_Battery_Redox", y, FORBID_EPS))
+            else:
+                max_rows.append((region, "D_Battery_Redox", y, round((y - REDOX_START_YEAR + 1) * REDOX_ANNUAL_CAP, 6)))
+
+    all_written_techs = ALL_MANAGED_TECHS | set(zero_techs) | REDOX_TECHS
 
     def write(param, rows, src, techs=None):
         path = PARAM(param)
@@ -965,7 +983,7 @@ def main():
     # Sample print: PJM P_Gas_CCGT (no restool ceiling — held flat post-2035);
     #               the PV cascade — _Opt is the rep (carries residual + funnel),
     #               _Avg / _Inf only take the overflow above Opt's share-of-potential.
-    for ex_r, ex_t in (("PJM", "P_Gas_CCGT"),
+    for ex_r, ex_t in (("PJM", "P_Gas_CCGT"), ("ERCOT", "D_Battery_Redox"),
                        ("PJM", "P_PV_Utility_Opt"), ("PJM", "P_PV_Utility_Avg"), ("PJM", "P_PV_Utility_Inf"),
                        ("SERC", "P_Nuclear"), ("MISO", "P_Coal_Hardcoal"),
                        ("MISO", "P_Gas_Steam"), ("PJM", "P_Nuclear_SMR")):
