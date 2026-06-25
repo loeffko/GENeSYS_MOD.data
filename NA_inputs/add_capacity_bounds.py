@@ -26,14 +26,16 @@ do not overlap:
       Nuclear is pinned to 1.0 (no downward widening).
 
   Par_TotalAnnualMaxCapacity   : guardrail funnel 2026-2035 widening up to 1.30
-      For PV_Utility_Avg / Wind_Onshore_Avg (guardrail reps that have a
+      For PV_Utility_Opt / Wind_Onshore_Opt (guardrail reps that have a
       restool potential): 2036-2040 linearly interp from the 2035 funnel
       max -> the per-region restool potential at 2040, every year filled.
       For Nuclear/Gas/Hydro (no restool potential): hold 2035 funnel max
       through 2040.
-      Non-rep variants (PV_Utility_Inf/Opt/Tracking, Wind_Onshore_Inf/Opt,
+      Overflow variants (PV_Utility_Avg/Inf, Wind_Onshore_Avg/Inf,
       A_Rooftop_*) and Canada: every year 2025-2040 = restool potential
-      (flat, no growth, since the value is the physical ceiling).
+      (flat, no growth, since the value is the physical ceiling). The rep
+      (_Opt) is filled first; capacity beyond its share-of-potential cascades
+      into _Avg then _Inf, so the observed fleet sits on the high-CF Opt class.
 
   Par_TagTechnologyToSubsets   : P_Nuclear -> Nuclear subset (idempotent)
   Par_GroupTotalAnnualMinCapacity : Nuclear x USA target trajectory 2035-2040
@@ -74,8 +76,8 @@ TECH = {"Natural Gas - CCCT":  "P_Gas_CCGT",
         "Natural Gas - SCCT":  "P_Gas_OCGT",
         "Natural Gas - ST":    "P_Gas_Steam",
         "Natural Gas - Other": "P_Gas_Engines",
-        "Solar": "P_PV_Utility_Avg",
-        "Wind": "P_Wind_Onshore_Avg",
+        "Solar": "P_PV_Utility_Opt",
+        "Wind": "P_Wind_Onshore_Opt",
         "Nuclear": "P_Nuclear"}
 MODEL_TECHS_GUARDRAIL = set(TECH.values())
 
@@ -355,24 +357,29 @@ def read_nuclear_smr():
 
 # Restool potential column -> all model tech variants in that family.
 # Each variant gets a share of the per-region potential (placeholder split until
-# the resource-graded breakdown file lands): 40% Avg / 30% Opt / 30% Inf for
-# Utility PV and Onshore Wind. Rooftop maps to a single power tech
-# (P_PV_Rooftop_Commercial) — the area-based "A_Rooftop_*" entries are not
-# touched here, since the rooftop *generation* capacity belongs on the P_ tech.
+# the resource-graded breakdown file lands): 30% Opt / 40% Avg / 30% Inf for
+# Utility PV and Onshore Wind. The "rep" is the guardrail/funnel carrier and is
+# filled FIRST (best-yield _Opt sites); capacity beyond the rep's share-of-potential
+# cascades into the "overflow" classes in order: _Avg, then _Inf. This keeps the
+# observed/near-term fleet on the high-CF Opt class instead of defaulting to Avg.
+# Rooftop maps to a single power tech (P_PV_Rooftop_Commercial) — the area-based
+# "A_Rooftop_*" entries are not touched here.
 RESTOOL_MAP = {
     "PV Capacity [GW]": {
-        "rep": "P_PV_Utility_Avg",
+        "rep": "P_PV_Utility_Opt",
+        "overflow": ["P_PV_Utility_Avg", "P_PV_Utility_Inf"],
         "variants": {
-            "P_PV_Utility_Avg": 0.40,
             "P_PV_Utility_Opt": 0.30,
+            "P_PV_Utility_Avg": 0.40,
             "P_PV_Utility_Inf": 0.30,
         },
     },
     "Wind Capacity [GW]": {
-        "rep": "P_Wind_Onshore_Avg",
+        "rep": "P_Wind_Onshore_Opt",
+        "overflow": ["P_Wind_Onshore_Avg", "P_Wind_Onshore_Inf"],
         "variants": {
-            "P_Wind_Onshore_Avg": 0.40,
             "P_Wind_Onshore_Opt": 0.30,
+            "P_Wind_Onshore_Avg": 0.40,
             "P_Wind_Onshore_Inf": 0.30,
         },
     },
@@ -698,16 +705,18 @@ def main():
             min_rows.append((region, "D_Battery_Li-Ion", y, round(bess * mn, 6)))
             max_rows.append((region, "D_Battery_Li-Ion", y, round(STORAGE_UNCAPPED, 6)))
 
-        # 2) Non-rep restool variants per region. Behaviour:
+        # 2) Overflow restool variants per region (the classes after the rep, in
+        #    the order given by RESTOOL_MAP["overflow"], e.g. _Avg then _Inf).
+        #    Behaviour:
         #    Max:
         #     - 2025-2035: cap = 0 (do not introduce these variants yet)
         #     - 2036-2040: linear ramp from 0 to (share * total_potential) at 2040
-        #     - _Opt additionally absorbs the rep's MAX excess, capped at its
-        #       remaining headroom below its own share*pot.
+        #     - the first overflow class additionally absorbs the rep's MAX excess,
+        #       capped at its remaining headroom below its own share*pot.
         #    Min:
-        #     - The rep's MIN excess flows to _Opt first (bounded by Opt's
-        #       max value at year y), then any residual to _Inf (bounded by
-        #       Inf's max). So total per-region min is preserved without ever
+        #     - The rep's MIN excess flows to the first overflow class (bounded by
+        #       its max value at year y), then any residual to the second (bounded
+        #       by its max). So total per-region min is preserved without ever
         #       requiring more than that variant's own max.
         for col, info in RESTOOL_MAP.items():
             pot_val = pot.get(region, {}).get(col, 0.0)
@@ -719,31 +728,35 @@ def main():
                     for y in YEARS:
                         max_rows.append((region, variant, y, round(target, 6)))
                 continue
-            opt_tech = next((v for v in info["variants"] if v.endswith("_Opt")), None)
-            inf_tech = next((v for v in info["variants"] if v.endswith("_Inf")), None)
-            opt_share = info["variants"].get(opt_tech, 0.0)
-            inf_share = info["variants"].get(inf_tech, 0.0)
-            opt_target = pot_val * opt_share
-            inf_target = pot_val * inf_share
+            # Ordered overflow classes after the rep: capacity beyond the rep's
+            # share cascades into overflow[0] (e.g. _Avg) first, then overflow[1]
+            # (_Inf). Each absorbs the rep excess up to its own share-of-potential.
+            overflow = info.get("overflow", [])
+            first_tech = overflow[0] if len(overflow) > 0 else None
+            second_tech = overflow[1] if len(overflow) > 1 else None
+            first_target = pot_val * info["variants"].get(first_tech, 0.0)
+            second_target = pot_val * info["variants"].get(second_tech, 0.0)
             for y in YEARS:
                 frac = restool_frac(y)
-                opt_base = opt_target * frac
-                inf_base = inf_target * frac
+                first_base = first_target * frac
+                second_base = second_target * frac
+                # rep MAX excess spills into the first overflow class, capped at its
+                # remaining headroom below its share*pot.
                 exc_max = excess_by_region_rep_year.get((region, rep, y), 0.0)
-                opt_max = opt_base + min(exc_max, max(0.0, opt_target - opt_base))
-                inf_max = inf_base
-                # Min spillover: Opt -> Inf, each bounded by own max
+                first_max = first_base + min(exc_max, max(0.0, first_target - first_base))
+                second_max = second_base
+                # rep MIN excess flows first -> second, each bounded by its own max.
                 exc_min = excess_min_by_region_rep_year.get((region, rep, y), 0.0)
-                opt_min = min(exc_min, opt_max)
-                inf_min = min(max(0.0, exc_min - opt_min), inf_max)
-                if opt_tech is not None:
-                    max_rows.append((region, opt_tech, y, round(opt_max, 6)))
-                    if opt_min > 0:
-                        min_rows.append((region, opt_tech, y, round(opt_min, 6)))
-                if inf_tech is not None:
-                    max_rows.append((region, inf_tech, y, round(inf_max, 6)))
-                    if inf_min > 0:
-                        min_rows.append((region, inf_tech, y, round(inf_min, 6)))
+                first_min = min(exc_min, first_max)
+                second_min = min(max(0.0, exc_min - first_min), second_max)
+                if first_tech is not None:
+                    max_rows.append((region, first_tech, y, round(first_max, 6)))
+                    if first_min > 0:
+                        min_rows.append((region, first_tech, y, round(first_min, 6)))
+                if second_tech is not None:
+                    max_rows.append((region, second_tech, y, round(second_max, 6)))
+                    if second_min > 0:
+                        min_rows.append((region, second_tech, y, round(second_min, 6)))
 
     # 3) Canada: CER EF2026 trajectory drives residual 2025 + min/max funnel
     #    (doubled margins vs the US). Restool keeps the _Opt/_Inf upside ramps
@@ -949,9 +962,11 @@ def main():
     # so purge the superseded US-aggregate Nuclear group-min (add nothing).
     r5 = write_group_min({}, "Nuclear", "USA", "superseded by per-region P_Nuclear min")
 
-    # Sample print: PJM P_Gas_CCGT (no restool ceiling — held flat post-2035)
-    #               PJM P_PV_Utility_Avg (interpolates to PV potential at 2040)
-    for ex_r, ex_t in (("PJM", "P_Gas_CCGT"), ("PJM", "P_PV_Utility_Avg"),
+    # Sample print: PJM P_Gas_CCGT (no restool ceiling — held flat post-2035);
+    #               the PV cascade — _Opt is the rep (carries residual + funnel),
+    #               _Avg / _Inf only take the overflow above Opt's share-of-potential.
+    for ex_r, ex_t in (("PJM", "P_Gas_CCGT"),
+                       ("PJM", "P_PV_Utility_Opt"), ("PJM", "P_PV_Utility_Avg"), ("PJM", "P_PV_Utility_Inf"),
                        ("SERC", "P_Nuclear"), ("MISO", "P_Coal_Hardcoal"),
                        ("MISO", "P_Gas_Steam"), ("PJM", "P_Nuclear_SMR")):
         print(f"\nSample {ex_r} {ex_t} (GW):  Year  Residual    Min      Max")
