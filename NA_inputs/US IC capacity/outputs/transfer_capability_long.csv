@@ -1,0 +1,505 @@
+interface_id,region_from,region_to,year,case,ttc_mw,basis,n_projects,notes
+CAISO->WECC,CAISO,WECC,2025,Low,7583,baseline,0,
+CAISO->WECC,CAISO,WECC,2025,Central,7583,baseline,0,
+CAISO->WECC,CAISO,WECC,2025,High,23877,ntp,0,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+CAISO->WECC,CAISO,WECC,2030,Low,7583,baseline,0,
+CAISO->WECC,CAISO,WECC,2030,Central,7583,baseline,0,
+CAISO->WECC,CAISO,WECC,2030,High,32964,ntp,0,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+CAISO->WECC,CAISO,WECC,2035,Low,7583,baseline,0,
+CAISO->WECC,CAISO,WECC,2035,Central,7583,baseline,0,
+CAISO->WECC,CAISO,WECC,2035,High,39427,ntp,0,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+CAISO->WECC,CAISO,WECC,2040,Low,7583,baseline,0,
+CAISO->WECC,CAISO,WECC,2040,Central,7583,baseline,0,
+CAISO->WECC,CAISO,WECC,2040,High,48497,ntp,0,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+Canada->ISO-NE,Canada,ISO-NE,2025,Low,3490,baseline,0,
+Canada->ISO-NE,Canada,ISO-NE,2025,Central,3490,baseline,0,
+Canada->ISO-NE,Canada,ISO-NE,2025,High,3490,baseline,0,
+Canada->ISO-NE,Canada,ISO-NE,2030,Low,4690,baseline+project,1,
+Canada->ISO-NE,Canada,ISO-NE,2030,Central,4690,baseline+project,1,
+Canada->ISO-NE,Canada,ISO-NE,2030,High,4690,baseline+project,1,
+Canada->ISO-NE,Canada,ISO-NE,2035,Low,4690,baseline+project,1,
+Canada->ISO-NE,Canada,ISO-NE,2035,Central,4690,baseline+project,1,
+Canada->ISO-NE,Canada,ISO-NE,2035,High,4690,baseline+project,1,
+Canada->ISO-NE,Canada,ISO-NE,2040,Low,4690,baseline+project,1,
+Canada->ISO-NE,Canada,ISO-NE,2040,Central,4690,baseline+project,1,
+Canada->ISO-NE,Canada,ISO-NE,2040,High,4690,baseline+project,1,
+Canada->MISO,Canada,MISO,2025,Low,5477,baseline,0,
+Canada->MISO,Canada,MISO,2025,Central,5477,baseline,0,
+Canada->MISO,Canada,MISO,2025,High,5477,baseline,0,
+Canada->MISO,Canada,MISO,2030,Low,5477,baseline,0,
+Canada->MISO,Canada,MISO,2030,Central,5477,baseline,0,
+Canada->MISO,Canada,MISO,2030,High,5477,baseline,0,
+Canada->MISO,Canada,MISO,2035,Low,5477,baseline,0,
+Canada->MISO,Canada,MISO,2035,Central,5477,baseline,0,
+Canada->MISO,Canada,MISO,2035,High,5477,baseline,0,
+Canada->MISO,Canada,MISO,2040,Low,5477,baseline,0,
+Canada->MISO,Canada,MISO,2040,Central,5477,baseline,0,
+Canada->MISO,Canada,MISO,2040,High,5477,baseline,0,
+Canada->NYISO,Canada,NYISO,2025,Low,3719,baseline,0,
+Canada->NYISO,Canada,NYISO,2025,Central,3719,baseline,0,
+Canada->NYISO,Canada,NYISO,2025,High,3719,baseline,0,
+Canada->NYISO,Canada,NYISO,2030,Low,4969,baseline+project,1,
+Canada->NYISO,Canada,NYISO,2030,Central,4969,baseline+project,1,
+Canada->NYISO,Canada,NYISO,2030,High,4969,baseline+project,1,
+Canada->NYISO,Canada,NYISO,2035,Low,4969,baseline+project,1,
+Canada->NYISO,Canada,NYISO,2035,Central,4969,baseline+project,1,
+Canada->NYISO,Canada,NYISO,2035,High,4969,baseline+project,1,
+Canada->NYISO,Canada,NYISO,2040,Low,4969,baseline+project,1,
+Canada->NYISO,Canada,NYISO,2040,Central,4969,baseline+project,1,
+Canada->NYISO,Canada,NYISO,2040,High,4969,baseline+project,1,
+Canada->PJM,Canada,PJM,2025,Low,0,none,0,
+Canada->PJM,Canada,PJM,2025,Central,0,none,0,
+Canada->PJM,Canada,PJM,2025,High,0,none,0,
+Canada->PJM,Canada,PJM,2030,Low,0,none,0,
+Canada->PJM,Canada,PJM,2030,Central,0,none,0,
+Canada->PJM,Canada,PJM,2030,High,0,none,0,
+Canada->PJM,Canada,PJM,2035,Low,0,none,0,
+Canada->PJM,Canada,PJM,2035,Central,325,project,1,new merchant-HVDC seam (no ITCS baseline)
+Canada->PJM,Canada,PJM,2035,High,1000,project,1,
+Canada->PJM,Canada,PJM,2040,Low,0,none,0,
+Canada->PJM,Canada,PJM,2040,Central,325,project,1,new merchant-HVDC seam (no ITCS baseline)
+Canada->PJM,Canada,PJM,2040,High,1000,project,1,
+Canada->SPP,Canada,SPP,2025,Low,663,baseline,0,
+Canada->SPP,Canada,SPP,2025,Central,663,baseline,0,
+Canada->SPP,Canada,SPP,2025,High,663,baseline,0,
+Canada->SPP,Canada,SPP,2030,Low,663,baseline,0,
+Canada->SPP,Canada,SPP,2030,Central,663,baseline,0,
+Canada->SPP,Canada,SPP,2030,High,663,baseline,0,
+Canada->SPP,Canada,SPP,2035,Low,663,baseline,0,
+Canada->SPP,Canada,SPP,2035,Central,663,baseline,0,
+Canada->SPP,Canada,SPP,2035,High,663,baseline,0,
+Canada->SPP,Canada,SPP,2040,Low,663,baseline,0,
+Canada->SPP,Canada,SPP,2040,Central,663,baseline,0,
+Canada->SPP,Canada,SPP,2040,High,663,baseline,0,
+Canada->WECC,Canada,WECC,2025,Low,3450,baseline,0,
+Canada->WECC,Canada,WECC,2025,Central,3450,baseline,0,
+Canada->WECC,Canada,WECC,2025,High,3450,baseline,0,
+Canada->WECC,Canada,WECC,2030,Low,3450,baseline,0,
+Canada->WECC,Canada,WECC,2030,Central,3450,baseline,0,
+Canada->WECC,Canada,WECC,2030,High,3450,baseline,0,
+Canada->WECC,Canada,WECC,2035,Low,3450,baseline,0,
+Canada->WECC,Canada,WECC,2035,Central,3450,baseline,0,
+Canada->WECC,Canada,WECC,2035,High,3450,baseline,0,
+Canada->WECC,Canada,WECC,2040,Low,3450,baseline,0,
+Canada->WECC,Canada,WECC,2040,Central,3450,baseline,0,
+Canada->WECC,Canada,WECC,2040,High,3450,baseline,0,
+ERCOT->MISO,ERCOT,MISO,2025,Low,0,none,0,
+ERCOT->MISO,ERCOT,MISO,2025,Central,0,none,0,
+ERCOT->MISO,ERCOT,MISO,2025,High,0,none,0,
+ERCOT->MISO,ERCOT,MISO,2030,Low,0,none,0,
+ERCOT->MISO,ERCOT,MISO,2030,Central,0,none,0,
+ERCOT->MISO,ERCOT,MISO,2030,High,5546,ntp,1,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+ERCOT->MISO,ERCOT,MISO,2035,Low,0,none,0,
+ERCOT->MISO,ERCOT,MISO,2035,Central,2400,project,1,new merchant-HVDC seam (no ITCS baseline)
+ERCOT->MISO,ERCOT,MISO,2035,High,9223,ntp,1,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+ERCOT->MISO,ERCOT,MISO,2040,Low,0,none,0,
+ERCOT->MISO,ERCOT,MISO,2040,Central,2400,project,1,new merchant-HVDC seam (no ITCS baseline)
+ERCOT->MISO,ERCOT,MISO,2040,High,15390,ntp,1,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+ERCOT->SERC,ERCOT,SERC,2025,Low,0,none,0,
+ERCOT->SERC,ERCOT,SERC,2025,Central,0,none,0,
+ERCOT->SERC,ERCOT,SERC,2025,High,0,none,0,
+ERCOT->SERC,ERCOT,SERC,2030,Low,0,none,0,
+ERCOT->SERC,ERCOT,SERC,2030,Central,0,none,0,
+ERCOT->SERC,ERCOT,SERC,2030,High,0,none,0,
+ERCOT->SERC,ERCOT,SERC,2035,Low,0,none,0,
+ERCOT->SERC,ERCOT,SERC,2035,Central,0,none,0,
+ERCOT->SERC,ERCOT,SERC,2035,High,0,none,0,
+ERCOT->SERC,ERCOT,SERC,2040,Low,0,none,0,
+ERCOT->SERC,ERCOT,SERC,2040,Central,0,none,0,
+ERCOT->SERC,ERCOT,SERC,2040,High,0,none,0,
+ERCOT->SPP,ERCOT,SPP,2025,Low,820,baseline,0,
+ERCOT->SPP,ERCOT,SPP,2025,Central,820,baseline,0,
+ERCOT->SPP,ERCOT,SPP,2025,High,820,baseline,0,register@100% governs; NTP ceiling=820 MW
+ERCOT->SPP,ERCOT,SPP,2030,Low,820,baseline,0,
+ERCOT->SPP,ERCOT,SPP,2030,Central,820,baseline,0,
+ERCOT->SPP,ERCOT,SPP,2030,High,12774,ntp,0,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+ERCOT->SPP,ERCOT,SPP,2035,Low,820,baseline,0,
+ERCOT->SPP,ERCOT,SPP,2035,Central,820,baseline,0,
+ERCOT->SPP,ERCOT,SPP,2035,High,21719,ntp,0,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+ERCOT->SPP,ERCOT,SPP,2040,Low,820,baseline,0,
+ERCOT->SPP,ERCOT,SPP,2040,Central,820,baseline,0,
+ERCOT->SPP,ERCOT,SPP,2040,High,31191,ntp,0,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+ERCOT->WECC,ERCOT,WECC,2025,Low,0,none,0,
+ERCOT->WECC,ERCOT,WECC,2025,Central,0,none,0,
+ERCOT->WECC,ERCOT,WECC,2025,High,0,none,0,
+ERCOT->WECC,ERCOT,WECC,2030,Low,0,none,0,
+ERCOT->WECC,ERCOT,WECC,2030,Central,0,none,0,
+ERCOT->WECC,ERCOT,WECC,2030,High,12905,ntp,1,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+ERCOT->WECC,ERCOT,WECC,2035,Low,0,none,0,
+ERCOT->WECC,ERCOT,WECC,2035,Central,112,project,1,new merchant-HVDC seam (no ITCS baseline)
+ERCOT->WECC,ERCOT,WECC,2035,High,14483,ntp,1,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+ERCOT->WECC,ERCOT,WECC,2040,Low,0,none,0,
+ERCOT->WECC,ERCOT,WECC,2040,Central,112,project,1,new merchant-HVDC seam (no ITCS baseline)
+ERCOT->WECC,ERCOT,WECC,2040,High,19261,ntp,1,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+ISO-NE->Canada,ISO-NE,Canada,2025,Low,2775,baseline,0,
+ISO-NE->Canada,ISO-NE,Canada,2025,Central,2775,baseline,0,
+ISO-NE->Canada,ISO-NE,Canada,2025,High,2775,baseline,0,
+ISO-NE->Canada,ISO-NE,Canada,2030,Low,3975,baseline+project,1,
+ISO-NE->Canada,ISO-NE,Canada,2030,Central,3975,baseline+project,1,
+ISO-NE->Canada,ISO-NE,Canada,2030,High,3975,baseline+project,1,
+ISO-NE->Canada,ISO-NE,Canada,2035,Low,3975,baseline+project,1,
+ISO-NE->Canada,ISO-NE,Canada,2035,Central,3975,baseline+project,1,
+ISO-NE->Canada,ISO-NE,Canada,2035,High,3975,baseline+project,1,
+ISO-NE->Canada,ISO-NE,Canada,2040,Low,3975,baseline+project,1,
+ISO-NE->Canada,ISO-NE,Canada,2040,Central,3975,baseline+project,1,
+ISO-NE->Canada,ISO-NE,Canada,2040,High,3975,baseline+project,1,
+ISO-NE->NYISO,ISO-NE,NYISO,2025,Low,1660,baseline,0,
+ISO-NE->NYISO,ISO-NE,NYISO,2025,Central,1660,baseline,0,
+ISO-NE->NYISO,ISO-NE,NYISO,2025,High,3469,ntp,0,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+ISO-NE->NYISO,ISO-NE,NYISO,2030,Low,1660,baseline,0,
+ISO-NE->NYISO,ISO-NE,NYISO,2030,Central,1660,baseline,0,
+ISO-NE->NYISO,ISO-NE,NYISO,2030,High,5374,ntp,0,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+ISO-NE->NYISO,ISO-NE,NYISO,2035,Low,1660,baseline,0,
+ISO-NE->NYISO,ISO-NE,NYISO,2035,Central,1660,baseline,0,
+ISO-NE->NYISO,ISO-NE,NYISO,2035,High,10543,ntp,0,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+ISO-NE->NYISO,ISO-NE,NYISO,2040,Low,1660,baseline,0,
+ISO-NE->NYISO,ISO-NE,NYISO,2040,Central,1660,baseline,0,
+ISO-NE->NYISO,ISO-NE,NYISO,2040,High,35557,ntp,0,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+MISO->Canada,MISO,Canada,2025,Low,5045,baseline,0,
+MISO->Canada,MISO,Canada,2025,Central,5045,baseline,0,
+MISO->Canada,MISO,Canada,2025,High,5045,baseline,0,
+MISO->Canada,MISO,Canada,2030,Low,5045,baseline,0,
+MISO->Canada,MISO,Canada,2030,Central,5045,baseline,0,
+MISO->Canada,MISO,Canada,2030,High,5045,baseline,0,
+MISO->Canada,MISO,Canada,2035,Low,5045,baseline,0,
+MISO->Canada,MISO,Canada,2035,Central,5045,baseline,0,
+MISO->Canada,MISO,Canada,2035,High,5045,baseline,0,
+MISO->Canada,MISO,Canada,2040,Low,5045,baseline,0,
+MISO->Canada,MISO,Canada,2040,Central,5045,baseline,0,
+MISO->Canada,MISO,Canada,2040,High,5045,baseline,0,
+MISO->ERCOT,MISO,ERCOT,2025,Low,0,none,0,
+MISO->ERCOT,MISO,ERCOT,2025,Central,0,none,0,
+MISO->ERCOT,MISO,ERCOT,2025,High,0,none,0,
+MISO->ERCOT,MISO,ERCOT,2030,Low,0,none,0,
+MISO->ERCOT,MISO,ERCOT,2030,Central,0,none,0,
+MISO->ERCOT,MISO,ERCOT,2030,High,5546,ntp,1,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+MISO->ERCOT,MISO,ERCOT,2035,Low,0,none,0,
+MISO->ERCOT,MISO,ERCOT,2035,Central,2400,project,1,new merchant-HVDC seam (no ITCS baseline)
+MISO->ERCOT,MISO,ERCOT,2035,High,9223,ntp,1,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+MISO->ERCOT,MISO,ERCOT,2040,Low,0,none,0,
+MISO->ERCOT,MISO,ERCOT,2040,Central,2400,project,1,new merchant-HVDC seam (no ITCS baseline)
+MISO->ERCOT,MISO,ERCOT,2040,High,15390,ntp,1,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+MISO->PJM,MISO,PJM,2025,Low,12552,baseline,0,
+MISO->PJM,MISO,PJM,2025,Central,12552,baseline,0,
+MISO->PJM,MISO,PJM,2025,High,48388,ntp,0,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+MISO->PJM,MISO,PJM,2030,Low,12552,baseline,0,
+MISO->PJM,MISO,PJM,2030,Central,12552,baseline,0,
+MISO->PJM,MISO,PJM,2030,High,81691,ntp,0,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+MISO->PJM,MISO,PJM,2035,Low,12552,baseline,0,
+MISO->PJM,MISO,PJM,2035,Central,12552,baseline,0,
+MISO->PJM,MISO,PJM,2035,High,163198,ntp,1,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+MISO->PJM,MISO,PJM,2040,Low,12552,baseline,0,
+MISO->PJM,MISO,PJM,2040,Central,13234,baseline+project,1,
+MISO->PJM,MISO,PJM,2040,High,184824,ntp,1,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+MISO->SERC,MISO,SERC,2025,Low,9543,baseline,0,
+MISO->SERC,MISO,SERC,2025,Central,9543,baseline,0,
+MISO->SERC,MISO,SERC,2025,High,15093,ntp,0,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+MISO->SERC,MISO,SERC,2030,Low,9543,baseline,0,
+MISO->SERC,MISO,SERC,2030,Central,9543,baseline,0,
+MISO->SERC,MISO,SERC,2030,High,23851,ntp,0,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+MISO->SERC,MISO,SERC,2035,Low,9543,baseline,0,
+MISO->SERC,MISO,SERC,2035,Central,9543,baseline,0,
+MISO->SERC,MISO,SERC,2035,High,45029,ntp,0,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+MISO->SERC,MISO,SERC,2040,Low,9543,baseline,0,
+MISO->SERC,MISO,SERC,2040,Central,9543,baseline,0,
+MISO->SERC,MISO,SERC,2040,High,65600,ntp,0,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+MISO->SPP,MISO,SPP,2025,Low,6403,baseline,0,
+MISO->SPP,MISO,SPP,2025,Central,6403,baseline,0,
+MISO->SPP,MISO,SPP,2025,High,16439,ntp,0,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+MISO->SPP,MISO,SPP,2030,Low,6403,baseline,0,
+MISO->SPP,MISO,SPP,2030,Central,6403,baseline,0,
+MISO->SPP,MISO,SPP,2030,High,45919,ntp,1,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+MISO->SPP,MISO,SPP,2035,Low,6403,baseline,0,
+MISO->SPP,MISO,SPP,2035,Central,8403,baseline+project,1,
+MISO->SPP,MISO,SPP,2035,High,103880,ntp,2,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+MISO->SPP,MISO,SPP,2040,Low,6403,baseline,0,
+MISO->SPP,MISO,SPP,2040,Central,8598,baseline+project,2,
+MISO->SPP,MISO,SPP,2040,High,166095,ntp,2,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+MISO->WECC,MISO,WECC,2025,Low,0,none,0,
+MISO->WECC,MISO,WECC,2025,Central,0,none,0,
+MISO->WECC,MISO,WECC,2025,High,0,none,0,
+MISO->WECC,MISO,WECC,2030,Low,0,none,0,
+MISO->WECC,MISO,WECC,2030,Central,0,none,0,
+MISO->WECC,MISO,WECC,2030,High,0,none,0,
+MISO->WECC,MISO,WECC,2035,Low,0,none,0,
+MISO->WECC,MISO,WECC,2035,Central,1200,project,1,new merchant-HVDC seam (no ITCS baseline)
+MISO->WECC,MISO,WECC,2035,High,3300,project,2,
+MISO->WECC,MISO,WECC,2040,Low,0,none,0,
+MISO->WECC,MISO,WECC,2040,Central,1785,project,2,new merchant-HVDC seam (no ITCS baseline)
+MISO->WECC,MISO,WECC,2040,High,3300,project,2,
+NYISO->Canada,NYISO,Canada,2025,Low,2780,baseline,0,
+NYISO->Canada,NYISO,Canada,2025,Central,2780,baseline,0,
+NYISO->Canada,NYISO,Canada,2025,High,2780,baseline,0,
+NYISO->Canada,NYISO,Canada,2030,Low,4030,baseline+project,1,
+NYISO->Canada,NYISO,Canada,2030,Central,4030,baseline+project,1,
+NYISO->Canada,NYISO,Canada,2030,High,4030,baseline+project,1,
+NYISO->Canada,NYISO,Canada,2035,Low,4030,baseline+project,1,
+NYISO->Canada,NYISO,Canada,2035,Central,4030,baseline+project,1,
+NYISO->Canada,NYISO,Canada,2035,High,4030,baseline+project,1,
+NYISO->Canada,NYISO,Canada,2040,Low,4030,baseline+project,1,
+NYISO->Canada,NYISO,Canada,2040,Central,4030,baseline+project,1,
+NYISO->Canada,NYISO,Canada,2040,High,4030,baseline+project,1,
+NYISO->ISO-NE,NYISO,ISO-NE,2025,Low,2432,baseline,0,
+NYISO->ISO-NE,NYISO,ISO-NE,2025,Central,2432,baseline,0,
+NYISO->ISO-NE,NYISO,ISO-NE,2025,High,3469,ntp,0,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+NYISO->ISO-NE,NYISO,ISO-NE,2030,Low,2432,baseline,0,
+NYISO->ISO-NE,NYISO,ISO-NE,2030,Central,2432,baseline,0,
+NYISO->ISO-NE,NYISO,ISO-NE,2030,High,5374,ntp,0,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+NYISO->ISO-NE,NYISO,ISO-NE,2035,Low,2432,baseline,0,
+NYISO->ISO-NE,NYISO,ISO-NE,2035,Central,2432,baseline,0,
+NYISO->ISO-NE,NYISO,ISO-NE,2035,High,10543,ntp,0,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+NYISO->ISO-NE,NYISO,ISO-NE,2040,Low,2432,baseline,0,
+NYISO->ISO-NE,NYISO,ISO-NE,2040,Central,2432,baseline,0,
+NYISO->ISO-NE,NYISO,ISO-NE,2040,High,35557,ntp,0,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+NYISO->PJM,NYISO,PJM,2025,Low,3394,baseline,0,
+NYISO->PJM,NYISO,PJM,2025,Central,3394,baseline,0,
+NYISO->PJM,NYISO,PJM,2025,High,6604,ntp,0,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+NYISO->PJM,NYISO,PJM,2030,Low,3394,baseline,0,
+NYISO->PJM,NYISO,PJM,2030,Central,3394,baseline,0,
+NYISO->PJM,NYISO,PJM,2030,High,6604,ntp,0,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+NYISO->PJM,NYISO,PJM,2035,Low,3394,baseline,0,
+NYISO->PJM,NYISO,PJM,2035,Central,3394,baseline,0,
+NYISO->PJM,NYISO,PJM,2035,High,14820,ntp,0,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+NYISO->PJM,NYISO,PJM,2040,Low,3394,baseline,0,
+NYISO->PJM,NYISO,PJM,2040,Central,3394,baseline,0,
+NYISO->PJM,NYISO,PJM,2040,High,30296,ntp,0,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+PJM->Canada,PJM,Canada,2025,Low,0,none,0,
+PJM->Canada,PJM,Canada,2025,Central,0,none,0,
+PJM->Canada,PJM,Canada,2025,High,0,none,0,
+PJM->Canada,PJM,Canada,2030,Low,0,none,0,
+PJM->Canada,PJM,Canada,2030,Central,0,none,0,
+PJM->Canada,PJM,Canada,2030,High,0,none,0,
+PJM->Canada,PJM,Canada,2035,Low,0,none,0,
+PJM->Canada,PJM,Canada,2035,Central,325,project,1,new merchant-HVDC seam (no ITCS baseline)
+PJM->Canada,PJM,Canada,2035,High,1000,project,1,
+PJM->Canada,PJM,Canada,2040,Low,0,none,0,
+PJM->Canada,PJM,Canada,2040,Central,325,project,1,new merchant-HVDC seam (no ITCS baseline)
+PJM->Canada,PJM,Canada,2040,High,1000,project,1,
+PJM->MISO,PJM,MISO,2025,Low,10771,baseline,0,
+PJM->MISO,PJM,MISO,2025,Central,10771,baseline,0,
+PJM->MISO,PJM,MISO,2025,High,48388,ntp,0,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+PJM->MISO,PJM,MISO,2030,Low,10771,baseline,0,
+PJM->MISO,PJM,MISO,2030,Central,10771,baseline,0,
+PJM->MISO,PJM,MISO,2030,High,81691,ntp,0,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+PJM->MISO,PJM,MISO,2035,Low,10771,baseline,0,
+PJM->MISO,PJM,MISO,2035,Central,10771,baseline,0,
+PJM->MISO,PJM,MISO,2035,High,163198,ntp,1,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+PJM->MISO,PJM,MISO,2040,Low,10771,baseline,0,
+PJM->MISO,PJM,MISO,2040,Central,11454,baseline+project,1,
+PJM->MISO,PJM,MISO,2040,High,184824,ntp,1,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+PJM->NYISO,PJM,NYISO,2025,Low,858,baseline,0,
+PJM->NYISO,PJM,NYISO,2025,Central,858,baseline,0,
+PJM->NYISO,PJM,NYISO,2025,High,6604,ntp,0,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+PJM->NYISO,PJM,NYISO,2030,Low,858,baseline,0,
+PJM->NYISO,PJM,NYISO,2030,Central,858,baseline,0,
+PJM->NYISO,PJM,NYISO,2030,High,6604,ntp,0,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+PJM->NYISO,PJM,NYISO,2035,Low,858,baseline,0,
+PJM->NYISO,PJM,NYISO,2035,Central,858,baseline,0,
+PJM->NYISO,PJM,NYISO,2035,High,14820,ntp,0,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+PJM->NYISO,PJM,NYISO,2040,Low,858,baseline,0,
+PJM->NYISO,PJM,NYISO,2040,Central,858,baseline,0,
+PJM->NYISO,PJM,NYISO,2040,High,30296,ntp,0,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+PJM->SERC,PJM,SERC,2025,Low,7905,baseline,0,
+PJM->SERC,PJM,SERC,2025,Central,7905,baseline,0,
+PJM->SERC,PJM,SERC,2025,High,10922,ntp,0,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+PJM->SERC,PJM,SERC,2030,Low,7905,baseline,0,
+PJM->SERC,PJM,SERC,2030,Central,7905,baseline,0,
+PJM->SERC,PJM,SERC,2030,High,17596,ntp,0,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+PJM->SERC,PJM,SERC,2035,Low,7905,baseline,0,
+PJM->SERC,PJM,SERC,2035,Central,7905,baseline,0,
+PJM->SERC,PJM,SERC,2035,High,22090,ntp,0,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+PJM->SERC,PJM,SERC,2040,Low,7905,baseline,0,
+PJM->SERC,PJM,SERC,2040,Central,7905,baseline,0,
+PJM->SERC,PJM,SERC,2040,High,28642,ntp,0,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+PJM->SPP,PJM,SPP,2025,Low,0,none,0,
+PJM->SPP,PJM,SPP,2025,Central,0,none,0,
+PJM->SPP,PJM,SPP,2025,High,0,none,0,
+PJM->SPP,PJM,SPP,2030,Low,0,none,0,
+PJM->SPP,PJM,SPP,2030,Central,0,none,0,
+PJM->SPP,PJM,SPP,2030,High,0,none,0,
+PJM->SPP,PJM,SPP,2035,Low,0,none,0,
+PJM->SPP,PJM,SPP,2035,Central,1438,project,1,new merchant-HVDC seam (no ITCS baseline)
+PJM->SPP,PJM,SPP,2035,High,2500,project,1,
+PJM->SPP,PJM,SPP,2040,Low,0,none,0,
+PJM->SPP,PJM,SPP,2040,Central,1438,project,1,new merchant-HVDC seam (no ITCS baseline)
+PJM->SPP,PJM,SPP,2040,High,2500,project,1,
+SERC->ERCOT,SERC,ERCOT,2025,Low,0,none,0,
+SERC->ERCOT,SERC,ERCOT,2025,Central,0,none,0,
+SERC->ERCOT,SERC,ERCOT,2025,High,0,none,0,
+SERC->ERCOT,SERC,ERCOT,2030,Low,0,none,0,
+SERC->ERCOT,SERC,ERCOT,2030,Central,0,none,0,
+SERC->ERCOT,SERC,ERCOT,2030,High,0,none,0,
+SERC->ERCOT,SERC,ERCOT,2035,Low,0,none,0,
+SERC->ERCOT,SERC,ERCOT,2035,Central,0,none,0,
+SERC->ERCOT,SERC,ERCOT,2035,High,0,none,0,
+SERC->ERCOT,SERC,ERCOT,2040,Low,0,none,0,
+SERC->ERCOT,SERC,ERCOT,2040,Central,0,none,0,
+SERC->ERCOT,SERC,ERCOT,2040,High,0,none,0,
+SERC->MISO,SERC,MISO,2025,Low,9801,baseline,0,
+SERC->MISO,SERC,MISO,2025,Central,9801,baseline,0,
+SERC->MISO,SERC,MISO,2025,High,15093,ntp,0,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+SERC->MISO,SERC,MISO,2030,Low,9801,baseline,0,
+SERC->MISO,SERC,MISO,2030,Central,9801,baseline,0,
+SERC->MISO,SERC,MISO,2030,High,23851,ntp,0,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+SERC->MISO,SERC,MISO,2035,Low,9801,baseline,0,
+SERC->MISO,SERC,MISO,2035,Central,9801,baseline,0,
+SERC->MISO,SERC,MISO,2035,High,45029,ntp,0,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+SERC->MISO,SERC,MISO,2040,Low,9801,baseline,0,
+SERC->MISO,SERC,MISO,2040,Central,9801,baseline,0,
+SERC->MISO,SERC,MISO,2040,High,65600,ntp,0,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+SERC->PJM,SERC,PJM,2025,Low,9782,baseline,0,
+SERC->PJM,SERC,PJM,2025,Central,9782,baseline,0,
+SERC->PJM,SERC,PJM,2025,High,10922,ntp,0,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+SERC->PJM,SERC,PJM,2030,Low,9782,baseline,0,
+SERC->PJM,SERC,PJM,2030,Central,9782,baseline,0,
+SERC->PJM,SERC,PJM,2030,High,17596,ntp,0,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+SERC->PJM,SERC,PJM,2035,Low,9782,baseline,0,
+SERC->PJM,SERC,PJM,2035,Central,9782,baseline,0,
+SERC->PJM,SERC,PJM,2035,High,22090,ntp,0,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+SERC->PJM,SERC,PJM,2040,Low,9782,baseline,0,
+SERC->PJM,SERC,PJM,2040,Central,9782,baseline,0,
+SERC->PJM,SERC,PJM,2040,High,28642,ntp,0,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+SERC->SPP,SERC,SPP,2025,Low,6324,baseline,0,
+SERC->SPP,SERC,SPP,2025,Central,6324,baseline,0,
+SERC->SPP,SERC,SPP,2025,High,6324,baseline,0,
+SERC->SPP,SERC,SPP,2030,Low,6324,baseline,0,
+SERC->SPP,SERC,SPP,2030,Central,6324,baseline,0,
+SERC->SPP,SERC,SPP,2030,High,6324,baseline,0,
+SERC->SPP,SERC,SPP,2035,Low,6324,baseline,0,
+SERC->SPP,SERC,SPP,2035,Central,6324,baseline,0,
+SERC->SPP,SERC,SPP,2035,High,6324,baseline,0,
+SERC->SPP,SERC,SPP,2040,Low,6324,baseline,0,
+SERC->SPP,SERC,SPP,2040,Central,6324,baseline,0,
+SERC->SPP,SERC,SPP,2040,High,6324,baseline,0,
+SPP->Canada,SPP,Canada,2025,Low,370,baseline,0,
+SPP->Canada,SPP,Canada,2025,Central,370,baseline,0,
+SPP->Canada,SPP,Canada,2025,High,370,baseline,0,
+SPP->Canada,SPP,Canada,2030,Low,370,baseline,0,
+SPP->Canada,SPP,Canada,2030,Central,370,baseline,0,
+SPP->Canada,SPP,Canada,2030,High,370,baseline,0,
+SPP->Canada,SPP,Canada,2035,Low,370,baseline,0,
+SPP->Canada,SPP,Canada,2035,Central,370,baseline,0,
+SPP->Canada,SPP,Canada,2035,High,370,baseline,0,
+SPP->Canada,SPP,Canada,2040,Low,370,baseline,0,
+SPP->Canada,SPP,Canada,2040,Central,370,baseline,0,
+SPP->Canada,SPP,Canada,2040,High,370,baseline,0,
+SPP->ERCOT,SPP,ERCOT,2025,Low,820,baseline,0,
+SPP->ERCOT,SPP,ERCOT,2025,Central,820,baseline,0,
+SPP->ERCOT,SPP,ERCOT,2025,High,820,baseline,0,register@100% governs; NTP ceiling=820 MW
+SPP->ERCOT,SPP,ERCOT,2030,Low,820,baseline,0,
+SPP->ERCOT,SPP,ERCOT,2030,Central,820,baseline,0,
+SPP->ERCOT,SPP,ERCOT,2030,High,12774,ntp,0,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+SPP->ERCOT,SPP,ERCOT,2035,Low,820,baseline,0,
+SPP->ERCOT,SPP,ERCOT,2035,Central,820,baseline,0,
+SPP->ERCOT,SPP,ERCOT,2035,High,21719,ntp,0,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+SPP->ERCOT,SPP,ERCOT,2040,Low,820,baseline,0,
+SPP->ERCOT,SPP,ERCOT,2040,Central,820,baseline,0,
+SPP->ERCOT,SPP,ERCOT,2040,High,31191,ntp,0,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+SPP->MISO,SPP,MISO,2025,Low,7058,baseline,0,
+SPP->MISO,SPP,MISO,2025,Central,7058,baseline,0,
+SPP->MISO,SPP,MISO,2025,High,16439,ntp,0,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+SPP->MISO,SPP,MISO,2030,Low,7058,baseline,0,
+SPP->MISO,SPP,MISO,2030,Central,7058,baseline,0,
+SPP->MISO,SPP,MISO,2030,High,45919,ntp,1,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+SPP->MISO,SPP,MISO,2035,Low,7058,baseline,0,
+SPP->MISO,SPP,MISO,2035,Central,9058,baseline+project,1,
+SPP->MISO,SPP,MISO,2035,High,103880,ntp,2,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+SPP->MISO,SPP,MISO,2040,Low,7058,baseline,0,
+SPP->MISO,SPP,MISO,2040,Central,9253,baseline+project,2,
+SPP->MISO,SPP,MISO,2040,High,166095,ntp,2,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+SPP->PJM,SPP,PJM,2025,Low,0,none,0,
+SPP->PJM,SPP,PJM,2025,Central,0,none,0,
+SPP->PJM,SPP,PJM,2025,High,0,none,0,
+SPP->PJM,SPP,PJM,2030,Low,0,none,0,
+SPP->PJM,SPP,PJM,2030,Central,0,none,0,
+SPP->PJM,SPP,PJM,2030,High,0,none,0,
+SPP->PJM,SPP,PJM,2035,Low,0,none,0,
+SPP->PJM,SPP,PJM,2035,Central,1438,project,1,new merchant-HVDC seam (no ITCS baseline)
+SPP->PJM,SPP,PJM,2035,High,2500,project,1,
+SPP->PJM,SPP,PJM,2040,Low,0,none,0,
+SPP->PJM,SPP,PJM,2040,Central,1438,project,1,new merchant-HVDC seam (no ITCS baseline)
+SPP->PJM,SPP,PJM,2040,High,2500,project,1,
+SPP->SERC,SPP,SERC,2025,Low,4857,baseline,0,
+SPP->SERC,SPP,SERC,2025,Central,4857,baseline,0,
+SPP->SERC,SPP,SERC,2025,High,4857,baseline,0,
+SPP->SERC,SPP,SERC,2030,Low,4857,baseline,0,
+SPP->SERC,SPP,SERC,2030,Central,4857,baseline,0,
+SPP->SERC,SPP,SERC,2030,High,4857,baseline,0,
+SPP->SERC,SPP,SERC,2035,Low,4857,baseline,0,
+SPP->SERC,SPP,SERC,2035,Central,4857,baseline,0,
+SPP->SERC,SPP,SERC,2035,High,4857,baseline,0,
+SPP->SERC,SPP,SERC,2040,Low,4857,baseline,0,
+SPP->SERC,SPP,SERC,2040,Central,4857,baseline,0,
+SPP->SERC,SPP,SERC,2040,High,4857,baseline,0,
+SPP->WECC,SPP,WECC,2025,Low,1120,baseline,0,
+SPP->WECC,SPP,WECC,2025,Central,1120,baseline,0,
+SPP->WECC,SPP,WECC,2025,High,1320,ntp,0,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+SPP->WECC,SPP,WECC,2030,Low,1120,baseline,0,
+SPP->WECC,SPP,WECC,2030,Central,1120,baseline,0,
+SPP->WECC,SPP,WECC,2030,High,17935,ntp,0,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+SPP->WECC,SPP,WECC,2035,Low,1120,baseline,0,
+SPP->WECC,SPP,WECC,2035,Central,2320,baseline+project,1,
+SPP->WECC,SPP,WECC,2035,High,48876,ntp,3,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+SPP->WECC,SPP,WECC,2040,Low,1120,baseline,0,
+SPP->WECC,SPP,WECC,2040,Central,3880,baseline+project,3,
+SPP->WECC,SPP,WECC,2040,High,74414,ntp,3,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+WECC->CAISO,WECC,CAISO,2025,Low,12617,baseline,0,
+WECC->CAISO,WECC,CAISO,2025,Central,12617,baseline,0,
+WECC->CAISO,WECC,CAISO,2025,High,23877,ntp,0,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+WECC->CAISO,WECC,CAISO,2030,Low,12617,baseline,0,
+WECC->CAISO,WECC,CAISO,2030,Central,12617,baseline,0,
+WECC->CAISO,WECC,CAISO,2030,High,32964,ntp,0,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+WECC->CAISO,WECC,CAISO,2035,Low,12617,baseline,0,
+WECC->CAISO,WECC,CAISO,2035,Central,12617,baseline,0,
+WECC->CAISO,WECC,CAISO,2035,High,39427,ntp,0,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+WECC->CAISO,WECC,CAISO,2040,Low,12617,baseline,0,
+WECC->CAISO,WECC,CAISO,2040,Central,12617,baseline,0,
+WECC->CAISO,WECC,CAISO,2040,High,48497,ntp,0,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+WECC->Canada,WECC,Canada,2025,Low,3422,baseline,0,
+WECC->Canada,WECC,Canada,2025,Central,3422,baseline,0,
+WECC->Canada,WECC,Canada,2025,High,3422,baseline,0,
+WECC->Canada,WECC,Canada,2030,Low,3422,baseline,0,
+WECC->Canada,WECC,Canada,2030,Central,3422,baseline,0,
+WECC->Canada,WECC,Canada,2030,High,3422,baseline,0,
+WECC->Canada,WECC,Canada,2035,Low,3422,baseline,0,
+WECC->Canada,WECC,Canada,2035,Central,3422,baseline,0,
+WECC->Canada,WECC,Canada,2035,High,3422,baseline,0,
+WECC->Canada,WECC,Canada,2040,Low,3422,baseline,0,
+WECC->Canada,WECC,Canada,2040,Central,3422,baseline,0,
+WECC->Canada,WECC,Canada,2040,High,3422,baseline,0,
+WECC->ERCOT,WECC,ERCOT,2025,Low,0,none,0,
+WECC->ERCOT,WECC,ERCOT,2025,Central,0,none,0,
+WECC->ERCOT,WECC,ERCOT,2025,High,0,none,0,
+WECC->ERCOT,WECC,ERCOT,2030,Low,0,none,0,
+WECC->ERCOT,WECC,ERCOT,2030,Central,0,none,0,
+WECC->ERCOT,WECC,ERCOT,2030,High,12905,ntp,1,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+WECC->ERCOT,WECC,ERCOT,2035,Low,0,none,0,
+WECC->ERCOT,WECC,ERCOT,2035,Central,112,project,1,new merchant-HVDC seam (no ITCS baseline)
+WECC->ERCOT,WECC,ERCOT,2035,High,14483,ntp,1,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+WECC->ERCOT,WECC,ERCOT,2040,Low,0,none,0,
+WECC->ERCOT,WECC,ERCOT,2040,Central,112,project,1,new merchant-HVDC seam (no ITCS baseline)
+WECC->ERCOT,WECC,ERCOT,2040,High,19261,ntp,1,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+WECC->MISO,WECC,MISO,2025,Low,0,none,0,
+WECC->MISO,WECC,MISO,2025,Central,0,none,0,
+WECC->MISO,WECC,MISO,2025,High,0,none,0,
+WECC->MISO,WECC,MISO,2030,Low,0,none,0,
+WECC->MISO,WECC,MISO,2030,Central,0,none,0,
+WECC->MISO,WECC,MISO,2030,High,0,none,0,
+WECC->MISO,WECC,MISO,2035,Low,0,none,0,
+WECC->MISO,WECC,MISO,2035,Central,1200,project,1,new merchant-HVDC seam (no ITCS baseline)
+WECC->MISO,WECC,MISO,2035,High,3300,project,2,
+WECC->MISO,WECC,MISO,2040,Low,0,none,0,
+WECC->MISO,WECC,MISO,2040,Central,1785,project,2,new merchant-HVDC seam (no ITCS baseline)
+WECC->MISO,WECC,MISO,2040,High,3300,project,2,
+WECC->SPP,WECC,SPP,2025,Low,1070,baseline,0,
+WECC->SPP,WECC,SPP,2025,Central,1070,baseline,0,
+WECC->SPP,WECC,SPP,2025,High,1320,ntp,0,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+WECC->SPP,WECC,SPP,2030,Low,1070,baseline,0,
+WECC->SPP,WECC,SPP,2030,Central,1070,baseline,0,
+WECC->SPP,WECC,SPP,2030,High,17935,ntp,0,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+WECC->SPP,WECC,SPP,2035,Low,1070,baseline,0,
+WECC->SPP,WECC,SPP,2035,Central,2270,baseline+project,1,
+WECC->SPP,WECC,SPP,2035,High,48876,ntp,3,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
+WECC->SPP,WECC,SPP,2040,Low,1070,baseline,0,
+WECC->SPP,WECC,SPP,2040,Central,3830,baseline+project,3,
+WECC->SPP,WECC,SPP,2040,High,74414,ntp,3,NTP MT-HVDC cost-optimal ceiling governs (installed-GW metric; >> reliability-TTC)
