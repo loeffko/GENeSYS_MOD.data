@@ -52,8 +52,36 @@ BOUND_COLS = ["Region", "Region.1", "Fuel", "Year", "Value", "", "Unit", "Source
 COST_COLS = ["Region", "Region2", "Fuel", "Value", "", "Unit", "Source", "Updated at", "Updated by"]
 
 
-def bound_rows(df, case, source):
-    """Interpolated annual GW rows for one case, directional (region_from->region_to)."""
+TC = os.path.join(PARAMS, "Par_TradeCapacity", "Par_TradeCapacity.csv")
+
+
+def read_existing_tradecapacity():
+    """{(region, region2): 2025 GW} for NA Power pairs from Par_TradeCapacity.
+    These are *installed* capacities; TotalTradeCapacity cannot retire (NewTradeCapacity
+    >= 0), so the IC bounds (which are reliability-limited transfer capability and can be
+    below the installed value) must be reconciled against them — see bound_rows."""
+    if not os.path.exists(TC):
+        return {}
+    df = pd.read_csv(TC)
+    key2 = "Region.1" if "Region.1" in df.columns else "Region2"
+    out = {}
+    for _, r in df.iterrows():
+        if r["Region"] in NA and r[key2] in NA and str(r["Fuel"]) == "Power" and str(r["Year"]) == "2025":
+            out[(r["Region"], r[key2])] = float(r["Value"])
+    return out
+
+
+def bound_rows(df, case, source, existing, mode):
+    """Interpolated annual GW rows for one case, directional (region_from->region_to).
+
+    Clamped against the existing installed capacity so the bounds never contradict the
+    un-retirable start-year TradeCapacity:
+      mode="max": ceiling = max(IC, existing) and non-decreasing year-on-year (the model
+                  cannot drop below what is already built).
+      mode="min": floor = min(IC, existing) so it never forces growth above the existing
+                  capacity (which, with the symmetric-expansion constraint TrC6, could make
+                  the opposite direction infeasible).
+    """
     rows = []
     sub = df[df["case"] == case]
     for (rf, rt), g in sub.groupby(["region_from", "region_to"]):
@@ -64,8 +92,15 @@ def bound_rows(df, case, source):
         miles_mw = [float(s.get(y, np.nan)) for y in MILES]
         if any(np.isnan(miles_mw)):
             continue
+        ex = existing.get((a, b), 0.0)
         vals = np.interp(YEARS, MILES, miles_mw) / 1000.0     # MW -> GW
+        run = 0.0
         for y, v in zip(YEARS, vals):
+            if mode == "max":
+                v = max(v, ex, run)   # never below existing, never decreasing
+                run = v
+            else:
+                v = min(v, ex)        # floor never forces growth above existing
             rows.append({"Region": a, "Region.1": b, "Fuel": "Power", "Year": int(y),
                          "Value": round(float(v), 6), "": "", "Unit": "GW",
                          "Source": source, "Updated at": DATE, "Updated by": WHO})
@@ -98,8 +133,9 @@ def main():
     if not os.path.exists(IC):
         sys.exit("IC file not found: " + IC)
     df = pd.read_csv(IC)
-    maxr = bound_rows(df, "High", "IC transfer capability, High/NTP ceiling (MW/1000)")
-    minr = bound_rows(df, "Low",  "IC transfer capability, Low floor (MW/1000)")
+    existing = read_existing_tradecapacity()
+    maxr = bound_rows(df, "High", "IC transfer capability, High/NTP ceiling (MW/1000), floored at existing", existing, "max")
+    minr = bound_rows(df, "Low",  "IC transfer capability, Low floor (MW/1000), capped at existing", existing, "min")
     pairs = sorted({(r["Region"], r["Region.1"]) for r in maxr})
     cost_rows = [{"Region": a, "Region2": b, "Fuel": "Power", "Value": GROWTH_COST, "": "",
                   "Unit": "M€/GWkm", "Source": "Saadi et al. (2018) 10.1039/C7EE01987D",
