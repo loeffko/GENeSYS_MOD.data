@@ -157,10 +157,9 @@ Z_Import_Oil,Resources,1
 X_Convert_Power,Power,1
 Z_Import_Biomass,Resources,1
 Z_Import_Lignite,Resources,1
+P_Gas_Steam,Power,1
+P_Nuclear_SMR,Power,1
 P_EGS_R1,Power,1
 P_EGS_R2,Power,1
 P_EGS_R3,Power,1
 P_EGS_R4,Power,1
-P_Gas_Steam,Power,1
-P_Nuclear_SMR,Power,1
-P_Gas_CCGT_Residual,Power,1

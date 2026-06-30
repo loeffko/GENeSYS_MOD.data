@@ -5112,391 +5112,7 @@ AL,P_Hydro_RoR,2036,1.492,,GW,interpolated,21.01.2025,Nikita Moskalenko <nim@wip
 AL,P_Hydro_RoR,2037,1.492,,GW,interpolated,21.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 AL,P_Hydro_RoR,2038,1.492,,GW,interpolated,21.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 AL,P_Hydro_RoR,2039,1.492,,GW,interpolated,21.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-California,A_Rooftop_Commercial,2035,67.777,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,A_Rooftop_Commercial,2040,67.777,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,A_Rooftop_Commercial,2045,67.777,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,A_Rooftop_Commercial,2050,67.777,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,A_Rooftop_Residential,2035,67.777,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,A_Rooftop_Residential,2040,67.777,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,A_Rooftop_Residential,2045,67.777,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,A_Rooftop_Residential,2050,67.777,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,A_Rooftop_Commercial,2035,85.752,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,A_Rooftop_Commercial,2040,85.752,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,A_Rooftop_Commercial,2045,85.752,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,A_Rooftop_Commercial,2050,85.752,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,A_Rooftop_Residential,2035,85.752,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,A_Rooftop_Residential,2040,85.752,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,A_Rooftop_Residential,2045,85.752,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,A_Rooftop_Residential,2050,85.752,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,A_Rooftop_Commercial,2035,254.739,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,A_Rooftop_Commercial,2040,254.739,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,A_Rooftop_Commercial,2045,254.739,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,A_Rooftop_Commercial,2050,254.739,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,A_Rooftop_Residential,2035,254.739,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,A_Rooftop_Residential,2040,254.739,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,A_Rooftop_Residential,2045,254.739,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,A_Rooftop_Residential,2050,254.739,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,A_Rooftop_Commercial,2035,33.787,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,A_Rooftop_Commercial,2040,33.787,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,A_Rooftop_Commercial,2045,33.787,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,A_Rooftop_Commercial,2050,33.787,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,A_Rooftop_Residential,2035,33.787,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,A_Rooftop_Residential,2040,33.787,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,A_Rooftop_Residential,2045,33.787,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,A_Rooftop_Residential,2050,33.787,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,A_Rooftop_Commercial,2035,30.948,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,A_Rooftop_Commercial,2040,30.948,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,A_Rooftop_Commercial,2045,30.948,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,A_Rooftop_Commercial,2050,30.948,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,A_Rooftop_Residential,2035,30.948,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,A_Rooftop_Residential,2040,30.948,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,A_Rooftop_Residential,2045,30.948,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,A_Rooftop_Residential,2050,30.948,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,A_Rooftop_Commercial,2035,167.643,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,A_Rooftop_Commercial,2040,167.643,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,A_Rooftop_Commercial,2045,167.643,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,A_Rooftop_Commercial,2050,167.643,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,A_Rooftop_Residential,2035,167.643,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,A_Rooftop_Residential,2040,167.643,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,A_Rooftop_Residential,2045,167.643,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,A_Rooftop_Residential,2050,167.643,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,A_Rooftop_Commercial,2035,127.345,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,A_Rooftop_Commercial,2040,127.345,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,A_Rooftop_Commercial,2045,127.345,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,A_Rooftop_Commercial,2050,127.345,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,A_Rooftop_Residential,2035,127.345,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,A_Rooftop_Residential,2040,127.345,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,A_Rooftop_Residential,2045,127.345,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,A_Rooftop_Residential,2050,127.345,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,A_Rooftop_Commercial,2035,63.394,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,A_Rooftop_Commercial,2040,63.394,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,A_Rooftop_Commercial,2045,63.394,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,A_Rooftop_Commercial,2050,63.394,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,A_Rooftop_Residential,2035,63.394,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,A_Rooftop_Residential,2040,63.394,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,A_Rooftop_Residential,2045,63.394,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,A_Rooftop_Residential,2050,63.394,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,A_Rooftop_Commercial,2035,131.658,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,A_Rooftop_Commercial,2040,131.658,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,A_Rooftop_Commercial,2045,131.658,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,A_Rooftop_Commercial,2050,131.658,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,A_Rooftop_Residential,2035,131.658,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,A_Rooftop_Residential,2040,131.658,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,A_Rooftop_Residential,2045,131.658,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,A_Rooftop_Residential,2050,131.658,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,A_Rooftop_Commercial,2035,292.846,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,A_Rooftop_Commercial,2040,292.846,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,A_Rooftop_Commercial,2045,292.846,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,A_Rooftop_Commercial,2050,292.846,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,A_Rooftop_Residential,2035,292.846,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,A_Rooftop_Residential,2040,292.846,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,A_Rooftop_Residential,2045,292.846,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,A_Rooftop_Residential,2050,292.846,,GW,GENeSYS-MOD.tools NA_restool,02/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Offshore_Shallow,2025,0.066638,,GW,MaxCap raised to MinCap by enforce_max_ge_min.py,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Offshore_Shallow,2026,0.066638,,GW,MaxCap raised to MinCap by enforce_max_ge_min.py,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Offshore_Shallow,2027,0.220204,,GW,MaxCap raised to MinCap by enforce_max_ge_min.py,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Offshore_Shallow,2028,0.572537,,GW,MaxCap raised to MinCap by enforce_max_ge_min.py,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Offshore_Shallow,2029,1.233634,,GW,MaxCap raised to MinCap by enforce_max_ge_min.py,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Offshore_Shallow,2030,1.50633,,GW,MaxCap raised to MinCap by enforce_max_ge_min.py,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Offshore_Shallow,2031,1.61709,,GW,MaxCap raised to MinCap by enforce_max_ge_min.py,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Offshore_Shallow,2032,1.61709,,GW,MaxCap raised to MinCap by enforce_max_ge_min.py,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Offshore_Shallow,2033,1.770016,,GW,MaxCap raised to MinCap by enforce_max_ge_min.py,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Offshore_Shallow,2034,2.00311,,GW,MaxCap raised to MinCap by enforce_max_ge_min.py,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Offshore_Shallow,2035,2.00311,,GW,MaxCap raised to MinCap by enforce_max_ge_min.py,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Offshore_Shallow,2036,3.0,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Offshore_Shallow,2037,4.0,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Offshore_Shallow,2038,5.1,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Offshore_Shallow,2039,6.3,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Offshore_Shallow,2040,7.4,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Offshore_Shallow,2025,0.5,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Offshore_Shallow,2026,1.4,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Offshore_Shallow,2027,1.772024,,GW,MaxCap raised to MinCap by enforce_max_ge_min.py,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Offshore_Shallow,2028,1.945651,,GW,MaxCap raised to MinCap by enforce_max_ge_min.py,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Offshore_Shallow,2029,2.000393,,GW,MaxCap raised to MinCap by enforce_max_ge_min.py,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Offshore_Shallow,2030,2.000393,,GW,MaxCap raised to MinCap by enforce_max_ge_min.py,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Offshore_Shallow,2031,2.000393,,GW,MaxCap raised to MinCap by enforce_max_ge_min.py,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Offshore_Shallow,2032,2.4,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Offshore_Shallow,2033,3.0,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Offshore_Shallow,2034,3.9,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Offshore_Shallow,2035,5.0,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Offshore_Shallow,2036,6.2,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Offshore_Shallow,2037,7.5,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Offshore_Shallow,2038,8.9,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Offshore_Shallow,2039,10.3,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Offshore_Shallow,2040,11.7,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Offshore_Shallow,2025,0.237587,,GW,MaxCap raised to MinCap by enforce_max_ge_min.py,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Offshore_Shallow,2026,0.237587,,GW,MaxCap raised to MinCap by enforce_max_ge_min.py,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Offshore_Shallow,2027,0.8,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Offshore_Shallow,2028,1.7,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Offshore_Shallow,2029,1.7,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Offshore_Shallow,2030,1.9,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Offshore_Shallow,2031,2.3,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Offshore_Shallow,2032,3.0,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Offshore_Shallow,2033,4.0,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Offshore_Shallow,2034,5.3,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Offshore_Shallow,2035,6.8,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Offshore_Shallow,2036,8.7,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Offshore_Shallow,2037,10.8,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Offshore_Shallow,2038,13.0,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Offshore_Shallow,2039,15.1,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Offshore_Shallow,2040,17.3,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Offshore_Shallow,2025,0.10662,,GW,MaxCap raised to MinCap by enforce_max_ge_min.py,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Offshore_Shallow,2026,0.6,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Offshore_Shallow,2027,2.2,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Offshore_Shallow,2028,2.953896,,GW,MaxCap raised to MinCap by enforce_max_ge_min.py,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Offshore_Shallow,2029,2.953896,,GW,MaxCap raised to MinCap by enforce_max_ge_min.py,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Offshore_Shallow,2030,2.953896,,GW,MaxCap raised to MinCap by enforce_max_ge_min.py,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Offshore_Shallow,2031,2.953896,,GW,MaxCap raised to MinCap by enforce_max_ge_min.py,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Offshore_Shallow,2032,3.5,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Offshore_Shallow,2033,4.4,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Offshore_Shallow,2034,5.5,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Offshore_Shallow,2035,6.9,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Offshore_Shallow,2036,8.5,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Offshore_Shallow,2037,10.1,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Offshore_Shallow,2038,11.8,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Offshore_Shallow,2039,13.5,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Offshore_Shallow,2040,15.1,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Offshore_Deep,2025,9.326,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Offshore_Deep,2026,9.326,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Offshore_Deep,2027,9.326,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Offshore_Deep,2028,9.326,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Offshore_Deep,2029,9.326,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Offshore_Deep,2030,9.326,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Offshore_Deep,2031,9.326,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Offshore_Deep,2032,9.326,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Offshore_Deep,2033,9.326,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Offshore_Deep,2034,9.326,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Offshore_Deep,2035,9.326,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Offshore_Deep,2036,9.326,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Offshore_Deep,2037,9.326,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Offshore_Deep,2038,9.326,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Offshore_Deep,2039,9.326,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Offshore_Deep,2040,9.326,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Offshore_Shallow,2025,13.942,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Offshore_Shallow,2026,13.942,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Offshore_Shallow,2027,13.942,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Offshore_Shallow,2028,13.942,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Offshore_Shallow,2029,13.942,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Offshore_Shallow,2030,13.942,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Offshore_Shallow,2031,13.942,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Offshore_Shallow,2032,13.942,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Offshore_Shallow,2033,13.942,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Offshore_Shallow,2034,13.942,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Offshore_Shallow,2035,13.942,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Offshore_Shallow,2036,13.942,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Offshore_Shallow,2037,13.942,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Offshore_Shallow,2038,13.942,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Offshore_Shallow,2039,13.942,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Offshore_Shallow,2040,13.942,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Offshore_Transitional,2025,10.329,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Offshore_Transitional,2026,10.329,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Offshore_Transitional,2027,10.329,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Offshore_Transitional,2028,10.329,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Offshore_Transitional,2029,10.329,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Offshore_Transitional,2030,10.329,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Offshore_Transitional,2031,10.329,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Offshore_Transitional,2032,10.329,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Offshore_Transitional,2033,10.329,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Offshore_Transitional,2034,10.329,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Offshore_Transitional,2035,10.329,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Offshore_Transitional,2036,10.329,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Offshore_Transitional,2037,10.329,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Offshore_Transitional,2038,10.329,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Offshore_Transitional,2039,10.329,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Offshore_Transitional,2040,10.329,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Offshore_Deep,2025,12.559,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Offshore_Deep,2026,12.559,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Offshore_Deep,2027,12.559,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Offshore_Deep,2028,12.559,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Offshore_Deep,2029,12.559,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Offshore_Deep,2030,12.559,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Offshore_Deep,2031,12.559,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Offshore_Deep,2032,12.559,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Offshore_Deep,2033,12.559,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Offshore_Deep,2034,12.559,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Offshore_Deep,2035,12.559,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Offshore_Deep,2036,12.559,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Offshore_Deep,2037,12.559,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Offshore_Deep,2038,12.559,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Offshore_Deep,2039,12.559,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Offshore_Deep,2040,12.559,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Offshore_Shallow,2025,22.393,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Offshore_Shallow,2026,22.393,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Offshore_Shallow,2027,22.393,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Offshore_Shallow,2028,22.393,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Offshore_Shallow,2029,22.393,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Offshore_Shallow,2030,22.393,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Offshore_Shallow,2031,22.393,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Offshore_Shallow,2032,22.393,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Offshore_Shallow,2033,22.393,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Offshore_Shallow,2034,22.393,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Offshore_Shallow,2035,22.393,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Offshore_Shallow,2036,22.393,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Offshore_Shallow,2037,22.393,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Offshore_Shallow,2038,22.393,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Offshore_Shallow,2039,22.393,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Offshore_Shallow,2040,22.393,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Offshore_Transitional,2025,8.184,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Offshore_Transitional,2026,8.184,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Offshore_Transitional,2027,8.184,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Offshore_Transitional,2028,8.184,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Offshore_Transitional,2029,8.184,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Offshore_Transitional,2030,8.184,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Offshore_Transitional,2031,8.184,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Offshore_Transitional,2032,8.184,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Offshore_Transitional,2033,8.184,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Offshore_Transitional,2034,8.184,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Offshore_Transitional,2035,8.184,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Offshore_Transitional,2036,8.184,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Offshore_Transitional,2037,8.184,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Offshore_Transitional,2038,8.184,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Offshore_Transitional,2039,8.184,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Offshore_Transitional,2040,8.184,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Offshore_Deep,2025,60.616,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Offshore_Deep,2026,60.616,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Offshore_Deep,2027,60.616,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Offshore_Deep,2028,60.616,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Offshore_Deep,2029,60.616,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Offshore_Deep,2030,60.616,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Offshore_Deep,2031,60.616,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Offshore_Deep,2032,60.616,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Offshore_Deep,2033,60.616,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Offshore_Deep,2034,60.616,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Offshore_Deep,2035,60.616,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Offshore_Deep,2036,60.616,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Offshore_Deep,2037,60.616,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Offshore_Deep,2038,60.616,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Offshore_Deep,2039,60.616,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Offshore_Deep,2040,60.616,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Offshore_Shallow,2025,60.818,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Offshore_Shallow,2026,60.818,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Offshore_Shallow,2027,60.818,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Offshore_Shallow,2028,60.818,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Offshore_Shallow,2029,60.818,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Offshore_Shallow,2030,60.818,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Offshore_Shallow,2031,60.818,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Offshore_Shallow,2032,60.818,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Offshore_Shallow,2033,60.818,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Offshore_Shallow,2034,60.818,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Offshore_Shallow,2035,60.818,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Offshore_Shallow,2036,60.818,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Offshore_Shallow,2037,60.818,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Offshore_Shallow,2038,60.818,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Offshore_Shallow,2039,60.818,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Offshore_Shallow,2040,60.818,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Offshore_Transitional,2025,40.557,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Offshore_Transitional,2026,40.557,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Offshore_Transitional,2027,40.557,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Offshore_Transitional,2028,40.557,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Offshore_Transitional,2029,40.557,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Offshore_Transitional,2030,40.557,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Offshore_Transitional,2031,40.557,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Offshore_Transitional,2032,40.557,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Offshore_Transitional,2033,40.557,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Offshore_Transitional,2034,40.557,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Offshore_Transitional,2035,40.557,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Offshore_Transitional,2036,40.557,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Offshore_Transitional,2037,40.557,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Offshore_Transitional,2038,40.557,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Offshore_Transitional,2039,40.557,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Offshore_Transitional,2040,40.557,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Offshore_Deep,2025,10.143,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Offshore_Deep,2026,10.143,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Offshore_Deep,2027,10.143,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Offshore_Deep,2028,10.143,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Offshore_Deep,2029,10.143,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Offshore_Deep,2030,10.143,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Offshore_Deep,2031,10.143,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Offshore_Deep,2032,10.143,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Offshore_Deep,2033,10.143,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Offshore_Deep,2034,10.143,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Offshore_Deep,2035,10.143,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Offshore_Deep,2036,10.143,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Offshore_Deep,2037,10.143,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Offshore_Deep,2038,10.143,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Offshore_Deep,2039,10.143,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Offshore_Deep,2040,10.143,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Offshore_Shallow,2025,2.563,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Offshore_Shallow,2026,2.563,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Offshore_Shallow,2027,2.563,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Offshore_Shallow,2028,2.563,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Offshore_Shallow,2029,2.563,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Offshore_Shallow,2030,2.563,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Offshore_Shallow,2031,2.563,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Offshore_Shallow,2032,2.563,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Offshore_Shallow,2033,2.563,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Offshore_Shallow,2034,2.563,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Offshore_Shallow,2035,2.563,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Offshore_Shallow,2036,2.563,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Offshore_Shallow,2037,2.563,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Offshore_Shallow,2038,2.563,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Offshore_Shallow,2039,2.563,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Offshore_Shallow,2040,2.563,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Offshore_Transitional,2025,3.564,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Offshore_Transitional,2026,3.564,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Offshore_Transitional,2027,3.564,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Offshore_Transitional,2028,3.564,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Offshore_Transitional,2029,3.564,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Offshore_Transitional,2030,3.564,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Offshore_Transitional,2031,3.564,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Offshore_Transitional,2032,3.564,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Offshore_Transitional,2033,3.564,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Offshore_Transitional,2034,3.564,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Offshore_Transitional,2035,3.564,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Offshore_Transitional,2036,3.564,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Offshore_Transitional,2037,3.564,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Offshore_Transitional,2038,3.564,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Offshore_Transitional,2039,3.564,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Offshore_Transitional,2040,3.564,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Offshore_Deep,2025,200.424,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Offshore_Deep,2026,200.424,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Offshore_Deep,2027,200.424,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Offshore_Deep,2028,200.424,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Offshore_Deep,2029,200.424,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Offshore_Deep,2030,200.424,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Offshore_Deep,2031,200.424,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Offshore_Deep,2032,200.424,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Offshore_Deep,2033,200.424,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Offshore_Deep,2034,200.424,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Offshore_Deep,2035,200.424,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Offshore_Deep,2036,200.424,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Offshore_Deep,2037,200.424,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Offshore_Deep,2038,200.424,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Offshore_Deep,2039,200.424,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Offshore_Deep,2040,200.424,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Offshore_Shallow,2025,49.08,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Offshore_Shallow,2026,49.08,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Offshore_Shallow,2027,49.08,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Offshore_Shallow,2028,49.08,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Offshore_Shallow,2029,49.08,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Offshore_Shallow,2030,49.08,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Offshore_Shallow,2031,49.08,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Offshore_Shallow,2032,49.08,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Offshore_Shallow,2033,49.08,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Offshore_Shallow,2034,49.08,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Offshore_Shallow,2035,49.08,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Offshore_Shallow,2036,49.08,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Offshore_Shallow,2037,49.08,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Offshore_Shallow,2038,49.08,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Offshore_Shallow,2039,49.08,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Offshore_Shallow,2040,49.08,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Offshore_Transitional,2025,56.273,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Offshore_Transitional,2026,56.273,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Offshore_Transitional,2027,56.273,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Offshore_Transitional,2028,56.273,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Offshore_Transitional,2029,56.273,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Offshore_Transitional,2030,56.273,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Offshore_Transitional,2031,56.273,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Offshore_Transitional,2032,56.273,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Offshore_Transitional,2033,56.273,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Offshore_Transitional,2034,56.273,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Offshore_Transitional,2035,56.273,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Offshore_Transitional,2036,56.273,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Offshore_Transitional,2037,56.273,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Offshore_Transitional,2038,56.273,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Offshore_Transitional,2039,56.273,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Offshore_Transitional,2040,56.273,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",04/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,X_Convert_Power,All,999999.0,,GW,"no source needed, unlimited",2026-06-08,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,X_Convert_Power,All,999999.0,,GW,"no source needed, unlimited",08/06/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 California,P_EGS_R1,All,23.0,,GW,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 ERCOT,P_EGS_R1,All,542.0,,GW,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 MISO,P_EGS_R1,All,181.0,,GW,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
@@ -13142,3 +12758,355 @@ Canada,D_Battery_Redox,2037,16.0,,GW,Guardrail (2026-2035) + restool potential (
 Canada,D_Battery_Redox,2038,18.0,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 Canada,D_Battery_Redox,2039,20.0,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 Canada,D_Battery_Redox,2040,22.0,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Offshore_Shallow,2025,0.0,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Offshore_Shallow,2026,0.0,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Offshore_Shallow,2027,0.0,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Offshore_Shallow,2028,0.0,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Offshore_Shallow,2029,0.0,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Offshore_Shallow,2030,0.0,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Offshore_Shallow,2031,0.0,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Offshore_Shallow,2032,0.0,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Offshore_Shallow,2033,0.0,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Offshore_Shallow,2034,1.2,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Offshore_Shallow,2035,2.0,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Offshore_Shallow,2036,3.0,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Offshore_Shallow,2037,4.0,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Offshore_Shallow,2038,5.1,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Offshore_Shallow,2039,6.3,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Offshore_Shallow,2040,7.4,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Offshore_Shallow,2025,0.4,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Offshore_Shallow,2026,1.2,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Offshore_Shallow,2027,1.51,,GW,MaxCap raised to MinCap by enforce_max_ge_min.py,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Offshore_Shallow,2028,1.51,,GW,MaxCap raised to MinCap by enforce_max_ge_min.py,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Offshore_Shallow,2029,1.51,,GW,MaxCap raised to MinCap by enforce_max_ge_min.py,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Offshore_Shallow,2030,1.51,,GW,MaxCap raised to MinCap by enforce_max_ge_min.py,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Offshore_Shallow,2031,1.51,,GW,MaxCap raised to MinCap by enforce_max_ge_min.py,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Offshore_Shallow,2032,1.51,,GW,MaxCap raised to MinCap by enforce_max_ge_min.py,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Offshore_Shallow,2033,1.51,,GW,MaxCap raised to MinCap by enforce_max_ge_min.py,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Offshore_Shallow,2034,3.9,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Offshore_Shallow,2035,5.0,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Offshore_Shallow,2036,6.2,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Offshore_Shallow,2037,7.5,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Offshore_Shallow,2038,8.9,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Offshore_Shallow,2039,10.3,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Offshore_Shallow,2040,11.7,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Offshore_Shallow,2025,0.0,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Offshore_Shallow,2026,0.0,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Offshore_Shallow,2027,0.26,,GW,MaxCap raised to MinCap by enforce_max_ge_min.py,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Offshore_Shallow,2028,1.7,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Offshore_Shallow,2029,1.7,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Offshore_Shallow,2030,1.7,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Offshore_Shallow,2031,1.7,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Offshore_Shallow,2032,1.7,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Offshore_Shallow,2033,1.7,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Offshore_Shallow,2034,5.3,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Offshore_Shallow,2035,6.8,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Offshore_Shallow,2036,8.7,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Offshore_Shallow,2037,10.8,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Offshore_Shallow,2038,13.0,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Offshore_Shallow,2039,15.1,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Offshore_Shallow,2040,17.3,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Offshore_Shallow,2025,0.0,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Offshore_Shallow,2026,0.0,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Offshore_Shallow,2027,1.3,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Offshore_Shallow,2028,2.6,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Offshore_Shallow,2029,2.6,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Offshore_Shallow,2030,2.6,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Offshore_Shallow,2031,2.6,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Offshore_Shallow,2032,2.6,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Offshore_Shallow,2033,2.6,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Offshore_Shallow,2034,5.5,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Offshore_Shallow,2035,6.9,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Offshore_Shallow,2036,8.5,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Offshore_Shallow,2037,10.1,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Offshore_Shallow,2038,11.8,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Offshore_Shallow,2039,13.5,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Offshore_Shallow,2040,15.1,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Offshore_Deep,2025,18.652,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Offshore_Deep,2026,18.652,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Offshore_Deep,2027,18.652,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Offshore_Deep,2028,18.652,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Offshore_Deep,2029,18.652,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Offshore_Deep,2030,18.652,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Offshore_Deep,2031,18.652,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Offshore_Deep,2032,18.652,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Offshore_Deep,2033,18.652,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Offshore_Deep,2034,18.652,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Offshore_Deep,2035,18.652,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Offshore_Deep,2036,18.652,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Offshore_Deep,2037,18.652,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Offshore_Deep,2038,18.652,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Offshore_Deep,2039,18.652,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Offshore_Deep,2040,18.652,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Offshore_Shallow,2025,13.942,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Offshore_Shallow,2026,13.942,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Offshore_Shallow,2027,13.942,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Offshore_Shallow,2028,13.942,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Offshore_Shallow,2029,13.942,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Offshore_Shallow,2030,13.942,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Offshore_Shallow,2031,13.942,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Offshore_Shallow,2032,13.942,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Offshore_Shallow,2033,13.942,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Offshore_Shallow,2034,13.942,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Offshore_Shallow,2035,13.942,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Offshore_Shallow,2036,13.942,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Offshore_Shallow,2037,13.942,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Offshore_Shallow,2038,13.942,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Offshore_Shallow,2039,13.942,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Offshore_Shallow,2040,13.942,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Offshore_Transitional,2025,10.329,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Offshore_Transitional,2026,10.329,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Offshore_Transitional,2027,10.329,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Offshore_Transitional,2028,10.329,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Offshore_Transitional,2029,10.329,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Offshore_Transitional,2030,10.329,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Offshore_Transitional,2031,10.329,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Offshore_Transitional,2032,10.329,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Offshore_Transitional,2033,10.329,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Offshore_Transitional,2034,10.329,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Offshore_Transitional,2035,10.329,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Offshore_Transitional,2036,10.329,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Offshore_Transitional,2037,10.329,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Offshore_Transitional,2038,10.329,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Offshore_Transitional,2039,10.329,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Offshore_Transitional,2040,10.329,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Offshore_Deep,2025,25.118,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Offshore_Deep,2026,25.118,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Offshore_Deep,2027,25.118,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Offshore_Deep,2028,25.118,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Offshore_Deep,2029,25.118,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Offshore_Deep,2030,25.118,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Offshore_Deep,2031,25.118,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Offshore_Deep,2032,25.118,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Offshore_Deep,2033,25.118,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Offshore_Deep,2034,25.118,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Offshore_Deep,2035,25.118,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Offshore_Deep,2036,25.118,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Offshore_Deep,2037,25.118,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Offshore_Deep,2038,25.118,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Offshore_Deep,2039,25.118,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Offshore_Deep,2040,25.118,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Offshore_Shallow,2025,22.393,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Offshore_Shallow,2026,22.393,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Offshore_Shallow,2027,22.393,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Offshore_Shallow,2028,22.393,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Offshore_Shallow,2029,22.393,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Offshore_Shallow,2030,22.393,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Offshore_Shallow,2031,22.393,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Offshore_Shallow,2032,22.393,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Offshore_Shallow,2033,22.393,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Offshore_Shallow,2034,22.393,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Offshore_Shallow,2035,22.393,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Offshore_Shallow,2036,22.393,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Offshore_Shallow,2037,22.393,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Offshore_Shallow,2038,22.393,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Offshore_Shallow,2039,22.393,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Offshore_Shallow,2040,22.393,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Offshore_Transitional,2025,8.184,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Offshore_Transitional,2026,8.184,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Offshore_Transitional,2027,8.184,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Offshore_Transitional,2028,8.184,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Offshore_Transitional,2029,8.184,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Offshore_Transitional,2030,8.184,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Offshore_Transitional,2031,8.184,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Offshore_Transitional,2032,8.184,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Offshore_Transitional,2033,8.184,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Offshore_Transitional,2034,8.184,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Offshore_Transitional,2035,8.184,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Offshore_Transitional,2036,8.184,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Offshore_Transitional,2037,8.184,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Offshore_Transitional,2038,8.184,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Offshore_Transitional,2039,8.184,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Offshore_Transitional,2040,8.184,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Offshore_Deep,2025,121.232,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Offshore_Deep,2026,121.232,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Offshore_Deep,2027,121.232,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Offshore_Deep,2028,121.232,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Offshore_Deep,2029,121.232,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Offshore_Deep,2030,121.232,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Offshore_Deep,2031,121.232,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Offshore_Deep,2032,121.232,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Offshore_Deep,2033,121.232,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Offshore_Deep,2034,121.232,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Offshore_Deep,2035,121.232,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Offshore_Deep,2036,121.232,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Offshore_Deep,2037,121.232,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Offshore_Deep,2038,121.232,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Offshore_Deep,2039,121.232,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Offshore_Deep,2040,121.232,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Offshore_Shallow,2025,60.818,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Offshore_Shallow,2026,60.818,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Offshore_Shallow,2027,60.818,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Offshore_Shallow,2028,60.818,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Offshore_Shallow,2029,60.818,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Offshore_Shallow,2030,60.818,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Offshore_Shallow,2031,60.818,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Offshore_Shallow,2032,60.818,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Offshore_Shallow,2033,60.818,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Offshore_Shallow,2034,60.818,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Offshore_Shallow,2035,60.818,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Offshore_Shallow,2036,60.818,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Offshore_Shallow,2037,60.818,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Offshore_Shallow,2038,60.818,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Offshore_Shallow,2039,60.818,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Offshore_Shallow,2040,60.818,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Offshore_Transitional,2025,40.557,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Offshore_Transitional,2026,40.557,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Offshore_Transitional,2027,40.557,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Offshore_Transitional,2028,40.557,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Offshore_Transitional,2029,40.557,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Offshore_Transitional,2030,40.557,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Offshore_Transitional,2031,40.557,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Offshore_Transitional,2032,40.557,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Offshore_Transitional,2033,40.557,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Offshore_Transitional,2034,40.557,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Offshore_Transitional,2035,40.557,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Offshore_Transitional,2036,40.557,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Offshore_Transitional,2037,40.557,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Offshore_Transitional,2038,40.557,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Offshore_Transitional,2039,40.557,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Offshore_Transitional,2040,40.557,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Offshore_Deep,2025,,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Offshore_Deep,2026,,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Offshore_Deep,2027,,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Offshore_Deep,2028,,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Offshore_Deep,2029,,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Offshore_Deep,2030,,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Offshore_Deep,2031,,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Offshore_Deep,2032,,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Offshore_Deep,2033,,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Offshore_Deep,2034,,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Offshore_Deep,2035,,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Offshore_Deep,2036,,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Offshore_Deep,2037,,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Offshore_Deep,2038,,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Offshore_Deep,2039,,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Offshore_Deep,2040,,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Offshore_Shallow,2025,,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Offshore_Shallow,2026,,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Offshore_Shallow,2027,,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Offshore_Shallow,2028,,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Offshore_Shallow,2029,,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Offshore_Shallow,2030,,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Offshore_Shallow,2031,,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Offshore_Shallow,2032,,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Offshore_Shallow,2033,,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Offshore_Shallow,2034,,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Offshore_Shallow,2035,,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Offshore_Shallow,2036,,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Offshore_Shallow,2037,,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Offshore_Shallow,2038,,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Offshore_Shallow,2039,,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Offshore_Shallow,2040,,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Offshore_Transitional,2025,,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Offshore_Transitional,2026,,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Offshore_Transitional,2027,,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Offshore_Transitional,2028,,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Offshore_Transitional,2029,,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Offshore_Transitional,2030,,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Offshore_Transitional,2031,,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Offshore_Transitional,2032,,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Offshore_Transitional,2033,,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Offshore_Transitional,2034,,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Offshore_Transitional,2035,,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Offshore_Transitional,2036,,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Offshore_Transitional,2037,,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Offshore_Transitional,2038,,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Offshore_Transitional,2039,,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Offshore_Transitional,2040,,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Offshore_Deep,2025,20.285,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Offshore_Deep,2026,20.285,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Offshore_Deep,2027,20.285,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Offshore_Deep,2028,20.285,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Offshore_Deep,2029,20.285,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Offshore_Deep,2030,20.285,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Offshore_Deep,2031,20.285,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Offshore_Deep,2032,20.285,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Offshore_Deep,2033,20.285,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Offshore_Deep,2034,20.285,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Offshore_Deep,2035,20.285,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Offshore_Deep,2036,20.285,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Offshore_Deep,2037,20.285,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Offshore_Deep,2038,20.285,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Offshore_Deep,2039,20.285,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Offshore_Deep,2040,20.285,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Offshore_Shallow,2025,2.563,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Offshore_Shallow,2026,2.563,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Offshore_Shallow,2027,2.563,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Offshore_Shallow,2028,2.563,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Offshore_Shallow,2029,2.563,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Offshore_Shallow,2030,2.563,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Offshore_Shallow,2031,2.563,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Offshore_Shallow,2032,2.563,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Offshore_Shallow,2033,2.563,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Offshore_Shallow,2034,2.563,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Offshore_Shallow,2035,2.563,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Offshore_Shallow,2036,2.563,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Offshore_Shallow,2037,2.563,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Offshore_Shallow,2038,2.563,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Offshore_Shallow,2039,2.563,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Offshore_Shallow,2040,2.563,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Offshore_Transitional,2025,3.564,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Offshore_Transitional,2026,3.564,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Offshore_Transitional,2027,3.564,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Offshore_Transitional,2028,3.564,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Offshore_Transitional,2029,3.564,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Offshore_Transitional,2030,3.564,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Offshore_Transitional,2031,3.564,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Offshore_Transitional,2032,3.564,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Offshore_Transitional,2033,3.564,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Offshore_Transitional,2034,3.564,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Offshore_Transitional,2035,3.564,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Offshore_Transitional,2036,3.564,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Offshore_Transitional,2037,3.564,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Offshore_Transitional,2038,3.564,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Offshore_Transitional,2039,3.564,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Offshore_Transitional,2040,3.564,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Offshore_Deep,2025,200.424,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Offshore_Deep,2026,200.424,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Offshore_Deep,2027,200.424,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Offshore_Deep,2028,200.424,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Offshore_Deep,2029,200.424,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Offshore_Deep,2030,200.424,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Offshore_Deep,2031,200.424,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Offshore_Deep,2032,200.424,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Offshore_Deep,2033,200.424,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Offshore_Deep,2034,200.424,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Offshore_Deep,2035,200.424,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Offshore_Deep,2036,200.424,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Offshore_Deep,2037,200.424,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Offshore_Deep,2038,200.424,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Offshore_Deep,2039,200.424,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Offshore_Deep,2040,200.424,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Offshore_Shallow,2025,49.08,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Offshore_Shallow,2026,49.08,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Offshore_Shallow,2027,49.08,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Offshore_Shallow,2028,49.08,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Offshore_Shallow,2029,49.08,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Offshore_Shallow,2030,49.08,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Offshore_Shallow,2031,49.08,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Offshore_Shallow,2032,49.08,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Offshore_Shallow,2033,49.08,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Offshore_Shallow,2034,49.08,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Offshore_Shallow,2035,49.08,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Offshore_Shallow,2036,49.08,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Offshore_Shallow,2037,49.08,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Offshore_Shallow,2038,49.08,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Offshore_Shallow,2039,49.08,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Offshore_Shallow,2040,49.08,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Offshore_Transitional,2025,56.273,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Offshore_Transitional,2026,56.273,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Offshore_Transitional,2027,56.273,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Offshore_Transitional,2028,56.273,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Offshore_Transitional,2029,56.273,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Offshore_Transitional,2030,56.273,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Offshore_Transitional,2031,56.273,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Offshore_Transitional,2032,56.273,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Offshore_Transitional,2033,56.273,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Offshore_Transitional,2034,56.273,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Offshore_Transitional,2035,56.273,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Offshore_Transitional,2036,56.273,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Offshore_Transitional,2037,56.273,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Offshore_Transitional,2038,56.273,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Offshore_Transitional,2039,56.273,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Offshore_Transitional,2040,56.273,,GW,"SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind potential for non-mentioned",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>

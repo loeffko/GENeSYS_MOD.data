@@ -157,6 +157,8 @@ Z_Import_LNG,31.536
 X_Convert_Power,1.0
 Z_Import_Biomass,31.536
 Z_Import_Lignite,31.536
+P_Gas_Steam,31.536
+P_Nuclear_SMR,31.536
 P_EGS_R1,31.536
 P_EGS_R2,31.536
 P_EGS_R3,31.536

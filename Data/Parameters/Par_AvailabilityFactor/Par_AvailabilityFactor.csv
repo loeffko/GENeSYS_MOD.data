@@ -2270,156 +2270,152 @@ World,P_Ocean,2036,0.47,,Fraction,interpolated,,
 World,P_Ocean,2037,0.47,,Fraction,interpolated,,
 World,P_Ocean,2038,0.47,,Fraction,interpolated,,
 World,P_Ocean,2039,0.47,,Fraction,interpolated,,
-PT,CHP_Coal_Hardcoal,2026,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,CHP_Coal_Hardcoal,2027,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,CHP_Coal_Hardcoal,2028,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,CHP_Coal_Hardcoal,2029,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,CHP_Coal_Hardcoal,2031,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,CHP_Coal_Hardcoal,2032,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,CHP_Coal_Hardcoal,2033,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,CHP_Coal_Hardcoal,2034,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,CHP_Coal_Hardcoal,2036,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,CHP_Coal_Hardcoal,2037,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,CHP_Coal_Hardcoal,2038,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,CHP_Coal_Hardcoal,2039,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,CHP_Coal_Hardcoal_CCS,2026,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,CHP_Coal_Hardcoal_CCS,2027,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,CHP_Coal_Hardcoal_CCS,2028,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,CHP_Coal_Hardcoal_CCS,2029,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,CHP_Coal_Hardcoal_CCS,2031,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,CHP_Coal_Hardcoal_CCS,2032,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,CHP_Coal_Hardcoal_CCS,2033,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,CHP_Coal_Hardcoal_CCS,2034,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,CHP_Coal_Hardcoal_CCS,2036,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,CHP_Coal_Hardcoal_CCS,2037,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,CHP_Coal_Hardcoal_CCS,2038,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,CHP_Coal_Hardcoal_CCS,2039,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,P_Coal_Hardcoal,2026,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,P_Coal_Hardcoal,2027,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,P_Coal_Hardcoal,2028,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,P_Coal_Hardcoal,2029,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,P_Coal_Hardcoal,2031,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,P_Coal_Hardcoal,2032,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,P_Coal_Hardcoal,2033,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,P_Coal_Hardcoal,2034,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,P_Coal_Hardcoal,2036,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,P_Coal_Hardcoal,2037,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,P_Coal_Hardcoal,2038,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,P_Coal_Hardcoal,2039,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,P_Coal_Hardcoal_CCS,2026,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,P_Coal_Hardcoal_CCS,2027,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,P_Coal_Hardcoal_CCS,2028,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,P_Coal_Hardcoal_CCS,2029,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,P_Coal_Hardcoal_CCS,2031,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,P_Coal_Hardcoal_CCS,2032,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,P_Coal_Hardcoal_CCS,2033,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,P_Coal_Hardcoal_CCS,2034,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,P_Coal_Hardcoal_CCS,2036,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,P_Coal_Hardcoal_CCS,2037,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,P_Coal_Hardcoal_CCS,2038,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,P_Coal_Hardcoal_CCS,2039,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,CHP_Coal_Lignite,2026,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,CHP_Coal_Lignite,2027,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,CHP_Coal_Lignite,2028,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,CHP_Coal_Lignite,2029,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,CHP_Coal_Lignite,2031,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,CHP_Coal_Lignite,2032,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,CHP_Coal_Lignite,2033,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,CHP_Coal_Lignite,2034,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,CHP_Coal_Lignite,2036,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,CHP_Coal_Lignite,2037,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,CHP_Coal_Lignite,2038,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,CHP_Coal_Lignite,2039,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,CHP_Coal_Lignite_CCS,2026,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,CHP_Coal_Lignite_CCS,2027,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,CHP_Coal_Lignite_CCS,2028,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,CHP_Coal_Lignite_CCS,2029,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,CHP_Coal_Lignite_CCS,2031,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,CHP_Coal_Lignite_CCS,2032,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,CHP_Coal_Lignite_CCS,2033,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,CHP_Coal_Lignite_CCS,2034,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,CHP_Coal_Lignite_CCS,2036,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,CHP_Coal_Lignite_CCS,2037,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,CHP_Coal_Lignite_CCS,2038,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,CHP_Coal_Lignite_CCS,2039,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,P_Coal_Lignite,2026,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,P_Coal_Lignite,2027,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,P_Coal_Lignite,2028,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,P_Coal_Lignite,2029,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,P_Coal_Lignite,2031,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,P_Coal_Lignite,2032,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,P_Coal_Lignite,2033,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,P_Coal_Lignite,2034,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,P_Coal_Lignite,2036,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,P_Coal_Lignite,2037,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,P_Coal_Lignite,2038,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,P_Coal_Lignite,2039,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,P_Coal_Lignite_CCS,2026,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,P_Coal_Lignite_CCS,2027,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,P_Coal_Lignite_CCS,2028,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,P_Coal_Lignite_CCS,2029,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,P_Coal_Lignite_CCS,2031,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,P_Coal_Lignite_CCS,2032,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,P_Coal_Lignite_CCS,2033,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,P_Coal_Lignite_CCS,2034,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,P_Coal_Lignite_CCS,2036,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,P_Coal_Lignite_CCS,2037,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,P_Coal_Lignite_CCS,2038,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-PT,P_Coal_Lignite_CCS,2039,0.0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,PSNG_Air_Bio,2026,0.0,,Fraction,interpolated,16.04.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,PSNG_Air_Bio,2027,0.0,,Fraction,interpolated,16.04.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,PSNG_Air_Bio,2028,0.0,,Fraction,interpolated,16.04.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,PSNG_Air_Bio,2029,0.0,,Fraction,interpolated,16.04.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,PSNG_Air_H2,2026,0.0,,Fraction,interpolated,16.04.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,PSNG_Air_H2,2027,0.0,,Fraction,interpolated,16.04.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,PSNG_Air_H2,2028,0.0,,Fraction,interpolated,16.04.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,PSNG_Air_H2,2029,0.0,,Fraction,interpolated,16.04.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,X_Convert_Power,All,1.0,,Fraction,by definition only 1,28/05/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,Z_Import_Biomass,All,1.0,,Fraction,by definition 1,28/05/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,Z_Import_Lignite,All,1.0,,Fraction,by definition 1,28/05/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,P_EGS_R1,All,0.9,,Fraction,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,P_EGS_R2,All,0.9,,Fraction,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,P_EGS_R3,All,0.9,,Fraction,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,P_EGS_R4,All,0.9,,Fraction,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,P_Gas_Steam,All,0.2,,Fraction,legacy fleet availability,2026-06-12,Konstantin Loffler <kl@wip.tu-berlin.de>
+PT,CHP_Coal_Hardcoal,2026,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,CHP_Coal_Hardcoal,2027,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,CHP_Coal_Hardcoal,2028,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,CHP_Coal_Hardcoal,2029,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,CHP_Coal_Hardcoal,2031,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,CHP_Coal_Hardcoal,2032,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,CHP_Coal_Hardcoal,2033,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,CHP_Coal_Hardcoal,2034,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,CHP_Coal_Hardcoal,2036,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,CHP_Coal_Hardcoal,2037,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,CHP_Coal_Hardcoal,2038,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,CHP_Coal_Hardcoal,2039,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,CHP_Coal_Hardcoal_CCS,2026,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,CHP_Coal_Hardcoal_CCS,2027,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,CHP_Coal_Hardcoal_CCS,2028,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,CHP_Coal_Hardcoal_CCS,2029,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,CHP_Coal_Hardcoal_CCS,2031,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,CHP_Coal_Hardcoal_CCS,2032,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,CHP_Coal_Hardcoal_CCS,2033,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,CHP_Coal_Hardcoal_CCS,2034,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,CHP_Coal_Hardcoal_CCS,2036,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,CHP_Coal_Hardcoal_CCS,2037,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,CHP_Coal_Hardcoal_CCS,2038,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,CHP_Coal_Hardcoal_CCS,2039,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,P_Coal_Hardcoal,2026,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,P_Coal_Hardcoal,2027,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,P_Coal_Hardcoal,2028,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,P_Coal_Hardcoal,2029,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,P_Coal_Hardcoal,2031,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,P_Coal_Hardcoal,2032,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,P_Coal_Hardcoal,2033,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,P_Coal_Hardcoal,2034,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,P_Coal_Hardcoal,2036,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,P_Coal_Hardcoal,2037,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,P_Coal_Hardcoal,2038,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,P_Coal_Hardcoal,2039,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,P_Coal_Hardcoal_CCS,2026,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,P_Coal_Hardcoal_CCS,2027,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,P_Coal_Hardcoal_CCS,2028,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,P_Coal_Hardcoal_CCS,2029,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,P_Coal_Hardcoal_CCS,2031,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,P_Coal_Hardcoal_CCS,2032,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,P_Coal_Hardcoal_CCS,2033,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,P_Coal_Hardcoal_CCS,2034,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,P_Coal_Hardcoal_CCS,2036,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,P_Coal_Hardcoal_CCS,2037,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,P_Coal_Hardcoal_CCS,2038,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,P_Coal_Hardcoal_CCS,2039,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,CHP_Coal_Lignite,2026,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,CHP_Coal_Lignite,2027,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,CHP_Coal_Lignite,2028,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,CHP_Coal_Lignite,2029,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,CHP_Coal_Lignite,2031,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,CHP_Coal_Lignite,2032,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,CHP_Coal_Lignite,2033,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,CHP_Coal_Lignite,2034,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,CHP_Coal_Lignite,2036,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,CHP_Coal_Lignite,2037,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,CHP_Coal_Lignite,2038,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,CHP_Coal_Lignite,2039,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,CHP_Coal_Lignite_CCS,2026,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,CHP_Coal_Lignite_CCS,2027,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,CHP_Coal_Lignite_CCS,2028,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,CHP_Coal_Lignite_CCS,2029,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,CHP_Coal_Lignite_CCS,2031,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,CHP_Coal_Lignite_CCS,2032,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,CHP_Coal_Lignite_CCS,2033,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,CHP_Coal_Lignite_CCS,2034,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,CHP_Coal_Lignite_CCS,2036,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,CHP_Coal_Lignite_CCS,2037,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,CHP_Coal_Lignite_CCS,2038,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,CHP_Coal_Lignite_CCS,2039,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,P_Coal_Lignite,2026,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,P_Coal_Lignite,2027,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,P_Coal_Lignite,2028,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,P_Coal_Lignite,2029,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,P_Coal_Lignite,2031,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,P_Coal_Lignite,2032,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,P_Coal_Lignite,2033,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,P_Coal_Lignite,2034,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,P_Coal_Lignite,2036,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,P_Coal_Lignite,2037,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,P_Coal_Lignite,2038,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,P_Coal_Lignite,2039,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,P_Coal_Lignite_CCS,2026,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,P_Coal_Lignite_CCS,2027,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,P_Coal_Lignite_CCS,2028,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,P_Coal_Lignite_CCS,2029,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,P_Coal_Lignite_CCS,2031,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,P_Coal_Lignite_CCS,2032,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,P_Coal_Lignite_CCS,2033,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,P_Coal_Lignite_CCS,2034,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,P_Coal_Lignite_CCS,2036,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,P_Coal_Lignite_CCS,2037,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,P_Coal_Lignite_CCS,2038,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+PT,P_Coal_Lignite_CCS,2039,0,,Fraction,interpolated,14.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,PSNG_Air_Bio,2026,0,,Fraction,interpolated,16.04.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,PSNG_Air_Bio,2027,0,,Fraction,interpolated,16.04.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,PSNG_Air_Bio,2028,0,,Fraction,interpolated,16.04.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,PSNG_Air_Bio,2029,0,,Fraction,interpolated,16.04.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,PSNG_Air_H2,2026,0,,Fraction,interpolated,16.04.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,PSNG_Air_H2,2027,0,,Fraction,interpolated,16.04.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,PSNG_Air_H2,2028,0,,Fraction,interpolated,16.04.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,PSNG_Air_H2,2029,0,,Fraction,interpolated,16.04.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,X_Convert_Power,All,1,,Fraction,by definition only 1,28/05/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,Z_Import_Biomass,All,1,,Fraction,by definition 1,28/05/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,Z_Import_Lignite,All,1,,Fraction,by definition 1,28/05/2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Gas_Steam,All,0.85,,Fraction,legacy fleet availability,2026-06-12,Konstantin Loffler <kl@wip.tu-berlin.de>
 BE,P_Nuclear_SMR,All,0.87,,Fraction,Partner feedback EDF based on data from World Nuclear Association (Reactor Database),28.01.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-BE,P_Nuclear_SMR,2040,0.0,,Fraction,Belgium Nuclear Phase-out,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-BE,P_Nuclear_SMR,2045,0.0,,Fraction,Belgium Nuclear Phase-out,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-BE,P_Nuclear_SMR,2050,0.0,,Fraction,Belgium Nuclear Phase-out,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-BE,P_Nuclear_SMR,2055,0.0,,Fraction,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-BE,P_Nuclear_SMR,2060,0.0,,Fraction,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BE,P_Nuclear_SMR,2040,0,,Fraction,Belgium Nuclear Phase-out,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
+BE,P_Nuclear_SMR,2045,0,,Fraction,Belgium Nuclear Phase-out,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
+BE,P_Nuclear_SMR,2050,0,,Fraction,Belgium Nuclear Phase-out,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
+BE,P_Nuclear_SMR,2055,0,,Fraction,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BE,P_Nuclear_SMR,2060,0,,Fraction,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 BG,P_Nuclear_SMR,2018,0.921,,Fraction,Own calcuations based on IEA; AvailabilityFactor = Electricity Output/Installed Capacity,28.01.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
 BG,P_Nuclear_SMR,All,0.86,,Fraction,Partner feedback EDF based on data from World Nuclear Association (Reactor Database),28.01.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
 CH,P_Nuclear_SMR,All,0.88,,Fraction,Partner feedback EDF based on data from World Nuclear Association (Reactor Database),28.01.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
 CZ,P_Nuclear_SMR,All,0.81,,Fraction,Partner feedback EDF based on data from World Nuclear Association (Reactor Database),28.01.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
 DE,P_Nuclear_SMR,2018,0.9,,Fraction,Own calcuations based on IEA; AvailabilityFactor = Electricity Output/Installed Capacity,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
 DE,P_Nuclear_SMR,2020,0.9,,Fraction,Own calcuations based on IEA; AvailabilityFactor = Electricity Output/Installed Capacity,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-DE,P_Nuclear_SMR,2025,0.0,,Fraction,Germany Nuclear Phase-out in 2023,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-DE,P_Nuclear_SMR,2030,0.0,,Fraction,Germany Nuclear Phase-out in 2023,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-DE,P_Nuclear_SMR,2035,0.0,,Fraction,Germany Nuclear Phase-out in 2023,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-DE,P_Nuclear_SMR,2040,0.0,,Fraction,Germany Nuclear Phase-out in 2023,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-DE,P_Nuclear_SMR,2045,0.0,,Fraction,Germany Nuclear Phase-out in 2023,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-DE,P_Nuclear_SMR,2050,0.0,,Fraction,Germany Nuclear Phase-out in 2023,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-DE,P_Nuclear_SMR,2055,0.0,,Fraction,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-DE,P_Nuclear_SMR,2060,0.0,,Fraction,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DE,P_Nuclear_SMR,2025,0,,Fraction,Germany Nuclear Phase-out in 2023,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
+DE,P_Nuclear_SMR,2030,0,,Fraction,Germany Nuclear Phase-out in 2023,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
+DE,P_Nuclear_SMR,2035,0,,Fraction,Germany Nuclear Phase-out in 2023,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
+DE,P_Nuclear_SMR,2040,0,,Fraction,Germany Nuclear Phase-out in 2023,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
+DE,P_Nuclear_SMR,2045,0,,Fraction,Germany Nuclear Phase-out in 2023,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
+DE,P_Nuclear_SMR,2050,0,,Fraction,Germany Nuclear Phase-out in 2023,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
+DE,P_Nuclear_SMR,2055,0,,Fraction,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+DE,P_Nuclear_SMR,2060,0,,Fraction,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 ES,P_Nuclear_SMR,2025,0.87,,Fraction,Partner feedback CIEMAT (Spanish NECPs),01.04.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-ES,P_Nuclear_SMR,2035,0.0,,Fraction,Spain Nuclear Phase-out,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-ES,P_Nuclear_SMR,2040,0.0,,Fraction,Spain Nuclear Phase-out,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-ES,P_Nuclear_SMR,2045,0.0,,Fraction,Spain Nuclear Phase-out,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-ES,P_Nuclear_SMR,2050,0.0,,Fraction,Spain Nuclear Phase-out,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-ES,P_Nuclear_SMR,2055,0.0,,Fraction,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-ES,P_Nuclear_SMR,2060,0.0,,Fraction,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ES,P_Nuclear_SMR,2035,0,,Fraction,Spain Nuclear Phase-out,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
+ES,P_Nuclear_SMR,2040,0,,Fraction,Spain Nuclear Phase-out,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
+ES,P_Nuclear_SMR,2045,0,,Fraction,Spain Nuclear Phase-out,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
+ES,P_Nuclear_SMR,2050,0,,Fraction,Spain Nuclear Phase-out,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
+ES,P_Nuclear_SMR,2055,0,,Fraction,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ES,P_Nuclear_SMR,2060,0,,Fraction,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 FI,P_Nuclear_SMR,All,0.82,,Fraction,Partner feedback EDF based on data from World Nuclear Association (Reactor Database),28.01.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
 FR,P_Nuclear_SMR,2018,0.77,,Fraction,Own calcuations based on IEA; AvailabilityFactor = Electricity Output/Installed Capacity,28.01.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
 FR,P_Nuclear_SMR,All,0.704,,Fraction,Partner feedback EDF based on data from World Nuclear Association (Reactor Database),28.01.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
 HU,P_Nuclear_SMR,All,0.91,,Fraction,Partner feedback EDF based on data from World Nuclear Association (Reactor Database),28.01.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-LU,P_Nuclear_SMR,2030,0.0,,Fraction,Luxemburg Nuclear Phase-out,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-LU,P_Nuclear_SMR,2035,0.0,,Fraction,Luxemburg Nuclear Phase-out,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-LU,P_Nuclear_SMR,2040,0.0,,Fraction,Luxemburg Nuclear Phase-out,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-LU,P_Nuclear_SMR,2045,0.0,,Fraction,Luxemburg Nuclear Phase-out,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-LU,P_Nuclear_SMR,2050,0.0,,Fraction,Luxemburg Nuclear Phase-out,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-LU,P_Nuclear_SMR,2055,0.0,,Fraction,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-LU,P_Nuclear_SMR,2060,0.0,,Fraction,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LU,P_Nuclear_SMR,2030,0,,Fraction,Luxemburg Nuclear Phase-out,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
+LU,P_Nuclear_SMR,2035,0,,Fraction,Luxemburg Nuclear Phase-out,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
+LU,P_Nuclear_SMR,2040,0,,Fraction,Luxemburg Nuclear Phase-out,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
+LU,P_Nuclear_SMR,2045,0,,Fraction,Luxemburg Nuclear Phase-out,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
+LU,P_Nuclear_SMR,2050,0,,Fraction,Luxemburg Nuclear Phase-out,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
+LU,P_Nuclear_SMR,2055,0,,Fraction,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LU,P_Nuclear_SMR,2060,0,,Fraction,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 NL,P_Nuclear_SMR,All,0.8,,Fraction,Partner feedback EDF based on data from World Nuclear Association (Reactor Database),28.01.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
 RO,P_Nuclear_SMR,2018,0.93,,Fraction,Own calcuations based on IEA; AvailabilityFactor = Electricity Output/Installed Capacity,28.01.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
 RO,P_Nuclear_SMR,All,0.89,,Fraction,Partner feedback EDF based on data from World Nuclear Association (Reactor Database),28.01.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
@@ -2430,18 +2426,18 @@ SE,P_Nuclear_SMR,All,0.81,,Fraction,Partner feedback EDF based on data from Worl
 UK,P_Nuclear_SMR,2018,0.83,,Fraction,Partner feedback EDF based on data from World Nuclear Association (Reactor Database),28.01.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
 UK,P_Nuclear_SMR,All,0.74,,Fraction,Partner feedback EDF based on data from World Nuclear Association (Reactor Database),28.01.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
 World,P_Nuclear_SMR,All,0.837,,Fraction,Own calcuations based on IEA; AvailabilityFactor = Electricity Output/Installed Capacity,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-DE,P_Nuclear_SMR,2026,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-DE,P_Nuclear_SMR,2027,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-DE,P_Nuclear_SMR,2028,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-DE,P_Nuclear_SMR,2029,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-DE,P_Nuclear_SMR,2031,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-DE,P_Nuclear_SMR,2032,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-DE,P_Nuclear_SMR,2033,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-DE,P_Nuclear_SMR,2034,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-DE,P_Nuclear_SMR,2036,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-DE,P_Nuclear_SMR,2037,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-DE,P_Nuclear_SMR,2038,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-DE,P_Nuclear_SMR,2039,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
+DE,P_Nuclear_SMR,2026,0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
+DE,P_Nuclear_SMR,2027,0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
+DE,P_Nuclear_SMR,2028,0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
+DE,P_Nuclear_SMR,2029,0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
+DE,P_Nuclear_SMR,2031,0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
+DE,P_Nuclear_SMR,2032,0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
+DE,P_Nuclear_SMR,2033,0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
+DE,P_Nuclear_SMR,2034,0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
+DE,P_Nuclear_SMR,2036,0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
+DE,P_Nuclear_SMR,2037,0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
+DE,P_Nuclear_SMR,2038,0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
+DE,P_Nuclear_SMR,2039,0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
 ES,P_Nuclear_SMR,2026,0.783,,Fraction,interpolated,01.04.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
 ES,P_Nuclear_SMR,2027,0.696,,Fraction,interpolated,01.04.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
 ES,P_Nuclear_SMR,2028,0.609,,Fraction,interpolated,01.04.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
@@ -2451,16 +2447,19 @@ ES,P_Nuclear_SMR,2031,0.348,,Fraction,interpolated,01.04.2026,Nikita Moskalenko 
 ES,P_Nuclear_SMR,2032,0.261,,Fraction,interpolated,01.04.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
 ES,P_Nuclear_SMR,2033,0.174,,Fraction,interpolated,01.04.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
 ES,P_Nuclear_SMR,2034,0.087,,Fraction,interpolated,01.04.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-ES,P_Nuclear_SMR,2036,0.0,,Fraction,interpolated,01.04.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-ES,P_Nuclear_SMR,2037,0.0,,Fraction,interpolated,01.04.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-ES,P_Nuclear_SMR,2038,0.0,,Fraction,interpolated,01.04.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-ES,P_Nuclear_SMR,2039,0.0,,Fraction,interpolated,01.04.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-LU,P_Nuclear_SMR,2031,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-LU,P_Nuclear_SMR,2032,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-LU,P_Nuclear_SMR,2033,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-LU,P_Nuclear_SMR,2034,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-LU,P_Nuclear_SMR,2036,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-LU,P_Nuclear_SMR,2037,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-LU,P_Nuclear_SMR,2038,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-LU,P_Nuclear_SMR,2039,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-World,P_Gas_CCGT_Residual,All,0.5,,Fraction,https://www.europarl.europa.eu/RegData/etudes/STUD/2023/740094/IPOL_STU(2023)740094_EN.pdf,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
+ES,P_Nuclear_SMR,2036,0,,Fraction,interpolated,01.04.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ES,P_Nuclear_SMR,2037,0,,Fraction,interpolated,01.04.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ES,P_Nuclear_SMR,2038,0,,Fraction,interpolated,01.04.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
+ES,P_Nuclear_SMR,2039,0,,Fraction,interpolated,01.04.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
+LU,P_Nuclear_SMR,2031,0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
+LU,P_Nuclear_SMR,2032,0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
+LU,P_Nuclear_SMR,2033,0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
+LU,P_Nuclear_SMR,2034,0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
+LU,P_Nuclear_SMR,2036,0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
+LU,P_Nuclear_SMR,2037,0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
+LU,P_Nuclear_SMR,2038,0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
+LU,P_Nuclear_SMR,2039,0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
+World,P_EGS_R1,All,0.9,,Fraction,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_EGS_R2,All,0.9,,Fraction,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_EGS_R3,All,0.9,,Fraction,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_EGS_R4,All,0.9,,Fraction,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>

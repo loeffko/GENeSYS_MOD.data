@@ -16,7 +16,7 @@ import pandas as pd
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA_REPO = os.path.normpath(os.path.join(HERE, ".."))
-SRC_XLSX = os.path.join(HERE, "8760 Demand - US Pools_anonymized.xlsx")
+SRC_XLSX = os.path.join(HERE, "8760 Demand - US Pools.xlsx")
 TS_LOAD = os.path.join(DATA_REPO, "Data", "Timeseries", "TS_LOAD", "TS_LOAD.csv")
 
 FILE_REGIONS = ["California", "WECC", "SPP", "MISO", "ERCOT", "SERC", "PJM",

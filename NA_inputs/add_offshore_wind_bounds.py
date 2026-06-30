@@ -42,7 +42,7 @@ import pandas as pd
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA_REPO = os.path.normpath(os.path.join(HERE, ".."))
-FEL_PATH = os.path.join(HERE, "260421_FEL_US_Offshore_Wind_Scenarios_long_anonymized.xlsx")
+FEL_PATH = os.path.join(HERE, "260421_FEL_US_Offshore_Wind_Scenarios_long.xlsx")
 POT_NA = os.path.join(DATA_REPO, "NA_restool", "northamerica_potentials_combined.csv")
 POT_CA = os.path.join(DATA_REPO, "NA_restool", "canada_potentials_combined.csv")
 PARAM = lambda n: os.path.join(DATA_REPO, "Data", "Parameters", n, n + ".csv")

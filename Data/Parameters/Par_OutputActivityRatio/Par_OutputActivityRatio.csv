@@ -523,80 +523,77 @@ World,CHP_Gas_CCGT_SynGas,Heat_District,2,2036,0.48548,,PJ,interpolated,27.08.20
 World,CHP_Gas_CCGT_SynGas,Heat_District,2,2037,0.48316,,PJ,interpolated,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
 World,CHP_Gas_CCGT_SynGas,Heat_District,2,2038,0.48084,,PJ,interpolated,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
 World,CHP_Gas_CCGT_SynGas,Heat_District,2,2039,0.47852,,PJ,interpolated,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,HHI_BF_BOF,Heat_High_Industrial,2,2026,1.0,,PJ,interpolated,,
-World,HHI_BF_BOF,Heat_High_Industrial,2,2027,1.0,,PJ,interpolated,,
-World,HHI_BF_BOF,Heat_High_Industrial,2,2028,1.0,,PJ,interpolated,,
-World,HHI_BF_BOF,Heat_High_Industrial,2,2029,1.0,,PJ,interpolated,,
-World,HHI_BF_BOF,Heat_High_Industrial,2,2031,1.0,,PJ,interpolated,,
-World,HHI_BF_BOF,Heat_High_Industrial,2,2032,1.0,,PJ,interpolated,,
-World,HHI_BF_BOF,Heat_High_Industrial,2,2033,1.0,,PJ,interpolated,,
-World,HHI_BF_BOF,Heat_High_Industrial,2,2034,1.0,,PJ,interpolated,,
-World,HHI_BF_BOF,Heat_High_Industrial,2,2036,1.0,,PJ,interpolated,,
-World,HHI_BF_BOF,Heat_High_Industrial,2,2037,1.0,,PJ,interpolated,,
-World,HHI_BF_BOF,Heat_High_Industrial,2,2038,1.0,,PJ,interpolated,,
-World,HHI_BF_BOF,Heat_High_Industrial,2,2039,1.0,,PJ,interpolated,,
-World,HHI_BF_BOF,Heat_High_Industrial,3,2026,1.0,,PJ,interpolated,,
-World,HHI_BF_BOF,Heat_High_Industrial,3,2027,1.0,,PJ,interpolated,,
-World,HHI_BF_BOF,Heat_High_Industrial,3,2028,1.0,,PJ,interpolated,,
-World,HHI_BF_BOF,Heat_High_Industrial,3,2029,1.0,,PJ,interpolated,,
-World,HHI_BF_BOF,Heat_High_Industrial,3,2031,1.0,,PJ,interpolated,,
-World,HHI_BF_BOF,Heat_High_Industrial,3,2032,1.0,,PJ,interpolated,,
-World,HHI_BF_BOF,Heat_High_Industrial,3,2033,1.0,,PJ,interpolated,,
-World,HHI_BF_BOF,Heat_High_Industrial,3,2034,1.0,,PJ,interpolated,,
-World,HHI_BF_BOF,Heat_High_Industrial,3,2036,1.0,,PJ,interpolated,,
-World,HHI_BF_BOF,Heat_High_Industrial,3,2037,1.0,,PJ,interpolated,,
-World,HHI_BF_BOF,Heat_High_Industrial,3,2038,1.0,,PJ,interpolated,,
-World,HHI_BF_BOF,Heat_High_Industrial,3,2039,1.0,,PJ,interpolated,,
-World,HHI_BF_BOF,Heat_High_Industrial,4,2026,1.0,,PJ,interpolated,,
-World,HHI_BF_BOF,Heat_High_Industrial,4,2027,1.0,,PJ,interpolated,,
-World,HHI_BF_BOF,Heat_High_Industrial,4,2028,1.0,,PJ,interpolated,,
-World,HHI_BF_BOF,Heat_High_Industrial,4,2029,1.0,,PJ,interpolated,,
-World,HHI_BF_BOF,Heat_High_Industrial,4,2031,1.0,,PJ,interpolated,,
-World,HHI_BF_BOF,Heat_High_Industrial,4,2032,1.0,,PJ,interpolated,,
-World,HHI_BF_BOF,Heat_High_Industrial,4,2033,1.0,,PJ,interpolated,,
-World,HHI_BF_BOF,Heat_High_Industrial,4,2034,1.0,,PJ,interpolated,,
-World,HHI_BF_BOF,Heat_High_Industrial,4,2036,1.0,,PJ,interpolated,,
-World,HHI_BF_BOF,Heat_High_Industrial,4,2037,1.0,,PJ,interpolated,,
-World,HHI_BF_BOF,Heat_High_Industrial,4,2038,1.0,,PJ,interpolated,,
-World,HHI_BF_BOF,Heat_High_Industrial,4,2039,1.0,,PJ,interpolated,,
-World,HHI_DRI_EAF,Heat_High_Industrial,2,2026,1.0,,PJ,interpolated,,
-World,HHI_DRI_EAF,Heat_High_Industrial,2,2027,1.0,,PJ,interpolated,,
-World,HHI_DRI_EAF,Heat_High_Industrial,2,2028,1.0,,PJ,interpolated,,
-World,HHI_DRI_EAF,Heat_High_Industrial,2,2029,1.0,,PJ,interpolated,,
-World,HHI_DRI_EAF,Heat_High_Industrial,2,2031,1.0,,PJ,interpolated,,
-World,HHI_DRI_EAF,Heat_High_Industrial,2,2032,1.0,,PJ,interpolated,,
-World,HHI_DRI_EAF,Heat_High_Industrial,2,2033,1.0,,PJ,interpolated,,
-World,HHI_DRI_EAF,Heat_High_Industrial,2,2034,1.0,,PJ,interpolated,,
-World,HHI_DRI_EAF,Heat_High_Industrial,2,2036,1.0,,PJ,interpolated,,
-World,HHI_DRI_EAF,Heat_High_Industrial,2,2037,1.0,,PJ,interpolated,,
-World,HHI_DRI_EAF,Heat_High_Industrial,2,2038,1.0,,PJ,interpolated,,
-World,HHI_DRI_EAF,Heat_High_Industrial,2,2039,1.0,,PJ,interpolated,,
-World,HHI_DRI_EAF,Heat_High_Industrial,3,2026,1.0,,PJ,interpolated,,
-World,HHI_DRI_EAF,Heat_High_Industrial,3,2027,1.0,,PJ,interpolated,,
-World,HHI_DRI_EAF,Heat_High_Industrial,3,2028,1.0,,PJ,interpolated,,
-World,HHI_DRI_EAF,Heat_High_Industrial,3,2029,1.0,,PJ,interpolated,,
-World,HHI_DRI_EAF,Heat_High_Industrial,3,2031,1.0,,PJ,interpolated,,
-World,HHI_DRI_EAF,Heat_High_Industrial,3,2032,1.0,,PJ,interpolated,,
-World,HHI_DRI_EAF,Heat_High_Industrial,3,2033,1.0,,PJ,interpolated,,
-World,HHI_DRI_EAF,Heat_High_Industrial,3,2034,1.0,,PJ,interpolated,,
-World,HHI_DRI_EAF,Heat_High_Industrial,3,2036,1.0,,PJ,interpolated,,
-World,HHI_DRI_EAF,Heat_High_Industrial,3,2037,1.0,,PJ,interpolated,,
-World,HHI_DRI_EAF,Heat_High_Industrial,3,2038,1.0,,PJ,interpolated,,
-World,HHI_DRI_EAF,Heat_High_Industrial,3,2039,1.0,,PJ,interpolated,,
-World,X_Convert_Power,Power_General,1,All,1.0,,PJ,power demand splitter (eff=1),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,X_Convert_Power,Power_Buildings_Heat,2,All,1.0,,PJ,power demand splitter (eff=1),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,X_Convert_Power,Power_Buildings_Cooling,3,All,1.0,,PJ,power demand splitter (eff=1),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,X_Convert_Power,Power_DataCenter,4,All,1.0,,PJ,power demand splitter (eff=1),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,X_Convert_Power,Power_Hydrogen,5,All,1.0,,PJ,power demand splitter (eff=1),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,X_Convert_Power,Power_BEVs,6,All,1.0,,PJ,power demand splitter (eff=1),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,Z_Import_Biomass,Biomass,1,All,1.0,,PJ,dummy Z_Import added for power-only precompute path,2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,Z_Import_Lignite,Lignite,1,All,1.0,,PJ,dummy Z_Import added for power-only precompute path,2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,P_EGS_R1,Power,1,All,1.0,,PJ,EGS dispatchable geothermal,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,P_EGS_R2,Power,1,All,1.0,,PJ,EGS dispatchable geothermal,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,P_EGS_R3,Power,1,All,1.0,,PJ,EGS dispatchable geothermal,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,P_EGS_R4,Power,1,All,1.0,,PJ,EGS dispatchable geothermal,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,P_Gas_Steam,Power,1,All,1.0,,PJ,EIA AEO existing gas steam fleet (heat rate >10000 Btu/kWh; no new builds); legacy-fleet assumption,2026-06-12,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,P_Nuclear_SMR,Power,1,All,1.0,,PJ,Göke et al. (2023): http://dx.doi.org/10.48550/arXiv.2302.14515 (LWR),04.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Gas_CCGT_Residual,Power,1,All,1.0,,PJ,Energy Agency Denmark (2024): Gas turb. Cc - average,26.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Gas_CCGT_Residual,Power,2,All,1.0,,PJ,Energy Agency Denmark (2024): Gas turb. Cc - average,26.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Gas_CCGT_Residual,Power,3,All,1.0,,PJ,Energy Agency Denmark (2024): Gas turb. Cc - average,26.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,HHI_BF_BOF,Heat_High_Industrial,2,2026,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,2,2027,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,2,2028,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,2,2029,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,2,2031,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,2,2032,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,2,2033,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,2,2034,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,2,2036,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,2,2037,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,2,2038,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,2,2039,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,3,2026,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,3,2027,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,3,2028,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,3,2029,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,3,2031,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,3,2032,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,3,2033,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,3,2034,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,3,2036,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,3,2037,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,3,2038,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,3,2039,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,4,2026,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,4,2027,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,4,2028,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,4,2029,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,4,2031,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,4,2032,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,4,2033,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,4,2034,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,4,2036,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,4,2037,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,4,2038,1,,PJ,interpolated,,
+World,HHI_BF_BOF,Heat_High_Industrial,4,2039,1,,PJ,interpolated,,
+World,HHI_DRI_EAF,Heat_High_Industrial,2,2026,1,,PJ,interpolated,,
+World,HHI_DRI_EAF,Heat_High_Industrial,2,2027,1,,PJ,interpolated,,
+World,HHI_DRI_EAF,Heat_High_Industrial,2,2028,1,,PJ,interpolated,,
+World,HHI_DRI_EAF,Heat_High_Industrial,2,2029,1,,PJ,interpolated,,
+World,HHI_DRI_EAF,Heat_High_Industrial,2,2031,1,,PJ,interpolated,,
+World,HHI_DRI_EAF,Heat_High_Industrial,2,2032,1,,PJ,interpolated,,
+World,HHI_DRI_EAF,Heat_High_Industrial,2,2033,1,,PJ,interpolated,,
+World,HHI_DRI_EAF,Heat_High_Industrial,2,2034,1,,PJ,interpolated,,
+World,HHI_DRI_EAF,Heat_High_Industrial,2,2036,1,,PJ,interpolated,,
+World,HHI_DRI_EAF,Heat_High_Industrial,2,2037,1,,PJ,interpolated,,
+World,HHI_DRI_EAF,Heat_High_Industrial,2,2038,1,,PJ,interpolated,,
+World,HHI_DRI_EAF,Heat_High_Industrial,2,2039,1,,PJ,interpolated,,
+World,HHI_DRI_EAF,Heat_High_Industrial,3,2026,1,,PJ,interpolated,,
+World,HHI_DRI_EAF,Heat_High_Industrial,3,2027,1,,PJ,interpolated,,
+World,HHI_DRI_EAF,Heat_High_Industrial,3,2028,1,,PJ,interpolated,,
+World,HHI_DRI_EAF,Heat_High_Industrial,3,2029,1,,PJ,interpolated,,
+World,HHI_DRI_EAF,Heat_High_Industrial,3,2031,1,,PJ,interpolated,,
+World,HHI_DRI_EAF,Heat_High_Industrial,3,2032,1,,PJ,interpolated,,
+World,HHI_DRI_EAF,Heat_High_Industrial,3,2033,1,,PJ,interpolated,,
+World,HHI_DRI_EAF,Heat_High_Industrial,3,2034,1,,PJ,interpolated,,
+World,HHI_DRI_EAF,Heat_High_Industrial,3,2036,1,,PJ,interpolated,,
+World,HHI_DRI_EAF,Heat_High_Industrial,3,2037,1,,PJ,interpolated,,
+World,HHI_DRI_EAF,Heat_High_Industrial,3,2038,1,,PJ,interpolated,,
+World,HHI_DRI_EAF,Heat_High_Industrial,3,2039,1,,PJ,interpolated,,
+World,X_Convert_Power,Power_General,1,All,1,,PJ,power demand splitter (eff=1),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,X_Convert_Power,Power_Buildings_Heat,2,All,1,,PJ,power demand splitter (eff=1),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,X_Convert_Power,Power_Buildings_Cooling,3,All,1,,PJ,power demand splitter (eff=1),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,X_Convert_Power,Power_DataCenter,4,All,1,,PJ,power demand splitter (eff=1),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,X_Convert_Power,Power_Hydrogen,5,All,1,,PJ,power demand splitter (eff=1),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,X_Convert_Power,Power_BEVs,6,All,1,,PJ,power demand splitter (eff=1),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,Z_Import_Biomass,Biomass,1,All,1,,PJ,dummy Z_Import added for power-only precompute path,2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,Z_Import_Lignite,Lignite,1,All,1,,PJ,dummy Z_Import added for power-only precompute path,2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Gas_Steam,Power,1,All,1,,PJ,EIA AEO existing gas steam fleet (heat rate >10000 Btu/kWh; no new builds); legacy-fleet assumption,2026-06-12,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Nuclear_SMR,Power,1,All,1,,PJ,Göke et al. (2023): http://dx.doi.org/10.48550/arXiv.2302.14515 (LWR),04.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,P_EGS_R1,Power,1,All,1,,PJ,EGS dispatchable geothermal,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_EGS_R2,Power,1,All,1,,PJ,EGS dispatchable geothermal,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_EGS_R3,Power,1,All,1,,PJ,EGS dispatchable geothermal,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_EGS_R4,Power,1,All,1,,PJ,EGS dispatchable geothermal,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>

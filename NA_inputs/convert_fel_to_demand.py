@@ -30,7 +30,7 @@ from collections import defaultdict
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA_REPO = os.path.normpath(os.path.join(HERE, ".."))
-XLSX = os.path.join(HERE, "base_fel_anonymized.xlsx")
+XLSX = os.path.join(HERE, "base_fel.xlsx")
 CSV = os.path.join(DATA_REPO, "Data", "Parameters",
                    "Par_SpecifiedAnnualDemand", "Par_SpecifiedAnnualDemand.csv")
 
