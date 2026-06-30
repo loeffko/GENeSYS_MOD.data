@@ -3018,31 +3018,31 @@ World,R_Waste,2036,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@
 World,R_Waste,2037,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 World,R_Waste,2038,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 World,R_Waste,2039,0.01,,MEUR/GW,interpolated,20.06.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,X_Convert_Power,All,1,,MEUR/GW,power demand splitter (eff=1),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,P_Gas_Steam,All,1100,,MEUR/GW,placeholder - no new gas steam builds expected; capacity capped at residual fleet,2026-06-12,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,P_Nuclear_SMR,2018,6000,,MEUR/GW,Nuclear III gen. (no economies of scale)- Power&Heat- EU Reference Scenario 2020,05.09.2023,Stian Backe <stian.backe@sintef.no>
-World,P_Nuclear_SMR,2020,6000,,MEUR/GW,Nuclear III gen. (no economies of scale)- Power&Heat- EU Reference Scenario 2020,05.09.2023,Stian Backe <stian.backe@sintef.no>
-World,P_Nuclear_SMR,2021,6000,,MEUR/GW,Nuclear III gen. (no economies of scale)- Power&Heat- EU Reference Scenario 2020,05.09.2023,Stian Backe <stian.backe@sintef.no>
-World,P_Nuclear_SMR,2025,10000,,MEUR/GW,uprated to upper end of IEA/Lazard Western new-build range (~10000 EUR/kW; EPR/Vogtle 7-10 kEUR/kW),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,P_Nuclear_SMR,2026,10000,,MEUR/GW,uprated to upper end of IEA/Lazard Western new-build range (~10000 EUR/kW; EPR/Vogtle 7-10 kEUR/kW),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,P_Nuclear_SMR,2027,10000,,MEUR/GW,uprated to upper end of IEA/Lazard Western new-build range (~10000 EUR/kW; EPR/Vogtle 7-10 kEUR/kW),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,P_Nuclear_SMR,2028,10000,,MEUR/GW,uprated to upper end of IEA/Lazard Western new-build range (~10000 EUR/kW; EPR/Vogtle 7-10 kEUR/kW),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,P_Nuclear_SMR,2029,10000,,MEUR/GW,uprated to upper end of IEA/Lazard Western new-build range (~10000 EUR/kW; EPR/Vogtle 7-10 kEUR/kW),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,P_Nuclear_SMR,2030,10000,,MEUR/GW,uprated to upper end of IEA/Lazard Western new-build range (~10000 EUR/kW; EPR/Vogtle 7-10 kEUR/kW),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,P_Nuclear_SMR,2031,10000,,MEUR/GW,uprated to upper end of IEA/Lazard Western new-build range (~10000 EUR/kW; EPR/Vogtle 7-10 kEUR/kW),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,P_Nuclear_SMR,2032,10000,,MEUR/GW,uprated to upper end of IEA/Lazard Western new-build range (~10000 EUR/kW; EPR/Vogtle 7-10 kEUR/kW),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,P_Nuclear_SMR,2033,10000,,MEUR/GW,uprated to upper end of IEA/Lazard Western new-build range (~10000 EUR/kW; EPR/Vogtle 7-10 kEUR/kW),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,P_Nuclear_SMR,2034,10000,,MEUR/GW,uprated to upper end of IEA/Lazard Western new-build range (~10000 EUR/kW; EPR/Vogtle 7-10 kEUR/kW),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,P_Nuclear_SMR,2035,10000,,MEUR/GW,uprated to upper end of IEA/Lazard Western new-build range (~10000 EUR/kW; EPR/Vogtle 7-10 kEUR/kW),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,P_Nuclear_SMR,2036,10000,,MEUR/GW,uprated to upper end of IEA/Lazard Western new-build range (~10000 EUR/kW; EPR/Vogtle 7-10 kEUR/kW),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,P_Nuclear_SMR,2037,10000,,MEUR/GW,uprated to upper end of IEA/Lazard Western new-build range (~10000 EUR/kW; EPR/Vogtle 7-10 kEUR/kW),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,P_Nuclear_SMR,2038,10000,,MEUR/GW,uprated to upper end of IEA/Lazard Western new-build range (~10000 EUR/kW; EPR/Vogtle 7-10 kEUR/kW),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,P_Nuclear_SMR,2039,10000,,MEUR/GW,uprated to upper end of IEA/Lazard Western new-build range (~10000 EUR/kW; EPR/Vogtle 7-10 kEUR/kW),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,P_Nuclear_SMR,2040,10000,,MEUR/GW,uprated to upper end of IEA/Lazard Western new-build range (~10000 EUR/kW; EPR/Vogtle 7-10 kEUR/kW),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,P_Nuclear_SMR,2045,10000,,MEUR/GW,uprated to upper end of IEA/Lazard Western new-build range (~10000 EUR/kW; EPR/Vogtle 7-10 kEUR/kW),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,P_Nuclear_SMR,2050,10000,,MEUR/GW,uprated to upper end of IEA/Lazard Western new-build range (~10000 EUR/kW; EPR/Vogtle 7-10 kEUR/kW),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,P_Nuclear_SMR,2055,10000,,MEUR/GW,uprated to upper end of IEA/Lazard Western new-build range (~10000 EUR/kW; EPR/Vogtle 7-10 kEUR/kW),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,P_Nuclear_SMR,2060,10000,,MEUR/GW,uprated to upper end of IEA/Lazard Western new-build range (~10000 EUR/kW; EPR/Vogtle 7-10 kEUR/kW),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,X_Convert_Power,All,1.0,,MEUR/GW,power demand splitter (eff=1),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Gas_Steam,All,1100.0,,MEUR/GW,placeholder - no new gas steam builds expected; capacity capped at residual fleet,2026-06-12,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Nuclear_SMR,2018,6000.0,,MEUR/GW,Nuclear III gen. (no economies of scale)- Power&Heat- EU Reference Scenario 2020,05.09.2023,Stian Backe <stian.backe@sintef.no>
+World,P_Nuclear_SMR,2020,6000.0,,MEUR/GW,Nuclear III gen. (no economies of scale)- Power&Heat- EU Reference Scenario 2020,05.09.2023,Stian Backe <stian.backe@sintef.no>
+World,P_Nuclear_SMR,2021,6000.0,,MEUR/GW,Nuclear III gen. (no economies of scale)- Power&Heat- EU Reference Scenario 2020,05.09.2023,Stian Backe <stian.backe@sintef.no>
+World,P_Nuclear_SMR,2025,10000.0,,MEUR/GW,uprated to upper end of IEA/Lazard Western new-build range (~10000 EUR/kW; EPR/Vogtle 7-10 kEUR/kW),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Nuclear_SMR,2026,10000.0,,MEUR/GW,uprated to upper end of IEA/Lazard Western new-build range (~10000 EUR/kW; EPR/Vogtle 7-10 kEUR/kW),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Nuclear_SMR,2027,10000.0,,MEUR/GW,uprated to upper end of IEA/Lazard Western new-build range (~10000 EUR/kW; EPR/Vogtle 7-10 kEUR/kW),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Nuclear_SMR,2028,10000.0,,MEUR/GW,uprated to upper end of IEA/Lazard Western new-build range (~10000 EUR/kW; EPR/Vogtle 7-10 kEUR/kW),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Nuclear_SMR,2029,10000.0,,MEUR/GW,uprated to upper end of IEA/Lazard Western new-build range (~10000 EUR/kW; EPR/Vogtle 7-10 kEUR/kW),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Nuclear_SMR,2030,10000.0,,MEUR/GW,uprated to upper end of IEA/Lazard Western new-build range (~10000 EUR/kW; EPR/Vogtle 7-10 kEUR/kW),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Nuclear_SMR,2031,10000.0,,MEUR/GW,uprated to upper end of IEA/Lazard Western new-build range (~10000 EUR/kW; EPR/Vogtle 7-10 kEUR/kW),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Nuclear_SMR,2032,10000.0,,MEUR/GW,uprated to upper end of IEA/Lazard Western new-build range (~10000 EUR/kW; EPR/Vogtle 7-10 kEUR/kW),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Nuclear_SMR,2033,10000.0,,MEUR/GW,uprated to upper end of IEA/Lazard Western new-build range (~10000 EUR/kW; EPR/Vogtle 7-10 kEUR/kW),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Nuclear_SMR,2034,10000.0,,MEUR/GW,uprated to upper end of IEA/Lazard Western new-build range (~10000 EUR/kW; EPR/Vogtle 7-10 kEUR/kW),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Nuclear_SMR,2035,10000.0,,MEUR/GW,uprated to upper end of IEA/Lazard Western new-build range (~10000 EUR/kW; EPR/Vogtle 7-10 kEUR/kW),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Nuclear_SMR,2036,10000.0,,MEUR/GW,uprated to upper end of IEA/Lazard Western new-build range (~10000 EUR/kW; EPR/Vogtle 7-10 kEUR/kW),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Nuclear_SMR,2037,10000.0,,MEUR/GW,uprated to upper end of IEA/Lazard Western new-build range (~10000 EUR/kW; EPR/Vogtle 7-10 kEUR/kW),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Nuclear_SMR,2038,10000.0,,MEUR/GW,uprated to upper end of IEA/Lazard Western new-build range (~10000 EUR/kW; EPR/Vogtle 7-10 kEUR/kW),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Nuclear_SMR,2039,10000.0,,MEUR/GW,uprated to upper end of IEA/Lazard Western new-build range (~10000 EUR/kW; EPR/Vogtle 7-10 kEUR/kW),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Nuclear_SMR,2040,10000.0,,MEUR/GW,uprated to upper end of IEA/Lazard Western new-build range (~10000 EUR/kW; EPR/Vogtle 7-10 kEUR/kW),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Nuclear_SMR,2045,10000.0,,MEUR/GW,uprated to upper end of IEA/Lazard Western new-build range (~10000 EUR/kW; EPR/Vogtle 7-10 kEUR/kW),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Nuclear_SMR,2050,10000.0,,MEUR/GW,uprated to upper end of IEA/Lazard Western new-build range (~10000 EUR/kW; EPR/Vogtle 7-10 kEUR/kW),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Nuclear_SMR,2055,10000.0,,MEUR/GW,uprated to upper end of IEA/Lazard Western new-build range (~10000 EUR/kW; EPR/Vogtle 7-10 kEUR/kW),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Nuclear_SMR,2060,10000.0,,MEUR/GW,uprated to upper end of IEA/Lazard Western new-build range (~10000 EUR/kW; EPR/Vogtle 7-10 kEUR/kW),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 World,P_EGS_R1,2025,6220.13,,MEUR/GW,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 World,P_EGS_R1,2026,6017.39,,MEUR/GW,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 World,P_EGS_R1,2027,5821.26,,MEUR/GW,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>

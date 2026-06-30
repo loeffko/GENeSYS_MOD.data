@@ -631,3 +631,6 @@ P_EGS_R3,PowerSupply,1,,Binary,not relevant,2026-06-04,Konstantin Loffler <kl@wi
 P_EGS_R4,EGS,1,,Binary,not relevant,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 P_EGS_R4,Renewables,1,,Binary,not relevant,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 P_EGS_R4,PowerSupply,1,,Binary,not relevant,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Gas_CCGT_Residual,EmergingTechnologies,1,,Binary,not relevant,08.09.2023,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Gas_CCGT_Residual,FossilPower,1,,Binary,not relevant,03.12.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Gas_CCGT_Residual,PowerSupply,1,,Binary,not relevant,08.09.2023,Konstantin Loffler <kl@wip.tu-berlin.de>
