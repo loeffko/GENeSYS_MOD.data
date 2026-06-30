@@ -404,7 +404,7 @@ ALL_RESTOOL_TECHS = sorted(TECH_SHARE.keys())
 
 # Full set of techs this script directly writes positive caps for.
 NUCLEAR_SMR_TECHS = {"P_Nuclear_SMR"}
-ALL_MANAGED_TECHS = MODEL_TECHS_GUARDRAIL | set(ALL_RESTOOL_TECHS) | COAL_TECHS | HYDRO_TECHS | STORAGE_TECHS | NUCLEAR_SMR_TECHS
+ALL_MANAGED_TECHS = MODEL_TECHS_GUARDRAIL | set(ALL_RESTOOL_TECHS) | COAL_TECHS | HYDRO_TECHS | STORAGE_TECHS | NUCLEAR_SMR_TECHS | {"P_Gas_CCGT_Residual"}
 
 # Techs whose caps are owned by other scripts — leave them alone here.
 EXTERNAL_OWNERS = {
@@ -445,6 +445,21 @@ def hydro_sheet_traj(values_2025_2035):
 # needed) to build earlier, which is infeasible with NewCapacity >= 0.
 MONOTONIC_MAX_TECHS = {"P_Gas_CCGT", "P_Gas_OCGT", "P_Gas_Steam", "P_Gas_Engines"}
 
+# --- Colleague feedback (2026-06) -----------------------------------------
+# (1) California / New York / New England get NO gas additions beyond the US
+#     capacities file: pin the gas TotalAnnualMaxCapacity to the sheet value (max
+#     widening factor -> 1.0, no post-2035 growth). The declining-fleet residual +
+#     the monotonic floor still apply, so the max = the file's own peak held flat
+#     (feasible; just no funnel-driven new gas).
+GAS_NO_ADD_REGIONS = {"California", "NewYork", "NewEngland"}
+GAS_TECHS = {"P_Gas_CCGT", "P_Gas_OCGT", "P_Gas_Steam", "P_Gas_Engines"}
+# (2) SERC has a weak SE onshore-wind resource and builds little in reality; the
+#     restool potential (~56 GW) overstates it. Cap the SERC onshore potential to
+#     narrow the whole upper funnel (rep + overflow classes scale with it). Floor
+#     is set by the existing fleet sitting on _Opt (residual ~3.8 GW, Opt share
+#     0.30 -> needs pot >= ~12.7), so 15 GW is about as tight as stays feasible.
+ONSHORE_POT_OVERRIDE_GW = {"SERC": 15.0}
+
 YEARS = list(range(2025, 2041))
 DATE, WHO = "2026-06-04", "Konstantin Loffler <kl@wip.tu-berlin.de>"
 
@@ -484,10 +499,12 @@ NUCLEAR_USA_GROUP_MIN = {
 }
 
 
-def margins(year, tech=None):
+def margins(year, tech=None, region=None):
     """(min_factor, max_factor) widening from +/-2% (<=2028) to -10%/+max(2035)
     where max(2035) is per-tech (1.30 default, 1.10 for hydro). Year capped at
-    2035 here; post-2035 growth is handled separately by POST_2035_MAX_GROWTH."""
+    2035 here; post-2035 growth is handled separately by POST_2035_MAX_GROWTH.
+    Gas in GAS_NO_ADD_REGIONS gets max_factor pinned to 1.0 (no additions beyond
+    the US capacities file)."""
     y = min(year, 2035)
     mx_2035 = MAX_WIDEN_2035_PER_TECH.get(tech, MAX_WIDEN_2035_DEFAULT)
     if y <= 2028:
@@ -498,6 +515,8 @@ def margins(year, tech=None):
         mx = 1.02 + (mx_2035 - 1.02) * frac
     if tech == "P_Nuclear":
         mn = 1.0
+    if region in GAS_NO_ADD_REGIONS and tech in GAS_TECHS:
+        mx = 1.0   # cap gas at the sheet value: no endogenous additions
     return mn, mx
 
 
@@ -520,6 +539,11 @@ def main():
     df = df.rename(columns={df.columns[1]: "Category", df.columns[2]: "Measure"})
     cap = df[df["Measure"] == "Capacity MW"].copy()
     pot = read_restool_potentials()
+    # Colleague feedback: narrow the SERC onshore upper funnel by capping its
+    # restool wind potential (rep share-cap + overflow targets scale with it).
+    for _reg, _cap_gw in ONSHORE_POT_OVERRIDE_GW.items():
+        if _reg in pot and "Wind Capacity [GW]" in pot[_reg]:
+            pot[_reg]["Wind Capacity [GW]"] = min(pot[_reg]["Wind Capacity [GW]"], _cap_gw)
 
     def gw(region, fuel, year):
         sel = cap[(cap["Pool-Regions"] == region) & (cap["Category"] == fuel)]
@@ -582,16 +606,22 @@ def main():
                 res_val = base * residual_factor(tech, y)
                 if tech == "P_Gas_Steam":
                     res_val += conv_add[y] * coal_share.get(region, 0.0)
-                res_rows.append((region, tech, y, round(res_val, 6)))
+                if tech == "P_Gas_CCGT":
+                    # existing CCGT fleet -> permit-limited P_Gas_CCGT_Residual (av 0.5);
+                    # P_Gas_CCGT itself becomes new-build only (no residual).
+                    res_rows.append((region, "P_Gas_CCGT_Residual", y, round(res_val, 6)))
+                    res_rows.append((region, "P_Gas_CCGT", y, 0.0))
+                else:
+                    res_rows.append((region, tech, y, round(res_val, 6)))
 
             # 2035 funnel anchors for post-2035 interp + min hold
             val_2035 = base if tech == "P_Nuclear" else gw(region, fuel, 2035)
-            mn_at_2035, mx_at_2035 = margins(2035, tech)
+            mn_at_2035, mx_at_2035 = margins(2035, tech, region)
             max_2035 = val_2035 * mx_at_2035
             min_2035 = val_2035 * mn_at_2035
             # slope of the rep max over 2030-2035, extended post-2035 (see below)
             val_2030 = base if tech == "P_Nuclear" else gw(region, fuel, 2030)
-            _, mx_at_2030 = margins(2030, tech)
+            _, mx_at_2030 = margins(2030, tech, region)
             avg_slope_post2035 = (max_2035 - val_2030 * mx_at_2030) / 5.0
 
             target_2040 = rep_share_pot.get(tech)  # rep share x total pot (None if N/A)
@@ -600,7 +630,7 @@ def main():
             for y in range(2026, 2041):
                 if y <= 2035:
                     val = base if tech == "P_Nuclear" else gw(region, fuel, y)
-                    mn, mx = margins(y, tech)
+                    mn, mx = margins(y, tech, region)
                     raw_min = val * mn
                     raw_max = val * mx
                 else:
@@ -617,6 +647,8 @@ def main():
                         raw_max = max_2035 + avg_slope_post2035 * (y - 2035)
                     else:
                         rate = POST_2035_MAX_GROWTH.get(tech, 0.0)
+                        if region in GAS_NO_ADD_REGIONS and tech in GAS_TECHS:
+                            rate = 0.0   # no post-2035 gas growth in these regions
                         raw_max = max_2035 * (1.0 + rate) ** (y - 2035)
 
                 # Cap rep tech at its share of total potential. Excess spills
@@ -639,8 +671,25 @@ def main():
                 if tech in MONOTONIC_MAX_TECHS:
                     rep_max = max(rep_max, running_max)
                     running_max = rep_max
-                min_rows.append((region, tech, y, round(rep_min, 6)))
-                max_rows.append((region, tech, y, round(rep_max, 6)))
+                if tech == "P_Gas_CCGT":
+                    # Split the CCGT funnel band: existing fleet -> pinned,
+                    # non-buildable _Residual (= the decaying residual, av 0.5);
+                    # P_Gas_CCGT (av 0.8) = NEW build = the band minus the existing
+                    # fleet. In the no-add regions, forbid NEW gas entirely so only
+                    # the permit-limited existing fleet remains.
+                    rv = base * residual_factor("P_Gas_CCGT", y)
+                    max_rows.append((region, "P_Gas_CCGT_Residual", y, round(rv, 6)))
+                    if region in GAS_NO_ADD_REGIONS:
+                        max_rows.append((region, "P_Gas_CCGT", y, FORBID_EPS))
+                    else:
+                        new_min = max(0.0, rep_min - rv)
+                        new_max = max(FORBID_EPS, rep_max - rv)
+                        if new_min > 0:
+                            min_rows.append((region, "P_Gas_CCGT", y, round(new_min, 6)))
+                        max_rows.append((region, "P_Gas_CCGT", y, round(new_max, 6)))
+                else:
+                    min_rows.append((region, tech, y, round(rep_min, 6)))
+                    max_rows.append((region, tech, y, round(rep_max, 6)))
 
         # 1b) Coal: split the US Pools "Coal" capacity into lignite (fixed
         #     regional fleet, mine-mouth fuel) and hardcoal (remainder), then
@@ -788,15 +837,28 @@ def main():
                 continue
             running_max = 0.0
             for y in YEARS:
-                res_rows.append(("Canada", tech, y, round(base * residual_factor(tech, y), 6)))
+                rv = base * residual_factor(tech, y)
                 mn, mx = canada_margins(y, tech)
                 val = ser.get(y, base)
                 rep_min, rep_max = val * mn, val * mx
                 if tech in MONOTONIC_MAX_TECHS:
                     rep_max = max(rep_max, running_max)
                     running_max = rep_max
-                min_rows.append(("Canada", tech, y, round(rep_min, 6)))
-                max_rows.append(("Canada", tech, y, round(rep_max, 6)))
+                if tech == "P_Gas_CCGT":
+                    # same existing/new CCGT split as the US pools (Canada is not a
+                    # no-add region, so NEW build = funnel band minus existing fleet)
+                    res_rows.append(("Canada", "P_Gas_CCGT_Residual", y, round(rv, 6)))
+                    res_rows.append(("Canada", "P_Gas_CCGT", y, 0.0))
+                    max_rows.append(("Canada", "P_Gas_CCGT_Residual", y, round(rv, 6)))
+                    new_min = max(0.0, rep_min - rv)
+                    new_max = max(FORBID_EPS, rep_max - rv)
+                    if new_min > 0:
+                        min_rows.append(("Canada", "P_Gas_CCGT", y, round(new_min, 6)))
+                    max_rows.append(("Canada", "P_Gas_CCGT", y, round(new_max, 6)))
+                else:
+                    res_rows.append(("Canada", tech, y, round(rv, 6)))
+                    min_rows.append(("Canada", tech, y, round(rep_min, 6)))
+                    max_rows.append(("Canada", tech, y, round(rep_max, 6)))
 
         # Canada storage: Sir Adam Beck PHS (fixed + growth-capped max) + battery
         # (CER EF2026 "Battery Storage" -> Li-Ion). Mirrors the US block 1d: PHS
@@ -983,10 +1045,11 @@ def main():
     # Sample print: PJM P_Gas_CCGT (no restool ceiling — held flat post-2035);
     #               the PV cascade — _Opt is the rep (carries residual + funnel),
     #               _Avg / _Inf only take the overflow above Opt's share-of-potential.
-    for ex_r, ex_t in (("PJM", "P_Gas_CCGT"), ("ERCOT", "D_Battery_Redox"),
-                       ("PJM", "P_PV_Utility_Opt"), ("PJM", "P_PV_Utility_Avg"), ("PJM", "P_PV_Utility_Inf"),
-                       ("SERC", "P_Nuclear"), ("MISO", "P_Coal_Hardcoal"),
-                       ("MISO", "P_Gas_Steam"), ("PJM", "P_Nuclear_SMR")):
+    for ex_r, ex_t in (("California", "P_Gas_CCGT_Residual"), ("California", "P_Gas_CCGT"),
+                       ("NewEngland", "P_Gas_CCGT_Residual"), ("NewEngland", "P_Gas_CCGT"),
+                       ("PJM", "P_Gas_CCGT_Residual"), ("PJM", "P_Gas_CCGT"),
+                       ("Canada", "P_Gas_CCGT_Residual"), ("Canada", "P_Gas_CCGT"),
+                       ("SERC", "P_Wind_Onshore_Avg")):
         print(f"\nSample {ex_r} {ex_t} (GW):  Year  Residual    Min      Max")
         res = {y: v for (r, t, y, v) in res_rows if r == ex_r and t == ex_t}
         mn = {y: v for (r, t, y, v) in min_rows if r == ex_r and t == ex_t}

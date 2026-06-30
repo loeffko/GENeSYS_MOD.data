@@ -1,26 +1,4 @@
 TechnologySubset,RegionSubset,Year,Value,,Unit,Source,Updated at,Updated by
-EGS,USA,2025,4.142,,GW,"geothermal_allocation_model.xlsx (Sebastian, April 2026)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-EGS,USA,2026,4.313,,GW,"geothermal_allocation_model.xlsx (Sebastian, April 2026)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-EGS,USA,2027,4.485,,GW,"geothermal_allocation_model.xlsx (Sebastian, April 2026)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-EGS,USA,2028,4.657,,GW,"geothermal_allocation_model.xlsx (Sebastian, April 2026)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-EGS,USA,2029,4.828,,GW,"geothermal_allocation_model.xlsx (Sebastian, April 2026)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-EGS,USA,2030,5.0,,GW,"geothermal_allocation_model.xlsx (Sebastian, April 2026)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-EGS,USA,2031,5.6,,GW,"geothermal_allocation_model.xlsx (Sebastian, April 2026)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-EGS,USA,2032,6.2,,GW,"geothermal_allocation_model.xlsx (Sebastian, April 2026)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-EGS,USA,2033,6.8,,GW,"geothermal_allocation_model.xlsx (Sebastian, April 2026)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-EGS,USA,2034,7.4,,GW,"geothermal_allocation_model.xlsx (Sebastian, April 2026)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-EGS,USA,2035,8.0,,GW,"geothermal_allocation_model.xlsx (Sebastian, April 2026)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-EGS,USA,2036,8.8,,GW,"geothermal_allocation_model.xlsx (Sebastian, April 2026)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-EGS,USA,2037,9.6,,GW,"geothermal_allocation_model.xlsx (Sebastian, April 2026)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-EGS,USA,2038,10.4,,GW,"geothermal_allocation_model.xlsx (Sebastian, April 2026)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-EGS,USA,2039,11.2,,GW,"geothermal_allocation_model.xlsx (Sebastian, April 2026)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-EGS,USA,2040,12.0,,GW,"geothermal_allocation_model.xlsx (Sebastian, April 2026)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-Nuclear,USA,2035,116.0,,GW,US nuclear capacity target trajectory,2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
-Nuclear,USA,2036,118.3,,GW,US nuclear capacity target trajectory,2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
-Nuclear,USA,2037,121.43,,GW,US nuclear capacity target trajectory,2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
-Nuclear,USA,2038,123.932,,GW,US nuclear capacity target trajectory,2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
-Nuclear,USA,2039,123.932,,GW,US nuclear capacity target trajectory,2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
-Nuclear,USA,2040,129.832,,GW,US nuclear capacity target trajectory,2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
 OffshoreWind,Other_Offshore_Regions,2025,0.0,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative, 'Other')",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 OffshoreWind,Other_Offshore_Regions,2026,0.0,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative, 'Other')",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 OffshoreWind,Other_Offshore_Regions,2027,0.0,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative, 'Other')",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
@@ -37,3 +15,19 @@ OffshoreWind,Other_Offshore_Regions,2037,0.969479,,GW,"SLA Offshore Wind Scenari
 OffshoreWind,Other_Offshore_Regions,2038,1.308858,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative, 'Other')",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 OffshoreWind,Other_Offshore_Regions,2039,1.308858,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative, 'Other')",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 OffshoreWind,Other_Offshore_Regions,2040,1.420537,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative, 'Other')",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+EGS,USA,2025,4.071,,GW,"geothermal_allocation_model.xlsx (Sebastian, April 2026)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+EGS,USA,2026,4.243,,GW,"geothermal_allocation_model.xlsx (Sebastian, April 2026)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+EGS,USA,2027,4.415,,GW,"geothermal_allocation_model.xlsx (Sebastian, April 2026)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+EGS,USA,2028,4.586,,GW,"geothermal_allocation_model.xlsx (Sebastian, April 2026)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+EGS,USA,2029,4.758,,GW,"geothermal_allocation_model.xlsx (Sebastian, April 2026)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+EGS,USA,2030,4.93,,GW,"geothermal_allocation_model.xlsx (Sebastian, April 2026)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+EGS,USA,2031,5.53,,GW,"geothermal_allocation_model.xlsx (Sebastian, April 2026)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+EGS,USA,2032,6.13,,GW,"geothermal_allocation_model.xlsx (Sebastian, April 2026)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+EGS,USA,2033,6.73,,GW,"geothermal_allocation_model.xlsx (Sebastian, April 2026)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+EGS,USA,2034,7.33,,GW,"geothermal_allocation_model.xlsx (Sebastian, April 2026)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+EGS,USA,2035,7.93,,GW,"geothermal_allocation_model.xlsx (Sebastian, April 2026)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+EGS,USA,2036,8.73,,GW,"geothermal_allocation_model.xlsx (Sebastian, April 2026)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+EGS,USA,2037,9.53,,GW,"geothermal_allocation_model.xlsx (Sebastian, April 2026)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+EGS,USA,2038,10.33,,GW,"geothermal_allocation_model.xlsx (Sebastian, April 2026)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+EGS,USA,2039,11.13,,GW,"geothermal_allocation_model.xlsx (Sebastian, April 2026)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+EGS,USA,2040,11.93,,GW,"geothermal_allocation_model.xlsx (Sebastian, April 2026)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>

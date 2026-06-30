@@ -1,4 +1,4 @@
-Region,Technology,Mode_of_operation,Year,Value,Unnamed: 5,Unit,Source,Updated at,Updated by
+Region,Technology,Mode_of_operation,Year,Value,,Unit,Source,Updated at,Updated by
 World,A_Air,1,All,0.01,,MEUR/PJ,"dummy, not currently in use",03.02.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 World,CHP_Biomass_Solid,1,2018,0.916666667,,MEUR/PJ,Biomass CHP - Energy Technology Reference Indicator (ETRI) projections for 2010-2050 - Publications Office of the EU (europa.eu),02.09.2024,Alena Diesing <ad@wip.tu-berlin.de>
 World,CHP_Biomass_Solid,1,2025,0.916666667,,MEUR/PJ,Biomass CHP - Energy Technology Reference Indicator (ETRI) projections for 2010-2050 - Publications Office of the EU (europa.eu),02.09.2024,Alena Diesing <ad@wip.tu-berlin.de>
@@ -173,29 +173,29 @@ World,D_PHS_Residual,1,2050,0.01,,MEUR/PJ,"Marginal number for numerical stabili
 World,D_PHS_Residual,1,2055,0.01,,MEUR/PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 World,D_PHS_Residual,1,2060,0.01,,MEUR/PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 World,FRT_Rail_Conv,1,All,0.001,,MEUR/PJ,"dummy value, fuel costs come from upstream generation cost numbers",03.02.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,FRT_Rail_Conv,1,2055,0,,MEUR/PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,FRT_Rail_Conv,1,2060,0,,MEUR/PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,FRT_Rail_Conv,1,2055,0.0,,MEUR/PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,FRT_Rail_Conv,1,2060,0.0,,MEUR/PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 World,FRT_Rail_Electric,1,All,0.001,,MEUR/PJ,"dummy value, fuel costs come from upstream generation cost numbers",03.02.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,FRT_Rail_Electric,1,2055,0,,MEUR/PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,FRT_Rail_Electric,1,2060,0,,MEUR/PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,FRT_Rail_Electric,1,2055,0.0,,MEUR/PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,FRT_Rail_Electric,1,2060,0.0,,MEUR/PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 World,FRT_Road_BEV,1,All,0.001,,MEUR/PJ,"dummy value, fuel costs come from upstream generation cost numbers",03.02.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,FRT_Road_BEV,1,2055,0,,MEUR/PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,FRT_Road_BEV,1,2060,0,,MEUR/PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,FRT_Road_BEV,1,2055,0.0,,MEUR/PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,FRT_Road_BEV,1,2060,0.0,,MEUR/PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 World,FRT_Road_H2,1,All,0.001,,MEUR/PJ,"dummy value, fuel costs come from upstream generation cost numbers",03.02.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,FRT_Road_H2,1,2055,0,,MEUR/PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,FRT_Road_H2,1,2060,0,,MEUR/PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,FRT_Road_H2,1,2055,0.0,,MEUR/PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,FRT_Road_H2,1,2060,0.0,,MEUR/PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 World,FRT_Road_ICE,1,All,0.001,,MEUR/PJ,"dummy value, fuel costs come from upstream generation cost numbers",03.02.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,FRT_Road_ICE,1,2055,0,,MEUR/PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,FRT_Road_ICE,1,2060,0,,MEUR/PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,FRT_Road_ICE,1,2055,0.0,,MEUR/PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,FRT_Road_ICE,1,2060,0.0,,MEUR/PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 World,FRT_Road_PHEV,1,All,0.001,,MEUR/PJ,"dummy value, fuel costs come from upstream generation cost numbers",03.02.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,FRT_Road_PHEV,1,2055,0,,MEUR/PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,FRT_Road_PHEV,1,2060,0,,MEUR/PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,FRT_Road_PHEV,1,2055,0.0,,MEUR/PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,FRT_Road_PHEV,1,2060,0.0,,MEUR/PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 World,FRT_Ship_Bio,1,All,0.001,,MEUR/PJ,"dummy value, fuel costs come from upstream generation cost numbers",03.02.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,FRT_Ship_Bio,1,2055,0,,MEUR/PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,FRT_Ship_Bio,1,2060,0,,MEUR/PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,FRT_Ship_Bio,1,2055,0.0,,MEUR/PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,FRT_Ship_Bio,1,2060,0.0,,MEUR/PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 World,FRT_Ship_Conv,1,All,0.001,,MEUR/PJ,"dummy value, fuel costs come from upstream generation cost numbers",03.02.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,FRT_Ship_Conv,1,2055,0,,MEUR/PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,FRT_Ship_Conv,1,2060,0,,MEUR/PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,FRT_Ship_Conv,1,2055,0.0,,MEUR/PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,FRT_Ship_Conv,1,2060,0.0,,MEUR/PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 World,HB_Biomass,1,2018,0.001,,MEUR/PJ,biomass auto - https://ens.dk/en/our-services/technology-catalogues/technology-data-individual-heating-plants,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
 World,HB_Biomass,1,2025,0.001,,MEUR/PJ,biomass auto - https://ens.dk/en/our-services/technology-catalogues/technology-data-individual-heating-plants,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
 World,HB_Biomass,1,2030,0.001,,MEUR/PJ,biomass auto - https://ens.dk/en/our-services/technology-catalogues/technology-data-individual-heating-plants,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
@@ -947,8 +947,8 @@ World,Z_Import_Gas,1,2045,4.4358,,MEUR/PJ,IEA World Energy Outlook 2024: Natural
 World,Z_Import_Gas,1,2050,4.4358,,MEUR/PJ,IEA World Energy Outlook 2024: Natural gas (European Union): APS,04.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 World,Z_Import_Gas,1,2055,4.4358,,MEUR/PJ,same as 2050 for now,04.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 World,Z_Import_Gas,1,2060,4.4358,,MEUR/PJ,same as 2050 for now,04.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,Z_Import_H2,1,2018,99,,MEUR/PJ,dummy value,03.02.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,Z_Import_H2,1,2020,99,,MEUR/PJ,dummy value,03.02.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,Z_Import_H2,1,2018,99.0,,MEUR/PJ,dummy value,03.02.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,Z_Import_H2,1,2020,99.0,,MEUR/PJ,dummy value,03.02.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 World,Z_Import_H2,1,2025,49.1667,,MEUR/PJ,Fraunhofer ISI (2024): HYPAT Final Report. Values for 2030/2050 - rest interpolated,17.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 World,Z_Import_H2,1,2030,38.4368,,MEUR/PJ,Fraunhofer ISI (2024): HYPAT Final Report. Values for 2030/2050 - rest interpolated,17.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 World,Z_Import_H2,1,2035,35.554,,MEUR/PJ,Fraunhofer ISI (2024): HYPAT Final Report. Values for 2030/2050 - rest interpolated,17.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
@@ -1851,7 +1851,7 @@ World,P_Hydro_RoR,1,2038,0.001,,MEUR/PJ,interpolated,20.08.2024,Alena Diesing <a
 World,P_Hydro_RoR,1,2039,0.001,,MEUR/PJ,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
 World,P_Nuclear,1,2026,1.94444,,MEUR/PJ,interpolated,,
 World,P_Nuclear,1,2027,1.97222,,MEUR/PJ,interpolated,,
-World,P_Nuclear,1,2028,2,,MEUR/PJ,interpolated,,
+World,P_Nuclear,1,2028,2.0,,MEUR/PJ,interpolated,,
 World,P_Nuclear,1,2029,2.02778,,MEUR/PJ,interpolated,,
 World,P_Nuclear,1,2031,2.06111,,MEUR/PJ,interpolated,,
 World,P_Nuclear,1,2032,2.06667,,MEUR/PJ,interpolated,,
@@ -2954,3 +2954,47 @@ Canada,Z_Import_Gas,1,2055,4.4,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override 
 Canada,Z_Import_Hardcoal,1,2055,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 Canada,Z_Import_Gas,1,2060,4.4,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 Canada,Z_Import_Hardcoal,1,2060,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Nuclear_SMR,1,2018,1.777777778,,MEUR/PJ,,,
+World,P_Nuclear_SMR,1,2020,1.777777778,,MEUR/PJ,,,
+World,P_Nuclear_SMR,1,2021,1.777777778,,MEUR/PJ,Nuclear III gen. (no economies of scale)- https://energy.ec.europa.eu/data-and-analysis/energy-modelling/eu-reference-scenario-2020_en,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_Nuclear_SMR,1,2025,1.916666667,,MEUR/PJ,Nuclear III gen. (no economies of scale)- https://energy.ec.europa.eu/data-and-analysis/energy-modelling/eu-reference-scenario-2020_en,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_Nuclear_SMR,1,2030,2.055555556,,MEUR/PJ,Nuclear III gen. (no economies of scale)- https://energy.ec.europa.eu/data-and-analysis/energy-modelling/eu-reference-scenario-2020_en,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_Nuclear_SMR,1,2035,2.083333333,,MEUR/PJ,Nuclear III gen. (no economies of scale)- https://energy.ec.europa.eu/data-and-analysis/energy-modelling/eu-reference-scenario-2020_en,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_Nuclear_SMR,1,2040,2.111111111,,MEUR/PJ,Nuclear III gen. (no economies of scale)- https://energy.ec.europa.eu/data-and-analysis/energy-modelling/eu-reference-scenario-2020_en,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_Nuclear_SMR,1,2045,2.138888889,,MEUR/PJ,Nuclear III gen. (no economies of scale)- https://energy.ec.europa.eu/data-and-analysis/energy-modelling/eu-reference-scenario-2020_en,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_Nuclear_SMR,1,2050,2.166666667,,MEUR/PJ,Nuclear III gen. (no economies of scale)- https://energy.ec.europa.eu/data-and-analysis/energy-modelling/eu-reference-scenario-2020_en,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_Nuclear_SMR,1,2055,2.166666667,,MEUR/PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,P_Nuclear_SMR,1,2060,2.166666667,,MEUR/PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,P_Nuclear_SMR,1,2026,1.94444,,MEUR/PJ,interpolated,,
+World,P_Nuclear_SMR,1,2027,1.97222,,MEUR/PJ,interpolated,,
+World,P_Nuclear_SMR,1,2028,2.0,,MEUR/PJ,interpolated,,
+World,P_Nuclear_SMR,1,2029,2.02778,,MEUR/PJ,interpolated,,
+World,P_Nuclear_SMR,1,2031,2.06111,,MEUR/PJ,interpolated,,
+World,P_Nuclear_SMR,1,2032,2.06667,,MEUR/PJ,interpolated,,
+World,P_Nuclear_SMR,1,2033,2.07222,,MEUR/PJ,interpolated,,
+World,P_Nuclear_SMR,1,2034,2.07778,,MEUR/PJ,interpolated,,
+World,P_Nuclear_SMR,1,2036,2.08889,,MEUR/PJ,interpolated,,
+World,P_Nuclear_SMR,1,2037,2.09444,,MEUR/PJ,interpolated,,
+World,P_Nuclear_SMR,1,2038,2.1,,MEUR/PJ,interpolated,,
+World,P_Nuclear_SMR,1,2039,2.10556,,MEUR/PJ,interpolated,,
+World,P_Gas_CCGT_Residual,1,2018,1.3,,MEUR/PJ,Gas Turbine combined cycle extraction natural gas large - https://ens.dk/en/our-services/technology-catalogues/technology-data-generation-electricity-and-district-heating,,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_Gas_CCGT_Residual,1,2025,1.27,,MEUR/PJ,Gas Turbine combined cycle extraction natural gas large - https://ens.dk/en/our-services/technology-catalogues/technology-data-generation-electricity-and-district-heating,,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_Gas_CCGT_Residual,1,2030,1.24,,MEUR/PJ,Gas Turbine combined cycle extraction natural gas large - https://ens.dk/en/our-services/technology-catalogues/technology-data-generation-electricity-and-district-heating,,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_Gas_CCGT_Residual,1,2035,1.23,,MEUR/PJ,Gas Turbine combined cycle extraction natural gas large - https://ens.dk/en/our-services/technology-catalogues/technology-data-generation-electricity-and-district-heating,,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_Gas_CCGT_Residual,1,2040,1.21,,MEUR/PJ,Gas Turbine combined cycle extraction natural gas large - https://ens.dk/en/our-services/technology-catalogues/technology-data-generation-electricity-and-district-heating,,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_Gas_CCGT_Residual,1,2045,1.2,,MEUR/PJ,Gas Turbine combined cycle extraction natural gas large - https://ens.dk/en/our-services/technology-catalogues/technology-data-generation-electricity-and-district-heating,,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_Gas_CCGT_Residual,1,2050,1.18,,MEUR/PJ,Gas Turbine combined cycle extraction natural gas large - https://ens.dk/en/our-services/technology-catalogues/technology-data-generation-electricity-and-district-heating,,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_Gas_CCGT_Residual,1,2055,1.18,,MEUR/PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,P_Gas_CCGT_Residual,1,2060,1.18,,MEUR/PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,P_Gas_CCGT_Residual,1,2026,1.264,,MEUR/PJ,interpolated,,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_Gas_CCGT_Residual,1,2027,1.258,,MEUR/PJ,interpolated,,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_Gas_CCGT_Residual,1,2028,1.252,,MEUR/PJ,interpolated,,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_Gas_CCGT_Residual,1,2029,1.246,,MEUR/PJ,interpolated,,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_Gas_CCGT_Residual,1,2031,1.238,,MEUR/PJ,interpolated,,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_Gas_CCGT_Residual,1,2032,1.236,,MEUR/PJ,interpolated,,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_Gas_CCGT_Residual,1,2033,1.234,,MEUR/PJ,interpolated,,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_Gas_CCGT_Residual,1,2034,1.232,,MEUR/PJ,interpolated,,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_Gas_CCGT_Residual,1,2036,1.226,,MEUR/PJ,interpolated,,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_Gas_CCGT_Residual,1,2037,1.222,,MEUR/PJ,interpolated,,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_Gas_CCGT_Residual,1,2038,1.218,,MEUR/PJ,interpolated,,Alena Diesing <ad@wip.tu-berlin.de>
+World,P_Gas_CCGT_Residual,1,2039,1.214,,MEUR/PJ,interpolated,,Alena Diesing <ad@wip.tu-berlin.de>
