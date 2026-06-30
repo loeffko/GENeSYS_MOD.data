@@ -28,6 +28,13 @@ combines them into the Excel files the model (`GENeSYS_MOD.jl`) reads.
 - `Set_filter_file.xlsx` is the **universal** filter (every set member present);
   per-region presets (`Set_filter_file_MiddleEarth.xlsx`,
   `Set_filter_file_NorthAmerica.xlsx`) enable a chosen subset.
+- **When adding a new set member** (technology, region, fuel, storage, emission,
+  mode, sector, ...): besides the parameter CSVs and `Sets_*.csv`, you MUST also
+  add a row for it in the matching `*_selection` sheet (`Technology_selection`,
+  `Region_selection`, `Fuel_selection`, ...) of EVERY `Set_filter_file*.xlsx` you
+  intend to run, with the `... selected` flag = 1. Otherwise `master_function`
+  filters the new member OUT of the converted Excel and the model never sees it.
+  (Add via openpyxl so the workbook's other sheets are preserved.)
 - A `scenario_option` must match an existing scenario subfolder name, or be
   `'None'`. A folder with only a `dummy.txt` marker is enough to register a
   scenario whose data lives entirely in the base CSVs.
