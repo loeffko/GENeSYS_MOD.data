@@ -15,3 +15,19 @@ EGS,ERCOT,2037,2.4,,GW,EGS build-rate smoothing (TU Berlin assumption),2026-06-0
 EGS,ERCOT,2038,2.4,,GW,EGS build-rate smoothing (TU Berlin assumption),2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 EGS,ERCOT,2039,2.4,,GW,EGS build-rate smoothing (TU Berlin assumption),2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 EGS,ERCOT,2040,2.4,,GW,EGS build-rate smoothing (TU Berlin assumption),2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasPlants,USA,2025,65.0,,GW,gas annual-additions group cap (TU Berlin assumption),2026-06-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasPlants,USA,2026,65.0,,GW,gas annual-additions group cap (TU Berlin assumption),2026-06-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasPlants,USA,2027,65.0,,GW,gas annual-additions group cap (TU Berlin assumption),2026-06-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasPlants,USA,2028,65.0,,GW,gas annual-additions group cap (TU Berlin assumption),2026-06-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasPlants,USA,2029,65.0,,GW,gas annual-additions group cap (TU Berlin assumption),2026-06-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasPlants,USA,2030,65.0,,GW,gas annual-additions group cap (TU Berlin assumption),2026-06-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasPlants,USA,2031,65.0,,GW,gas annual-additions group cap (TU Berlin assumption),2026-06-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasPlants,USA,2032,65.0,,GW,gas annual-additions group cap (TU Berlin assumption),2026-06-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasPlants,USA,2033,65.0,,GW,gas annual-additions group cap (TU Berlin assumption),2026-06-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasPlants,USA,2034,65.0,,GW,gas annual-additions group cap (TU Berlin assumption),2026-06-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasPlants,USA,2035,65.0,,GW,gas annual-additions group cap (TU Berlin assumption),2026-06-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasPlants,USA,2036,65.0,,GW,gas annual-additions group cap (TU Berlin assumption),2026-06-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasPlants,USA,2037,65.0,,GW,gas annual-additions group cap (TU Berlin assumption),2026-06-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasPlants,USA,2038,65.0,,GW,gas annual-additions group cap (TU Berlin assumption),2026-06-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasPlants,USA,2039,65.0,,GW,gas annual-additions group cap (TU Berlin assumption),2026-06-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasPlants,USA,2040,65.0,,GW,gas annual-additions group cap (TU Berlin assumption),2026-06-30,Konstantin Loffler <kl@wip.tu-berlin.de>
