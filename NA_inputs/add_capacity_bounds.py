@@ -608,7 +608,7 @@ def main():
                     res_val += conv_add[y] * coal_share.get(region, 0.0)
                 if tech == "P_Gas_CCGT":
                     # existing CCGT fleet -> permit-limited P_Gas_CCGT_Residual (av 0.5);
-                    # P_Gas_CCGT itself becomes new-build only (no residual).
+                    # P_Gas_CCGT carries no residual (it is the new-build headroom).
                     res_rows.append((region, "P_Gas_CCGT_Residual", y, round(res_val, 6)))
                     res_rows.append((region, "P_Gas_CCGT", y, 0.0))
                 else:
@@ -668,25 +668,30 @@ def main():
                     # since the base year only; see conv_add)
                     gs_res = base * residual_factor(tech, y) + conv_add[y] * coal_share.get(region, 0.0)
                     rep_max = max(rep_max, gs_res)
+                rep_max_exact = rep_max   # funnel max BEFORE the monotonic peak-hold (= the
+                                          # exact per-year file value for CA/NE/NY where mx=1.0)
                 if tech in MONOTONIC_MAX_TECHS:
                     rep_max = max(rep_max, running_max)
                     running_max = rep_max
                 if tech == "P_Gas_CCGT":
-                    # Split the CCGT funnel band: existing fleet -> pinned,
-                    # non-buildable _Residual (= the decaying residual, av 0.5);
-                    # P_Gas_CCGT (av 0.8) = NEW build = the band minus the existing
-                    # fleet. In the no-add regions, forbid NEW gas entirely so only
-                    # the permit-limited existing fleet remains.
+                    # Split the CCGT funnel band: existing fleet -> pinned, non-buildable
+                    # _Residual (= the decaying residual, av 0.5); P_Gas_CCGT (av 0.8) = the
+                    # band MINUS the existing fleet (min = funnel - residual). For the MAX:
+                    # CA/NE/NY get EXACTLY the data entry (mx=1.0, no monotonic hold) minus the
+                    # fleet -> total CCGT = the file value exactly; other regions use the
+                    # widened (monotonic) funnel max minus the fleet -> allowed to build more.
                     rv = base * residual_factor("P_Gas_CCGT", y)
+                    # _Residual is pinned to the existing fleet: write both max AND min =
+                    # ResidualCapacity. Redundant in the model (the residual already floors
+                    # it) but makes run-to-run capacity diffs easier to read.
                     max_rows.append((region, "P_Gas_CCGT_Residual", y, round(rv, 6)))
-                    if region in GAS_NO_ADD_REGIONS:
-                        max_rows.append((region, "P_Gas_CCGT", y, FORBID_EPS))
-                    else:
-                        new_min = max(0.0, rep_min - rv)
-                        new_max = max(FORBID_EPS, rep_max - rv)
-                        if new_min > 0:
-                            min_rows.append((region, "P_Gas_CCGT", y, round(new_min, 6)))
-                        max_rows.append((region, "P_Gas_CCGT", y, round(new_max, 6)))
+                    min_rows.append((region, "P_Gas_CCGT_Residual", y, round(rv, 6)))
+                    cap_max = rep_max_exact if region in GAS_NO_ADD_REGIONS else rep_max
+                    new_min = max(0.0, rep_min - rv)
+                    new_max = max(FORBID_EPS, cap_max - rv)
+                    if new_min > 0:
+                        min_rows.append((region, "P_Gas_CCGT", y, round(new_min, 6)))
+                    max_rows.append((region, "P_Gas_CCGT", y, round(new_max, 6)))
                 else:
                     min_rows.append((region, tech, y, round(rep_min, 6)))
                     max_rows.append((region, tech, y, round(rep_max, 6)))

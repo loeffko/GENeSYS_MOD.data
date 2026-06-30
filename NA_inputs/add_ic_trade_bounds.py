@@ -52,9 +52,9 @@ GROWTH_COST = 0.444626714                        # M€/GWkm, Saadi et al. (2018
 # Cap each corridor's AnnualMax growth at IC_GROWTH_RATE/yr off its existing capacity
 # (corridor = max of both directions); the IC High value stays the hard ceiling. New
 # (0-capacity) corridors get NEW_CORRIDOR_SEED so a fresh tie can still grow modestly.
-IC_GROWTH_RATE = 0.05        # 5%/yr per corridor (raised from 3%, which grew the grid too
-                             # slowly): above Princeton's ~2.3%/yr realistic-accelerated pace,
-                             # within the DOE/NTP +2..5x 2035-clean need band.
+IC_GROWTH_RATE = 0.04        # 4%/yr per corridor (3% grew the grid too slowly, 5% a tad much):
+                             # above Princeton's ~2.3%/yr realistic-accelerated pace, within the
+                             # DOE/NTP +2..5x 2035-clean need band.
 NEW_CORRIDOR_SEED = 2.0      # GW base for 0-capacity corridors so new ties aren't blocked
 DATE, WHO = "2026-06-25", "Konstantin Loffler <kl@wip.tu-berlin.de>"
 
