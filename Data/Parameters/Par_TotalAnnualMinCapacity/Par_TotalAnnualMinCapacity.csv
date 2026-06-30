@@ -20,6 +20,100 @@ PT,P_Wind_Offshore_Deep,2026,0.42,,GW,interpolated,15.04.2025,Nikita Moskalenko 
 PT,P_Wind_Offshore_Deep,2027,0.815,,GW,interpolated,15.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 PT,P_Wind_Offshore_Deep,2028,1.21,,GW,interpolated,15.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 PT,P_Wind_Offshore_Deep,2029,1.605,,GW,interpolated,15.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+California,P_Wind_Offshore_Shallow,2025,0.0,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Offshore_Shallow,2026,0.0,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Offshore_Shallow,2027,0.0,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Offshore_Shallow,2028,0.0,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Offshore_Shallow,2029,0.0,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Offshore_Shallow,2030,0.0,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Offshore_Shallow,2031,0.0,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Offshore_Shallow,2032,0.0,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Offshore_Shallow,2033,0.0,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Offshore_Shallow,2034,0.0,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Offshore_Shallow,2035,0.0,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Offshore_Shallow,2036,0.0,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Offshore_Shallow,2037,0.0,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Offshore_Shallow,2038,0.0,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Offshore_Shallow,2039,0.0,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Offshore_Shallow,2040,0.0,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Offshore_Shallow,2025,0.0,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Offshore_Shallow,2026,0.88,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Offshore_Shallow,2027,1.51,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Offshore_Shallow,2028,1.51,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Offshore_Shallow,2029,1.51,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Offshore_Shallow,2030,1.51,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Offshore_Shallow,2031,1.51,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Offshore_Shallow,2032,1.51,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Offshore_Shallow,2033,1.51,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Offshore_Shallow,2034,1.51,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Offshore_Shallow,2035,1.51,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Offshore_Shallow,2036,1.51,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Offshore_Shallow,2037,1.51,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Offshore_Shallow,2038,1.51,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Offshore_Shallow,2039,1.51,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Offshore_Shallow,2040,1.51,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Offshore_Shallow,2025,0.0,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Offshore_Shallow,2026,0.0,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Offshore_Shallow,2027,0.26,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Offshore_Shallow,2028,1.68,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Offshore_Shallow,2029,1.68,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Offshore_Shallow,2030,1.68,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Offshore_Shallow,2031,1.68,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Offshore_Shallow,2032,1.68,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Offshore_Shallow,2033,1.68,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Offshore_Shallow,2034,1.68,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Offshore_Shallow,2035,1.68,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Offshore_Shallow,2036,1.68,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Offshore_Shallow,2037,1.68,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Offshore_Shallow,2038,1.68,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Offshore_Shallow,2039,1.68,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Offshore_Shallow,2040,1.68,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Offshore_Shallow,2025,0.0,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Offshore_Shallow,2026,0.0,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Offshore_Shallow,2027,1.3,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Offshore_Shallow,2028,2.6,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Offshore_Shallow,2029,2.6,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Offshore_Shallow,2030,2.6,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Offshore_Shallow,2031,2.6,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Offshore_Shallow,2032,2.6,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Offshore_Shallow,2033,2.6,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Offshore_Shallow,2034,2.6,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Offshore_Shallow,2035,2.6,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Offshore_Shallow,2036,3.1,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Offshore_Shallow,2037,3.1,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Offshore_Shallow,2038,3.1,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Offshore_Shallow,2039,3.1,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Offshore_Shallow,2040,3.1,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Gas_CCGT_Residual,2026,21.72764,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Gas_CCGT,2026,1.548144,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Gas_CCGT_Residual,2027,20.58408,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Gas_CCGT,2027,2.755796,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Gas_CCGT_Residual,2028,19.44052,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Gas_CCGT,2028,3.906216,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Gas_CCGT_Residual,2029,18.29696,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Gas_CCGT,2029,4.805115,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Gas_CCGT_Residual,2030,17.1534,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Gas_CCGT,2030,5.972416,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Gas_CCGT_Residual,2031,16.00984,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Gas_CCGT,2031,6.839847,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Gas_CCGT_Residual,2032,14.86628,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Gas_CCGT,2032,7.708118,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Gas_CCGT_Residual,2033,13.72272,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Gas_CCGT,2033,8.136443,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Gas_CCGT_Residual,2034,12.57916,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Gas_CCGT,2034,9.009302,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Gas_CCGT_Residual,2035,11.4356,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Gas_CCGT,2035,9.88216,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Gas_CCGT_Residual,2036,10.29204,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Gas_CCGT,2036,11.02572,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Gas_CCGT_Residual,2037,9.14848,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Gas_CCGT,2037,12.16928,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Gas_CCGT_Residual,2038,8.00492,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Gas_CCGT,2038,13.31284,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Gas_CCGT_Residual,2039,6.86136,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Gas_CCGT,2039,14.4564,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Gas_CCGT_Residual,2040,5.7178,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Gas_CCGT,2040,15.59996,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 California,P_Gas_OCGT,2026,10.914946,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 California,P_Gas_OCGT,2027,10.870846,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 California,P_Gas_OCGT,2028,10.875452,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
@@ -207,20 +301,35 @@ California,D_PHS,2039,4.0,,GW,US Pools widening band (min); Nuclear=LSR trajecto
 California,D_Battery_Li-Ion,2039,49.576752,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 California,D_PHS,2040,4.0,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 California,D_Battery_Li-Ion,2040,51.65451,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Gas_CCGT_Residual,2026,36.015165,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 ERCOT,P_Gas_CCGT,2026,1.244729,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Gas_CCGT_Residual,2027,34.11963,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 ERCOT,P_Gas_CCGT,2027,3.297064,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Gas_CCGT_Residual,2028,32.224095,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 ERCOT,P_Gas_CCGT,2028,8.072035,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Gas_CCGT_Residual,2029,30.32856,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 ERCOT,P_Gas_CCGT,2029,19.378041,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Gas_CCGT_Residual,2030,28.433025,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 ERCOT,P_Gas_CCGT,2030,27.139168,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Gas_CCGT_Residual,2031,26.53749,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 ERCOT,P_Gas_CCGT,2031,35.879937,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Gas_CCGT_Residual,2032,24.641955,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 ERCOT,P_Gas_CCGT,2032,39.732106,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Gas_CCGT_Residual,2033,22.74642,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 ERCOT,P_Gas_CCGT,2033,41.588812,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Gas_CCGT_Residual,2034,20.850885,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 ERCOT,P_Gas_CCGT,2034,42.687626,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Gas_CCGT_Residual,2035,18.95535,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 ERCOT,P_Gas_CCGT,2035,43.6725,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Gas_CCGT_Residual,2036,17.059815,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 ERCOT,P_Gas_CCGT,2036,45.568035,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Gas_CCGT_Residual,2037,15.16428,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 ERCOT,P_Gas_CCGT,2037,47.46357,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Gas_CCGT_Residual,2038,13.268745,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 ERCOT,P_Gas_CCGT,2038,49.359105,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Gas_CCGT_Residual,2039,11.37321,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 ERCOT,P_Gas_CCGT,2039,51.25464,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Gas_CCGT_Residual,2040,9.477675,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 ERCOT,P_Gas_CCGT,2040,53.150175,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 ERCOT,P_Gas_OCGT,2026,9.944354,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 ERCOT,P_Gas_OCGT,2027,11.023922,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
@@ -409,20 +518,35 @@ ERCOT,D_PHS,2039,0.0,,GW,US Pools widening band (min); Nuclear=LSR trajectory (P
 ERCOT,D_Battery_Li-Ion,2039,49.501512,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 ERCOT,D_PHS,2040,0.0,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 ERCOT,D_Battery_Li-Ion,2040,49.62303,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Gas_CCGT_Residual,2026,34.93188,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 MISO,P_Gas_CCGT,2026,3.077224,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Gas_CCGT_Residual,2027,33.09336,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 MISO,P_Gas_CCGT,2027,6.081062,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Gas_CCGT_Residual,2028,31.25484,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 MISO,P_Gas_CCGT,2028,10.769716,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Gas_CCGT_Residual,2029,29.41632,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 MISO,P_Gas_CCGT,2029,16.988034,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Gas_CCGT_Residual,2030,27.5778,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 MISO,P_Gas_CCGT,2030,25.341767,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Gas_CCGT_Residual,2031,25.73928,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 MISO,P_Gas_CCGT,2031,32.646472,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Gas_CCGT_Residual,2032,23.90076,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 MISO,P_Gas_CCGT,2032,36.218844,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Gas_CCGT_Residual,2033,22.06224,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 MISO,P_Gas_CCGT,2033,38.518163,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Gas_CCGT_Residual,2034,20.22372,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 MISO,P_Gas_CCGT,2034,41.786963,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Gas_CCGT_Residual,2035,18.3852,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 MISO,P_Gas_CCGT,2035,44.08308,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Gas_CCGT_Residual,2036,16.54668,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 MISO,P_Gas_CCGT,2036,45.9216,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Gas_CCGT_Residual,2037,14.70816,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 MISO,P_Gas_CCGT,2037,47.76012,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Gas_CCGT_Residual,2038,12.86964,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 MISO,P_Gas_CCGT,2038,49.59864,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Gas_CCGT_Residual,2039,11.03112,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 MISO,P_Gas_CCGT,2039,51.43716,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Gas_CCGT_Residual,2040,9.1926,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 MISO,P_Gas_CCGT,2040,53.27568,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 MISO,P_Gas_OCGT,2026,24.884454,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 MISO,P_Gas_OCGT,2027,25.41238,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
@@ -621,6 +745,36 @@ MISO,P_Wind_Onshore_Avg,2037,5.149797,,GW,US Pools widening band (min); Nuclear=
 MISO,P_Wind_Onshore_Avg,2038,5.149797,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 MISO,P_Wind_Onshore_Avg,2039,5.149797,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 MISO,P_Wind_Onshore_Avg,2040,5.149797,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Gas_CCGT_Residual,2026,12.548455,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Gas_CCGT,2026,0.396659,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Gas_CCGT_Residual,2027,11.88801,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Gas_CCGT,2027,1.073078,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Gas_CCGT_Residual,2028,11.227565,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Gas_CCGT,2028,1.704613,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Gas_CCGT_Residual,2029,10.56712,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Gas_CCGT,2029,2.21318,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Gas_CCGT_Residual,2030,9.906675,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Gas_CCGT,2030,2.722825,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Gas_CCGT_Residual,2031,9.24623,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Gas_CCGT,2031,3.23247,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Gas_CCGT_Residual,2032,8.585785,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Gas_CCGT,2032,3.743143,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Gas_CCGT_Residual,2033,7.92534,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Gas_CCGT,2033,4.191313,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Gas_CCGT_Residual,2034,7.264895,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Gas_CCGT,2034,4.654859,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Gas_CCGT_Residual,2035,6.60445,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Gas_CCGT,2035,5.16584,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Gas_CCGT_Residual,2036,5.944005,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Gas_CCGT,2036,5.826285,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Gas_CCGT_Residual,2037,5.28356,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Gas_CCGT,2037,6.48673,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Gas_CCGT_Residual,2038,4.623115,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Gas_CCGT,2038,7.147175,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Gas_CCGT_Residual,2039,3.96267,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Gas_CCGT,2039,7.80762,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Gas_CCGT_Residual,2040,3.302225,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Gas_CCGT,2040,8.468065,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewEngland,P_Gas_OCGT,2026,1.222158,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewEngland,P_Gas_OCGT,2027,1.225882,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewEngland,P_Gas_OCGT,2028,1.20148,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
@@ -823,6 +977,36 @@ NewEngland,P_Wind_Onshore_Avg,2037,1.190322,,GW,US Pools widening band (min); Nu
 NewEngland,P_Wind_Onshore_Avg,2038,1.190322,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewEngland,P_Wind_Onshore_Avg,2039,1.190322,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewEngland,P_Wind_Onshore_Avg,2040,1.190322,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Gas_CCGT_Residual,2026,11.731265,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Gas_CCGT,2026,0.294805,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Gas_CCGT_Residual,2027,11.11383,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Gas_CCGT,2027,0.922922,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Gas_CCGT_Residual,2028,10.496395,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Gas_CCGT,2028,1.520757,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Gas_CCGT_Residual,2029,9.87896,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Gas_CCGT,2029,2.039408,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Gas_CCGT_Residual,2030,9.261525,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Gas_CCGT,2030,2.545981,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Gas_CCGT_Residual,2031,8.64409,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Gas_CCGT,2031,3.022431,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Gas_CCGT_Residual,2032,8.026655,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Gas_CCGT,2032,3.500002,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Gas_CCGT_Residual,2033,7.40922,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Gas_CCGT,2033,3.140514,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Gas_CCGT_Residual,2034,6.791785,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Gas_CCGT,2034,3.055745,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Gas_CCGT_Residual,2035,6.17435,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Gas_CCGT,2035,3.49129,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Gas_CCGT_Residual,2036,5.556915,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Gas_CCGT,2036,4.108725,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Gas_CCGT_Residual,2037,4.93948,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Gas_CCGT,2037,4.72616,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Gas_CCGT_Residual,2038,4.322045,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Gas_CCGT,2038,5.343595,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Gas_CCGT_Residual,2039,3.70461,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Gas_CCGT,2039,5.96103,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Gas_CCGT_Residual,2040,3.087175,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Gas_CCGT,2040,6.578465,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewYork,P_Gas_OCGT,2026,2.679712,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewYork,P_Gas_OCGT,2027,2.674224,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewYork,P_Gas_OCGT,2028,2.648646,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
@@ -1024,20 +1208,35 @@ NewYork,P_Wind_Onshore_Avg,2037,1.790999,,GW,US Pools widening band (min); Nucle
 NewYork,P_Wind_Onshore_Avg,2038,1.790999,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewYork,P_Wind_Onshore_Avg,2039,1.790999,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewYork,P_Wind_Onshore_Avg,2040,1.790999,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Gas_CCGT_Residual,2026,57.163875,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 PJM,P_Gas_CCGT,2026,2.611715,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Gas_CCGT_Residual,2027,54.15525,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 PJM,P_Gas_CCGT,2027,6.45677,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Gas_CCGT_Residual,2028,51.146625,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 PJM,P_Gas_CCGT,2028,10.777713,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Gas_CCGT_Residual,2029,48.138,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 PJM,P_Gas_CCGT,2029,16.071118,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Gas_CCGT_Residual,2030,45.129375,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 PJM,P_Gas_CCGT,2030,20.363986,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Gas_CCGT_Residual,2031,42.12075,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 PJM,P_Gas_CCGT,2031,27.716751,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Gas_CCGT_Residual,2032,39.112125,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 PJM,P_Gas_CCGT,2032,31.959924,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Gas_CCGT_Residual,2033,36.1035,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 PJM,P_Gas_CCGT,2033,34.22449,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Gas_CCGT_Residual,2034,33.094875,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 PJM,P_Gas_CCGT,2034,37.154758,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Gas_CCGT_Residual,2035,30.08625,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 PJM,P_Gas_CCGT,2035,38.41896,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Gas_CCGT_Residual,2036,27.077625,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 PJM,P_Gas_CCGT,2036,41.427585,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Gas_CCGT_Residual,2037,24.069,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 PJM,P_Gas_CCGT,2037,44.43621,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Gas_CCGT_Residual,2038,21.060375,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 PJM,P_Gas_CCGT,2038,47.444835,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Gas_CCGT_Residual,2039,18.05175,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 PJM,P_Gas_CCGT,2039,50.45346,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Gas_CCGT_Residual,2040,15.043125,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 PJM,P_Gas_CCGT,2040,53.462085,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 PJM,P_Gas_OCGT,2026,26.467742,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 PJM,P_Gas_OCGT,2027,26.15522,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
@@ -1226,20 +1425,35 @@ PJM,D_PHS,2039,5.0,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK
 PJM,D_Battery_Li-Ion,2039,21.268476,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 PJM,D_PHS,2040,5.0,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 PJM,D_Battery_Li-Ion,2040,22.83678,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Gas_CCGT_Residual,2026,75.034135,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 SERC,P_Gas_CCGT,2026,2.991309,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Gas_CCGT_Residual,2027,71.08497,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 SERC,P_Gas_CCGT,2027,8.818154,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Gas_CCGT_Residual,2028,67.135805,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 SERC,P_Gas_CCGT,2028,14.331301,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Gas_CCGT_Residual,2029,63.18664,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 SERC,P_Gas_CCGT,2029,20.762448,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Gas_CCGT_Residual,2030,59.237475,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 SERC,P_Gas_CCGT,2030,28.670736,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Gas_CCGT_Residual,2031,55.28831,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 SERC,P_Gas_CCGT,2031,37.914575,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Gas_CCGT_Residual,2032,51.339145,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 SERC,P_Gas_CCGT,2032,45.078674,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Gas_CCGT_Residual,2033,47.38998,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 SERC,P_Gas_CCGT,2033,51.745549,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Gas_CCGT_Residual,2034,43.440815,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 SERC,P_Gas_CCGT,2034,56.557209,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Gas_CCGT_Residual,2035,39.49165,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 SERC,P_Gas_CCGT,2035,60.14897,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Gas_CCGT_Residual,2036,35.542485,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 SERC,P_Gas_CCGT,2036,64.098135,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Gas_CCGT_Residual,2037,31.59332,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 SERC,P_Gas_CCGT,2037,68.0473,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Gas_CCGT_Residual,2038,27.644155,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 SERC,P_Gas_CCGT,2038,71.996465,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Gas_CCGT_Residual,2039,23.69499,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 SERC,P_Gas_CCGT,2039,75.94563,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Gas_CCGT_Residual,2040,19.745825,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 SERC,P_Gas_CCGT,2040,79.894795,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 SERC,P_Gas_OCGT,2026,40.158538,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 SERC,P_Gas_OCGT,2027,40.371884,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
@@ -1439,20 +1653,35 @@ SERC,P_PV_Utility_Avg,2037,19.274199,,GW,US Pools widening band (min); Nuclear=L
 SERC,P_PV_Utility_Avg,2038,19.274199,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 SERC,P_PV_Utility_Avg,2039,19.274199,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 SERC,P_PV_Utility_Avg,2040,19.274199,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Gas_CCGT_Residual,2026,10.57882,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 SPP,P_Gas_CCGT,2026,0.48489,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Gas_CCGT_Residual,2027,10.02204,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 SPP,P_Gas_CCGT,2027,1.11615,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Gas_CCGT_Residual,2028,9.46526,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 SPP,P_Gas_CCGT,2028,2.18841,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Gas_CCGT_Residual,2029,8.90848,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 SPP,P_Gas_CCGT,2029,5.61951,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Gas_CCGT_Residual,2030,8.3517,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 SPP,P_Gas_CCGT,2030,12.868923,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Gas_CCGT_Residual,2031,7.79492,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 SPP,P_Gas_CCGT,2031,19.302159,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Gas_CCGT_Residual,2032,7.23814,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 SPP,P_Gas_CCGT,2032,20.876946,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Gas_CCGT_Residual,2033,6.68136,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 SPP,P_Gas_CCGT,2033,23.007047,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Gas_CCGT_Residual,2034,6.12458,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 SPP,P_Gas_CCGT,2034,24.916307,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Gas_CCGT_Residual,2035,5.5678,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 SPP,P_Gas_CCGT,2035,25.79765,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Gas_CCGT_Residual,2036,5.01102,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 SPP,P_Gas_CCGT,2036,26.35443,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Gas_CCGT_Residual,2037,4.45424,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 SPP,P_Gas_CCGT,2037,26.91121,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Gas_CCGT_Residual,2038,3.89746,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 SPP,P_Gas_CCGT,2038,27.46799,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Gas_CCGT_Residual,2039,3.34068,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 SPP,P_Gas_CCGT,2039,28.02477,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Gas_CCGT_Residual,2040,2.7839,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 SPP,P_Gas_CCGT,2040,28.58155,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 SPP,P_Gas_OCGT,2026,11.600064,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 SPP,P_Gas_OCGT,2027,13.120044,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
@@ -1641,20 +1870,35 @@ SPP,D_PHS,2039,0.0,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK
 SPP,D_Battery_Li-Ion,2039,6.101892,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 SPP,D_PHS,2040,0.0,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 SPP,D_Battery_Li-Ion,2040,6.45435,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Gas_CCGT_Residual,2026,28.04666,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 WECC,P_Gas_CCGT,2026,1.070904,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Gas_CCGT_Residual,2027,26.57052,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 WECC,P_Gas_CCGT,2027,2.61878,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Gas_CCGT_Residual,2028,25.09438,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 WECC,P_Gas_CCGT,2028,4.034356,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Gas_CCGT_Residual,2029,23.61824,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 WECC,P_Gas_CCGT,2029,5.169253,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Gas_CCGT_Residual,2030,22.1421,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 WECC,P_Gas_CCGT,2030,6.458286,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Gas_CCGT_Residual,2031,20.66596,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 WECC,P_Gas_CCGT,2031,7.826331,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Gas_CCGT_Residual,2032,19.18982,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 WECC,P_Gas_CCGT,2032,9.071669,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Gas_CCGT_Residual,2033,17.71368,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 WECC,P_Gas_CCGT,2033,10.264119,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Gas_CCGT_Residual,2034,16.23754,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 WECC,P_Gas_CCGT,2034,11.393784,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Gas_CCGT_Residual,2035,14.7614,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 WECC,P_Gas_CCGT,2035,12.45523,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Gas_CCGT_Residual,2036,13.28526,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 WECC,P_Gas_CCGT,2036,13.93137,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Gas_CCGT_Residual,2037,11.80912,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 WECC,P_Gas_CCGT,2037,15.40751,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Gas_CCGT_Residual,2038,10.33298,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 WECC,P_Gas_CCGT,2038,16.88365,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Gas_CCGT_Residual,2039,8.85684,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 WECC,P_Gas_CCGT,2039,18.35979,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Gas_CCGT_Residual,2040,7.3807,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 WECC,P_Gas_CCGT,2040,19.83593,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 WECC,P_Gas_OCGT,2026,12.154352,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 WECC,P_Gas_OCGT,2027,13.044388,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
@@ -2091,67 +2335,3 @@ Canada,P_Nuclear_SMR,2037,0.315,,GW,US Pools widening band (min); Nuclear=LSR tr
 Canada,P_Nuclear_SMR,2038,0.315,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 Canada,P_Nuclear_SMR,2039,0.315,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 Canada,P_Nuclear_SMR,2040,0.315,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Offshore_Shallow,2025,0.0,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Offshore_Shallow,2026,0.0,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Offshore_Shallow,2027,0.0,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Offshore_Shallow,2028,0.0,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Offshore_Shallow,2029,0.0,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Offshore_Shallow,2030,0.0,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Offshore_Shallow,2031,0.0,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Offshore_Shallow,2032,0.0,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Offshore_Shallow,2033,0.0,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Offshore_Shallow,2034,0.0,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Offshore_Shallow,2035,0.0,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Offshore_Shallow,2036,0.0,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Offshore_Shallow,2037,0.0,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Offshore_Shallow,2038,0.0,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Offshore_Shallow,2039,0.0,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Offshore_Shallow,2040,0.0,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Offshore_Shallow,2025,0.0,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Offshore_Shallow,2026,0.88,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Offshore_Shallow,2027,1.51,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Offshore_Shallow,2028,1.51,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Offshore_Shallow,2029,1.51,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Offshore_Shallow,2030,1.51,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Offshore_Shallow,2031,1.51,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Offshore_Shallow,2032,1.51,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Offshore_Shallow,2033,1.51,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Offshore_Shallow,2034,1.51,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Offshore_Shallow,2035,1.51,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Offshore_Shallow,2036,1.51,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Offshore_Shallow,2037,1.51,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Offshore_Shallow,2038,1.51,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Offshore_Shallow,2039,1.51,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Offshore_Shallow,2040,1.51,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Offshore_Shallow,2025,0.0,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Offshore_Shallow,2026,0.0,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Offshore_Shallow,2027,0.26,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Offshore_Shallow,2028,1.68,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Offshore_Shallow,2029,1.68,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Offshore_Shallow,2030,1.68,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Offshore_Shallow,2031,1.68,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Offshore_Shallow,2032,1.68,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Offshore_Shallow,2033,1.68,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Offshore_Shallow,2034,1.68,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Offshore_Shallow,2035,1.68,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Offshore_Shallow,2036,1.68,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Offshore_Shallow,2037,1.68,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Offshore_Shallow,2038,1.68,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Offshore_Shallow,2039,1.68,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Offshore_Shallow,2040,1.68,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Offshore_Shallow,2025,0.0,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Offshore_Shallow,2026,0.0,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Offshore_Shallow,2027,1.3,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Offshore_Shallow,2028,2.6,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Offshore_Shallow,2029,2.6,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Offshore_Shallow,2030,2.6,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Offshore_Shallow,2031,2.6,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Offshore_Shallow,2032,2.6,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Offshore_Shallow,2033,2.6,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Offshore_Shallow,2034,2.6,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Offshore_Shallow,2035,2.6,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Offshore_Shallow,2036,3.1,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Offshore_Shallow,2037,3.1,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Offshore_Shallow,2038,3.1,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Offshore_Shallow,2039,3.1,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Offshore_Shallow,2040,3.1,,GW,"SLA Offshore Wind Scenarios (Low Case, cumulative)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
