@@ -2464,3 +2464,23 @@ World,P_EGS_R2,All,0.9,,Fraction,"EGS_LCOE_model.xlsx (Central scenario, ATB 202
 World,P_EGS_R3,All,0.9,,Fraction,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 World,P_EGS_R4,All,0.9,,Fraction,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 World,P_Gas_CCGT_Residual,All,0.5,,Fraction,https://www.europarl.europa.eu/RegData/etudes/STUD/2023/740094/IPOL_STU(2023)740094_EN.pdf,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
+California,P_Nuclear,All,0.9,,Fraction,US nuclear fleet CF ~0.93 (NEI/EIA); capped at 0.90 per assumption,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Nuclear,All,0.9,,Fraction,US nuclear fleet CF ~0.93 (NEI/EIA); capped at 0.90 per assumption,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Nuclear,All,0.9,,Fraction,US nuclear fleet CF ~0.93 (NEI/EIA); capped at 0.90 per assumption,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Nuclear,All,0.9,,Fraction,US nuclear fleet CF ~0.93 (NEI/EIA); capped at 0.90 per assumption,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Nuclear,All,0.9,,Fraction,US nuclear fleet CF ~0.93 (NEI/EIA); capped at 0.90 per assumption,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Nuclear,All,0.9,,Fraction,US nuclear fleet CF ~0.93 (NEI/EIA); capped at 0.90 per assumption,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Nuclear,All,0.9,,Fraction,US nuclear fleet CF ~0.93 (NEI/EIA); capped at 0.90 per assumption,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Nuclear,All,0.9,,Fraction,US nuclear fleet CF ~0.93 (NEI/EIA); capped at 0.90 per assumption,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Nuclear,All,0.9,,Fraction,US nuclear fleet CF ~0.93 (NEI/EIA); capped at 0.90 per assumption,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Nuclear,All,0.85,,Fraction,CANDU fleet ~0.80-0.88 during Bruce/Darlington refurbishment era (CNSC),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Nuclear_SMR,All,0.9,,Fraction,US nuclear fleet CF ~0.93 (NEI/EIA); capped at 0.90 per assumption,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Nuclear_SMR,All,0.9,,Fraction,US nuclear fleet CF ~0.93 (NEI/EIA); capped at 0.90 per assumption,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Nuclear_SMR,All,0.9,,Fraction,US nuclear fleet CF ~0.93 (NEI/EIA); capped at 0.90 per assumption,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Nuclear_SMR,All,0.9,,Fraction,US nuclear fleet CF ~0.93 (NEI/EIA); capped at 0.90 per assumption,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Nuclear_SMR,All,0.9,,Fraction,US nuclear fleet CF ~0.93 (NEI/EIA); capped at 0.90 per assumption,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Nuclear_SMR,All,0.9,,Fraction,US nuclear fleet CF ~0.93 (NEI/EIA); capped at 0.90 per assumption,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Nuclear_SMR,All,0.9,,Fraction,US nuclear fleet CF ~0.93 (NEI/EIA); capped at 0.90 per assumption,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Nuclear_SMR,All,0.9,,Fraction,US nuclear fleet CF ~0.93 (NEI/EIA); capped at 0.90 per assumption,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Nuclear_SMR,All,0.9,,Fraction,US nuclear fleet CF ~0.93 (NEI/EIA); capped at 0.90 per assumption,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Nuclear_SMR,All,0.85,,Fraction,CANDU fleet ~0.80-0.88 during Bruce/Darlington refurbishment era (CNSC),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
