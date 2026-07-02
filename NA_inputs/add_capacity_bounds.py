@@ -8,8 +8,14 @@ do not overlap:
                                  LINEAR retirement of 5% of the 2025 fleet per
                                  year (constant absolute). P_Nuclear is held
                                  flat (rate 0) — fleet assumed to stay on.
-                                 Gas techs additionally get a monotonic
-                                 (never-decreasing) TotalAnnualMaxCapacity.
+                                 EXCEPTIONS: CCGT+OCGT follow the national
+                                 announced-retirement schedule GAS_RETIREMENT_GW
+                                 (~26 GW to 2035, ramping to 13 GW/yr by 2040,
+                                 allocated by 2025 fleet share); P_Gas_Steam
+                                 follows the capacity file's own per-region ST
+                                 decline (trend-extended past 2035). Gas techs
+                                 additionally get a monotonic (never-decreasing)
+                                 TotalAnnualMaxCapacity.
                                  Hydro is the exception: split reservoir/RoR,
                                  residual held FLAT (no retirement) with growth
                                  forced via a strict TotalAnnualMinCapacity (see
@@ -59,7 +65,7 @@ import openpyxl
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA_REPO = os.path.normpath(os.path.join(HERE, ".."))
-SRC = os.path.join(HERE, "US Pools - Generation and Capacity.xlsx")
+SRC = os.path.join(HERE, "US Pools - Generation and Capacity_v2.xlsx")
 # US nuclear forecast (per-unit; Summary "Total LSR") + US coal trajectory model
 NUCLEAR_SRC = os.path.join(HERE, "PMK_Nuclear Operating and Forecast Through 2040_4.15.2026.xlsx")
 COAL_SRC = os.path.join(HERE, "Coal_Trajectory_Model.xlsx")
@@ -430,6 +436,21 @@ def residual_factor(tech, year):
     rate = RETIRE_RATE_PER_TECH.get(tech, RETIRE_RATE_DEFAULT)
     return max(0.0, 1.0 - rate * (year - 2025))
 
+# US gas retirements, CCGT + OCGT combined (announced pipeline, national GW/yr).
+# The US CCGT fleet is young (1999-2005 build wave), so pre-2035 retirements are
+# low; post-2035 the schedule ramps toward ~13 GW/yr as that wave hits end of
+# life. Allocated proportional to each pool's 2025 CCGT+SCCT fleet (= uniform
+# survival fraction on the national fleet). Steam is NOT on this schedule: its
+# residual follows the capacity file's own per-region ST decline (net ~= gross
+# for steam — no new gas-steam is built), extended post-2035 by the 2030-2035
+# regional trend. Engines keep the default rate (tiny, net-growing fleet).
+# Canada stays on the default rate (CER data, not this US schedule).
+GAS_RETIREMENT_GW = {2026: 0.8, 2027: 0.8, 2028: 1.6, 2029: 2.7, 2030: 0.9,
+                     2031: 2.2, 2032: 3.3, 2033: 3.5, 2034: 4.7, 2035: 5.5,
+                     2036: 7.0, 2037: 8.5, 2038: 10.0, 2039: 11.5, 2040: 13.0}
+GAS_SCHEDULE_TECHS = {"P_Gas_CCGT", "P_Gas_OCGT"}
+GAS_SCHEDULE_CATS = ("Natural Gas - CCCT", "Natural Gas - SCCT")
+
 def hydro_sheet_traj(values_2025_2035):
     """Hydro capacity trajectory: the US Pools sheet 2025-2035 verbatim, with
     2036-2040 linearly extrapolated from the 2030-2035 trend. `values_2025_2035`
@@ -578,6 +599,14 @@ def main():
     coal_tot = sum(coal_2025.values())
     coal_share = {r: (coal_2025[r] / coal_tot if coal_tot else 0.0) for r in pool_regions}
 
+    # CCGT+OCGT survival fraction from the national retirement schedule:
+    # proportional allocation over the 2025 fleet = one national fraction path.
+    nat_gas_2025 = sum(gw(r, c, 2025) for r in pool_regions for c in GAS_SCHEDULE_CATS)
+    gas_surv, _cum = {2025: 1.0}, 0.0
+    for y in YEARS[1:]:
+        _cum += GAS_RETIREMENT_GW.get(y, 0.0)
+        gas_surv[y] = max(0.0, 1.0 - _cum / nat_gas_2025) if nat_gas_2025 else 1.0
+
     # US nuclear LSR trajectory per pool region (Canada nuclear = CER block).
     nuclear_lsr = read_nuclear_lsr()
     # SMR (P_Nuclear_SMR): full forecast (max) + committed-Development subset (min).
@@ -602,10 +631,19 @@ def main():
             if tech == "P_Nuclear":
                 continue   # handled in the dedicated LSR block (1b2) below
             base = gw(region, fuel, 2025)
-            for y in YEARS:
-                res_val = base * residual_factor(tech, y)
+            # Steam residual = the file's own regional ST path (existing fleet;
+            # capped at the 2025 base so file-side growth never inflates it),
+            # 2036-2040 extended by the 2030-2035 trend via hydro_sheet_traj.
+            st_traj = hydro_sheet_traj({y: gw(region, fuel, y) for y in range(2025, 2036)}) \
+                if tech == "P_Gas_Steam" else None
+            def _res(y):
+                if tech in GAS_SCHEDULE_TECHS:
+                    return base * gas_surv[y]                      # national schedule
                 if tech == "P_Gas_Steam":
-                    res_val += conv_add[y] * coal_share.get(region, 0.0)
+                    return min(base, st_traj[y]) + conv_add[y] * coal_share.get(region, 0.0)
+                return base * residual_factor(tech, y)
+            for y in YEARS:
+                res_val = _res(y)
                 if tech == "P_Gas_CCGT":
                     # existing CCGT fleet -> permit-limited P_Gas_CCGT_Residual (av 0.5);
                     # P_Gas_CCGT carries no residual (it is the new-build headroom).
@@ -666,8 +704,7 @@ def main():
                 if tech == "P_Gas_Steam":
                     # max must cover the residual incl. coal->gas conversions (added
                     # since the base year only; see conv_add)
-                    gs_res = base * residual_factor(tech, y) + conv_add[y] * coal_share.get(region, 0.0)
-                    rep_max = max(rep_max, gs_res)
+                    rep_max = max(rep_max, _res(y))
                 rep_max_exact = rep_max   # funnel max BEFORE the monotonic peak-hold (= the
                                           # exact per-year file value for CA/NE/NY where mx=1.0)
                 if tech in MONOTONIC_MAX_TECHS:
@@ -680,7 +717,7 @@ def main():
                     # CA/NE/NY get EXACTLY the data entry (mx=1.0, no monotonic hold) minus the
                     # fleet -> total CCGT = the file value exactly; other regions use the
                     # widened (monotonic) funnel max minus the fleet -> allowed to build more.
-                    rv = base * residual_factor("P_Gas_CCGT", y)
+                    rv = _res(y)   # existing fleet on the CCGT+OCGT retirement schedule
                     # _Residual is pinned to the existing fleet: write both max AND min =
                     # ResidualCapacity. Redundant in the model (the residual already floors
                     # it) but makes run-to-run capacity diffs easier to read.
