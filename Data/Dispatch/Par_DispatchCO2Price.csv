@@ -1,0 +1,21 @@
+Region,Year,Value,FreeAllocBenchmark,,Unit,Source,Updated at,Updated by
+California,2025,25,0,,EUR/tCO2 (benchmark tCO2/MWh),CA cap-and-trade: 2025 auctions settled 25.87-29.27 USD (~28 avg); 0.9 EUR/USD,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,2030,54,0,,EUR/tCO2,analyst central between floor (~37 USD) and post-extension forecasts (~87-90 USD),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,2035,77,0,,EUR/tCO2,analyst central (85 USD),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,2040,99,0,,EUR/tCO2,analyst central (110 USD),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,2025,20,0,,EUR/tCO2,RGGI ~22 USD/t metric 2025 avg (Auction 72 Jun-2026 already 38.6 USD/t metric),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,2030,41,0,,EUR/tCO2,RGGI central 45 USD/t metric (cap -10.5%/yr; Tier-2 CCR +7%/yr; no ceiling),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,2035,54,0,,EUR/tCO2,RGGI central 60 USD/t metric,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,2040,72,0,,EUR/tCO2,RGGI central 80 USD/t metric (no cap legislated after 2037),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,2025,20,0,,EUR/tCO2,RGGI (all NE states),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,2030,41,0,,EUR/tCO2,RGGI central,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,2035,54,0,,EUR/tCO2,RGGI central,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,2040,72,0,,EUR/tCO2,RGGI central,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,2025,2,0,,EUR/tCO2,RGGI x ~10% PJM coverage (MD+NJ+DE; PA out per Act 45/court 2026),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,2030,9,0,,EUR/tCO2,RGGI x ~22% coverage (Virginia re-entered RGGI 1 Jul 2026),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,2035,12,0,,EUR/tCO2,RGGI x ~22% coverage,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,2040,16,0,,EUR/tCO2,RGGI x ~22% coverage,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,2025,61,0.37,,EUR/tCO2 above 0.37 tCO2/MWh output-based benchmark,federal industrial (OBPS) CAD 95/t 2025-26; MARGINAL price above free-allocation benchmark (electricity ~0.37 t/MWh) - consumer price repealed 2025 does NOT affect this,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,2030,75,0.37,,EUR/tCO2 above benchmark,revised federal path (15 May 2026): CAD 115 by 2030 (replaces the 2021 CAD-170 schedule),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,2035,84,0.37,,EUR/tCO2 above benchmark,CAD 130 by 2035 (+3 CAD/yr),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,2040,91,0.37,,EUR/tCO2 above benchmark,~CAD 140 by 2040 (~1.5%/yr indexed from 2036),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>

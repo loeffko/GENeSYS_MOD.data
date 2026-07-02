@@ -1,0 +1,11 @@
+Technology,Class,Fuel,Value,,Unit,Source,Updated at,Updated by
+P_Gas_CCGT,CCGT,Gas,1,,Binary,dispatch merit-order config,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Gas_CCGT_Residual,CCGT,Gas,1,,Binary,dispatch merit-order config,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Gas_OCGT,OCGT_CT,Gas,1,,Binary,dispatch merit-order config,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Gas_Engines,OCGT_CT,Gas,1,,Binary,dispatch merit-order config,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Gas_Steam,Gas_steam,Gas,1,,Binary,dispatch merit-order config,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Coal_Hardcoal,Coal,Coal,1,,Binary,dispatch merit-order config,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Coal_Lignite,Coal,Coal,1,,Binary,lignite fuel basis approximated by the regional coal factor (minemouth),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Nuclear,Nuclear,Uranium,1,,Binary,dispatch merit-order config,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Nuclear_SMR,Nuclear,Uranium,1,,Binary,dispatch merit-order config,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Oil,Oil,Oil,1,,Binary,dispatch merit-order config,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
