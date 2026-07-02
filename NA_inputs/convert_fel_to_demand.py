@@ -30,7 +30,7 @@ from collections import defaultdict
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA_REPO = os.path.normpath(os.path.join(HERE, ".."))
-XLSX = os.path.join(HERE, "base_fel.xlsx")
+XLSX = os.path.join(HERE, "base_fel_v260702_v2.xlsx")
 CSV = os.path.join(DATA_REPO, "Data", "Parameters",
                    "Par_SpecifiedAnnualDemand", "Par_SpecifiedAnnualDemand.csv")
 
@@ -61,7 +61,7 @@ BUILD_GENERAL = {"Buildings_Trajectory_Adjustment", "Other_Buildings"}
 TRANS_BEV     = {"BEV_2W3W", "BEV_Buses", "BEV_LCV", "BEV_MHDV", "BEV_Passenger Cars"}
 TRANS_GENERAL = {"Maritime", "Rail", "Road_NonBEV"}
 
-SOURCE = "FEL 2026 Base (NA_inputs/base_fel_anonymized.xlsx)"
+SOURCE = "FEL 2026 Base (NA_inputs/base_fel_v260702_v2.xlsx)"
 DATE = "2026-05-28"
 WHO = "Konstantin Loffler <kl@wip.tu-berlin.de>"
 

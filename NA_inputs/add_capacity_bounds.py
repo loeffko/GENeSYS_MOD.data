@@ -430,7 +430,17 @@ TECH_SHEET = lambda: os.path.join(DATA_REPO, "Data", "Parameters", "00_Sets&Tags
 # fleet retires each year — constant absolute retirement, not geometric;
 # geometric 0.95^y made retirements slow down over time).
 RETIRE_RATE_DEFAULT = 0.05
-RETIRE_RATE_PER_TECH = {"P_Nuclear": 0.0}
+RETIRE_RATE_PER_TECH = {
+    "P_Nuclear": 0.0,
+    # Young fleet (mostly 2018+, 30-35 yr life): real retirements start ~2050;
+    # 1%/yr covers attrition/failures. 5% forced phantom replacement capex.
+    "P_PV_Utility_Opt": 0.01,
+    # 2008-2012 build wave hits 20-25 yr in 2030-2037, partly repowered:
+    # 45% of the 2025 fleet gone by 2040.
+    "P_Wind_Onshore_Opt": 0.03,
+    # 15-year battery service life: the whole 2025 fleet retires by 2040.
+    "D_Battery_Li-Ion": 1.0 / 15.0,
+}
 
 def residual_factor(tech, year):
     rate = RETIRE_RATE_PER_TECH.get(tech, RETIRE_RATE_DEFAULT)
@@ -450,6 +460,41 @@ GAS_RETIREMENT_GW = {2026: 0.8, 2027: 0.8, 2028: 1.6, 2029: 2.7, 2030: 0.9,
                      2036: 7.0, 2037: 8.5, 2038: 10.0, 2039: 11.5, 2040: 13.0}
 GAS_SCHEDULE_TECHS = {"P_Gas_CCGT", "P_Gas_OCGT"}
 GAS_SCHEDULE_CATS = ("Natural Gas - CCCT", "Natural Gas - SCCT")
+
+# ---------------------------------------------------------------------------
+# Demand-consistency scaling of the guardrail funnel. The US Pools capacity
+# trajectories were built for the US Pools generation forecast; our model demand
+# comes from the FEL file instead. Per region+year the funnel BASIS is scaled by
+#   ratio = FEL busbar demand [TWh] / US-Pools generation [TWh]  (Storage output
+# excluded from the generation sum — discharge would double-count),
+# so if FEL demand is 10% below the Pools generation, the funnel basis is the
+# capacity file value x 0.90. The funnel MIN is then a constant -2% below that
+# scaled basis through 2035 (NO widening to -10% any more); from 2036 the min
+# widens gradually from the 2035 value to -10% below it at 2040. The max keeps
+# its existing widening (and the CA/NE/NY exact-file rule), on the scaled basis.
+# Residuals are NOT scaled (the existing fleet is physical) — a residual floor
+# on the max keeps min<=max feasible everywhere.
+FEL_DEMAND_XLSX = os.path.join(HERE, "base_fel_v260702_v2.xlsx")
+FEL_REGION_MAP = {   # FEL geo_code -> US pool (FRCC folds into SERC; Canada not scaled)
+    "US_R_CALIFORNIA": "California", "US_R_ERCOT": "ERCOT", "US_R_ISONE": "NewEngland",
+    "US_R_MISO": "MISO", "US_R_NYISO": "NewYork", "US_R_PJM": "PJM",
+    "US_R_SERC": "SERC", "US_R_SPP": "SPP", "US_R_WECC": "WECC", "US_R_FRCC": "SERC",
+}
+FUNNEL_MIN_MARGIN = 0.02      # constant -2% below the demand-scaled basis (<= 2035)
+POST2035_MIN_WIDEN = 0.10     # min widens to -10% below the 2035 min by 2040
+
+
+def read_fel_demand():
+    """Return {region: {year: busbar_TWh}} from the FEL demand workbook
+    (_Data_Grid, all sectors summed, US pools only)."""
+    df = pd.read_excel(FEL_DEMAND_XLSX, "_Data_Grid")
+    df = df[df["geo_code"].isin(FEL_REGION_MAP)]
+    df["Region"] = df["geo_code"].map(FEL_REGION_MAP)
+    g = df.groupby(["Region", "year"])["busbar_twh"].sum()
+    out = {}
+    for (r, y), v in g.items():
+        out.setdefault(r, {})[int(y)] = float(v)
+    return out
 
 def hydro_sheet_traj(values_2025_2035):
     """Hydro capacity trajectory: the US Pools sheet 2025-2035 verbatim, with
@@ -607,6 +652,26 @@ def main():
         _cum += GAS_RETIREMENT_GW.get(y, 0.0)
         gas_surv[y] = max(0.0, 1.0 - _cum / nat_gas_2025) if nat_gas_2025 else 1.0
 
+    # Demand-consistency ratio per (region, year): FEL busbar demand / US-Pools
+    # generation (Output MWh, Storage excluded). Missing region/year -> 1.0.
+    gen_rows = df[df["Measure"] == "Output MWh"]
+    gen_rows = gen_rows[gen_rows["Category"] != STORAGE_CATEGORY]
+    fel = read_fel_demand()
+    fel_gen_ratio = {}
+    print("Funnel demand/generation scaling (FEL busbar TWh / Pools generation TWh):")
+    for r in pool_regions:
+        gsum = gen_rows[gen_rows["Pool-Regions"] == r]
+        ratios = {}
+        for y in range(2025, 2036):
+            gen_twh = max(0.0, float(gsum[y].sum())) / 1e6 if y in gsum.columns else 0.0
+            dem_twh = fel.get(r, {}).get(y, 0.0)
+            # Cap at 1.0: only scale DOWN. Net importers (NY/NE/CA) show demand >
+            # in-region generation because of trade — their deficit is met by
+            # endogenous imports, not by inflating the capacity funnel.
+            ratios[y] = min(1.0, dem_twh / gen_twh) if (gen_twh > 0 and dem_twh > 0) else 1.0
+        fel_gen_ratio[r] = ratios
+        print(f"  {r:12} 2025: {ratios[2025]:.3f}  2030: {ratios[2030]:.3f}  2035: {ratios[2035]:.3f}")
+
     # US nuclear LSR trajectory per pool region (Canada nuclear = CER block).
     nuclear_lsr = read_nuclear_lsr()
     # SMR (P_Nuclear_SMR): full forecast (max) + committed-Development subset (min).
@@ -652,13 +717,20 @@ def main():
                 else:
                     res_rows.append((region, tech, y, round(res_val, 6)))
 
-            # 2035 funnel anchors for post-2035 interp + min hold
-            val_2035 = base if tech == "P_Nuclear" else gw(region, fuel, 2035)
-            mn_at_2035, mx_at_2035 = margins(2035, tech, region)
+            # Demand-scaled funnel basis: file value x FEL/Pools ratio (see the
+            # FEL_DEMAND_XLSX block). Ratio is defined 2025-2035 (Pools horizon).
+            _ratios = fel_gen_ratio.get(region, {})
+            def sval(y):
+                yy = min(y, 2035)
+                return gw(region, fuel, yy) * _ratios.get(yy, 1.0)
+
+            # 2035 funnel anchors for post-2035 interp + min widening
+            val_2035 = sval(2035)
+            _, mx_at_2035 = margins(2035, tech, region)
             max_2035 = val_2035 * mx_at_2035
-            min_2035 = val_2035 * mn_at_2035
+            min_2035 = val_2035 * (1.0 - FUNNEL_MIN_MARGIN)
             # slope of the rep max over 2030-2035, extended post-2035 (see below)
-            val_2030 = base if tech == "P_Nuclear" else gw(region, fuel, 2030)
+            val_2030 = sval(2030)
             _, mx_at_2030 = margins(2030, tech, region)
             avg_slope_post2035 = (max_2035 - val_2030 * mx_at_2030) / 5.0
 
@@ -667,13 +739,13 @@ def main():
             running_max = 0.0   # monotonic floor for MONOTONIC_MAX_TECHS
             for y in range(2026, 2041):
                 if y <= 2035:
-                    val = base if tech == "P_Nuclear" else gw(region, fuel, y)
-                    mn, mx = margins(y, tech, region)
-                    raw_min = val * mn
-                    raw_max = val * mx
+                    _, mx = margins(y, tech, region)
+                    # min: constant -2% below the demand-scaled basis (no widening)
+                    raw_min = sval(y) * (1.0 - FUNNEL_MIN_MARGIN)
+                    raw_max = sval(y) * mx
                 else:
-                    # min: hold 2035 funnel min (no contraction post-2035)
-                    raw_min = min_2035
+                    # min: widen gradually from the 2035 value to -10% below it at 2040
+                    raw_min = min_2035 * (1.0 - POST2035_MIN_WIDEN * (y - 2035) / 5.0)
                     # max: interp 2035 funnel -> 2040 share-of-potential if a
                     # restool target is available; otherwise compound growth
                     # using POST_2035_MAX_GROWTH (thermal/hydro) or hold flat.
@@ -701,12 +773,12 @@ def main():
                 else:
                     rep_max = raw_max
                     rep_min = raw_min
-                if tech == "P_Gas_Steam":
-                    # max must cover the residual incl. coal->gas conversions (added
-                    # since the base year only; see conv_add)
-                    rep_max = max(rep_max, _res(y))
+                # Residuals are exogenous (the fleet cannot retire early), and they
+                # are NOT demand-scaled — floor every funnel max at the residual so
+                # a scaled-down basis can never force max < installed fleet.
+                rep_max = max(rep_max, _res(y))
                 rep_max_exact = rep_max   # funnel max BEFORE the monotonic peak-hold (= the
-                                          # exact per-year file value for CA/NE/NY where mx=1.0)
+                                          # exact per-year (scaled) file value for CA/NE/NY, mx=1.0)
                 if tech in MONOTONIC_MAX_TECHS:
                     rep_max = max(rep_max, running_max)
                     running_max = rep_max
