@@ -1,20 +1,22 @@
-Region,Fuel,Value,,Unit,Source,Updated at,Updated by
-World,Gas,1.00,,multiplier,reference (Henry Hub ~3.25 USD/MMBtu basis year 2024/25),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,Gas,1.25,,multiplier,SoCal/PG&E citygate annual basis vs Henry Hub (EIA spot 2023-25),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,Gas,0.92,,multiplier,Rockies/Malin-Opal basis vs HH (EIA spot 2023-25),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,Gas,0.88,,multiplier,Panhandle basis ~-0.40 USD/MMBtu vs HH (EIA spot 2023-25),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,Gas,0.92,,multiplier,Chicago citygate/ANR estimate (unaudited; low stakes),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,Gas,0.80,,multiplier,Houston Ship Channel / Waha blend (Waha avg 0.77 USD 2024 vs HH 2.19; verified),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,Gas,1.05,,multiplier,Transco Z4/Z5 vs HH (EIA spot 2023-25),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,Gas,0.90,,multiplier,Dominion South / TETCO M3 annual blend vs HH,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,Gas,1.10,,multiplier,Transco Z6 NY annual avg (winter 2-4x understated at annual resolution),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,Gas,1.30,,multiplier,Algonquin citygate annual avg +0.53-0.85 USD vs HH (winter monthly 14-16 USD vs HH ~4 in Jan/Feb 2025),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,Gas,0.70,,multiplier,demand-weighted AECO west (~0.55) + Dawn-parity ON/QC/Maritimes (~1.0); AECO-HH basis narrowing to ~-1.00 USD (AER),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,Coal,1.00,,multiplier,reference (US electric-power delivered avg 2.41 USD/MMBtu; EIA EPM T4.10 2026 YTD),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,Coal,0.73,,multiplier,PRB-dominated delivered coal vs US avg (EIA EPM T4.10),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,Coal,0.87,,multiplier,PRB/ILB mix delivered vs US avg,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,Coal,0.91,,multiplier,WY minemouth 1.56 vs UT/NM/AZ 3.5-3.7 USD/MMBtu (2.4x intra-region spread hidden),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,Coal,0.78,,multiplier,PRB + TX lignite minemouth vs US avg,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,Coal,1.16,,multiplier,NAPP/ILB delivered vs US avg,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,Coal,1.24,,multiplier,CAPP/ILB delivered (long rail) vs US avg,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,Coal,0.80,,multiplier,SK minemouth lignite (ND-lignite proxy; AB coal generation ended 2024),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+Region,Fuel,Months,Value,,Unit,Source,Updated at,Updated by
+World,Gas,,1.0,,multiplier,reference (Henry Hub ~3.25 USD/MMBtu basis year 2024/25),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,Gas,,1.25,,multiplier,SoCal/PG&E citygate annual basis vs Henry Hub (EIA spot 2023-25),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,Gas,,0.92,,multiplier,Rockies/Malin-Opal basis vs HH (EIA spot 2023-25),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,Gas,,0.88,,multiplier,Panhandle basis ~-0.40 USD/MMBtu vs HH (EIA spot 2023-25),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,Gas,,0.92,,multiplier,Chicago citygate/ANR estimate (unaudited; low stakes),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,Gas,,0.8,,multiplier,Houston Ship Channel / Waha blend (Waha avg 0.77 USD 2024 vs HH 2.19; verified),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,Gas,,1.05,,multiplier,Transco Z4/Z5 vs HH (EIA spot 2023-25),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,Gas,,0.9,,multiplier,Dominion South / TETCO M3 annual blend vs HH,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,Gas,,0.7,,multiplier,demand-weighted AECO west (~0.55) + Dawn-parity ON/QC/Maritimes (~1.0); AECO-HH basis narrowing to ~-1.00 USD (AER),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,Coal,,1.0,,multiplier,reference (US electric-power delivered avg 2.41 USD/MMBtu; EIA EPM T4.10 2026 YTD),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,Coal,,0.73,,multiplier,PRB-dominated delivered coal vs US avg (EIA EPM T4.10),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,Coal,,0.87,,multiplier,PRB/ILB mix delivered vs US avg,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,Coal,,0.91,,multiplier,WY minemouth 1.56 vs UT/NM/AZ 3.5-3.7 USD/MMBtu (2.4x intra-region spread hidden),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,Coal,,0.78,,multiplier,PRB + TX lignite minemouth vs US avg,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,Coal,,1.16,,multiplier,NAPP/ILB delivered vs US avg,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,Coal,,1.24,,multiplier,CAPP/ILB delivered (long rail) vs US avg,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,Coal,,0.8,,multiplier,SK minemouth lignite (ND-lignite proxy; AB coal generation ended 2024),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,Gas,"12,1,2",2.4,,multiplier,Algonquin citygate winter basis (monthly 14-16 USD vs HH ~4 Jan/Feb 2025; verified 2-4x band); annual avg preserved ~1.31,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,Gas,,0.95,,multiplier,"Algonquin non-winter months (~HH parity); pairs with the 12,1,2 row",2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,Gas,"12,1,2",1.6,,multiplier,Transco Z6 NY winter basis; annual avg preserved ~1.10,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,Gas,,0.93,,multiplier,"Transco Z6 NY non-winter; pairs with the 12,1,2 row",2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
