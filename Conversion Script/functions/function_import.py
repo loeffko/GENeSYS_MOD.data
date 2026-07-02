@@ -10,9 +10,9 @@ from functions.output_timeseries import output_timeseries
 from functions.data_error_check import search_non_utf8_characters
 import sys
 
-def master_function(settings_file,output_file_format, output_format, processing_option, scenario_option, debugging_output, data_base_region):
+def master_function(settings_file,output_file_format, output_format, processing_option, scenario_option, debugging_output, data_base_region, weather_year='base'):
     # Call directories function to get all necessary directory paths
-    current_directory, excel_file_path, parameter_directory, sets_and_tags_directory, timeseries_directory, output_csv_directory, output_excel_directory, output_excel_file_path, output_excel_file_path_timeseries = directories(settings_file, scenario_option)
+    current_directory, excel_file_path, parameter_directory, sets_and_tags_directory, timeseries_directory, output_csv_directory, output_excel_directory, output_excel_file_path, output_excel_file_path_timeseries = directories(settings_file, scenario_option, weather_year)
 
     # Validate user input
     validate_input(output_file_format, output_format, processing_option, settings_file, scenario_option)
@@ -65,7 +65,7 @@ def master_function(settings_file,output_file_format, output_format, processing_
     # Process timeseries if processing_option is not 'parameters_only'
     if processing_option != 'parameters_only':
         # Read and filter time series data
-        filtered_timeseries_data, timeseries_output_string = read_filter_timeseries(timeseries_directory, unique_values_concatenated, scenario_option, debugging_output)
+        filtered_timeseries_data, timeseries_output_string = read_filter_timeseries(timeseries_directory, unique_values_concatenated, scenario_option, debugging_output, weather_year)
 
         # Print the output string
         print("Timeseries data overwritten by scenario data:")

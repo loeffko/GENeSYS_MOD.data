@@ -1,6 +1,6 @@
 import os
 
-def directories(settings_file, scenario_option):
+def directories(settings_file, scenario_option, weather_year='base'):
     # Get the current working directory (where the script is located)
     current_directory = os.getcwd()
 
@@ -18,7 +18,10 @@ def directories(settings_file, scenario_option):
     output_csv_directory = os.path.join(output_directory, 'output_csv')
     output_excel_directory = os.path.join(output_directory, 'output_excel')
     output_excel_file_path = os.path.join(output_excel_directory, f"RegularParameters_{scenario_option}.xlsx")
-    output_excel_file_path_timeseries = os.path.join(output_excel_directory, f"Timeseries_{scenario_option}.xlsx")
+    # Weather-year runs get their own timeseries workbook name so the base file
+    # is never overwritten (e.g. Timeseries_NorthAmerica_2012.xlsx)
+    ts_name = f"Timeseries_{scenario_option}.xlsx" if str(weather_year) == 'base'         else f"Timeseries_{scenario_option}_{weather_year}.xlsx"
+    output_excel_file_path_timeseries = os.path.join(output_excel_directory, ts_name)
 
     # Path to the Excel settings file
     excel_file_path = os.path.join(current_directory, settings_file)

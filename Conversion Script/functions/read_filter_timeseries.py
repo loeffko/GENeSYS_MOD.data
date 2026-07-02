@@ -1,7 +1,21 @@
 import os
 import pandas as pd
 
-def read_filter_timeseries(timeseries_dir, unique_values_concatenated, scenario_option, debugging_output):
+def _merge_override(df, override_csv_path):
+    """Column-wise override of the base timeseries: merge on HOUR and replace
+    only the regions present in the override file (combine_first per column),
+    so regions absent there keep the base data - per-region fallback."""
+    df_over = pd.read_csv(override_csv_path, header=1)
+    common_cols = [c for c in df.columns if c in df_over.columns and c != 'Value']
+    df = df.merge(df_over, on='HOUR', how='left', suffixes=('', '_updated'))
+    for col in common_cols:
+        if col != 'HOUR':
+            df[col] = df[col + '_updated'].combine_first(df[col])
+            df.drop(col + '_updated', axis=1, inplace=True)
+    return df
+
+
+def read_filter_timeseries(timeseries_dir, unique_values_concatenated, scenario_option, debugging_output, weather_year='base'):
     filtered_data = {}
     overwritten_data_info = []
 
@@ -53,7 +67,19 @@ def read_filter_timeseries(timeseries_dir, unique_values_concatenated, scenario_
                         overwritten_data_info.append(subdir)
 
                         data_overwritten = True
-                        
+
+                # Weather-year override: TS_<NAME>/<weather_year>/ holds a re-run
+                # of the SAME timeseries for another weather year (per-region
+                # columns; regions missing there keep the base data). Applied on
+                # top of the scenario override.
+                if weather_year and str(weather_year) != 'base':
+                    wy_dir = os.path.join(subdir_path, str(weather_year))
+                    if os.path.isdir(wy_dir):
+                        wy_csv = next((f for f in os.listdir(wy_dir) if f.endswith('.csv')), None)
+                        if wy_csv:
+                            df = _merge_override(df, os.path.join(wy_dir, wy_csv))
+                            overwritten_data_info.append(f"{subdir} (weather year {weather_year})")
+
                 # List of columns to include
                 columns_to_include = ['HOUR'] + [region for region in unique_regions if region in df.columns]
                 
