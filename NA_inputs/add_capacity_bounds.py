@@ -737,6 +737,9 @@ def main():
             target_2040 = rep_share_pot.get(tech)  # rep share x total pot (None if N/A)
 
             running_max = 0.0   # monotonic floor for MONOTONIC_MAX_TECHS
+            running_req_new = 0.0   # persistence: new build already forced by past funnel
+                                    # mins above the residual (new capacity lives 30+ yrs,
+                                    # so every later max must still accommodate it)
             for y in range(2026, 2041):
                 if y <= 2035:
                     _, mx = margins(y, tech, region)
@@ -775,8 +778,14 @@ def main():
                     rep_min = raw_min
                 # Residuals are exogenous (the fleet cannot retire early), and they
                 # are NOT demand-scaled — floor every funnel max at the residual so
-                # a scaled-down basis can never force max < installed fleet.
-                rep_max = max(rep_max, _res(y))
+                # a scaled-down basis can never force max < installed fleet. The
+                # persistence floor adds the new build that PAST funnel mins forced
+                # above the residual (it cannot vanish later: 30+ yr lifetime) —
+                # without it a min-year followed by a lower-max year is infeasible
+                # (e.g. NY CCGT: min forces +0.148 GW new in 2032, the declining
+                # exact-file max then sat below residual+0.148 from 2036 on).
+                running_req_new = max(running_req_new, rep_min - _res(y))
+                rep_max = max(rep_max, _res(y) + max(0.0, running_req_new))
                 rep_max_exact = rep_max   # funnel max BEFORE the monotonic peak-hold (= the
                                           # exact per-year (scaled) file value for CA/NE/NY, mx=1.0)
                 if tech in MONOTONIC_MAX_TECHS:
