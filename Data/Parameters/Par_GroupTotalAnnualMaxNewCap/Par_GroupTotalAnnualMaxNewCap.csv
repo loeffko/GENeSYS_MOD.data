@@ -1,20 +1,4 @@
 TechnologySubset,RegionSubset,Year,Value,,Unit,Source,Updated at,Updated by
-EGS,ERCOT,2025,2.4,,GW,EGS build-rate smoothing (TU Berlin assumption),2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-EGS,ERCOT,2026,2.4,,GW,EGS build-rate smoothing (TU Berlin assumption),2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-EGS,ERCOT,2027,2.4,,GW,EGS build-rate smoothing (TU Berlin assumption),2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-EGS,ERCOT,2028,2.4,,GW,EGS build-rate smoothing (TU Berlin assumption),2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-EGS,ERCOT,2029,2.4,,GW,EGS build-rate smoothing (TU Berlin assumption),2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-EGS,ERCOT,2030,2.4,,GW,EGS build-rate smoothing (TU Berlin assumption),2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-EGS,ERCOT,2031,2.4,,GW,EGS build-rate smoothing (TU Berlin assumption),2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-EGS,ERCOT,2032,2.4,,GW,EGS build-rate smoothing (TU Berlin assumption),2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-EGS,ERCOT,2033,2.4,,GW,EGS build-rate smoothing (TU Berlin assumption),2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-EGS,ERCOT,2034,2.4,,GW,EGS build-rate smoothing (TU Berlin assumption),2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-EGS,ERCOT,2035,2.4,,GW,EGS build-rate smoothing (TU Berlin assumption),2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-EGS,ERCOT,2036,2.4,,GW,EGS build-rate smoothing (TU Berlin assumption),2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-EGS,ERCOT,2037,2.4,,GW,EGS build-rate smoothing (TU Berlin assumption),2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-EGS,ERCOT,2038,2.4,,GW,EGS build-rate smoothing (TU Berlin assumption),2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-EGS,ERCOT,2039,2.4,,GW,EGS build-rate smoothing (TU Berlin assumption),2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-EGS,ERCOT,2040,2.4,,GW,EGS build-rate smoothing (TU Berlin assumption),2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 GasPlants,USA,2025,65.0,,GW,gas annual-additions group cap (TU Berlin assumption),2026-06-30,Konstantin Loffler <kl@wip.tu-berlin.de>
 GasPlants,USA,2026,65.0,,GW,gas annual-additions group cap (TU Berlin assumption),2026-06-30,Konstantin Loffler <kl@wip.tu-berlin.de>
 GasPlants,USA,2027,65.0,,GW,gas annual-additions group cap (TU Berlin assumption),2026-06-30,Konstantin Loffler <kl@wip.tu-berlin.de>
@@ -31,3 +15,19 @@ GasPlants,USA,2037,65.0,,GW,gas annual-additions group cap (TU Berlin assumption
 GasPlants,USA,2038,65.0,,GW,gas annual-additions group cap (TU Berlin assumption),2026-06-30,Konstantin Loffler <kl@wip.tu-berlin.de>
 GasPlants,USA,2039,65.0,,GW,gas annual-additions group cap (TU Berlin assumption),2026-06-30,Konstantin Loffler <kl@wip.tu-berlin.de>
 GasPlants,USA,2040,65.0,,GW,gas annual-additions group cap (TU Berlin assumption),2026-06-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+EGS,USA,2025,2.0,,GW,EGS build-rate cap 2 GW/yr US-wide (TU Berlin assumption),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+EGS,USA,2026,2.0,,GW,EGS build-rate cap 2 GW/yr US-wide (TU Berlin assumption),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+EGS,USA,2027,2.0,,GW,EGS build-rate cap 2 GW/yr US-wide (TU Berlin assumption),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+EGS,USA,2028,2.0,,GW,EGS build-rate cap 2 GW/yr US-wide (TU Berlin assumption),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+EGS,USA,2029,2.0,,GW,EGS build-rate cap 2 GW/yr US-wide (TU Berlin assumption),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+EGS,USA,2030,2.0,,GW,EGS build-rate cap 2 GW/yr US-wide (TU Berlin assumption),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+EGS,USA,2031,2.0,,GW,EGS build-rate cap 2 GW/yr US-wide (TU Berlin assumption),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+EGS,USA,2032,2.0,,GW,EGS build-rate cap 2 GW/yr US-wide (TU Berlin assumption),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+EGS,USA,2033,2.0,,GW,EGS build-rate cap 2 GW/yr US-wide (TU Berlin assumption),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+EGS,USA,2034,2.0,,GW,EGS build-rate cap 2 GW/yr US-wide (TU Berlin assumption),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+EGS,USA,2035,2.0,,GW,EGS build-rate cap 2 GW/yr US-wide (TU Berlin assumption),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+EGS,USA,2036,2.0,,GW,EGS build-rate cap 2 GW/yr US-wide (TU Berlin assumption),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+EGS,USA,2037,2.0,,GW,EGS build-rate cap 2 GW/yr US-wide (TU Berlin assumption),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+EGS,USA,2038,2.0,,GW,EGS build-rate cap 2 GW/yr US-wide (TU Berlin assumption),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+EGS,USA,2039,2.0,,GW,EGS build-rate cap 2 GW/yr US-wide (TU Berlin assumption),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+EGS,USA,2040,2.0,,GW,EGS build-rate cap 2 GW/yr US-wide (TU Berlin assumption),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
