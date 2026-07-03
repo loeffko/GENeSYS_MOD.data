@@ -24,13 +24,16 @@ before the new rows are appended, so the model carries no generic 'Power' demand
 
 Run from anywhere:  python NA_inputs/convert_fel_to_demand.py
 """
-import os
+import os, sys
 import pandas as pd
 from collections import defaultdict
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA_REPO = os.path.normpath(os.path.join(HERE, ".."))
 XLSX = os.path.join(HERE, "base_fel_v260702_v2.xlsx")
+# sensitivity FEL override:  python convert_fel_to_demand.py --fel <file.xlsx>
+if "--fel" in sys.argv:
+    XLSX = os.path.join(HERE, sys.argv[sys.argv.index("--fel") + 1])
 CSV = os.path.join(DATA_REPO, "Data", "Parameters",
                    "Par_SpecifiedAnnualDemand", "Par_SpecifiedAnnualDemand.csv")
 

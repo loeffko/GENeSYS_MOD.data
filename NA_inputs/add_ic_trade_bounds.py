@@ -52,7 +52,12 @@ GROWTH_COST = 0.444626714                        # M€/GWkm, Saadi et al. (2018
 # Cap each corridor's AnnualMax growth at IC_GROWTH_RATE/yr off its existing capacity
 # (corridor = max of both directions); the IC High value stays the hard ceiling. New
 # (0-capacity) corridors get NEW_CORRIDOR_SEED so a fresh tie can still grow modestly.
-IC_GROWTH_RATE = 0.04        # 4%/yr per corridor (3% grew the grid too slowly, 5% a tad much):
+IC_GROWTH_RATE = 0.04
+# sensitivity override:  --growth 0.025  |  --growth none (no pace cap; the IC
+# High ceiling and existing/commissioned floors still apply)
+if "--growth" in sys.argv:
+    _g = sys.argv[sys.argv.index("--growth") + 1]
+    IC_GROWTH_RATE = None if _g.lower() == "none" else float(_g)        # 4%/yr per corridor (3% grew the grid too slowly, 5% a tad much):
                              # above Princeton's ~2.3%/yr realistic-accelerated pace, within the
                              # DOE/NTP +2..5x 2035-clean need band.
 NEW_CORRIDOR_SEED = 2.0      # GW base for 0-capacity corridors so new ties aren't blocked
@@ -136,8 +141,9 @@ def bound_rows(df, case, source, existing, commissioned, mode):
         for y, v in zip(YEARS, vals):
             cumcomm += comm.get(y, 0.0)
             if mode == "max":
-                pace = corridor_base * (1.0 + IC_GROWTH_RATE) ** (y - 2025)  # buildable pace
-                v = min(v, pace)                # cap the IC High ceiling at the realistic pace
+                if IC_GROWTH_RATE is not None:
+                    pace = corridor_base * (1.0 + IC_GROWTH_RATE) ** (y - 2025)  # buildable pace
+                    v = min(v, pace)            # cap the IC High ceiling at the realistic pace
                 v = max(v, ex + cumcomm, run)   # but never below existing+commissioned; non-decreasing
                 run = v
             else:

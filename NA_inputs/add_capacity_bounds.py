@@ -73,6 +73,22 @@ POT_NA = os.path.join(DATA_REPO, "NA_restool", "northamerica_potentials_combined
 POT_CA = os.path.join(DATA_REPO, "NA_restool", "canada_potentials_combined.csv")
 PARAM = lambda n: os.path.join(DATA_REPO, "Data", "Parameters", n, n + ".csv")
 apply = "--apply" in sys.argv
+# Sensitivity options:
+#   --fel <file.xlsx>   demand workbook for the funnel demand/generation ratio
+#                       (default base FEL; must match convert_fel_to_demand --fel)
+#   --max-upscale       let a demand/generation ratio > 1 RAISE the funnel max
+#                       (dc_high sensitivity); the min stays capped at 1.0
+#   --funnel economic   wider funnel from ~2030 (min x0.75, max x1.5 by 2035):
+#                       the model decides more, data steers less
+MAX_UPSCALE = "--max-upscale" in sys.argv
+FUNNEL_STYLE = sys.argv[sys.argv.index("--funnel") + 1] if "--funnel" in sys.argv else "base"
+ECON_MIN_EXTRA_2035, ECON_MAX_EXTRA_2035 = 0.75, 1.50
+def econ_min_f(y):
+    if FUNNEL_STYLE != "economic": return 1.0
+    return 1.0 + (ECON_MIN_EXTRA_2035 - 1.0) * max(0.0, min(1.0, (y - 2030) / 5.0))
+def econ_max_f(y):
+    if FUNNEL_STYLE != "economic": return 1.0
+    return 1.0 + (ECON_MAX_EXTRA_2035 - 1.0) * max(0.0, min(1.0, (y - 2030) / 5.0))
 
 # Guardrail category -> representative model tech (US Pools dataset,
 # "Fuel + Technology" split since the 2026-06 file update).
@@ -475,6 +491,8 @@ GAS_SCHEDULE_CATS = ("Natural Gas - CCCT", "Natural Gas - SCCT")
 # Residuals are NOT scaled (the existing fleet is physical) — a residual floor
 # on the max keeps min<=max feasible everywhere.
 FEL_DEMAND_XLSX = os.path.join(HERE, "base_fel_v260702_v2.xlsx")
+if "--fel" in sys.argv:
+    FEL_DEMAND_XLSX = os.path.join(HERE, sys.argv[sys.argv.index("--fel") + 1])
 FEL_REGION_MAP = {   # FEL geo_code -> US pool (FRCC folds into SERC; Canada not scaled)
     "US_R_CALIFORNIA": "California", "US_R_ERCOT": "ERCOT", "US_R_ISONE": "NewEngland",
     "US_R_MISO": "MISO", "US_R_NYISO": "NewYork", "US_R_PJM": "PJM",
@@ -690,10 +708,10 @@ def main():
         for y in range(2025, 2036):
             gen_twh = max(0.0, float(gsum[y].sum())) / 1e6 if y in gsum.columns else 0.0
             dem_twh = fel.get(r, {}).get(y, 0.0)
-            # Cap at 1.0: only scale DOWN. Net importers (NY/NE/CA) show demand >
-            # in-region generation because of trade — their deficit is met by
-            # endogenous imports, not by inflating the capacity funnel.
-            ratios[y] = min(1.0, dem_twh / gen_twh) if (gen_twh > 0 and dem_twh > 0) else 1.0
+            # RAW ratio stored; capped at the use sites: the MIN side always caps
+            # at 1.0 (importers' deficit is met by endogenous trade), the MAX side
+            # caps at 1.0 unless --max-upscale (dc_high) lets extra demand raise it.
+            ratios[y] = dem_twh / gen_twh if (gen_twh > 0 and dem_twh > 0) else 1.0
         fel_gen_ratio[r] = ratios
         print(f"  {r:12} 2025: {ratios[2025]:.3f}  2030: {ratios[2030]:.3f}  2035: {ratios[2035]:.3f}")
 
@@ -757,22 +775,30 @@ def main():
             # Demand-scaled funnel basis: file value x FEL/Pools ratio (see the
             # FEL_DEMAND_XLSX block). Ratio is defined 2025-2035 (Pools horizon).
             _ratios = fel_gen_ratio.get(region, {})
-            def sval(y):
+            def _rmin(y):                       # min side: never above 1.0
+                return min(1.0, _ratios.get(min(y, 2035), 1.0))
+            def _rmax(y):                       # max side: >1 only with --max-upscale
+                r = _ratios.get(min(y, 2035), 1.0)
+                return r if MAX_UPSCALE else min(1.0, r)
+            def sval(y):                        # demand-scaled basis for the MAX side
                 yy = min(y, 2035)
-                return gw(region, fuel, yy) * _ratios.get(yy, 1.0)
+                return gw(region, fuel, yy) * _rmax(y)
+            def svalmin(y):                     # demand-scaled basis for the MIN side
+                yy = min(y, 2035)
+                return gw(region, fuel, yy) * _rmin(y)
 
             # 2035 funnel anchors for post-2035 interp + min widening
             val_2035 = sval(2035)
             _, mx_at_2035 = margins(2035, tech, region)
-            max_2035 = val_2035 * mx_at_2035
+            max_2035 = val_2035 * mx_at_2035 *                 (1.0 if (tech in GAS_TECHS and region in GAS_NO_ADD_REGIONS) else econ_max_f(2035))
             # min anchor at 2035: gas gets the same blend floor as the year loop
             # (else the post-2035 trend starts from the unfloored value and the
             # floor DROPS at 2036)
             if tech in GAS_TECHS:
                 min_2035 = gw(region, fuel, 2035) * max(GAS_MIN_BLEND_FLOOR,
-                           _ratios.get(2035, 1.0) * (1.0 - FUNNEL_MIN_MARGIN))
+                           _rmin(2035) * (1.0 - FUNNEL_MIN_MARGIN)) * econ_min_f(2035)
             else:
-                min_2035 = val_2035 * (1.0 - FUNNEL_MIN_MARGIN)
+                min_2035 = svalmin(2035) * (1.0 - FUNNEL_MIN_MARGIN) * econ_min_f(2035)
             # slope of the rep max over 2030-2035, extended post-2035 (see below)
             val_2030 = sval(2030)
             _, mx_at_2030 = margins(2030, tech, region)
@@ -796,12 +822,15 @@ def main():
                         # blend linearly from the exact-file pin (at GAS_MIN_PIN_UNTIL)
                         # into the demand-scaled -2% funnel (at 2035)
                         frac = (y - GAS_MIN_PIN_UNTIL) / (2035 - GAS_MIN_PIN_UNTIL)
-                        blendf = (1.0 - frac) + frac * _ratios.get(y, 1.0) * (1.0 - FUNNEL_MIN_MARGIN)
-                        raw_min = gw(region, fuel, y) * max(GAS_MIN_BLEND_FLOOR, blendf)
+                        blendf = (1.0 - frac) + frac * _rmin(y) * (1.0 - FUNNEL_MIN_MARGIN)
+                        raw_min = gw(region, fuel, y) * max(GAS_MIN_BLEND_FLOOR, blendf) * econ_min_f(y)
                     else:
                         # min: constant -2% below the demand-scaled basis (no widening)
-                        raw_min = sval(y) * (1.0 - FUNNEL_MIN_MARGIN)
-                    raw_max = sval(y) * mx
+                        raw_min = svalmin(y) * (1.0 - FUNNEL_MIN_MARGIN) * econ_min_f(y)
+                    # economic funnel widens the max too - except the no-add gas
+                    # regions, whose exact-file cap is a permitting constraint
+                    _emax = 1.0 if (tech in GAS_TECHS and region in GAS_NO_ADD_REGIONS) else econ_max_f(y)
+                    raw_max = sval(y) * mx * _emax
                 else:
                     # min: HOLD the 2035 floor flat post-2035 (a declining floor let
                     # gross additions collapse to ~0 in 2036 - retiring capacity
