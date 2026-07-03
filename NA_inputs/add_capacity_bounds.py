@@ -81,6 +81,12 @@ apply = "--apply" in sys.argv
 #   --funnel economic   wider funnel from ~2030 (min x0.75, max x1.5 by 2035):
 #                       the model decides more, data steers less
 MAX_UPSCALE = "--max-upscale" in sys.argv
+#   --gas-min-floor <x>  override the 0.93 gas blend floor (recession: 0 = the
+#                        demand ratio cuts the gas floor freely post-2030)
+if "--gas-min-floor" in sys.argv:
+    GAS_MIN_BLEND_FLOOR_OVERRIDE = float(sys.argv[sys.argv.index("--gas-min-floor") + 1])
+else:
+    GAS_MIN_BLEND_FLOOR_OVERRIDE = None
 FUNNEL_STYLE = sys.argv[sys.argv.index("--funnel") + 1] if "--funnel" in sys.argv else "base"
 ECON_MIN_EXTRA_2035, ECON_MAX_EXTRA_2035 = 0.75, 1.50
 def econ_min_f(y):
@@ -499,7 +505,9 @@ FEL_REGION_MAP = {   # FEL geo_code -> US pool (FRCC folds into SERC; Canada not
     "US_R_SERC": "SERC", "US_R_SPP": "SPP", "US_R_WECC": "WECC", "US_R_FRCC": "SERC",
 }
 FUNNEL_MIN_MARGIN = 0.02      # constant -2% below the demand-scaled basis (<= 2035)
-GAS_MIN_BLEND_FLOOR = 0.93    # gas blend floor: the demand-ratio discount on the gas
+GAS_MIN_BLEND_FLOOR = 0.93
+if GAS_MIN_BLEND_FLOOR_OVERRIDE is not None:
+    GAS_MIN_BLEND_FLOOR = GAS_MIN_BLEND_FLOOR_OVERRIDE    # gas blend floor: the demand-ratio discount on the gas
                               # min never pushes the multiplier below 0.93 x file
                               # (halves the max discount; removes the 2033-35
                               # additions dip the full ratio phase-in produced)

@@ -41,7 +41,7 @@ BASE_FEL = "base_fel_v260702_v2.xlsx"
 SENS = {   # order matters: 'base' LAST so shared CSVs end in the base state
     "dc_low":    dict(fel="base_fel_dc_low v260703.xlsx"),
     "dc_high":   dict(fel="base_fel_dc_high v260703.xlsx", max_upscale=True),
-    "recession": dict(fel="fel_recession_v260703.xlsx"),
+    "recession": dict(fel="fel_recession_v260703.xlsx", gas_min_floor="0"),
     "economic":  dict(fel=BASE_FEL, funnel="economic"),
     "grid_low":  dict(fel=BASE_FEL, ic_growth="0.025"),
     "grid_high": dict(fel=BASE_FEL, ic_growth="none"),
@@ -64,6 +64,8 @@ def build(sens, cfg):
         bounds.append("--max-upscale")
     if cfg.get("funnel"):
         bounds += ["--funnel", cfg["funnel"]]
+    if cfg.get("gas_min_floor") is not None:
+        bounds += ["--gas-min-floor", cfg["gas_min_floor"]]
     run(bounds, DATA_REPO)
     ic = ["NA_inputs/add_ic_trade_bounds.py", "--apply"]
     if cfg.get("ic_growth"):
