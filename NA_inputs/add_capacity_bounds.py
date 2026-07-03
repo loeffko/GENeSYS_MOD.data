@@ -558,6 +558,19 @@ RESTOOL_RAMP_END = 2045
 def restool_frac(y):
     return max(0.0, min(1.0, (y - RESTOOL_RAMP_START) / (RESTOOL_RAMP_END - RESTOOL_RAMP_START)))
 
+# Canada gets a much slower upside ramp: its restool classes are NOT tied to a
+# guardrail rep, so the ramp slope IS the annual-addition ceiling. 2032->2070
+# = ~5 GW/yr (PV Opt) / ~3 GW/yr (wind Opt) - and because the ceiling stays
+# binding through 2040 the buildout cannot saturate-and-cliff mid-horizon.
+CANADA_RESTOOL_RAMP_START = 2032
+CANADA_RESTOOL_RAMP_END = 2070
+CANADA_RESTOOL_SLOPE_GW = 4.0   # hard ceiling-growth cap, GW/yr per class: Canada's
+                                # PV potential is so large (~1450 GW) that a time
+                                # window alone still allowed ~11 GW/yr
+def canada_restool_frac(y):
+    return max(0.0, min(1.0, (y - CANADA_RESTOOL_RAMP_START) /
+                        (CANADA_RESTOOL_RAMP_END - CANADA_RESTOOL_RAMP_START)))
+
 
 # Annual MAX growth applied after 2035 for techs WITHOUT a restool potential
 # target. PV/Wind interpolate to the restool potential at 2040 (different code
@@ -1076,8 +1089,10 @@ def main():
                         # restool rep (_Opt) is NOT funnel-carried here - a flat
                         # full-potential max let the optimiser dump 13-17 GW into
                         # single years (real Canadian build rates: ~1-2.5 GW/yr
-                        # each for wind/solar). Ramp ALL restool classes.
-                        val = target * restool_frac(y)
+                        # each for wind/solar). Ramp ALL restool classes on the
+                        # slow Canadian window (the slope = the annual ceiling).
+                        val = min(target * canada_restool_frac(y),
+                                  CANADA_RESTOOL_SLOPE_GW * max(0, y - CANADA_RESTOOL_RAMP_START + 1))
                     elif variant == rep or rep is None:
                         val = target
                     else:
