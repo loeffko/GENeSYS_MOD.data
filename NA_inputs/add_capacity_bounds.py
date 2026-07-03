@@ -455,7 +455,7 @@ def residual_factor(tech, year):
 # for steam — no new gas-steam is built), extended post-2035 by the 2030-2035
 # regional trend. Engines keep the default rate (tiny, net-growing fleet).
 # Canada stays on the default rate (CER data, not this US schedule).
-GAS_RETIREMENT_GW = {2026: 0.8, 2027: 0.8, 2028: 1.6, 2029: 2.7, 2030: 0.9,
+GAS_RETIREMENT_GW = {2026: 0.8, 2027: 0.8, 2028: 1.6, 2029: 2.7, 2030: 2.5,
                      2031: 2.2, 2032: 3.3, 2033: 3.5, 2034: 4.7, 2035: 5.5,
                      2036: 11.0, 2037: 12.0, 2038: 13.0, 2039: 13.5, 2040: 14.0}
 GAS_SCHEDULE_TECHS = {"P_Gas_CCGT", "P_Gas_OCGT"}
@@ -481,7 +481,7 @@ FEL_REGION_MAP = {   # FEL geo_code -> US pool (FRCC folds into SERC; Canada not
     "US_R_SERC": "SERC", "US_R_SPP": "SPP", "US_R_WECC": "WECC", "US_R_FRCC": "SERC",
 }
 FUNNEL_MIN_MARGIN = 0.02      # constant -2% below the demand-scaled basis (<= 2035)
-GAS_MIN_PIN_UNTIL = 2029      # gas min = EXACT capacity-file value through this year
+GAS_MIN_PIN_UNTIL = 2030      # gas min = EXACT capacity-file value through this year
                               # (announced/under-construction pipeline), then blends
                               # linearly into the demand-scaled funnel by 2035.
                               # Post-2035 every min HOLDS its 2035 level (no decline).
