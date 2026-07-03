@@ -999,6 +999,7 @@ def main():
     if os.path.exists(CANADA_SRC) and "Canada" in extra_regions:
         traj, ca_hardcoal = read_canada_cer()
         canada_techs = set(traj.keys()) | {"P_Hydro_RoR"}   # RoR also CER-owned
+        running_min_gas = {}   # per-tech monotone floor for the Canadian gas min
         for tech, ser in sorted(traj.items()):
             base = ser.get(2025, 0.0)
             # Hydro: same treatment as the US pools — flat residual, strict min
@@ -1021,6 +1022,12 @@ def main():
                 if tech in MONOTONIC_MAX_TECHS:
                     rep_max = max(rep_max, running_max)
                     running_max = rep_max
+                if tech in GAS_TECHS:
+                    # CER gas series dips ~2032 then recovers; a wobbling min made
+                    # additions hit zero and the fleet shrink-then-regrow. Keep the
+                    # Canadian gas floor monotone non-decreasing.
+                    rep_min = max(rep_min, running_min_gas.get(tech, 0.0))
+                    running_min_gas[tech] = rep_min
                 if tech == "P_Gas_CCGT":
                     # same existing/new CCGT split as the US pools (Canada is not a
                     # no-add region, so NEW build = funnel band minus existing fleet)
@@ -1064,7 +1071,14 @@ def main():
                     continue   # CER block owns rep + rooftop for Canada
                 target = pot_val * share
                 for y in YEARS:
-                    if variant == rep or rep is None:
+                    if region == "Canada":
+                        # Canada's guardrail rep is the CER-owned _Avg, so the
+                        # restool rep (_Opt) is NOT funnel-carried here - a flat
+                        # full-potential max let the optimiser dump 13-17 GW into
+                        # single years (real Canadian build rates: ~1-2.5 GW/yr
+                        # each for wind/solar). Ramp ALL restool classes.
+                        val = target * restool_frac(y)
+                    elif variant == rep or rep is None:
                         val = target
                     else:
                         val = target * restool_frac(y)
