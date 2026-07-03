@@ -2473,7 +2473,6 @@ SERC,P_Nuclear,All,0.9,,Fraction,US nuclear fleet CF ~0.93 (NEI/EIA); capped at 
 PJM,P_Nuclear,All,0.9,,Fraction,US nuclear fleet CF ~0.93 (NEI/EIA); capped at 0.90 per assumption,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewYork,P_Nuclear,All,0.9,,Fraction,US nuclear fleet CF ~0.93 (NEI/EIA); capped at 0.90 per assumption,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewEngland,P_Nuclear,All,0.9,,Fraction,US nuclear fleet CF ~0.93 (NEI/EIA); capped at 0.90 per assumption,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Nuclear,All,0.85,,Fraction,CANDU fleet ~0.80-0.88 during Bruce/Darlington refurbishment era (CNSC),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
 California,P_Nuclear_SMR,All,0.9,,Fraction,US nuclear fleet CF ~0.93 (NEI/EIA); capped at 0.90 per assumption,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
 WECC,P_Nuclear_SMR,All,0.9,,Fraction,US nuclear fleet CF ~0.93 (NEI/EIA); capped at 0.90 per assumption,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
 SPP,P_Nuclear_SMR,All,0.9,,Fraction,US nuclear fleet CF ~0.93 (NEI/EIA); capped at 0.90 per assumption,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
@@ -2484,4 +2483,7 @@ PJM,P_Nuclear_SMR,All,0.9,,Fraction,US nuclear fleet CF ~0.93 (NEI/EIA); capped 
 NewYork,P_Nuclear_SMR,All,0.9,,Fraction,US nuclear fleet CF ~0.93 (NEI/EIA); capped at 0.90 per assumption,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewEngland,P_Nuclear_SMR,All,0.9,,Fraction,US nuclear fleet CF ~0.93 (NEI/EIA); capped at 0.90 per assumption,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
 Canada,P_Nuclear_SMR,All,0.85,,Fraction,CANDU fleet ~0.80-0.88 during Bruce/Darlington refurbishment era (CNSC),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Hydro_Reservoir,All,0.65,,Fraction,Canadian reservoir fleet CF ~0.6-0.7 (CER EF2026: 386 TWh from ~48 GW reservoir in 2025); World row 0.33 is EU-calibrated,2026-07-03,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Hydro_Reservoir,All,0.62,,Fraction,back-solved to the CER 2025 hydro generation (386 TWh; 0.65 overshot by +15 TWh),2026-07-03,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Coal_Lignite,All,0.365,,Fraction,SK lignite + NS/NB hardcoal real-world ~13 TWh from ~4.1 GW (CF ~0.37),2026-07-03,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Coal_Hardcoal,All,0.365,,Fraction,SK lignite + NS/NB hardcoal real-world ~13 TWh from ~4.1 GW (CF ~0.37),2026-07-03,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Nuclear,All,0.78,,Fraction,"CANDU fleet incl refurbishment outages (CER 2025 implies ~0.64, rising later; 0.78 as horizon average)",2026-07-03,Konstantin Loffler <kl@wip.tu-berlin.de>
