@@ -2484,3 +2484,4 @@ PJM,P_Nuclear_SMR,All,0.9,,Fraction,US nuclear fleet CF ~0.93 (NEI/EIA); capped 
 NewYork,P_Nuclear_SMR,All,0.9,,Fraction,US nuclear fleet CF ~0.93 (NEI/EIA); capped at 0.90 per assumption,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewEngland,P_Nuclear_SMR,All,0.9,,Fraction,US nuclear fleet CF ~0.93 (NEI/EIA); capped at 0.90 per assumption,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
 Canada,P_Nuclear_SMR,All,0.85,,Fraction,CANDU fleet ~0.80-0.88 during Bruce/Darlington refurbishment era (CNSC),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Hydro_Reservoir,All,0.65,,Fraction,Canadian reservoir fleet CF ~0.6-0.7 (CER EF2026: 386 TWh from ~48 GW reservoir in 2025); World row 0.33 is EU-calibrated,2026-07-03,Konstantin Loffler <kl@wip.tu-berlin.de>
