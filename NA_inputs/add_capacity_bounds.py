@@ -484,7 +484,12 @@ FUNNEL_MIN_MARGIN = 0.02      # constant -2% below the demand-scaled basis (<= 2
 GAS_MIN_PIN_UNTIL = 2030      # gas min = EXACT capacity-file value through this year
                               # (announced/under-construction pipeline), then blends
                               # linearly into the demand-scaled funnel by 2035.
-                              # Post-2035 every min HOLDS its 2035 level (no decline).
+                              # Post-2035 every min HOLDS its 2035 level (no decline);
+                              # gas additionally keeps growing (see GAS_MIN_TREND_FRACS).
+# Post-2035 gas floor growth: fraction of each (region,tech)'s own 2030-2035 min
+# slope added per year. 0.5 at 2036 declining linearly to 0.278 at 2040 = ~9 down
+# to ~5 GW/yr nationally (the full national slope 2030-35 is ~18 GW/yr).
+GAS_MIN_TREND_FRACS = {2036: 0.500, 2037: 0.444, 2038: 0.389, 2039: 0.333, 2040: 0.278}
 
 
 def read_fel_demand():
@@ -776,8 +781,13 @@ def main():
                 else:
                     # min: HOLD the 2035 floor flat post-2035 (a declining floor let
                     # gross additions collapse to ~0 in 2036 - retiring capacity
-                    # must be replaced, matching real market behaviour)
+                    # must be replaced, matching real market behaviour). GAS keeps
+                    # growing: extend the tech's own 2030-2035 min trend at half
+                    # slope, tapering to ~5 GW/yr nationally by 2040.
                     raw_min = min_2035
+                    if tech in GAS_TECHS:
+                        slope = max(0.0, (min_2035 - gw(region, fuel, 2030)) / 5.0)
+                        raw_min += slope * sum(f for k, f in GAS_MIN_TREND_FRACS.items() if k <= y)
                     # max: interp 2035 funnel -> 2040 share-of-potential if a
                     # restool target is available; otherwise compound growth
                     # using POST_2035_MAX_GROWTH (thermal/hydro) or hold flat.
