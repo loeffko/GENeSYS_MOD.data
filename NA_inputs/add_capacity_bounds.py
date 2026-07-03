@@ -481,6 +481,10 @@ FEL_REGION_MAP = {   # FEL geo_code -> US pool (FRCC folds into SERC; Canada not
     "US_R_SERC": "SERC", "US_R_SPP": "SPP", "US_R_WECC": "WECC", "US_R_FRCC": "SERC",
 }
 FUNNEL_MIN_MARGIN = 0.02      # constant -2% below the demand-scaled basis (<= 2035)
+GAS_MIN_BLEND_FLOOR = 0.93    # gas blend floor: the demand-ratio discount on the gas
+                              # min never pushes the multiplier below 0.93 x file
+                              # (halves the max discount; removes the 2033-35
+                              # additions dip the full ratio phase-in produced)
 GAS_MIN_PIN_UNTIL = 2030      # gas min = EXACT capacity-file value through this year
                               # (announced/under-construction pipeline), then blends
                               # linearly into the demand-scaled funnel by 2035.
@@ -748,7 +752,14 @@ def main():
             val_2035 = sval(2035)
             _, mx_at_2035 = margins(2035, tech, region)
             max_2035 = val_2035 * mx_at_2035
-            min_2035 = val_2035 * (1.0 - FUNNEL_MIN_MARGIN)
+            # min anchor at 2035: gas gets the same blend floor as the year loop
+            # (else the post-2035 trend starts from the unfloored value and the
+            # floor DROPS at 2036)
+            if tech in GAS_TECHS:
+                min_2035 = gw(region, fuel, 2035) * max(GAS_MIN_BLEND_FLOOR,
+                           _ratios.get(2035, 1.0) * (1.0 - FUNNEL_MIN_MARGIN))
+            else:
+                min_2035 = val_2035 * (1.0 - FUNNEL_MIN_MARGIN)
             # slope of the rep max over 2030-2035, extended post-2035 (see below)
             val_2030 = sval(2030)
             _, mx_at_2030 = margins(2030, tech, region)
@@ -772,8 +783,8 @@ def main():
                         # blend linearly from the exact-file pin (at GAS_MIN_PIN_UNTIL)
                         # into the demand-scaled -2% funnel (at 2035)
                         frac = (y - GAS_MIN_PIN_UNTIL) / (2035 - GAS_MIN_PIN_UNTIL)
-                        raw_min = gw(region, fuel, y) * ((1.0 - frac) +
-                                  frac * _ratios.get(y, 1.0) * (1.0 - FUNNEL_MIN_MARGIN))
+                        blendf = (1.0 - frac) + frac * _ratios.get(y, 1.0) * (1.0 - FUNNEL_MIN_MARGIN)
+                        raw_min = gw(region, fuel, y) * max(GAS_MIN_BLEND_FLOOR, blendf)
                     else:
                         # min: constant -2% below the demand-scaled basis (no widening)
                         raw_min = sval(y) * (1.0 - FUNNEL_MIN_MARGIN)
