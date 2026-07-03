@@ -457,7 +457,7 @@ def residual_factor(tech, year):
 # Canada stays on the default rate (CER data, not this US schedule).
 GAS_RETIREMENT_GW = {2026: 0.8, 2027: 0.8, 2028: 1.6, 2029: 2.7, 2030: 0.9,
                      2031: 2.2, 2032: 3.3, 2033: 3.5, 2034: 4.7, 2035: 5.5,
-                     2036: 7.0, 2037: 8.5, 2038: 10.0, 2039: 11.5, 2040: 13.0}
+                     2036: 11.0, 2037: 12.0, 2038: 13.0, 2039: 13.5, 2040: 14.0}
 GAS_SCHEDULE_TECHS = {"P_Gas_CCGT", "P_Gas_OCGT"}
 GAS_SCHEDULE_CATS = ("Natural Gas - CCCT", "Natural Gas - SCCT")
 
@@ -481,7 +481,10 @@ FEL_REGION_MAP = {   # FEL geo_code -> US pool (FRCC folds into SERC; Canada not
     "US_R_SERC": "SERC", "US_R_SPP": "SPP", "US_R_WECC": "WECC", "US_R_FRCC": "SERC",
 }
 FUNNEL_MIN_MARGIN = 0.02      # constant -2% below the demand-scaled basis (<= 2035)
-POST2035_MIN_WIDEN = 0.10     # min widens to -10% below the 2035 min by 2040
+GAS_MIN_PIN_UNTIL = 2029      # gas min = EXACT capacity-file value through this year
+                              # (announced/under-construction pipeline), then blends
+                              # linearly into the demand-scaled funnel by 2035.
+                              # Post-2035 every min HOLDS its 2035 level (no decline).
 
 
 def read_fel_demand():
@@ -701,12 +704,24 @@ def main():
             # 2036-2040 extended by the 2030-2035 trend via hydro_sheet_traj.
             st_traj = hydro_sheet_traj({y: gw(region, fuel, y) for y in range(2025, 2036)}) \
                 if tech == "P_Gas_Steam" else None
-            def _res(y):
+            def _res_raw(y):
                 if tech in GAS_SCHEDULE_TECHS:
                     return base * gas_surv[y]                      # national schedule
                 if tech == "P_Gas_Steam":
                     return min(base, st_traj[y]) + conv_add[y] * coal_share.get(region, 0.0)
                 return base * residual_factor(tech, y)
+            # Residual paths must be MONOTONE NON-INCREASING for gas: the stepped
+            # coal->gas conversion trajectory (conv_add) otherwise creates upward
+            # jumps in the existing Steam fleet (e.g. US +5.8 GW in 2030) that the
+            # model gets for free - clamp them away so conversions show up as
+            # buildable NewCapacity instead.
+            _res_path, _prev = {}, None
+            for y in YEARS:
+                v = _res_raw(y)
+                if tech in GAS_TECHS and _prev is not None:
+                    v = min(v, _prev)
+                _res_path[y] = v; _prev = v
+            _res = lambda y: _res_path[y]
             for y in YEARS:
                 res_val = _res(y)
                 if tech == "P_Gas_CCGT":
@@ -743,12 +758,26 @@ def main():
             for y in range(2026, 2041):
                 if y <= 2035:
                     _, mx = margins(y, tech, region)
-                    # min: constant -2% below the demand-scaled basis (no widening)
-                    raw_min = sval(y) * (1.0 - FUNNEL_MIN_MARGIN)
+                    if tech in GAS_TECHS and y <= GAS_MIN_PIN_UNTIL:
+                        # near-term gas floor pinned to EXACTLY the capacity-file
+                        # value (no demand scaling, no margin): the 2026-2029 gas
+                        # pipeline is announced/under construction, not a band.
+                        raw_min = gw(region, fuel, y)
+                    elif tech in GAS_TECHS:
+                        # blend linearly from the exact-file pin (at GAS_MIN_PIN_UNTIL)
+                        # into the demand-scaled -2% funnel (at 2035)
+                        frac = (y - GAS_MIN_PIN_UNTIL) / (2035 - GAS_MIN_PIN_UNTIL)
+                        raw_min = gw(region, fuel, y) * ((1.0 - frac) +
+                                  frac * _ratios.get(y, 1.0) * (1.0 - FUNNEL_MIN_MARGIN))
+                    else:
+                        # min: constant -2% below the demand-scaled basis (no widening)
+                        raw_min = sval(y) * (1.0 - FUNNEL_MIN_MARGIN)
                     raw_max = sval(y) * mx
                 else:
-                    # min: widen gradually from the 2035 value to -10% below it at 2040
-                    raw_min = min_2035 * (1.0 - POST2035_MIN_WIDEN * (y - 2035) / 5.0)
+                    # min: HOLD the 2035 floor flat post-2035 (a declining floor let
+                    # gross additions collapse to ~0 in 2036 - retiring capacity
+                    # must be replaced, matching real market behaviour)
+                    raw_min = min_2035
                     # max: interp 2035 funnel -> 2040 share-of-potential if a
                     # restool target is available; otherwise compound growth
                     # using POST_2035_MAX_GROWTH (thermal/hydro) or hold flat.
