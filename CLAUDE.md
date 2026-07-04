@@ -46,6 +46,12 @@ combines them into the Excel files the model (`GENeSYS_MOD.jl`) reads.
   write their outputs there via `--scenario-subdir <name>` (see
   `NA_inputs/build_sensitivity_inputs.py`). Timeseries support the same
   subfolder mechanism plus per-weather-year folders (`TS_X/<year>/`).
+- **A scenario can also bring its own filter file**: `master_function`'s first
+  argument is the filter-file name, so a scenario needing a different set
+  selection (e.g. a tech enabled only there, like P_SOFC in
+  `Set_filter_file_NorthAmerica_dc_high_limitless.xlsx`) gets its own
+  `Set_filter_file_<...>.xlsx` — never toggle flags in a shared filter file
+  back and forth between conversions.
 
 ## Data expansion tool
 

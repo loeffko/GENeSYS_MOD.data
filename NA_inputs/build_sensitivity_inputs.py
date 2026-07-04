@@ -66,7 +66,10 @@ SENS = {   # order matters: 'base' LAST so shared CSVs end in the base state
                       group_caps={"GasPlants": {y: 100.0 for y in YEARS},
                                   "EGS":       {y: 4.0 for y in YEARS},
                                   "SOFC":      {y: sofc_cap(y) for y in YEARS}},
-                      open_sofc=True),
+                      open_sofc=True,
+                      # own filter file: P_SOFC selected here only, the main NA
+                      # filter (all other sensitivities) keeps it deselected
+                      filter_file="Set_filter_file_NorthAmerica_dc_high_limitless.xlsx"),
     "recession": dict(fel="fel_recession_v260703.xlsx", gas_min_floor="0"),
     "economic":  dict(fel=BASE_FEL, funnel="economic"),
     "grid_low":  dict(fel=BASE_FEL, ic_growth="0.025"),
@@ -152,9 +155,11 @@ def build(sens, cfg):
         name = "RegularParameters_NorthAmerica.xlsx"
     else:
         # conversion with the scenario option applies the subfolder upserts and
-        # names the output RegularParameters_<scenario_option>.xlsx directly
+        # names the output RegularParameters_<scenario_option>.xlsx directly;
+        # a sensitivity may bring its own filter file (different set selection)
+        filt = cfg.get("filter_file", "Set_filter_file_NorthAmerica.xlsx")
         code = ("from functions.function_import import master_function;"
-                f"master_function('Set_filter_file_NorthAmerica.xlsx','excel','long',"
+                f"master_function('{filt}','excel','long',"
                 f"'parameters_only','{scen}',False,'California')")
         run(["-c", code], CONV)
         name = f"RegularParameters_{scen}.xlsx"
