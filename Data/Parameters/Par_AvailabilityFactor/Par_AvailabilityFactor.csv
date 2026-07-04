@@ -2487,3 +2487,4 @@ Canada,P_Hydro_Reservoir,All,0.62,,Fraction,back-solved to the CER 2025 hydro ge
 Canada,P_Coal_Lignite,All,0.365,,Fraction,SK lignite + NS/NB hardcoal real-world ~13 TWh from ~4.1 GW (CF ~0.37),2026-07-03,Konstantin Loffler <kl@wip.tu-berlin.de>
 Canada,P_Coal_Hardcoal,All,0.365,,Fraction,SK lignite + NS/NB hardcoal real-world ~13 TWh from ~4.1 GW (CF ~0.37),2026-07-03,Konstantin Loffler <kl@wip.tu-berlin.de>
 Canada,P_Nuclear,All,0.78,,Fraction,"CANDU fleet incl refurbishment outages (CER 2025 implies ~0.64, rising later; 0.78 as horizon average)",2026-07-03,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,All,0.95,,Fraction,Bloom fleet availability; TU Berlin assumption,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>

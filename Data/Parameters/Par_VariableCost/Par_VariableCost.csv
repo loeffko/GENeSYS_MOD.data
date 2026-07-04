@@ -3083,3 +3083,39 @@ Canada,P_Gas_CCGT_Residual,1,2036,0.8582,,MEUR/PJ,"World VariableCost x 0.700 re
 Canada,P_Gas_CCGT_Residual,1,2037,0.8554,,MEUR/PJ,"World VariableCost x 0.700 regional gas basis (Par_DispatchFuelCostFactor Canada/Gas, annual avg)",2026-07-03,Konstantin Loffler <kl@wip.tu-berlin.de>
 Canada,P_Gas_CCGT_Residual,1,2038,0.8526,,MEUR/PJ,"World VariableCost x 0.700 regional gas basis (Par_DispatchFuelCostFactor Canada/Gas, annual avg)",2026-07-03,Konstantin Loffler <kl@wip.tu-berlin.de>
 Canada,P_Gas_CCGT_Residual,1,2039,0.8498,,MEUR/PJ,"World VariableCost x 0.700 regional gas basis (Par_DispatchFuelCostFactor Canada/Gas, annual avg)",2026-07-03,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,1,2025,0.4,,MEUR/PJ,non-fuel VOM; fuel cost via input-fuel chain; TU Berlin assumption,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,1,2026,0.4,,MEUR/PJ,non-fuel VOM; fuel cost via input-fuel chain; TU Berlin assumption,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,1,2027,0.4,,MEUR/PJ,non-fuel VOM; fuel cost via input-fuel chain; TU Berlin assumption,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,1,2028,0.4,,MEUR/PJ,non-fuel VOM; fuel cost via input-fuel chain; TU Berlin assumption,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,1,2029,0.4,,MEUR/PJ,non-fuel VOM; fuel cost via input-fuel chain; TU Berlin assumption,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,1,2030,0.4,,MEUR/PJ,non-fuel VOM; fuel cost via input-fuel chain; TU Berlin assumption,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,1,2031,0.4,,MEUR/PJ,non-fuel VOM; fuel cost via input-fuel chain; TU Berlin assumption,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,1,2032,0.4,,MEUR/PJ,non-fuel VOM; fuel cost via input-fuel chain; TU Berlin assumption,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,1,2033,0.4,,MEUR/PJ,non-fuel VOM; fuel cost via input-fuel chain; TU Berlin assumption,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,1,2034,0.4,,MEUR/PJ,non-fuel VOM; fuel cost via input-fuel chain; TU Berlin assumption,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,1,2035,0.4,,MEUR/PJ,non-fuel VOM; fuel cost via input-fuel chain; TU Berlin assumption,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,1,2036,0.4,,MEUR/PJ,non-fuel VOM; fuel cost via input-fuel chain; TU Berlin assumption,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,1,2037,0.4,,MEUR/PJ,non-fuel VOM; fuel cost via input-fuel chain; TU Berlin assumption,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,1,2038,0.4,,MEUR/PJ,non-fuel VOM; fuel cost via input-fuel chain; TU Berlin assumption,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,1,2039,0.4,,MEUR/PJ,non-fuel VOM; fuel cost via input-fuel chain; TU Berlin assumption,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,1,2040,0.4,,MEUR/PJ,non-fuel VOM; fuel cost via input-fuel chain; TU Berlin assumption,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,1,2045,0.4,,MEUR/PJ,non-fuel VOM; fuel cost via input-fuel chain; TU Berlin assumption,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,1,2050,0.4,,MEUR/PJ,non-fuel VOM; fuel cost via input-fuel chain; TU Berlin assumption,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,2,2025,0.4,,MEUR/PJ,non-fuel VOM; fuel cost via input-fuel chain; TU Berlin assumption,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,2,2026,0.4,,MEUR/PJ,non-fuel VOM; fuel cost via input-fuel chain; TU Berlin assumption,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,2,2027,0.4,,MEUR/PJ,non-fuel VOM; fuel cost via input-fuel chain; TU Berlin assumption,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,2,2028,0.4,,MEUR/PJ,non-fuel VOM; fuel cost via input-fuel chain; TU Berlin assumption,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,2,2029,0.4,,MEUR/PJ,non-fuel VOM; fuel cost via input-fuel chain; TU Berlin assumption,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,2,2030,0.4,,MEUR/PJ,non-fuel VOM; fuel cost via input-fuel chain; TU Berlin assumption,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,2,2031,0.4,,MEUR/PJ,non-fuel VOM; fuel cost via input-fuel chain; TU Berlin assumption,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,2,2032,0.4,,MEUR/PJ,non-fuel VOM; fuel cost via input-fuel chain; TU Berlin assumption,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,2,2033,0.4,,MEUR/PJ,non-fuel VOM; fuel cost via input-fuel chain; TU Berlin assumption,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,2,2034,0.4,,MEUR/PJ,non-fuel VOM; fuel cost via input-fuel chain; TU Berlin assumption,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,2,2035,0.4,,MEUR/PJ,non-fuel VOM; fuel cost via input-fuel chain; TU Berlin assumption,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,2,2036,0.4,,MEUR/PJ,non-fuel VOM; fuel cost via input-fuel chain; TU Berlin assumption,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,2,2037,0.4,,MEUR/PJ,non-fuel VOM; fuel cost via input-fuel chain; TU Berlin assumption,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,2,2038,0.4,,MEUR/PJ,non-fuel VOM; fuel cost via input-fuel chain; TU Berlin assumption,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,2,2039,0.4,,MEUR/PJ,non-fuel VOM; fuel cost via input-fuel chain; TU Berlin assumption,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,2,2040,0.4,,MEUR/PJ,non-fuel VOM; fuel cost via input-fuel chain; TU Berlin assumption,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,2,2045,0.4,,MEUR/PJ,non-fuel VOM; fuel cost via input-fuel chain; TU Berlin assumption,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,2,2050,0.4,,MEUR/PJ,non-fuel VOM; fuel cost via input-fuel chain; TU Berlin assumption,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>

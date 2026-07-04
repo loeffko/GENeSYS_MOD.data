@@ -157,3 +157,4 @@ P_EGS_R4,30.0,,Years,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR
 P_Gas_Steam,50.0,,Years,legacy steam units long-lived; fleet predates 1990,2026-06-12,Konstantin Loffler <kl@wip.tu-berlin.de>
 P_Nuclear_SMR,61.0,,Years,Nuclear III gen. (no economies of scale) EU Reference Scenario 2020,05.09.2023,Stian Backe <stian.backe@sintef.no>
 P_Gas_CCGT_Residual,25.0,,Years,Energy Agency Denmark (2024) Gas turbine cc,30.07.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+P_SOFC,20.0,,Years,"SOFC system life, stacks replaced via FixedCost; TU Berlin assumption",2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>

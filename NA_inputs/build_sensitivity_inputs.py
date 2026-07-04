@@ -18,6 +18,9 @@ Sensitivities:
   base       base FEL demand, 4%/yr IC growth
   dc_low     low data-center demand FEL
   dc_high    high data-center demand FEL; ratios > 1 RAISE the funnel max
+  dc_high_limitless
+             dc_high demand, build limits mostly gone: gas cap 100 GW/yr, EGS
+             4 GW/yr, funnel max x2 (PV/onshore/BESS), P_SOFC enabled 3->9 GW/yr
   recession  recession-demand FEL
   economic   base demand; funnel widens strongly after 2030 (min x0.75, max x1.5)
   grid_low   base demand; IC growth capped at 2.5%/yr
@@ -38,11 +41,32 @@ INPUTDATA = r"C:\Users\testbed\Documents\GENeSYSMOD.jl_SE\InputData"
 PY = sys.executable
 BASE_FEL = "base_fel_v260702_v2.xlsx"
 
+US_REGIONS = ["California", "WECC", "SPP", "MISO", "ERCOT", "SERC", "PJM",
+              "NewYork", "NewEngland"]
+YEARS = list(range(2025, 2041))
+
+# SOFC national addition cap (GW/yr): Bloom alone delivers ~3 GW/yr today; the
+# multi-vendor ramp (FuelCell Energy, Doosan/Ceres, Mitsubishi) reaches ~9 by 2035.
+SOFC_CAP_2025, SOFC_CAP_2035 = 3.0, 9.0
+def sofc_cap(y):
+    return round(SOFC_CAP_2025 + (SOFC_CAP_2035 - SOFC_CAP_2025)
+                 * max(0.0, min(1.0, (y - 2025) / 10.0)), 2)
+
 SENS = {   # order matters: 'base' LAST so shared CSVs end in the base state
     "dc_low":    dict(fel="base_fel_dc_low v260703.xlsx"),
     "dc_high":   dict(fel="base_fel_dc_high v260703.xlsx", max_upscale=True,
                       ic_growth="0.06",          # demand boom accelerates grid (base 4%)
                       gas_group_cap_scale=1.2),  # GasPlants/USA 65 -> 78 GW/yr (~2035 demand ratio)
+    # dc_high demand with the build limits mostly gone: gas cap 100 GW/yr, EGS
+    # cap 4 GW/yr, funnel max x2 for PV/onshore/BESS, SOFC enabled (3->9 GW/yr),
+    # loosened model pacing (set_investment_limit=3, set_new_res_capacity=0.3
+    # in test/sensitivities/common.jl SENS_MODEL_KWARGS).
+    "dc_high_limitless": dict(fel="base_fel_dc_high v260703.xlsx", max_upscale=True,
+                      ic_growth="0.06", max_boost="2.0",
+                      group_caps={"GasPlants": {y: 100.0 for y in YEARS},
+                                  "EGS":       {y: 4.0 for y in YEARS},
+                                  "SOFC":      {y: sofc_cap(y) for y in YEARS}},
+                      open_sofc=True),
     "recession": dict(fel="fel_recession_v260703.xlsx", gas_min_floor="0"),
     "economic":  dict(fel=BASE_FEL, funnel="economic"),
     "grid_low":  dict(fel=BASE_FEL, ic_growth="0.025"),
@@ -74,25 +98,55 @@ def build(sens, cfg):
         bounds += ["--funnel", cfg["funnel"]]
     if cfg.get("gas_min_floor") is not None:
         bounds += ["--gas-min-floor", cfg["gas_min_floor"]]
+    if cfg.get("max_boost"):
+        bounds += ["--max-boost", cfg["max_boost"]]
     run(bounds, DATA_REPO)
     ic = ["NA_inputs/add_ic_trade_bounds.py", "--apply"] + sub
     if cfg.get("ic_growth"):
         ic += ["--growth", cfg["ic_growth"]]
     run(ic, DATA_REPO)
-    if cfg.get("gas_group_cap_scale"):
-        # demand-scaled GasPlants/USA cap as a scenario-subfolder upsert row set
+    if cfg.get("gas_group_cap_scale") or cfg.get("group_caps"):
+        # group new-capacity cap overrides as a scenario-subfolder upsert row set
         import pandas as _pd
         gp = os.path.join(DATA_REPO, "Data", "Parameters",
                           "Par_GroupTotalAnnualMaxNewCap", "Par_GroupTotalAnnualMaxNewCap.csv")
         g = _pd.read_csv(gp)
         g.columns = ["" if str(c).startswith("Unnamed") else c for c in g.columns]
-        m = (g.TechnologySubset == "GasPlants") & (g.RegionSubset == "USA")
-        rows = g[m].copy()
-        rows["Value"] = (rows["Value"] * float(cfg["gas_group_cap_scale"])).round(1)
-        rows["Source"] = f"GasPlants cap x {cfg['gas_group_cap_scale']} (demand-scaled, {sens})"
+        if cfg.get("gas_group_cap_scale"):
+            m = (g.TechnologySubset == "GasPlants") & (g.RegionSubset == "USA")
+            rows = g[m].copy()
+            rows["Value"] = (rows["Value"] * float(cfg["gas_group_cap_scale"])).round(1)
+            rows["Source"] = f"GasPlants cap x {cfg['gas_group_cap_scale']} (demand-scaled, {sens})"
+        else:
+            recs = [{"TechnologySubset": ts, "RegionSubset": "USA", "Year": y,
+                     "Value": v, "": "", "Unit": "GW",
+                     "Source": f"{ts} annual-additions cap ({sens})",
+                     "Updated at": "2026-07-04",
+                     "Updated by": "Konstantin Loffler <kl@wip.tu-berlin.de>"}
+                    for ts, yv in cfg["group_caps"].items() for y, v in sorted(yv.items())]
+            rows = _pd.DataFrame(recs)[g.columns]
         outdir = os.path.join(os.path.dirname(gp), scen)
         os.makedirs(outdir, exist_ok=True)
         rows.to_csv(os.path.join(outdir, os.path.basename(gp)), index=False, lineterminator="\n")
+    if cfg.get("open_sofc"):
+        # P_SOFC is forbidden in the base data (World max = 0.001 GW dead-cap);
+        # open it for the US regions here (max 0 = unbounded, the SOFC group
+        # addition cap + pacing govern). Canada keeps the inherited forbid.
+        import pandas as _pd
+        mc = os.path.join(DATA_REPO, "Data", "Parameters",
+                          "Par_TotalAnnualMaxCapacity", "Par_TotalAnnualMaxCapacity.csv")
+        outdir = os.path.join(os.path.dirname(mc), scen)
+        path = os.path.join(outdir, os.path.basename(mc))
+        d = _pd.read_csv(path)   # written by add_capacity_bounds just above
+        d.columns = ["" if str(c).startswith("Unnamed") else c for c in d.columns]
+        recs = [{"Region": r, "Technology": "P_SOFC", "Year": y, "Value": 0.0,
+                 "": "", "Unit": "GW",
+                 "Source": f"SOFC opened for {sens}; group addition cap governs",
+                 "Updated at": "2026-07-04",
+                 "Updated by": "Konstantin Loffler <kl@wip.tu-berlin.de>"}
+                for r in US_REGIONS for y in YEARS]
+        out = _pd.concat([d, _pd.DataFrame(recs)[d.columns]], ignore_index=True)
+        out.to_csv(path, index=False, lineterminator="\n")
     if sens == "base":
         run(["script_northamerica.py"], CONV)      # params + base timeseries
         name = "RegularParameters_NorthAmerica.xlsx"

@@ -188,3 +188,5 @@ World,P_Gas_CCS,All,CO2,2038,0.081,,Fraction,interpolated,22.01.2025,Konstantin 
 World,P_Gas_CCS,All,CO2,2039,0.081,,Fraction,interpolated,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
 World,P_Gas_Steam,All,CO2,All,1.0,,Fraction,no source needed - all emissions go into athmosphere,2026-06-12,Konstantin Loffler <kl@wip.tu-berlin.de>
 World,P_Gas_CCGT_Residual,All,CO2,All,1.0,,Fraction,no source needed - all emissions go into athmosphere,22.01.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,1,CO2,All,1.0,,Fraction,natural-gas mode: all combustion CO2 to atmosphere,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,2,CO2,All,0.0,,Fraction,hydrogen mode: no direct CO2,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>

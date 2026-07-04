@@ -4323,3 +4323,39 @@ World,P_Gas_CCGT_Residual,Gas_Synth,3,2036,1.7361,,PJ,interpolated,26.08.2024,Ni
 World,P_Gas_CCGT_Residual,Gas_Synth,3,2037,1.7331,,PJ,interpolated,26.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
 World,P_Gas_CCGT_Residual,Gas_Synth,3,2038,1.7301,,PJ,interpolated,26.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
 World,P_Gas_CCGT_Residual,Gas_Synth,3,2039,1.7271,,PJ,interpolated,26.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,P_SOFC,Gas_Natural,1,2025,1.7241,,PJ,"Bloom Energy Server ~60% net el. efficiency (LHV), slight gain over time; TU Berlin assumption",2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,Gas_Natural,1,2026,1.7162,,PJ,"Bloom Energy Server ~60% net el. efficiency (LHV), slight gain over time; TU Berlin assumption",2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,Gas_Natural,1,2027,1.7084,,PJ,"Bloom Energy Server ~60% net el. efficiency (LHV), slight gain over time; TU Berlin assumption",2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,Gas_Natural,1,2028,1.7007,,PJ,"Bloom Energy Server ~60% net el. efficiency (LHV), slight gain over time; TU Berlin assumption",2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,Gas_Natural,1,2029,1.693,,PJ,"Bloom Energy Server ~60% net el. efficiency (LHV), slight gain over time; TU Berlin assumption",2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,Gas_Natural,1,2030,1.6854,,PJ,"Bloom Energy Server ~60% net el. efficiency (LHV), slight gain over time; TU Berlin assumption",2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,Gas_Natural,1,2031,1.6779,,PJ,"Bloom Energy Server ~60% net el. efficiency (LHV), slight gain over time; TU Berlin assumption",2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,Gas_Natural,1,2032,1.6704,,PJ,"Bloom Energy Server ~60% net el. efficiency (LHV), slight gain over time; TU Berlin assumption",2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,Gas_Natural,1,2033,1.663,,PJ,"Bloom Energy Server ~60% net el. efficiency (LHV), slight gain over time; TU Berlin assumption",2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,Gas_Natural,1,2034,1.6556,,PJ,"Bloom Energy Server ~60% net el. efficiency (LHV), slight gain over time; TU Berlin assumption",2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,Gas_Natural,1,2035,1.6484,,PJ,"Bloom Energy Server ~60% net el. efficiency (LHV), slight gain over time; TU Berlin assumption",2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,Gas_Natural,1,2036,1.6411,,PJ,"Bloom Energy Server ~60% net el. efficiency (LHV), slight gain over time; TU Berlin assumption",2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,Gas_Natural,1,2037,1.634,,PJ,"Bloom Energy Server ~60% net el. efficiency (LHV), slight gain over time; TU Berlin assumption",2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,Gas_Natural,1,2038,1.6269,,PJ,"Bloom Energy Server ~60% net el. efficiency (LHV), slight gain over time; TU Berlin assumption",2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,Gas_Natural,1,2039,1.6199,,PJ,"Bloom Energy Server ~60% net el. efficiency (LHV), slight gain over time; TU Berlin assumption",2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,Gas_Natural,1,2040,1.6129,,PJ,"Bloom Energy Server ~60% net el. efficiency (LHV), slight gain over time; TU Berlin assumption",2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,Gas_Natural,1,2045,1.6,,PJ,"Bloom Energy Server ~60% net el. efficiency (LHV), slight gain over time; TU Berlin assumption",2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,Gas_Natural,1,2050,1.5873,,PJ,"Bloom Energy Server ~60% net el. efficiency (LHV), slight gain over time; TU Berlin assumption",2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,H2,2,2025,1.7241,,PJ,"Bloom Energy Server ~60% net el. efficiency (LHV), slight gain over time; TU Berlin assumption",2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,H2,2,2026,1.7162,,PJ,"Bloom Energy Server ~60% net el. efficiency (LHV), slight gain over time; TU Berlin assumption",2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,H2,2,2027,1.7084,,PJ,"Bloom Energy Server ~60% net el. efficiency (LHV), slight gain over time; TU Berlin assumption",2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,H2,2,2028,1.7007,,PJ,"Bloom Energy Server ~60% net el. efficiency (LHV), slight gain over time; TU Berlin assumption",2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,H2,2,2029,1.693,,PJ,"Bloom Energy Server ~60% net el. efficiency (LHV), slight gain over time; TU Berlin assumption",2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,H2,2,2030,1.6854,,PJ,"Bloom Energy Server ~60% net el. efficiency (LHV), slight gain over time; TU Berlin assumption",2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,H2,2,2031,1.6779,,PJ,"Bloom Energy Server ~60% net el. efficiency (LHV), slight gain over time; TU Berlin assumption",2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,H2,2,2032,1.6704,,PJ,"Bloom Energy Server ~60% net el. efficiency (LHV), slight gain over time; TU Berlin assumption",2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,H2,2,2033,1.663,,PJ,"Bloom Energy Server ~60% net el. efficiency (LHV), slight gain over time; TU Berlin assumption",2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,H2,2,2034,1.6556,,PJ,"Bloom Energy Server ~60% net el. efficiency (LHV), slight gain over time; TU Berlin assumption",2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,H2,2,2035,1.6484,,PJ,"Bloom Energy Server ~60% net el. efficiency (LHV), slight gain over time; TU Berlin assumption",2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,H2,2,2036,1.6411,,PJ,"Bloom Energy Server ~60% net el. efficiency (LHV), slight gain over time; TU Berlin assumption",2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,H2,2,2037,1.634,,PJ,"Bloom Energy Server ~60% net el. efficiency (LHV), slight gain over time; TU Berlin assumption",2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,H2,2,2038,1.6269,,PJ,"Bloom Energy Server ~60% net el. efficiency (LHV), slight gain over time; TU Berlin assumption",2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,H2,2,2039,1.6199,,PJ,"Bloom Energy Server ~60% net el. efficiency (LHV), slight gain over time; TU Berlin assumption",2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,H2,2,2040,1.6129,,PJ,"Bloom Energy Server ~60% net el. efficiency (LHV), slight gain over time; TU Berlin assumption",2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,H2,2,2045,1.6,,PJ,"Bloom Energy Server ~60% net el. efficiency (LHV), slight gain over time; TU Berlin assumption",2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,H2,2,2050,1.5873,,PJ,"Bloom Energy Server ~60% net el. efficiency (LHV), slight gain over time; TU Berlin assumption",2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>

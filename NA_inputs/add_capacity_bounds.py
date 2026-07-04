@@ -93,6 +93,11 @@ if "--gas-min-floor" in sys.argv:
 else:
     GAS_MIN_BLEND_FLOOR_OVERRIDE = None
 FUNNEL_STYLE = sys.argv[sys.argv.index("--funnel") + 1] if "--funnel" in sys.argv else "base"
+#   --max-boost <x>      scale the funnel MAX a further x for the main expansion
+#                        techs (PV, onshore wind, Li-Ion BESS) on top of any
+#                        demand upscaling (dc_high_limitless)
+MAX_BOOST = float(sys.argv[sys.argv.index("--max-boost") + 1]) if "--max-boost" in sys.argv else None
+MAX_BOOST_PREFIXES = ("P_PV_", "P_Wind_Onshore", "D_Battery_Li-Ion")
 ECON_MIN_EXTRA_2035, ECON_MAX_EXTRA_2035 = 0.75, 1.50
 def econ_min_f(y):
     if FUNNEL_STYLE != "economic": return 1.0
@@ -1287,6 +1292,14 @@ def main():
         if apply:
             out.to_csv(path, index=False)
         return nd, len(rows)
+
+    if MAX_BOOST:
+        # boost applied after the persistence floor: scaling up never violates it;
+        # forbid rows (<= FORBID_EPS) stay forbidden (boosting one would lift it
+        # past the model's DEAD_CAP_EPS and silently re-enable the tech)
+        max_rows = [(r, t, y, round(v * MAX_BOOST, 6))
+                    if t.startswith(MAX_BOOST_PREFIXES) and v > FORBID_EPS
+                    else (r, t, y, v) for (r, t, y, v) in max_rows]
 
     if SCENARIO_SUBDIR:
         # Upsert semantics only OVERRIDE matching rows: a min row the base has
