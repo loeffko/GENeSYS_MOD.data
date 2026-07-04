@@ -154,10 +154,23 @@ def bound_rows(df, case, source, existing, commissioned, mode):
     return rows
 
 
+SCENARIO_SUBDIR = sys.argv[sys.argv.index("--scenario-subdir") + 1] if "--scenario-subdir" in sys.argv else None
+
+
 def write_param(param, new_rows, key2, cols):
     d = os.path.join(PARAMS, param)
     os.makedirs(d, exist_ok=True)
     path = os.path.join(d, param + ".csv")
+    if SCENARIO_SUBDIR:
+        # scenario mode: base CSV untouched; rows go to Par_X/<subdir>/ and the
+        # conversion upserts them over the base (full NA row set -> no leakage)
+        outdir = os.path.join(d, SCENARIO_SUBDIR)
+        path = os.path.join(outdir, param + ".csv")
+        out = pd.DataFrame(new_rows)[cols]
+        if apply:
+            os.makedirs(outdir, exist_ok=True)
+            out.to_csv(path, index=False, lineterminator="\n")
+        return 0, len(new_rows), path
     if os.path.exists(path):
         old = pd.read_csv(path)
         old = old.rename(columns={c: "" for c in old.columns if str(c).startswith("Unnamed")})

@@ -38,6 +38,14 @@ combines them into the Excel files the model (`GENeSYS_MOD.jl`) reads.
 - A `scenario_option` must match an existing scenario subfolder name, or be
   `'None'`. A folder with only a `dummy.txt` marker is enough to register a
   scenario whose data lives entirely in the base CSVs.
+- **Scenario/sensitivity data belongs in scenario subfolders, never in edits to
+  the base CSVs**: `Par_X/<scenario_option>/Par_X.csv` rows are applied as a
+  row-level upsert over the base file (override matching index rows, append
+  new ones) when converting with that `scenario_option`, and the output is
+  named `RegularParameters_<scenario_option>.xlsx`. The NA sensitivity scripts
+  write their outputs there via `--scenario-subdir <name>` (see
+  `NA_inputs/build_sensitivity_inputs.py`). Timeseries support the same
+  subfolder mechanism plus per-weather-year folders (`TS_X/<year>/`).
 
 ## Data expansion tool
 

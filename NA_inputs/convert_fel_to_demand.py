@@ -138,17 +138,24 @@ def main():
         })
     df_new = pd.DataFrame(new_rows)
 
-    # ---- merge into the CSV: drop existing NA Power/Power_* rows, then append ----
-    df = pd.read_csv(CSV)
-    df = df.rename(columns={"Unnamed: 4": ""})            # restore the blank column name
-    drop = df["Region"].isin(NA_REGIONS) & df["Fuel"].isin(POWER_FUELS)
-    print(f"Removing {int(drop.sum())} existing NA Power/Power_* rows")
-    df = df[~drop]
-    df = pd.concat([df, df_new], ignore_index=True)
-    df.to_csv(CSV, index=False)
-
-    # ---- report ----
-    print(f"Wrote {len(df_new)} rows -> {os.path.relpath(CSV, DATA_REPO)}")
+    # ---- write: scenario subfolder (upserted at conversion) or base merge ----
+    if "--scenario-subdir" in sys.argv:
+        subdir = sys.argv[sys.argv.index("--scenario-subdir") + 1]
+        outdir = os.path.join(os.path.dirname(CSV), subdir)
+        os.makedirs(outdir, exist_ok=True)
+        out_path = os.path.join(outdir, os.path.basename(CSV))
+        base_cols = list(pd.read_csv(CSV, nrows=0).rename(columns={"Unnamed: 4": ""}).columns)
+        df_new[base_cols].to_csv(out_path, index=False, lineterminator="\n")
+        print(f"Wrote {len(df_new)} rows -> {os.path.relpath(out_path, DATA_REPO)} (scenario subfolder)")
+    else:
+        df = pd.read_csv(CSV)
+        df = df.rename(columns={"Unnamed: 4": ""})            # restore the blank column name
+        drop = df["Region"].isin(NA_REGIONS) & df["Fuel"].isin(POWER_FUELS)
+        print(f"Removing {int(drop.sum())} existing NA Power/Power_* rows")
+        df = df[~drop]
+        df = pd.concat([df, df_new], ignore_index=True)
+        df.to_csv(CSV, index=False)
+        print(f"Wrote {len(df_new)} rows -> {os.path.relpath(CSV, DATA_REPO)}")
     piv = df_new.pivot_table(index="Fuel", values="Value", aggfunc=["count", "sum"])
     print("\nPer-fuel row count + total PJ written:")
     print(piv.to_string())

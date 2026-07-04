@@ -58,10 +58,16 @@ def run(args, cwd):
 
 
 def build(sens, cfg):
-    print(f"\n=== {sens} ===", flush=True)
+    """Non-base sensitivities write ONLY into the conversion's scenario
+    subfolders (Par_X/NorthAmerica_<sens>/Par_X.csv, upserted over the base at
+    conversion time) - the base CSVs are never touched. 'base' refreshes the
+    base CSVs + workbook exactly as before."""
+    print(f"{chr(10)}=== {sens} ===", flush=True)
     fel = cfg["fel"]
-    run(["NA_inputs/convert_fel_to_demand.py", "--fel", fel], DATA_REPO)
-    bounds = ["NA_inputs/add_capacity_bounds.py", "--apply", "--fel", fel]
+    scen = "NorthAmerica" if sens == "base" else f"NorthAmerica_{sens}"
+    sub = [] if sens == "base" else ["--scenario-subdir", scen]
+    run(["NA_inputs/convert_fel_to_demand.py", "--fel", fel] + sub, DATA_REPO)
+    bounds = ["NA_inputs/add_capacity_bounds.py", "--apply", "--fel", fel] + sub
     if cfg.get("max_upscale"):
         bounds.append("--max-upscale")
     if cfg.get("funnel"):
@@ -69,35 +75,36 @@ def build(sens, cfg):
     if cfg.get("gas_min_floor") is not None:
         bounds += ["--gas-min-floor", cfg["gas_min_floor"]]
     run(bounds, DATA_REPO)
-    ic = ["NA_inputs/add_ic_trade_bounds.py", "--apply"]
+    ic = ["NA_inputs/add_ic_trade_bounds.py", "--apply"] + sub
     if cfg.get("ic_growth"):
         ic += ["--growth", cfg["ic_growth"]]
     run(ic, DATA_REPO)
-    gp = os.path.join(DATA_REPO, "Data", "Parameters",
-                      "Par_GroupTotalAnnualMaxNewCap", "Par_GroupTotalAnnualMaxNewCap.csv")
-    gp_backup = None
     if cfg.get("gas_group_cap_scale"):
-        # transient: scale the GasPlants/USA annual-additions cap with demand for
-        # this sensitivity's workbook only; the CSV is restored right after the
-        # conversion (it is static data, no script rewrites it).
-        gp_backup = open(gp, "rb").read()
+        # demand-scaled GasPlants/USA cap as a scenario-subfolder upsert row set
         import pandas as _pd
+        gp = os.path.join(DATA_REPO, "Data", "Parameters",
+                          "Par_GroupTotalAnnualMaxNewCap", "Par_GroupTotalAnnualMaxNewCap.csv")
         g = _pd.read_csv(gp)
+        g.columns = ["" if str(c).startswith("Unnamed") else c for c in g.columns]
         m = (g.TechnologySubset == "GasPlants") & (g.RegionSubset == "USA")
-        g.loc[m, "Value"] = (g.loc[m, "Value"] * float(cfg["gas_group_cap_scale"])).round(1)
-        g.to_csv(gp, index=False, lineterminator="\n")
-    try:
-        run(["script_northamerica.py"], CONV)        # params + base TS (cheap, reuses filter)
-    finally:
-        if gp_backup is not None:
-            open(gp, "wb").write(gp_backup)
-    src = os.path.join(OUT, "RegularParameters_NorthAmerica.xlsx")
-    name = "RegularParameters_NorthAmerica.xlsx" if sens == "base" \
-        else f"RegularParameters_NorthAmerica_{sens}.xlsx"
-    dst = os.path.join(OUT, name)
-    if sens != "base":
-        shutil.copyfile(src, dst)
-    shutil.copyfile(dst, os.path.join(INPUTDATA, name))
+        rows = g[m].copy()
+        rows["Value"] = (rows["Value"] * float(cfg["gas_group_cap_scale"])).round(1)
+        rows["Source"] = f"GasPlants cap x {cfg['gas_group_cap_scale']} (demand-scaled, {sens})"
+        outdir = os.path.join(os.path.dirname(gp), scen)
+        os.makedirs(outdir, exist_ok=True)
+        rows.to_csv(os.path.join(outdir, os.path.basename(gp)), index=False, lineterminator="\n")
+    if sens == "base":
+        run(["script_northamerica.py"], CONV)      # params + base timeseries
+        name = "RegularParameters_NorthAmerica.xlsx"
+    else:
+        # conversion with the scenario option applies the subfolder upserts and
+        # names the output RegularParameters_<scenario_option>.xlsx directly
+        code = ("from functions.function_import import master_function;"
+                f"master_function('Set_filter_file_NorthAmerica.xlsx','excel','long',"
+                f"'parameters_only','{scen}',False,'California')")
+        run(["-c", code], CONV)
+        name = f"RegularParameters_{scen}.xlsx"
+    shutil.copyfile(os.path.join(OUT, name), os.path.join(INPUTDATA, name))
     print(f"  -> {name} (built + copied to InputData)", flush=True)
 
 
@@ -111,9 +118,7 @@ def main():
         ordered.remove("base"); ordered.append("base")
     for sens in ordered:
         build(sens, SENS[sens])
-    if "base" not in ordered:
-        print("\nNOTE: 'base' not rebuilt - shared CSVs are left in the LAST "
-              "sensitivity's state; run with 'base' (or no args) to restore.")
+
     print("\ndone")
 
 

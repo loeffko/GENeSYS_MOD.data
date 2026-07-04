@@ -81,6 +81,11 @@ apply = "--apply" in sys.argv
 #   --funnel economic   wider funnel from ~2030 (min x0.75, max x1.5 by 2035):
 #                       the model decides more, data steers less
 MAX_UPSCALE = "--max-upscale" in sys.argv
+#   --scenario-subdir <name>  write outputs into the conversion's scenario
+#                             subfolders (Par_X/<name>/Par_X.csv, row-upsert over
+#                             the base at conversion time) instead of mutating
+#                             the base CSVs - the sensitivity workflow.
+SCENARIO_SUBDIR = sys.argv[sys.argv.index("--scenario-subdir") + 1] if "--scenario-subdir" in sys.argv else None
 #   --gas-min-floor <x>  override the 0.93 gas blend floor (recession: 0 = the
 #                        demand ratio cuts the gas floor freely post-2030)
 if "--gas-min-floor" in sys.argv:
@@ -1228,13 +1233,21 @@ def main():
         path = PARAM(param)
         d = pd.read_csv(path)
         d = d.rename(columns={"Unnamed: 4": ""})
-        drop = d["Region"].isin(all_regions) & d["Technology"].isin(all_written_techs if techs is None else techs)
-        nd = int(drop.sum())
-        d = d[~drop]
         add = pd.DataFrame([{"Region": r, "Technology": t, "Year": y, "Value": v, "": "",
                              "Unit": "GW", "Source": src, "Updated at": DATE, "Updated by": WHO}
                             for (r, t, y, v) in rows])
         add = add[d.columns]
+        if SCENARIO_SUBDIR:
+            # scenario mode: the base CSV is untouched; the generated rows go to
+            # Par_X/<subdir>/ and the conversion upserts them over the base.
+            outdir = os.path.join(os.path.dirname(path), SCENARIO_SUBDIR)
+            if apply:
+                os.makedirs(outdir, exist_ok=True)
+                add.to_csv(os.path.join(outdir, os.path.basename(path)), index=False, lineterminator="\n")
+            return 0, len(rows)
+        drop = d["Region"].isin(all_regions) & d["Technology"].isin(all_written_techs if techs is None else techs)
+        nd = int(drop.sum())
+        d = d[~drop]
         out = pd.concat([d, add], ignore_index=True)
         if apply:
             out.to_csv(path, index=False)
@@ -1275,6 +1288,16 @@ def main():
             out.to_csv(path, index=False)
         return nd, len(rows)
 
+    if SCENARIO_SUBDIR:
+        # Upsert semantics only OVERRIDE matching rows: a min row the base has
+        # but this sensitivity does not would leak through. Emit explicit zeros
+        # for every managed (region, tech, year) the sensitivity did not set.
+        have = {(r, t, y) for (r, t, y, v) in min_rows}
+        for r in all_regions:
+            for t in sorted(all_written_techs):
+                for y in YEARS:
+                    if (r, t, y) not in have:
+                        min_rows.append((r, t, y, 0.0))
     r1 = write("Par_ResidualCapacity", res_rows,
                "US Pools 2025 base x retirement; Nuclear=2025 LSR (PMK); Coal=US Coal Trajectory LOW; "
                "P_Gas_Steam incl. coal->gas conversions (LOW)")
