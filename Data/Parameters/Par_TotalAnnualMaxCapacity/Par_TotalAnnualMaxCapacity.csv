@@ -13110,21 +13110,3 @@ Canada,D_Battery_Redox,2037,16.0,,GW,Guardrail (2026-2035) + restool potential (
 Canada,D_Battery_Redox,2038,18.0,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 Canada,D_Battery_Redox,2039,20.0,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 Canada,D_Battery_Redox,2040,22.0,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,P_SOFC,2025,0.001,,GW,forbidden by default; opened per scenario subfolder (dc_high_limitless),2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,P_SOFC,2026,0.001,,GW,forbidden by default; opened per scenario subfolder (dc_high_limitless),2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,P_SOFC,2027,0.001,,GW,forbidden by default; opened per scenario subfolder (dc_high_limitless),2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,P_SOFC,2028,0.001,,GW,forbidden by default; opened per scenario subfolder (dc_high_limitless),2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,P_SOFC,2029,0.001,,GW,forbidden by default; opened per scenario subfolder (dc_high_limitless),2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,P_SOFC,2030,0.001,,GW,forbidden by default; opened per scenario subfolder (dc_high_limitless),2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,P_SOFC,2031,0.001,,GW,forbidden by default; opened per scenario subfolder (dc_high_limitless),2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,P_SOFC,2032,0.001,,GW,forbidden by default; opened per scenario subfolder (dc_high_limitless),2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,P_SOFC,2033,0.001,,GW,forbidden by default; opened per scenario subfolder (dc_high_limitless),2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,P_SOFC,2034,0.001,,GW,forbidden by default; opened per scenario subfolder (dc_high_limitless),2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,P_SOFC,2035,0.001,,GW,forbidden by default; opened per scenario subfolder (dc_high_limitless),2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,P_SOFC,2036,0.001,,GW,forbidden by default; opened per scenario subfolder (dc_high_limitless),2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,P_SOFC,2037,0.001,,GW,forbidden by default; opened per scenario subfolder (dc_high_limitless),2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,P_SOFC,2038,0.001,,GW,forbidden by default; opened per scenario subfolder (dc_high_limitless),2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,P_SOFC,2039,0.001,,GW,forbidden by default; opened per scenario subfolder (dc_high_limitless),2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,P_SOFC,2040,0.001,,GW,forbidden by default; opened per scenario subfolder (dc_high_limitless),2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,P_SOFC,2045,0.001,,GW,forbidden by default; opened per scenario subfolder (dc_high_limitless),2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-World,P_SOFC,2050,0.001,,GW,forbidden by default; opened per scenario subfolder (dc_high_limitless),2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>

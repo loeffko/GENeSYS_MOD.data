@@ -147,8 +147,11 @@ def build(sens, cfg):
         rows.to_csv(os.path.join(outdir, os.path.basename(gp)), index=False, lineterminator="\n")
     if cfg.get("open_sofc"):
         # P_SOFC is forbidden in the base data (World max = 0.001 GW dead-cap);
-        # open it for the US regions here (max 0 = unbounded, the SOFC group
-        # addition cap + pacing govern). Canada keeps the inherited forbid.
+        # open it for the US regions here with an explicit 999999 no-limit
+        # sentinel - the SOFC group addition cap governs. NOT 0: the model's
+        # raw-max-0 -> 999999 rule (genesysmod_bounds) only covers the fossil/
+        # CHP/transport subsets, so a 0 would hard-block the tech. Canada has
+        # no rows and stays blocked by that same rule.
         import pandas as _pd
         mc = os.path.join(DATA_REPO, "Data", "Parameters",
                           "Par_TotalAnnualMaxCapacity", "Par_TotalAnnualMaxCapacity.csv")
@@ -156,7 +159,11 @@ def build(sens, cfg):
         path = os.path.join(outdir, os.path.basename(mc))
         d = _pd.read_csv(path)   # written by add_capacity_bounds just above
         d.columns = ["" if str(c).startswith("Unnamed") else c for c in d.columns]
-        recs = [{"Region": r, "Technology": "P_SOFC", "Year": y, "Value": 0.0,
+        # REPLACE the unmanaged-tech FORBID_EPS rows for the US regions (Canada
+        # keeps its forbid row); appending would leave duplicate (r,t,y) rows
+        # and the model's create_daa would keep whichever comes last.
+        d = d[~((d.Technology == "P_SOFC") & d.Region.isin(US_REGIONS))]
+        recs = [{"Region": r, "Technology": "P_SOFC", "Year": y, "Value": 999999.0,
                  "": "", "Unit": "GW",
                  "Source": f"SOFC opened for {sens}; group addition cap governs",
                  "Updated at": "2026-07-04",
