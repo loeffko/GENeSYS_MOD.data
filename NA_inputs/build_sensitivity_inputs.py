@@ -40,7 +40,9 @@ BASE_FEL = "base_fel_v260702_v2.xlsx"
 
 SENS = {   # order matters: 'base' LAST so shared CSVs end in the base state
     "dc_low":    dict(fel="base_fel_dc_low v260703.xlsx"),
-    "dc_high":   dict(fel="base_fel_dc_high v260703.xlsx", max_upscale=True),
+    "dc_high":   dict(fel="base_fel_dc_high v260703.xlsx", max_upscale=True,
+                      ic_growth="0.06",          # demand boom accelerates grid (base 4%)
+                      gas_group_cap_scale=1.2),  # GasPlants/USA 65 -> 78 GW/yr (~2035 demand ratio)
     "recession": dict(fel="fel_recession_v260703.xlsx", gas_min_floor="0"),
     "economic":  dict(fel=BASE_FEL, funnel="economic"),
     "grid_low":  dict(fel=BASE_FEL, ic_growth="0.025"),
@@ -71,7 +73,24 @@ def build(sens, cfg):
     if cfg.get("ic_growth"):
         ic += ["--growth", cfg["ic_growth"]]
     run(ic, DATA_REPO)
-    run(["script_northamerica.py"], CONV)            # params + base TS (cheap, reuses filter)
+    gp = os.path.join(DATA_REPO, "Data", "Parameters",
+                      "Par_GroupTotalAnnualMaxNewCap", "Par_GroupTotalAnnualMaxNewCap.csv")
+    gp_backup = None
+    if cfg.get("gas_group_cap_scale"):
+        # transient: scale the GasPlants/USA annual-additions cap with demand for
+        # this sensitivity's workbook only; the CSV is restored right after the
+        # conversion (it is static data, no script rewrites it).
+        gp_backup = open(gp, "rb").read()
+        import pandas as _pd
+        g = _pd.read_csv(gp)
+        m = (g.TechnologySubset == "GasPlants") & (g.RegionSubset == "USA")
+        g.loc[m, "Value"] = (g.loc[m, "Value"] * float(cfg["gas_group_cap_scale"])).round(1)
+        g.to_csv(gp, index=False, lineterminator="\n")
+    try:
+        run(["script_northamerica.py"], CONV)        # params + base TS (cheap, reuses filter)
+    finally:
+        if gp_backup is not None:
+            open(gp, "wb").write(gp_backup)
     src = os.path.join(OUT, "RegularParameters_NorthAmerica.xlsx")
     name = "RegularParameters_NorthAmerica.xlsx" if sens == "base" \
         else f"RegularParameters_NorthAmerica_{sens}.xlsx"

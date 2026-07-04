@@ -982,11 +982,15 @@ def main():
             max_rows.append((region, "D_PHS", y, round(max(FORBID_EPS, phs * (1.0 + PHS_MAX_GROWTH) ** (y - 2025)), 6)))
             bess = max(0.0, s_traj[y] - phs)
             mn, mx = margins(y)
+            # under --max-upscale (dc_high) the storage ceiling grows with the
+            # regional demand ratio - the US Pools trajectory reflects BASE
+            # demand and starved high-demand regions of batteries (ERCOT).
+            stor_up = max(1.0, fel_gen_ratio.get(region, {}).get(min(y, 2035), 1.0)) if MAX_UPSCALE else 1.0
             res_rows.append((region, "D_Battery_Li-Ion", y, round(bess_2025 * residual_factor("D_Battery_Li-Ion", y), 6)))
             min_rows.append((region, "D_Battery_Li-Ion", y, round(bess * mn, 6)))
             # funnel max around the US Pools storage trajectory (was open 999999,
             # which let the optimiser front-load ~100 GW of BESS into 2026)
-            max_rows.append((region, "D_Battery_Li-Ion", y, round(max(FORBID_EPS, bess * mx), 6)))
+            max_rows.append((region, "D_Battery_Li-Ion", y, round(max(FORBID_EPS, bess * mx * stor_up), 6)))
 
         # 2) Overflow restool variants per region (the classes after the rep, in
         #    the order given by RESTOOL_MAP["overflow"], e.g. _Avg then _Inf).
