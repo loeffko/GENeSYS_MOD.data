@@ -96,8 +96,13 @@ FUNNEL_STYLE = sys.argv[sys.argv.index("--funnel") + 1] if "--funnel" in sys.arg
 #   --max-boost <x>      scale the funnel MAX a further x for the main expansion
 #                        techs (PV, onshore wind, Li-Ion BESS) on top of any
 #                        demand upscaling (dc_high_limitless)
+#   --max-boost-regions <a,b>  restrict the boost to these regions (default all;
+#                        dc_high_limitless boosts ERCOT only - elsewhere the
+#                        demand shift re-routes gas builds instead)
 MAX_BOOST = float(sys.argv[sys.argv.index("--max-boost") + 1]) if "--max-boost" in sys.argv else None
 MAX_BOOST_PREFIXES = ("P_PV_", "P_Wind_Onshore", "D_Battery_Li-Ion")
+MAX_BOOST_REGIONS = (set(sys.argv[sys.argv.index("--max-boost-regions") + 1].split(","))
+                     if "--max-boost-regions" in sys.argv else None)
 ECON_MIN_EXTRA_2035, ECON_MAX_EXTRA_2035 = 0.75, 1.50
 def econ_min_f(y):
     if FUNNEL_STYLE != "economic": return 1.0
@@ -1299,6 +1304,7 @@ def main():
         # past the model's DEAD_CAP_EPS and silently re-enable the tech)
         max_rows = [(r, t, y, round(v * MAX_BOOST, 6))
                     if t.startswith(MAX_BOOST_PREFIXES) and v > FORBID_EPS
+                    and (MAX_BOOST_REGIONS is None or r in MAX_BOOST_REGIONS)
                     else (r, t, y, v) for (r, t, y, v) in max_rows]
 
     if SCENARIO_SUBDIR:

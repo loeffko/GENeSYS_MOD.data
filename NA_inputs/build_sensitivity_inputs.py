@@ -45,30 +45,39 @@ US_REGIONS = ["California", "WECC", "SPP", "MISO", "ERCOT", "SERC", "PJM",
               "NewYork", "NewEngland"]
 YEARS = list(range(2025, 2041))
 
-# SOFC national addition cap (GW/yr): Bloom alone delivers ~3 GW/yr today; the
-# multi-vendor ramp (FuelCell Energy, Doosan/Ceres, Mitsubishi) reaches ~9 by 2035.
-SOFC_CAP_2025, SOFC_CAP_2035 = 3.0, 9.0
+# SOFC national FTM addition cap (GW/yr). Today's ~3 GW/yr (Bloom) is almost all
+# behind-the-meter and NOT this cap: FTM starts at 0 (2025/26), 1.5 in 2027,
+# 3 in 2028, then ramps to 9 by 2035 (multi-vendor: FuelCell Energy,
+# Doosan/Ceres, Mitsubishi) - on top of the continuing BTM chain.
+SOFC_FTM_START = {2025: 0.0, 2026: 0.0, 2027: 1.5, 2028: 3.0}
+SOFC_CAP_2028, SOFC_CAP_2035 = 3.0, 9.0
 def sofc_cap(y):
-    return round(SOFC_CAP_2025 + (SOFC_CAP_2035 - SOFC_CAP_2025)
-                 * max(0.0, min(1.0, (y - 2025) / 10.0)), 2)
+    if y in SOFC_FTM_START:
+        return SOFC_FTM_START[y]
+    return round(SOFC_CAP_2028 + (SOFC_CAP_2035 - SOFC_CAP_2028)
+                 * max(0.0, min(1.0, (y - 2028) / 7.0)), 2)
 
 SENS = {   # order matters: 'base' LAST so shared CSVs end in the base state
     "dc_low":    dict(fel="base_fel_dc_low v260703.xlsx"),
     "dc_high":   dict(fel="base_fel_dc_high v260703.xlsx", max_upscale=True,
                       ic_growth="0.06",          # demand boom accelerates grid (base 4%)
-                      gas_group_cap_scale=1.2),  # GasPlants/USA 65 -> 78 GW/yr (~2035 demand ratio)
+                      gas_group_cap_scale=1.2,   # GasPlants/USA 65 -> 78 GW/yr (~2035 demand ratio)
+                      group_caps={"SOFC": {y: sofc_cap(y) for y in YEARS}},
+                      open_sofc=True,
+                      filter_file="Set_filter_file_NorthAmerica_dc_high.xlsx"),
     # dc_high demand with the build limits mostly gone: gas cap 100 GW/yr, EGS
-    # cap 4 GW/yr, funnel max x2 for PV/onshore/BESS, SOFC enabled (3->9 GW/yr),
-    # loosened model pacing (set_investment_limit=3, set_new_res_capacity=0.3
-    # in test/sensitivities/common.jl SENS_MODEL_KWARGS).
+    # cap 4 GW/yr, funnel max x2 for PV/onshore/BESS in ERCOT only (elsewhere
+    # the demand shift re-routes gas builds), SOFC enabled, loosened model
+    # pacing (set_investment_limit=3, set_new_res_capacity=0.2 + ERCOT 0.3 in
+    # test/sensitivities/common.jl SENS_MODEL_KWARGS).
     "dc_high_limitless": dict(fel="base_fel_dc_high v260703.xlsx", max_upscale=True,
-                      ic_growth="0.06", max_boost="2.0",
+                      ic_growth="0.06", max_boost="2.0", max_boost_regions="ERCOT",
                       group_caps={"GasPlants": {y: 100.0 for y in YEARS},
                                   "EGS":       {y: 4.0 for y in YEARS},
                                   "SOFC":      {y: sofc_cap(y) for y in YEARS}},
                       open_sofc=True,
-                      # own filter file: P_SOFC selected here only, the main NA
-                      # filter (all other sensitivities) keeps it deselected
+                      # own filter file: P_SOFC selected in the dc_high family
+                      # only, the main NA filter keeps it deselected
                       filter_file="Set_filter_file_NorthAmerica_dc_high_limitless.xlsx"),
     "recession": dict(fel="fel_recession_v260703.xlsx", gas_min_floor="0"),
     "economic":  dict(fel=BASE_FEL, funnel="economic"),
@@ -103,6 +112,8 @@ def build(sens, cfg):
         bounds += ["--gas-min-floor", cfg["gas_min_floor"]]
     if cfg.get("max_boost"):
         bounds += ["--max-boost", cfg["max_boost"]]
+    if cfg.get("max_boost_regions"):
+        bounds += ["--max-boost-regions", cfg["max_boost_regions"]]
     run(bounds, DATA_REPO)
     ic = ["NA_inputs/add_ic_trade_bounds.py", "--apply"] + sub
     if cfg.get("ic_growth"):
@@ -115,19 +126,22 @@ def build(sens, cfg):
                           "Par_GroupTotalAnnualMaxNewCap", "Par_GroupTotalAnnualMaxNewCap.csv")
         g = _pd.read_csv(gp)
         g.columns = ["" if str(c).startswith("Unnamed") else c for c in g.columns]
+        parts = []
         if cfg.get("gas_group_cap_scale"):
             m = (g.TechnologySubset == "GasPlants") & (g.RegionSubset == "USA")
-            rows = g[m].copy()
-            rows["Value"] = (rows["Value"] * float(cfg["gas_group_cap_scale"])).round(1)
-            rows["Source"] = f"GasPlants cap x {cfg['gas_group_cap_scale']} (demand-scaled, {sens})"
-        else:
+            scaled = g[m].copy()
+            scaled["Value"] = (scaled["Value"] * float(cfg["gas_group_cap_scale"])).round(1)
+            scaled["Source"] = f"GasPlants cap x {cfg['gas_group_cap_scale']} (demand-scaled, {sens})"
+            parts.append(scaled)
+        if cfg.get("group_caps"):
             recs = [{"TechnologySubset": ts, "RegionSubset": "USA", "Year": y,
                      "Value": v, "": "", "Unit": "GW",
                      "Source": f"{ts} annual-additions cap ({sens})",
                      "Updated at": "2026-07-04",
                      "Updated by": "Konstantin Loffler <kl@wip.tu-berlin.de>"}
                     for ts, yv in cfg["group_caps"].items() for y, v in sorted(yv.items())]
-            rows = _pd.DataFrame(recs)[g.columns]
+            parts.append(_pd.DataFrame(recs)[g.columns])
+        rows = _pd.concat(parts, ignore_index=True)
         outdir = os.path.join(os.path.dirname(gp), scen)
         os.makedirs(outdir, exist_ok=True)
         rows.to_csv(os.path.join(outdir, os.path.basename(gp)), index=False, lineterminator="\n")

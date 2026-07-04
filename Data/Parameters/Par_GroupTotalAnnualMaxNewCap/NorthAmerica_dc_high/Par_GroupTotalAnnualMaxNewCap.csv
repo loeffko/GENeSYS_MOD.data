@@ -15,3 +15,19 @@ GasPlants,USA,2037,78.0,,GW,"GasPlants cap x 1.2 (demand-scaled, dc_high)",2026-
 GasPlants,USA,2038,78.0,,GW,"GasPlants cap x 1.2 (demand-scaled, dc_high)",2026-06-30,Konstantin Loffler <kl@wip.tu-berlin.de>
 GasPlants,USA,2039,78.0,,GW,"GasPlants cap x 1.2 (demand-scaled, dc_high)",2026-06-30,Konstantin Loffler <kl@wip.tu-berlin.de>
 GasPlants,USA,2040,78.0,,GW,"GasPlants cap x 1.2 (demand-scaled, dc_high)",2026-06-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+SOFC,USA,2025,0.0,,GW,SOFC annual-additions cap (dc_high),2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SOFC,USA,2026,0.0,,GW,SOFC annual-additions cap (dc_high),2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SOFC,USA,2027,1.5,,GW,SOFC annual-additions cap (dc_high),2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SOFC,USA,2028,3.0,,GW,SOFC annual-additions cap (dc_high),2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SOFC,USA,2029,3.86,,GW,SOFC annual-additions cap (dc_high),2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SOFC,USA,2030,4.71,,GW,SOFC annual-additions cap (dc_high),2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SOFC,USA,2031,5.57,,GW,SOFC annual-additions cap (dc_high),2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SOFC,USA,2032,6.43,,GW,SOFC annual-additions cap (dc_high),2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SOFC,USA,2033,7.29,,GW,SOFC annual-additions cap (dc_high),2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SOFC,USA,2034,8.14,,GW,SOFC annual-additions cap (dc_high),2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SOFC,USA,2035,9.0,,GW,SOFC annual-additions cap (dc_high),2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SOFC,USA,2036,9.0,,GW,SOFC annual-additions cap (dc_high),2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SOFC,USA,2037,9.0,,GW,SOFC annual-additions cap (dc_high),2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SOFC,USA,2038,9.0,,GW,SOFC annual-additions cap (dc_high),2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SOFC,USA,2039,9.0,,GW,SOFC annual-additions cap (dc_high),2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SOFC,USA,2040,9.0,,GW,SOFC annual-additions cap (dc_high),2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>

@@ -3744,6 +3744,22 @@ California,P_PV_Utility_Tracking,2037,0.001,,GW,Guardrail (2026-2035) + restool 
 California,P_PV_Utility_Tracking,2038,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 California,P_PV_Utility_Tracking,2039,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 California,P_PV_Utility_Tracking,2040,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_SOFC,2025,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_SOFC,2026,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_SOFC,2027,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_SOFC,2028,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_SOFC,2029,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_SOFC,2030,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_SOFC,2031,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_SOFC,2032,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_SOFC,2033,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_SOFC,2034,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_SOFC,2035,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_SOFC,2036,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_SOFC,2037,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_SOFC,2038,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_SOFC,2039,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_SOFC,2040,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 ERCOT,CHP_Biomass_Solid,2025,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 ERCOT,CHP_Biomass_Solid,2026,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 ERCOT,CHP_Biomass_Solid,2027,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
@@ -4160,6 +4176,22 @@ ERCOT,P_PV_Utility_Tracking,2037,0.001,,GW,Guardrail (2026-2035) + restool poten
 ERCOT,P_PV_Utility_Tracking,2038,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 ERCOT,P_PV_Utility_Tracking,2039,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 ERCOT,P_PV_Utility_Tracking,2040,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_SOFC,2025,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_SOFC,2026,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_SOFC,2027,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_SOFC,2028,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_SOFC,2029,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_SOFC,2030,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_SOFC,2031,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_SOFC,2032,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_SOFC,2033,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_SOFC,2034,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_SOFC,2035,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_SOFC,2036,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_SOFC,2037,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_SOFC,2038,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_SOFC,2039,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_SOFC,2040,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 MISO,CHP_Biomass_Solid,2025,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 MISO,CHP_Biomass_Solid,2026,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 MISO,CHP_Biomass_Solid,2027,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
@@ -4576,6 +4608,22 @@ MISO,P_PV_Utility_Tracking,2037,0.001,,GW,Guardrail (2026-2035) + restool potent
 MISO,P_PV_Utility_Tracking,2038,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 MISO,P_PV_Utility_Tracking,2039,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 MISO,P_PV_Utility_Tracking,2040,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_SOFC,2025,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_SOFC,2026,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_SOFC,2027,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_SOFC,2028,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_SOFC,2029,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_SOFC,2030,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_SOFC,2031,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_SOFC,2032,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_SOFC,2033,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_SOFC,2034,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_SOFC,2035,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_SOFC,2036,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_SOFC,2037,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_SOFC,2038,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_SOFC,2039,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_SOFC,2040,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewEngland,CHP_Biomass_Solid,2025,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewEngland,CHP_Biomass_Solid,2026,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewEngland,CHP_Biomass_Solid,2027,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
@@ -4992,6 +5040,22 @@ NewEngland,P_PV_Utility_Tracking,2037,0.001,,GW,Guardrail (2026-2035) + restool 
 NewEngland,P_PV_Utility_Tracking,2038,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewEngland,P_PV_Utility_Tracking,2039,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewEngland,P_PV_Utility_Tracking,2040,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_SOFC,2025,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_SOFC,2026,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_SOFC,2027,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_SOFC,2028,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_SOFC,2029,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_SOFC,2030,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_SOFC,2031,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_SOFC,2032,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_SOFC,2033,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_SOFC,2034,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_SOFC,2035,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_SOFC,2036,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_SOFC,2037,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_SOFC,2038,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_SOFC,2039,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_SOFC,2040,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewYork,CHP_Biomass_Solid,2025,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewYork,CHP_Biomass_Solid,2026,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewYork,CHP_Biomass_Solid,2027,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
@@ -5408,6 +5472,22 @@ NewYork,P_PV_Utility_Tracking,2037,0.001,,GW,Guardrail (2026-2035) + restool pot
 NewYork,P_PV_Utility_Tracking,2038,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewYork,P_PV_Utility_Tracking,2039,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewYork,P_PV_Utility_Tracking,2040,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_SOFC,2025,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_SOFC,2026,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_SOFC,2027,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_SOFC,2028,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_SOFC,2029,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_SOFC,2030,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_SOFC,2031,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_SOFC,2032,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_SOFC,2033,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_SOFC,2034,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_SOFC,2035,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_SOFC,2036,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_SOFC,2037,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_SOFC,2038,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_SOFC,2039,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_SOFC,2040,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 PJM,CHP_Biomass_Solid,2025,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 PJM,CHP_Biomass_Solid,2026,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 PJM,CHP_Biomass_Solid,2027,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
@@ -5824,6 +5904,22 @@ PJM,P_PV_Utility_Tracking,2037,0.001,,GW,Guardrail (2026-2035) + restool potenti
 PJM,P_PV_Utility_Tracking,2038,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 PJM,P_PV_Utility_Tracking,2039,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 PJM,P_PV_Utility_Tracking,2040,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_SOFC,2025,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_SOFC,2026,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_SOFC,2027,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_SOFC,2028,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_SOFC,2029,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_SOFC,2030,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_SOFC,2031,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_SOFC,2032,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_SOFC,2033,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_SOFC,2034,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_SOFC,2035,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_SOFC,2036,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_SOFC,2037,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_SOFC,2038,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_SOFC,2039,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_SOFC,2040,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 SERC,CHP_Biomass_Solid,2025,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 SERC,CHP_Biomass_Solid,2026,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 SERC,CHP_Biomass_Solid,2027,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
@@ -6240,6 +6336,22 @@ SERC,P_PV_Utility_Tracking,2037,0.001,,GW,Guardrail (2026-2035) + restool potent
 SERC,P_PV_Utility_Tracking,2038,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 SERC,P_PV_Utility_Tracking,2039,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 SERC,P_PV_Utility_Tracking,2040,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_SOFC,2025,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_SOFC,2026,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_SOFC,2027,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_SOFC,2028,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_SOFC,2029,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_SOFC,2030,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_SOFC,2031,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_SOFC,2032,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_SOFC,2033,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_SOFC,2034,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_SOFC,2035,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_SOFC,2036,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_SOFC,2037,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_SOFC,2038,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_SOFC,2039,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_SOFC,2040,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 SPP,CHP_Biomass_Solid,2025,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 SPP,CHP_Biomass_Solid,2026,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 SPP,CHP_Biomass_Solid,2027,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
@@ -6656,6 +6768,22 @@ SPP,P_PV_Utility_Tracking,2037,0.001,,GW,Guardrail (2026-2035) + restool potenti
 SPP,P_PV_Utility_Tracking,2038,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 SPP,P_PV_Utility_Tracking,2039,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 SPP,P_PV_Utility_Tracking,2040,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_SOFC,2025,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_SOFC,2026,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_SOFC,2027,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_SOFC,2028,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_SOFC,2029,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_SOFC,2030,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_SOFC,2031,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_SOFC,2032,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_SOFC,2033,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_SOFC,2034,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_SOFC,2035,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_SOFC,2036,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_SOFC,2037,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_SOFC,2038,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_SOFC,2039,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_SOFC,2040,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 WECC,CHP_Biomass_Solid,2025,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 WECC,CHP_Biomass_Solid,2026,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 WECC,CHP_Biomass_Solid,2027,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
@@ -7072,6 +7200,22 @@ WECC,P_PV_Utility_Tracking,2037,0.001,,GW,Guardrail (2026-2035) + restool potent
 WECC,P_PV_Utility_Tracking,2038,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 WECC,P_PV_Utility_Tracking,2039,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 WECC,P_PV_Utility_Tracking,2040,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_SOFC,2025,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_SOFC,2026,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_SOFC,2027,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_SOFC,2028,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_SOFC,2029,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_SOFC,2030,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_SOFC,2031,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_SOFC,2032,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_SOFC,2033,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_SOFC,2034,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_SOFC,2035,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_SOFC,2036,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_SOFC,2037,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_SOFC,2038,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_SOFC,2039,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_SOFC,2040,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 Canada,CHP_Biomass_Solid,2025,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 Canada,CHP_Biomass_Solid,2026,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 Canada,CHP_Biomass_Solid,2027,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
@@ -7456,6 +7600,22 @@ Canada,P_PV_Utility_Tracking,2037,0.001,,GW,Guardrail (2026-2035) + restool pote
 Canada,P_PV_Utility_Tracking,2038,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 Canada,P_PV_Utility_Tracking,2039,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 Canada,P_PV_Utility_Tracking,2040,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_SOFC,2025,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_SOFC,2026,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_SOFC,2027,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_SOFC,2028,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_SOFC,2029,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_SOFC,2030,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_SOFC,2031,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_SOFC,2032,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_SOFC,2033,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_SOFC,2034,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_SOFC,2035,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_SOFC,2036,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_SOFC,2037,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_SOFC,2038,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_SOFC,2039,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_SOFC,2040,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 California,D_Battery_Redox,2025,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 California,D_Battery_Redox,2026,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 California,D_Battery_Redox,2027,0.001,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
@@ -7616,3 +7776,147 @@ Canada,D_Battery_Redox,2037,16.0,,GW,Guardrail (2026-2035) + restool potential (
 Canada,D_Battery_Redox,2038,18.0,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 Canada,D_Battery_Redox,2039,20.0,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 Canada,D_Battery_Redox,2040,22.0,,GW,Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x headroom; Coal=US Coal Trajectory HIGH,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_SOFC,2025,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_SOFC,2026,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_SOFC,2027,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_SOFC,2028,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_SOFC,2029,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_SOFC,2030,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_SOFC,2031,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_SOFC,2032,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_SOFC,2033,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_SOFC,2034,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_SOFC,2035,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_SOFC,2036,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_SOFC,2037,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_SOFC,2038,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_SOFC,2039,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_SOFC,2040,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_SOFC,2025,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_SOFC,2026,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_SOFC,2027,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_SOFC,2028,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_SOFC,2029,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_SOFC,2030,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_SOFC,2031,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_SOFC,2032,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_SOFC,2033,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_SOFC,2034,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_SOFC,2035,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_SOFC,2036,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_SOFC,2037,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_SOFC,2038,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_SOFC,2039,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_SOFC,2040,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_SOFC,2025,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_SOFC,2026,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_SOFC,2027,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_SOFC,2028,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_SOFC,2029,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_SOFC,2030,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_SOFC,2031,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_SOFC,2032,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_SOFC,2033,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_SOFC,2034,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_SOFC,2035,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_SOFC,2036,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_SOFC,2037,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_SOFC,2038,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_SOFC,2039,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_SOFC,2040,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_SOFC,2025,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_SOFC,2026,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_SOFC,2027,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_SOFC,2028,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_SOFC,2029,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_SOFC,2030,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_SOFC,2031,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_SOFC,2032,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_SOFC,2033,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_SOFC,2034,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_SOFC,2035,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_SOFC,2036,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_SOFC,2037,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_SOFC,2038,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_SOFC,2039,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_SOFC,2040,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_SOFC,2025,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_SOFC,2026,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_SOFC,2027,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_SOFC,2028,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_SOFC,2029,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_SOFC,2030,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_SOFC,2031,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_SOFC,2032,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_SOFC,2033,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_SOFC,2034,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_SOFC,2035,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_SOFC,2036,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_SOFC,2037,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_SOFC,2038,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_SOFC,2039,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_SOFC,2040,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_SOFC,2025,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_SOFC,2026,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_SOFC,2027,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_SOFC,2028,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_SOFC,2029,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_SOFC,2030,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_SOFC,2031,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_SOFC,2032,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_SOFC,2033,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_SOFC,2034,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_SOFC,2035,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_SOFC,2036,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_SOFC,2037,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_SOFC,2038,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_SOFC,2039,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_SOFC,2040,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_SOFC,2025,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_SOFC,2026,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_SOFC,2027,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_SOFC,2028,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_SOFC,2029,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_SOFC,2030,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_SOFC,2031,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_SOFC,2032,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_SOFC,2033,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_SOFC,2034,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_SOFC,2035,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_SOFC,2036,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_SOFC,2037,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_SOFC,2038,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_SOFC,2039,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_SOFC,2040,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_SOFC,2025,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_SOFC,2026,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_SOFC,2027,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_SOFC,2028,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_SOFC,2029,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_SOFC,2030,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_SOFC,2031,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_SOFC,2032,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_SOFC,2033,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_SOFC,2034,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_SOFC,2035,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_SOFC,2036,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_SOFC,2037,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_SOFC,2038,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_SOFC,2039,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_SOFC,2040,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_SOFC,2025,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_SOFC,2026,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_SOFC,2027,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_SOFC,2028,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_SOFC,2029,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_SOFC,2030,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_SOFC,2031,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_SOFC,2032,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_SOFC,2033,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_SOFC,2034,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_SOFC,2035,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_SOFC,2036,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_SOFC,2037,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_SOFC,2038,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_SOFC,2039,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_SOFC,2040,0.0,,GW,SOFC opened for dc_high; group addition cap governs,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
