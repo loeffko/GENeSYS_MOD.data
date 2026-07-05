@@ -9,3 +9,4 @@ P_Coal_Lignite,Coal,Coal,1,,Binary,lignite fuel basis approximated by the region
 P_Nuclear,Nuclear,Uranium,1,,Binary,dispatch merit-order config,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
 P_Nuclear_SMR,Nuclear,Uranium,1,,Binary,dispatch merit-order config,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
 P_Oil,Oil,Oil,1,,Binary,dispatch merit-order config,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_SOFC,SOFC,Gas,1,,Binary,dispatch merit-order config,2026-07-05,Konstantin Loffler <kl@wip.tu-berlin.de>

@@ -1,22 +1,23 @@
 Class,Bin,Share,CostMultiplier,,Unit,Source,Updated at,Updated by
 CCGT,1,0.25,0.89,,fraction/multiplier,EIA Electric Power Annual T8.2 2024 tested heat rates (CCGT mean 7548 Btu/kWh) + CAMD unit distribution; verified 2026-07,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
-CCGT,2,0.40,0.97,,fraction/multiplier,EIA EPA T8.2 + CAMD unit heat-rate distribution,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+CCGT,2,0.4,0.97,,fraction/multiplier,EIA EPA T8.2 + CAMD unit heat-rate distribution,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
 CCGT,3,0.25,1.07,,fraction/multiplier,EIA EPA T8.2 + CAMD unit heat-rate distribution,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
-CCGT,4,0.10,1.21,,fraction/multiplier,EIA EPA T8.2 + CAMD unit heat-rate distribution,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
-OCGT_CT,1,0.20,0.82,,fraction/multiplier,EIA EPA T8.2 2024 (gas GT mean ~11000 Btu/kWh incl engines) + CAMD,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+CCGT,4,0.1,1.21,,fraction/multiplier,EIA EPA T8.2 + CAMD unit heat-rate distribution,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+OCGT_CT,1,0.2,0.82,,fraction/multiplier,EIA EPA T8.2 2024 (gas GT mean ~11000 Btu/kWh incl engines) + CAMD,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
 OCGT_CT,2,0.35,0.92,,fraction/multiplier,EIA EPA T8.2 + CAMD,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
-OCGT_CT,3,0.30,1.08,,fraction/multiplier,EIA EPA T8.2 + CAMD,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+OCGT_CT,3,0.3,1.08,,fraction/multiplier,EIA EPA T8.2 + CAMD,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
 OCGT_CT,4,0.15,1.26,,fraction/multiplier,EIA EPA T8.2 + CAMD,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
-Gas_steam,1,0.30,0.93,,fraction/multiplier,EIA EPA T8.2 2024 (gas steam mean 10337 Btu/kWh) + CAMD,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
-Gas_steam,2,0.45,1.00,,fraction/multiplier,EIA EPA T8.2 + CAMD,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+Gas_steam,1,0.3,0.93,,fraction/multiplier,EIA EPA T8.2 2024 (gas steam mean 10337 Btu/kWh) + CAMD,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+Gas_steam,2,0.45,1.0,,fraction/multiplier,EIA EPA T8.2 + CAMD,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
 Gas_steam,3,0.25,1.09,,fraction/multiplier,EIA EPA T8.2 + CAMD,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
 Coal,1,0.25,0.93,,fraction/multiplier,heat-rate+VOM only (coal price regionalized in Par_DispatchFuelCostFactor; widen to 0.89/0.97/1.08/1.20 if a single national coal price is used). EIA EPA T8.2 (coal mean 10018 Btu/kWh tested) + CAMD percentiles,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
-Coal,2,0.40,0.98,,fraction/multiplier,EIA EPA T8.2 + CAMD percentiles,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+Coal,2,0.4,0.98,,fraction/multiplier,EIA EPA T8.2 + CAMD percentiles,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
 Coal,3,0.25,1.05,,fraction/multiplier,EIA EPA T8.2 + CAMD percentiles,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
-Coal,4,0.10,1.13,,fraction/multiplier,EIA EPA T8.2 + CAMD percentiles,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
-Nuclear,1,0.60,0.98,,fraction/multiplier,near-uniform fuel cost; small O&M spread,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
-Nuclear,2,0.40,1.03,,fraction/multiplier,near-uniform fuel cost; small O&M spread,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
-Oil,1,0.30,0.84,,fraction/multiplier,EIA EPA T8.2 2024 (petroleum steam/GT/IC 10300-13300 Btu/kWh); cut top tranche to 1.15 if HFO/diesel are separate fuels,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
-Oil,2,0.30,0.94,,fraction/multiplier,EIA EPA T8.2,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+Coal,4,0.1,1.13,,fraction/multiplier,EIA EPA T8.2 + CAMD percentiles,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+Nuclear,1,0.6,0.98,,fraction/multiplier,near-uniform fuel cost; small O&M spread,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+Nuclear,2,0.4,1.03,,fraction/multiplier,near-uniform fuel cost; small O&M spread,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+Oil,1,0.3,0.84,,fraction/multiplier,EIA EPA T8.2 2024 (petroleum steam/GT/IC 10300-13300 Btu/kWh); cut top tranche to 1.15 if HFO/diesel are separate fuels,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+Oil,2,0.3,0.94,,fraction/multiplier,EIA EPA T8.2,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
 Oil,3,0.25,1.08,,fraction/multiplier,EIA EPA T8.2,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
-Oil,4,0.15,1.30,,fraction/multiplier,EIA EPA T8.2,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+Oil,4,0.15,1.3,,fraction/multiplier,EIA EPA T8.2,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+SOFC,1,1.0,1.0,,fraction/multiplier,"uniform new-build fleet, no vintage heat-rate spread yet",2026-07-05,Konstantin Loffler <kl@wip.tu-berlin.de>
