@@ -1332,7 +1332,12 @@ def main():
     group_newcaps = [
         ("GasPlants", "USA", {y: _gas_group_cap(y) for y in YEARS},
          "gas annual-additions cap: 47 GW/yr through 2030, ramp to 65 by 2035 (TU Berlin assumption)"),
-        ("GasEngines", "USA", {y: round(max(2.5 if y >= 2027 else 0.0, engines_inc.get(y, 0.0)), 3) for y in YEARS},
+        # +0.01 GW headroom on file-driven values: the forced-new sum and the cap
+        # are rounded independently, and an exactly-equal pair is one rounding
+        # step away from infeasible (2026 was infeasible by 4e-4 without this).
+        ("GasEngines", "USA", {y: round(max(2.5 if y >= 2027 else 0.0,
+                                            engines_inc.get(y, 0.0) + (0.01 if engines_inc.get(y, 0.0) > 0 else 0.0)), 3)
+                               for y in YEARS},
          "engines cap: 2.5 GW/yr from 2027, raised to the capacities-file forced additions where higher"),
         ("SOFC", "USA", {y: _sofc_group_cap(y) for y in YEARS},
          "SOFC FTM additions: 0 until 2029, ramp to 2 GW/yr by 2035 (TU Berlin assumption)"),

@@ -32,7 +32,7 @@ GasPlants,USA,2038,65.0,,GW,"gas annual-additions cap: 47 GW/yr through 2030, ra
 GasPlants,USA,2039,65.0,,GW,"gas annual-additions cap: 47 GW/yr through 2030, ramp to 65 by 2035 (TU Berlin assumption)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 GasPlants,USA,2040,65.0,,GW,"gas annual-additions cap: 47 GW/yr through 2030, ramp to 65 by 2035 (TU Berlin assumption)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 GasEngines,USA,2025,0.0,,GW,"engines cap: 2.5 GW/yr from 2027, raised to the capacities-file forced additions where higher",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-GasEngines,USA,2026,3.45,,GW,"engines cap: 2.5 GW/yr from 2027, raised to the capacities-file forced additions where higher",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasEngines,USA,2026,3.46,,GW,"engines cap: 2.5 GW/yr from 2027, raised to the capacities-file forced additions where higher",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 GasEngines,USA,2027,2.5,,GW,"engines cap: 2.5 GW/yr from 2027, raised to the capacities-file forced additions where higher",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 GasEngines,USA,2028,2.5,,GW,"engines cap: 2.5 GW/yr from 2027, raised to the capacities-file forced additions where higher",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 GasEngines,USA,2029,2.5,,GW,"engines cap: 2.5 GW/yr from 2027, raised to the capacities-file forced additions where higher",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
