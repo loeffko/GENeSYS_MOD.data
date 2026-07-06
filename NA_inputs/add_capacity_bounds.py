@@ -447,7 +447,7 @@ ALL_RESTOOL_TECHS = sorted(TECH_SHARE.keys())
 
 # Full set of techs this script directly writes positive caps for.
 NUCLEAR_SMR_TECHS = {"P_Nuclear_SMR"}
-ALL_MANAGED_TECHS = MODEL_TECHS_GUARDRAIL | set(ALL_RESTOOL_TECHS) | COAL_TECHS | HYDRO_TECHS | STORAGE_TECHS | NUCLEAR_SMR_TECHS | {"P_Gas_CCGT_Residual"}
+ALL_MANAGED_TECHS = MODEL_TECHS_GUARDRAIL | set(ALL_RESTOOL_TECHS) | COAL_TECHS | HYDRO_TECHS | STORAGE_TECHS | NUCLEAR_SMR_TECHS | {"P_Gas_CCGT_Residual", "P_SOFC"}
 
 # Techs whose caps are owned by other scripts — leave them alone here.
 EXTERNAL_OWNERS = {
@@ -526,7 +526,13 @@ if GAS_MIN_BLEND_FLOOR_OVERRIDE is not None:
                               # min never pushes the multiplier below 0.93 x file
                               # (halves the max discount; removes the 2033-35
                               # additions dip the full ratio phase-in produced)
-GAS_MIN_PIN_UNTIL = 2030      # gas min = EXACT capacity-file value through this year
+GAS_PEG_MARGIN = 0.02         # gas funnel pegged to the capacities file +/-2% through
+                              # GAS_MIN_PIN_UNTIL: min = file x0.98, max = file x1.02
+                              # (no demand scaling / widening for gas before 2031)
+GAS_GROUP_MIN_CLAMP_GW = 45.0 # national cap on the FORCED new-build (min - residual
+                              # increments) of the CCGT/OCGT/Steam group: stay 2 GW
+                              # inside the 47 GW/yr group addition cap
+GAS_MIN_PIN_UNTIL = 2030      # gas min = pegged capacity-file value through this year
                               # (announced/under-construction pipeline), then blends
                               # linearly into the demand-scaled funnel by 2035.
                               # Post-2035 every min HOLDS its 2035 level (no decline);
@@ -837,15 +843,15 @@ def main():
                 if y <= 2035:
                     _, mx = margins(y, tech, region)
                     if tech in GAS_TECHS and y <= GAS_MIN_PIN_UNTIL:
-                        # near-term gas floor pinned to EXACTLY the capacity-file
-                        # value (no demand scaling, no margin): the 2026-2029 gas
-                        # pipeline is announced/under construction, not a band.
-                        raw_min = gw(region, fuel, y)
+                        # near-term gas floor pegged to the capacity-file value
+                        # -2% (no demand scaling): the 2026-2029 gas pipeline is
+                        # announced/under construction, not a band.
+                        raw_min = gw(region, fuel, y) * (1.0 - GAS_PEG_MARGIN)
                     elif tech in GAS_TECHS:
                         # blend linearly from the exact-file pin (at GAS_MIN_PIN_UNTIL)
                         # into the demand-scaled -2% funnel (at 2035)
                         frac = (y - GAS_MIN_PIN_UNTIL) / (2035 - GAS_MIN_PIN_UNTIL)
-                        blendf = (1.0 - frac) + frac * _rmin(y) * (1.0 - FUNNEL_MIN_MARGIN)
+                        blendf = (1.0 - frac) * (1.0 - GAS_PEG_MARGIN) + frac * _rmin(y) * (1.0 - FUNNEL_MIN_MARGIN)
                         raw_min = gw(region, fuel, y) * max(GAS_MIN_BLEND_FLOOR, blendf) * econ_min_f(y)
                     else:
                         # min: constant -2% below the demand-scaled basis (no widening)
@@ -854,6 +860,16 @@ def main():
                     # regions, whose exact-file cap is a permitting constraint
                     _emax = 1.0 if (tech in GAS_TECHS and region in GAS_NO_ADD_REGIONS) else econ_max_f(y)
                     raw_max = sval(y) * mx * _emax
+                    if tech in GAS_TECHS:
+                        # gas max pegged to the file +2% through 2030 (no upward
+                        # funnel), then blends into the normal (widened) funnel,
+                        # reaching it at 2035.
+                        pegged = gw(region, fuel, y) * (1.0 + GAS_PEG_MARGIN)
+                        if y <= GAS_MIN_PIN_UNTIL:
+                            raw_max = pegged
+                        else:
+                            gfrac = (y - GAS_MIN_PIN_UNTIL) / (2035.0 - GAS_MIN_PIN_UNTIL)
+                            raw_max = (1.0 - gfrac) * pegged + gfrac * raw_max
                 else:
                     # min: HOLD the 2035 floor flat post-2035 (a declining floor let
                     # gross additions collapse to ~0 in 2036 - retiring capacity
@@ -1237,6 +1253,93 @@ def main():
             else:
                 max_rows.append((region, "D_Battery_Redox", y, round((y - REDOX_START_YEAR + 1) * REDOX_ANNUAL_CAP, 6)))
 
+    # 4c) P_SOFC: open in the US pool regions (999999 = no per-region level cap;
+    #     the SOFC group addition cap governs the build pace), forbidden in the
+    #     extra regions (no data-center SOFC market assumed there).
+    for region in pool_regions:
+        for y in YEARS:
+            max_rows.append((region, "P_SOFC", y, 999999.0))
+    for region in extra_regions:
+        for y in YEARS:
+            max_rows.append((region, "P_SOFC", y, FORBID_EPS))
+
+    # 5) National gas post-pass (US pool regions).
+    #    (a) Clamp the FORCED new-build of the CCGT/OCGT/Steam group (positive
+    #        increments of max(0, min - residual), summed nationally) to
+    #        GAS_GROUP_MIN_CLAMP_GW per year by scaling down that year's min
+    #        increments - the funnel then stays inside the group addition cap.
+    #    (b) Collect the P_Gas_Engines forced new-build per year - its group
+    #        addition cap follows the file whenever the file exceeds the policy
+    #        cap (2.5 GW/yr from 2027).
+    _res_map = {}
+    for (r, t, y, v) in res_rows:
+        _res_map[(r, t, y)] = v          # last write wins (matches write() order)
+    _CLAMP_TECHS = ("P_Gas_CCGT", "P_Gas_OCGT", "P_Gas_Steam")
+    _min_idx = {}
+    for i, (r, t, y, v) in enumerate(min_rows):
+        if r in pool_regions and t in _CLAMP_TECHS + ("P_Gas_Engines",):
+            _min_idx[(r, t, y)] = i
+    def _needed(r, t, y):
+        i = _min_idx.get((r, t, y))
+        if i is None:
+            return 0.0
+        return max(0.0, min_rows[i][3] - _res_map.get((r, t, y), 0.0))
+    # (b) engines national forced-new increments (pre-clamp; engines not clamped)
+    engines_inc = {}
+    for y in YEARS[1:]:
+        engines_inc[y] = sum(max(0.0, _needed(r, "P_Gas_Engines", y) - _needed(r, "P_Gas_Engines", y - 1))
+                             for r in pool_regions)
+    # (a) clamp the rest of the group
+    scaled_years = []
+    needed_new = {(r, t): {YEARS[0]: _needed(r, t, YEARS[0])} for r in pool_regions for t in _CLAMP_TECHS}
+    for y in YEARS[1:]:
+        tot_pos = sum(max(0.0, _needed(r, t, y) - _needed(r, t, y - 1))
+                      for r in pool_regions for t in _CLAMP_TECHS)
+        sc = min(1.0, GAS_GROUP_MIN_CLAMP_GW / tot_pos) if tot_pos > 0 else 1.0
+        if sc < 1.0:
+            scaled_years.append((y, round(tot_pos, 1), round(sc, 3)))
+        for r in pool_regions:
+            for t in _CLAMP_TECHS:
+                delta = _needed(r, t, y) - _needed(r, t, y - 1)
+                if delta > 0:
+                    delta *= sc
+                prev = needed_new[(r, t)][y - 1]
+                needed_new[(r, t)][y] = min(max(0.0, prev + delta), _needed(r, t, y))
+    for (r, t), path in needed_new.items():
+        for y, nv in path.items():
+            i = _min_idx.get((r, t, y))
+            if i is None:
+                continue
+            new_min = _res_map.get((r, t, y), 0.0) + nv
+            if new_min < min_rows[i][3] - 1e-9:
+                min_rows[i] = (r, t, y, round(new_min, 6))
+    if scaled_years:
+        print("gas min clamp (forced-new > %.0f GW/yr): %s" % (GAS_GROUP_MIN_CLAMP_GW,
+              ", ".join("%d: %.1f GW x%.3f" % t for t in scaled_years)))
+
+    # 6) Group annual-addition caps (base data; sensitivities override via their
+    #    scenario subfolders). GasPlants excludes P_Gas_Engines (own subset).
+    def _gas_group_cap(y):
+        if y <= 2025:
+            return 65.0
+        if y <= 2030:
+            return 47.0
+        return round(min(65.0, 47.0 + (65.0 - 47.0) * (y - 2030) / 5.0), 1)
+    def _sofc_group_cap(y):
+        if y <= 2029:
+            return 0.0
+        return round(min(2.0, 2.0 * (y - 2029) / 6.0), 2)
+    group_newcaps = [
+        ("GasPlants", "USA", {y: _gas_group_cap(y) for y in YEARS},
+         "gas annual-additions cap: 47 GW/yr through 2030, ramp to 65 by 2035 (TU Berlin assumption)"),
+        ("GasEngines", "USA", {y: round(max(2.5 if y >= 2027 else 0.0, engines_inc.get(y, 0.0)), 3) for y in YEARS},
+         "engines cap: 2.5 GW/yr from 2027, raised to the capacities-file forced additions where higher"),
+        ("SOFC", "USA", {y: _sofc_group_cap(y) for y in YEARS},
+         "SOFC FTM additions: 0 until 2029, ramp to 2 GW/yr by 2035 (TU Berlin assumption)"),
+        ("OffshoreWind", "Canada", {y: 2.0 for y in YEARS},
+         "Canadian offshore build pace cap 2 GW/yr (TU Berlin assumption)"),
+    ]
+
     all_written_techs = ALL_MANAGED_TECHS | set(zero_techs) | REDOX_TECHS
 
     def write(param, rows, src, techs=None):
@@ -1298,6 +1401,29 @@ def main():
             out.to_csv(path, index=False)
         return nd, len(rows)
 
+    def write_group_newcaps(entries):
+        # base mode only: sensitivities carry their own Par_GroupTotalAnnualMaxNewCap
+        # rows in their scenario subfolders (row-upsert over these at conversion)
+        if SCENARIO_SUBDIR:
+            return 0, 0
+        path = PARAM("Par_GroupTotalAnnualMaxNewCap")
+        d = pd.read_csv(path)
+        d = d.rename(columns={c: "" for c in d.columns if str(c).startswith("Unnamed")})
+        nd = 0
+        rows = []
+        for tech_subset, region_subset, year_to_gw, src in entries:
+            drop = (d["TechnologySubset"] == tech_subset) & (d["RegionSubset"] == region_subset)
+            nd += int(drop.sum())
+            d = d[~drop]
+            rows += [{"TechnologySubset": tech_subset, "RegionSubset": region_subset,
+                      "Year": y, "Value": v, "": "", "Unit": "GW", "Source": src,
+                      "Updated at": DATE, "Updated by": WHO}
+                     for y, v in sorted(year_to_gw.items())]
+        out = pd.concat([d, pd.DataFrame(rows)[d.columns]], ignore_index=True)
+        if apply:
+            out.to_csv(path, index=False, lineterminator="\n")
+        return nd, len(rows)
+
     if MAX_BOOST:
         # boost applied after the persistence floor: scaling up never violates it;
         # forbid rows (<= FORBID_EPS) stay forbidden (boosting one would lift it
@@ -1327,6 +1453,12 @@ def main():
                "Coal=US Coal Trajectory HIGH")
 
     r4 = write_subset_row("Par_TagTechnologyToSubsets", "P_Nuclear", "Nuclear")
+    for _t, _ss in (("P_Gas_Engines", "GasEngines"),
+                    ("P_Wind_Offshore_Deep", "OffshoreWind"),
+                    ("P_Wind_Offshore_Shallow", "OffshoreWind"),
+                    ("P_Wind_Offshore_Transitional", "OffshoreWind")):
+        write_subset_row("Par_TagTechnologyToSubsets", _t, _ss)
+    r6 = write_group_newcaps(group_newcaps)
     # Per-region P_Nuclear TotalAnnualMinCapacity now enforces the LSR trajectory,
     # so purge the superseded US-aggregate Nuclear group-min (add nothing).
     r5 = write_group_min({}, "Nuclear", "USA", "superseded by per-region P_Nuclear min")

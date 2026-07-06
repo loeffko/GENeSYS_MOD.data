@@ -1,20 +1,4 @@
 TechnologySubset,RegionSubset,Year,Value,,Unit,Source,Updated at,Updated by
-GasPlants,USA,2025,65.0,,GW,gas annual-additions group cap (TU Berlin assumption),2026-06-30,Konstantin Loffler <kl@wip.tu-berlin.de>
-GasPlants,USA,2026,65.0,,GW,gas annual-additions group cap (TU Berlin assumption),2026-06-30,Konstantin Loffler <kl@wip.tu-berlin.de>
-GasPlants,USA,2027,65.0,,GW,gas annual-additions group cap (TU Berlin assumption),2026-06-30,Konstantin Loffler <kl@wip.tu-berlin.de>
-GasPlants,USA,2028,65.0,,GW,gas annual-additions group cap (TU Berlin assumption),2026-06-30,Konstantin Loffler <kl@wip.tu-berlin.de>
-GasPlants,USA,2029,65.0,,GW,gas annual-additions group cap (TU Berlin assumption),2026-06-30,Konstantin Loffler <kl@wip.tu-berlin.de>
-GasPlants,USA,2030,65.0,,GW,gas annual-additions group cap (TU Berlin assumption),2026-06-30,Konstantin Loffler <kl@wip.tu-berlin.de>
-GasPlants,USA,2031,65.0,,GW,gas annual-additions group cap (TU Berlin assumption),2026-06-30,Konstantin Loffler <kl@wip.tu-berlin.de>
-GasPlants,USA,2032,65.0,,GW,gas annual-additions group cap (TU Berlin assumption),2026-06-30,Konstantin Loffler <kl@wip.tu-berlin.de>
-GasPlants,USA,2033,65.0,,GW,gas annual-additions group cap (TU Berlin assumption),2026-06-30,Konstantin Loffler <kl@wip.tu-berlin.de>
-GasPlants,USA,2034,65.0,,GW,gas annual-additions group cap (TU Berlin assumption),2026-06-30,Konstantin Loffler <kl@wip.tu-berlin.de>
-GasPlants,USA,2035,65.0,,GW,gas annual-additions group cap (TU Berlin assumption),2026-06-30,Konstantin Loffler <kl@wip.tu-berlin.de>
-GasPlants,USA,2036,65.0,,GW,gas annual-additions group cap (TU Berlin assumption),2026-06-30,Konstantin Loffler <kl@wip.tu-berlin.de>
-GasPlants,USA,2037,65.0,,GW,gas annual-additions group cap (TU Berlin assumption),2026-06-30,Konstantin Loffler <kl@wip.tu-berlin.de>
-GasPlants,USA,2038,65.0,,GW,gas annual-additions group cap (TU Berlin assumption),2026-06-30,Konstantin Loffler <kl@wip.tu-berlin.de>
-GasPlants,USA,2039,65.0,,GW,gas annual-additions group cap (TU Berlin assumption),2026-06-30,Konstantin Loffler <kl@wip.tu-berlin.de>
-GasPlants,USA,2040,65.0,,GW,gas annual-additions group cap (TU Berlin assumption),2026-06-30,Konstantin Loffler <kl@wip.tu-berlin.de>
 EGS,USA,2025,2.0,,GW,EGS build-rate cap 2 GW/yr US-wide (TU Berlin assumption),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
 EGS,USA,2026,2.0,,GW,EGS build-rate cap 2 GW/yr US-wide (TU Berlin assumption),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
 EGS,USA,2027,2.0,,GW,EGS build-rate cap 2 GW/yr US-wide (TU Berlin assumption),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
@@ -31,3 +15,67 @@ EGS,USA,2037,2.0,,GW,EGS build-rate cap 2 GW/yr US-wide (TU Berlin assumption),2
 EGS,USA,2038,2.0,,GW,EGS build-rate cap 2 GW/yr US-wide (TU Berlin assumption),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
 EGS,USA,2039,2.0,,GW,EGS build-rate cap 2 GW/yr US-wide (TU Berlin assumption),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
 EGS,USA,2040,2.0,,GW,EGS build-rate cap 2 GW/yr US-wide (TU Berlin assumption),2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasPlants,USA,2025,65.0,,GW,"gas annual-additions cap: 47 GW/yr through 2030, ramp to 65 by 2035 (TU Berlin assumption)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasPlants,USA,2026,47.0,,GW,"gas annual-additions cap: 47 GW/yr through 2030, ramp to 65 by 2035 (TU Berlin assumption)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasPlants,USA,2027,47.0,,GW,"gas annual-additions cap: 47 GW/yr through 2030, ramp to 65 by 2035 (TU Berlin assumption)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasPlants,USA,2028,47.0,,GW,"gas annual-additions cap: 47 GW/yr through 2030, ramp to 65 by 2035 (TU Berlin assumption)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasPlants,USA,2029,47.0,,GW,"gas annual-additions cap: 47 GW/yr through 2030, ramp to 65 by 2035 (TU Berlin assumption)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasPlants,USA,2030,47.0,,GW,"gas annual-additions cap: 47 GW/yr through 2030, ramp to 65 by 2035 (TU Berlin assumption)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasPlants,USA,2031,50.6,,GW,"gas annual-additions cap: 47 GW/yr through 2030, ramp to 65 by 2035 (TU Berlin assumption)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasPlants,USA,2032,54.2,,GW,"gas annual-additions cap: 47 GW/yr through 2030, ramp to 65 by 2035 (TU Berlin assumption)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasPlants,USA,2033,57.8,,GW,"gas annual-additions cap: 47 GW/yr through 2030, ramp to 65 by 2035 (TU Berlin assumption)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasPlants,USA,2034,61.4,,GW,"gas annual-additions cap: 47 GW/yr through 2030, ramp to 65 by 2035 (TU Berlin assumption)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasPlants,USA,2035,65.0,,GW,"gas annual-additions cap: 47 GW/yr through 2030, ramp to 65 by 2035 (TU Berlin assumption)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasPlants,USA,2036,65.0,,GW,"gas annual-additions cap: 47 GW/yr through 2030, ramp to 65 by 2035 (TU Berlin assumption)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasPlants,USA,2037,65.0,,GW,"gas annual-additions cap: 47 GW/yr through 2030, ramp to 65 by 2035 (TU Berlin assumption)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasPlants,USA,2038,65.0,,GW,"gas annual-additions cap: 47 GW/yr through 2030, ramp to 65 by 2035 (TU Berlin assumption)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasPlants,USA,2039,65.0,,GW,"gas annual-additions cap: 47 GW/yr through 2030, ramp to 65 by 2035 (TU Berlin assumption)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasPlants,USA,2040,65.0,,GW,"gas annual-additions cap: 47 GW/yr through 2030, ramp to 65 by 2035 (TU Berlin assumption)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasEngines,USA,2025,0.0,,GW,"engines cap: 2.5 GW/yr from 2027, raised to the capacities-file forced additions where higher",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasEngines,USA,2026,3.45,,GW,"engines cap: 2.5 GW/yr from 2027, raised to the capacities-file forced additions where higher",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasEngines,USA,2027,2.5,,GW,"engines cap: 2.5 GW/yr from 2027, raised to the capacities-file forced additions where higher",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasEngines,USA,2028,2.5,,GW,"engines cap: 2.5 GW/yr from 2027, raised to the capacities-file forced additions where higher",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasEngines,USA,2029,2.5,,GW,"engines cap: 2.5 GW/yr from 2027, raised to the capacities-file forced additions where higher",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasEngines,USA,2030,2.5,,GW,"engines cap: 2.5 GW/yr from 2027, raised to the capacities-file forced additions where higher",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasEngines,USA,2031,2.5,,GW,"engines cap: 2.5 GW/yr from 2027, raised to the capacities-file forced additions where higher",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasEngines,USA,2032,2.5,,GW,"engines cap: 2.5 GW/yr from 2027, raised to the capacities-file forced additions where higher",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasEngines,USA,2033,2.5,,GW,"engines cap: 2.5 GW/yr from 2027, raised to the capacities-file forced additions where higher",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasEngines,USA,2034,2.5,,GW,"engines cap: 2.5 GW/yr from 2027, raised to the capacities-file forced additions where higher",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasEngines,USA,2035,2.5,,GW,"engines cap: 2.5 GW/yr from 2027, raised to the capacities-file forced additions where higher",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasEngines,USA,2036,2.5,,GW,"engines cap: 2.5 GW/yr from 2027, raised to the capacities-file forced additions where higher",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasEngines,USA,2037,2.5,,GW,"engines cap: 2.5 GW/yr from 2027, raised to the capacities-file forced additions where higher",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasEngines,USA,2038,2.5,,GW,"engines cap: 2.5 GW/yr from 2027, raised to the capacities-file forced additions where higher",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasEngines,USA,2039,2.5,,GW,"engines cap: 2.5 GW/yr from 2027, raised to the capacities-file forced additions where higher",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasEngines,USA,2040,2.5,,GW,"engines cap: 2.5 GW/yr from 2027, raised to the capacities-file forced additions where higher",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SOFC,USA,2025,0.0,,GW,"SOFC FTM additions: 0 until 2029, ramp to 2 GW/yr by 2035 (TU Berlin assumption)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SOFC,USA,2026,0.0,,GW,"SOFC FTM additions: 0 until 2029, ramp to 2 GW/yr by 2035 (TU Berlin assumption)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SOFC,USA,2027,0.0,,GW,"SOFC FTM additions: 0 until 2029, ramp to 2 GW/yr by 2035 (TU Berlin assumption)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SOFC,USA,2028,0.0,,GW,"SOFC FTM additions: 0 until 2029, ramp to 2 GW/yr by 2035 (TU Berlin assumption)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SOFC,USA,2029,0.0,,GW,"SOFC FTM additions: 0 until 2029, ramp to 2 GW/yr by 2035 (TU Berlin assumption)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SOFC,USA,2030,0.33,,GW,"SOFC FTM additions: 0 until 2029, ramp to 2 GW/yr by 2035 (TU Berlin assumption)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SOFC,USA,2031,0.67,,GW,"SOFC FTM additions: 0 until 2029, ramp to 2 GW/yr by 2035 (TU Berlin assumption)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SOFC,USA,2032,1.0,,GW,"SOFC FTM additions: 0 until 2029, ramp to 2 GW/yr by 2035 (TU Berlin assumption)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SOFC,USA,2033,1.33,,GW,"SOFC FTM additions: 0 until 2029, ramp to 2 GW/yr by 2035 (TU Berlin assumption)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SOFC,USA,2034,1.67,,GW,"SOFC FTM additions: 0 until 2029, ramp to 2 GW/yr by 2035 (TU Berlin assumption)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SOFC,USA,2035,2.0,,GW,"SOFC FTM additions: 0 until 2029, ramp to 2 GW/yr by 2035 (TU Berlin assumption)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SOFC,USA,2036,2.0,,GW,"SOFC FTM additions: 0 until 2029, ramp to 2 GW/yr by 2035 (TU Berlin assumption)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SOFC,USA,2037,2.0,,GW,"SOFC FTM additions: 0 until 2029, ramp to 2 GW/yr by 2035 (TU Berlin assumption)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SOFC,USA,2038,2.0,,GW,"SOFC FTM additions: 0 until 2029, ramp to 2 GW/yr by 2035 (TU Berlin assumption)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SOFC,USA,2039,2.0,,GW,"SOFC FTM additions: 0 until 2029, ramp to 2 GW/yr by 2035 (TU Berlin assumption)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SOFC,USA,2040,2.0,,GW,"SOFC FTM additions: 0 until 2029, ramp to 2 GW/yr by 2035 (TU Berlin assumption)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+OffshoreWind,Canada,2025,2.0,,GW,Canadian offshore build pace cap 2 GW/yr (TU Berlin assumption),2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+OffshoreWind,Canada,2026,2.0,,GW,Canadian offshore build pace cap 2 GW/yr (TU Berlin assumption),2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+OffshoreWind,Canada,2027,2.0,,GW,Canadian offshore build pace cap 2 GW/yr (TU Berlin assumption),2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+OffshoreWind,Canada,2028,2.0,,GW,Canadian offshore build pace cap 2 GW/yr (TU Berlin assumption),2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+OffshoreWind,Canada,2029,2.0,,GW,Canadian offshore build pace cap 2 GW/yr (TU Berlin assumption),2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+OffshoreWind,Canada,2030,2.0,,GW,Canadian offshore build pace cap 2 GW/yr (TU Berlin assumption),2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+OffshoreWind,Canada,2031,2.0,,GW,Canadian offshore build pace cap 2 GW/yr (TU Berlin assumption),2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+OffshoreWind,Canada,2032,2.0,,GW,Canadian offshore build pace cap 2 GW/yr (TU Berlin assumption),2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+OffshoreWind,Canada,2033,2.0,,GW,Canadian offshore build pace cap 2 GW/yr (TU Berlin assumption),2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+OffshoreWind,Canada,2034,2.0,,GW,Canadian offshore build pace cap 2 GW/yr (TU Berlin assumption),2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+OffshoreWind,Canada,2035,2.0,,GW,Canadian offshore build pace cap 2 GW/yr (TU Berlin assumption),2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+OffshoreWind,Canada,2036,2.0,,GW,Canadian offshore build pace cap 2 GW/yr (TU Berlin assumption),2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+OffshoreWind,Canada,2037,2.0,,GW,Canadian offshore build pace cap 2 GW/yr (TU Berlin assumption),2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+OffshoreWind,Canada,2038,2.0,,GW,Canadian offshore build pace cap 2 GW/yr (TU Berlin assumption),2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+OffshoreWind,Canada,2039,2.0,,GW,Canadian offshore build pace cap 2 GW/yr (TU Berlin assumption),2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+OffshoreWind,Canada,2040,2.0,,GW,Canadian offshore build pace cap 2 GW/yr (TU Berlin assumption),2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
