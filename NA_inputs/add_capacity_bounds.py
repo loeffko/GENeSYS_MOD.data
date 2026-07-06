@@ -529,9 +529,15 @@ if GAS_MIN_BLEND_FLOOR_OVERRIDE is not None:
 GAS_PEG_MARGIN = 0.02         # gas funnel pegged to the capacities file +/-2% through
                               # GAS_MIN_PIN_UNTIL: min = file x0.98, max = file x1.02
                               # (no demand scaling / widening for gas before 2031)
-GAS_GROUP_MIN_CLAMP_GW = 45.0 # national cap on the FORCED new-build (min - residual
-                              # increments) of the CCGT/OCGT/Steam group: stay 2 GW
-                              # inside the 47 GW/yr group addition cap
+# GasPlants/USA annual-addition cap (turbine supply constraint): near-term
+# turbine deliveries are tight (6/9/10 GW 2026-2028, 35 GW 2029-2030), then the
+# supply chain expands to 60 GW/yr by 2035. 2025 stays open (start year).
+GAS_GROUP_CAP_GW = {2025: 65.0, 2026: 6.0, 2027: 9.0, 2028: 10.0, 2029: 35.0,
+                    2030: 35.0, 2031: 40.0, 2032: 45.0, 2033: 50.0, 2034: 55.0}
+GAS_GROUP_CAP_FROM_2035 = 60.0
+GAS_CLAMP_BUFFER_GW = 2.0     # forced new-build (min - residual increments) of the
+                              # CCGT/OCGT/Steam group must stay this far inside the
+                              # year's group addition cap
 GAS_MIN_PIN_UNTIL = 2030      # gas min = pegged capacity-file value through this year
                               # (announced/under-construction pipeline), then blends
                               # linearly into the demand-scaled funnel by 2035.
@@ -1295,7 +1301,8 @@ def main():
     for y in YEARS[1:]:
         tot_pos = sum(max(0.0, _needed(r, t, y) - _needed(r, t, y - 1))
                       for r in pool_regions for t in _CLAMP_TECHS)
-        sc = min(1.0, GAS_GROUP_MIN_CLAMP_GW / tot_pos) if tot_pos > 0 else 1.0
+        clamp_y = max(0.0, GAS_GROUP_CAP_GW.get(y, GAS_GROUP_CAP_FROM_2035) - GAS_CLAMP_BUFFER_GW)
+        sc = min(1.0, clamp_y / tot_pos) if tot_pos > 0 else 1.0
         if sc < 1.0:
             scaled_years.append((y, round(tot_pos, 1), round(sc, 3)))
         for r in pool_regions:
@@ -1314,24 +1321,20 @@ def main():
             if new_min < min_rows[i][3] - 1e-9:
                 min_rows[i] = (r, t, y, round(new_min, 6))
     if scaled_years:
-        print("gas min clamp (forced-new > %.0f GW/yr): %s" % (GAS_GROUP_MIN_CLAMP_GW,
+        print("gas min clamp (forced-new > cap-%.0f): %s" % (GAS_CLAMP_BUFFER_GW,
               ", ".join("%d: %.1f GW x%.3f" % t for t in scaled_years)))
 
     # 6) Group annual-addition caps (base data; sensitivities override via their
     #    scenario subfolders). GasPlants excludes P_Gas_Engines (own subset).
     def _gas_group_cap(y):
-        if y <= 2025:
-            return 65.0
-        if y <= 2030:
-            return 47.0
-        return round(min(65.0, 47.0 + (65.0 - 47.0) * (y - 2030) / 5.0), 1)
+        return GAS_GROUP_CAP_GW.get(y, GAS_GROUP_CAP_FROM_2035)
     def _sofc_group_cap(y):
         if y <= 2029:
             return 0.0
         return round(min(2.0, 2.0 * (y - 2029) / 6.0), 2)
     group_newcaps = [
         ("GasPlants", "USA", {y: _gas_group_cap(y) for y in YEARS},
-         "gas annual-additions cap: 47 GW/yr through 2030, ramp to 65 by 2035 (TU Berlin assumption)"),
+         "gas annual-additions cap: turbine supply 6/9/10/35/35 GW 2026-2030, ramp to 60 by 2035 (TU Berlin assumption)"),
         # +0.01 GW headroom on file-driven values: the forced-new sum and the cap
         # are rounded independently, and an exactly-equal pair is one rounding
         # step away from infeasible (2026 was infeasible by 4e-4 without this).
