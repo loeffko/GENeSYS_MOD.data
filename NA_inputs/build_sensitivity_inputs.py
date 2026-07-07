@@ -72,7 +72,7 @@ SENS = {   # order matters: 'base' LAST so shared CSVs end in the base state
     # test/sensitivities/common.jl SENS_MODEL_KWARGS).
     "dc_high_limitless": dict(fel="base_fel_dc_high_v260707_v2.xlsx", max_upscale=True,
                       ic_growth="0.06", max_boost="2.0", max_boost_regions="ERCOT",
-                      group_caps={"GasPlants": {y: 100.0 for y in YEARS},
+                      group_caps={"GasPlants": {y: 100.0 for y in YEARS if y > 2030},
                                   "EGS":       {y: 4.0 for y in YEARS},
                                   "SOFC":      {y: sofc_cap(y) for y in YEARS}},
                       open_sofc=True,
@@ -128,10 +128,13 @@ def build(sens, cfg):
         g.columns = ["" if str(c).startswith("Unnamed") else c for c in g.columns]
         parts = []
         if cfg.get("gas_group_cap_scale"):
-            m = (g.TechnologySubset == "GasPlants") & (g.RegionSubset == "USA")
+            # scale only AFTER 2030: near-term turbine supply is already locked
+            # in, a demand boom cannot buy more deliveries before then. Omitting
+            # the <=2030 rows keeps the base schedule via the upsert.
+            m = (g.TechnologySubset == "GasPlants") & (g.RegionSubset == "USA") & (g.Year > 2030)
             scaled = g[m].copy()
             scaled["Value"] = (scaled["Value"] * float(cfg["gas_group_cap_scale"])).round(1)
-            scaled["Source"] = f"GasPlants cap x {cfg['gas_group_cap_scale']} (demand-scaled, {sens})"
+            scaled["Source"] = f"GasPlants cap x {cfg['gas_group_cap_scale']} post-2030 (demand-scaled, {sens})"
             parts.append(scaled)
         if cfg.get("group_caps"):
             recs = [{"TechnologySubset": ts, "RegionSubset": "USA", "Year": y,
