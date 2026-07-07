@@ -511,7 +511,7 @@ GAS_SCHEDULE_CATS = ("Natural Gas - CCCT", "Natural Gas - SCCT")
 # its existing widening (and the CA/NE/NY exact-file rule), on the scaled basis.
 # Residuals are NOT scaled (the existing fleet is physical) — a residual floor
 # on the max keeps min<=max feasible everywhere.
-FEL_DEMAND_XLSX = os.path.join(HERE, "base_fel_v260702_v2.xlsx")
+FEL_DEMAND_XLSX = os.path.join(HERE, "base_fel_v260707_v2.xlsx")
 if "--fel" in sys.argv:
     FEL_DEMAND_XLSX = os.path.join(HERE, sys.argv[sys.argv.index("--fel") + 1])
 FEL_REGION_MAP = {   # FEL geo_code -> US pool (FRCC folds into SERC; Canada not scaled)

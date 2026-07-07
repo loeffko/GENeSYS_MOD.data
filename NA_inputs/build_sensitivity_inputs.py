@@ -39,7 +39,7 @@ CONV = os.path.join(DATA_REPO, "Conversion Script")
 OUT = os.path.join(DATA_REPO, "Output", "output_excel")
 INPUTDATA = r"C:\Users\testbed\Documents\GENeSYSMOD.jl_SE\InputData"
 PY = sys.executable
-BASE_FEL = "base_fel_v260702_v2.xlsx"
+BASE_FEL = "base_fel_v260707_v2.xlsx"
 
 US_REGIONS = ["California", "WECC", "SPP", "MISO", "ERCOT", "SERC", "PJM",
               "NewYork", "NewEngland"]
@@ -58,8 +58,8 @@ def sofc_cap(y):
                  * max(0.0, min(1.0, (y - 2028) / 7.0)), 2)
 
 SENS = {   # order matters: 'base' LAST so shared CSVs end in the base state
-    "dc_low":    dict(fel="base_fel_dc_low v260703.xlsx"),
-    "dc_high":   dict(fel="base_fel_dc_high v260703.xlsx", max_upscale=True,
+    "dc_low":    dict(fel="base_fel_dc_low_v260707_v2.xlsx"),
+    "dc_high":   dict(fel="base_fel_dc_high_v260707_v2.xlsx", max_upscale=True,
                       ic_growth="0.06",          # demand boom accelerates grid (base 4%)
                       gas_group_cap_scale=1.2,   # GasPlants/USA 65 -> 78 GW/yr (~2035 demand ratio)
                       group_caps={"SOFC": {y: sofc_cap(y) for y in YEARS}},
@@ -70,7 +70,7 @@ SENS = {   # order matters: 'base' LAST so shared CSVs end in the base state
     # the demand shift re-routes gas builds), SOFC enabled, loosened model
     # pacing (set_investment_limit=3, set_new_res_capacity=0.2 + ERCOT 0.3 in
     # test/sensitivities/common.jl SENS_MODEL_KWARGS).
-    "dc_high_limitless": dict(fel="base_fel_dc_high v260703.xlsx", max_upscale=True,
+    "dc_high_limitless": dict(fel="base_fel_dc_high_v260707_v2.xlsx", max_upscale=True,
                       ic_growth="0.06", max_boost="2.0", max_boost_regions="ERCOT",
                       group_caps={"GasPlants": {y: 100.0 for y in YEARS},
                                   "EGS":       {y: 4.0 for y in YEARS},
@@ -79,7 +79,7 @@ SENS = {   # order matters: 'base' LAST so shared CSVs end in the base state
                       # own filter file: P_SOFC selected in the dc_high family
                       # only, the main NA filter keeps it deselected
                       filter_file="Set_filter_file_NorthAmerica_dc_high_limitless.xlsx"),
-    "recession": dict(fel="fel_recession_v260703.xlsx", gas_min_floor="0"),
+    "recession": dict(fel="fel_recession_v260707_v2.xlsx", gas_min_floor="0"),
     "economic":  dict(fel=BASE_FEL, funnel="economic"),
     "grid_low":  dict(fel=BASE_FEL, ic_growth="0.025"),
     "grid_high": dict(fel=BASE_FEL, ic_growth="none"),

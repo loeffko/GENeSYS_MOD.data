@@ -1,20 +1,20 @@
 TechnologySubset,RegionSubset,Year,Value,,Unit,Source,Updated at,Updated by
-GasPlants,USA,2025,78.0,,GW,"GasPlants cap x 1.2 (demand-scaled, dc_high)",2026-06-30,Konstantin Loffler <kl@wip.tu-berlin.de>
-GasPlants,USA,2026,78.0,,GW,"GasPlants cap x 1.2 (demand-scaled, dc_high)",2026-06-30,Konstantin Loffler <kl@wip.tu-berlin.de>
-GasPlants,USA,2027,78.0,,GW,"GasPlants cap x 1.2 (demand-scaled, dc_high)",2026-06-30,Konstantin Loffler <kl@wip.tu-berlin.de>
-GasPlants,USA,2028,78.0,,GW,"GasPlants cap x 1.2 (demand-scaled, dc_high)",2026-06-30,Konstantin Loffler <kl@wip.tu-berlin.de>
-GasPlants,USA,2029,78.0,,GW,"GasPlants cap x 1.2 (demand-scaled, dc_high)",2026-06-30,Konstantin Loffler <kl@wip.tu-berlin.de>
-GasPlants,USA,2030,78.0,,GW,"GasPlants cap x 1.2 (demand-scaled, dc_high)",2026-06-30,Konstantin Loffler <kl@wip.tu-berlin.de>
-GasPlants,USA,2031,78.0,,GW,"GasPlants cap x 1.2 (demand-scaled, dc_high)",2026-06-30,Konstantin Loffler <kl@wip.tu-berlin.de>
-GasPlants,USA,2032,78.0,,GW,"GasPlants cap x 1.2 (demand-scaled, dc_high)",2026-06-30,Konstantin Loffler <kl@wip.tu-berlin.de>
-GasPlants,USA,2033,78.0,,GW,"GasPlants cap x 1.2 (demand-scaled, dc_high)",2026-06-30,Konstantin Loffler <kl@wip.tu-berlin.de>
-GasPlants,USA,2034,78.0,,GW,"GasPlants cap x 1.2 (demand-scaled, dc_high)",2026-06-30,Konstantin Loffler <kl@wip.tu-berlin.de>
-GasPlants,USA,2035,78.0,,GW,"GasPlants cap x 1.2 (demand-scaled, dc_high)",2026-06-30,Konstantin Loffler <kl@wip.tu-berlin.de>
-GasPlants,USA,2036,78.0,,GW,"GasPlants cap x 1.2 (demand-scaled, dc_high)",2026-06-30,Konstantin Loffler <kl@wip.tu-berlin.de>
-GasPlants,USA,2037,78.0,,GW,"GasPlants cap x 1.2 (demand-scaled, dc_high)",2026-06-30,Konstantin Loffler <kl@wip.tu-berlin.de>
-GasPlants,USA,2038,78.0,,GW,"GasPlants cap x 1.2 (demand-scaled, dc_high)",2026-06-30,Konstantin Loffler <kl@wip.tu-berlin.de>
-GasPlants,USA,2039,78.0,,GW,"GasPlants cap x 1.2 (demand-scaled, dc_high)",2026-06-30,Konstantin Loffler <kl@wip.tu-berlin.de>
-GasPlants,USA,2040,78.0,,GW,"GasPlants cap x 1.2 (demand-scaled, dc_high)",2026-06-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasPlants,USA,2025,78.0,,GW,"GasPlants cap x 1.2 (demand-scaled, dc_high)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasPlants,USA,2026,7.2,,GW,"GasPlants cap x 1.2 (demand-scaled, dc_high)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasPlants,USA,2027,10.8,,GW,"GasPlants cap x 1.2 (demand-scaled, dc_high)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasPlants,USA,2028,12.0,,GW,"GasPlants cap x 1.2 (demand-scaled, dc_high)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasPlants,USA,2029,42.0,,GW,"GasPlants cap x 1.2 (demand-scaled, dc_high)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasPlants,USA,2030,42.0,,GW,"GasPlants cap x 1.2 (demand-scaled, dc_high)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasPlants,USA,2031,48.0,,GW,"GasPlants cap x 1.2 (demand-scaled, dc_high)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasPlants,USA,2032,54.0,,GW,"GasPlants cap x 1.2 (demand-scaled, dc_high)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasPlants,USA,2033,60.0,,GW,"GasPlants cap x 1.2 (demand-scaled, dc_high)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasPlants,USA,2034,66.0,,GW,"GasPlants cap x 1.2 (demand-scaled, dc_high)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasPlants,USA,2035,72.0,,GW,"GasPlants cap x 1.2 (demand-scaled, dc_high)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasPlants,USA,2036,72.0,,GW,"GasPlants cap x 1.2 (demand-scaled, dc_high)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasPlants,USA,2037,72.0,,GW,"GasPlants cap x 1.2 (demand-scaled, dc_high)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasPlants,USA,2038,72.0,,GW,"GasPlants cap x 1.2 (demand-scaled, dc_high)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasPlants,USA,2039,72.0,,GW,"GasPlants cap x 1.2 (demand-scaled, dc_high)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+GasPlants,USA,2040,72.0,,GW,"GasPlants cap x 1.2 (demand-scaled, dc_high)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 SOFC,USA,2025,0.0,,GW,SOFC annual-additions cap (dc_high),2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 SOFC,USA,2026,0.0,,GW,SOFC annual-additions cap (dc_high),2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 SOFC,USA,2027,1.5,,GW,SOFC annual-additions cap (dc_high),2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
