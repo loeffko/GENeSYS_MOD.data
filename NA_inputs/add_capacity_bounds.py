@@ -81,6 +81,11 @@ apply = "--apply" in sys.argv
 #   --funnel economic   wider funnel from ~2030 (min x0.75, max x1.5 by 2035):
 #                       the model decides more, data steers less
 MAX_UPSCALE = "--max-upscale" in sys.argv
+# Demand upscaling hits RES ceilings at only HALF strength (dc_high family):
+# the boom buys firm capacity headroom fully, RES potential-derived ceilings
+# rise by half the demand ratio's excess (guardrail reps; the overflow classes
+# scale from the rep automatically).
+RES_HALF_UPSCALE = {"P_PV_Utility_Opt", "P_Wind_Onshore_Opt"}
 #   --scenario-subdir <name>  write outputs into the conversion's scenario
 #                             subfolders (Par_X/<name>/Par_X.csv, row-upsert over
 #                             the base at conversion time) instead of mutating
@@ -632,6 +637,8 @@ def canada_restool_frac(y):
 # floor reaching 129.8 GW in 2040.
 POST_2035_MAX_GROWTH = {
     "P_Gas_CCGT":         0.05,
+    "P_Gas_OCGT":         0.05,   # flexible gas must keep room to grow post-2035
+    "P_Gas_Engines":      0.05,
     "P_Nuclear":          0.05,
     "P_Hydro_Reservoir":  0.02,
 }
@@ -814,7 +821,11 @@ def main():
                 return min(1.0, _ratios.get(min(y, 2035), 1.0))
             def _rmax(y):                       # max side: >1 only with --max-upscale
                 r = _ratios.get(min(y, 2035), 1.0)
-                return r if MAX_UPSCALE else min(1.0, r)
+                if not MAX_UPSCALE:
+                    return min(1.0, r)
+                if tech in RES_HALF_UPSCALE and r > 1.0:
+                    return 1.0 + (r - 1.0) * 0.5   # half-strength RES upscaling
+                return r
             def sval(y):                        # demand-scaled basis for the MAX side
                 yy = min(y, 2035)
                 return gw(region, fuel, yy) * _rmax(y)
