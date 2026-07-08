@@ -87,6 +87,14 @@ SENS = {   # order matters: 'base' LAST so shared CSVs end in the base state
                       gas_group_cap_scale=1.2,
                       filter_file="Set_filter_file_NorthAmerica_dc_high_no_sofc.xlsx"),
     "recession": dict(fel="fel_recession_v260707_v2.xlsx", gas_min_floor="0"),
+    # BESS sensitivities: base demand/funnels; battery E2P duration and/or
+    # Li-Ion cost paths overridden via their scenario subfolders
+    # (Par_StorageE2PRatio, Par_CapitalCost, Par_CapitalCostStorage).
+    "bess_e2p_6h":      dict(fel=BASE_FEL),
+    "bess_e2p_8h":      dict(fel=BASE_FEL),
+    "bess_cost_low":    dict(fel=BASE_FEL),
+    "bess_cost_low_6h": dict(fel=BASE_FEL),
+    "bess_cost_low_8h": dict(fel=BASE_FEL),
     "economic":  dict(fel=BASE_FEL, funnel="economic"),
     "grid_low":  dict(fel=BASE_FEL, ic_growth="0.025"),
     "grid_high": dict(fel=BASE_FEL, ic_growth="none"),
