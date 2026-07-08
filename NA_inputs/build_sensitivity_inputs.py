@@ -90,6 +90,11 @@ SENS = {   # order matters: 'base' LAST so shared CSVs end in the base state
     # BESS sensitivities: base demand/funnels; battery E2P duration and/or
     # Li-Ion cost paths overridden via their scenario subfolders
     # (Par_StorageE2PRatio, Par_CapitalCost, Par_CapitalCostStorage).
+    # BTM facilities grid-connect with a 4-year lag: capacity joins as pinned
+    # residual (SOFC: res=min=max) / funnel bumps, matching BTM demand joins
+    # Power_DataCenter (NA_inputs/add_btm_lag.py). Own filter: P_SOFC enabled.
+    "btm_lag": dict(fel=BASE_FEL, btm_lag=True,
+                    filter_file="Set_filter_file_NorthAmerica_btm_lag.xlsx"),
     "bess_e2p_6h":      dict(fel=BASE_FEL),
     "bess_e2p_8h":      dict(fel=BASE_FEL),
     "bess_cost_low":    dict(fel=BASE_FEL),
@@ -130,6 +135,8 @@ def build(sens, cfg):
     if cfg.get("max_boost_regions"):
         bounds += ["--max-boost-regions", cfg["max_boost_regions"]]
     run(bounds, DATA_REPO)
+    if cfg.get("btm_lag"):
+        run(["NA_inputs/add_btm_lag.py", "--apply"] + sub, DATA_REPO)
     ic = ["NA_inputs/add_ic_trade_bounds.py", "--apply"] + sub
     if cfg.get("ic_growth"):
         ic += ["--growth", cfg["ic_growth"]]
