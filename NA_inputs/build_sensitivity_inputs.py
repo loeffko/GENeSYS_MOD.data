@@ -59,12 +59,11 @@ def sofc_cap(y):
 
 SENS = {   # order matters: 'base' LAST so shared CSVs end in the base state
     "dc_low":    dict(fel="base_fel_dc_low_v260707_v2.xlsx"),
+    # dc_high has NO SOFC by default (main NA filter); the former dc_high_no_sofc
+    # variant is retired - the SC4a untag resolved the pathology it probed.
     "dc_high":   dict(fel="base_fel_dc_high_v260707_v2.xlsx", max_upscale=True,
                       ic_growth="0.06",          # demand boom accelerates grid (base 4%)
-                      gas_group_cap_scale=1.2,   # GasPlants/USA 65 -> 78 GW/yr (~2035 demand ratio)
-                      group_caps={"SOFC": {y: sofc_cap(y) for y in YEARS}},
-                      open_sofc=True,
-                      filter_file="Set_filter_file_NorthAmerica_dc_high.xlsx"),
+                      gas_group_cap_scale=1.2),  # gas caps x1.2 post-2030 only
     # dc_high demand with the build limits mostly gone: gas cap 100 GW/yr, EGS
     # cap 4 GW/yr, funnel max x2 for PV/onshore/BESS in ERCOT only (elsewhere
     # the demand shift re-routes gas builds), SOFC enabled, loosened model
@@ -79,13 +78,6 @@ SENS = {   # order matters: 'base' LAST so shared CSVs end in the base state
                       # own filter file: P_SOFC selected in the dc_high family
                       # only, the main NA filter keeps it deselected
                       filter_file="Set_filter_file_NorthAmerica_dc_high_limitless.xlsx"),
-    # dc_high without the SOFC option: same demand/funnels/caps, but P_SOFC is
-    # deselected in its filter file - tests whether the (BTM-reduced) boom can
-    # be served by the conventional expansion alone.
-    "dc_high_no_sofc": dict(fel="base_fel_dc_high_v260707_v2.xlsx", max_upscale=True,
-                      ic_growth="0.06",
-                      gas_group_cap_scale=1.2,
-                      filter_file="Set_filter_file_NorthAmerica_dc_high_no_sofc.xlsx"),
     "recession": dict(fel="fel_recession_v260707_v2.xlsx", gas_min_floor="0"),
     # BESS sensitivities: base demand/funnels; battery E2P duration and/or
     # Li-Ion cost paths overridden via their scenario subfolders
