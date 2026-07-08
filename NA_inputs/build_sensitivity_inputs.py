@@ -79,6 +79,13 @@ SENS = {   # order matters: 'base' LAST so shared CSVs end in the base state
                       # own filter file: P_SOFC selected in the dc_high family
                       # only, the main NA filter keeps it deselected
                       filter_file="Set_filter_file_NorthAmerica_dc_high_limitless.xlsx"),
+    # dc_high without the SOFC option: same demand/funnels/caps, but P_SOFC is
+    # deselected in its filter file - tests whether the (BTM-reduced) boom can
+    # be served by the conventional expansion alone.
+    "dc_high_no_sofc": dict(fel="base_fel_dc_high_v260707_v2.xlsx", max_upscale=True,
+                      ic_growth="0.06",
+                      gas_group_cap_scale=1.2,
+                      filter_file="Set_filter_file_NorthAmerica_dc_high_no_sofc.xlsx"),
     "recession": dict(fel="fel_recession_v260707_v2.xlsx", gas_min_floor="0"),
     "economic":  dict(fel=BASE_FEL, funnel="economic"),
     "grid_low":  dict(fel=BASE_FEL, ic_growth="0.025"),
