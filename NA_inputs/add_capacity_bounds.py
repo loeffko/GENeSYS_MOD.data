@@ -533,8 +533,8 @@ GAS_PEG_MARGIN = 0.02         # gas funnel pegged to the capacities file +/-2% t
 # turbine deliveries are tight (6/9/10 GW 2026-2028, 35 GW 2029-2030), then the
 # supply chain expands to 60 GW/yr by 2035. 2025 stays open (start year).
 GAS_GROUP_CAP_GW = {2025: 65.0, 2026: 6.0, 2027: 9.0, 2028: 10.0, 2029: 35.0,
-                    2030: 35.0, 2031: 40.0, 2032: 45.0, 2033: 50.0, 2034: 55.0}
-GAS_GROUP_CAP_FROM_2035 = 60.0
+                    2030: 35.0, 2031: 47.0, 2032: 51.0, 2033: 55.0, 2034: 60.0}
+GAS_GROUP_CAP_FROM_2035 = 65.0
 GAS_CLAMP_BUFFER_GW = 2.0     # forced new-build (min - residual increments) of the
                               # CCGT/OCGT/Steam group must stay this far inside the
                               # year's group addition cap
