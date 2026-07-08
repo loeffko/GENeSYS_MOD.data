@@ -1266,39 +1266,6 @@ World,P_PV_Utility_Tracking,2045,365.0,,MEUR/GW,Utility-scale ground mounted PV 
 World,P_PV_Utility_Tracking,2050,350.0,,MEUR/GW,Utility-scale ground mounted PV tracker - https://ens.dk/en/our-services/technology-catalogues/technology-data-generation-electricity-and-district-heating,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
 World,P_PV_Utility_Tracking,2055,350.0,,MEUR/GW,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 World,P_PV_Utility_Tracking,2060,350.0,,MEUR/GW,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Deep,2018,3840.0,,MEUR/GW,Far shore Wind DC Fixed (ctrl) - Danish Energy Agency Electricity Generation Catalogue,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Deep,2020,3840.0,,MEUR/GW,Far shore Wind DC Fixed (ctrl) - Danish Energy Agency Electricity Generation Catalogue,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Deep,2021,3840.0,,MEUR/GW,Far shore Wind DC Fixed (ctrl) - Danish Energy Agency Electricity Generation Catalogue,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Deep,2025,3619.0,,MEUR/GW,Far shore Wind DC Fixed (ctrl) - Danish Energy Agency Electricity Generation Catalogue,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Deep,2030,3222.0,,MEUR/GW,Far shore Wind DC Fixed (ctrl) - Danish Energy Agency Electricity Generation Catalogue,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Deep,2035,3032.0,,MEUR/GW,Far shore Wind DC Fixed (ctrl) - Danish Energy Agency Electricity Generation Catalogue,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Deep,2040,2898.0,,MEUR/GW,Far shore Wind DC Fixed (ctrl) - Danish Energy Agency Electricity Generation Catalogue,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Deep,2045,2791.0,,MEUR/GW,Far shore Wind DC Fixed (ctrl) - Danish Energy Agency Electricity Generation Catalogue,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Deep,2050,2684.0,,MEUR/GW,Far shore Wind DC Fixed (ctrl) - Danish Energy Agency Electricity Generation Catalogue,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Deep,2055,2684.0,,MEUR/GW,Far shore Wind DC Fixed (ctrl) - Danish Energy Agency Electricity Generation Catalogue,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Deep,2060,2684.0,,MEUR/GW,Far shore Wind DC Fixed (ctrl) - Danish Energy Agency Electricity Generation Catalogue,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Shallow,2018,1915.0,,MEUR/GW,Near Shore Wind (ctrl) - Danish Energy Agency Electricty Generation Catalogue,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Shallow,2020,1915.0,,MEUR/GW,Near Shore Wind (ctrl) - Danish Energy Agency Electricty Generation Catalogue,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Shallow,2021,1915.0,,MEUR/GW,Near Shore Wind (ctrl) - Danish Energy Agency Electricty Generation Catalogue,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Shallow,2025,1915.0,,MEUR/GW,Near Shore Wind (ctrl) - Danish Energy Agency Electricty Generation Catalogue,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Shallow,2030,1648.0,,MEUR/GW,Near Shore Wind (ctrl) - Danish Energy Agency Electricty Generation Catalogue,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Shallow,2035,1549.0,,MEUR/GW,Near Shore Wind (ctrl) - Danish Energy Agency Electricty Generation Catalogue,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Shallow,2040,1475.0,,MEUR/GW,Near Shore Wind (ctrl) - Danish Energy Agency Electricty Generation Catalogue,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Shallow,2045,1421.0,,MEUR/GW,Near Shore Wind (ctrl) - Danish Energy Agency Electricty Generation Catalogue,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Shallow,2050,1368.0,,MEUR/GW,Near Shore Wind (ctrl) - Danish Energy Agency Electricty Generation Catalogue,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Shallow,2055,1368.0,,MEUR/GW,Near Shore Wind (ctrl) - Danish Energy Agency Electricty Generation Catalogue,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Shallow,2060,1368.0,,MEUR/GW,Near Shore Wind (ctrl) - Danish Energy Agency Electricty Generation Catalogue,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Transitional,2018,2780.0,,MEUR/GW,Offshore Wind AC Fixed (ctrl) - Danish Energy Agency Electricty Generation Catalogue,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Transitional,2020,2780.0,,MEUR/GW,Offshore Wind AC Fixed (ctrl) - Danish Energy Agency Electricty Generation Catalogue,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Transitional,2021,2780.0,,MEUR/GW,Offshore Wind AC Fixed (ctrl) - Danish Energy Agency Electricty Generation Catalogue,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Transitional,2025,2780.0,,MEUR/GW,Offshore Wind AC Fixed (ctrl) - Danish Energy Agency Electricty Generation Catalogue,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Transitional,2030,2393.0,,MEUR/GW,Offshore Wind AC Fixed (ctrl) - Danish Energy Agency Electricty Generation Catalogue,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Transitional,2035,2248.0,,MEUR/GW,Offshore Wind AC Fixed (ctrl) - Danish Energy Agency Electricty Generation Catalogue,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Transitional,2040,2141.0,,MEUR/GW,Offshore Wind AC Fixed (ctrl) - Danish Energy Agency Electricty Generation Catalogue,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Transitional,2045,2063.0,,MEUR/GW,Offshore Wind AC Fixed (ctrl) - Danish Energy Agency Electricty Generation Catalogue,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Transitional,2050,1986.0,,MEUR/GW,Offshore Wind AC Fixed (ctrl) - Danish Energy Agency Electricty Generation Catalogue,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Transitional,2055,1986.0,,MEUR/GW,Offshore Wind AC Fixed (ctrl) - Danish Energy Agency Electricty Generation Catalogue,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Transitional,2060,1986.0,,MEUR/GW,Offshore Wind AC Fixed (ctrl) - Danish Energy Agency Electricty Generation Catalogue,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 World,P_Wind_Onshore_Avg,2018,1150.0,,MEUR/GW,Wind onshore- Table 1.7- High cost of slow energy transitions for emerging countries: On the case of Egypt's pathway options- Appendix A Supplementary data,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
 World,P_Wind_Onshore_Avg,2020,1150.0,,MEUR/GW,Wind onshore- Table 1.7- High cost of slow energy transitions for emerging countries: On the case of Egypt's pathway options- Appendix A Supplementary data,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
 World,P_Wind_Onshore_Avg,2021,1100.0,,MEUR/GW,Onshore turbines - https://ens.dk/en/our-services/technology-catalogues/technology-data-generation-electricity-and-district-heating,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
@@ -2754,42 +2721,6 @@ World,P_PV_Utility_Tracking,2036,408.0,,MEUR/GW,interpolated,20.08.2024,Alena Di
 World,P_PV_Utility_Tracking,2037,401.0,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
 World,P_PV_Utility_Tracking,2038,394.0,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
 World,P_PV_Utility_Tracking,2039,387.0,,MEUR/GW,interpolated,20.08.2024,Alena Diesing <ad@wip.tu-berlin.de>
-World,P_Wind_Offshore_Deep,2026,3539.6,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Deep,2027,3460.2,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Deep,2028,3380.8,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Deep,2029,3301.4,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Deep,2031,3184.0,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Deep,2032,3146.0,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Deep,2033,3108.0,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Deep,2034,3070.0,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Deep,2036,3005.2,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Deep,2037,2978.4,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Deep,2038,2951.6,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Deep,2039,2924.8,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Shallow,2026,1861.6,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Shallow,2027,1808.2,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Shallow,2028,1754.8,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Shallow,2029,1701.4,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Shallow,2031,1628.2,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Shallow,2032,1608.4,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Shallow,2033,1588.6,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Shallow,2034,1568.8,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Shallow,2036,1534.2,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Shallow,2037,1519.4,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Shallow,2038,1504.6,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Shallow,2039,1489.8,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Transitional,2026,2702.6,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Transitional,2027,2625.2,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Transitional,2028,2547.8,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Transitional,2029,2470.4,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Transitional,2031,2364.0,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Transitional,2032,2335.0,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Transitional,2033,2306.0,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Transitional,2034,2277.0,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Transitional,2036,2226.6,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Transitional,2037,2205.2,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Transitional,2038,2183.8,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Wind_Offshore_Transitional,2039,2162.4,,MEUR/GW,interpolated,16.10.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 World,P_Wind_Onshore_Avg,2026,1174.0,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
 World,P_Wind_Onshore_Avg,2027,1168.0,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
 World,P_Wind_Onshore_Avg,2028,1162.0,,MEUR/GW,interpolated,08.09.2023,Luka Garibashvili <lukaga@stud.ntnu.no>
@@ -3171,3 +3102,63 @@ World,P_SOFC,2039,2290.0,,MEUR/GW,"Bloom Energy SOFC, installed $6.6-7.2k/kW uns
 World,P_SOFC,2040,2200.0,,MEUR/GW,"Bloom Energy SOFC, installed $6.6-7.2k/kW unsubsidized 2025/26 (data-center deployments), declining with manufacturing scale-up; TU Berlin trajectory assumption",2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 World,P_SOFC,2045,2000.0,,MEUR/GW,"Bloom Energy SOFC, installed $6.6-7.2k/kW unsubsidized 2025/26 (data-center deployments), declining with manufacturing scale-up; TU Berlin trajectory assumption",2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 World,P_SOFC,2050,1900.0,,MEUR/GW,"Bloom Energy SOFC, installed $6.6-7.2k/kW unsubsidized 2025/26 (data-center deployments), declining with manufacturing scale-up; TU Berlin trajectory assumption",2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Offshore_Shallow,2018,2780.2,,MEUR/GW,"DEA 0017 21 Offshore Wind AC Fixed, nominal total investment incl. grid connection",2026-07-08,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Offshore_Shallow,2020,2780.2,,MEUR/GW,"DEA 0017 21 Offshore Wind AC Fixed, nominal total investment incl. grid connection",2026-07-08,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Offshore_Shallow,2025,2780.2,,MEUR/GW,"DEA 0017 21 Offshore Wind AC Fixed, nominal total investment incl. grid connection",2026-07-08,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Offshore_Shallow,2026,2702.8,,MEUR/GW,"DEA 0017 21 Offshore Wind AC Fixed, nominal total investment incl. grid connection",2026-07-08,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Offshore_Shallow,2027,2625.4,,MEUR/GW,"DEA 0017 21 Offshore Wind AC Fixed, nominal total investment incl. grid connection",2026-07-08,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Offshore_Shallow,2028,2548.0,,MEUR/GW,"DEA 0017 21 Offshore Wind AC Fixed, nominal total investment incl. grid connection",2026-07-08,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Offshore_Shallow,2029,2470.6,,MEUR/GW,"DEA 0017 21 Offshore Wind AC Fixed, nominal total investment incl. grid connection",2026-07-08,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Offshore_Shallow,2030,2393.1,,MEUR/GW,"DEA 0017 21 Offshore Wind AC Fixed, nominal total investment incl. grid connection",2026-07-08,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Offshore_Shallow,2031,2364.2,,MEUR/GW,"DEA 0017 21 Offshore Wind AC Fixed, nominal total investment incl. grid connection",2026-07-08,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Offshore_Shallow,2032,2335.2,,MEUR/GW,"DEA 0017 21 Offshore Wind AC Fixed, nominal total investment incl. grid connection",2026-07-08,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Offshore_Shallow,2033,2306.2,,MEUR/GW,"DEA 0017 21 Offshore Wind AC Fixed, nominal total investment incl. grid connection",2026-07-08,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Offshore_Shallow,2034,2277.2,,MEUR/GW,"DEA 0017 21 Offshore Wind AC Fixed, nominal total investment incl. grid connection",2026-07-08,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Offshore_Shallow,2035,2248.2,,MEUR/GW,"DEA 0017 21 Offshore Wind AC Fixed, nominal total investment incl. grid connection",2026-07-08,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Offshore_Shallow,2036,2226.7,,MEUR/GW,"DEA 0017 21 Offshore Wind AC Fixed, nominal total investment incl. grid connection",2026-07-08,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Offshore_Shallow,2037,2205.2,,MEUR/GW,"DEA 0017 21 Offshore Wind AC Fixed, nominal total investment incl. grid connection",2026-07-08,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Offshore_Shallow,2038,2183.6,,MEUR/GW,"DEA 0017 21 Offshore Wind AC Fixed, nominal total investment incl. grid connection",2026-07-08,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Offshore_Shallow,2039,2162.1,,MEUR/GW,"DEA 0017 21 Offshore Wind AC Fixed, nominal total investment incl. grid connection",2026-07-08,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Offshore_Shallow,2040,2140.6,,MEUR/GW,"DEA 0017 21 Offshore Wind AC Fixed, nominal total investment incl. grid connection",2026-07-08,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Offshore_Shallow,2045,2063.1,,MEUR/GW,"DEA 0017 21 Offshore Wind AC Fixed, nominal total investment incl. grid connection",2026-07-08,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Offshore_Shallow,2050,1985.7,,MEUR/GW,"DEA 0017 21 Offshore Wind AC Fixed, nominal total investment incl. grid connection",2026-07-08,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Offshore_Transitional,2018,3618.7,,MEUR/GW,"DEA 0017 21 Far shore Wind DC Fixed, nominal total investment incl. grid connection",2026-07-08,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Offshore_Transitional,2020,3618.7,,MEUR/GW,"DEA 0017 21 Far shore Wind DC Fixed, nominal total investment incl. grid connection",2026-07-08,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Offshore_Transitional,2025,3618.7,,MEUR/GW,"DEA 0017 21 Far shore Wind DC Fixed, nominal total investment incl. grid connection",2026-07-08,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Offshore_Transitional,2026,3539.4,,MEUR/GW,"DEA 0017 21 Far shore Wind DC Fixed, nominal total investment incl. grid connection",2026-07-08,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Offshore_Transitional,2027,3460.0,,MEUR/GW,"DEA 0017 21 Far shore Wind DC Fixed, nominal total investment incl. grid connection",2026-07-08,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Offshore_Transitional,2028,3380.7,,MEUR/GW,"DEA 0017 21 Far shore Wind DC Fixed, nominal total investment incl. grid connection",2026-07-08,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Offshore_Transitional,2029,3301.3,,MEUR/GW,"DEA 0017 21 Far shore Wind DC Fixed, nominal total investment incl. grid connection",2026-07-08,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Offshore_Transitional,2030,3222.0,,MEUR/GW,"DEA 0017 21 Far shore Wind DC Fixed, nominal total investment incl. grid connection",2026-07-08,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Offshore_Transitional,2031,3183.9,,MEUR/GW,"DEA 0017 21 Far shore Wind DC Fixed, nominal total investment incl. grid connection",2026-07-08,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Offshore_Transitional,2032,3145.9,,MEUR/GW,"DEA 0017 21 Far shore Wind DC Fixed, nominal total investment incl. grid connection",2026-07-08,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Offshore_Transitional,2033,3107.9,,MEUR/GW,"DEA 0017 21 Far shore Wind DC Fixed, nominal total investment incl. grid connection",2026-07-08,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Offshore_Transitional,2034,3069.8,,MEUR/GW,"DEA 0017 21 Far shore Wind DC Fixed, nominal total investment incl. grid connection",2026-07-08,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Offshore_Transitional,2035,3031.8,,MEUR/GW,"DEA 0017 21 Far shore Wind DC Fixed, nominal total investment incl. grid connection",2026-07-08,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Offshore_Transitional,2036,3005.0,,MEUR/GW,"DEA 0017 21 Far shore Wind DC Fixed, nominal total investment incl. grid connection",2026-07-08,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Offshore_Transitional,2037,2978.2,,MEUR/GW,"DEA 0017 21 Far shore Wind DC Fixed, nominal total investment incl. grid connection",2026-07-08,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Offshore_Transitional,2038,2951.4,,MEUR/GW,"DEA 0017 21 Far shore Wind DC Fixed, nominal total investment incl. grid connection",2026-07-08,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Offshore_Transitional,2039,2924.6,,MEUR/GW,"DEA 0017 21 Far shore Wind DC Fixed, nominal total investment incl. grid connection",2026-07-08,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Offshore_Transitional,2040,2897.8,,MEUR/GW,"DEA 0017 21 Far shore Wind DC Fixed, nominal total investment incl. grid connection",2026-07-08,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Offshore_Transitional,2045,2790.7,,MEUR/GW,"DEA 0017 21 Far shore Wind DC Fixed, nominal total investment incl. grid connection",2026-07-08,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Offshore_Transitional,2050,2683.6,,MEUR/GW,"DEA 0017 21 Far shore Wind DC Fixed, nominal total investment incl. grid connection",2026-07-08,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Offshore_Deep,2018,4352.5,,MEUR/GW,"DEA 0017 21 Far shore Wind DC Floating, nominal total investment incl. grid connection",2026-07-08,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Offshore_Deep,2020,4352.5,,MEUR/GW,"DEA 0017 21 Far shore Wind DC Floating, nominal total investment incl. grid connection",2026-07-08,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Offshore_Deep,2025,4352.5,,MEUR/GW,"DEA 0017 21 Far shore Wind DC Floating, nominal total investment incl. grid connection",2026-07-08,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Offshore_Deep,2026,4352.5,,MEUR/GW,"DEA 0017 21 Far shore Wind DC Floating, nominal total investment incl. grid connection",2026-07-08,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Offshore_Deep,2027,4352.5,,MEUR/GW,"DEA 0017 21 Far shore Wind DC Floating, nominal total investment incl. grid connection",2026-07-08,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Offshore_Deep,2028,4352.5,,MEUR/GW,"DEA 0017 21 Far shore Wind DC Floating, nominal total investment incl. grid connection",2026-07-08,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Offshore_Deep,2029,4352.5,,MEUR/GW,"DEA 0017 21 Far shore Wind DC Floating, nominal total investment incl. grid connection",2026-07-08,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Offshore_Deep,2030,4352.5,,MEUR/GW,"DEA 0017 21 Far shore Wind DC Floating, nominal total investment incl. grid connection",2026-07-08,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Offshore_Deep,2031,4212.4,,MEUR/GW,"DEA 0017 21 Far shore Wind DC Floating, nominal total investment incl. grid connection",2026-07-08,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Offshore_Deep,2032,4072.2,,MEUR/GW,"DEA 0017 21 Far shore Wind DC Floating, nominal total investment incl. grid connection",2026-07-08,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Offshore_Deep,2033,3932.1,,MEUR/GW,"DEA 0017 21 Far shore Wind DC Floating, nominal total investment incl. grid connection",2026-07-08,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Offshore_Deep,2034,3792.0,,MEUR/GW,"DEA 0017 21 Far shore Wind DC Floating, nominal total investment incl. grid connection",2026-07-08,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Offshore_Deep,2035,3651.8,,MEUR/GW,"DEA 0017 21 Far shore Wind DC Floating, nominal total investment incl. grid connection",2026-07-08,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Offshore_Deep,2036,3565.9,,MEUR/GW,"DEA 0017 21 Far shore Wind DC Floating, nominal total investment incl. grid connection",2026-07-08,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Offshore_Deep,2037,3480.0,,MEUR/GW,"DEA 0017 21 Far shore Wind DC Floating, nominal total investment incl. grid connection",2026-07-08,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Offshore_Deep,2038,3394.1,,MEUR/GW,"DEA 0017 21 Far shore Wind DC Floating, nominal total investment incl. grid connection",2026-07-08,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Offshore_Deep,2039,3308.2,,MEUR/GW,"DEA 0017 21 Far shore Wind DC Floating, nominal total investment incl. grid connection",2026-07-08,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Offshore_Deep,2040,3222.3,,MEUR/GW,"DEA 0017 21 Far shore Wind DC Floating, nominal total investment incl. grid connection",2026-07-08,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Offshore_Deep,2045,3073.0,,MEUR/GW,"DEA 0017 21 Far shore Wind DC Floating, nominal total investment incl. grid connection",2026-07-08,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Offshore_Deep,2050,2923.7,,MEUR/GW,"DEA 0017 21 Far shore Wind DC Floating, nominal total investment incl. grid connection",2026-07-08,Konstantin Loffler <kl@wip.tu-berlin.de>
