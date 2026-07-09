@@ -16,15 +16,16 @@ demand-independent and shared across sensitivities (built separately).
 
 Sensitivities:
   base       base FEL demand, 4%/yr IC growth
-  dc_low     low data-center demand FEL
+  dc_low     low data-center demand FEL; gas min floor 0 (full ratio pass-through)
   dc_high    high data-center demand FEL; ratios > 1 RAISE the funnel max
   dc_high_limitless
              dc_high demand, build limits mostly gone: gas cap 100 GW/yr, EGS
              4 GW/yr, funnel max x2 (PV/onshore/BESS), P_SOFC enabled 3->9 GW/yr
   recession  recession-demand FEL
   economic   base demand; funnel widens strongly after 2030 (min x0.75, max x1.5)
-  grid_low   base demand; IC growth capped at 2.5%/yr
-  grid_high  base demand; no IC %-pace cap (IC High ceiling still applies)
+  grid_low   base demand; IC growth capped at 0.75%/yr (half realized base CAGR)
+  grid_high  base demand; no IC %-pace cap (IC High ceiling still applies);
+             grid funnel: accelerating widening to min x0.70 / max x1.50 at 2040
 
 Usage:  python NA_inputs/build_sensitivity_inputs.py [sens ...]   (default: all)
 """
@@ -58,7 +59,10 @@ def sofc_cap(y):
                  * max(0.0, min(1.0, (y - 2028) / 7.0)), 2)
 
 SENS = {   # order matters: 'base' LAST so shared CSVs end in the base state
-    "dc_low":    dict(fel="base_fel_dc_low_v260707_v2.xlsx"),
+    # gas_min_floor 0 (v5a): pass the full demand ratio (~0.86 by 2040) into the
+    # gas min post-2030 instead of truncating at the 0.93 blend floor - the v5
+    # gas fleet only fell 4% against 14% less demand.
+    "dc_low":    dict(fel="base_fel_dc_low_v260707_v2.xlsx", gas_min_floor="0"),
     # dc_high has NO SOFC by default (main NA filter); the former dc_high_no_sofc
     # variant is retired - the SC4a untag resolved the pathology it probed.
     "dc_high":   dict(fel="base_fel_dc_high_v260707_v2.xlsx", max_upscale=True,
@@ -82,9 +86,11 @@ SENS = {   # order matters: 'base' LAST so shared CSVs end in the base state
     # BESS sensitivities: base demand/funnels; battery E2P duration and/or
     # Li-Ion cost paths overridden via their scenario subfolders
     # (Par_StorageE2PRatio, Par_CapitalCost, Par_CapitalCostStorage).
-    # BTM facilities grid-connect with a 4-year lag: capacity joins as pinned
-    # residual (SOFC: res=min=max) / funnel bumps, matching BTM demand joins
-    # Power_DataCenter (NA_inputs/add_btm_lag.py). Own filter: P_SOFC enabled.
+    # BTM facilities grid-connect with a 4-year lag: capacity joins as residual
+    # + max headroom only (v5a: min NOT raised, so the connected fleet counts
+    # toward the base funnel min and displaces endogenous FTM builds; SOFC:
+    # res=max, min 0), matching BTM demand joins Power_DataCenter
+    # (NA_inputs/add_btm_lag.py). Own filter: P_SOFC enabled.
     "btm_lag": dict(fel=BASE_FEL, btm_lag=True,
                     filter_file="Set_filter_file_NorthAmerica_btm_lag.xlsx"),
     "bess_e2p_6h":      dict(fel=BASE_FEL),
@@ -93,8 +99,15 @@ SENS = {   # order matters: 'base' LAST so shared CSVs end in the base state
     "bess_cost_low_6h": dict(fel=BASE_FEL),
     "bess_cost_low_8h": dict(fel=BASE_FEL),
     "economic":  dict(fel=BASE_FEL, funnel="economic"),
-    "grid_low":  dict(fel=BASE_FEL, ic_growth="0.025"),
-    "grid_high": dict(fel=BASE_FEL, ic_growth="none"),
+    # grid_low 0.75%/yr (v5a): the base case only REALIZES ~1.6%/yr aggregate IC
+    # growth (cost-limited, the 4% pace cap is slack), so the former 2.5% cap
+    # barely bound. Half the realized base CAGR = a genuine grid-stall case.
+    "grid_low":  dict(fel=BASE_FEL, ic_growth="0.0075"),
+    # grid funnel (v5a): unlimited grid pace + slow-start accelerating funnel
+    # widening 2030->2040 (min x0.70 / max x1.50 at 2040) so the extra links can
+    # actually displace gas with remote RES - with the base funnel the mix was
+    # pinned and grid_high only shaved peakers.
+    "grid_high": dict(fel=BASE_FEL, ic_growth="none", funnel="grid"),
     "base":      dict(fel=BASE_FEL),
 }
 

@@ -80,6 +80,8 @@ apply = "--apply" in sys.argv
 #                       (dc_high sensitivity); the min stays capped at 1.0
 #   --funnel economic   wider funnel from ~2030 (min x0.75, max x1.5 by 2035):
 #                       the model decides more, data steers less
+#   --funnel grid       slow-start accelerating widening 2030->2040 (quadratic;
+#                       min x0.70 / max x1.50 at 2040) - grid_high
 MAX_UPSCALE = "--max-upscale" in sys.argv
 # Demand upscaling hits RES ceilings at only HALF strength (dc_high family):
 # the boom buys firm capacity headroom fully, RES potential-derived ceilings
@@ -109,12 +111,32 @@ MAX_BOOST_PREFIXES = ("P_PV_", "P_Wind_Onshore", "D_Battery_Li-Ion")
 MAX_BOOST_REGIONS = (set(sys.argv[sys.argv.index("--max-boost-regions") + 1].split(","))
                      if "--max-boost-regions" in sys.argv else None)
 ECON_MIN_EXTRA_2035, ECON_MAX_EXTRA_2035 = 0.75, 1.50
+#   --funnel grid    (grid_high) widening starts 2030 SLOWLY and accelerates
+#                    towards 2040 (quadratic ramp; keeps widening post-2035):
+#                    min x0.925 / max x1.125 at 2035 -> min x0.70 / max x1.50
+#                    at 2040. More grid should displace gas with remote RES;
+#                    the base funnel would pin the mix and hide that response.
+GRID_MIN_EXTRA_2040, GRID_MAX_EXTRA_2040 = 0.70, 1.50
 def econ_min_f(y):
-    if FUNNEL_STYLE != "economic": return 1.0
-    return 1.0 + (ECON_MIN_EXTRA_2035 - 1.0) * max(0.0, min(1.0, (y - 2030) / 5.0))
+    if FUNNEL_STYLE == "economic":
+        return 1.0 + (ECON_MIN_EXTRA_2035 - 1.0) * max(0.0, min(1.0, (y - 2030) / 5.0))
+    if FUNNEL_STYLE == "grid":
+        return 1.0 + (GRID_MIN_EXTRA_2040 - 1.0) * max(0.0, min(1.0, (y - 2030) / 10.0)) ** 2
+    return 1.0
 def econ_max_f(y):
-    if FUNNEL_STYLE != "economic": return 1.0
-    return 1.0 + (ECON_MAX_EXTRA_2035 - 1.0) * max(0.0, min(1.0, (y - 2030) / 5.0))
+    if FUNNEL_STYLE == "economic":
+        return 1.0 + (ECON_MAX_EXTRA_2035 - 1.0) * max(0.0, min(1.0, (y - 2030) / 5.0))
+    if FUNNEL_STYLE == "grid":
+        return 1.0 + (GRID_MAX_EXTRA_2040 - 1.0) * max(0.0, min(1.0, (y - 2030) / 10.0)) ** 2
+    return 1.0
+# post-2035 continuation of the style ramp: the year loop derives 2036-2040
+# values from the 2035 anchors (which already carry the 2035 multiplier), so a
+# ramp that keeps moving after 2035 (grid) re-scales them by the RATIO to its
+# 2035 level. base/economic ramps are flat post-2035 -> ratio 1 (no change).
+def post35_min_f(y):
+    return econ_min_f(y) / econ_min_f(2035)
+def post35_max_f(y):
+    return econ_max_f(y) / econ_max_f(2035)
 
 # Guardrail category -> representative model tech (US Pools dataset,
 # "Fuel + Technology" split since the 2026-06 file update).
@@ -897,6 +919,7 @@ def main():
                     if tech in GAS_TECHS:
                         slope = max(0.0, (min_2035 - gw(region, fuel, 2030)) / 5.0)
                         raw_min += slope * sum(f for k, f in GAS_MIN_TREND_FRACS.items() if k <= y)
+                    raw_min *= post35_min_f(y)   # grid ramp keeps widening post-2035
                     # max: interp 2035 funnel -> 2040 share-of-potential if a
                     # restool target is available; otherwise compound growth
                     # using POST_2035_MAX_GROWTH (thermal/hydro) or hold flat.
@@ -906,11 +929,14 @@ def main():
                         # (removes the 2035->2036 funnel cliff). Still capped at
                         # the rep share below.
                         raw_max = max_2035 + avg_slope_post2035 * (y - 2035)
+                        raw_max *= post35_max_f(y)
                     else:
                         rate = POST_2035_MAX_GROWTH.get(tech, 0.0)
                         if region in GAS_NO_ADD_REGIONS and tech in GAS_TECHS:
                             rate = 0.0   # no post-2035 gas growth in these regions
                         raw_max = max_2035 * (1.0 + rate) ** (y - 2035)
+                        if not (tech in GAS_TECHS and region in GAS_NO_ADD_REGIONS):
+                            raw_max *= post35_max_f(y)   # no-add gas stays permit-pinned
 
                 # Cap rep tech at its share of total potential. Excess spills
                 # into _Opt (and, for min only, then into _Inf) so the (min ≤

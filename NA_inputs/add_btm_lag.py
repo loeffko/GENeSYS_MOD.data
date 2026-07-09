@@ -3,18 +3,25 @@
 Behind-the-meter data-center facilities connect to the grid with a LAG_YEARS
 delay: capacity additions (year-over-year deltas of the BTM capacity outlook,
 2026 onward; the 2025 stock never connects) appear LAG_YEARS later as
-ResidualCapacity (+ the same amount on TotalAnnualMin/MaxCapacity), and the
-matching BTM demand (btm_twh from the FEL demand workbook) joins
+ResidualCapacity (+ the same amount on TotalAnnualMaxCapacity for headroom),
+and the matching BTM demand (btm_twh from the FEL demand workbook) joins
 Power_DataCenter with the same lag. Connections bypass the turbine-supply
 group caps (the units were already built behind the meter).
+
+TotalAnnualMinCapacity is deliberately NOT raised (v5a): a residual can never
+retire (TotalCapacity >= ResidualCapacity by construction), so the connected
+BTM fleet stays online regardless — and it counts TOWARD the base funnel min,
+letting the model build correspondingly less endogenous FTM capacity instead
+of stacking the BTM chain on top of an unchanged base fleet.
 
 Tech mapping (per project decision):
   dc_gas       -> 70% P_Gas_OCGT, 30% P_Gas_CCGT
   dc_other     -> 50% P_Gas_Engines, 50% P_SOFC
   dc_fuel_cell -> 100% P_SOFC
   dc_solar     -> 100% P_PV_Utility_Avg
-P_SOFC rows are written as residual = min = max (pinned exogenous fleet); the
-other techs ADD to the funnel rows the bounds script wrote for this scenario.
+P_SOFC is an exogenous-only fleet: residual = max = connected BTM value,
+min = 0 (no endogenous SOFC on top); the other techs ADD to the max/residual
+rows the bounds script wrote for this scenario.
 
 Runs AFTER convert_fel_to_demand + add_capacity_bounds in the builder:
   python NA_inputs/add_btm_lag.py --apply --scenario-subdir NorthAmerica_btm_lag
@@ -96,12 +103,18 @@ def main():
     def scen_csv(param):
         return os.path.join(PARAMS, param, SUBDIR, param + ".csv")
 
-    # ---- capacity params: add on top of the scenario funnel rows ----
+    # ---- capacity params: residual + max only (min stays the base funnel; the
+    # connected residual counts toward it, so endogenous FTM builds can shrink) ----
     for param in ("Par_ResidualCapacity", "Par_TotalAnnualMinCapacity", "Par_TotalAnnualMaxCapacity"):
         path = scen_csv(param)
         d = pd.read_csv(path)
         d = d.rename(columns={c: "" for c in d.columns if str(c).startswith("Unnamed")})
-        d.loc[d.Technology == "P_SOFC", "Value"] = 0.0   # pin below; no open funnel
+        d.loc[d.Technology == "P_SOFC", "Value"] = 0.0   # exogenous-only tech: no open funnel
+        if param == "Par_TotalAnnualMinCapacity":
+            if apply:
+                d.to_csv(path, index=False, lineterminator="\n")
+            print(f"{param}: no bumps (min stays base funnel; SOFC min = 0)")
+            continue
         idx = {(r.Region, r.Technology, r.Year): i for i, r in enumerate(d.itertuples())}
         new_rows = []
         bumped = 0
@@ -109,8 +122,7 @@ def main():
             key = (r, t, y)
             if key in idx:
                 if t == "P_SOFC":
-                    # pinned exogenous fleet: res = min = max = connected BTM value
-                    # (no endogenous SOFC on top in this sensitivity)
+                    # exogenous fleet: res = max = connected BTM value (min = 0)
                     d.at[idx[key], "Value"] = round(v, 6)
                 else:
                     d.at[idx[key], "Value"] = round(float(d.at[idx[key], "Value"]) + v, 6)
