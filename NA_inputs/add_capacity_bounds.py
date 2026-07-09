@@ -1010,7 +1010,12 @@ def main():
                 # FORBID_EPS floor: lignite-free / coal-free regions (base 0) must
                 # stay forbidden, else max==0 -> 999999 (FossilPower rule) lets them
                 # build UNLIMITED coal/lignite.
-                max_rows.append((region, tech, y, round(max(FORBID_EPS, eff_base * coal_ratio_high[y]), 6)))
+                # grid funnel: NO coal refurbishment headroom (max = the LOW
+                # residual path). Coal bounds are otherwise style-independent,
+                # but the extra links make coal-region exports profitable and
+                # the HIGH-case headroom turned into +13 GW coal in grid_high.
+                coal_max_ratio = coal_ratio_low[y] if FUNNEL_STYLE == "grid" else coal_ratio_high[y]
+                max_rows.append((region, tech, y, round(max(FORBID_EPS, eff_base * coal_max_ratio), 6)))
 
         # 1b2) Nuclear: PMK "Total LSR" forecast per region (min-target).
         #     ResidualCapacity = 2025 LSR (flat; fleet does not retire in-horizon),

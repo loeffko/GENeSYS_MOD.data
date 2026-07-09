@@ -24,8 +24,9 @@ Sensitivities:
   recession  recession-demand FEL
   economic   base demand; funnel widens strongly after 2030 (min x0.75, max x1.5)
   grid_low   base demand; IC growth capped at 0.75%/yr (half realized base CAGR)
-  grid_high  base demand; no IC %-pace cap (IC High ceiling still applies);
-             grid funnel: accelerating widening to min x0.70 / max x1.50 at 2040
+  grid_high  base demand; IC pace 4.7%/yr (~2x by 2040); grid funnel:
+             accelerating widening to min x0.70 / max x1.50 at 2040, coal
+             capped at the LOW path (no refurb headroom)
 
 Usage:  python NA_inputs/build_sensitivity_inputs.py [sens ...]   (default: all)
 """
@@ -103,11 +104,14 @@ SENS = {   # order matters: 'base' LAST so shared CSVs end in the base state
     # growth (cost-limited, the 4% pace cap is slack), so the former 2.5% cap
     # barely bound. Half the realized base CAGR = a genuine grid-stall case.
     "grid_low":  dict(fel=BASE_FEL, ic_growth="0.0075"),
-    # grid funnel (v5a): unlimited grid pace + slow-start accelerating funnel
-    # widening 2030->2040 (min x0.70 / max x1.50 at 2040) so the extra links can
-    # actually displace gas with remote RES - with the base funnel the mix was
-    # pinned and grid_high only shaved peakers.
-    "grid_high": dict(fel=BASE_FEL, ic_growth="none", funnel="grid"),
+    # grid funnel (v5a): slow-start accelerating funnel widening 2030->2040
+    # (min x0.70 / max x1.50 at 2040) so the extra links can actually displace
+    # gas with remote RES - with the base funnel the mix was pinned and
+    # grid_high only shaved peakers. IC pace 4.7%/yr per corridor (~2x national
+    # by 2040): the uncapped variant realized +153% IC in 15 years - beyond
+    # anything imaginable. Coal keeps NO refurb headroom under this funnel
+    # (grid-enabled coal exports grew the fleet +13 GW otherwise).
+    "grid_high": dict(fel=BASE_FEL, ic_growth="0.047", funnel="grid"),
     "base":      dict(fel=BASE_FEL),
 }
 
