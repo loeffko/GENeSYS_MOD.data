@@ -22,6 +22,9 @@ Sensitivities:
              dc_high demand, build limits mostly gone: gas cap 100 GW/yr, EGS
              4 GW/yr, funnel max x2 (PV/onshore/BESS), P_SOFC enabled 3->9 GW/yr
   recession  recession-demand FEL
+  bess_pessimistic
+             base demand; Li-Ion BESS min blends to x0.75 post-2030 (market
+             underdelivers the storage outlook)
   economic   base demand; funnel widens strongly after 2030 (min x0.75, max x1.5)
   grid_low   base demand; IC growth capped at 0.75%/yr (half realized base CAGR)
   grid_high  base demand; IC pace 4.7%/yr (~2x by 2040); grid funnel:
@@ -99,6 +102,10 @@ SENS = {   # order matters: 'base' LAST so shared CSVs end in the base state
     "bess_cost_low":    dict(fel=BASE_FEL),
     "bess_cost_low_6h": dict(fel=BASE_FEL),
     "bess_cost_low_8h": dict(fel=BASE_FEL),
+    # pessimistic BESS market: the forced US-Pools storage min blends down to
+    # x0.75 post-2030 (market may underdeliver); duration band squeezed to
+    # factor 1.5 model-side (SENS_E2P_FACTOR in test/sensitivities/common.jl).
+    "bess_pessimistic": dict(fel=BASE_FEL, bess_min_relax=True),
     "economic":  dict(fel=BASE_FEL, funnel="economic"),
     # grid_low 0.75%/yr (v5a): the base case only REALIZES ~1.6%/yr aggregate IC
     # growth (cost-limited, the 4% pace cap is slack), so the former 2.5% cap
@@ -143,6 +150,8 @@ def build(sens, cfg):
         bounds += ["--max-boost", cfg["max_boost"]]
     if cfg.get("max_boost_regions"):
         bounds += ["--max-boost-regions", cfg["max_boost_regions"]]
+    if cfg.get("bess_min_relax"):
+        bounds.append("--bess-min-relax")
     run(bounds, DATA_REPO)
     if cfg.get("btm_lag"):
         run(["NA_inputs/add_btm_lag.py", "--apply"] + sub, DATA_REPO)

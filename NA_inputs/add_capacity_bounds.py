@@ -100,6 +100,15 @@ if "--gas-min-floor" in sys.argv:
 else:
     GAS_MIN_BLEND_FLOOR_OVERRIDE = None
 FUNNEL_STYLE = sys.argv[sys.argv.index("--funnel") + 1] if "--funnel" in sys.argv else "base"
+#   --bess-min-relax     (bess_pessimistic) relax the Li-Ion BESS min post-2030:
+#                        the forced US-Pools trajectory blends linearly down to
+#                        x0.75 of itself at 2040, so the market may UNDERDELIVER
+#                        the storage outlook (the near-term pipeline stays firm).
+BESS_MIN_RELAX = "--bess-min-relax" in sys.argv
+def bess_min_relax_f(y):
+    if not BESS_MIN_RELAX:
+        return 1.0
+    return 1.0 - 0.25 * max(0.0, min(1.0, (y - 2030) / 10.0))
 #   --max-boost <x>      scale the funnel MAX a further x for the main expansion
 #                        techs (PV, onshore wind, Li-Ion BESS) on top of any
 #                        demand upscaling (dc_high_limitless)
@@ -1066,7 +1075,7 @@ def main():
             # demand and starved high-demand regions of batteries (ERCOT).
             stor_up = max(1.0, fel_gen_ratio.get(region, {}).get(min(y, 2035), 1.0)) if MAX_UPSCALE else 1.0
             res_rows.append((region, "D_Battery_Li-Ion", y, round(bess_2025 * residual_factor("D_Battery_Li-Ion", y), 6)))
-            min_rows.append((region, "D_Battery_Li-Ion", y, round(bess * mn, 6)))
+            min_rows.append((region, "D_Battery_Li-Ion", y, round(bess * mn * bess_min_relax_f(y), 6)))
             # funnel max around the US Pools storage trajectory (was open 999999,
             # which let the optimiser front-load ~100 GW of BESS into 2026)
             max_rows.append((region, "D_Battery_Li-Ion", y, round(max(FORBID_EPS, bess * mx * stor_up), 6)))
