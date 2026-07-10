@@ -101,7 +101,10 @@ SENS = {   # order matters: 'base' LAST so shared CSVs end in the base state
     "bess_e2p_8h":      dict(fel=BASE_FEL),
     "bess_cost_low":    dict(fel=BASE_FEL),
     "bess_cost_low_6h": dict(fel=BASE_FEL),
-    "bess_cost_low_8h": dict(fel=BASE_FEL),
+    # the extreme storage run additionally cracks the gas min open a LITTLE
+    # (x0.90 by 2040, vs grid 0.70 / economic 0.75): dirt-cheap 8h storage may
+    # substitute some firm gas capacity, not just displace its generation.
+    "bess_cost_low_8h": dict(fel=BASE_FEL, gas_min_relax="0.9"),
     # pessimistic BESS market: the forced US-Pools storage min blends down to
     # x0.75 post-2030 (market may underdeliver); duration band squeezed to
     # factor 1.5 model-side (SENS_E2P_FACTOR in test/sensitivities/common.jl).
@@ -152,6 +155,8 @@ def build(sens, cfg):
         bounds += ["--max-boost-regions", cfg["max_boost_regions"]]
     if cfg.get("bess_min_relax"):
         bounds.append("--bess-min-relax")
+    if cfg.get("gas_min_relax"):
+        bounds += ["--gas-min-relax", cfg["gas_min_relax"]]
     run(bounds, DATA_REPO)
     if cfg.get("btm_lag"):
         run(["NA_inputs/add_btm_lag.py", "--apply"] + sub, DATA_REPO)

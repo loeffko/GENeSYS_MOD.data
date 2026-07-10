@@ -109,6 +109,17 @@ def bess_min_relax_f(y):
     if not BESS_MIN_RELAX:
         return 1.0
     return 1.0 - 0.25 * max(0.0, min(1.0, (y - 2030) / 10.0))
+#   --gas-min-relax <f2040>  (bess_cost_low_8h) SLIGHT gas-min opening: the gas
+#                        floor blends linearly from x1.0 at 2030 to x<f2040> at
+#                        2040 (e.g. 0.9 - much gentler than the grid funnel's
+#                        0.70 or the economic funnel's 0.75), so extreme cheap
+#                        storage may substitute a little firm gas capacity.
+GAS_MIN_RELAX_2040 = (float(sys.argv[sys.argv.index("--gas-min-relax") + 1])
+                      if "--gas-min-relax" in sys.argv else None)
+def gas_min_relax_f(y):
+    if GAS_MIN_RELAX_2040 is None:
+        return 1.0
+    return 1.0 + (GAS_MIN_RELAX_2040 - 1.0) * max(0.0, min(1.0, (y - 2030) / 10.0))
 #   --max-boost <x>      scale the funnel MAX a further x for the main expansion
 #                        techs (PV, onshore wind, Li-Ion BESS) on top of any
 #                        demand upscaling (dc_high_limitless)
@@ -873,7 +884,7 @@ def main():
             # floor DROPS at 2036)
             if tech in GAS_TECHS:
                 min_2035 = gw(region, fuel, 2035) * max(GAS_MIN_BLEND_FLOOR,
-                           _rmin(2035) * (1.0 - FUNNEL_MIN_MARGIN)) * econ_min_f(2035)
+                           _rmin(2035) * (1.0 - FUNNEL_MIN_MARGIN)) * econ_min_f(2035) * gas_min_relax_f(2035)
             else:
                 min_2035 = svalmin(2035) * (1.0 - FUNNEL_MIN_MARGIN) * econ_min_f(2035)
             # slope of the rep max over 2030-2035, extended post-2035 (see below)
@@ -900,7 +911,7 @@ def main():
                         # into the demand-scaled -2% funnel (at 2035)
                         frac = (y - GAS_MIN_PIN_UNTIL) / (2035 - GAS_MIN_PIN_UNTIL)
                         blendf = (1.0 - frac) * (1.0 - GAS_PEG_MARGIN) + frac * _rmin(y) * (1.0 - FUNNEL_MIN_MARGIN)
-                        raw_min = gw(region, fuel, y) * max(GAS_MIN_BLEND_FLOOR, blendf) * econ_min_f(y)
+                        raw_min = gw(region, fuel, y) * max(GAS_MIN_BLEND_FLOOR, blendf) * econ_min_f(y) * gas_min_relax_f(y)
                     else:
                         # min: constant -2% below the demand-scaled basis (no widening)
                         raw_min = svalmin(y) * (1.0 - FUNNEL_MIN_MARGIN) * econ_min_f(y)
@@ -929,6 +940,9 @@ def main():
                         slope = max(0.0, (min_2035 - gw(region, fuel, 2030)) / 5.0)
                         raw_min += slope * sum(f for k, f in GAS_MIN_TREND_FRACS.items() if k <= y)
                     raw_min *= post35_min_f(y)   # grid ramp keeps widening post-2035
+                    if tech in GAS_TECHS and GAS_MIN_RELAX_2040 is not None:
+                        # continue the gentle gas relax past its 2035 anchor value
+                        raw_min *= gas_min_relax_f(y) / gas_min_relax_f(2035)
                     # max: interp 2035 funnel -> 2040 share-of-potential if a
                     # restool target is available; otherwise compound growth
                     # using POST_2035_MAX_GROWTH (thermal/hydro) or hold flat.
