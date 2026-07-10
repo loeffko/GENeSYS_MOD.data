@@ -16,3 +16,13 @@ SPP,Other_Offshore_Regions,1,,Binary,not relevant,2026-06-04,Konstantin Loffler 
 WECC,Other_Offshore_Regions,1,,Binary,not relevant,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 ERCOT,ERCOT,1,,Binary,not relevant,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 Canada,Canada,1,,Binary,not relevant,2026-07-05,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,NorthAmerica,1,,Binary,not relevant,2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,NorthAmerica,1,,Binary,not relevant,2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,NorthAmerica,1,,Binary,not relevant,2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,NorthAmerica,1,,Binary,not relevant,2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,NorthAmerica,1,,Binary,not relevant,2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,NorthAmerica,1,,Binary,not relevant,2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,NorthAmerica,1,,Binary,not relevant,2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,NorthAmerica,1,,Binary,not relevant,2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,NorthAmerica,1,,Binary,not relevant,2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,NorthAmerica,1,,Binary,not relevant,2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>

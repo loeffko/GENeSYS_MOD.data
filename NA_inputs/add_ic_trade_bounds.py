@@ -61,6 +61,17 @@ if "--growth" in sys.argv:
                              # above Princeton's ~2.3%/yr realistic-accelerated pace, within the
                              # DOE/NTP +2..5x 2035-clean need band.
 NEW_CORRIDOR_SEED = 2.0      # GW base for 0-capacity corridors so new ties aren't blocked
+# --group-cap-mult <m>: also write Par_GroupAnnualMaxTradeCapacity rows — an
+# AGGREGATE interconnection budget over the NorthAmerica region subset (TrC4):
+# the sum of directed NA Power pair capacities grows linearly from the
+# installed 2025 sum to m x that sum at 2040. Per-corridor %-pace caps throttle
+# exactly the corridors an expansion scenario is about (grid_high at 4.7%/yr
+# per corridor realized barely above base); a budget lets the optimiser pick
+# the corridors. Start year exempt (TrC2a pins it).
+GROUP_CAP_MULT = (float(sys.argv[sys.argv.index("--group-cap-mult") + 1])
+                  if "--group-cap-mult" in sys.argv else None)
+GROUP_CAP_SUBSET = "NorthAmerica"   # region subset (Par_TagRegionToSubsets)
+GROUP_COLS = ["RegionSubset", "Fuel", "Year", "Value", "", "Unit", "Source", "Updated at", "Updated by"]
 DATE, WHO = "2026-06-25", "Konstantin Loffler <kl@wip.tu-berlin.de>"
 
 BOUND_COLS = ["Region", "Region.1", "Fuel", "Year", "Value", "", "Unit", "Source", "Updated at", "Updated by"]
@@ -207,6 +218,19 @@ def main():
         ("Par_AnnualMinTradeCapacity", write_param("Par_AnnualMinTradeCapacity", minr, "Region.1", BOUND_COLS)),
         ("Par_TradeCapacityGrowthCosts", write_param("Par_TradeCapacityGrowthCosts", cost_rows, "Region2", COST_COLS)),
     ]
+    if GROUP_CAP_MULT is not None:
+        if not SCENARIO_SUBDIR:
+            sys.exit("--group-cap-mult is a scenario construct: pass --scenario-subdir")
+        s0 = sum(existing.values())          # installed 2025, sum of directed pairs
+        grp = [{"RegionSubset": GROUP_CAP_SUBSET, "Fuel": "Power", "Year": y,
+                "Value": round(s0 * (1.0 + (GROUP_CAP_MULT - 1.0) * (y - 2025) / 15.0), 3),
+                "": "", "Unit": "GW (sum of directed pairs)",
+                "Source": f"aggregate IC budget: linear to {GROUP_CAP_MULT}x installed 2025 at 2040",
+                "Updated at": DATE, "Updated by": WHO} for y in YEARS if y > 2025]
+        results.append(("Par_GroupAnnualMaxTradeCapacity",
+                        write_param("Par_GroupAnnualMaxTradeCapacity", grp, "Fuel", GROUP_COLS)))
+        print(f"group cap: {GROUP_CAP_SUBSET} Power {s0:.1f} GW (2025, directed sum) "
+              f"-> {s0 * GROUP_CAP_MULT:.1f} GW (2040)")
     for name, (nd, na_, path) in results:
         print(f"{name:28s}: -{nd} old NA-Power / +{na_} new")
     print(f"\n{len(pairs)} directed NA pairs; years {YEARS[0]}..{YEARS[-1]} (interpolated from {MILES}).")

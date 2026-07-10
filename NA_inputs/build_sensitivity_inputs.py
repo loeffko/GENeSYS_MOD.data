@@ -27,9 +27,10 @@ Sensitivities:
              underdelivers the storage outlook)
   economic   base demand; funnel widens strongly after 2030 (min x0.75, max x1.5)
   grid_low   base demand; IC growth capped at 0.75%/yr (half realized base CAGR)
-  grid_high  base demand; IC pace 4.7%/yr (~2x by 2040); grid funnel:
-             accelerating widening to min x0.70 / max x1.50 at 2040, coal
-             capped at the LOW path (no refurb headroom)
+  grid_high  base demand; aggregate IC budget 2x installed by 2040 (TrC4
+             group cap, no per-corridor pace limit); grid funnel: accelerating
+             widening to min x0.70 / max x1.50 at 2040, coal capped at the
+             LOW path (no refurb headroom)
 
 Usage:  python NA_inputs/build_sensitivity_inputs.py [sens ...]   (default: all)
 """
@@ -117,11 +118,13 @@ SENS = {   # order matters: 'base' LAST so shared CSVs end in the base state
     # grid funnel (v5a): slow-start accelerating funnel widening 2030->2040
     # (min x0.70 / max x1.50 at 2040) so the extra links can actually displace
     # gas with remote RES - with the base funnel the mix was pinned and
-    # grid_high only shaved peakers. IC pace 4.7%/yr per corridor (~2x national
-    # by 2040): the uncapped variant realized +153% IC in 15 years - beyond
-    # anything imaginable. Coal keeps NO refurb headroom under this funnel
+    # grid_high only shaved peakers. IC limit is an AGGREGATE budget (TrC4,
+    # Par_GroupAnnualMaxTradeCapacity): linear to 2x the installed sum by 2040,
+    # no per-corridor pace cap (a 4.7%/yr/corridor cap realized only +33% -
+    # it throttles exactly the corridors the scenario is about; uncapped
+    # realized +153%). Coal keeps NO refurb headroom under this funnel
     # (grid-enabled coal exports grew the fleet +13 GW otherwise).
-    "grid_high": dict(fel=BASE_FEL, ic_growth="0.047", funnel="grid"),
+    "grid_high": dict(fel=BASE_FEL, ic_growth="none", funnel="grid", ic_group_cap="2.0"),
     "base":      dict(fel=BASE_FEL),
 }
 
@@ -163,6 +166,8 @@ def build(sens, cfg):
     ic = ["NA_inputs/add_ic_trade_bounds.py", "--apply"] + sub
     if cfg.get("ic_growth"):
         ic += ["--growth", cfg["ic_growth"]]
+    if cfg.get("ic_group_cap"):
+        ic += ["--group-cap-mult", cfg["ic_group_cap"]]
     run(ic, DATA_REPO)
     if cfg.get("gas_group_cap_scale") or cfg.get("group_caps"):
         # group new-capacity cap overrides as a scenario-subfolder upsert row set
