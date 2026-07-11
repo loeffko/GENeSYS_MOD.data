@@ -1,0 +1,28 @@
+Technology,Region,Year,Value,,Unit,Source,Updated at,Updated by
+P_Wind_Onshore_Opt,,2025,-33,,EUR/MWh,PTC $30/MWh 2025 tax-grossed to ~-38 USD; bids -25..-40 observed (EIA); taper as 10-yr windows expire,2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Wind_Onshore_Opt,,2032,-33,,EUR/MWh,PTC $30/MWh 2025 tax-grossed to ~-38 USD; bids -25..-40 observed (EIA); taper as 10-yr windows expire,2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Wind_Onshore_Opt,,2040,-12,,EUR/MWh,PTC $30/MWh 2025 tax-grossed to ~-38 USD; bids -25..-40 observed (EIA); taper as 10-yr windows expire,2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Wind_Onshore_Avg,,2025,-33,,EUR/MWh,PTC $30/MWh 2025 tax-grossed to ~-38 USD; bids -25..-40 observed (EIA); taper as 10-yr windows expire,2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Wind_Onshore_Avg,,2032,-33,,EUR/MWh,PTC $30/MWh 2025 tax-grossed to ~-38 USD; bids -25..-40 observed (EIA); taper as 10-yr windows expire,2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Wind_Onshore_Avg,,2040,-12,,EUR/MWh,PTC $30/MWh 2025 tax-grossed to ~-38 USD; bids -25..-40 observed (EIA); taper as 10-yr windows expire,2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Wind_Onshore_Inf,,2025,-33,,EUR/MWh,PTC $30/MWh 2025 tax-grossed to ~-38 USD; bids -25..-40 observed (EIA); taper as 10-yr windows expire,2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Wind_Onshore_Inf,,2032,-33,,EUR/MWh,PTC $30/MWh 2025 tax-grossed to ~-38 USD; bids -25..-40 observed (EIA); taper as 10-yr windows expire,2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Wind_Onshore_Inf,,2040,-12,,EUR/MWh,PTC $30/MWh 2025 tax-grossed to ~-38 USD; bids -25..-40 observed (EIA); taper as 10-yr windows expire,2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Wind_Offshore_Shallow,,2025,-33,,EUR/MWh,PTC $30/MWh 2025 tax-grossed to ~-38 USD; bids -25..-40 observed (EIA); taper as 10-yr windows expire,2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Wind_Offshore_Shallow,,2032,-33,,EUR/MWh,PTC $30/MWh 2025 tax-grossed to ~-38 USD; bids -25..-40 observed (EIA); taper as 10-yr windows expire,2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Wind_Offshore_Shallow,,2040,-12,,EUR/MWh,PTC $30/MWh 2025 tax-grossed to ~-38 USD; bids -25..-40 observed (EIA); taper as 10-yr windows expire,2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Wind_Offshore_Transitional,,2025,-33,,EUR/MWh,PTC $30/MWh 2025 tax-grossed to ~-38 USD; bids -25..-40 observed (EIA); taper as 10-yr windows expire,2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Wind_Offshore_Transitional,,2032,-33,,EUR/MWh,PTC $30/MWh 2025 tax-grossed to ~-38 USD; bids -25..-40 observed (EIA); taper as 10-yr windows expire,2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Wind_Offshore_Transitional,,2040,-12,,EUR/MWh,PTC $30/MWh 2025 tax-grossed to ~-38 USD; bids -25..-40 observed (EIA); taper as 10-yr windows expire,2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Wind_Offshore_Deep,,2025,-33,,EUR/MWh,PTC $30/MWh 2025 tax-grossed to ~-38 USD; bids -25..-40 observed (EIA); taper as 10-yr windows expire,2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Wind_Offshore_Deep,,2032,-33,,EUR/MWh,PTC $30/MWh 2025 tax-grossed to ~-38 USD; bids -25..-40 observed (EIA); taper as 10-yr windows expire,2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Wind_Offshore_Deep,,2040,-12,,EUR/MWh,PTC $30/MWh 2025 tax-grossed to ~-38 USD; bids -25..-40 observed (EIA); taper as 10-yr windows expire,2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_PV_Utility_Opt,,2025,-3,,EUR/MWh,ITC vintage: REC-only negative depth ~0..-5 USD,2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_PV_Utility_Opt,,2040,-3,,EUR/MWh,ITC vintage: REC-only negative depth ~0..-5 USD,2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_PV_Utility_Avg,,2025,-3,,EUR/MWh,ITC vintage: REC-only negative depth ~0..-5 USD,2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_PV_Utility_Avg,,2040,-3,,EUR/MWh,ITC vintage: REC-only negative depth ~0..-5 USD,2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_PV_Utility_Inf,,2025,-3,,EUR/MWh,ITC vintage: REC-only negative depth ~0..-5 USD,2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_PV_Utility_Inf,,2040,-3,,EUR/MWh,ITC vintage: REC-only negative depth ~0..-5 USD,2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Nuclear,,2025,-14,,EUR/MWh,IRA 45U up to $15/MWh through 2032 (largely redundant with must-run),2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Nuclear,,2032,-14,,EUR/MWh,IRA 45U up to $15/MWh through 2032 (largely redundant with must-run),2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Nuclear,,2035,0,,EUR/MWh,IRA 45U up to $15/MWh through 2032 (largely redundant with must-run),2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>

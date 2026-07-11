@@ -1,0 +1,10 @@
+Region,ShareOfDemand,MinGW,,Unit,Source,Updated at,Updated by
+ERCOT,0.1,3.0,,share / GW,operating reserve ~ share of load with largest-contingency floor (ISO tariffs),2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,0.07,2.2,,share / GW,operating reserve ~ share of load with largest-contingency floor (ISO tariffs),2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,0.06,3.1,,share / GW,operating reserve ~ share of load with largest-contingency floor (ISO tariffs),2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,0.06,2.0,,share / GW,operating reserve ~ share of load with largest-contingency floor (ISO tariffs),2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,0.07,3.5,,share / GW,operating reserve ~ share of load with largest-contingency floor (ISO tariffs),2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,0.06,2.0,,share / GW,operating reserve ~ share of load with largest-contingency floor (ISO tariffs),2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,0.07,2.6,,share / GW,operating reserve ~ share of load with largest-contingency floor (ISO tariffs),2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,0.08,2.3,,share / GW,operating reserve ~ share of load with largest-contingency floor (ISO tariffs),2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,0.06,2.5,,share / GW,operating reserve ~ share of load with largest-contingency floor (ISO tariffs),2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
