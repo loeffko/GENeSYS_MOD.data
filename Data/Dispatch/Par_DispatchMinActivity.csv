@@ -1,11 +1,10 @@
 Technology,Region,Share,,Unit,Source,Updated at,Updated by
-P_Nuclear,,0.92,,share of hourly available cap,"self-scheduled baseload; US fleet CF ~93% (EIA); cycling avoidance",2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
-P_Nuclear_SMR,,0.90,,share,"as nuclear; SMRs marginally more flexible",2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
-P_Coal_Hardcoal,MISO,0.50,,share,"88% of MISO coal MWh self-scheduled 2017-19 (MISO/Potomac SOM); Pmin ~40-50%",2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
-P_Coal_Lignite,MISO,0.50,,share,"as hardcoal (mine-mouth take-or-pay strengthens it)",2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
-P_Coal_Hardcoal,SPP,0.40,,share,"~half of SPP MWh from self-committed units; 40% at eco-min (SPP MMU 2019)",2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
-P_Coal_Lignite,SPP,0.40,,share,"as hardcoal",2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
-P_Coal_Hardcoal,,0.20,,share,"PJM/other: coal increasingly market-committed (Monitoring Analytics 2023-24)",2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
-P_Coal_Lignite,,0.20,,share,"as hardcoal",2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
-P_Gas_Steam,ERCOT,0.35,,share,"Gulf-Coast industrial cogen: ~3 GW flat PUN net surplus (ERCOT PUN/ELCC reports) on ~9 GW steam fleet",2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
-P_Hydro_Reservoir,,0.15,,share,"FERC minimum-flow prescriptions (was hardcoded DISP_MINACTIVITY)",2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Nuclear,,0.92,,share of hourly available cap,self-scheduled baseload; US fleet CF ~93% (EIA); cycling avoidance,2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Nuclear_SMR,,0.90,,share,as nuclear; SMRs marginally more flexible,2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Coal_Hardcoal,MISO,0.50,,share,88% of MISO coal MWh self-scheduled 2017-19 (MISO/Potomac SOM); Pmin ~40-50%,2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Coal_Lignite,MISO,0.50,,share,as hardcoal (mine-mouth take-or-pay strengthens it),2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Coal_Hardcoal,SPP,0.40,,share,~half of SPP MWh from self-committed units; 40% at eco-min (SPP MMU 2019),2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Coal_Lignite,SPP,0.40,,share,as hardcoal,2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Coal_Hardcoal,,0.20,,share,PJM/other: coal increasingly market-committed (Monitoring Analytics 2023-24),2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Coal_Lignite,,0.20,,share,as hardcoal,2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Hydro_Reservoir,,0.15,,share,FERC minimum-flow prescriptions (was hardcoded DISP_MINACTIVITY),2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
