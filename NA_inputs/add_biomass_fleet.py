@@ -76,9 +76,13 @@ for r, gw in BIOMASS_GW.items():
                         **{"Updated at": DATE, "Updated by": WHO}))
 
 for r, twh in BIOMASS_GEN_TWH.items():
+    # floor never above 95% of what capacity x AF can physically deliver
+    # (SPP/CA floors exceeded it -> hard infeasibility via activity lower limit)
+    achievable = BIOMASS_GW[r] * BIOMASS_AF * 8.76      # TWh/yr
+    floor_twh = min(twh * BIOMASS_GEN_FLOOR, 0.95 * achievable)
     for y in YEARS:
         act_rows.append(dict(Region=r, Technology="P_Biomass", Year=y,
-                             Value=round(twh * 3.6 * BIOMASS_GEN_FLOOR, 3), Unit="PJ",
+                             Value=round(floor_twh * 3.6, 3), Unit="PJ",
                              Source="EIA-923 2024 biomass gen x0.9 (CHP/contract must-run persistence; no-growth)",
                              **{"Updated at": DATE, "Updated by": WHO}))
 
