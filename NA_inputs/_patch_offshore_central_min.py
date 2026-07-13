@@ -17,10 +17,14 @@ YEARS = list(range(2025, 2041))
 
 fel = pd.read_excel(FEL)
 cen = fel[(fel.Scenario == "Central Case") & fel.Technology.isin(REGIONS)]
-cum = {}
-for lab, grp in cen.groupby("Technology"):
-    s = grp.set_index("Year").Value.reindex(range(2025, 2041)).fillna(0).cumsum()
-    cum[REGIONS[lab]] = s.round(3).to_dict()
+low = fel[(fel.Scenario == "Low Case") & fel.Technology.isin(REGIONS)]
+def cumdict(df):
+    out = {}
+    for lab, grp in df.groupby("Technology"):
+        ser = grp.set_index("Year").Value.reindex(range(2025, 2041)).fillna(0).cumsum()
+        out[REGIONS[lab]] = ser.round(3).to_dict()
+    return out
+cum, cumlow = cumdict(cen), cumdict(low)
 
 mx = pd.read_csv(P("Par_TotalAnnualMaxCapacity"))
 maxval = {(r.Region, int(r.Year)): float(r.Value) for r in
@@ -31,10 +35,12 @@ mn = mn.rename(columns={c: "" for c in mn.columns if str(c).startswith("Unnamed"
 n = 0
 for i, row in mn.iterrows():
     if row.Technology == REP and row.Region in cum and int(row.Year) in YEARS and int(row.Year) > 2025:
-        want = cum[row.Region][int(row.Year)]
+        y = int(row.Year)
+        # Low case through 2030 (committed pipeline), Central (mandates) after
+        want = cumlow[row.Region][y] if y <= 2030 else cum[row.Region][y]
         cap = maxval.get((row.Region, int(row.Year)), want)
         mn.at[i, "Value"] = round(min(want, cap), 3)
-        mn.at[i, "Source"] = "SLA Offshore Wind Scenarios (CENTRAL case min - NY/NE mandates; anonymized file, clamped to max)"
+        mn.at[i, "Source"] = "SLA Offshore Wind Scenarios (CENTRAL case min - NY/NE mandates; anonymized file, clamped to max; Low<=2030, Central 2031+)"
         mn.at[i, "Updated at"] = "2026-07-13"
         n += 1
 mn.to_csv(P("Par_TotalAnnualMinCapacity"), index=False, lineterminator="\n")
