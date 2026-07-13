@@ -53,7 +53,17 @@ def upsert(param, rows, cols):
     print(f"{param}: -{nd} old / +{len(rows)} rows")
 
 
-res_rows, max_rows, af_rows = [], [], []
+# Activity floor: biomass is CHP-/contract-driven must-run in reality (steam
+# hosts, PPAs) - at ~39 EUR/MWh SRMC it idles in the merit order almost
+# everywhere, so without a floor the fleet generates ~0 (only ERCOT ran).
+# Floor = 90% of EIA-923 2024 generation, flat (persistence, slight decline ok).
+BIOMASS_GEN_TWH = {  # EIA-923 2024 by state -> pool
+    "California": 4.8, "WECC": 3.1, "SPP": 0.5, "MISO": 7.7, "ERCOT": 0.9,
+    "SERC": 17.0, "PJM": 6.3, "NewYork": 1.6, "NewEngland": 4.4,
+}
+BIOMASS_GEN_FLOOR = 0.9
+
+res_rows, max_rows, af_rows, act_rows = [], [], [], []
 for r, gw in BIOMASS_GW.items():
     for y in YEARS:
         res_rows.append(dict(Region=r, Technology="P_Biomass", Year=y, Value=gw,
@@ -65,8 +75,16 @@ for r, gw in BIOMASS_GW.items():
                         Unit="share", Source="EIA 2024 biomass fleet CF ~46%; AF = annual CF cap",
                         **{"Updated at": DATE, "Updated by": WHO}))
 
+for r, twh in BIOMASS_GEN_TWH.items():
+    for y in YEARS:
+        act_rows.append(dict(Region=r, Technology="P_Biomass", Year=y,
+                             Value=round(twh * 3.6 * BIOMASS_GEN_FLOOR, 3), Unit="PJ",
+                             Source="EIA-923 2024 biomass gen x0.9 (CHP/contract must-run persistence; no-growth)",
+                             **{"Updated at": DATE, "Updated by": WHO}))
+
 upsert("Par_ResidualCapacity", res_rows, None)
 upsert("Par_TotalAnnualMaxCapacity", max_rows, None)
 upsert("Par_AvailabilityFactor", af_rows, None)
+upsert("Par_TotalAnnualMinActivity", act_rows, None)
 print(f"US biomass fleet: {sum(BIOMASS_GW.values()):.1f} GW flat, AF {BIOMASS_AF}"
       + ("  APPLIED" if apply else "  DRY-RUN"))
