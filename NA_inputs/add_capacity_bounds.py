@@ -502,6 +502,8 @@ EXTERNAL_OWNERS = {
     "P_Wind_Offshore_Deep", "P_Wind_Offshore_Shallow", "P_Wind_Offshore_Transitional",
     # add_egs.py
     "P_EGS_R1", "P_EGS_R2", "P_EGS_R3", "P_EGS_R4",
+    # add_biomass_fleet.py (US pools: historic residual, no growth; Canada via CER block)
+    "P_Biomass",
 }
 
 # Every remaining power-producing tech (P_*, CHP_*) gets MaxCap=0 in the NA

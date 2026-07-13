@@ -2506,3 +2506,12 @@ NewYork,P_Coal_Hardcoal,All,0.45,,share,"US coal fleet CF ~42% (EIA 2023-24); AF
 NewYork,P_Coal_Lignite,All,0.45,,share,"US coal fleet CF ~42% (EIA 2023-24); AF is the annual fleet-CF cap in the model - 0.45 allows slight upside, replaces inherited World 0.80 that ran coal as 78%-CF baseload",2026-07-13,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewEngland,P_Coal_Hardcoal,All,0.45,,share,"US coal fleet CF ~42% (EIA 2023-24); AF is the annual fleet-CF cap in the model - 0.45 allows slight upside, replaces inherited World 0.80 that ran coal as 78%-CF baseload",2026-07-13,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewEngland,P_Coal_Lignite,All,0.45,,share,"US coal fleet CF ~42% (EIA 2023-24); AF is the annual fleet-CF cap in the model - 0.45 allows slight upside, replaces inherited World 0.80 that ran coal as 78%-CF baseload",2026-07-13,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Biomass,All,0.5,,share,EIA 2024 biomass fleet CF ~46%; AF = annual CF cap,2026-07-13,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Biomass,All,0.5,,share,EIA 2024 biomass fleet CF ~46%; AF = annual CF cap,2026-07-13,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Biomass,All,0.5,,share,EIA 2024 biomass fleet CF ~46%; AF = annual CF cap,2026-07-13,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Biomass,All,0.5,,share,EIA 2024 biomass fleet CF ~46%; AF = annual CF cap,2026-07-13,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Biomass,All,0.5,,share,EIA 2024 biomass fleet CF ~46%; AF = annual CF cap,2026-07-13,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Biomass,All,0.5,,share,EIA 2024 biomass fleet CF ~46%; AF = annual CF cap,2026-07-13,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Biomass,All,0.5,,share,EIA 2024 biomass fleet CF ~46%; AF = annual CF cap,2026-07-13,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Biomass,All,0.5,,share,EIA 2024 biomass fleet CF ~46%; AF = annual CF cap,2026-07-13,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Biomass,All,0.5,,share,EIA 2024 biomass fleet CF ~46%; AF = annual CF cap,2026-07-13,Konstantin Loffler <kl@wip.tu-berlin.de>
