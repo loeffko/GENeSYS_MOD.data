@@ -22,9 +22,12 @@ Sensitivities:
              dc_high demand, build limits mostly gone: gas cap 100 GW/yr, EGS
              4 GW/yr, funnel max x2 (PV/onshore/BESS), P_SOFC enabled 3->9 GW/yr
   recession  recession-demand FEL
+  bess_optimistic
+             base demand; Li-Ion 2040 costs x0.4 + 7h duration path (E2P
+             subfolder) + gas min crack x0.90
   bess_pessimistic
-             base demand; Li-Ion BESS min blends to x0.75 post-2030 (market
-             underdelivers the storage outlook)
+             base demand; Li-Ion BESS min blends to x0.53 by 2040 (~147 GW)
+             + duration stays on the 2.9h path
   economic   base demand; funnel widens strongly after 2030 (min x0.75, max x1.5)
   grid_low   base demand; IC growth capped at 0.75%/yr (half realized base CAGR)
   grid_high  base demand; aggregate IC budget 2x installed by 2040 (TrC4
@@ -98,18 +101,17 @@ SENS = {   # order matters: 'base' LAST so shared CSVs end in the base state
     # (NA_inputs/add_btm_lag.py). Own filter: P_SOFC enabled.
     "btm_lag": dict(fel=BASE_FEL, btm_lag=True,
                     filter_file="Set_filter_file_NorthAmerica_btm_lag.xlsx"),
-    "bess_e2p_6h":      dict(fel=BASE_FEL),
-    "bess_e2p_8h":      dict(fel=BASE_FEL),
-    "bess_cost_low":    dict(fel=BASE_FEL),
-    "bess_cost_low_6h": dict(fel=BASE_FEL),
-    # the extreme storage run additionally cracks the gas min open a LITTLE
-    # (x0.90 by 2040, vs grid 0.70 / economic 0.75): dirt-cheap 8h storage may
-    # substitute some firm gas capacity, not just displace its generation.
-    "bess_cost_low_8h": dict(fel=BASE_FEL, gas_min_relax="0.9"),
-    # pessimistic BESS market: the forced US-Pools storage min blends down to
-    # x0.75 post-2030 (market may underdeliver); duration band squeezed to
-    # factor 1.5 model-side (SENS_E2P_FACTOR in test/sensitivities/common.jl).
-    "bess_pessimistic": dict(fel=BASE_FEL, bess_min_relax=True),
+    # BESS suite (2026-07-13 restructure; E2P deviation factor = 1 model-side,
+    # so Par_StorageE2PRatio pins the realized duration exactly; base path
+    # 1.5h 2025 -> 3.5h 2040). Retired: bess_e2p_6h/8h + bess_cost_low family
+    # (cost alone moved no investment - the funnel min binds).
+    #   optimistic  = reduced cost (2040 x0.4, add_bess_cost_paths.py) + 7h
+    #                 duration path by 2040 (subfolder Par_StorageE2PRatio);
+    #                 keeps the small gas-min crack (x0.90 by 2040)
+    #   pessimistic = Li-Ion min blends to x0.53 by 2040 (~147 GW agreed low
+    #                 build-out) + duration stays on the old 2.9h path
+    "bess_optimistic":  dict(fel=BASE_FEL, gas_min_relax="0.9"),
+    "bess_pessimistic": dict(fel=BASE_FEL, bess_min_relax="0.53"),
     "economic":  dict(fel=BASE_FEL, funnel="economic"),
     # grid_low 0.75%/yr (v5a): the base case only REALIZES ~1.6%/yr aggregate IC
     # growth (cost-limited, the 4% pace cap is slack), so the former 2.5% cap
@@ -157,7 +159,7 @@ def build(sens, cfg):
     if cfg.get("max_boost_regions"):
         bounds += ["--max-boost-regions", cfg["max_boost_regions"]]
     if cfg.get("bess_min_relax"):
-        bounds.append("--bess-min-relax")
+        bounds += ["--bess-min-relax", cfg["bess_min_relax"]]
     if cfg.get("gas_min_relax"):
         bounds += ["--gas-min-relax", cfg["gas_min_relax"]]
     run(bounds, DATA_REPO)

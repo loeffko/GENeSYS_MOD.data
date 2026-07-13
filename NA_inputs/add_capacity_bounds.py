@@ -104,11 +104,15 @@ FUNNEL_STYLE = sys.argv[sys.argv.index("--funnel") + 1] if "--funnel" in sys.arg
 #                        the forced US-Pools trajectory blends linearly down to
 #                        x0.75 of itself at 2040, so the market may UNDERDELIVER
 #                        the storage outlook (the near-term pipeline stays firm).
-BESS_MIN_RELAX = "--bess-min-relax" in sys.argv
+#   --bess-min-relax <f2040>  (bess_pessimistic) blend the forced Li-Ion min
+#                        linearly from x1.0 at 2030 to x<f2040> at 2040
+#                        (0.53 matches the agreed ~147 GW low build-out)
+BESS_MIN_RELAX_2040 = (float(sys.argv[sys.argv.index("--bess-min-relax") + 1])
+                       if "--bess-min-relax" in sys.argv else None)
 def bess_min_relax_f(y):
-    if not BESS_MIN_RELAX:
+    if BESS_MIN_RELAX_2040 is None:
         return 1.0
-    return 1.0 - 0.25 * max(0.0, min(1.0, (y - 2030) / 10.0))
+    return 1.0 + (BESS_MIN_RELAX_2040 - 1.0) * max(0.0, min(1.0, (y - 2030) / 10.0))
 #   --gas-min-relax <f2040>  (bess_cost_low_8h) SLIGHT gas-min opening: the gas
 #                        floor blends linearly from x1.0 at 2030 to x<f2040> at
 #                        2040 (e.g. 0.9 - much gentler than the grid funnel's

@@ -19,7 +19,7 @@ PARAMS = os.path.join(DATA_REPO, "Data", "Parameters")
 
 MULT = float(sys.argv[sys.argv.index("--mult") + 1]) if "--mult" in sys.argv else 0.4
 apply = "--apply" in sys.argv
-SUBDIRS = ["NorthAmerica_bess_cost_low", "NorthAmerica_bess_cost_low_6h", "NorthAmerica_bess_cost_low_8h"]
+SUBDIRS = ["NorthAmerica_bess_optimistic"]   # optimistic = low cost + 7h duration (2026-07-13 restructure)
 TARGETS = [("Par_CapitalCost", "Technology", "D_Battery_Li-Ion"),
            ("Par_CapitalCostStorage", "Storage", "S_Battery_Li-Ion")]
 SRC = f"BESS cost sensitivity: 2040 base cost x{MULT}, linear from 2025"
