@@ -30,7 +30,7 @@ mn = pd.read_csv(P("Par_TotalAnnualMinCapacity"))
 mn = mn.rename(columns={c: "" for c in mn.columns if str(c).startswith("Unnamed")})
 n = 0
 for i, row in mn.iterrows():
-    if row.Technology == REP and row.Region in cum and int(row.Year) in YEARS:
+    if row.Technology == REP and row.Region in cum and int(row.Year) in YEARS and int(row.Year) > 2025:
         want = cum[row.Region][int(row.Year)]
         cap = maxval.get((row.Region, int(row.Year)), want)
         mn.at[i, "Value"] = round(min(want, cap), 3)
