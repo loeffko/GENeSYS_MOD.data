@@ -64,6 +64,11 @@ POT_COL = {
 }
 REP_TECH = "P_Wind_Offshore_Shallow"     # representative tech for per-region bounds
 YEARS = list(range(2025, 2041))
+# Regions whose MIN bound uses the CENTRAL case instead of Low: the strongest
+# state procurement mandates (NY, New England) are assumed to deliver. At
+# unsubsidized DEA capex nothing beyond the floor builds economically, which
+# left these markets ~11 GW below their mandated trajectories by 2040.
+CENTRAL_MIN_REGIONS = {"NYISO", "ISO-NE"}
 
 DATE = "2026-06-04"
 WHO = "Konstantin Loffler <kl@wip.tu-berlin.de>"
@@ -195,8 +200,10 @@ def main():
         central = cumulative(fel.get(("Central Case", label), {}))
         high = cumulative(fel.get(("High Case", label), {}))
         omax = offshore_max(central, high)
+        omin = central if label in CENTRAL_MIN_REGIONS else low
         for y in YEARS:
-            min_rows.append((model_region, REP_TECH, y, low[y]))
+            # min never above max (Central-min == Central-max <= 2033 pins those years)
+            min_rows.append((model_region, REP_TECH, y, min(omin[y], omax[y])))
             max_rows.append((model_region, REP_TECH, y, omax[y]))
 
     # 2) Not directly mentioned (Other_Offshore_Regions + Canada): use restool
