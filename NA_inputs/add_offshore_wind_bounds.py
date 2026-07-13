@@ -200,10 +200,18 @@ def main():
         central = cumulative(fel.get(("Central Case", label), {}))
         high = cumulative(fel.get(("High Case", label), {}))
         omax = offshore_max(central, high)
-        omin = central if label in CENTRAL_MIN_REGIONS else low
         for y in YEARS:
-            # min never above max (Central-min == Central-max <= 2033 pins those years)
-            min_rows.append((model_region, REP_TECH, y, min(omin[y], omax[y])))
+            # CENTRAL_MIN_REGIONS: Low case through 2030 (committed pipeline),
+            # Central (mandates) from 2031; start year stays 0 (no offshore
+            # residual + NewCapacity[startyear]==0 made any 2025 floor
+            # infeasible). Min never above max.
+            if label in CENTRAL_MIN_REGIONS and y > 2030:
+                omin_y = central[y]
+            else:
+                omin_y = low[y]
+            if y == YEARS[0]:
+                omin_y = 0.0
+            min_rows.append((model_region, REP_TECH, y, min(omin_y, omax[y])))
             max_rows.append((model_region, REP_TECH, y, omax[y]))
 
     # 2) Not directly mentioned (Other_Offshore_Regions + Canada): use restool
