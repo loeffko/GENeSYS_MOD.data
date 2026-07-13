@@ -68,7 +68,7 @@ YEARS = list(range(2025, 2041))
 # state procurement mandates (NY, New England) are assumed to deliver. At
 # unsubsidized DEA capex nothing beyond the floor builds economically, which
 # left these markets ~11 GW below their mandated trajectories by 2040.
-CENTRAL_MIN_REGIONS = {"NYISO", "ISO-NE"}
+CENTRAL_MIN_REGIONS = {"NYISO", "ISO-NE", "PJM"}
 
 DATE = "2026-06-04"
 WHO = "Konstantin Loffler <kl@wip.tu-berlin.de>"
