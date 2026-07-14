@@ -109,6 +109,9 @@ FUNNEL_STYLE = sys.argv[sys.argv.index("--funnel") + 1] if "--funnel" in sys.arg
 #                        (0.53 matches the agreed ~147 GW low build-out)
 BESS_MIN_RELAX_2040 = (float(sys.argv[sys.argv.index("--bess-min-relax") + 1])
                        if "--bess-min-relax" in sys.argv else None)
+#   --bess-pin           with --bess-min-relax: the Li-Ion MAX follows the
+#                        relaxed min (hard build-out pin, no economic upside)
+BESS_PIN = "--bess-pin" in sys.argv
 def bess_min_relax_f(y):
     if BESS_MIN_RELAX_2040 is None:
         return 1.0
@@ -1095,10 +1098,13 @@ def main():
             # demand and starved high-demand regions of batteries (ERCOT).
             stor_up = max(1.0, fel_gen_ratio.get(region, {}).get(min(y, 2035), 1.0)) if MAX_UPSCALE else 1.0
             res_rows.append((region, "D_Battery_Li-Ion", y, round(bess_2025 * residual_factor("D_Battery_Li-Ion", y), 6)))
-            min_rows.append((region, "D_Battery_Li-Ion", y, round(bess * mn * bess_min_relax_f(y), 6)))
+            liion_min = round(bess * mn * bess_min_relax_f(y), 6)
+            min_rows.append((region, "D_Battery_Li-Ion", y, liion_min))
             # funnel max around the US Pools storage trajectory (was open 999999,
-            # which let the optimiser front-load ~100 GW of BESS into 2026)
-            max_rows.append((region, "D_Battery_Li-Ion", y, round(max(FORBID_EPS, bess * mx * stor_up), 6)))
+            # which let the optimiser front-load ~100 GW of BESS into 2026);
+            # --bess-pin: max = the relaxed min (hard low build-out, no upside)
+            liion_max = liion_min if BESS_PIN else round(max(FORBID_EPS, bess * mx * stor_up), 6)
+            max_rows.append((region, "D_Battery_Li-Ion", y, max(FORBID_EPS, liion_max)))
 
         # 2) Overflow restool variants per region (the classes after the rep, in
         #    the order given by RESTOOL_MAP["overflow"], e.g. _Avg then _Inf).

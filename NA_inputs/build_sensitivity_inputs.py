@@ -112,6 +112,10 @@ SENS = {   # order matters: 'base' LAST so shared CSVs end in the base state
     #                 build-out) + duration stays on the old 2.9h path
     "bess_optimistic":  dict(fel=BASE_FEL, gas_min_relax="0.9"),
     "bess_pessimistic": dict(fel=BASE_FEL, bess_min_relax="0.53"),
+    # hard variant: max follows the relaxed min -> build-out pinned to the
+    # x0.53 trajectory (~147 GW 2040; the soft variant realizes ~182 GW
+    # because economics builds above the floor)
+    "bess_pessimistic_pinned": dict(fel=BASE_FEL, bess_min_relax="0.53", bess_pin=True),
     "economic":  dict(fel=BASE_FEL, funnel="economic"),
     # grid_low 0.75%/yr (v5a): the base case only REALIZES ~1.6%/yr aggregate IC
     # growth (cost-limited, the 4% pace cap is slack), so the former 2.5% cap
@@ -160,6 +164,8 @@ def build(sens, cfg):
         bounds += ["--max-boost-regions", cfg["max_boost_regions"]]
     if cfg.get("bess_min_relax"):
         bounds += ["--bess-min-relax", cfg["bess_min_relax"]]
+    if cfg.get("bess_pin"):
+        bounds.append("--bess-pin")
     if cfg.get("gas_min_relax"):
         bounds += ["--gas-min-relax", cfg["gas_min_relax"]]
     run(bounds, DATA_REPO)
