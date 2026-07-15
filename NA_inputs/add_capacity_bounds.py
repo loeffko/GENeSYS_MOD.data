@@ -1573,6 +1573,9 @@ def main():
         run, cap = 0.0, {}
         for y in sorted(bess_pin_national):
             run = max(run, bess_pin_national[y] + 0.5)
+            if y == min(bess_pin_national):
+                continue   # start year: residual-pinned; a min-derived cap sits
+                           # below the residual sum (base-year cone errorcheck)
             cap[y] = round(run, 3)
         path = PARAM("Par_GroupTotalAnnualMaxCapacity")
         outdir = os.path.dirname(path)

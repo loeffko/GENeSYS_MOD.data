@@ -1,5 +1,4 @@
 TechnologySubset,RegionSubset,Year,Value,,Unit,Source,Updated at,Updated by
-BESS_LiIon,NorthAmerica,2025,36.332,,GW,"hard national BESS pin (relaxed trajectory sum, monotone)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 BESS_LiIon,NorthAmerica,2026,57.003,,GW,"hard national BESS pin (relaxed trajectory sum, monotone)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 BESS_LiIon,NorthAmerica,2027,79.043,,GW,"hard national BESS pin (relaxed trajectory sum, monotone)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 BESS_LiIon,NorthAmerica,2028,105.022,,GW,"hard national BESS pin (relaxed trajectory sum, monotone)",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
