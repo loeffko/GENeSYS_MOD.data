@@ -118,7 +118,7 @@ BESS_MIN_RELAX_2040 = (float(sys.argv[sys.argv.index("--bess-min-relax") + 1])
 #                        capped via Par_GroupTotalAnnualMaxCapacity (TCC3,
 #                        BESS_LiIon x NorthAmerica), monotone non-decreasing.
 BESS_PIN = "--bess-pin" in sys.argv
-bess_pin_national = {}   # year -> sum of relaxed regional Li-Ion mins (pin mode)
+bess_pin_regional = {}   # region -> {year: relaxed Li-Ion min} (pin mode)
 def bess_min_relax_f(y):
     if BESS_MIN_RELAX_2040 is None:
         return 1.0
@@ -1114,8 +1114,7 @@ def main():
             # national (TCC3 group row, see below), so regions trade shares.
             max_rows.append((region, "D_Battery_Li-Ion", y, round(max(FORBID_EPS, bess * mx * stor_up), 6)))
             if BESS_PIN:
-                bess_pin_national.setdefault(y, 0.0)
-                bess_pin_national[y] += liion_min
+                bess_pin_regional.setdefault(region, {})[y] = liion_min
 
         # 2) Overflow restool variants per region (the classes after the rep, in
         #    the order given by RESTOOL_MAP["overflow"], e.g. _Avg then _Inf).
@@ -1243,8 +1242,7 @@ def main():
             if BESS_PIN:
                 # Canada is inside the NorthAmerica pin subset - its (relaxed)
                 # min must be inside the national cap
-                bess_pin_national.setdefault(y, 0.0)
-                bess_pin_national[y] += canada_liion_min
+                bess_pin_regional.setdefault("Canada", {})[y] = canada_liion_min
 
     # 3a) Other extra regions + Canada upside variants from restool potentials.
     for region in extra_regions:
@@ -1565,18 +1563,23 @@ def main():
     # so purge the superseded US-aggregate Nuclear group-min (add nothing).
     r5 = write_group_min({}, "Nuclear", "USA", "superseded by per-region P_Nuclear min")
 
-    if BESS_PIN and bess_pin_national:
-        # hard national Li-Ion cap = cummax of the summed relaxed regional mins
-        # (monotone: a cumulative-capacity cap must never shrink; +0.5 GW
-        # rounding slack). Regions trade shares under the national pin (TCC3).
+    if BESS_PIN and bess_pin_regional:
+        # hard national Li-Ion cap = SUM OF PER-REGION RUNNING MAXIMA of the
+        # relaxed mins (+0.5 GW slack). A per-year sum is NOT enough: each
+        # region's min-path peaks in a different year and batteries cannot
+        # retire within the horizon, so every region's capacity is pinned at
+        # its own historical peak - the national floor is the sum of those
+        # peaks (IIS 2026-07-15). Start year skipped (residual-pinned).
         write_subset_row("Par_TagTechnologyToSubsets", "D_Battery_Li-Ion", "BESS_LiIon")
-        run, cap = 0.0, {}
-        for y in sorted(bess_pin_national):
-            run = max(run, bess_pin_national[y] + 0.5)
-            if y == min(bess_pin_national):
-                continue   # start year: residual-pinned; a min-derived cap sits
-                           # below the residual sum (base-year cone errorcheck)
-            cap[y] = round(run, 3)
+        years = sorted({y for série in bess_pin_regional.values() for y in série})
+        runmax = {r: 0.0 for r in bess_pin_regional}
+        cap = {}
+        for y in years:
+            for r, serie in bess_pin_regional.items():
+                runmax[r] = max(runmax[r], serie.get(y, 0.0))
+            if y == years[0]:
+                continue
+            cap[y] = round(sum(runmax.values()) + 0.5, 3)
         path = PARAM("Par_GroupTotalAnnualMaxCapacity")
         outdir = os.path.dirname(path)
         if SCENARIO_SUBDIR:
