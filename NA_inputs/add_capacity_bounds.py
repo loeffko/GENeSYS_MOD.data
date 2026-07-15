@@ -109,13 +109,21 @@ FUNNEL_STYLE = sys.argv[sys.argv.index("--funnel") + 1] if "--funnel" in sys.arg
 #                        (0.53 matches the agreed ~147 GW low build-out)
 BESS_MIN_RELAX_2040 = (float(sys.argv[sys.argv.index("--bess-min-relax") + 1])
                        if "--bess-min-relax" in sys.argv else None)
-#   --bess-pin           with --bess-min-relax: the Li-Ion MAX follows the
-#                        relaxed min (hard build-out pin, no economic upside)
+#   --bess-pin           with --bess-min-relax: hard NATIONAL build-out pin.
+#                        The relax blend then starts at 2025 (not 2030) so the
+#                        fleet plateaus instead of overshooting (a 2030-level
+#                        floor + shrinking cap is lifetime-infeasible: batteries
+#                        built for the 2030 floor live 15 years). Regional maxima
+#                        stay open (regions trade shares); the national total is
+#                        capped via Par_GroupTotalAnnualMaxCapacity (TCC3,
+#                        BESS_LiIon x NorthAmerica), monotone non-decreasing.
 BESS_PIN = "--bess-pin" in sys.argv
+bess_pin_national = {}   # year -> sum of relaxed regional Li-Ion mins (pin mode)
 def bess_min_relax_f(y):
     if BESS_MIN_RELAX_2040 is None:
         return 1.0
-    return 1.0 + (BESS_MIN_RELAX_2040 - 1.0) * max(0.0, min(1.0, (y - 2030) / 10.0))
+    y0 = 2025 if BESS_PIN else 2030   # pin mode: plateau early (see --bess-pin)
+    return 1.0 + (BESS_MIN_RELAX_2040 - 1.0) * max(0.0, min(1.0, (y - y0) / (2040 - y0)))
 #   --gas-min-relax <f2040>  (bess_cost_low_8h) SLIGHT gas-min opening: the gas
 #                        floor blends linearly from x1.0 at 2030 to x<f2040> at
 #                        2040 (e.g. 0.9 - much gentler than the grid funnel's
@@ -1101,10 +1109,13 @@ def main():
             liion_min = round(bess * mn * bess_min_relax_f(y), 6)
             min_rows.append((region, "D_Battery_Li-Ion", y, liion_min))
             # funnel max around the US Pools storage trajectory (was open 999999,
-            # which let the optimiser front-load ~100 GW of BESS into 2026);
-            # --bess-pin: max = the relaxed min (hard low build-out, no upside)
-            liion_max = liion_min if BESS_PIN else round(max(FORBID_EPS, bess * mx * stor_up), 6)
-            max_rows.append((region, "D_Battery_Li-Ion", y, max(FORBID_EPS, liion_max)))
+            # which let the optimiser front-load ~100 GW of BESS into 2026).
+            # --bess-pin keeps the regional max OPEN too - the hard cap is
+            # national (TCC3 group row, see below), so regions trade shares.
+            max_rows.append((region, "D_Battery_Li-Ion", y, round(max(FORBID_EPS, bess * mx * stor_up), 6)))
+            if BESS_PIN:
+                bess_pin_national.setdefault(y, 0.0)
+                bess_pin_national[y] += liion_min
 
         # 2) Overflow restool variants per region (the classes after the rep, in
         #    the order given by RESTOOL_MAP["overflow"], e.g. _Avg then _Inf).
@@ -1547,6 +1558,36 @@ def main():
     # Per-region P_Nuclear TotalAnnualMinCapacity now enforces the LSR trajectory,
     # so purge the superseded US-aggregate Nuclear group-min (add nothing).
     r5 = write_group_min({}, "Nuclear", "USA", "superseded by per-region P_Nuclear min")
+
+    if BESS_PIN and bess_pin_national:
+        # hard national Li-Ion cap = cummax of the summed relaxed regional mins
+        # (monotone: a cumulative-capacity cap must never shrink; +0.5 GW
+        # rounding slack). Regions trade shares under the national pin (TCC3).
+        write_subset_row("Par_TagTechnologyToSubsets", "D_Battery_Li-Ion", "BESS_LiIon")
+        run, cap = 0.0, {}
+        for y in sorted(bess_pin_national):
+            run = max(run, bess_pin_national[y] + 0.5)
+            cap[y] = round(run, 3)
+        path = PARAM("Par_GroupTotalAnnualMaxCapacity")
+        outdir = os.path.dirname(path)
+        if SCENARIO_SUBDIR:
+            outdir = os.path.join(outdir, SCENARIO_SUBDIR)
+            path = os.path.join(outdir, os.path.basename(path))
+        rows = pd.DataFrame([{"TechnologySubset": "BESS_LiIon", "RegionSubset": "NorthAmerica",
+                              "Year": y, "Value": v, "": "", "Unit": "GW",
+                              "Source": "hard national BESS pin (relaxed trajectory sum, monotone)",
+                              "Updated at": DATE, "Updated by": WHO}
+                             for y, v in sorted(cap.items())])
+        if apply:
+            os.makedirs(outdir, exist_ok=True)
+            if SCENARIO_SUBDIR:
+                rows.to_csv(path, index=False, lineterminator="\n")
+            else:
+                d0 = pd.read_csv(path)
+                d0 = d0.rename(columns={c: "" for c in d0.columns if str(c).startswith("Unnamed")})
+                d0 = d0[~((d0["TechnologySubset"] == "BESS_LiIon") & (d0["RegionSubset"] == "NorthAmerica"))]
+                pd.concat([d0, rows[d0.columns]], ignore_index=True).to_csv(path, index=False, lineterminator="\n")
+        print(f"  BESS national pin: {cap.get(2030)} GW (2030) -> {cap.get(2040)} GW (2040)")
 
     # Sample print: PJM P_Gas_CCGT (no restool ceiling — held flat post-2035);
     #               the PV cascade — _Opt is the rep (carries residual + funnel),
