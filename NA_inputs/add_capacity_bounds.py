@@ -1237,8 +1237,14 @@ def main():
             bess = cer_bess.get(y, bess_2025)
             mn, mx = canada_margins(y)
             res_rows.append(("Canada", "D_Battery_Li-Ion", y, round(bess_2025 * residual_factor("D_Battery_Li-Ion", y), 6)))
-            min_rows.append(("Canada", "D_Battery_Li-Ion", y, round(bess * mn, 6)))
+            canada_liion_min = round(bess * mn * bess_min_relax_f(y), 6)
+            min_rows.append(("Canada", "D_Battery_Li-Ion", y, canada_liion_min))
             max_rows.append(("Canada", "D_Battery_Li-Ion", y, round(max(FORBID_EPS, bess * mx), 6)))
+            if BESS_PIN:
+                # Canada is inside the NorthAmerica pin subset - its (relaxed)
+                # min must be inside the national cap
+                bess_pin_national.setdefault(y, 0.0)
+                bess_pin_national[y] += canada_liion_min
 
     # 3a) Other extra regions + Canada upside variants from restool potentials.
     for region in extra_regions:

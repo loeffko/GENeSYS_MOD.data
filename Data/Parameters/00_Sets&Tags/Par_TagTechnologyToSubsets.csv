@@ -645,3 +645,4 @@ P_Gas_CCGT_Residual,GasPlants,1,,Binary,gas new-capacity group limit,2026-06-30,
 P_SOFC,PowerSupply,1,,Binary,not relevant,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 P_SOFC,SOFC,1,,Binary,not relevant,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 P_Gas_Engines,GasEngines,1,,Binary,not relevant,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+D_Battery_Li-Ion,BESS_LiIon,1,,Binary,not relevant,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
