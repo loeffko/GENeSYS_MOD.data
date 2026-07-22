@@ -116,6 +116,29 @@ SENS = {   # order matters: 'base' LAST so shared CSVs end in the base state
     # x0.53 trajectory (~147 GW 2040; the soft variant realizes ~182 GW
     # because economics builds above the floor)
     "bess_pessimistic_pinned": dict(fel=BASE_FEL, bess_min_relax="0.53", bess_pin=True),
+    # ---- DC cross-sensitivities (2026-07-15): dc_high / dc_low demand crossed
+    # with build-side variants. dch_* carry dc_high's max_upscale + gas caps
+    # x1.2 (+ RES pacing 0.2 via common.jl); dcl_* carry dc_low's gas floor 0.
+    # grid variants override the IC pace; "_nf" = 2x wires with BASE funnel
+    # (no grid-funnel widening); "_eco*gridhigh" uses the economic funnel (the
+    # wider of the two styles) + the TrC4 wire budget, coal keeps its normal
+    # refurb headroom there.
+    "dch_eco":          dict(fel="base_fel_dc_high_v260707_v2.xlsx", max_upscale=True, gas_group_cap_scale=1.2, ic_growth="0.06", funnel="economic"),
+    "dch_gridhigh":     dict(fel="base_fel_dc_high_v260707_v2.xlsx", max_upscale=True, gas_group_cap_scale=1.2, ic_growth="none", ic_group_cap="2.0", funnel="grid"),
+    "dch_gridhigh_nf":  dict(fel="base_fel_dc_high_v260707_v2.xlsx", max_upscale=True, gas_group_cap_scale=1.2, ic_growth="none", ic_group_cap="2.0"),
+    "dch_gridlow":      dict(fel="base_fel_dc_high_v260707_v2.xlsx", max_upscale=True, gas_group_cap_scale=1.2, ic_growth="0.0075"),
+    "dch_bessopt":      dict(fel="base_fel_dc_high_v260707_v2.xlsx", max_upscale=True, gas_group_cap_scale=1.2, ic_growth="0.06", gas_min_relax="0.9", bess_opt_data=True),
+    "dch_eco_bessopt":  dict(fel="base_fel_dc_high_v260707_v2.xlsx", max_upscale=True, gas_group_cap_scale=1.2, ic_growth="0.06", funnel="economic", gas_min_relax="0.9", bess_opt_data=True),
+    "dch_eco_gridhigh": dict(fel="base_fel_dc_high_v260707_v2.xlsx", max_upscale=True, gas_group_cap_scale=1.2, ic_growth="none", ic_group_cap="2.0", funnel="economic"),
+    "dch_eco_bessopt_gridhigh": dict(fel="base_fel_dc_high_v260707_v2.xlsx", max_upscale=True, gas_group_cap_scale=1.2, ic_growth="none", ic_group_cap="2.0", funnel="economic", gas_min_relax="0.9", bess_opt_data=True),
+    "dcl_eco":          dict(fel="base_fel_dc_low_v260707_v2.xlsx", gas_min_floor="0", funnel="economic"),
+    "dcl_gridhigh":     dict(fel="base_fel_dc_low_v260707_v2.xlsx", gas_min_floor="0", ic_growth="none", ic_group_cap="2.0", funnel="grid"),
+    "dcl_gridhigh_nf":  dict(fel="base_fel_dc_low_v260707_v2.xlsx", gas_min_floor="0", ic_growth="none", ic_group_cap="2.0"),
+    "dcl_gridlow":      dict(fel="base_fel_dc_low_v260707_v2.xlsx", gas_min_floor="0", ic_growth="0.0075"),
+    "dcl_bessopt":      dict(fel="base_fel_dc_low_v260707_v2.xlsx", gas_min_floor="0", gas_min_relax="0.9", bess_opt_data=True),
+    "dcl_eco_bessopt":  dict(fel="base_fel_dc_low_v260707_v2.xlsx", gas_min_floor="0", funnel="economic", gas_min_relax="0.9", bess_opt_data=True),
+    "dcl_eco_gridhigh": dict(fel="base_fel_dc_low_v260707_v2.xlsx", gas_min_floor="0", ic_growth="none", ic_group_cap="2.0", funnel="economic"),
+    "dcl_eco_bessopt_gridhigh": dict(fel="base_fel_dc_low_v260707_v2.xlsx", gas_min_floor="0", ic_growth="none", ic_group_cap="2.0", funnel="economic", gas_min_relax="0.9", bess_opt_data=True),
     "economic":  dict(fel=BASE_FEL, funnel="economic"),
     # grid_low 0.75%/yr (v5a): the base case only REALIZES ~1.6%/yr aggregate IC
     # growth (cost-limited, the 4% pace cap is slack), so the former 2.5% cap
@@ -171,6 +194,14 @@ def build(sens, cfg):
     run(bounds, DATA_REPO)
     if cfg.get("btm_lag"):
         run(["NA_inputs/add_btm_lag.py", "--apply"] + sub, DATA_REPO)
+    if cfg.get("bess_opt_data"):
+        # cross-sensitivities with the optimistic BESS: copy its E2P + cost
+        # subfolder CSVs into this scenario's subdir (conversion picks them up)
+        for p in ("Par_StorageE2PRatio", "Par_CapitalCost", "Par_CapitalCostStorage"):
+            src = os.path.join(DATA_REPO, "Data", "Parameters", p, "NorthAmerica_bess_optimistic", p + ".csv")
+            dstdir = os.path.join(DATA_REPO, "Data", "Parameters", p, scen)
+            os.makedirs(dstdir, exist_ok=True)
+            shutil.copy(src, os.path.join(dstdir, p + ".csv"))
     ic = ["NA_inputs/add_ic_trade_bounds.py", "--apply"] + sub
     if cfg.get("ic_growth"):
         ic += ["--growth", cfg["ic_growth"]]
