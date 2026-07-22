@@ -1,0 +1,24 @@
+Region,Technology,Year,Value,,Unit,Source,Updated at,Updated by
+World,D_Battery_Li-Ion,2018,290.0,,MEUR/GW,"BESS cost sensitivity: 2040 base cost x0.4, linear from 2025",2026-07-09,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_Battery_Li-Ion,2020,270.0,,MEUR/GW,"BESS cost sensitivity: 2040 base cost x0.4, linear from 2025",2026-07-09,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_Battery_Li-Ion,2021,270.0,,MEUR/GW,"BESS cost sensitivity: 2040 base cost x0.4, linear from 2025",2026-07-09,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_Battery_Li-Ion,2025,215.0,,MEUR/GW,"BESS cost sensitivity: 2040 base cost x0.4, linear from 2025",2026-07-09,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_Battery_Li-Ion,2030,156.66667,,MEUR/GW,"BESS cost sensitivity: 2040 base cost x0.4, linear from 2025",2026-07-09,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_Battery_Li-Ion,2035,98.33333,,MEUR/GW,"BESS cost sensitivity: 2040 base cost x0.4, linear from 2025",2026-07-09,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_Battery_Li-Ion,2040,40.0,,MEUR/GW,"BESS cost sensitivity: 2040 base cost x0.4, linear from 2025",2026-07-09,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_Battery_Li-Ion,2045,32.0,,MEUR/GW,"BESS cost sensitivity: 2040 base cost x0.4, linear from 2025",2026-07-09,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_Battery_Li-Ion,2050,24.0,,MEUR/GW,"BESS cost sensitivity: 2040 base cost x0.4, linear from 2025",2026-07-09,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_Battery_Li-Ion,2055,24.0,,MEUR/GW,"BESS cost sensitivity: 2040 base cost x0.4, linear from 2025",2026-07-09,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_Battery_Li-Ion,2060,24.0,,MEUR/GW,"BESS cost sensitivity: 2040 base cost x0.4, linear from 2025",2026-07-09,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_Battery_Li-Ion,2026,203.33333,,MEUR/GW,"BESS cost sensitivity: 2040 base cost x0.4, linear from 2025",2026-07-09,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_Battery_Li-Ion,2027,191.66667,,MEUR/GW,"BESS cost sensitivity: 2040 base cost x0.4, linear from 2025",2026-07-09,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_Battery_Li-Ion,2028,180.0,,MEUR/GW,"BESS cost sensitivity: 2040 base cost x0.4, linear from 2025",2026-07-09,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_Battery_Li-Ion,2029,168.33333,,MEUR/GW,"BESS cost sensitivity: 2040 base cost x0.4, linear from 2025",2026-07-09,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_Battery_Li-Ion,2031,145.0,,MEUR/GW,"BESS cost sensitivity: 2040 base cost x0.4, linear from 2025",2026-07-09,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_Battery_Li-Ion,2032,133.33333,,MEUR/GW,"BESS cost sensitivity: 2040 base cost x0.4, linear from 2025",2026-07-09,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_Battery_Li-Ion,2033,121.66667,,MEUR/GW,"BESS cost sensitivity: 2040 base cost x0.4, linear from 2025",2026-07-09,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_Battery_Li-Ion,2034,110.0,,MEUR/GW,"BESS cost sensitivity: 2040 base cost x0.4, linear from 2025",2026-07-09,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_Battery_Li-Ion,2036,86.66667,,MEUR/GW,"BESS cost sensitivity: 2040 base cost x0.4, linear from 2025",2026-07-09,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_Battery_Li-Ion,2037,75.0,,MEUR/GW,"BESS cost sensitivity: 2040 base cost x0.4, linear from 2025",2026-07-09,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_Battery_Li-Ion,2038,63.33333,,MEUR/GW,"BESS cost sensitivity: 2040 base cost x0.4, linear from 2025",2026-07-09,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_Battery_Li-Ion,2039,51.66667,,MEUR/GW,"BESS cost sensitivity: 2040 base cost x0.4, linear from 2025",2026-07-09,Konstantin Loffler <kl@wip.tu-berlin.de>
