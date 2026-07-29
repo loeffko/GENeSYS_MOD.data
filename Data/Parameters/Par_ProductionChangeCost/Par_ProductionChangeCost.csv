@@ -1,57 +1,61 @@
 Technology,Year,Value,,Unit,Source,Updated at,Updated by
-CHP_Biomass_Solid,All,27.7778,,M€,Needs Update,08.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-CHP_Biomass_Solid_CCS,All,27.7778,,M€,Needs Update,08.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-CHP_Coal_Hardcoal,All,13.8889,,M€,Needs Update,08.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-CHP_Coal_Hardcoal_CCS,All,13.8889,,M€,Needs Update,08.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-CHP_Coal_Lignite,All,13.8889,,M€,Needs Update,08.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-CHP_Coal_Lignite_CCS,All,13.8889,,M€,Needs Update,08.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-CHP_Gas_CCGT_Biogas,All,5.55556,,M€,Needs Update,08.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-CHP_Gas_CCGT_Biogas_CCS,All,5.55556,,M€,Needs Update,08.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-CHP_Gas_CCGT_Natural,All,5.55556,,M€,Needs Update,08.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-CHP_Gas_CCGT_Natural_CCS,All,5.55556,,M€,Needs Update,08.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-CHP_Gas_CCGT_SynGas,All,5.55556,,M€,Needs Update,08.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-CHP_Oil,All,27.7778,,M€,Needs Update,08.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-HB_Biomass,All,0.0,,M€,Needs Update,08.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-HB_Direct_Electric,All,0.0,,M€,Needs Update,08.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-HB_Gas_Boiler,All,0.0,,M€,Needs Update,08.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-HB_H2_Boiler,All,0.0,,M€,Needs Update,08.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-HB_Hardcoal,All,0.0,,M€,Needs Update,08.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-HB_Lignite,All,0.0,,M€,Needs Update,08.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-HB_Oil_Boiler,All,27.7778,,M€,Needs Update,08.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-HHI_BF_BOF,All,27.7778,,M€,Needs Update,08.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-HHI_BF_BOF_CCS,All,27.7778,,M€,Needs Update,08.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-HHI_Bio_BF_BOF,All,27.7778,,M€,Needs Update,08.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-HHI_DRI_EAF,All,27.7778,,M€,Needs Update,08.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-HHI_DRI_EAF_CCS,All,27.7778,,M€,Needs Update,08.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-HHI_H2DRI_EAF,All,27.7778,,M€,Needs Update,08.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-HHI_Molten_Electrolysis,All,27.7778,,M€,Needs Update,08.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-HHI_Scrap_EAF,All,27.7778,,M€,Needs Update,08.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-HLI_Biomass,All,0.0,,M€,Needs Update,08.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-HLI_Direct_Electric,All,0.0,,M€,Needs Update,08.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-HLI_Gas_Boiler,All,0.0,,M€,Needs Update,08.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-HLI_H2_Boiler,All,0.0,,M€,Needs Update,08.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-HLI_Hardcoal,All,0.0,,M€,Needs Update,08.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-HLI_Lignite,All,0.0,,M€,Needs Update,08.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-HLI_Oil_Boiler,All,27.7778,,M€,Needs Update,08.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-HMHI_Biomass,All,0.0,,M€,Needs Update,08.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-HMHI_Gas,All,0.0,,M€,Needs Update,08.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-HMHI_Gas_CCS,All,0.0,,M€,Needs Update,08.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-HMHI_HardCoal,All,0.0,,M€,Needs Update,08.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-HMHI_HardCoal_CCS,All,0.0,,M€,Needs Update,08.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-HMHI_Oil,All,0.0,,M€,Needs Update,08.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-HMHI_Steam_Electric,All,0.0,,M€,Needs Update,08.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-P_Biomass,All,27.7778,,M€,Needs Update,08.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-P_Biomass_CCS,All,27.7778,,M€,Needs Update,08.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-P_Coal_Hardcoal,All,13.8889,,M€,Needs Update,08.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-P_Coal_Hardcoal_CCS,All,13.8889,,M€,Needs Update,08.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-P_Coal_Lignite,All,13.8889,,M€,Needs Update,08.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-P_Coal_Lignite_CCS,All,13.8889,,M€,Needs Update,08.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-P_Gas_CCGT,All,5.55556,,M€,Needs Update,08.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-P_Gas_CCS,All,5.55556,,M€,Needs Update,08.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-P_Gas_Engines,All,5.55556,,M€,Needs Update,08.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-P_Gas_OCGT,All,5.55556,,M€,Needs Update,08.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-P_Hydro_Reservoir,All,13.8889,,M€,Needs Update,08.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-P_Nuclear,All,55.5556,,M€,Needs Update,08.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-P_Oil,All,27.7778,,M€,Needs Update,08.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-P_Nuclear_SMR,All,55.5556,,M€,Needs Update,08.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-P_Gas_CCGT_Residual,All,5.55556,,M€,Needs Update,08.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
+CHP_Biomass_Solid,All,6.94444,,M€/PJ,DEA v0009 (biomass cycling ~ coal); Kumar 2012 anchor; see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+CHP_Biomass_Solid_CCS,All,6.94444,,M€/PJ,DEA v0009 (biomass cycling ~ coal); Kumar 2012 anchor; see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+CHP_Coal_Hardcoal,All,6.94444,,M€/PJ,Kumar 2012 (NREL/SR-5500-55433) LF wear + starts; Borrero 2023; see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+CHP_Coal_Hardcoal_CCS,All,6.94444,,M€/PJ,Kumar 2012 (NREL/SR-5500-55433) LF wear + starts; Borrero 2023; see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+CHP_Coal_Lignite,All,8.33333,,M€/PJ,Kumar 2012 + DIW DD68 Tab.25 (lignite starts 2x hardcoal); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+CHP_Coal_Lignite_CCS,All,8.33333,,M€/PJ,Kumar 2012 + DIW DD68 Tab.25 (lignite starts 2x hardcoal); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+CHP_Gas_CCGT_Biogas,All,2.77778,,M€/PJ,Kumar 2012 CC wear ~3 USD/MW-swing + starts 35-79 USD/MW; see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+CHP_Gas_CCGT_Biogas_CCS,All,2.77778,,M€/PJ,Kumar 2012 CC wear ~3 USD/MW-swing + starts 35-79 USD/MW; see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+CHP_Gas_CCGT_Natural,All,2.77778,,M€/PJ,Kumar 2012 CC wear ~3 USD/MW-swing + starts 35-79 USD/MW; see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+CHP_Gas_CCGT_Natural_CCS,All,2.77778,,M€/PJ,Kumar 2012 CC wear ~3 USD/MW-swing + starts 35-79 USD/MW; see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+CHP_Gas_CCGT_SynGas,All,2.77778,,M€/PJ,Kumar 2012 CC wear ~3 USD/MW-swing + starts 35-79 USD/MW; see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+CHP_Oil,All,4.16667,,M€/PJ,gas-steam class (Kumar 2012); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+HB_Biomass,All,0.0,,M€/PJ,no cycling wear at boiler/burner level; deliberately 0; see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+HB_Direct_Electric,All,0.0,,M€/PJ,no cycling wear at boiler/burner level; deliberately 0; see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+HB_Gas_Boiler,All,0.0,,M€/PJ,no cycling wear at boiler/burner level; deliberately 0; see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+HB_H2_Boiler,All,0.0,,M€/PJ,no cycling wear at boiler/burner level; deliberately 0; see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+HB_Hardcoal,All,0.0,,M€/PJ,no cycling wear at boiler/burner level; deliberately 0; see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+HB_Lignite,All,0.0,,M€/PJ,no cycling wear at boiler/burner level; deliberately 0; see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+HB_Oil_Boiler,All,0.0,,M€/PJ,"burner-modulated boiler, no cycling wear; deliberately 0; see Assumptions.txt",2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+HHI_BF_BOF,All,27.7778,,M€/PJ,kept as deterrent: hourly modulation not realistic (Feta et al. 2018 Tata IJmuiden); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+HHI_BF_BOF_CCS,All,27.7778,,M€/PJ,kept as deterrent: hourly modulation not realistic (Feta et al. 2018 Tata IJmuiden); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+HHI_Bio_BF_BOF,All,27.7778,,M€/PJ,kept as deterrent: hourly modulation not realistic (Feta et al. 2018 Tata IJmuiden); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+HHI_DRI_EAF,All,8.33333,,M€/PJ,shaft furnace tau~1.27h (Ji et al. 2026); H2/HBI buffers (Vogl 2018); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+HHI_DRI_EAF_CCS,All,8.33333,,M€/PJ,shaft furnace tau~1.27h (Ji et al. 2026); H2/HBI buffers (Vogl 2018); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+HHI_H2DRI_EAF,All,8.33333,,M€/PJ,shaft furnace tau~1.27h (Ji et al. 2026); H2/HBI buffers (Vogl 2018); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+HHI_Molten_Electrolysis,All,27.7778,,M€/PJ,"continuous 1600C process, smelter analogy (engineering judgment); see Assumptions.txt",2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+HHI_Scrap_EAF,All,2.77778,,M€/PJ,batch + reserve-prequalified (Paulus & Borggrefe 2011); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+HLI_Biomass,All,0.0,,M€/PJ,no cycling wear at boiler/burner level; deliberately 0; see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+HLI_Direct_Electric,All,0.0,,M€/PJ,no cycling wear at boiler/burner level; deliberately 0; see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+HLI_Gas_Boiler,All,0.0,,M€/PJ,no cycling wear at boiler/burner level; deliberately 0; see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+HLI_H2_Boiler,All,0.0,,M€/PJ,no cycling wear at boiler/burner level; deliberately 0; see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+HLI_Hardcoal,All,0.0,,M€/PJ,no cycling wear at boiler/burner level; deliberately 0; see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+HLI_Lignite,All,0.0,,M€/PJ,no cycling wear at boiler/burner level; deliberately 0; see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+HLI_Oil_Boiler,All,0.0,,M€/PJ,"burner-modulated boiler, no cycling wear; deliberately 0; see Assumptions.txt",2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+HMHI_Biomass,All,0.0,,M€/PJ,no cycling wear at boiler/burner level; deliberately 0; see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+HMHI_Gas,All,0.0,,M€/PJ,no cycling wear at boiler/burner level; deliberately 0; see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+HMHI_Gas_CCS,All,0.0,,M€/PJ,no cycling wear at boiler/burner level; deliberately 0; see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+HMHI_HardCoal,All,0.0,,M€/PJ,no cycling wear at boiler/burner level; deliberately 0; see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+HMHI_HardCoal_CCS,All,0.0,,M€/PJ,no cycling wear at boiler/burner level; deliberately 0; see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+HMHI_Oil,All,0.0,,M€/PJ,no cycling wear at boiler/burner level; deliberately 0; see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+HMHI_Steam_Electric,All,0.0,,M€/PJ,no cycling wear at boiler/burner level; deliberately 0; see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Biomass,All,6.94444,,M€/PJ,DEA v0009 (biomass cycling ~ coal); Kumar 2012 anchor; see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Biomass_CCS,All,6.94444,,M€/PJ,DEA v0009 (biomass cycling ~ coal); Kumar 2012 anchor; see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Coal_Hardcoal,All,6.94444,,M€/PJ,Kumar 2012 (NREL/SR-5500-55433) LF wear + starts; Borrero 2023; see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Coal_Hardcoal_CCS,All,6.94444,,M€/PJ,Kumar 2012 (NREL/SR-5500-55433) LF wear + starts; Borrero 2023; see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Coal_Lignite,All,8.33333,,M€/PJ,Kumar 2012 + DIW DD68 Tab.25 (lignite starts 2x hardcoal); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Coal_Lignite_CCS,All,8.33333,,M€/PJ,Kumar 2012 + DIW DD68 Tab.25 (lignite starts 2x hardcoal); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Gas_CCGT,All,2.77778,,M€/PJ,Kumar 2012 CC wear ~3 USD/MW-swing + starts 35-79 USD/MW; see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Gas_CCS,All,2.77778,,M€/PJ,Kumar 2012 CC wear ~3 USD/MW-swing + starts 35-79 USD/MW; see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Gas_Engines,All,0.555556,,M€/PJ,DEA v0009 engine startup 0 EUR/MW; hours-based LTSA (Wartsila); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Gas_OCGT,All,2.77778,,M€/PJ,Kumar 2012 frame-CT wear ~5.9 USD/MW-swing; DEA OCGT start 43 EUR/MW; see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Hydro_Reservoir,All,1.38889,,M€/PJ,"wear is per-start and small (Welte review, USBR); symbolic smoothing; see Assumptions.txt",2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Nuclear,All,5.55556,,M€/PJ,OECD-NEA 2011 + EDF/Sfen itemized wear 2-3 EUR/MWh-swing; DP1540 start proxy; see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Oil,All,4.16667,,M€/PJ,gas-steam class (Kumar 2012); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Nuclear_SMR,All,5.55556,,M€/PJ,OECD-NEA 2011 + EDF/Sfen itemized wear 2-3 EUR/MWh-swing; DP1540 start proxy; see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Gas_CCGT_Residual,All,2.77778,,M€/PJ,Kumar 2012 CC wear ~3 USD/MW-swing + starts 35-79 USD/MW; see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Gas_Steam,All,4.16667,,M€/PJ,"Kumar 2012 gas-steam wear ~6 USD/MW-swing, starts 36-75; see Assumptions.txt",2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_H2_OCGT,All,2.77778,,M€/PJ,frame-CT class = P_Gas_OCGT (H2 fuel does not change thermal cycling); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+CHP_WasteToEnergy,All,8.33333,,M€/PJ,"DEA v0009 WtE grate: 70% min load, 8h warm start; lignite-level; see Assumptions.txt",2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+CHP_Hydrogen_FuelCell,All,0.555556,,M€/PJ,"electrochemical, no thermal-fatigue cycling (engineering judgment); see Assumptions.txt",2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>

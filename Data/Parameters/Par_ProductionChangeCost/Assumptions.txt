@@ -1,0 +1,63 @@
+Par_ProductionChangeCost — assumptions (re-sourced 2026-07-30)
+
+Construction (dynELMOD heritage, Gerbaulet & Lorenz 2017, DIW Data Doc 88):
+	- The parameter multiplies the sum of up- and down-changes of production
+	  between consecutive timeslices (g_up + g_down). Values are deliberately
+	  set ABOVE pure wear-and-tear so the linear model internalizes a proxy
+	  for start-up costs it cannot represent (no unit commitment).
+	- Convention used here: value ~= load-follow wear cost x ~3 as start-cost
+	  mark-up, anchored to the sources below, rounded to 5 EUR/MWh steps.
+
+Units and conversion:
+	- Values stored in M€/PJ of production change (unit label fixed 2026-07-30,
+	  was mislabeled "M€").
+	- Stated basis: EUR per MWh of swing at HOURLY dispatch.
+	  EUR/MWh-swing x 0.277778 = M€/PJ (e.g. 25 EUR/MWh = 6.94444 M€/PJ).
+	- RESOLUTION CAVEAT: the model charges per-timeslice energy deltas. At
+	  reduced resolution (e.g. NA nthhour 49) one MW of level change carries
+	  ~49 h of energy, so the effective charge per MW of swing scales with the
+	  represented hours. This is accepted as a proxy for intra-block cycling
+	  that the reduced timeseries cannot see (dynELMOD had the same property).
+
+Value basis per group (currency vintages Kumar $2011, DEA €2015, EDF €2025
+treated as within rounding; see Data/Sources/ + Overview_Sources.csv):
+	- Gas CCGT family 10: Kumar 2012 Table 1-1 CC wear 0.64 $/MW-cap/event at
+	  20% depth (~3.2 $/MW-swing); starts 35-79 $/MW.
+	- Gas OCGT / H2_OCGT 10: frame-CT wear 1.59 at 27% (~5.9 $/MW-swing);
+	  DEA v0009 OCGT startup 43 EUR/MW. H2_OCGT = same turbine hardware.
+	- Gas engines 2: DEA v0009 engine startup 0 EUR/MW; Wartsila LTSAs bill
+	  running hours, not starts.
+	- Gas/oil steam 15: Kumar gas-steam wear 1.92 at 32% (~6 $/MW-swing),
+	  starts 36-75 $/MW; oil steam treated as same class.
+	- Hardcoal family 25: Kumar coal wear 1.96-3.34 at 30-35% (~6-10
+	  $/MW-swing), starts 54-147 $/MW; Borrero et al. 2023 finds real-world
+	  all-in ramping costs at or above engineering estimates.
+	- Lignite family 30: no US lignite data; DIW DD68 Table 25 lignite start
+	  costs ~2x hardcoal (Ehlers/PJM column); thick-walled components.
+	- Biomass family 25 / WasteToEnergy 30: DEA v0009 - coal->biomass rebuild
+	  "start-up costs will not change much"; WtE grate 70% min load, 8 h warm
+	  start -> priced at lignite level.
+	- Nuclear (+SMR) 20: OECD-NEA 2011 (ageing "within design margins",
+	  slight maintenance increase); EDF/Sfen 2026 itemized flexible-ops
+	  maintenance ~2-3 EUR/MWh of swing; start-fuel/depreciation proxy from
+	  DIW DP 1540 (all-in cold start ~250 EUR/MW). The previous 200 EUR/MWh
+	  (10x coal) had no source; nuclear cycling economics are load-factor
+	  driven, not wear driven.
+	- Hydro reservoir 5: literature prices per START (~200-900 USD/start,
+	  Welte review; USBR/CEATI methodology), not per swing; water opportunity
+	  cost is endogenous. Symbolic smoothing value (engineering judgment).
+	- Hydrogen fuel cell CHP 2: electrochemical, no thermal-fatigue cycling
+	  (engineering judgment).
+	- Steel BF-BOF 100 (kept): hourly modulation "not realistic", output cuts
+	  via day-scale banking (Feta et al. 2018, Tata IJmuiden) - kept as
+	  deterrent consistent with ramp factor 0.05. Engineering judgment.
+	- Steel DRI 30: shaft furnace modulates with first-order tau ~1.27 h
+	  (Ji et al. 2026); flexibility via H2/HBI buffers (Vogl et al. 2018).
+	- Steel scrap-EAF 10: batch, reserve-prequalified (Paulus & Borggrefe
+	  2011).
+	- Molten oxide electrolysis 100 (kept): continuous 1600 C process, no
+	  public flexibility data; aluminium-smelter analogy. Engineering
+	  judgment - revisit when operating data exists.
+	- HB_/HLI_/HMHI_ boilers and electrode/electric heaters 0: burner or
+	  electrode modulation, no cycling wear at the heat-supply level;
+	  deliberately 0 (parameter inactive).

@@ -1,0 +1,43 @@
+Par_RampingDownFactor — (mirrors Par_RampingUpFactor) assumptions (power side 2026-06-02, heat/industry side 2026-07-30)
+
+Convention:
+	- Value = fraction of available capacity the technology can move per hour.
+	- Literature ramp rates are HALVED to compensate the perfect-foresight
+	  optimism of the linear model (applies to all nonzero entries).
+	- 0 = constraint deliberately DISABLED (unlimited ramping) - used for
+	  technologies that traverse their full range well within an hour.
+	- Up- and down-factors are kept symmetric (no source distinguished them).
+
+Power plants (2026-06-02): real-world fleet ramping from Brouwer et al. 2015,
+EPRI, IRENA, DEA technology data; halved. Coal 0.45, lignite 0.30, CCGT 0.60,
+gas steam 0.50, OCGT/engines/oil/hydro 1.0, nuclear 0.15, biomass 0.90.
+
+Heat supply (2026-07-30, DEA Technology Data v0017 datasheet row "Secondary
+regulation (of full load, per minute)"):
+	- Gas/oil/H2 boilers, electrode & direct-electric boilers, heat pumps,
+	  biomass heat-only boilers, solar thermal: full-range regulation within
+	  minutes (gas warm start 6 min; electrode 100%/min; biomass HOP 10%/min)
+	  -> deliberately 0 (unconstrained). Oil/H2 boilers by analogy to gas
+	  burners (engineering judgment).
+	- HLI_Hardcoal 0.45 / HLI_Lignite 0.30: DEA-only reading would leave
+	  these unconstrained too (coal proxy 4%/min); set to the power-side coal
+	  values for cross-sector consistency. Engineering judgment.
+	- HMHI_HardCoal(_CCS) / HMHI_Biomass 0.45: chain-grate/stoker/PF
+	  industrial boilers 1-5%/min class, halved (practitioner-grade sources).
+
+Steel / industry (2026-07-30):
+	- BF-BOF (+CCS, Bio) 0.05: integrated-works modulation on an hourly basis
+	  "not realistic"; output cuts happen via lowered tapping ratio / banking
+	  on day scale (Feta et al. 2018, Tata Steel IJmuiden; Nippon Steel 2020).
+	  0.05 encodes "day-scale rescheduling only". Engineering judgment on the
+	  exact number.
+	- DRI shaft furnaces (NG + H2) 0.20: measured first-order transition
+	  tau ~1.27 h -> ~55% of a step realized within the hour; halved
+	  (Ji et al. 2026, arXiv:2604.00379; Vogl et al. 2018).
+	- Scrap-EAF 1.0: batch process, heats < 1 h, reserve-prequalified
+	  (Paulus & Borggrefe 2011). Explicit 1.0 documents intent.
+	- Molten oxide electrolysis 0.10: no public data; aluminium-smelter
+	  analogy (~+-25%/h band), halved. Engineering judgment - revisit.
+
+NOTE: 0 means unconstrained - the INFLEXIBLE continuous processes must carry
+small nonzero values; leaving them at 0 would invert the physics.
