@@ -202,6 +202,10 @@ def build(sens, cfg):
             dstdir = os.path.join(DATA_REPO, "Data", "Parameters", p, scen)
             os.makedirs(dstdir, exist_ok=True)
             shutil.copy(src, os.path.join(dstdir, p + ".csv"))
+    # US-market costs from the FEL2026 LCOE model (regional rows; the base run
+    # writes them into the base CSVs, sensitivities into their subfolder so
+    # every workbook carries them regardless of scenario_option)
+    run(["NA_inputs/add_lcoe_costs.py", "--apply"] + sub, DATA_REPO)
     ic = ["NA_inputs/add_ic_trade_bounds.py", "--apply"] + sub
     if cfg.get("ic_growth"):
         ic += ["--growth", cfg["ic_growth"]]

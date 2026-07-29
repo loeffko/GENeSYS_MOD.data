@@ -692,7 +692,6 @@ UK,P_Gas_Engines,Power,2018,3.541,,PJ,,,
 UK,P_Gas_OCGT,Power,2018,11.715,,PJ,,,
 UK,P_Nuclear,Power,2018,234.23,,PJ,,,
 UK,P_Oil,Power,2018,2.933,,PJ,,,
-,,,,,,,,,
 AT,CHP_Biomass_Solid,Heat_District,2018,39.6595,,PJ,European Commission 2021: Overview of District Heating and Cooling Markets and Regulatory Frameworks under the Revised Renewable Energy Directive (Heat supply and fuel mix),16.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 AT,CHP_Coal_Hardcoal,Heat_District,2018,4.3192,,PJ,European Commission 2021: Overview of District Heating and Cooling Markets and Regulatory Frameworks under the Revised Renewable Energy Directive (Heat supply and fuel mix),16.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 AT,CHP_Gas_CCGT_Natural,Heat_District,2018,30.3775,,PJ,European Commission 2021: Overview of District Heating and Cooling Markets and Regulatory Frameworks under the Revised Renewable Energy Directive (Heat supply and fuel mix),16.09.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>

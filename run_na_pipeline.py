@@ -34,6 +34,7 @@ SCRIPTS = [
     (os.path.join("NA_inputs", "add_offshore_wind_bounds.py"), True),
     (os.path.join("NA_inputs", "add_trade_capacity.py"), True),
     (os.path.join("NA_inputs", "add_ic_trade_bounds.py"), True),
+    (os.path.join("NA_inputs", "add_lcoe_costs.py"), True),
     (os.path.join("NA_inputs", "convert_fel_to_demand.py"), False),
     ("enforce_max_ge_min.py", True),
 ]

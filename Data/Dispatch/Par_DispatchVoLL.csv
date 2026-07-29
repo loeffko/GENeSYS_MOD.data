@@ -1,12 +1,12 @@
 Region,Value,,Unit,Source,Updated at,Updated by
-World,10000,,EUR/MWh,"legacy default (matches previous hardcoded DISP_VOLL)",2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,5000,,EUR/MWh,"PUCT system-wide offer cap / VOLL post-Uri (was 9000)",2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,10000,,EUR/MWh,"MISO VOLL 10000 USD/MWh effective Sep 2025 (FERC-approved)",2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,3700,,EUR/MWh,"energy cap 2000 + stacked reserve penalties ~3700 max LMP",2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,3000,,EUR/MWh,"Order 831 hard cap 2000 + reserve stack",2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,4500,,EUR/MWh,"cap 2000 + cascaded RCPF 2500",2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,2000,,EUR/MWh,"CAISO hard bid cap (no VOLL construct)",2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,2000,,EUR/MWh,"as CAISO (Order 831 bilateral caps)",2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,2000,,EUR/MWh,"Order 831 hard cap",2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,5000,,EUR/MWh,"vertically integrated; administrative shed value assumption",2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,5000,,EUR/MWh,"regulated hydro systems; administrative assumption",2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,9000,,EUR/MWh,legacy default (matches previous hardcoded DISP_VOLL); USD->EUR at 0.9 (was written 1:1; aligns with Par_DispatchCO2Price convention),2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,4500,,EUR/MWh,PUCT system-wide offer cap / VOLL post-Uri (was 9000); USD->EUR at 0.9 (was written 1:1; aligns with Par_DispatchCO2Price convention),2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,9000,,EUR/MWh,MISO VOLL 10000 USD/MWh effective Sep 2025 (FERC-approved); USD->EUR at 0.9 (was written 1:1; aligns with Par_DispatchCO2Price convention),2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,3330,,EUR/MWh,energy cap 2000 + stacked reserve penalties ~3700 max LMP; USD->EUR at 0.9 (was written 1:1; aligns with Par_DispatchCO2Price convention),2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,2700,,EUR/MWh,Order 831 hard cap 2000 + reserve stack; USD->EUR at 0.9 (was written 1:1; aligns with Par_DispatchCO2Price convention),2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,4050,,EUR/MWh,cap 2000 + cascaded RCPF 2500; USD->EUR at 0.9 (was written 1:1; aligns with Par_DispatchCO2Price convention),2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,1800,,EUR/MWh,CAISO hard bid cap (no VOLL construct); USD->EUR at 0.9 (was written 1:1; aligns with Par_DispatchCO2Price convention),2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,1800,,EUR/MWh,as CAISO (Order 831 bilateral caps); USD->EUR at 0.9 (was written 1:1; aligns with Par_DispatchCO2Price convention),2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,1800,,EUR/MWh,Order 831 hard cap; USD->EUR at 0.9 (was written 1:1; aligns with Par_DispatchCO2Price convention),2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,4500,,EUR/MWh,vertically integrated; administrative shed value assumption; USD->EUR at 0.9 (was written 1:1; aligns with Par_DispatchCO2Price convention),2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,4500,,EUR/MWh,regulated hydro systems; administrative assumption; USD->EUR at 0.9 (was written 1:1; aligns with Par_DispatchCO2Price convention),2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>

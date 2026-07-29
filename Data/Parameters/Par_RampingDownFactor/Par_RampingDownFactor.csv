@@ -58,5 +58,4 @@ CHP_Oil,All,1.0,,Factor,"Real-world plant ramping (Brouwer 2015, EPRI, IRENA, DE
 CHP_Hydrogen_FuelCell,All,1.0,,Factor,"Real-world plant ramping (Brouwer 2015, EPRI, IRENA, DEA Tech Cat) halved for perfect-foresight assumption",2026-06-02,Konstantin Loffler <kl@wip.tu-berlin.de>
 CHP_WasteToEnergy,All,0.45,,Factor,"Real-world plant ramping (Brouwer 2015, EPRI, IRENA, DEA Tech Cat) halved for perfect-foresight assumption",2026-06-02,Konstantin Loffler <kl@wip.tu-berlin.de>
 P_Nuclear_SMR,All,0.15,,Factor,"Real-world plant ramping (Brouwer 2015, EPRI, IRENA, DEA Tech Cat) halved for perfect-foresight assumption",2026-06-02,Konstantin Loffler <kl@wip.tu-berlin.de>
-P_Nuclear_SMR,All,0.15,,Factor,"Real-world plant ramping (Brouwer 2015, EPRI, IRENA, DEA Tech Cat) halved for perfect-foresight assumption",2026-06-02,Konstantin Loffler <kl@wip.tu-berlin.de>
 P_Gas_CCGT_Residual,All,0.6,,Factor,"Real-world plant ramping (Brouwer 2015, EPRI, IRENA, DEA Tech Cat) halved for perfect-foresight assumption",2026-06-02,Konstantin Loffler <kl@wip.tu-berlin.de>

@@ -826,7 +826,7 @@ World,X_Biofuel,1,2055,2.505555556,,MEUR/PJ,same as 2050 for now,29.01.2025,Niki
 World,X_Biofuel,1,2060,2.505555556,,MEUR/PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 World,X_DAC_HT,1,2018,1.44,,MEUR/PJ,,,
 World,X_DAC_HT,1,2020,1.152,,MEUR/PJ,,,
-World,X_DAC_HT,1,2021,,,MEUR/PJ,,,
+World,X_DAC_HT,1,2021,1.152,,MEUR/PJ,interpolated 2020-2025 (blank-cell fix; blank parsed to 0 in model load),2026-07-23,Claude (data review fix)
 World,X_DAC_HT,1,2025,1.152,,MEUR/PJ,,,
 World,X_DAC_HT,1,2030,1.152,,MEUR/PJ,,,
 World,X_DAC_HT,1,2035,1.152,,MEUR/PJ,,,
@@ -837,7 +837,7 @@ World,X_DAC_HT,1,2055,1.152,,MEUR/PJ,same as 2050 for now,29.01.2025,Nikita Mosk
 World,X_DAC_HT,1,2060,1.152,,MEUR/PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 World,X_DAC_LT,1,2018,1.44,,MEUR/PJ,,,
 World,X_DAC_LT,1,2020,1.152,,MEUR/PJ,,,
-World,X_DAC_LT,1,2021,,,MEUR/PJ,,,
+World,X_DAC_LT,1,2021,1.152,,MEUR/PJ,interpolated 2020-2025 (blank-cell fix; blank parsed to 0 in model load),2026-07-23,Claude (data review fix)
 World,X_DAC_LT,1,2025,1.152,,MEUR/PJ,,,
 World,X_DAC_LT,1,2030,1.152,,MEUR/PJ,,,
 World,X_DAC_LT,1,2035,1.152,,MEUR/PJ,,,
@@ -2554,37 +2554,21 @@ World,X_Convert_Power,6,All,0.001,,MEUR/PJ,power demand splitter (eff=1),2026-05
 World,Z_Import_Biomass,1,All,3.0,,MEUR/PJ,dummy Z_Import added for power-only precompute path,2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
 World,Z_Import_Lignite,1,All,1.5,,MEUR/PJ,dummy Z_Import added for power-only precompute path,2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
 World,P_Gas_Steam,1,All,1.2,,MEUR/PJ,legacy gas steam VOM ~1-1.5 USD/MWh + capital additions,2026-06-12,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,Z_Import_Gas,1,2025,3.7,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 California,Z_Import_Hardcoal,1,2025,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,Z_Import_Gas,1,2026,3.92,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 California,Z_Import_Hardcoal,1,2026,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,Z_Import_Gas,1,2027,4.14,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 California,Z_Import_Hardcoal,1,2027,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,Z_Import_Gas,1,2028,4.36,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 California,Z_Import_Hardcoal,1,2028,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,Z_Import_Gas,1,2029,4.58,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 California,Z_Import_Hardcoal,1,2029,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,Z_Import_Gas,1,2030,4.8,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 California,Z_Import_Hardcoal,1,2030,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,Z_Import_Gas,1,2031,4.8,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 California,Z_Import_Hardcoal,1,2031,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,Z_Import_Gas,1,2032,4.8,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 California,Z_Import_Hardcoal,1,2032,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,Z_Import_Gas,1,2033,4.8,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 California,Z_Import_Hardcoal,1,2033,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,Z_Import_Gas,1,2034,4.8,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 California,Z_Import_Hardcoal,1,2034,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,Z_Import_Gas,1,2035,4.8,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 California,Z_Import_Hardcoal,1,2035,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,Z_Import_Gas,1,2036,4.72,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 California,Z_Import_Hardcoal,1,2036,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,Z_Import_Gas,1,2037,4.64,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 California,Z_Import_Hardcoal,1,2037,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,Z_Import_Gas,1,2038,4.56,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 California,Z_Import_Hardcoal,1,2038,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,Z_Import_Gas,1,2039,4.48,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 California,Z_Import_Hardcoal,1,2039,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,Z_Import_Gas,1,2040,4.4,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 California,Z_Import_Hardcoal,1,2040,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 California,Z_Import_Gas,1,2045,4.4,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 California,Z_Import_Hardcoal,1,2045,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
@@ -2594,37 +2578,21 @@ California,Z_Import_Gas,1,2055,4.4,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA overr
 California,Z_Import_Hardcoal,1,2055,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 California,Z_Import_Gas,1,2060,4.4,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 California,Z_Import_Hardcoal,1,2060,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,Z_Import_Gas,1,2025,3.7,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 WECC,Z_Import_Hardcoal,1,2025,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,Z_Import_Gas,1,2026,3.92,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 WECC,Z_Import_Hardcoal,1,2026,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,Z_Import_Gas,1,2027,4.14,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 WECC,Z_Import_Hardcoal,1,2027,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,Z_Import_Gas,1,2028,4.36,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 WECC,Z_Import_Hardcoal,1,2028,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,Z_Import_Gas,1,2029,4.58,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 WECC,Z_Import_Hardcoal,1,2029,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,Z_Import_Gas,1,2030,4.8,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 WECC,Z_Import_Hardcoal,1,2030,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,Z_Import_Gas,1,2031,4.8,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 WECC,Z_Import_Hardcoal,1,2031,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,Z_Import_Gas,1,2032,4.8,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 WECC,Z_Import_Hardcoal,1,2032,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,Z_Import_Gas,1,2033,4.8,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 WECC,Z_Import_Hardcoal,1,2033,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,Z_Import_Gas,1,2034,4.8,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 WECC,Z_Import_Hardcoal,1,2034,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,Z_Import_Gas,1,2035,4.8,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 WECC,Z_Import_Hardcoal,1,2035,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,Z_Import_Gas,1,2036,4.72,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 WECC,Z_Import_Hardcoal,1,2036,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,Z_Import_Gas,1,2037,4.64,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 WECC,Z_Import_Hardcoal,1,2037,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,Z_Import_Gas,1,2038,4.56,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 WECC,Z_Import_Hardcoal,1,2038,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,Z_Import_Gas,1,2039,4.48,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 WECC,Z_Import_Hardcoal,1,2039,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,Z_Import_Gas,1,2040,4.4,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 WECC,Z_Import_Hardcoal,1,2040,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 WECC,Z_Import_Gas,1,2045,4.4,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 WECC,Z_Import_Hardcoal,1,2045,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
@@ -2634,37 +2602,21 @@ WECC,Z_Import_Gas,1,2055,4.4,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of
 WECC,Z_Import_Hardcoal,1,2055,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 WECC,Z_Import_Gas,1,2060,4.4,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 WECC,Z_Import_Hardcoal,1,2060,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,Z_Import_Gas,1,2025,3.7,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 SPP,Z_Import_Hardcoal,1,2025,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,Z_Import_Gas,1,2026,3.92,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 SPP,Z_Import_Hardcoal,1,2026,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,Z_Import_Gas,1,2027,4.14,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 SPP,Z_Import_Hardcoal,1,2027,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,Z_Import_Gas,1,2028,4.36,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 SPP,Z_Import_Hardcoal,1,2028,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,Z_Import_Gas,1,2029,4.58,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 SPP,Z_Import_Hardcoal,1,2029,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,Z_Import_Gas,1,2030,4.8,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 SPP,Z_Import_Hardcoal,1,2030,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,Z_Import_Gas,1,2031,4.8,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 SPP,Z_Import_Hardcoal,1,2031,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,Z_Import_Gas,1,2032,4.8,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 SPP,Z_Import_Hardcoal,1,2032,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,Z_Import_Gas,1,2033,4.8,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 SPP,Z_Import_Hardcoal,1,2033,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,Z_Import_Gas,1,2034,4.8,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 SPP,Z_Import_Hardcoal,1,2034,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,Z_Import_Gas,1,2035,4.8,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 SPP,Z_Import_Hardcoal,1,2035,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,Z_Import_Gas,1,2036,4.72,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 SPP,Z_Import_Hardcoal,1,2036,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,Z_Import_Gas,1,2037,4.64,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 SPP,Z_Import_Hardcoal,1,2037,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,Z_Import_Gas,1,2038,4.56,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 SPP,Z_Import_Hardcoal,1,2038,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,Z_Import_Gas,1,2039,4.48,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 SPP,Z_Import_Hardcoal,1,2039,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,Z_Import_Gas,1,2040,4.4,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 SPP,Z_Import_Hardcoal,1,2040,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 SPP,Z_Import_Gas,1,2045,4.4,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 SPP,Z_Import_Hardcoal,1,2045,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
@@ -2674,37 +2626,21 @@ SPP,Z_Import_Gas,1,2055,4.4,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of 
 SPP,Z_Import_Hardcoal,1,2055,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 SPP,Z_Import_Gas,1,2060,4.4,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 SPP,Z_Import_Hardcoal,1,2060,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,Z_Import_Gas,1,2025,3.7,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 MISO,Z_Import_Hardcoal,1,2025,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,Z_Import_Gas,1,2026,3.92,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 MISO,Z_Import_Hardcoal,1,2026,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,Z_Import_Gas,1,2027,4.14,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 MISO,Z_Import_Hardcoal,1,2027,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,Z_Import_Gas,1,2028,4.36,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 MISO,Z_Import_Hardcoal,1,2028,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,Z_Import_Gas,1,2029,4.58,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 MISO,Z_Import_Hardcoal,1,2029,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,Z_Import_Gas,1,2030,4.8,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 MISO,Z_Import_Hardcoal,1,2030,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,Z_Import_Gas,1,2031,4.8,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 MISO,Z_Import_Hardcoal,1,2031,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,Z_Import_Gas,1,2032,4.8,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 MISO,Z_Import_Hardcoal,1,2032,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,Z_Import_Gas,1,2033,4.8,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 MISO,Z_Import_Hardcoal,1,2033,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,Z_Import_Gas,1,2034,4.8,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 MISO,Z_Import_Hardcoal,1,2034,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,Z_Import_Gas,1,2035,4.8,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 MISO,Z_Import_Hardcoal,1,2035,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,Z_Import_Gas,1,2036,4.72,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 MISO,Z_Import_Hardcoal,1,2036,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,Z_Import_Gas,1,2037,4.64,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 MISO,Z_Import_Hardcoal,1,2037,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,Z_Import_Gas,1,2038,4.56,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 MISO,Z_Import_Hardcoal,1,2038,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,Z_Import_Gas,1,2039,4.48,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 MISO,Z_Import_Hardcoal,1,2039,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,Z_Import_Gas,1,2040,4.4,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 MISO,Z_Import_Hardcoal,1,2040,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 MISO,Z_Import_Gas,1,2045,4.4,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 MISO,Z_Import_Hardcoal,1,2045,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
@@ -2714,37 +2650,21 @@ MISO,Z_Import_Gas,1,2055,4.4,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of
 MISO,Z_Import_Hardcoal,1,2055,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 MISO,Z_Import_Gas,1,2060,4.4,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 MISO,Z_Import_Hardcoal,1,2060,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,Z_Import_Gas,1,2025,3.7,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 ERCOT,Z_Import_Hardcoal,1,2025,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,Z_Import_Gas,1,2026,3.92,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 ERCOT,Z_Import_Hardcoal,1,2026,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,Z_Import_Gas,1,2027,4.14,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 ERCOT,Z_Import_Hardcoal,1,2027,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,Z_Import_Gas,1,2028,4.36,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 ERCOT,Z_Import_Hardcoal,1,2028,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,Z_Import_Gas,1,2029,4.58,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 ERCOT,Z_Import_Hardcoal,1,2029,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,Z_Import_Gas,1,2030,4.8,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 ERCOT,Z_Import_Hardcoal,1,2030,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,Z_Import_Gas,1,2031,4.8,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 ERCOT,Z_Import_Hardcoal,1,2031,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,Z_Import_Gas,1,2032,4.8,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 ERCOT,Z_Import_Hardcoal,1,2032,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,Z_Import_Gas,1,2033,4.8,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 ERCOT,Z_Import_Hardcoal,1,2033,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,Z_Import_Gas,1,2034,4.8,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 ERCOT,Z_Import_Hardcoal,1,2034,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,Z_Import_Gas,1,2035,4.8,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 ERCOT,Z_Import_Hardcoal,1,2035,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,Z_Import_Gas,1,2036,4.72,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 ERCOT,Z_Import_Hardcoal,1,2036,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,Z_Import_Gas,1,2037,4.64,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 ERCOT,Z_Import_Hardcoal,1,2037,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,Z_Import_Gas,1,2038,4.56,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 ERCOT,Z_Import_Hardcoal,1,2038,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,Z_Import_Gas,1,2039,4.48,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 ERCOT,Z_Import_Hardcoal,1,2039,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,Z_Import_Gas,1,2040,4.4,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 ERCOT,Z_Import_Hardcoal,1,2040,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 ERCOT,Z_Import_Gas,1,2045,4.4,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 ERCOT,Z_Import_Hardcoal,1,2045,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
@@ -2754,37 +2674,21 @@ ERCOT,Z_Import_Gas,1,2055,4.4,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override o
 ERCOT,Z_Import_Hardcoal,1,2055,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 ERCOT,Z_Import_Gas,1,2060,4.4,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 ERCOT,Z_Import_Hardcoal,1,2060,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,Z_Import_Gas,1,2025,3.7,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 SERC,Z_Import_Hardcoal,1,2025,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,Z_Import_Gas,1,2026,3.92,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 SERC,Z_Import_Hardcoal,1,2026,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,Z_Import_Gas,1,2027,4.14,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 SERC,Z_Import_Hardcoal,1,2027,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,Z_Import_Gas,1,2028,4.36,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 SERC,Z_Import_Hardcoal,1,2028,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,Z_Import_Gas,1,2029,4.58,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 SERC,Z_Import_Hardcoal,1,2029,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,Z_Import_Gas,1,2030,4.8,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 SERC,Z_Import_Hardcoal,1,2030,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,Z_Import_Gas,1,2031,4.8,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 SERC,Z_Import_Hardcoal,1,2031,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,Z_Import_Gas,1,2032,4.8,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 SERC,Z_Import_Hardcoal,1,2032,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,Z_Import_Gas,1,2033,4.8,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 SERC,Z_Import_Hardcoal,1,2033,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,Z_Import_Gas,1,2034,4.8,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 SERC,Z_Import_Hardcoal,1,2034,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,Z_Import_Gas,1,2035,4.8,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 SERC,Z_Import_Hardcoal,1,2035,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,Z_Import_Gas,1,2036,4.72,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 SERC,Z_Import_Hardcoal,1,2036,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,Z_Import_Gas,1,2037,4.64,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 SERC,Z_Import_Hardcoal,1,2037,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,Z_Import_Gas,1,2038,4.56,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 SERC,Z_Import_Hardcoal,1,2038,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,Z_Import_Gas,1,2039,4.48,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 SERC,Z_Import_Hardcoal,1,2039,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,Z_Import_Gas,1,2040,4.4,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 SERC,Z_Import_Hardcoal,1,2040,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 SERC,Z_Import_Gas,1,2045,4.4,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 SERC,Z_Import_Hardcoal,1,2045,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
@@ -2794,37 +2698,21 @@ SERC,Z_Import_Gas,1,2055,4.4,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of
 SERC,Z_Import_Hardcoal,1,2055,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 SERC,Z_Import_Gas,1,2060,4.4,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 SERC,Z_Import_Hardcoal,1,2060,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,Z_Import_Gas,1,2025,3.7,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 PJM,Z_Import_Hardcoal,1,2025,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,Z_Import_Gas,1,2026,3.92,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 PJM,Z_Import_Hardcoal,1,2026,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,Z_Import_Gas,1,2027,4.14,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 PJM,Z_Import_Hardcoal,1,2027,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,Z_Import_Gas,1,2028,4.36,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 PJM,Z_Import_Hardcoal,1,2028,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,Z_Import_Gas,1,2029,4.58,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 PJM,Z_Import_Hardcoal,1,2029,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,Z_Import_Gas,1,2030,4.8,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 PJM,Z_Import_Hardcoal,1,2030,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,Z_Import_Gas,1,2031,4.8,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 PJM,Z_Import_Hardcoal,1,2031,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,Z_Import_Gas,1,2032,4.8,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 PJM,Z_Import_Hardcoal,1,2032,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,Z_Import_Gas,1,2033,4.8,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 PJM,Z_Import_Hardcoal,1,2033,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,Z_Import_Gas,1,2034,4.8,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 PJM,Z_Import_Hardcoal,1,2034,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,Z_Import_Gas,1,2035,4.8,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 PJM,Z_Import_Hardcoal,1,2035,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,Z_Import_Gas,1,2036,4.72,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 PJM,Z_Import_Hardcoal,1,2036,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,Z_Import_Gas,1,2037,4.64,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 PJM,Z_Import_Hardcoal,1,2037,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,Z_Import_Gas,1,2038,4.56,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 PJM,Z_Import_Hardcoal,1,2038,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,Z_Import_Gas,1,2039,4.48,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 PJM,Z_Import_Hardcoal,1,2039,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,Z_Import_Gas,1,2040,4.4,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 PJM,Z_Import_Hardcoal,1,2040,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 PJM,Z_Import_Gas,1,2045,4.4,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 PJM,Z_Import_Hardcoal,1,2045,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
@@ -2834,37 +2722,21 @@ PJM,Z_Import_Gas,1,2055,4.4,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of 
 PJM,Z_Import_Hardcoal,1,2055,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 PJM,Z_Import_Gas,1,2060,4.4,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 PJM,Z_Import_Hardcoal,1,2060,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,Z_Import_Gas,1,2025,3.7,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewYork,Z_Import_Hardcoal,1,2025,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,Z_Import_Gas,1,2026,3.92,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewYork,Z_Import_Hardcoal,1,2026,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,Z_Import_Gas,1,2027,4.14,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewYork,Z_Import_Hardcoal,1,2027,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,Z_Import_Gas,1,2028,4.36,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewYork,Z_Import_Hardcoal,1,2028,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,Z_Import_Gas,1,2029,4.58,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewYork,Z_Import_Hardcoal,1,2029,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,Z_Import_Gas,1,2030,4.8,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewYork,Z_Import_Hardcoal,1,2030,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,Z_Import_Gas,1,2031,4.8,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewYork,Z_Import_Hardcoal,1,2031,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,Z_Import_Gas,1,2032,4.8,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewYork,Z_Import_Hardcoal,1,2032,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,Z_Import_Gas,1,2033,4.8,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewYork,Z_Import_Hardcoal,1,2033,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,Z_Import_Gas,1,2034,4.8,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewYork,Z_Import_Hardcoal,1,2034,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,Z_Import_Gas,1,2035,4.8,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewYork,Z_Import_Hardcoal,1,2035,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,Z_Import_Gas,1,2036,4.72,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewYork,Z_Import_Hardcoal,1,2036,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,Z_Import_Gas,1,2037,4.64,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewYork,Z_Import_Hardcoal,1,2037,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,Z_Import_Gas,1,2038,4.56,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewYork,Z_Import_Hardcoal,1,2038,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,Z_Import_Gas,1,2039,4.48,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewYork,Z_Import_Hardcoal,1,2039,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,Z_Import_Gas,1,2040,4.4,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewYork,Z_Import_Hardcoal,1,2040,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewYork,Z_Import_Gas,1,2045,4.4,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewYork,Z_Import_Hardcoal,1,2045,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
@@ -2874,37 +2746,21 @@ NewYork,Z_Import_Gas,1,2055,4.4,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override
 NewYork,Z_Import_Hardcoal,1,2055,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewYork,Z_Import_Gas,1,2060,4.4,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewYork,Z_Import_Hardcoal,1,2060,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,Z_Import_Gas,1,2025,3.7,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewEngland,Z_Import_Hardcoal,1,2025,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,Z_Import_Gas,1,2026,3.92,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewEngland,Z_Import_Hardcoal,1,2026,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,Z_Import_Gas,1,2027,4.14,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewEngland,Z_Import_Hardcoal,1,2027,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,Z_Import_Gas,1,2028,4.36,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewEngland,Z_Import_Hardcoal,1,2028,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,Z_Import_Gas,1,2029,4.58,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewEngland,Z_Import_Hardcoal,1,2029,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,Z_Import_Gas,1,2030,4.8,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewEngland,Z_Import_Hardcoal,1,2030,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,Z_Import_Gas,1,2031,4.8,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewEngland,Z_Import_Hardcoal,1,2031,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,Z_Import_Gas,1,2032,4.8,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewEngland,Z_Import_Hardcoal,1,2032,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,Z_Import_Gas,1,2033,4.8,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewEngland,Z_Import_Hardcoal,1,2033,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,Z_Import_Gas,1,2034,4.8,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewEngland,Z_Import_Hardcoal,1,2034,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,Z_Import_Gas,1,2035,4.8,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewEngland,Z_Import_Hardcoal,1,2035,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,Z_Import_Gas,1,2036,4.72,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewEngland,Z_Import_Hardcoal,1,2036,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,Z_Import_Gas,1,2037,4.64,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewEngland,Z_Import_Hardcoal,1,2037,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,Z_Import_Gas,1,2038,4.56,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewEngland,Z_Import_Hardcoal,1,2038,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,Z_Import_Gas,1,2039,4.48,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewEngland,Z_Import_Hardcoal,1,2039,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,Z_Import_Gas,1,2040,4.4,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewEngland,Z_Import_Hardcoal,1,2040,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewEngland,Z_Import_Gas,1,2045,4.4,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewEngland,Z_Import_Hardcoal,1,2045,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
@@ -2914,37 +2770,21 @@ NewEngland,Z_Import_Gas,1,2055,4.4,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA overr
 NewEngland,Z_Import_Hardcoal,1,2055,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewEngland,Z_Import_Gas,1,2060,4.4,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewEngland,Z_Import_Hardcoal,1,2060,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,Z_Import_Gas,1,2025,3.7,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 Canada,Z_Import_Hardcoal,1,2025,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,Z_Import_Gas,1,2026,3.92,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 Canada,Z_Import_Hardcoal,1,2026,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,Z_Import_Gas,1,2027,4.14,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 Canada,Z_Import_Hardcoal,1,2027,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,Z_Import_Gas,1,2028,4.36,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 Canada,Z_Import_Hardcoal,1,2028,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,Z_Import_Gas,1,2029,4.58,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 Canada,Z_Import_Hardcoal,1,2029,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,Z_Import_Gas,1,2030,4.8,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 Canada,Z_Import_Hardcoal,1,2030,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,Z_Import_Gas,1,2031,4.8,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 Canada,Z_Import_Hardcoal,1,2031,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,Z_Import_Gas,1,2032,4.8,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 Canada,Z_Import_Hardcoal,1,2032,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,Z_Import_Gas,1,2033,4.8,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 Canada,Z_Import_Hardcoal,1,2033,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,Z_Import_Gas,1,2034,4.8,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 Canada,Z_Import_Hardcoal,1,2034,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,Z_Import_Gas,1,2035,4.8,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 Canada,Z_Import_Hardcoal,1,2035,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,Z_Import_Gas,1,2036,4.72,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 Canada,Z_Import_Hardcoal,1,2036,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,Z_Import_Gas,1,2037,4.64,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 Canada,Z_Import_Hardcoal,1,2037,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,Z_Import_Gas,1,2038,4.56,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 Canada,Z_Import_Hardcoal,1,2038,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,Z_Import_Gas,1,2039,4.48,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 Canada,Z_Import_Hardcoal,1,2039,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,Z_Import_Gas,1,2040,4.4,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 Canada,Z_Import_Hardcoal,1,2040,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 Canada,Z_Import_Gas,1,2045,4.4,,MEUR/PJ,US Henry Hub (EIA STEO/AEO) NA override of IEA EU gas; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 Canada,Z_Import_Hardcoal,1,2045,2.2,,MEUR/PJ,US delivered steam coal ~2.5 USD/MMBtu (EIA/IEA) NA override of IEA EU coal; MEUR/PJ,16.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
@@ -3119,3 +2959,163 @@ World,P_SOFC,2,2039,0.4,,MEUR/PJ,non-fuel VOM; fuel cost via input-fuel chain; T
 World,P_SOFC,2,2040,0.4,,MEUR/PJ,non-fuel VOM; fuel cost via input-fuel chain; TU Berlin assumption,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 World,P_SOFC,2,2045,0.4,,MEUR/PJ,non-fuel VOM; fuel cost via input-fuel chain; TU Berlin assumption,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 World,P_SOFC,2,2050,0.4,,MEUR/PJ,non-fuel VOM; fuel cost via input-fuel chain; TU Berlin assumption,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,Z_Import_Gas,1,2025,3.30556,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,Z_Import_Gas,1,2026,3.55556,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,Z_Import_Gas,1,2027,3.11111,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,Z_Import_Gas,1,2028,2.63889,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,Z_Import_Gas,1,2029,2.63889,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,Z_Import_Gas,1,2030,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,Z_Import_Gas,1,2031,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,Z_Import_Gas,1,2032,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,Z_Import_Gas,1,2033,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,Z_Import_Gas,1,2034,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,Z_Import_Gas,1,2035,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,Z_Import_Gas,1,2036,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,Z_Import_Gas,1,2037,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,Z_Import_Gas,1,2038,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,Z_Import_Gas,1,2039,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,Z_Import_Gas,1,2040,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,Z_Import_Gas,1,2025,3.30556,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,Z_Import_Gas,1,2026,3.55556,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,Z_Import_Gas,1,2027,3.11111,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,Z_Import_Gas,1,2028,2.63889,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,Z_Import_Gas,1,2029,2.63889,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,Z_Import_Gas,1,2030,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,Z_Import_Gas,1,2031,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,Z_Import_Gas,1,2032,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,Z_Import_Gas,1,2033,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,Z_Import_Gas,1,2034,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,Z_Import_Gas,1,2035,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,Z_Import_Gas,1,2036,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,Z_Import_Gas,1,2037,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,Z_Import_Gas,1,2038,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,Z_Import_Gas,1,2039,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,Z_Import_Gas,1,2040,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,Z_Import_Gas,1,2025,3.30556,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,Z_Import_Gas,1,2026,3.55556,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,Z_Import_Gas,1,2027,3.11111,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,Z_Import_Gas,1,2028,2.63889,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,Z_Import_Gas,1,2029,2.63889,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,Z_Import_Gas,1,2030,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,Z_Import_Gas,1,2031,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,Z_Import_Gas,1,2032,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,Z_Import_Gas,1,2033,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,Z_Import_Gas,1,2034,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,Z_Import_Gas,1,2035,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,Z_Import_Gas,1,2036,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,Z_Import_Gas,1,2037,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,Z_Import_Gas,1,2038,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,Z_Import_Gas,1,2039,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,Z_Import_Gas,1,2040,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,Z_Import_Gas,1,2025,3.30556,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,Z_Import_Gas,1,2026,3.55556,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,Z_Import_Gas,1,2027,3.11111,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,Z_Import_Gas,1,2028,2.63889,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,Z_Import_Gas,1,2029,2.63889,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,Z_Import_Gas,1,2030,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,Z_Import_Gas,1,2031,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,Z_Import_Gas,1,2032,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,Z_Import_Gas,1,2033,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,Z_Import_Gas,1,2034,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,Z_Import_Gas,1,2035,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,Z_Import_Gas,1,2036,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,Z_Import_Gas,1,2037,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,Z_Import_Gas,1,2038,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,Z_Import_Gas,1,2039,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,Z_Import_Gas,1,2040,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,Z_Import_Gas,1,2025,3.30556,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,Z_Import_Gas,1,2026,3.55556,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,Z_Import_Gas,1,2027,3.11111,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,Z_Import_Gas,1,2028,2.63889,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,Z_Import_Gas,1,2029,2.63889,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,Z_Import_Gas,1,2030,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,Z_Import_Gas,1,2031,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,Z_Import_Gas,1,2032,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,Z_Import_Gas,1,2033,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,Z_Import_Gas,1,2034,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,Z_Import_Gas,1,2035,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,Z_Import_Gas,1,2036,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,Z_Import_Gas,1,2037,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,Z_Import_Gas,1,2038,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,Z_Import_Gas,1,2039,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,Z_Import_Gas,1,2040,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,Z_Import_Gas,1,2025,3.30556,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,Z_Import_Gas,1,2026,3.55556,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,Z_Import_Gas,1,2027,3.11111,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,Z_Import_Gas,1,2028,2.63889,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,Z_Import_Gas,1,2029,2.63889,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,Z_Import_Gas,1,2030,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,Z_Import_Gas,1,2031,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,Z_Import_Gas,1,2032,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,Z_Import_Gas,1,2033,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,Z_Import_Gas,1,2034,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,Z_Import_Gas,1,2035,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,Z_Import_Gas,1,2036,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,Z_Import_Gas,1,2037,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,Z_Import_Gas,1,2038,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,Z_Import_Gas,1,2039,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,Z_Import_Gas,1,2040,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,Z_Import_Gas,1,2025,3.30556,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,Z_Import_Gas,1,2026,3.55556,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,Z_Import_Gas,1,2027,3.11111,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,Z_Import_Gas,1,2028,2.63889,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,Z_Import_Gas,1,2029,2.63889,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,Z_Import_Gas,1,2030,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,Z_Import_Gas,1,2031,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,Z_Import_Gas,1,2032,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,Z_Import_Gas,1,2033,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,Z_Import_Gas,1,2034,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,Z_Import_Gas,1,2035,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,Z_Import_Gas,1,2036,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,Z_Import_Gas,1,2037,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,Z_Import_Gas,1,2038,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,Z_Import_Gas,1,2039,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,Z_Import_Gas,1,2040,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,Z_Import_Gas,1,2025,3.30556,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,Z_Import_Gas,1,2026,3.55556,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,Z_Import_Gas,1,2027,3.11111,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,Z_Import_Gas,1,2028,2.63889,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,Z_Import_Gas,1,2029,2.63889,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,Z_Import_Gas,1,2030,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,Z_Import_Gas,1,2031,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,Z_Import_Gas,1,2032,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,Z_Import_Gas,1,2033,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,Z_Import_Gas,1,2034,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,Z_Import_Gas,1,2035,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,Z_Import_Gas,1,2036,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,Z_Import_Gas,1,2037,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,Z_Import_Gas,1,2038,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,Z_Import_Gas,1,2039,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,Z_Import_Gas,1,2040,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,Z_Import_Gas,1,2025,3.30556,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,Z_Import_Gas,1,2026,3.55556,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,Z_Import_Gas,1,2027,3.11111,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,Z_Import_Gas,1,2028,2.63889,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,Z_Import_Gas,1,2029,2.63889,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,Z_Import_Gas,1,2030,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,Z_Import_Gas,1,2031,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,Z_Import_Gas,1,2032,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,Z_Import_Gas,1,2033,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,Z_Import_Gas,1,2034,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,Z_Import_Gas,1,2035,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,Z_Import_Gas,1,2036,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,Z_Import_Gas,1,2037,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,Z_Import_Gas,1,2038,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,Z_Import_Gas,1,2039,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,Z_Import_Gas,1,2040,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,Z_Import_Gas,1,2025,3.30556,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,Z_Import_Gas,1,2026,3.55556,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,Z_Import_Gas,1,2027,3.11111,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,Z_Import_Gas,1,2028,2.63889,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,Z_Import_Gas,1,2029,2.63889,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,Z_Import_Gas,1,2030,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,Z_Import_Gas,1,2031,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,Z_Import_Gas,1,2032,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,Z_Import_Gas,1,2033,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,Z_Import_Gas,1,2034,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,Z_Import_Gas,1,2035,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,Z_Import_Gas,1,2036,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,Z_Import_Gas,1,2037,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,Z_Import_Gas,1,2038,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,Z_Import_Gas,1,2039,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,Z_Import_Gas,1,2040,2.83333,,MEUR/PJ,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (US gas macro = HH forward path; invest side aligned with dispatch, dispatch year-multiplier retired)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>

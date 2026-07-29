@@ -91,7 +91,7 @@ P_Gas_CCS,41.0,,Years,Assumption: CCS lifetime longer than generation plant- thu
 P_Gas_Engines,25.0,,Years,Energy Agency Denmark (2024) Gas engines,30.07.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
 P_Gas_OCGT,25.0,,Years,Energy Agency Denmark (2024) Gas turbine simple cycle,30.07.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
 P_H2_OCGT,25.0,,Years,Assumption: Same as Gas_OCGT,30.07.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
-P_Nuclear,61.0,,Years,Nuclear III gen. (no economies of scale) EU Reference Scenario 2020,05.09.2023,Stian Backe <stian.backe@sintef.no>
+P_Nuclear,60,,Years,Nuclear III gen. (no economies of scale) EU Reference Scenario 2020; typo fix 61 -> 60,2026-07-23,Claude (data review fix)
 P_Oil,30.0,,Years,Hienuki et al. (2015): http://dx.doi.org/10.3390/su71215786,30.07.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
 PSNG_Air_Bio,20.0,,Years,IRENA: Biojet Fuels (2021): p. 70- Assumption: middle of range,24.07.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
 PSNG_Air_Conv,30.0,,Years,IRENA: Biojet Fuels (2021): p. 25,24.07.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
@@ -147,7 +147,7 @@ Z_ETS_Sell,101.0,,Years,Assumed (not effective),05.09.2023,Stian Backe <stian.ba
 Z_Import_H2,101.0,,Years,Assumed (not effective),05.09.2023,Stian Backe <stian.backe@sintef.no>
 X_Alkaline_Electrolysis,25.0,,Years,David et al. (2019): https://doi.org/10.1016/j.est.2019.03.001,31.07.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
 X_PEM_Electrolysis,15.0,,Years,David et al. (2019): https://doi.org/10.1016/j.est.2019.03.001,31.07.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
-X_SOEC_Electrolysis,3.0,,Years,IRENA (2020): ISBN: 978-92-9260-295-6,31.07.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+X_SOEC_Electrolysis,20,,Years,IRENA (2020): ISBN: 978-92-9260-295-6; plant life (3 y was the SOEC stack life; 3-y annuitization inflated capex ~7x),2026-07-23,Claude (data review fix)
 D_HD_Pit,25.0,,Years,Energy Agency Denmark (2020)-Refers to PTES,26.11.2024,Stian Backe <stian.backe@sintef.no>
 X_Convert_Power,100.0,,Years,Assumed (not effective),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>
 P_EGS_R1,30.0,,Years,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
@@ -155,6 +155,6 @@ P_EGS_R2,30.0,,Years,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR
 P_EGS_R3,30.0,,Years,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 P_EGS_R4,30.0,,Years,"EGS_LCOE_model.xlsx (Central scenario, ATB 2024) [USD->EUR 0.92]",2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 P_Gas_Steam,50.0,,Years,legacy steam units long-lived; fleet predates 1990,2026-06-12,Konstantin Loffler <kl@wip.tu-berlin.de>
-P_Nuclear_SMR,61.0,,Years,Nuclear III gen. (no economies of scale) EU Reference Scenario 2020,05.09.2023,Stian Backe <stian.backe@sintef.no>
+P_Nuclear_SMR,60,,Years,Nuclear III gen. (no economies of scale) EU Reference Scenario 2020; typo fix 61 -> 60,2026-07-23,Claude (data review fix)
 P_Gas_CCGT_Residual,25.0,,Years,Energy Agency Denmark (2024) Gas turbine cc,30.07.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
 P_SOFC,20.0,,Years,"SOFC system life, stacks replaced via FixedCost; TU Berlin assumption",2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>

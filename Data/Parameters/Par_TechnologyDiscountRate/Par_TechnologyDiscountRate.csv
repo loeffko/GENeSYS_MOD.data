@@ -1,2 +1,265 @@
 Region,Technology,Value,,Unit,Source,Updated at,Updated by
-World,All,0.05,,Percent,Assumption,08.09.2023,Konstantin Löffler <kl@wip.tu-berlin.de>
+World,All,0.05,,Fraction,Assumption,08.09.2023,Konstantin Löffler <kl@wip.tu-berlin.de>
+World,P_Coal_Hardcoal,0.085,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EU WACC column)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Coal_Lignite,0.085,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EU WACC column)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_EGS_R1,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EU WACC column)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_EGS_R2,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EU WACC column)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_EGS_R3,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EU WACC column)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_EGS_R4,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EU WACC column)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Gas_CCGT,0.065,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EU WACC column)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Gas_OCGT,0.075,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EU WACC column)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Geothermal,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EU WACC column)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Nuclear,0.085,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EU WACC column)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Nuclear_SMR,0.085,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EU WACC column)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_PV_Rooftop_Commercial,0.05,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EU WACC column)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_PV_Rooftop_Residential,0.05,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EU WACC column)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_PV_Utility_Avg,0.05,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EU WACC column)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_PV_Utility_Inf,0.05,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EU WACC column)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_PV_Utility_Opt,0.05,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EU WACC column)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_SOFC,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EU WACC column)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Offshore_Deep,0.055,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EU WACC column)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Offshore_Shallow,0.055,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EU WACC column)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Offshore_Transitional,0.055,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EU WACC column)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Onshore_Avg,0.055,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EU WACC column)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Onshore_Inf,0.055,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EU WACC column)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Wind_Onshore_Opt,0.055,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EU WACC column)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Coal_Hardcoal,0.085,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Coal_Lignite,0.085,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_EGS_R1,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (LCOE Geothermal WACC (costs not imported))",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_EGS_R2,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (LCOE Geothermal WACC (costs not imported))",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_EGS_R3,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (LCOE Geothermal WACC (costs not imported))",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_EGS_R4,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (LCOE Geothermal WACC (costs not imported))",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Gas_CCGT,0.065,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Gas_CCGT_Residual,0.065,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (CCGT proxy)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Gas_Engines,0.075,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (OCGT proxy)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Gas_OCGT,0.075,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Gas_Steam,0.065,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (CCGT proxy)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Nuclear,0.085,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Nuclear_SMR,0.085,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_PV_Rooftop_Commercial,0.05,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_PV_Utility_Avg,0.05,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_PV_Utility_Inf,0.05,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_PV_Utility_Opt,0.05,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_SOFC,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Offshore_Deep,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Offshore_Shallow,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Offshore_Transitional,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Onshore_Avg,0.055,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Onshore_Inf,0.055,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Onshore_Opt,0.055,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Coal_Hardcoal,0.085,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Coal_Lignite,0.085,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_EGS_R1,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (LCOE Geothermal WACC (costs not imported))",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_EGS_R2,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (LCOE Geothermal WACC (costs not imported))",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_EGS_R3,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (LCOE Geothermal WACC (costs not imported))",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_EGS_R4,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (LCOE Geothermal WACC (costs not imported))",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Gas_CCGT,0.065,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Gas_CCGT_Residual,0.065,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (CCGT proxy)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Gas_Engines,0.075,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (OCGT proxy)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Gas_OCGT,0.075,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Gas_Steam,0.065,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (CCGT proxy)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Nuclear,0.085,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Nuclear_SMR,0.085,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_PV_Rooftop_Commercial,0.05,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_PV_Utility_Avg,0.05,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_PV_Utility_Inf,0.05,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_PV_Utility_Opt,0.05,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_SOFC,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Offshore_Deep,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Offshore_Shallow,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Offshore_Transitional,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Onshore_Avg,0.055,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Onshore_Inf,0.055,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Onshore_Opt,0.055,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Coal_Hardcoal,0.085,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Coal_Lignite,0.085,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_EGS_R1,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (LCOE Geothermal WACC (costs not imported))",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_EGS_R2,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (LCOE Geothermal WACC (costs not imported))",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_EGS_R3,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (LCOE Geothermal WACC (costs not imported))",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_EGS_R4,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (LCOE Geothermal WACC (costs not imported))",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Gas_CCGT,0.065,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Gas_CCGT_Residual,0.065,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (CCGT proxy)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Gas_Engines,0.075,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (OCGT proxy)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Gas_OCGT,0.075,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Gas_Steam,0.065,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (CCGT proxy)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Nuclear,0.085,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Nuclear_SMR,0.085,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_PV_Rooftop_Commercial,0.05,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_PV_Utility_Avg,0.05,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_PV_Utility_Inf,0.05,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_PV_Utility_Opt,0.05,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_SOFC,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Offshore_Deep,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Offshore_Shallow,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Offshore_Transitional,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Onshore_Avg,0.055,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Onshore_Inf,0.055,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Onshore_Opt,0.055,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Coal_Hardcoal,0.085,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Coal_Lignite,0.085,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_EGS_R1,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (LCOE Geothermal WACC (costs not imported))",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_EGS_R2,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (LCOE Geothermal WACC (costs not imported))",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_EGS_R3,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (LCOE Geothermal WACC (costs not imported))",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_EGS_R4,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (LCOE Geothermal WACC (costs not imported))",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Gas_CCGT,0.065,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Gas_CCGT_Residual,0.065,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (CCGT proxy)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Gas_Engines,0.075,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (OCGT proxy)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Gas_OCGT,0.075,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Gas_Steam,0.065,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (CCGT proxy)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Nuclear,0.085,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Nuclear_SMR,0.085,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_PV_Rooftop_Commercial,0.05,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_PV_Utility_Avg,0.05,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_PV_Utility_Inf,0.05,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_PV_Utility_Opt,0.05,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_SOFC,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Offshore_Deep,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Offshore_Shallow,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Offshore_Transitional,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Onshore_Avg,0.055,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Onshore_Inf,0.055,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Onshore_Opt,0.055,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Coal_Hardcoal,0.085,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Coal_Lignite,0.085,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_EGS_R1,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (LCOE Geothermal WACC (costs not imported))",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_EGS_R2,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (LCOE Geothermal WACC (costs not imported))",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_EGS_R3,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (LCOE Geothermal WACC (costs not imported))",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_EGS_R4,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (LCOE Geothermal WACC (costs not imported))",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Gas_CCGT,0.065,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Gas_CCGT_Residual,0.065,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (CCGT proxy)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Gas_Engines,0.075,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (OCGT proxy)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Gas_OCGT,0.075,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Gas_Steam,0.065,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (CCGT proxy)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Nuclear,0.085,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Nuclear_SMR,0.085,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_PV_Rooftop_Commercial,0.05,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_PV_Utility_Avg,0.05,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_PV_Utility_Inf,0.05,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_PV_Utility_Opt,0.05,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_SOFC,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Offshore_Deep,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Offshore_Shallow,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Offshore_Transitional,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Onshore_Avg,0.055,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Onshore_Inf,0.055,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Onshore_Opt,0.055,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Coal_Hardcoal,0.085,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Coal_Lignite,0.085,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_EGS_R1,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (LCOE Geothermal WACC (costs not imported))",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_EGS_R2,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (LCOE Geothermal WACC (costs not imported))",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_EGS_R3,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (LCOE Geothermal WACC (costs not imported))",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_EGS_R4,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (LCOE Geothermal WACC (costs not imported))",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Gas_CCGT,0.065,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Gas_CCGT_Residual,0.065,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (CCGT proxy)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Gas_Engines,0.075,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (OCGT proxy)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Gas_OCGT,0.075,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Gas_Steam,0.065,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (CCGT proxy)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Nuclear,0.085,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Nuclear_SMR,0.085,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_PV_Rooftop_Commercial,0.05,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_PV_Utility_Avg,0.05,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_PV_Utility_Inf,0.05,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_PV_Utility_Opt,0.05,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_SOFC,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Offshore_Deep,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Offshore_Shallow,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Offshore_Transitional,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Onshore_Avg,0.055,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Onshore_Inf,0.055,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Onshore_Opt,0.055,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Coal_Hardcoal,0.085,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Coal_Lignite,0.085,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_EGS_R1,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (LCOE Geothermal WACC (costs not imported))",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_EGS_R2,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (LCOE Geothermal WACC (costs not imported))",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_EGS_R3,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (LCOE Geothermal WACC (costs not imported))",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_EGS_R4,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (LCOE Geothermal WACC (costs not imported))",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Gas_CCGT,0.065,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Gas_CCGT_Residual,0.065,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (CCGT proxy)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Gas_Engines,0.075,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (OCGT proxy)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Gas_OCGT,0.075,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Gas_Steam,0.065,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (CCGT proxy)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Nuclear,0.085,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Nuclear_SMR,0.085,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_PV_Rooftop_Commercial,0.05,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_PV_Utility_Avg,0.05,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_PV_Utility_Inf,0.05,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_PV_Utility_Opt,0.05,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_SOFC,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Offshore_Deep,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Offshore_Shallow,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Offshore_Transitional,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Onshore_Avg,0.055,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Onshore_Inf,0.055,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Onshore_Opt,0.055,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Coal_Hardcoal,0.085,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Coal_Lignite,0.085,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_EGS_R1,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (LCOE Geothermal WACC (costs not imported))",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_EGS_R2,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (LCOE Geothermal WACC (costs not imported))",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_EGS_R3,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (LCOE Geothermal WACC (costs not imported))",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_EGS_R4,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (LCOE Geothermal WACC (costs not imported))",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Gas_CCGT,0.065,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Gas_CCGT_Residual,0.065,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (CCGT proxy)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Gas_Engines,0.075,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (OCGT proxy)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Gas_OCGT,0.075,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Gas_Steam,0.065,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (CCGT proxy)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Nuclear,0.085,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Nuclear_SMR,0.085,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_PV_Rooftop_Commercial,0.05,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_PV_Utility_Avg,0.05,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_PV_Utility_Inf,0.05,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_PV_Utility_Opt,0.05,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_SOFC,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Offshore_Deep,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Offshore_Shallow,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Offshore_Transitional,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Onshore_Avg,0.055,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Onshore_Inf,0.055,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Onshore_Opt,0.055,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Coal_Hardcoal,0.085,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Coal_Lignite,0.085,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_EGS_R1,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (LCOE Geothermal WACC (costs not imported))",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_EGS_R2,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (LCOE Geothermal WACC (costs not imported))",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_EGS_R3,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (LCOE Geothermal WACC (costs not imported))",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_EGS_R4,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (LCOE Geothermal WACC (costs not imported))",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Gas_CCGT,0.065,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Gas_CCGT_Residual,0.065,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (CCGT proxy)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Gas_Engines,0.075,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (OCGT proxy)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Gas_OCGT,0.075,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Gas_Steam,0.065,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (CCGT proxy)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Nuclear,0.085,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Nuclear_SMR,0.085,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_PV_Rooftop_Commercial,0.05,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_PV_Utility_Avg,0.05,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_PV_Utility_Inf,0.05,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_PV_Utility_Opt,0.05,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_SOFC,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Offshore_Deep,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Offshore_Shallow,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Offshore_Transitional,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Onshore_Avg,0.055,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Onshore_Inf,0.055,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Onshore_Opt,0.055,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Coal_Hardcoal,0.085,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Coal_Lignite,0.085,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_EGS_R1,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (LCOE Geothermal WACC (costs not imported))",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_EGS_R2,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (LCOE Geothermal WACC (costs not imported))",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_EGS_R3,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (LCOE Geothermal WACC (costs not imported))",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_EGS_R4,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (LCOE Geothermal WACC (costs not imported))",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Gas_CCGT,0.065,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Gas_CCGT_Residual,0.065,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (CCGT proxy)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Gas_Engines,0.075,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (OCGT proxy)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Gas_OCGT,0.075,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Gas_Steam,0.065,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (CCGT proxy)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Nuclear,0.085,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Nuclear_SMR,0.085,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_PV_Rooftop_Commercial,0.05,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_PV_Utility_Avg,0.05,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_PV_Utility_Inf,0.05,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_PV_Utility_Opt,0.05,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_SOFC,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Offshore_Deep,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Offshore_Shallow,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Offshore_Transitional,0.07,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Onshore_Avg,0.055,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Onshore_Inf,0.055,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Onshore_Opt,0.055,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
