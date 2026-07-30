@@ -1211,10 +1211,10 @@ UK,SE,ETS,1,,km,Own calulation of distance - see txt.file for more Info,05.09.20
 UK,SI,ETS,1,,km,Own calulation of distance - see txt.file for more Info,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 UK,SK,ETS,1,,km,Own calulation of distance - see txt.file for more Info,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 UK,TR,ETS,1,,km,Own calulation of distance - see txt.file for more Info,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
-BE,NO,Power,0,,km,Own calulation of distance - see txt.file for more Info,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-FR,NO,Power,0,,km,Own calulation of distance - see txt.file for more Info,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-NO,BE,Power,0,,km,Own calulation of distance - see txt.file for more Info,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-NO,FR,Power,0,,km,Own calulation of distance - see txt.file for more Info,20.02.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
+BE,NO,Power,1294,,km,Own calulation of distance - see txt.file for more Info; 0-km Power-row bug fixed to All-row distance 2026-07-30,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+FR,NO,Power,1851,,km,Own calulation of distance - see txt.file for more Info; 0-km Power-row bug fixed to All-row distance 2026-07-30,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+NO,BE,Power,1294,,km,Own calulation of distance - see txt.file for more Info; 0-km Power-row bug fixed to All-row distance 2026-07-30,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+NO,FR,Power,1851,,km,Own calulation of distance - see txt.file for more Info; 0-km Power-row bug fixed to All-row distance 2026-07-30,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
 California,ERCOT,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 California,MISO,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>
 California,PJM,ETS,1,,km,dummy data - empty entry,05.09.2023,Jonathan Hanto <joh@wip.tu-berlin.de>

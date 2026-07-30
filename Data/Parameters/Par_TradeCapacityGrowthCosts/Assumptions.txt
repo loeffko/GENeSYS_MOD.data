@@ -1,5 +1,73 @@
-TradeCapacityGrowthCosts:
+Par_TradeCapacityGrowthCosts — assumptions (overhauled 2026-07-30; supersedes the previous DeSantis-2021-based note: Table 1 $/mile-MW -> EUR2021 at 0.9 utilization)
 
-Natural Gas: 
-- based on DeSantis et al. 2021: https://doi.org/10.1016/j.isci.2021.103495
-- Table 1: Capital cost ($/mile-MW), converted to EUR2021, assumed utilization rate of 0.9
+Structure: per-pair values KEPT (no single per-fuel factor) because land vs
+subsea drives 2-4x cost differences. Classification of every route pair into
+LAND / SUBSEA / MIXED from Par_TradeRoute geography (27 subsea pairs incl.
+UK/IE/NO/Baltic crossings and the DE offshore-hub pairs; 4 mixed pairs
+DE-DK, FI-SE, IE-UK, ES-FR with per-pair values; all NA pairs = land).
+
+CAPACITY BASIS (user decision 2026-07-30): values are per GW of USABLE net
+transfer capacity (NTC). AC-thermal source costs are divided by a 60%
+NTC-of-thermal baseline; HVDC ratings and EHB pipeline capacities (75%-derated
+design capacity) are treated as already usable.
+
+Power (M€/GW/km, EUR ~2024):
+	- EU land 0.9: ACER UIC 2026 400kV AC 2-ckt (avg 1.46 M€/km at ~3 GVA
+	  thermal -> 0.49 thermal-GW -> /0.6 = 0.81 NTC) blended with land-HVDC
+	  all-in incl. converters 0.9-1.3 (MISO MTEP24, Haertel et al. 2017;
+	  DeSantis 2021 converter-inclusive 0.86 consistent).
+	- EU subsea 1.7: realized 1.4-2 GW HVDC links all-in 1.7-2.8 (NordLink,
+	  Viking Link, NeuConnect); ACER 2026 submarine cable (avg 1.31 M€/km)
+	  + converter pair (0.42 M€/MW) folded at 300-700 km link lengths.
+	- Mixed pairs: DE-DK 1.4 (Jutland land + East-DK subsea), FI-SE 1.4
+	  (north land border, main capacity subsea), IE-UK 1.7 (GB links
+	  subsea), ES-FR 1.1 (Pyrenees AC + Biscay subsea share). Judgment.
+	- NA land 1.5: MISO MTEP24 AC 0.88-1.03 M$/GVA/km thermal (incl. 30%
+	  contingency + 7.5% AFUDC) /0.6 NTC = 1.47-1.72, blended with
+	  long-corridor HVDC all-in 1.2-1.7. REPLACES the Saadi et al. 2018
+	  0.445 line-only basis, which excluded converter stations (stated in
+	  DeSantis 2021) - a data-correctness fix that ~triples NA IC expansion
+	  cost vs. v6.
+	- Previous DeSantis 0.864 rows decoded: US 500kV land-HVDC 3 GW incl.
+	  converters, loss-adjusted (Black & Veatch/WECC basis) - superseded by
+	  the class values above.
+
+Gas_Natural (M€/(PJ/yr)/km; model gas trade capacity is PJ-denominated,
+1 GW = 31.536 PJ/yr):
+	- Onshore 0.003: ACER UIC 2015 large-diameter EU actuals (~0.0027 at
+	  36-48", 17-28 GW) + escalation; recent actuals bound above at
+	  0.005-0.009 (OGJ/EPA 2019, ACER 2026 H2-ready 36-48"). Replaces
+	  0.0018 (= DeSantis/Rui 1992-2008 US regression, cheapest equation in
+	  the literature per NETL 2024 ordering).
+	- Subsea 0.006: EHB offshore/onshore factor 1.7x; Nord Stream realized
+	  0.0031 as giant-scale lower bound (48" twin, no midline compression).
+
+H2 (M€/(PJ/yr)/km):
+	- Onshore new 0.008: EHB 2022 large/medium new-build incl. compression
+	  (48" 0.0083, 36" 0.0170; capacities are 75%-derated = usable). The
+	  previous 0.0049 cited DeSantis but does not reproduce it (true
+	  DeSantis 36" = 0.0031; 0.0049 back-solves to an undocumented ~1.6x).
+	- Subsea new 0.018: EHB 2022 offshore new incl. compression
+	  (medium 0.0286, large 0.0143). ES-FR classified subsea for H2
+	  (H2Med/BarMar is explicitly subsea).
+	- Repurposed pipelines (0.0027-0.0048 incl. compression, EHB) are NOT
+	  modelled as a separate class - flagged as a large EU-corridor lever.
+
+Biomass (M€/(PJ/yr)/km): 0.0039 kept as nominal placeholder - no citable
+per-km capacity capex exists (terminals/rolling stock are mostly
+distance-independent; a rolling-stock estimate gives 0.001-0.002). The real
+logistics cost is OPEX and lives in Par_TradeCostFactor (DEA freight).
+
+Cleanups 2026-07-30: 186 self-pairs deleted (+228 in
+Par_GrowthRateTradeCapacity); 1,644 physically meaningless NA<->EU dummy
+rows deleted; mojibake unit strings (Mâ‚¬/GW, missing /km) normalized to
+M€/GWkm / M€/PJkm; Par_TradeRoute BE-NO + FR-NO Power rows carried 0 km
+(bug) - fixed to the All-row distances (1294 / 1851 km).
+
+Currency vintages mixed (ACER real-€2025, EHB ~€2021, MISO US$2023):
+differences within class rounding; ACER documents >6%/yr real escalation
+since 2018, so values are conservative if anything.
+
+Sources: see Data/Sources/ + Overview_Sources.csv (ACER UIC 2015/2023/2026,
+EHB April 2022, MISO MTEP24 Cost Estimation Guide, Haertel et al. 2017,
+DeSantis et al. 2021, realized-project data).

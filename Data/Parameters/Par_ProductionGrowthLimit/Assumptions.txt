@@ -1,0 +1,43 @@
+Par_ProductionGrowthLimit — assumptions (documented 2026-07-30)
+
+Semantics (genesysmod_equ.jl SC4a): caps the ANNUAL PRODUCTION ADDITION of
+phase-in-tagged (RE) technologies as a fraction of TOTAL previous-year
+production of the fuel — i.e. percentage points of supply added per year by
+new technologies (the metric of Cherp et al. 2021). SC4b applies it per
+transport modal group. NOTE: constraint CCS1 REUSES the 'Air' row as the
+economy-wide CCS addition-rate cap — the Air value is operatively a CCS
+phase-in limit first, an aviation limit second.
+
+Values are ASSUMPTIONS, kept deliberately permissive, anchored to diffusion
+literature (no value contradicts it):
+	- Power 0.05: ~2-3x the historical national phase-in frontier
+	  (Cherp/Vinichenko et al. 2021, Nature Energy 6:742 - wind max
+	  ~0.8 pp/yr, solar ~0.6 pp/yr sustained; best combined episodes
+	  2-3 pp/yr; 1.5C scenarios need >1.3-1.4 pp/yr per tech). Permissive
+	  backstop, not a binding forecast. Tighten to ~0.03 for strict
+	  historical grounding.
+	- H2 (0.01 -> 0.5 @2030 -> decay to 0.04) and Gas_Synth: emergence-phase
+	  feasibility space of Odenweller et al. 2022 (Nature Energy 7:854) -
+	  tens of %/yr relative growth during emergence, decaying as the base
+	  grows. KNOWN INCONSISTENCY: Gas_Synth allows 50%/yr already in 2025
+	  while H2 is at 1% - synthetic methane is downstream of H2; consider
+	  delaying the Gas_Synth ramp to follow H2.
+	- Heat_Buildings / Heat_District 0.04: bounded by heating-stock turnover
+	  (system lifetime 15-20 yr -> 5-6.7%/yr natural replacement; 4%/yr ~
+	  every end-of-life replacement switches). IEA Future of Heat Pumps 2022.
+	- Industrial heat 0.05: equipment-relining turnover logic; pace
+	  literature thin (Madeddu et al. 2020 ERL 15:124004 establishes
+	  potential, not pace).
+	- Mobility_* 0.05: fleet-turnover bound (12-18 yr lifetime; 100% ZEV
+	  sales -> ~5-7 pp/yr stock shift; Norway peak 3-5 pp/yr). IEA Global
+	  EV Outlook.
+	- Air 0.025: as CCS cap mid-range of Kazlou, Cherp & Jewell 2024
+	  (Nature Climate Change) feasibility analogues (wind-analogue <1 pp/yr,
+	  all-time record French nuclear ~4.5 pp/yr). Coincidentally consistent
+	  with aviation demand growth ~2.5%/yr (IATA).
+	- Historical-year rows (2018/2021/2025 = 0.005): calibration device;
+	  below the observed 1-2 pp/yr of those years - only valid because base
+	  years are pinned by data.
+
+Unit label corrected 2026-07-30: 'Percent' -> 'Fraction/yr' (values are
+fractions, e.g. 0.05 = 5%/yr).

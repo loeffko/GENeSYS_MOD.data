@@ -1,83 +1,83 @@
 Fuel,Year,Value,Unnamed: 3,Unit,Source,Updated at,Updated by
-Air,All,0.025,,Percent,Assumption,08.09.2023,Konstantin Loffler <kl@wip.tu-berlin.de>
-Heat_Buildings,All,0.04,,Percent,Assumption,08.09.2023,Konstantin Loffler <kl@wip.tu-berlin.de>
-Heat_District,All,0.04,,Percent,Assumption,08.09.2023,Konstantin Loffler <kl@wip.tu-berlin.de>
-Heat_Low_Industrial,All,0.05,,Percent,Assumption,08.09.2023,Konstantin Loffler <kl@wip.tu-berlin.de>
-Heat_MediumHigh_Industrial,All,0.05,,Percent,Assumption,08.09.2023,Konstantin Loffler <kl@wip.tu-berlin.de>
-Heat_MediumLow_Industrial,All,0.05,,Percent,Assumption,08.09.2023,Konstantin Loffler <kl@wip.tu-berlin.de>
-Heat_Medium_Industrial,All,0.05,,Percent,Assumption,08.09.2023,Konstantin Loffler <kl@wip.tu-berlin.de>
-Mobility_Freight,All,0.05,,Percent,Assumption,08.09.2023,Konstantin Loffler <kl@wip.tu-berlin.de>
-Mobility_Passenger,All,0.05,,Percent,Assumption,08.09.2023,Konstantin Loffler <kl@wip.tu-berlin.de>
-Power,All,0.05,,Percent,Assumption,08.09.2023,Konstantin Loffler <kl@wip.tu-berlin.de>
-Air,2018,0.005,,Percent,Assumption,04.03.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-Heat_Buildings,2018,0.005,,Percent,Assumption,04.03.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-Heat_District,2018,0.005,,Percent,Assumption,04.03.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-Heat_Low_Industrial,2018,0.005,,Percent,Assumption,04.03.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-Heat_MediumHigh_Industrial,2018,0.005,,Percent,Assumption,04.03.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-Heat_MediumLow_Industrial,2018,0.005,,Percent,Assumption,04.03.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-Heat_Medium_Industrial,2018,0.005,,Percent,Assumption,04.03.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-Mobility_Freight,2018,0.005,,Percent,Assumption,04.03.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-Mobility_Passenger,2018,0.005,,Percent,Assumption,04.03.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-Power,2018,0.005,,Percent,Assumption,04.03.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-Air,2021,0.005,,Percent,Assumption,04.03.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-Heat_Buildings,2021,0.005,,Percent,Assumption,04.03.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-Heat_District,2021,0.005,,Percent,Assumption,04.03.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-Heat_Low_Industrial,2021,0.005,,Percent,Assumption,04.03.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-Heat_MediumHigh_Industrial,2021,0.005,,Percent,Assumption,04.03.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-Heat_MediumLow_Industrial,2021,0.005,,Percent,Assumption,04.03.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-Heat_Medium_Industrial,2021,0.005,,Percent,Assumption,04.03.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-Mobility_Freight,2021,0.005,,Percent,Assumption,04.03.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-Mobility_Passenger,2021,0.005,,Percent,Assumption,04.03.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-Power,2021,0.005,,Percent,Assumption,04.03.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-Air,2025,0.005,,Percent,Assumption,04.03.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-Heat_Buildings,2025,0.005,,Percent,Assumption,04.03.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-Heat_District,2025,0.005,,Percent,Assumption,04.03.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-Heat_Low_Industrial,2025,0.005,,Percent,Assumption,04.03.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-Heat_MediumHigh_Industrial,2025,0.005,,Percent,Assumption,04.03.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-Heat_MediumLow_Industrial,2025,0.005,,Percent,Assumption,04.03.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-Heat_Medium_Industrial,2025,0.005,,Percent,Assumption,04.03.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-Mobility_Freight,2025,0.005,,Percent,Assumption,04.03.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-Mobility_Passenger,2025,0.005,,Percent,Assumption,04.03.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-Power,2025,0.005,,Percent,Assumption,04.03.2025,Konstantin Loffler <kl@wip.tu-berlin.de>
-H2,2018,0.01,,Percent,Assumption,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-H2,2025,0.01,,Percent,Assumption,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-H2,2030,0.5,,Percent,Assumption,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-H2,2035,0.25,,Percent,Assumption,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-H2,2040,0.1,,Percent,Assumption,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-H2,2045,0.1,,Percent,Assumption,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-H2,2050,0.04,,Percent,Assumption,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-H2,2055,0.01,,Percent,Assumption,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-H2,2060,0.01,,Percent,Assumption,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-Gas_Synth,2018,0.01,,Percent,Assumption,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-Gas_Synth,2025,0.5,,Percent,Assumption,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-Gas_Synth,2030,0.4,,Percent,Assumption,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-Gas_Synth,2035,0.3,,Percent,Assumption,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-Gas_Synth,2040,0.2,,Percent,Assumption,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-Gas_Synth,2045,0.1,,Percent,Assumption,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-Gas_Synth,2050,0.05,,Percent,Assumption,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-Gas_Synth,2055,0.05,,Percent,Assumption,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-Gas_Synth,2060,0.05,,Percent,Assumption,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-H2,2026,0.108,,Percent,interpolated,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-H2,2027,0.206,,Percent,interpolated,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-H2,2028,0.304,,Percent,interpolated,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-H2,2029,0.402,,Percent,interpolated,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-H2,2031,0.45,,Percent,interpolated,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-H2,2032,0.4,,Percent,interpolated,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-H2,2033,0.35,,Percent,interpolated,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-H2,2034,0.3,,Percent,interpolated,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-H2,2036,0.22,,Percent,interpolated,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-H2,2037,0.19,,Percent,interpolated,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-H2,2038,0.16,,Percent,interpolated,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-H2,2039,0.13,,Percent,interpolated,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-Gas_Synth,2026,0.48,,Percent,interpolated,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-Gas_Synth,2027,0.46,,Percent,interpolated,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-Gas_Synth,2028,0.44,,Percent,interpolated,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-Gas_Synth,2029,0.42,,Percent,interpolated,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-Gas_Synth,2031,0.38,,Percent,interpolated,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-Gas_Synth,2032,0.36,,Percent,interpolated,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-Gas_Synth,2033,0.34,,Percent,interpolated,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-Gas_Synth,2034,0.32,,Percent,interpolated,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-Gas_Synth,2036,0.28,,Percent,interpolated,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-Gas_Synth,2037,0.26,,Percent,interpolated,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-Gas_Synth,2038,0.24,,Percent,interpolated,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
-Gas_Synth,2039,0.22,,Percent,interpolated,16.03.2026,Nikita Moskalenko <nim@wip.tu-berlin.de>
+Air,All,0.025,,Fraction/yr,"NOTE: row doubles as the CCS addition cap (CCS1 constraint). Anchored: Kazlou/Cherp/Jewell 2024 Nat Clim Change (CCS), IATA (aviation); see Assumptions.txt",2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+Heat_Buildings,All,0.04,,Fraction/yr,Assumption anchored: heating-stock turnover 15-20y -> <=5-6.7%/yr (IEA Future of Heat Pumps); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+Heat_District,All,0.04,,Fraction/yr,Assumption anchored: heating-stock turnover (IEA); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+Heat_Low_Industrial,All,0.05,,Fraction/yr,"Assumption anchored: equipment-turnover logic (Madeddu et al. 2020 ERL: potential, pace thin); see Assumptions.txt",2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+Heat_MediumHigh_Industrial,All,0.05,,Fraction/yr,Assumption anchored: equipment-turnover logic (Madeddu et al. 2020 ERL); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+Heat_MediumLow_Industrial,All,0.05,,Fraction/yr,Assumption anchored: equipment-turnover logic (Madeddu et al. 2020 ERL); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+Heat_Medium_Industrial,All,0.05,,Fraction/yr,Assumption anchored: equipment-turnover logic (Madeddu et al. 2020 ERL); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+Mobility_Freight,All,0.05,,Fraction/yr,Assumption anchored: fleet-turnover/100%-sales bound ~ Norway peak (IEA GEVO); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+Mobility_Passenger,All,0.05,,Fraction/yr,Assumption anchored: fleet-turnover/100%-sales bound ~ Norway peak (IEA GEVO); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+Power,All,0.05,,Fraction/yr,Assumption anchored: permissive backstop ~2-3x historical phase-in frontier (Cherp et al. 2021 Nat Energy); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+Air,2018,0.005,,Fraction/yr,"NOTE: row doubles as the CCS addition cap (CCS1 constraint). Anchored: Kazlou/Cherp/Jewell 2024 Nat Clim Change (CCS), IATA (aviation); see Assumptions.txt",2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+Heat_Buildings,2018,0.005,,Fraction/yr,Assumption anchored: heating-stock turnover 15-20y -> <=5-6.7%/yr (IEA Future of Heat Pumps); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+Heat_District,2018,0.005,,Fraction/yr,Assumption anchored: heating-stock turnover (IEA); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+Heat_Low_Industrial,2018,0.005,,Fraction/yr,"Assumption anchored: equipment-turnover logic (Madeddu et al. 2020 ERL: potential, pace thin); see Assumptions.txt",2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+Heat_MediumHigh_Industrial,2018,0.005,,Fraction/yr,Assumption anchored: equipment-turnover logic (Madeddu et al. 2020 ERL); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+Heat_MediumLow_Industrial,2018,0.005,,Fraction/yr,Assumption anchored: equipment-turnover logic (Madeddu et al. 2020 ERL); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+Heat_Medium_Industrial,2018,0.005,,Fraction/yr,Assumption anchored: equipment-turnover logic (Madeddu et al. 2020 ERL); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+Mobility_Freight,2018,0.005,,Fraction/yr,Assumption anchored: fleet-turnover/100%-sales bound ~ Norway peak (IEA GEVO); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+Mobility_Passenger,2018,0.005,,Fraction/yr,Assumption anchored: fleet-turnover/100%-sales bound ~ Norway peak (IEA GEVO); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+Power,2018,0.005,,Fraction/yr,Assumption anchored: permissive backstop ~2-3x historical phase-in frontier (Cherp et al. 2021 Nat Energy); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+Air,2021,0.005,,Fraction/yr,"NOTE: row doubles as the CCS addition cap (CCS1 constraint). Anchored: Kazlou/Cherp/Jewell 2024 Nat Clim Change (CCS), IATA (aviation); see Assumptions.txt",2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+Heat_Buildings,2021,0.005,,Fraction/yr,Assumption anchored: heating-stock turnover 15-20y -> <=5-6.7%/yr (IEA Future of Heat Pumps); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+Heat_District,2021,0.005,,Fraction/yr,Assumption anchored: heating-stock turnover (IEA); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+Heat_Low_Industrial,2021,0.005,,Fraction/yr,"Assumption anchored: equipment-turnover logic (Madeddu et al. 2020 ERL: potential, pace thin); see Assumptions.txt",2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+Heat_MediumHigh_Industrial,2021,0.005,,Fraction/yr,Assumption anchored: equipment-turnover logic (Madeddu et al. 2020 ERL); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+Heat_MediumLow_Industrial,2021,0.005,,Fraction/yr,Assumption anchored: equipment-turnover logic (Madeddu et al. 2020 ERL); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+Heat_Medium_Industrial,2021,0.005,,Fraction/yr,Assumption anchored: equipment-turnover logic (Madeddu et al. 2020 ERL); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+Mobility_Freight,2021,0.005,,Fraction/yr,Assumption anchored: fleet-turnover/100%-sales bound ~ Norway peak (IEA GEVO); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+Mobility_Passenger,2021,0.005,,Fraction/yr,Assumption anchored: fleet-turnover/100%-sales bound ~ Norway peak (IEA GEVO); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+Power,2021,0.005,,Fraction/yr,Assumption anchored: permissive backstop ~2-3x historical phase-in frontier (Cherp et al. 2021 Nat Energy); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+Air,2025,0.005,,Fraction/yr,"NOTE: row doubles as the CCS addition cap (CCS1 constraint). Anchored: Kazlou/Cherp/Jewell 2024 Nat Clim Change (CCS), IATA (aviation); see Assumptions.txt",2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+Heat_Buildings,2025,0.005,,Fraction/yr,Assumption anchored: heating-stock turnover 15-20y -> <=5-6.7%/yr (IEA Future of Heat Pumps); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+Heat_District,2025,0.005,,Fraction/yr,Assumption anchored: heating-stock turnover (IEA); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+Heat_Low_Industrial,2025,0.005,,Fraction/yr,"Assumption anchored: equipment-turnover logic (Madeddu et al. 2020 ERL: potential, pace thin); see Assumptions.txt",2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+Heat_MediumHigh_Industrial,2025,0.005,,Fraction/yr,Assumption anchored: equipment-turnover logic (Madeddu et al. 2020 ERL); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+Heat_MediumLow_Industrial,2025,0.005,,Fraction/yr,Assumption anchored: equipment-turnover logic (Madeddu et al. 2020 ERL); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+Heat_Medium_Industrial,2025,0.005,,Fraction/yr,Assumption anchored: equipment-turnover logic (Madeddu et al. 2020 ERL); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+Mobility_Freight,2025,0.005,,Fraction/yr,Assumption anchored: fleet-turnover/100%-sales bound ~ Norway peak (IEA GEVO); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+Mobility_Passenger,2025,0.005,,Fraction/yr,Assumption anchored: fleet-turnover/100%-sales bound ~ Norway peak (IEA GEVO); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+Power,2025,0.005,,Fraction/yr,Assumption anchored: permissive backstop ~2-3x historical phase-in frontier (Cherp et al. 2021 Nat Energy); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+H2,2018,0.01,,Fraction/yr,Assumption anchored: emergence-phase feasibility space (Odenweller et al. 2022 Nat Energy); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+H2,2025,0.01,,Fraction/yr,Assumption anchored: emergence-phase feasibility space (Odenweller et al. 2022 Nat Energy); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+H2,2030,0.5,,Fraction/yr,Assumption anchored: emergence-phase feasibility space (Odenweller et al. 2022 Nat Energy); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+H2,2035,0.25,,Fraction/yr,Assumption anchored: emergence-phase feasibility space (Odenweller et al. 2022 Nat Energy); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+H2,2040,0.1,,Fraction/yr,Assumption anchored: emergence-phase feasibility space (Odenweller et al. 2022 Nat Energy); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+H2,2045,0.1,,Fraction/yr,Assumption anchored: emergence-phase feasibility space (Odenweller et al. 2022 Nat Energy); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+H2,2050,0.04,,Fraction/yr,Assumption anchored: emergence-phase feasibility space (Odenweller et al. 2022 Nat Energy); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+H2,2055,0.01,,Fraction/yr,Assumption anchored: emergence-phase feasibility space (Odenweller et al. 2022 Nat Energy); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+H2,2060,0.01,,Fraction/yr,Assumption anchored: emergence-phase feasibility space (Odenweller et al. 2022 Nat Energy); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+Gas_Synth,2018,0.01,,Fraction/yr,Assumption anchored: Odenweller et al. 2022 (downstream of H2 - see consistency note in Assumptions.txt),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+Gas_Synth,2025,0.5,,Fraction/yr,Assumption anchored: Odenweller et al. 2022 (downstream of H2 - see consistency note in Assumptions.txt),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+Gas_Synth,2030,0.4,,Fraction/yr,Assumption anchored: Odenweller et al. 2022 (downstream of H2 - see consistency note in Assumptions.txt),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+Gas_Synth,2035,0.3,,Fraction/yr,Assumption anchored: Odenweller et al. 2022 (downstream of H2 - see consistency note in Assumptions.txt),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+Gas_Synth,2040,0.2,,Fraction/yr,Assumption anchored: Odenweller et al. 2022 (downstream of H2 - see consistency note in Assumptions.txt),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+Gas_Synth,2045,0.1,,Fraction/yr,Assumption anchored: Odenweller et al. 2022 (downstream of H2 - see consistency note in Assumptions.txt),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+Gas_Synth,2050,0.05,,Fraction/yr,Assumption anchored: Odenweller et al. 2022 (downstream of H2 - see consistency note in Assumptions.txt),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+Gas_Synth,2055,0.05,,Fraction/yr,Assumption anchored: Odenweller et al. 2022 (downstream of H2 - see consistency note in Assumptions.txt),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+Gas_Synth,2060,0.05,,Fraction/yr,Assumption anchored: Odenweller et al. 2022 (downstream of H2 - see consistency note in Assumptions.txt),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+H2,2026,0.108,,Fraction/yr,Assumption anchored: emergence-phase feasibility space (Odenweller et al. 2022 Nat Energy); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+H2,2027,0.206,,Fraction/yr,Assumption anchored: emergence-phase feasibility space (Odenweller et al. 2022 Nat Energy); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+H2,2028,0.304,,Fraction/yr,Assumption anchored: emergence-phase feasibility space (Odenweller et al. 2022 Nat Energy); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+H2,2029,0.402,,Fraction/yr,Assumption anchored: emergence-phase feasibility space (Odenweller et al. 2022 Nat Energy); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+H2,2031,0.45,,Fraction/yr,Assumption anchored: emergence-phase feasibility space (Odenweller et al. 2022 Nat Energy); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+H2,2032,0.4,,Fraction/yr,Assumption anchored: emergence-phase feasibility space (Odenweller et al. 2022 Nat Energy); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+H2,2033,0.35,,Fraction/yr,Assumption anchored: emergence-phase feasibility space (Odenweller et al. 2022 Nat Energy); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+H2,2034,0.3,,Fraction/yr,Assumption anchored: emergence-phase feasibility space (Odenweller et al. 2022 Nat Energy); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+H2,2036,0.22,,Fraction/yr,Assumption anchored: emergence-phase feasibility space (Odenweller et al. 2022 Nat Energy); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+H2,2037,0.19,,Fraction/yr,Assumption anchored: emergence-phase feasibility space (Odenweller et al. 2022 Nat Energy); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+H2,2038,0.16,,Fraction/yr,Assumption anchored: emergence-phase feasibility space (Odenweller et al. 2022 Nat Energy); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+H2,2039,0.13,,Fraction/yr,Assumption anchored: emergence-phase feasibility space (Odenweller et al. 2022 Nat Energy); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+Gas_Synth,2026,0.48,,Fraction/yr,Assumption anchored: Odenweller et al. 2022 (downstream of H2 - see consistency note in Assumptions.txt),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+Gas_Synth,2027,0.46,,Fraction/yr,Assumption anchored: Odenweller et al. 2022 (downstream of H2 - see consistency note in Assumptions.txt),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+Gas_Synth,2028,0.44,,Fraction/yr,Assumption anchored: Odenweller et al. 2022 (downstream of H2 - see consistency note in Assumptions.txt),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+Gas_Synth,2029,0.42,,Fraction/yr,Assumption anchored: Odenweller et al. 2022 (downstream of H2 - see consistency note in Assumptions.txt),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+Gas_Synth,2031,0.38,,Fraction/yr,Assumption anchored: Odenweller et al. 2022 (downstream of H2 - see consistency note in Assumptions.txt),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+Gas_Synth,2032,0.36,,Fraction/yr,Assumption anchored: Odenweller et al. 2022 (downstream of H2 - see consistency note in Assumptions.txt),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+Gas_Synth,2033,0.34,,Fraction/yr,Assumption anchored: Odenweller et al. 2022 (downstream of H2 - see consistency note in Assumptions.txt),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+Gas_Synth,2034,0.32,,Fraction/yr,Assumption anchored: Odenweller et al. 2022 (downstream of H2 - see consistency note in Assumptions.txt),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+Gas_Synth,2036,0.28,,Fraction/yr,Assumption anchored: Odenweller et al. 2022 (downstream of H2 - see consistency note in Assumptions.txt),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+Gas_Synth,2037,0.26,,Fraction/yr,Assumption anchored: Odenweller et al. 2022 (downstream of H2 - see consistency note in Assumptions.txt),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+Gas_Synth,2038,0.24,,Fraction/yr,Assumption anchored: Odenweller et al. 2022 (downstream of H2 - see consistency note in Assumptions.txt),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+Gas_Synth,2039,0.22,,Fraction/yr,Assumption anchored: Odenweller et al. 2022 (downstream of H2 - see consistency note in Assumptions.txt),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
