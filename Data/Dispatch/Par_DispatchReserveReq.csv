@@ -8,3 +8,4 @@ WECC,0.06,2.0,,share / GW,operating reserve ~ share of load with largest-conting
 NewYork,0.07,2.6,,share / GW,operating reserve ~ share of load with largest-contingency floor (ISO tariffs),2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewEngland,0.08,2.3,,share / GW,operating reserve ~ share of load with largest-contingency floor (ISO tariffs),2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
 SERC,0.06,2.5,,share / GW,operating reserve ~ share of load with largest-contingency floor (ISO tariffs),2026-07-10,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,0.05,1.5,,share / GW,"NERC operating-reserve standards apply to Canadian BAs; hydro-heavy share assumption, largest-contingency floor ~1.5 GW; added 2026-07-30",2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>

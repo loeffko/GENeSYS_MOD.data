@@ -20,15 +20,15 @@ TS_HEAT_LOW,Hourly data for heat low.,
 TS_HP_AIRSOURCE,Hourly data for air source heat pumps.,
 TS_HP_GROUNDSOURCE,Hourly data for ground source heat pumps.,
 Par_TradeRoute,"Defines trade links between regions for specific fuels. If r is linked to rr, rr has also to be linked with r. Symmetrical matrix with diagonal of zeroes",km
-Par_TradeCosts,Costs for trading a fuel from one region to another.,M€/PJ
+Par_TradeCostFactor,Costs for trading a fuel from one region to another.,M€/PJ
 Par_TradeCapacity,Defines the capacities for trade between two regions in a specific year and for a specific fuel. ,"GW for Power, PJ for Gas"
 Par_TradeCapacityGrowthCosts,Costs of expanding trade capacity.,M€/GW
 Par_GrowthRateTradeCapacity,Defines by how much the trade capacity between two regions can grow,Factor
-Par_AnnualEmissionLimit,Limits the maximum amount of Emissions in a year.,Megatonnes
-Par_AnnualSectoralEmissionLimit,Limits the maximum amount of Emissions for a specific sector and region in a year.,Megatonnes
-Par_RegionalAnnualEmissionLimit,Limits the maximum amount of Emissions for a certain region in a year.,Megatonnes
+Par_AnnualEmissionLimit,Limits the maximum amount of Emissions in a year.,Gigatonnes
+Par_AnnualSectoralEmissionLimit,Limits the maximum amount of Emissions for a specific sector and region in a year.,Gigatonnes
+Par_RegionalAnnualEmissionLimit,Limits the maximum amount of Emissions for a certain region in a year.,Gigatonnes
 Par_EmissionActivityRatio,Emissions factor per unit of activity.,Fraction 
-Par_EmissionsPenalty,Externality cost per unit of emission.,M€/Megatonnes
+Par_EmissionsPenalty,Externality cost per unit of emission.,M€/Gigatonnes
 Par_SpecifiedAnnualDemand,The annual demand for each output fuel. Hourly Data parameters distribute this demand over the timesteps.,PJ/mtkm/mpkm
 Par_ReserveMargin,The reserve (installed) capacity required relative to the peak demand.,Ratio
 Par_InputActivityRatio,"The input (use) of fuel per unit of activity for each technology. Describes, in combination with the OutputActivityRatio, the efficiency of the technology.",Fraction
@@ -47,10 +47,10 @@ Par_OperationalLifeStorage,Operational Life of Storages.,Years
 Par_RampingUpFactor,Ramping up factor.,
 Par_RampingDownFactor,Rampind down factor.,
 Par_ProductionChangeCost,Production change cost.,M€
-Par_EmissionContentPerFuel,Emission content per unit of energy per fuel.,Megatonnes/PJ
+Par_EmissionContentPerFuel,Emission content per unit of energy per fuel.,Gigatonnes/PJ
 Par_OperationalLife,Operational lifespan of a process in years.,Years
 Par_ModelPeriodActivityMaxLimit,Maximum total activity for the complete model period per region.,PJ
-Par_RegionalCCSLimit,Describes how much carbon can be stored per region.,Megatonnes
+Par_RegionalCCSLimit,Describes how much carbon can be stored per region.,Gigatonnes
 Par_RegionalBaseYearProduction,Describes how much of a fuel has to be produced by specific technologies in the base year per region.,PJ
 Par_BaseYearProduction,Describes how much of a fuel has to be produced by specific technologies in the base year across all regions.,PJ
 Par_TagDemandFuelToSector,Assigns final demand fuels to the different sectors.,Binary
@@ -67,5 +67,5 @@ Par_TotalAnnualMinCapacity,Minimum total (residual and new) capacity each year.,
 Par_MinStorageCharge,Lower bound (fraction) of total storage capacity which always has to be charged.,Fraction
 Par_CapitalCostStorage,Capital Cost of storages per energy content.,M€/PJ
 Par_ResidualStorageCapacity,Residual Storage Capacity.,PJ
-Par_AnnualExogenousEmission,Amount of external Emissions for a year in a certain region.,Megatonnes
+Par_AnnualExogenousEmission,Amount of external Emissions for a year in a certain region.,Gigatonnes
 Par_StorageLevelStart,Defines the level of storage at the beginning of a year.,PJ

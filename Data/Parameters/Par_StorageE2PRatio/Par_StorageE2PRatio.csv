@@ -2,7 +2,7 @@ Storage,Year,Value,,Unit,Source,Updated at,Updated by
 S_Battery_Redox,All,8.0,,GWh/GW,VRFB power/energy decoupled (modular) - 4h too short for LDES role; set to 8h within commercial VRFB range 4-12h (DEA tab 181 reference unit 2h is C-rate 1.0 not a duration limit),15.06.2026,Konstantin Loffler <kl@wip.tu-berlin.de>
 S_CAES,All,50.0,,GWh/GW,Danish Energy Agency Storage Data - https://ens.dk/en/our-services/technology-catalogues/technology-data-energy-storage,26.11.2024,Stian Backe <stian.backe@sintef.no>
 S_Gas_H2,All,167.0,,GWh/GW,Assumed 167 MWh/MW Danish Energy Agency Storage Data - https://ens.dk/en/our-services/technology-catalogues/technology-data-energy-storage,26.11.2024,Stian Backe <stian.backe@sintef.no>
-S_Gas_Methane,All,1.0,,GWh/GW,Danish Energy Agency Storage Data - https://ens.dk/en/our-services/technology-catalogues/technology-data-energy-storage,26.11.2024,Stian Backe <stian.backe@sintef.no>
+S_Gas_Methane,All,167,,GWh/GW,aligned with S_Gas_H2 seasonal storage class (was 1 h - implausible; parameter was inert while methane storage assumed free); 2026-07-30,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
 S_HLI_Tank_Large,All,60.0,,GWh/GW,Danish Energy Agency Storage Data - https://ens.dk/en/our-services/technology-catalogues/technology-data-energy-storage,26.11.2024,Stian Backe <stian.backe@sintef.no>
 S_HB_Tank_Small,All,1.0,,GWh/GW,Danish Energy Agency Storage Data - https://ens.dk/en/our-services/technology-catalogues/technology-data-energy-storage,26.11.2024,Stian Backe <stian.backe@sintef.no>
 S_PHS,All,50.0,,GWh/GW,Assumed 50 MWh/MW,26.11.2024,Stian Backe <stian.backe@sintef.no>

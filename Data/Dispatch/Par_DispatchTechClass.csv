@@ -9,4 +9,6 @@ P_Coal_Lignite,Coal,Coal,1,,Binary,lignite fuel basis approximated by the region
 P_Nuclear,Nuclear,Uranium,1,,Binary,dispatch merit-order config,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
 P_Nuclear_SMR,Nuclear,Uranium,1,,Binary,dispatch merit-order config,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
 P_Oil,Oil,Oil,1,,Binary,dispatch merit-order config,2026-07-02,Konstantin Loffler <kl@wip.tu-berlin.de>
-P_SOFC,SOFC,Gas,1,,Binary,dispatch merit-order config,2026-07-05,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_SOFC,SOFC,Gas,1,,Binary,dispatch merit-order config; NOTE: P_SOFC not in the base NA set (serves the dc_high_limitless variant),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_H2_OCGT,OCGT_CT,H2,1,,Binary,dispatch merit-order config; same turbine class as gas OCGT; H2 fuel has no bins/factors -> neutral; added 2026-07-30,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Biomass,Biomass,Biomass,1,,Binary,dispatch merit-order config; CHP-anchored fleet; neutral single bin; added 2026-07-30,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>

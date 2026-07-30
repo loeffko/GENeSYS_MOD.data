@@ -1,0 +1,18 @@
+Par_InitialMaxNewTradeCapacity — assumptions (introduced 2026-07-30)
+
+Purpose: max NEW trade capacity in the first build year on a VIRGIN corridor
+(exogenous base capacity = 0). The growth-rate constraints (TrC3/TrC4a/TrC5a)
+scale on previous-year capacity, so a corridor starting at zero could never
+open; this parameter replaces the former HARDCODED bootstrap constants in
+genesysmod_equ.jl (100 PJ gas / 50 PJ H2; Power had no bootstrap at all).
+Neutral default (absent row/sheet) = 0 = corridor cannot open via the
+growth path.
+
+Values (per directed pair, from the Par_TradeRoute network):
+	- Power 3 GW: one modern HVDC bipole class (2x1.5-2 GW).
+	- Gas_Natural 300 PJ/yr (~9.5 GW): one mid-size new pipeline (30-36",
+	  ACER size classes).
+	- H2 150 PJ/yr (~4.75 GW usable): EHB medium (36") new-build class.
+Uniform across pairs for now - pair-specific overrides possible (e.g.
+smaller for island links). No rows for other fuels (no growth constraint
+exists for them).
