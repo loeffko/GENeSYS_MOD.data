@@ -1,0 +1,16 @@
+
+P_Geothermal (DE states) — re-sourced 2026-07-30:
+	- Source: BMVI-Online-Publikation 08/2015, Tab. 16 p. 99 (technical
+	  hydrothermal electricity-generation potential per Bundesland, GWh_el/a,
+	  100-year resource-use assumption; underlying study Jung et al. 2002,
+	  GGA-Institut - background to TAB-Arbeitsbericht 84).
+	- Conversion: GWh/a x 0.0036 = PJ/a, held constant over all years
+	  (static technical potential). Zero-potential states carry a 0.001 PJ
+	  model placeholder.
+	- Scope caveats: hydrothermal aquifers ONLY (no petrothermal/EGS -
+	  conservative vs TAB-84's ~300 TWh/a); assumes exhausting the resource
+	  over 100 years; the report warns exploitation is uneconomic far from
+	  heat sinks. Molasse basin attributed 100% to BY; Upper Rhine Graben
+	  split BW/RP/HE; North German Basin over BE/BB/HB/MV/NI/ST.
+	- Bug fixed 2026-07-30: Sachsen/Sachsen-Anhalt values were transposed
+	  (DE_SN had 5.35968 PJ that belongs to DE_ST; Tab. 16: Sachsen = 0).
