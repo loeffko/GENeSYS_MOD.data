@@ -42,53 +42,53 @@ SINTEF Potential for Steam Regeneration in Norwegian Industry,SINTEF_Potential_f
 ENTSO-E/ENTSOG TYNDP 2022 Scenario Report,TYNDP_2022_Scenario_Report.xlsx,https://2022.entsos-tyndp-scenarios.eu/,Par_CommissionedTradeCapacity; Par_SpecifiedAnnualDemand
 DEA Technology Data catalogue for energy storage,technology_data_catalogue_for_energy_storage.xlsx,https://ens.dk/en/our-services/technology-catalogues/technology-data-energy-storage,Par_CapitalCostStorage; Par_OperationalLifeStorage; Par_StorageE2PRatio
 DEA technology data for el and dh (duplicate of DEA_technology_data_for_el_and_dh.xlsx - kept for legacy references),technology_data_for_el_and_dh.xlsx,https://ens.dk/en/our-services/technology-catalogues,Par_CapitalCost; Par_FixedCost; Par_VariableCost
-Model/scenario assumption or repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_AnnualEmissionLimit
-Model/scenario assumption or repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_AnnualExogenousEmission
-Model/scenario assumption or repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_AnnualMaxNewCapacity
-Model/scenario assumption or repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_AnnualMaxTradeCapacity
-Model/scenario assumption or repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_AnnualMinNewCapacity
-Model/scenario assumption or repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_AnnualMinTradeCapacity
-Model/scenario assumption or repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_AnnualSectoralEmissionLimit
-Model/scenario assumption or repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_AvailabilityFactor
-Model/scenario assumption or repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_BaseYearProduction
-Model/scenario assumption or repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_BaseYearSlack
-Model/scenario assumption or repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_CapacityFactor
-Model/scenario assumption or repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_CommissionedTradeCapacity
-Model/scenario assumption or repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_DistrictHeatDemand
-Model/scenario assumption or repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_DistrictHeatSplit
-Model/scenario assumption or repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_GeneralDiscountRate
-Model/scenario assumption or repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_GroupAnnualMaxTradeCapacity
-Model/scenario assumption or repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_GroupTotalAnnualMaxCapacity
-Model/scenario assumption or repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_GroupTotalAnnualMaxNewCap
-Model/scenario assumption or repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_GroupTotalAnnualMinCapacity
-Model/scenario assumption or repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_GrowthRateTradeCapacity
-Model/scenario assumption or repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_InitialMaxNewTradeCapacity
-Model/scenario assumption or repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_InputActivityRatio
-Model/scenario assumption or repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_MinStorageCharge
-Model/scenario assumption or repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_ModelPeriodActivityMaxLimit
-Model/scenario assumption or repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_ModelPeriodEmissionLimit
-Model/scenario assumption or repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_ModelPeriodExogenousEmission
-Model/scenario assumption or repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_NewCapacityExpansionStop
-Model/scenario assumption or repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_OperationalLifeStorage
-Model/scenario assumption or repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_OutputActivityRatio
-Model/scenario assumption or repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_ProductionGrowthLimit
-Model/scenario assumption or repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_REMinProductionTarget
-Model/scenario assumption or repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_RegionalAnnualEmissionLimit
-Model/scenario assumption or repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_RegionalCCSLimit
-Model/scenario assumption or repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_RegionalModelPeriodEmissionLimit
-Model/scenario assumption or repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_ReserveMargin
-Model/scenario assumption or repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_ResidualStorageCapacity
-Model/scenario assumption or repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_SelfSufficiency
-Model/scenario assumption or repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_SocialDiscountRate
-Model/scenario assumption or repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_SpecifiedDemandDevelopment
-Model/scenario assumption or repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_StorageE2PRatio
-Model/scenario assumption or repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_StorageLevelStart
-Model/scenario assumption or repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_TechnologyDiscountRate
-Model/scenario assumption or repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_TechnologyFromStorage
-Model/scenario assumption or repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_TechnologyToStorage
-Model/scenario assumption or repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_TotalAnnualMaxCapacity
-Model/scenario assumption or repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_TotalAnnualMinActivity
-Model/scenario assumption or repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_TotalAnnualMinCapacity
-Model/scenario assumption or repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_TradeCostFactor
-Model/scenario assumption or repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_TradeLossFactor
-Model/scenario assumption or repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_TradeRoute
+Assumption / repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_AnnualEmissionLimit
+Assumption / repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_AnnualExogenousEmission
+"Partner Feedback Man0EUvRE - Sandrine Charousset; Partner Feedback Man0EUvRE; partner feedback CIEMAT (Spanish NECP) (+ assumptions/derived rows, 56%)",-,-,Par_AnnualMaxNewCapacity
+"IC transfer capability, High/NTP ceiling (MW/1000), floored at existin",-,-,Par_AnnualMaxTradeCapacity
+empty/header-only parameter (neutral default) - no source needed,-,-,Par_AnnualMinNewCapacity
+"IC transfer capability, Low floor (MW/1000), capped at existing",-,-,Par_AnnualMinTradeCapacity
+Assumption / repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_AnnualSectoralEmissionLimit
+"https://beyondfossilfuels.org/europes-coal-exit/; by definition only 1, no source needed; Man0EUvRE Partner Feedback (LNEG) (+ assumptions/derived rows, 62%)",-,-,Par_AvailabilityFactor
+empty/header-only parameter (neutral default) - no source needed,-,-,Par_BaseYearProduction
+Assumption / repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_BaseYearSlack
+empty/header-only parameter (neutral default) - no source needed,-,-,Par_CapacityFactor
+"https://ember-climate.org/data/data-tools/electricity-interconnection-; TYNDP 2022 - Annex C2; TYNDP 2024 Starting Grid (+ assumptions/derived rows, 72%)",-,-,Par_CommissionedTradeCapacity
+"Statistics Norway: District heating and district cooling (https://www. (+ assumptions/derived rows, 99%)",-,-,Par_DistrictHeatDemand
+Assumption / repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_DistrictHeatSplit
+Assumption / repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_GeneralDiscountRate
+empty/header-only parameter (neutral default) - no source needed,-,-,Par_GroupAnnualMaxTradeCapacity
+"geothermal_allocation_model.xlsx (Sebastian, April 2026); SLA Offshore Wind Scenarios (Central<=2035 / High>2035, cumulative, 'O",-,-,Par_GroupTotalAnnualMaxCapacity
+"engines cap: 2.5 GW/yr from 2027, raised to the capacities-file forced (+ assumptions/derived rows, 80%)",-,-,Par_GroupTotalAnnualMaxNewCap
+"geothermal_allocation_model.xlsx (Sebastian, April 2026); SLA Offshore Wind Scenarios (Low Case, cumulative, 'Other')",-,-,Par_GroupTotalAnnualMinCapacity
+"no source needed, limitation for existing / historic years; Ember (2024): Putting the mission in transmission: Grids for Europe’s  (+ assumptions/derived rows, 48%)",-,-,Par_GrowthRateTradeCapacity
+Assumption / repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_InitialMaxNewTradeCapacity
+"Energy Agency Denmark (2024): Generation efficiency decrease 10%; Xu et al. (2023): https://doi.org/10.1016/j.trd.2023.103661 + Energy A; Energy Agency Denmark (2024): Gas turb. Cc - average (+ assumptions/derived rows, 72%)",-,-,Par_InputActivityRatio
+empty/header-only parameter (neutral default) - no source needed,-,-,Par_MinStorageCharge
+"BP Satistical Review of World Energy - 2018; Global Energy Monitor Wiki (+ assumptions/derived rows, 14%)",-,-,Par_ModelPeriodActivityMaxLimit
+Unlimited,-,-,Par_ModelPeriodEmissionLimit
+empty/header-only parameter (neutral default) - no source needed,-,-,Par_ModelPeriodExogenousEmission
+Feedback from Partner in Man0EUvRE Project - Sandrine Charousset; Feedback from Partner in Man0EUvRE Project - LNEG; https://www.bmk.gv.at/themen/klima_umwelt/nuklearpolitik/euratom/eu.ht,-,-,Par_NewCapacityExpansionStop
+Danish Energy Agency Storage Data- https://ens.dk/en/our-services/tech; Energy Agency Denmark (2024)- CAES; Zhao et al. (2022): https://doi.org/10.1016/j.est.2021.103649,-,-,Par_OperationalLifeStorage
+"Energy Agency Denmark (2024): Generation efficiency decrease 10%; irrelevant - no input fuel; irrelevant - resource (+ assumptions/derived rows, 55%)",-,-,Par_OutputActivityRatio
+Assumption / repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_ProductionGrowthLimit
+Assumption / repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_REMinProductionTarget
+Assumption / repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_RegionalAnnualEmissionLimit
+"Unlocking Europes CO2 Storage Potential (July 2023)- Theoretical CO2 s (+ assumptions/derived rows, 22%)",-,-,Par_RegionalCCSLimit
+Unlimited,-,-,Par_RegionalModelPeriodEmissionLimit
+Assumption / repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_ReserveMargin
+"based on ResidualCapacity of D_Battery_Li-Ion; based on ResidualCapacity of D_PHS (+ assumptions/derived rows, 44%)",-,-,Par_ResidualStorageCapacity
+Assumption / repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_SelfSufficiency
+Assumption / repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_SocialDiscountRate
+Assumption / repo-internal derivation - see the parameter folder Assumptions.txt,-,-,Par_SpecifiedDemandDevelopment
+fleet duration mix wavg (30/20/30/20 x 1/2/4/8h at 2040 = 3.5h); devia; Danish Energy Agency Storage Data - https://ens.dk/en/our-services/tec; VRFB power/energy decoupled (modular) - 4h too short for LDES role; se,-,-,Par_StorageE2PRatio
+empty/header-only parameter (neutral default) - no source needed,-,-,Par_StorageLevelStart
+"FEL2026 LCOE Model file V1.4, dated 2026-06-18; FEL2026 LCOE Model file V1.4, dated 2026-06-18 (LCOE Geothermal WACC (; FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EU WACC column)",-,-,Par_TechnologyDiscountRate
+"DEA Technology Data for Energy Storage cat.0010 (2024) tab 181 VRFB; D; Energy Agency Denmark (2024)- CAES - upper; Energy Agency Denmark (2024)- Li-Ion Battery - upper (+ assumptions/derived rows, 39%)",-,-,Par_TechnologyFromStorage
+"DEA Technology Data for Energy Storage cat.0010 (2024) tab 181 VRFB; D; Energy Agency Denmark (2024): CAES - upper; Energy Agency Denmark (2024): Lithium-Ion - upper (+ assumptions/derived rows, 24%)",-,-,Par_TechnologyToStorage
+"Guardrail (2026-2035) + restool potential (2036-2040); Nuclear=LSR x h; SLA Offshore Wind Scenarios (High Case, cumulative) + NA_restool wind ; no source needed, unlimited (+ assumptions/derived rows, 38%)",-,-,Par_TotalAnnualMaxCapacity
+EIA-923 2024 biomass gen x0.9 (CHP/contract must-run persistence; no-g,-,-,Par_TotalAnnualMinActivity
+"US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Co; SLA Offshore Wind Scenarios (Low Case, cumulative); eurostat statistics: energy - infrastructure - batteries",-,-,Par_TotalAnnualMinCapacity
+"https://ens.dk/sites/ens.dk/files/Analyser/technology_data_for_energy_; https://ens.dk/sites/ens.dk/files/Transport/technology_data_for_commer; DeSantis et al. 2021: https://doi.org/10.1016/j.isci.2021.103495 + G.  (+ assumptions/derived rows, 27%)",-,-,Par_TradeCostFactor
+https://www.marcogaz.org/wp-content/uploads/2021/04/WG-ME-17-09.pdf; Kanz et al. (2023): https://doi.org/10.1039/D3SE00281K; https://www.ceer.eu/wp-content/uploads/2024/04/C19-EQS-101-03_Report_o,-,-,Par_TradeLossFactor
+"great-circle between region centroids; great-circle between region centroids (route was missing although pool (+ assumptions/derived rows, 97%)",-,-,Par_TradeRoute
