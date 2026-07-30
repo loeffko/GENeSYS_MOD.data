@@ -76,13 +76,13 @@ FR,CO2,2035,0.0398419,,Gt,Own Calculation based on: https://unfccc.int/ghg-inven
 FR,CO2,2040,0.0165012,,Gt,Own Calculation based on: https://unfccc.int/ghg-inventories-annex-i-parties/2023 - CRT,15.08.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
 FR,CO2,2045,-0.0068395,,Gt,Own Calculation based on: https://unfccc.int/ghg-inventories-annex-i-parties/2023 - CRT,15.08.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
 FR,CO2,2050,-0.0301802,,Gt,Own Calculation based on: https://unfccc.int/ghg-inventories-annex-i-parties/2023 - CRT,15.08.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-GR,CO2,2021,0.0955331,,Gt,Own Calculation based on: https://unfccc.int/ghg-inventories-annex-i-parties/2023 - CRT,15.08.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-GR,CO2,2025,0.076338,,Gt,Own Calculation based on: https://unfccc.int/ghg-inventories-annex-i-parties/2023 - CRT,15.08.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-GR,CO2,2030,0.0571428,,Gt,Own Calculation based on: https://unfccc.int/ghg-inventories-annex-i-parties/2023 - CRT,15.08.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-GR,CO2,2035,0.0379477,,Gt,Own Calculation based on: https://unfccc.int/ghg-inventories-annex-i-parties/2023 - CRT,15.08.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-GR,CO2,2040,0.0187525,,Gt,Own Calculation based on: https://unfccc.int/ghg-inventories-annex-i-parties/2023 - CRT,15.08.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-GR,CO2,2045,-0.0004426,,Gt,Own Calculation based on: https://unfccc.int/ghg-inventories-annex-i-parties/2023 - CRT,15.08.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-GR,CO2,2050,-0.0196378,,Gt,Own Calculation based on: https://unfccc.int/ghg-inventories-annex-i-parties/2023 - CRT,15.08.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
+GR,CO2,2021,0.017196,,Gt,INTERIM: UK-row-copy bug fixed by scaling with GR/UK total-GHG ratio ~0.18 (UNFCCC 2021); proper CRT re-derivation pending (source-verified 2026-07-30),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+GR,CO2,2025,0.0137408,,Gt,INTERIM: UK-row-copy bug fixed by scaling with GR/UK total-GHG ratio ~0.18 (UNFCCC 2021); proper CRT re-derivation pending (source-verified 2026-07-30),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+GR,CO2,2030,0.0102857,,Gt,INTERIM: UK-row-copy bug fixed by scaling with GR/UK total-GHG ratio ~0.18 (UNFCCC 2021); proper CRT re-derivation pending (source-verified 2026-07-30),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+GR,CO2,2035,0.0068306,,Gt,INTERIM: UK-row-copy bug fixed by scaling with GR/UK total-GHG ratio ~0.18 (UNFCCC 2021); proper CRT re-derivation pending (source-verified 2026-07-30),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+GR,CO2,2040,0.0033754,,Gt,INTERIM: UK-row-copy bug fixed by scaling with GR/UK total-GHG ratio ~0.18 (UNFCCC 2021); proper CRT re-derivation pending (source-verified 2026-07-30),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+GR,CO2,2045,-7.97e-05,,Gt,INTERIM: UK-row-copy bug fixed by scaling with GR/UK total-GHG ratio ~0.18 (UNFCCC 2021); proper CRT re-derivation pending (source-verified 2026-07-30),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+GR,CO2,2050,-0.0035348,,Gt,INTERIM: UK-row-copy bug fixed by scaling with GR/UK total-GHG ratio ~0.18 (UNFCCC 2021); proper CRT re-derivation pending (source-verified 2026-07-30),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
 HR,CO2,2021,0.0023717,,Gt,Own Calculation based on: https://unfccc.int/ghg-inventories-annex-i-parties/2023 - CRT,15.08.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
 HR,CO2,2025,0.0008419,,Gt,Own Calculation based on: https://unfccc.int/ghg-inventories-annex-i-parties/2023 - CRT,15.08.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
 HR,CO2,2030,-0.0006879,,Gt,Own Calculation based on: https://unfccc.int/ghg-inventories-annex-i-parties/2023 - CRT,15.08.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
@@ -220,7 +220,7 @@ EE,CO2,2018,0.0050744,,Gt,same as 2021,15.08.2024,Konstantin Loffler <kl@wip.tu-
 ES,CO2,2018,0.0282681,,Gt,same as 2021,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
 FI,CO2,2018,0.0139529,,Gt,same as 2021,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
 FR,CO2,2018,0.1098639,,Gt,same as 2021,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-GR,CO2,2018,0.0955331,,Gt,same as 2021,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
+GR,CO2,2018,0.017196,,Gt,INTERIM: UK-row-copy bug fixed by scaling with GR/UK total-GHG ratio ~0.18 (UNFCCC 2021); proper CRT re-derivation pending (source-verified 2026-07-30),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
 HR,CO2,2018,0.0023717,,Gt,same as 2021,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
 HU,CO2,2018,0.010885,,Gt,same as 2021,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
 IE,CO2,2018,0.034478,,Gt,same as 2021,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
@@ -261,8 +261,8 @@ FI,CO2,2055,-0.0119668,,Gt,same as 2050 for now,29.01.2025,Nikita Moskalenko <ni
 FI,CO2,2060,-0.0119668,,Gt,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 FR,CO2,2055,-0.0301802,,Gt,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 FR,CO2,2060,-0.0301802,,Gt,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-GR,CO2,2055,-0.0196378,,Gt,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-GR,CO2,2060,-0.0196378,,Gt,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+GR,CO2,2055,-0.0035348,,Gt,INTERIM: UK-row-copy bug fixed by scaling with GR/UK total-GHG ratio ~0.18 (UNFCCC 2021); proper CRT re-derivation pending (source-verified 2026-07-30),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+GR,CO2,2060,-0.0035348,,Gt,INTERIM: UK-row-copy bug fixed by scaling with GR/UK total-GHG ratio ~0.18 (UNFCCC 2021); proper CRT re-derivation pending (source-verified 2026-07-30),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
 HR,CO2,2055,-0.0068072,,Gt,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 HR,CO2,2060,-0.0068072,,Gt,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 HU,CO2,2055,-0.0076004,,Gt,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
@@ -531,18 +531,18 @@ FR,CO2,2036,0.0351738,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-
 FR,CO2,2037,0.0305056,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
 FR,CO2,2038,0.0258375,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
 FR,CO2,2039,0.0211693,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-GR,CO2,2026,0.072499,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-GR,CO2,2027,0.0686599,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-GR,CO2,2028,0.0648209,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-GR,CO2,2029,0.0609818,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-GR,CO2,2031,0.0533038,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-GR,CO2,2032,0.0494648,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-GR,CO2,2033,0.0456257,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-GR,CO2,2034,0.0417867,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-GR,CO2,2036,0.0341087,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-GR,CO2,2037,0.0302696,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-GR,CO2,2038,0.0264306,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
-GR,CO2,2039,0.0225915,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
+GR,CO2,2026,0.0130498,,Gt,INTERIM: UK-row-copy bug fixed by scaling with GR/UK total-GHG ratio ~0.18 (UNFCCC 2021); proper CRT re-derivation pending (source-verified 2026-07-30),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+GR,CO2,2027,0.0123588,,Gt,INTERIM: UK-row-copy bug fixed by scaling with GR/UK total-GHG ratio ~0.18 (UNFCCC 2021); proper CRT re-derivation pending (source-verified 2026-07-30),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+GR,CO2,2028,0.0116678,,Gt,INTERIM: UK-row-copy bug fixed by scaling with GR/UK total-GHG ratio ~0.18 (UNFCCC 2021); proper CRT re-derivation pending (source-verified 2026-07-30),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+GR,CO2,2029,0.0109767,,Gt,INTERIM: UK-row-copy bug fixed by scaling with GR/UK total-GHG ratio ~0.18 (UNFCCC 2021); proper CRT re-derivation pending (source-verified 2026-07-30),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+GR,CO2,2031,0.0095947,,Gt,INTERIM: UK-row-copy bug fixed by scaling with GR/UK total-GHG ratio ~0.18 (UNFCCC 2021); proper CRT re-derivation pending (source-verified 2026-07-30),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+GR,CO2,2032,0.0089037,,Gt,INTERIM: UK-row-copy bug fixed by scaling with GR/UK total-GHG ratio ~0.18 (UNFCCC 2021); proper CRT re-derivation pending (source-verified 2026-07-30),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+GR,CO2,2033,0.0082126,,Gt,INTERIM: UK-row-copy bug fixed by scaling with GR/UK total-GHG ratio ~0.18 (UNFCCC 2021); proper CRT re-derivation pending (source-verified 2026-07-30),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+GR,CO2,2034,0.0075216,,Gt,INTERIM: UK-row-copy bug fixed by scaling with GR/UK total-GHG ratio ~0.18 (UNFCCC 2021); proper CRT re-derivation pending (source-verified 2026-07-30),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+GR,CO2,2036,0.0061396,,Gt,INTERIM: UK-row-copy bug fixed by scaling with GR/UK total-GHG ratio ~0.18 (UNFCCC 2021); proper CRT re-derivation pending (source-verified 2026-07-30),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+GR,CO2,2037,0.0054485,,Gt,INTERIM: UK-row-copy bug fixed by scaling with GR/UK total-GHG ratio ~0.18 (UNFCCC 2021); proper CRT re-derivation pending (source-verified 2026-07-30),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+GR,CO2,2038,0.0047575,,Gt,INTERIM: UK-row-copy bug fixed by scaling with GR/UK total-GHG ratio ~0.18 (UNFCCC 2021); proper CRT re-derivation pending (source-verified 2026-07-30),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+GR,CO2,2039,0.0040665,,Gt,INTERIM: UK-row-copy bug fixed by scaling with GR/UK total-GHG ratio ~0.18 (UNFCCC 2021); proper CRT re-derivation pending (source-verified 2026-07-30),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
 HR,CO2,2026,0.00053594,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
 HR,CO2,2027,0.00022998,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>
 HR,CO2,2028,-7.60E-05,,Gt,interpolated,15.08.2024,Konstantin Loffler <kl@wip.tu-berlin.de>

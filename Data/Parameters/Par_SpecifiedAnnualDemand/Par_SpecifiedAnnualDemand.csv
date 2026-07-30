@@ -9815,24 +9815,24 @@ NONEU_Balkan,Mobility_Passenger,2055,50.4809,,Gpkm,same as 2050 for now,29.01.20
 NONEU_Balkan,Mobility_Passenger,2060,50.4809,,Gpkm,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 NONEU_Balkan,Power,2018,218.0645,,PJ,Calibrated endogenously,05.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 NONEU_Balkan,Power,2020,175.9292,,PJ,unsourced legacy EU entry; magnitude plausibility-checked 2026-07-30 (no outliers found); citation needed,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
-NONEU_Balkan,Power,2025,174.5735,,PJ,No development from 2020,08.09.2023,Stian Backe <stian.backe@sintef.no>
+NONEU_Balkan,Power,2025,174.5735,,PJ,Slight decline from 2020 (-8.6% by 2040); label corrected to match values (2026-07-30),2026-07-30,Stian Backe <stian.backe@sintef.no>
 NONEU_Balkan,Power,2026,172.538,,PJ,interpolated,05.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 NONEU_Balkan,Power,2027,170.502,,PJ,interpolated,05.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 NONEU_Balkan,Power,2028,168.466,,PJ,interpolated,05.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 NONEU_Balkan,Power,2029,166.43,,PJ,interpolated,05.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-NONEU_Balkan,Power,2030,164.394,,PJ,No development from 2020,08.09.2023,Stian Backe <stian.backe@sintef.no>
+NONEU_Balkan,Power,2030,164.394,,PJ,Slight decline from 2020 (-8.6% by 2040); label corrected to match values (2026-07-30),2026-07-30,Stian Backe <stian.backe@sintef.no>
 NONEU_Balkan,Power,2031,163.947,,PJ,interpolated,05.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 NONEU_Balkan,Power,2032,163.5,,PJ,interpolated,05.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 NONEU_Balkan,Power,2033,163.052,,PJ,interpolated,05.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 NONEU_Balkan,Power,2034,162.605,,PJ,interpolated,05.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-NONEU_Balkan,Power,2035,162.1578,,PJ,No development from 2020,08.09.2023,Stian Backe <stian.backe@sintef.no>
+NONEU_Balkan,Power,2035,162.1578,,PJ,Slight decline from 2020 (-8.6% by 2040); label corrected to match values (2026-07-30),2026-07-30,Stian Backe <stian.backe@sintef.no>
 NONEU_Balkan,Power,2036,161.891,,PJ,interpolated,05.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 NONEU_Balkan,Power,2037,161.624,,PJ,interpolated,05.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 NONEU_Balkan,Power,2038,161.357,,PJ,interpolated,05.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 NONEU_Balkan,Power,2039,161.089,,PJ,interpolated,05.04.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-NONEU_Balkan,Power,2040,160.8223,,PJ,No development from 2020,08.09.2023,Stian Backe <stian.backe@sintef.no>
-NONEU_Balkan,Power,2045,158.3317,,PJ,No development from 2020,08.09.2023,Stian Backe <stian.backe@sintef.no>
-NONEU_Balkan,Power,2050,155.9912,,PJ,No development from 2020,08.09.2023,Stian Backe <stian.backe@sintef.no>
+NONEU_Balkan,Power,2040,160.8223,,PJ,Slight decline from 2020 (-8.6% by 2040); label corrected to match values (2026-07-30),2026-07-30,Stian Backe <stian.backe@sintef.no>
+NONEU_Balkan,Power,2045,158.3317,,PJ,Slight decline from 2020 (-8.6% by 2040); label corrected to match values (2026-07-30),2026-07-30,Stian Backe <stian.backe@sintef.no>
+NONEU_Balkan,Power,2050,155.9912,,PJ,Slight decline from 2020 (-8.6% by 2040); label corrected to match values (2026-07-30),2026-07-30,Stian Backe <stian.backe@sintef.no>
 NONEU_Balkan,Power,2055,155.9912,,PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 NONEU_Balkan,Power,2060,155.9912,,PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 NewEngland,Power_BEVs,2025,0.0,,PJ,FEL 2026 Base (NA_inputs/base_fel_v260707_v2.xlsx),2026-05-28,Konstantin Loffler <kl@wip.tu-berlin.de>

@@ -596,38 +596,6 @@ IE,Z_Import_H2,2018,0.0,,Fraction,"by definition only 1, no source needed",22.01
 IE,Z_Import_H2,2025,0.0,,Fraction,"by definition only 1, no source needed",22.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 IE,Z_Import_H2,All,1.0,,Fraction,"by definition only 1, no source needed",24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
 IE,Z_Import_LNG,All,1.0,,Fraction,"by definition only 1, no source needed",24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,CHP_Coal_Hardcoal,2025,0.0,,Fraction,https://beyondfossilfuels.org/europes-coal-exit/,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,CHP_Coal_Hardcoal,2030,0.0,,Fraction,https://beyondfossilfuels.org/europes-coal-exit/,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,CHP_Coal_Hardcoal,2035,0.0,,Fraction,https://beyondfossilfuels.org/europes-coal-exit/,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,CHP_Coal_Hardcoal,2040,0.0,,Fraction,https://beyondfossilfuels.org/europes-coal-exit/,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,CHP_Coal_Hardcoal,2045,0.0,,Fraction,https://beyondfossilfuels.org/europes-coal-exit/,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,CHP_Coal_Hardcoal,2050,0.0,,Fraction,https://beyondfossilfuels.org/europes-coal-exit/,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,CHP_Coal_Hardcoal,2055,0.0,,Fraction,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-IR,CHP_Coal_Hardcoal,2060,0.0,,Fraction,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-IR,CHP_Coal_Hardcoal_CCS,2025,0.0,,Fraction,https://beyondfossilfuels.org/europes-coal-exit/,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,CHP_Coal_Hardcoal_CCS,2030,0.0,,Fraction,https://beyondfossilfuels.org/europes-coal-exit/,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,CHP_Coal_Hardcoal_CCS,2035,0.0,,Fraction,https://beyondfossilfuels.org/europes-coal-exit/,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,CHP_Coal_Hardcoal_CCS,2040,0.0,,Fraction,https://beyondfossilfuels.org/europes-coal-exit/,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,CHP_Coal_Hardcoal_CCS,2045,0.0,,Fraction,https://beyondfossilfuels.org/europes-coal-exit/,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,CHP_Coal_Hardcoal_CCS,2050,0.0,,Fraction,https://beyondfossilfuels.org/europes-coal-exit/,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,CHP_Coal_Hardcoal_CCS,2055,0.0,,Fraction,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-IR,CHP_Coal_Hardcoal_CCS,2060,0.0,,Fraction,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-IR,P_Coal_Hardcoal,2025,0.0,,Fraction,https://beyondfossilfuels.org/europes-coal-exit/,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,P_Coal_Hardcoal,2030,0.0,,Fraction,https://beyondfossilfuels.org/europes-coal-exit/,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,P_Coal_Hardcoal,2035,0.0,,Fraction,https://beyondfossilfuels.org/europes-coal-exit/,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,P_Coal_Hardcoal,2040,0.0,,Fraction,https://beyondfossilfuels.org/europes-coal-exit/,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,P_Coal_Hardcoal,2045,0.0,,Fraction,https://beyondfossilfuels.org/europes-coal-exit/,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,P_Coal_Hardcoal,2050,0.0,,Fraction,https://beyondfossilfuels.org/europes-coal-exit/,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,P_Coal_Hardcoal,2055,0.0,,Fraction,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-IR,P_Coal_Hardcoal,2060,0.0,,Fraction,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-IR,P_Coal_Hardcoal_CCS,2025,0.0,,Fraction,https://beyondfossilfuels.org/europes-coal-exit/,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,P_Coal_Hardcoal_CCS,2030,0.0,,Fraction,https://beyondfossilfuels.org/europes-coal-exit/,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,P_Coal_Hardcoal_CCS,2035,0.0,,Fraction,https://beyondfossilfuels.org/europes-coal-exit/,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,P_Coal_Hardcoal_CCS,2040,0.0,,Fraction,https://beyondfossilfuels.org/europes-coal-exit/,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,P_Coal_Hardcoal_CCS,2045,0.0,,Fraction,https://beyondfossilfuels.org/europes-coal-exit/,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,P_Coal_Hardcoal_CCS,2050,0.0,,Fraction,https://beyondfossilfuels.org/europes-coal-exit/,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,P_Coal_Hardcoal_CCS,2055,0.0,,Fraction,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-IR,P_Coal_Hardcoal_CCS,2060,0.0,,Fraction,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 IT,CHP_Coal_Hardcoal,2030,0.0,,Fraction,https://beyondfossilfuels.org/europes-coal-exit/,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
 IT,CHP_Coal_Hardcoal,2035,0.0,,Fraction,https://beyondfossilfuels.org/europes-coal-exit/,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
 IT,CHP_Coal_Hardcoal,2040,0.0,,Fraction,https://beyondfossilfuels.org/europes-coal-exit/,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
@@ -1857,54 +1825,6 @@ IE,P_Coal_Hardcoal_CCS,2036,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Phil
 IE,P_Coal_Hardcoal_CCS,2037,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
 IE,P_Coal_Hardcoal_CCS,2038,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
 IE,P_Coal_Hardcoal_CCS,2039,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,CHP_Coal_Hardcoal,2026,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,CHP_Coal_Hardcoal,2027,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,CHP_Coal_Hardcoal,2028,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,CHP_Coal_Hardcoal,2029,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,CHP_Coal_Hardcoal,2031,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,CHP_Coal_Hardcoal,2032,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,CHP_Coal_Hardcoal,2033,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,CHP_Coal_Hardcoal,2034,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,CHP_Coal_Hardcoal,2036,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,CHP_Coal_Hardcoal,2037,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,CHP_Coal_Hardcoal,2038,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,CHP_Coal_Hardcoal,2039,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,CHP_Coal_Hardcoal_CCS,2026,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,CHP_Coal_Hardcoal_CCS,2027,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,CHP_Coal_Hardcoal_CCS,2028,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,CHP_Coal_Hardcoal_CCS,2029,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,CHP_Coal_Hardcoal_CCS,2031,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,CHP_Coal_Hardcoal_CCS,2032,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,CHP_Coal_Hardcoal_CCS,2033,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,CHP_Coal_Hardcoal_CCS,2034,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,CHP_Coal_Hardcoal_CCS,2036,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,CHP_Coal_Hardcoal_CCS,2037,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,CHP_Coal_Hardcoal_CCS,2038,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,CHP_Coal_Hardcoal_CCS,2039,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,P_Coal_Hardcoal,2026,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,P_Coal_Hardcoal,2027,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,P_Coal_Hardcoal,2028,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,P_Coal_Hardcoal,2029,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,P_Coal_Hardcoal,2031,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,P_Coal_Hardcoal,2032,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,P_Coal_Hardcoal,2033,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,P_Coal_Hardcoal,2034,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,P_Coal_Hardcoal,2036,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,P_Coal_Hardcoal,2037,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,P_Coal_Hardcoal,2038,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,P_Coal_Hardcoal,2039,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,P_Coal_Hardcoal_CCS,2026,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,P_Coal_Hardcoal_CCS,2027,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,P_Coal_Hardcoal_CCS,2028,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,P_Coal_Hardcoal_CCS,2029,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,P_Coal_Hardcoal_CCS,2031,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,P_Coal_Hardcoal_CCS,2032,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,P_Coal_Hardcoal_CCS,2033,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,P_Coal_Hardcoal_CCS,2034,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,P_Coal_Hardcoal_CCS,2036,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,P_Coal_Hardcoal_CCS,2037,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,P_Coal_Hardcoal_CCS,2038,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
-IR,P_Coal_Hardcoal_CCS,2039,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
 IT,CHP_Coal_Hardcoal,2031,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
 IT,CHP_Coal_Hardcoal,2032,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
 IT,CHP_Coal_Hardcoal,2033,0.0,,Fraction,interpolated,24.07.2024,"Herpich, Philipp <phe@wip.tu-berlin.de>"
@@ -2502,3 +2422,23 @@ SERC,P_Biomass,All,0.5,,share,EIA 2024 biomass fleet CF ~46%; AF = annual CF cap
 PJM,P_Biomass,All,0.5,,share,EIA 2024 biomass fleet CF ~46%; AF = annual CF cap,2026-07-13,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewYork,P_Biomass,All,0.5,,share,EIA 2024 biomass fleet CF ~46%; AF = annual CF cap,2026-07-13,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewEngland,P_Biomass,All,0.5,,share,EIA 2024 biomass fleet CF ~46%; AF = annual CF cap,2026-07-13,Konstantin Loffler <kl@wip.tu-berlin.de>
+IE,CHP_Coal_Hardcoal,2025,0.0,,Fraction,"Moneypoint closed 2025-06 (beyondfossilfuels.org, source-verified 2026-07-30); previously fell back to World 0.80 through 2029",2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+IE,CHP_Coal_Hardcoal,2026,0.0,,Fraction,"Moneypoint closed 2025-06 (beyondfossilfuels.org, source-verified 2026-07-30); previously fell back to World 0.80 through 2029",2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+IE,CHP_Coal_Hardcoal,2027,0.0,,Fraction,"Moneypoint closed 2025-06 (beyondfossilfuels.org, source-verified 2026-07-30); previously fell back to World 0.80 through 2029",2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+IE,CHP_Coal_Hardcoal,2028,0.0,,Fraction,"Moneypoint closed 2025-06 (beyondfossilfuels.org, source-verified 2026-07-30); previously fell back to World 0.80 through 2029",2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+IE,CHP_Coal_Hardcoal,2029,0.0,,Fraction,"Moneypoint closed 2025-06 (beyondfossilfuels.org, source-verified 2026-07-30); previously fell back to World 0.80 through 2029",2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+IE,CHP_Coal_Hardcoal_CCS,2025,0.0,,Fraction,"Moneypoint closed 2025-06 (beyondfossilfuels.org, source-verified 2026-07-30); previously fell back to World 0.80 through 2029",2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+IE,CHP_Coal_Hardcoal_CCS,2026,0.0,,Fraction,"Moneypoint closed 2025-06 (beyondfossilfuels.org, source-verified 2026-07-30); previously fell back to World 0.80 through 2029",2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+IE,CHP_Coal_Hardcoal_CCS,2027,0.0,,Fraction,"Moneypoint closed 2025-06 (beyondfossilfuels.org, source-verified 2026-07-30); previously fell back to World 0.80 through 2029",2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+IE,CHP_Coal_Hardcoal_CCS,2028,0.0,,Fraction,"Moneypoint closed 2025-06 (beyondfossilfuels.org, source-verified 2026-07-30); previously fell back to World 0.80 through 2029",2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+IE,CHP_Coal_Hardcoal_CCS,2029,0.0,,Fraction,"Moneypoint closed 2025-06 (beyondfossilfuels.org, source-verified 2026-07-30); previously fell back to World 0.80 through 2029",2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+IE,P_Coal_Hardcoal,2025,0.0,,Fraction,"Moneypoint closed 2025-06 (beyondfossilfuels.org, source-verified 2026-07-30); previously fell back to World 0.80 through 2029",2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+IE,P_Coal_Hardcoal,2026,0.0,,Fraction,"Moneypoint closed 2025-06 (beyondfossilfuels.org, source-verified 2026-07-30); previously fell back to World 0.80 through 2029",2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+IE,P_Coal_Hardcoal,2027,0.0,,Fraction,"Moneypoint closed 2025-06 (beyondfossilfuels.org, source-verified 2026-07-30); previously fell back to World 0.80 through 2029",2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+IE,P_Coal_Hardcoal,2028,0.0,,Fraction,"Moneypoint closed 2025-06 (beyondfossilfuels.org, source-verified 2026-07-30); previously fell back to World 0.80 through 2029",2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+IE,P_Coal_Hardcoal,2029,0.0,,Fraction,"Moneypoint closed 2025-06 (beyondfossilfuels.org, source-verified 2026-07-30); previously fell back to World 0.80 through 2029",2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+IE,P_Coal_Hardcoal_CCS,2025,0.0,,Fraction,"Moneypoint closed 2025-06 (beyondfossilfuels.org, source-verified 2026-07-30); previously fell back to World 0.80 through 2029",2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+IE,P_Coal_Hardcoal_CCS,2026,0.0,,Fraction,"Moneypoint closed 2025-06 (beyondfossilfuels.org, source-verified 2026-07-30); previously fell back to World 0.80 through 2029",2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+IE,P_Coal_Hardcoal_CCS,2027,0.0,,Fraction,"Moneypoint closed 2025-06 (beyondfossilfuels.org, source-verified 2026-07-30); previously fell back to World 0.80 through 2029",2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+IE,P_Coal_Hardcoal_CCS,2028,0.0,,Fraction,"Moneypoint closed 2025-06 (beyondfossilfuels.org, source-verified 2026-07-30); previously fell back to World 0.80 through 2029",2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+IE,P_Coal_Hardcoal_CCS,2029,0.0,,Fraction,"Moneypoint closed 2025-06 (beyondfossilfuels.org, source-verified 2026-07-30); previously fell back to World 0.80 through 2029",2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>

@@ -372,7 +372,7 @@ World,FRT_Road_LNG,2021,26.1320354,,MEUR/Gtkm/year,5% of CAPEX,26.08.2024,Alena 
 World,FRT_Road_LNG,2025,26.1320354,,MEUR/Gtkm/year,5% of CAPEX,26.08.2024,Alena Diesing <ad@wip.tu-berlin.de>,
 World,FRT_Road_LNG,2030,25.16530973,,MEUR/Gtkm/year,5% of CAPEX,26.08.2024,Alena Diesing <ad@wip.tu-berlin.de>,
 World,FRT_Road_LNG,2035,24.19858407,,MEUR/Gtkm/year,5% of CAPEX,26.08.2024,Alena Diesing <ad@wip.tu-berlin.de>,
-World,FRT_Road_LNG,2040,24.17955752,,MEUR/Gtkm/year,5% of CAPEX,26.08.2024,Alena Diesing <ad@wip.tu-berlin.de>,
+World,FRT_Road_LNG,2040,24.1605,,MEUR/Gtkm/year,5% of CAPEX; corrected off-by-one-year pull from transport.xlsx (2035 column was used; source-verified 2026-07-30),2026-07-30,Alena Diesing <ad@wip.tu-berlin.de>,
 World,FRT_Road_LNG,2045,24.16053097,,MEUR/Gtkm/year,5% of CAPEX,26.08.2024,Alena Diesing <ad@wip.tu-berlin.de>,
 World,FRT_Road_LNG,2050,24.12831858,,MEUR/Gtkm/year,5% of CAPEX,26.08.2024,Alena Diesing <ad@wip.tu-berlin.de>,
 World,FRT_Road_LNG,2055,24.12831858,,MEUR/Gtkm/year,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>,

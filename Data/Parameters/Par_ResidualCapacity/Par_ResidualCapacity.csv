@@ -1002,7 +1002,7 @@ CZ,P_Wind_Offshore_Transitional,2050,0.0,,GW,WindEurope- Wind energy in Europe s
 CZ,P_Wind_Offshore_Transitional,2055,0.0,,GW,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 CZ,P_Wind_Offshore_Transitional,2060,0.0,,GW,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 CZ,P_Wind_Onshore_Avg,2018,0.317,,GW,WindEurope- Wind energy in Europe statistics 2022,22.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
-CZ,P_Wind_Onshore_Avg,2020,0.48,,GW,WindEurope- Wind energy in Europe statistics 2022,22.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
+CZ,P_Wind_Onshore_Avg,2020,0.339,,GW,Czech wind capacity end-2020 = 339 MW (source-verified 2026-07-30),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
 CZ,P_Wind_Onshore_Avg,2025,0.48,,GW,WindEurope- Wind energy in Europe statistics 2022,22.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
 CZ,P_Wind_Onshore_Avg,2030,0.434,,GW,WindEurope- Wind energy in Europe statistics 2022,22.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
 CZ,P_Wind_Onshore_Avg,2035,0.0812,,GW,WindEurope- Wind energy in Europe statistics 2022,22.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
@@ -3432,16 +3432,16 @@ FR,P_Nuclear,2045,40.0,,GW,Entsoe Transparency Platform - Installed Capacity per
 FR,P_Nuclear,2050,25.0,,GW,Entsoe Transparency Platform - Installed Capacity per Production Type,08.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
 FR,P_Nuclear,2055,25.0,,GW,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 FR,P_Nuclear,2060,25.0,,GW,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-FR,P_Oil,2018,6.2,,GW,Entsoe Transparency Platform - Installed Capacity per Production Type,02.09.2024,Jonathan Hanto <joh@wip.tu-berlin.de>
-FR,P_Oil,2020,6.2,,GW,Entsoe Transparency Platform - Installed Capacity per Production Type,02.09.2024,Jonathan Hanto <joh@wip.tu-berlin.de>
-FR,P_Oil,2025,6.2,,GW,Entsoe Transparency Platform - Installed Capacity per Production Type,02.09.2024,Jonathan Hanto <joh@wip.tu-berlin.de>
-FR,P_Oil,2030,6.2,,GW,Entsoe Transparency Platform - Installed Capacity per Production Type,02.09.2024,Jonathan Hanto <joh@wip.tu-berlin.de>
-FR,P_Oil,2035,6.2,,GW,Entsoe Transparency Platform - Installed Capacity per Production Type,02.09.2024,Jonathan Hanto <joh@wip.tu-berlin.de>
-FR,P_Oil,2040,0.5345,,GW,Entsoe Transparency Platform - Installed Capacity per Production Type,02.09.2024,Jonathan Hanto <joh@wip.tu-berlin.de>
-FR,P_Oil,2045,0.5314,,GW,Entsoe Transparency Platform - Installed Capacity per Production Type,02.09.2024,Jonathan Hanto <joh@wip.tu-berlin.de>
-FR,P_Oil,2050,0.0685,,GW,Entsoe Transparency Platform - Installed Capacity per Production Type,02.09.2024,Jonathan Hanto <joh@wip.tu-berlin.de>
-FR,P_Oil,2055,0.0685,,GW,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-FR,P_Oil,2060,0.0685,,GW,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+FR,P_Oil,2018,2.9,,GW,RTE Bilan Electrique 2020: 2.897 GW oil fleet; series rescaled from 6.2 GW anchor preserving retirement shape (source-verified 2026-07-30),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+FR,P_Oil,2020,2.9,,GW,RTE Bilan Electrique 2020: 2.897 GW oil fleet; series rescaled from 6.2 GW anchor preserving retirement shape (source-verified 2026-07-30),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+FR,P_Oil,2025,2.9,,GW,RTE Bilan Electrique 2020: 2.897 GW oil fleet; series rescaled from 6.2 GW anchor preserving retirement shape (source-verified 2026-07-30),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+FR,P_Oil,2030,2.9,,GW,RTE Bilan Electrique 2020: 2.897 GW oil fleet; series rescaled from 6.2 GW anchor preserving retirement shape (source-verified 2026-07-30),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+FR,P_Oil,2035,2.9,,GW,RTE Bilan Electrique 2020: 2.897 GW oil fleet; series rescaled from 6.2 GW anchor preserving retirement shape (source-verified 2026-07-30),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+FR,P_Oil,2040,0.25,,GW,RTE Bilan Electrique 2020: 2.897 GW oil fleet; series rescaled from 6.2 GW anchor preserving retirement shape (source-verified 2026-07-30),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+FR,P_Oil,2045,0.2486,,GW,RTE Bilan Electrique 2020: 2.897 GW oil fleet; series rescaled from 6.2 GW anchor preserving retirement shape (source-verified 2026-07-30),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+FR,P_Oil,2050,0.032,,GW,RTE Bilan Electrique 2020: 2.897 GW oil fleet; series rescaled from 6.2 GW anchor preserving retirement shape (source-verified 2026-07-30),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+FR,P_Oil,2055,0.032,,GW,RTE Bilan Electrique 2020: 2.897 GW oil fleet; series rescaled from 6.2 GW anchor preserving retirement shape (source-verified 2026-07-30),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+FR,P_Oil,2060,0.032,,GW,RTE Bilan Electrique 2020: 2.897 GW oil fleet; series rescaled from 6.2 GW anchor preserving retirement shape (source-verified 2026-07-30),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
 FR,P_PV_Utility_Avg,2018,7.17,,GW,Entsoe Transparency Platform - Installed Capacity per Production Type,08.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
 FR,P_PV_Utility_Avg,2020,8.9,,GW,Entsoe Transparency Platform - Installed Capacity per Production Type,08.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
 FR,P_PV_Utility_Avg,2025,8.9,,GW,Entsoe Transparency Platform - Installed Capacity per Production Type,08.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
@@ -5888,7 +5888,7 @@ PL,P_Wind_Offshore_Transitional,2050,0.0,,GW,WindEurope- Wind energy in Europe s
 PL,P_Wind_Offshore_Transitional,2055,0.0,,GW,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 PL,P_Wind_Offshore_Transitional,2060,0.0,,GW,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 PL,P_Wind_Onshore_Avg,2018,5.21,,GW,WindEurope- Wind energy in Europe statistics 2022,22.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
-PL,P_Wind_Onshore_Avg,2020,5.1,,GW,WindEurope- Wind energy in Europe statistics 2022,22.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
+PL,P_Wind_Onshore_Avg,2020,6.35,,GW,URE (Polish regulator) end-2020 cumulative = 6.35 GW (source-verified 2026-07-30),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
 PL,P_Wind_Onshore_Avg,2025,5.1,,GW,WindEurope- Wind energy in Europe statistics 2022,22.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
 PL,P_Wind_Onshore_Avg,2030,4.3589,,GW,WindEurope- Wind energy in Europe statistics 2022,22.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
 PL,P_Wind_Onshore_Avg,2035,2.6763,,GW,WindEurope- Wind energy in Europe statistics 2022,22.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
@@ -6274,16 +6274,16 @@ RO,P_PV_Utility_Avg,2045,0.0,,GW,Entsoe Transparency Platform - Installed Capaci
 RO,P_PV_Utility_Avg,2050,0.0,,GW,Entsoe Transparency Platform - Installed Capacity per Production Type | Assumption based on operational life of technology,06.09.2024,Jonathan Hanto <joh@wip.tu-berlin.de>
 RO,P_PV_Utility_Avg,2055,0.0,,GW,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 RO,P_PV_Utility_Avg,2060,0.0,,GW,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-RO,P_Wind_Offshore_Transitional,2018,0.0,,GW,WindEurope- Wind energy in Europe statistics 2022,22.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
-RO,P_Wind_Offshore_Transitional,2020,0.632,,GW,WindEurope- Wind energy in Europe statistics 2022,22.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
-RO,P_Wind_Offshore_Transitional,2025,0.632,,GW,WindEurope- Wind energy in Europe statistics 2022,22.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
-RO,P_Wind_Offshore_Transitional,2030,0.1896,,GW,WindEurope- Wind energy in Europe statistics 2022,22.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
-RO,P_Wind_Offshore_Transitional,2035,0.0316,,GW,WindEurope- Wind energy in Europe statistics 2022,22.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
-RO,P_Wind_Offshore_Transitional,2040,0.0,,GW,WindEurope- Wind energy in Europe statistics 2022,22.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
-RO,P_Wind_Offshore_Transitional,2045,0.0,,GW,WindEurope- Wind energy in Europe statistics 2022,22.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
-RO,P_Wind_Offshore_Transitional,2050,0.0,,GW,WindEurope- Wind energy in Europe statistics 2022,22.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
-RO,P_Wind_Offshore_Transitional,2055,0.0,,GW,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-RO,P_Wind_Offshore_Transitional,2060,0.0,,GW,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+RO,P_Wind_Offshore_Transitional,2018,0,,GW,no offshore wind exists in RO/SI (source-verified 2026-07-30; was phantom capacity),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+RO,P_Wind_Offshore_Transitional,2020,0,,GW,no offshore wind exists in RO/SI (source-verified 2026-07-30; was phantom capacity),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+RO,P_Wind_Offshore_Transitional,2025,0,,GW,no offshore wind exists in RO/SI (source-verified 2026-07-30; was phantom capacity),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+RO,P_Wind_Offshore_Transitional,2030,0,,GW,no offshore wind exists in RO/SI (source-verified 2026-07-30; was phantom capacity),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+RO,P_Wind_Offshore_Transitional,2035,0,,GW,no offshore wind exists in RO/SI (source-verified 2026-07-30; was phantom capacity),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+RO,P_Wind_Offshore_Transitional,2040,0,,GW,no offshore wind exists in RO/SI (source-verified 2026-07-30; was phantom capacity),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+RO,P_Wind_Offshore_Transitional,2045,0,,GW,no offshore wind exists in RO/SI (source-verified 2026-07-30; was phantom capacity),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+RO,P_Wind_Offshore_Transitional,2050,0,,GW,no offshore wind exists in RO/SI (source-verified 2026-07-30; was phantom capacity),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+RO,P_Wind_Offshore_Transitional,2055,0,,GW,no offshore wind exists in RO/SI (source-verified 2026-07-30; was phantom capacity),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+RO,P_Wind_Offshore_Transitional,2060,0,,GW,no offshore wind exists in RO/SI (source-verified 2026-07-30; was phantom capacity),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
 RO,P_Wind_Onshore_Avg,2018,3.029,,GW,WindEurope- Wind energy in Europe statistics 2022,22.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
 RO,P_Wind_Onshore_Avg,2020,3.3,,GW,WindEurope- Wind energy in Europe statistics 2022,22.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
 RO,P_Wind_Onshore_Avg,2025,3.3,,GW,WindEurope- Wind energy in Europe statistics 2022,22.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
@@ -6739,16 +6739,16 @@ SI,P_PV_Utility_Avg,2045,0.0,,GW,Assumption based on Entsoe Transparency Platfor
 SI,P_PV_Utility_Avg,2050,0.0,,GW,Assumption based on Entsoe Transparency Platform - Installed Capacity per Production Type,06.09.2024,Jonathan Hanto <joh@wip.tu-berlin.de>
 SI,P_PV_Utility_Avg,2055,0.0,,GW,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 SI,P_PV_Utility_Avg,2060,0.0,,GW,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-SI,P_Wind_Offshore_Transitional,2018,0.0,,GW,WindEurope- Wind energy in Europe statistics 2022,22.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
-SI,P_Wind_Offshore_Transitional,2020,0.006,,GW,WindEurope- Wind energy in Europe statistics 2022,22.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
-SI,P_Wind_Offshore_Transitional,2025,0.006,,GW,WindEurope- Wind energy in Europe statistics 2022,22.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
-SI,P_Wind_Offshore_Transitional,2030,0.0018,,GW,WindEurope- Wind energy in Europe statistics 2022,22.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
-SI,P_Wind_Offshore_Transitional,2035,0.0003,,GW,WindEurope- Wind energy in Europe statistics 2022,22.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
-SI,P_Wind_Offshore_Transitional,2040,0.0,,GW,WindEurope- Wind energy in Europe statistics 2022,22.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
-SI,P_Wind_Offshore_Transitional,2045,0.0,,GW,WindEurope- Wind energy in Europe statistics 2022,22.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
-SI,P_Wind_Offshore_Transitional,2050,0.0,,GW,WindEurope- Wind energy in Europe statistics 2022,22.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
-SI,P_Wind_Offshore_Transitional,2055,0.0,,GW,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-SI,P_Wind_Offshore_Transitional,2060,0.0,,GW,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+SI,P_Wind_Offshore_Transitional,2018,0,,GW,no offshore wind exists in RO/SI (source-verified 2026-07-30; was phantom capacity),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+SI,P_Wind_Offshore_Transitional,2020,0,,GW,no offshore wind exists in RO/SI (source-verified 2026-07-30; was phantom capacity),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+SI,P_Wind_Offshore_Transitional,2025,0,,GW,no offshore wind exists in RO/SI (source-verified 2026-07-30; was phantom capacity),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+SI,P_Wind_Offshore_Transitional,2030,0,,GW,no offshore wind exists in RO/SI (source-verified 2026-07-30; was phantom capacity),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+SI,P_Wind_Offshore_Transitional,2035,0,,GW,no offshore wind exists in RO/SI (source-verified 2026-07-30; was phantom capacity),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+SI,P_Wind_Offshore_Transitional,2040,0,,GW,no offshore wind exists in RO/SI (source-verified 2026-07-30; was phantom capacity),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+SI,P_Wind_Offshore_Transitional,2045,0,,GW,no offshore wind exists in RO/SI (source-verified 2026-07-30; was phantom capacity),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+SI,P_Wind_Offshore_Transitional,2050,0,,GW,no offshore wind exists in RO/SI (source-verified 2026-07-30; was phantom capacity),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+SI,P_Wind_Offshore_Transitional,2055,0,,GW,no offshore wind exists in RO/SI (source-verified 2026-07-30; was phantom capacity),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+SI,P_Wind_Offshore_Transitional,2060,0,,GW,no offshore wind exists in RO/SI (source-verified 2026-07-30; was phantom capacity),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
 SI,P_Wind_Onshore_Avg,2018,0.003,,GW,WindEurope- Wind energy in Europe statistics 2022,22.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
 SI,P_Wind_Onshore_Avg,2020,0.0,,GW,WindEurope- Wind energy in Europe statistics 2022,22.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
 SI,P_Wind_Onshore_Avg,2025,0.0,,GW,WindEurope- Wind energy in Europe statistics 2022,22.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
@@ -19948,18 +19948,18 @@ FR,P_Nuclear,2036,56.4,,GW,interpolated,08.09.2023,Martha Pedersen <martha.peder
 FR,P_Nuclear,2037,54.8,,GW,interpolated,08.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
 FR,P_Nuclear,2038,53.2,,GW,interpolated,08.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
 FR,P_Nuclear,2039,51.6,,GW,interpolated,08.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
-FR,P_Oil,2026,6.2,,GW,interpolated,02.09.2024,Jonathan Hanto <joh@wip.tu-berlin.de>
-FR,P_Oil,2027,6.2,,GW,interpolated,02.09.2024,Jonathan Hanto <joh@wip.tu-berlin.de>
-FR,P_Oil,2028,6.2,,GW,interpolated,02.09.2024,Jonathan Hanto <joh@wip.tu-berlin.de>
-FR,P_Oil,2029,6.2,,GW,interpolated,02.09.2024,Jonathan Hanto <joh@wip.tu-berlin.de>
-FR,P_Oil,2031,6.2,,GW,interpolated,02.09.2024,Jonathan Hanto <joh@wip.tu-berlin.de>
-FR,P_Oil,2032,6.2,,GW,interpolated,02.09.2024,Jonathan Hanto <joh@wip.tu-berlin.de>
-FR,P_Oil,2033,6.2,,GW,interpolated,02.09.2024,Jonathan Hanto <joh@wip.tu-berlin.de>
-FR,P_Oil,2034,6.2,,GW,interpolated,02.09.2024,Jonathan Hanto <joh@wip.tu-berlin.de>
-FR,P_Oil,2036,5.0669,,GW,interpolated,02.09.2024,Jonathan Hanto <joh@wip.tu-berlin.de>
-FR,P_Oil,2037,3.9338,,GW,interpolated,02.09.2024,Jonathan Hanto <joh@wip.tu-berlin.de>
-FR,P_Oil,2038,2.8007,,GW,interpolated,02.09.2024,Jonathan Hanto <joh@wip.tu-berlin.de>
-FR,P_Oil,2039,1.6676,,GW,interpolated,02.09.2024,Jonathan Hanto <joh@wip.tu-berlin.de>
+FR,P_Oil,2026,2.9,,GW,RTE Bilan Electrique 2020: 2.897 GW oil fleet; series rescaled from 6.2 GW anchor preserving retirement shape (source-verified 2026-07-30),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+FR,P_Oil,2027,2.9,,GW,RTE Bilan Electrique 2020: 2.897 GW oil fleet; series rescaled from 6.2 GW anchor preserving retirement shape (source-verified 2026-07-30),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+FR,P_Oil,2028,2.9,,GW,RTE Bilan Electrique 2020: 2.897 GW oil fleet; series rescaled from 6.2 GW anchor preserving retirement shape (source-verified 2026-07-30),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+FR,P_Oil,2029,2.9,,GW,RTE Bilan Electrique 2020: 2.897 GW oil fleet; series rescaled from 6.2 GW anchor preserving retirement shape (source-verified 2026-07-30),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+FR,P_Oil,2031,2.9,,GW,RTE Bilan Electrique 2020: 2.897 GW oil fleet; series rescaled from 6.2 GW anchor preserving retirement shape (source-verified 2026-07-30),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+FR,P_Oil,2032,2.9,,GW,RTE Bilan Electrique 2020: 2.897 GW oil fleet; series rescaled from 6.2 GW anchor preserving retirement shape (source-verified 2026-07-30),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+FR,P_Oil,2033,2.9,,GW,RTE Bilan Electrique 2020: 2.897 GW oil fleet; series rescaled from 6.2 GW anchor preserving retirement shape (source-verified 2026-07-30),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+FR,P_Oil,2034,2.9,,GW,RTE Bilan Electrique 2020: 2.897 GW oil fleet; series rescaled from 6.2 GW anchor preserving retirement shape (source-verified 2026-07-30),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+FR,P_Oil,2036,2.37,,GW,RTE Bilan Electrique 2020: 2.897 GW oil fleet; series rescaled from 6.2 GW anchor preserving retirement shape (source-verified 2026-07-30),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+FR,P_Oil,2037,1.84,,GW,RTE Bilan Electrique 2020: 2.897 GW oil fleet; series rescaled from 6.2 GW anchor preserving retirement shape (source-verified 2026-07-30),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+FR,P_Oil,2038,1.31,,GW,RTE Bilan Electrique 2020: 2.897 GW oil fleet; series rescaled from 6.2 GW anchor preserving retirement shape (source-verified 2026-07-30),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+FR,P_Oil,2039,0.78,,GW,RTE Bilan Electrique 2020: 2.897 GW oil fleet; series rescaled from 6.2 GW anchor preserving retirement shape (source-verified 2026-07-30),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
 FR,P_PV_Utility_Avg,2026,8.9,,GW,interpolated,08.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
 FR,P_PV_Utility_Avg,2027,8.9,,GW,interpolated,08.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
 FR,P_PV_Utility_Avg,2028,8.9,,GW,interpolated,08.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
@@ -23392,18 +23392,18 @@ RO,P_PV_Utility_Avg,2036,1.59648,,GW,interpolated,06.09.2024,Jonathan Hanto <joh
 RO,P_PV_Utility_Avg,2037,1.19736,,GW,interpolated,06.09.2024,Jonathan Hanto <joh@wip.tu-berlin.de>
 RO,P_PV_Utility_Avg,2038,0.79824,,GW,interpolated,06.09.2024,Jonathan Hanto <joh@wip.tu-berlin.de>
 RO,P_PV_Utility_Avg,2039,0.39912,,GW,interpolated,06.09.2024,Jonathan Hanto <joh@wip.tu-berlin.de>
-RO,P_Wind_Offshore_Transitional,2026,0.54352,,GW,interpolated,22.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
-RO,P_Wind_Offshore_Transitional,2027,0.45504,,GW,interpolated,22.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
-RO,P_Wind_Offshore_Transitional,2028,0.36656,,GW,interpolated,22.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
-RO,P_Wind_Offshore_Transitional,2029,0.27808,,GW,interpolated,22.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
-RO,P_Wind_Offshore_Transitional,2031,0.158,,GW,interpolated,22.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
-RO,P_Wind_Offshore_Transitional,2032,0.1264,,GW,interpolated,22.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
-RO,P_Wind_Offshore_Transitional,2033,0.0948,,GW,interpolated,22.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
-RO,P_Wind_Offshore_Transitional,2034,0.0632,,GW,interpolated,22.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
-RO,P_Wind_Offshore_Transitional,2036,0.02528,,GW,interpolated,22.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
-RO,P_Wind_Offshore_Transitional,2037,0.01896,,GW,interpolated,22.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
-RO,P_Wind_Offshore_Transitional,2038,0.01264,,GW,interpolated,22.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
-RO,P_Wind_Offshore_Transitional,2039,0.00632,,GW,interpolated,22.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
+RO,P_Wind_Offshore_Transitional,2026,0,,GW,no offshore wind exists in RO/SI (source-verified 2026-07-30; was phantom capacity),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+RO,P_Wind_Offshore_Transitional,2027,0,,GW,no offshore wind exists in RO/SI (source-verified 2026-07-30; was phantom capacity),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+RO,P_Wind_Offshore_Transitional,2028,0,,GW,no offshore wind exists in RO/SI (source-verified 2026-07-30; was phantom capacity),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+RO,P_Wind_Offshore_Transitional,2029,0,,GW,no offshore wind exists in RO/SI (source-verified 2026-07-30; was phantom capacity),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+RO,P_Wind_Offshore_Transitional,2031,0,,GW,no offshore wind exists in RO/SI (source-verified 2026-07-30; was phantom capacity),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+RO,P_Wind_Offshore_Transitional,2032,0,,GW,no offshore wind exists in RO/SI (source-verified 2026-07-30; was phantom capacity),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+RO,P_Wind_Offshore_Transitional,2033,0,,GW,no offshore wind exists in RO/SI (source-verified 2026-07-30; was phantom capacity),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+RO,P_Wind_Offshore_Transitional,2034,0,,GW,no offshore wind exists in RO/SI (source-verified 2026-07-30; was phantom capacity),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+RO,P_Wind_Offshore_Transitional,2036,0,,GW,no offshore wind exists in RO/SI (source-verified 2026-07-30; was phantom capacity),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+RO,P_Wind_Offshore_Transitional,2037,0,,GW,no offshore wind exists in RO/SI (source-verified 2026-07-30; was phantom capacity),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+RO,P_Wind_Offshore_Transitional,2038,0,,GW,no offshore wind exists in RO/SI (source-verified 2026-07-30; was phantom capacity),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+RO,P_Wind_Offshore_Transitional,2039,0,,GW,no offshore wind exists in RO/SI (source-verified 2026-07-30; was phantom capacity),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
 RO,P_Wind_Onshore_Avg,2026,3.29982,,GW,interpolated,22.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
 RO,P_Wind_Onshore_Avg,2027,3.29964,,GW,interpolated,22.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
 RO,P_Wind_Onshore_Avg,2028,3.29946,,GW,interpolated,22.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
@@ -23956,18 +23956,18 @@ SI,P_PV_Utility_Avg,2036,0.006,,GW,interpolated,06.09.2024,Jonathan Hanto <joh@w
 SI,P_PV_Utility_Avg,2037,0.0045,,GW,interpolated,06.09.2024,Jonathan Hanto <joh@wip.tu-berlin.de>
 SI,P_PV_Utility_Avg,2038,0.003,,GW,interpolated,06.09.2024,Jonathan Hanto <joh@wip.tu-berlin.de>
 SI,P_PV_Utility_Avg,2039,0.0015,,GW,interpolated,06.09.2024,Jonathan Hanto <joh@wip.tu-berlin.de>
-SI,P_Wind_Offshore_Transitional,2026,0.00516,,GW,interpolated,22.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
-SI,P_Wind_Offshore_Transitional,2027,0.00432,,GW,interpolated,22.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
-SI,P_Wind_Offshore_Transitional,2028,0.00348,,GW,interpolated,22.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
-SI,P_Wind_Offshore_Transitional,2029,0.00264,,GW,interpolated,22.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
-SI,P_Wind_Offshore_Transitional,2031,0.0015,,GW,interpolated,22.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
-SI,P_Wind_Offshore_Transitional,2032,0.0012,,GW,interpolated,22.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
-SI,P_Wind_Offshore_Transitional,2033,0.0009,,GW,interpolated,22.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
-SI,P_Wind_Offshore_Transitional,2034,0.0006,,GW,interpolated,22.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
-SI,P_Wind_Offshore_Transitional,2036,0.00024,,GW,interpolated,22.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
-SI,P_Wind_Offshore_Transitional,2037,0.00018,,GW,interpolated,22.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
-SI,P_Wind_Offshore_Transitional,2038,0.00012,,GW,interpolated,22.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
-SI,P_Wind_Offshore_Transitional,2039,6e-05,,GW,interpolated,22.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
+SI,P_Wind_Offshore_Transitional,2026,0,,GW,no offshore wind exists in RO/SI (source-verified 2026-07-30; was phantom capacity),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+SI,P_Wind_Offshore_Transitional,2027,0,,GW,no offshore wind exists in RO/SI (source-verified 2026-07-30; was phantom capacity),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+SI,P_Wind_Offshore_Transitional,2028,0,,GW,no offshore wind exists in RO/SI (source-verified 2026-07-30; was phantom capacity),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+SI,P_Wind_Offshore_Transitional,2029,0,,GW,no offshore wind exists in RO/SI (source-verified 2026-07-30; was phantom capacity),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+SI,P_Wind_Offshore_Transitional,2031,0,,GW,no offshore wind exists in RO/SI (source-verified 2026-07-30; was phantom capacity),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+SI,P_Wind_Offshore_Transitional,2032,0,,GW,no offshore wind exists in RO/SI (source-verified 2026-07-30; was phantom capacity),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+SI,P_Wind_Offshore_Transitional,2033,0,,GW,no offshore wind exists in RO/SI (source-verified 2026-07-30; was phantom capacity),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+SI,P_Wind_Offshore_Transitional,2034,0,,GW,no offshore wind exists in RO/SI (source-verified 2026-07-30; was phantom capacity),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+SI,P_Wind_Offshore_Transitional,2036,0,,GW,no offshore wind exists in RO/SI (source-verified 2026-07-30; was phantom capacity),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+SI,P_Wind_Offshore_Transitional,2037,0,,GW,no offshore wind exists in RO/SI (source-verified 2026-07-30; was phantom capacity),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+SI,P_Wind_Offshore_Transitional,2038,0,,GW,no offshore wind exists in RO/SI (source-verified 2026-07-30; was phantom capacity),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+SI,P_Wind_Offshore_Transitional,2039,0,,GW,no offshore wind exists in RO/SI (source-verified 2026-07-30; was phantom capacity),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
 SI,P_Wind_Onshore_Avg,2026,0.0,,GW,interpolated,22.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
 SI,P_Wind_Onshore_Avg,2027,0.0,,GW,interpolated,22.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
 SI,P_Wind_Onshore_Avg,2028,0.0,,GW,interpolated,22.09.2023,Martha Pedersen <martha.pedersen@sintef.no>
