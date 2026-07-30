@@ -71,8 +71,8 @@ BE,CHP_Coal_Hardcoal,Power,2018,0.573,,PJ,,,
 BE,CHP_Gas_CCGT_Natural,Power,2018,27.237,,PJ,,,
 BE,CHP_Oil,Power,2018,0.397,,PJ,,,
 BE,P_Biomass,Power,2018,9.4317948,,PJ,Entsoe Transparency Platform - Actual Generation per Production Type,17.03.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-BE,P_Gas_CCGT,Power,2018,32.6153292,,PJ,Entsoe Transparency Platform - Actual Generation per Production Type,17.03.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-BE,P_Gas_OCGT,Power,2018,47.6763924,,PJ,Entsoe Transparency Platform - Actual Generation per Production Type,17.03.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
+BE,P_Gas_CCGT,Power,2018,51.4217,,PJ,Entsoe Transparency Platform - Actual Generation per Production Type; +18.806 PJ reallocated from over-allocated peaker base-year production 2026-07-30,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+BE,P_Gas_OCGT,Power,2018,28.87,,PJ,capped at residual-fleet max generation (was 47.6763924: statistical gas generation over-allocated to peakers; excess moved to CCGT); base-year feasibility fix 2026-07-30,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
 BE,P_Nuclear,Power,2018,98.1060228,,PJ,Entsoe Transparency Platform - Actual Generation per Production Type,17.03.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 BE,P_Oil,Power,2018,0.0158148,,PJ,Entsoe Transparency Platform - Actual Generation per Production Type,17.03.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 BG,HB_Biomass,Heat_Buildings,2018,33.616,,PJ,,,
@@ -203,9 +203,9 @@ CZ,CHP_Oil,Power,2018,0.307,,PJ,,,
 CZ,P_Biomass,Power,2018,13.646,,PJ,,,
 CZ,P_Coal_Hardcoal,Power,2018,10.483,,PJ,,,
 CZ,P_Coal_Lignite,Power,2018,116.598,,PJ,,,
-CZ,P_Gas_CCGT,Power,2018,7.237,,PJ,,,
-CZ,P_Gas_Engines,Power,2018,0.831,,PJ,,,
-CZ,P_Gas_OCGT,Power,2018,0.914,,PJ,,,
+CZ,P_Gas_CCGT,Power,2018,7.8480,,PJ,; +0.075 PJ reallocated from over-allocated peaker base-year production 2026-07-30; +0.536 PJ reallocated from over-allocated peaker base-year production 2026-07-30,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+CZ,P_Gas_Engines,Power,2018,0.756,,PJ,capped at residual-fleet max generation (was 0.831: statistical gas generation over-allocated to peakers; excess moved to CCGT); base-year feasibility fix 2026-07-30,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+CZ,P_Gas_OCGT,Power,2018,0.378,,PJ,capped at residual-fleet max generation (was 0.914: statistical gas generation over-allocated to peakers; excess moved to CCGT); base-year feasibility fix 2026-07-30,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
 CZ,P_Nuclear,Power,2018,102.047,,PJ,,,
 California,CHP_Biomass_Solid,Power,2018,45.608,,PJ,unused in NA runs (base-year calibration currently via AvailabilityFactor); EU-copied placeholder kept for later calibration (was: dummy),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
 California,CHP_Coal_Hardcoal,Power,2018,63.923,,PJ,unused in NA runs (base-year calibration currently via AvailabilityFactor); EU-copied placeholder kept for later calibration (was: dummy),2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
@@ -917,9 +917,9 @@ IT,CHP_Gas_CCGT_Natural,Power,2018,94.301,,PJ,,,
 IT,CHP_Oil,Power,2018,12.5,,PJ,,,
 IT,P_Biomass,Power,2018,60.061,,PJ,,,
 IT,P_Coal_Hardcoal,Power,2018,108.854,,PJ,,,
-IT,P_Gas_CCGT,Power,2018,327.9456,,PJ,,,
+IT,P_Gas_CCGT,Power,2018,339.8106,,PJ,; +11.865 PJ reallocated from over-allocated peaker base-year production 2026-07-30,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
 IT,P_Gas_Engines,Power,2018,1.229,,PJ,,,
-IT,P_Gas_OCGT,Power,2018,39.254,,PJ,,,
+IT,P_Gas_OCGT,Power,2018,27.389,,PJ,capped at residual-fleet max generation (was 39.254: statistical gas generation over-allocated to peakers; excess moved to CCGT); base-year feasibility fix 2026-07-30,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
 IT,P_Oil,Power,2018,27.204,,PJ,,,
 LT,HB_Biomass,Heat_Buildings,2018,25.738,,PJ,,,
 LT,HB_Direct_Electric,Heat_Buildings,2018,0.403,,PJ,,,
@@ -1087,9 +1087,9 @@ NL,CHP_Gas_CCGT_Natural,Power,2018,90.465,,PJ,,,
 NL,CHP_Oil,Power,2018,4.461,,PJ,,,
 NL,P_Biomass,Power,2018,18.281,,PJ,,,
 NL,P_Coal_Hardcoal,Power,2018,105.841,,PJ,,,
-NL,P_Gas_CCGT,Power,2018,109.9998,,PJ,,,
+NL,P_Gas_CCGT,Power,2018,111.2058,,PJ,; +1.206 PJ reallocated from over-allocated peaker base-year production 2026-07-30,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
 NL,P_Gas_Engines,Power,2018,1.51,,PJ,,,
-NL,P_Gas_OCGT,Power,2018,5,,PJ,,,
+NL,P_Gas_OCGT,Power,2018,3.794,,PJ,capped at residual-fleet max generation (was 5: statistical gas generation over-allocated to peakers; excess moved to CCGT); base-year feasibility fix 2026-07-30,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
 NL,P_Nuclear,Power,2018,11.987,,PJ,,,
 NO,HB_Biomass,Heat_Buildings,2018,29.1232,,PJ,,,
 NO,HB_Direct_Electric,Heat_Buildings,2018,128.9319,,PJ,,,
