@@ -1,0 +1,42 @@
+Par_EmissionActivityRatio — assumptions (CCS rows re-sourced 2026-07-30)
+
+Semantics: CCS technologies carry the RESIDUAL EMISSION FRACTION
+(1 - capture rate) applied to the fuel's CO2 content; BECCS rows are NET
+NEGATIVE ratios on biogenic carbon (stack capture x supply-chain efficiency).
+Values represent capture WHILE OPERATING - availability shortfalls (e.g.
+Boundary Dam 3's ~57% lifetime figure, dominated by capture-island outages)
+belong in AvailabilityFactor, not here (no double-counting).
+
+Trajectories (milestones 2025/2030/2040/2050; 2018/2020 keep legacy values;
+2055/2060 held at 2050; intermediate years interpolated by the model):
+	- Power gas CCS 0.10 -> 0.07 -> 0.04 -> 0.02: NETL 2022 baseline update
+	  moved the design base 90% -> 95% (97% NGCC / 99% PC in appendices);
+	  IEAGHG 2019-02: 99%+ technically feasible at ~5% cost premium;
+	  Allam-Fetvedt ~97-100% inherent (La Porte demonstrated). 2025 = 90%
+	  design standard (Petra Nova realized 92.4% while operating).
+	- Power hardcoal CCS 0.10 -> 0.07 -> 0.05 -> 0.03; lignite starts 0.12
+	  (BD3 design 90%, first-gen caution) then follows.
+	- CHP fossil CCS = power trajectory (identical amine capture; the old
+	  flat 12% penalty had no source).
+	- HMHI industrial-heat CCS 0.15 -> 0.12 -> 0.10 -> 0.08: diffuse
+	  multi-stack sites cap the capturable flue-gas share below the
+	  single-stack power case (IEA CCUS in industry; no operating
+	  industrial-heat CCS reference exists).
+	- Steel BF-BOF CCS 0.50 -> 0.50 -> 0.40 -> 0.30: SITE-WIDE capture is
+	  capped ~50-60% (10-20 emission point sources; IEAGHG 2013-04 steel
+	  study; IEEFA 2024; Dunkirk DMX >90% is a single-stream pilot at
+	  4,400 t/yr). Previous 0.082-0.08 implied 92% site capture - wrong by
+	  4-6x.
+	- Steel DRI-EAF CCS 0.35 -> 0.30 -> 0.25 -> 0.20 (site-level fuel
+	  scope): Al Reyadah (only commercial steel CCS) captures ~90% of the
+	  concentrated process-gas stream = only 20-27% of site emissions.
+	- BECCS: CHP_Biomass_Solid_CCS / CHP_Gas_CCGT_Biogas_CCS -0.85 -> -0.85
+	  -> -0.88 -> -0.90 (Stockholm Exergi anchor: ~90% design capture, short
+	  logistics); P_Biomass_CCS -0.70 -> -0.70 -> -0.80 -> -0.85 (pellet-fed
+	  condensing: 95% design x ~75% supply-chain efficiency; Fajardy &
+	  Mac Dowell 2017). Values are NET of supply-chain emissions.
+
+2050 endpoints are deliberately kept BELOW the 99-99.7% technical
+feasibility limit (user judgment 2026-07-30: literature 2050 numbers tend
+optimistic; potential leakage/real-world losses). Model focus is 2040,
+where values sit mid-trajectory.
