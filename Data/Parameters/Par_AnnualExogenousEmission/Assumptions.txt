@@ -1,0 +1,20 @@
+Par_AnnualExogenousEmission — assumptions (family convention documented 2026-07-30)
+
+Semantics: per-country CO2eq trajectory of NON-MODELED sectors. Reverse-
+engineered and validated against AT (0.03%), SE (0.015%), DE (0.1%):
+	- Base value (2018/2021) = Total GHG incl. LULUCF minus Energy sector
+	  (CRF sector 1) = IPPU + Agriculture + Waste + LULUCF net, all gases
+	  CO2eq, from the UNFCCC CRT 2023 submissions (last inventory year 2021).
+	- "CO2" emission label carries CO2eq of all gases (F-gases in IPPU
+	  included) - family convention.
+	- Linear glide from an implicit 2020 = base to the 2050 endpoint;
+	  2055/2060 flat at 2050.
+	- 2050 endpoint = assumed remaining LULUCF sink (non-LULUCF non-modeled
+	  sectors ~0 by 2050). Neighbor rows imply 1.0-1.2x the 2021 CRT sink;
+	  the exact per-country 2050 assumption of the original author is
+	  undocumented (DE uses an external projection).
+
+GR re-derivation (2026-07-30, fixing the UK-row-copy bug): base 18,409.7 kt
+(midpoint of total-minus-energy vs sector-sum estimators, share-rounding
+uncertainty +-0.04%); 2050 = 1.0x the 2021 LULUCF sink (-5,476.2 kt),
+conservative within the neighbor spread (1.09-1.18x). Zero-crossing ~2043.
