@@ -136,10 +136,15 @@ def main():
                               "Recip engines, Customized_LCOE SOFC US sheet")
     for t in ("P_Coal_Hardcoal", "P_Coal_Lignite"):
         capex[t] = (S("Coal", "CAPEX"), "LCOE 'Coal' applied to both coal techs")
+    # PV anchor (user decision 2026-07-31): use the LCOE file's own EIA backup
+    # (CAPEX PV Backup sheet: 680.6 EUR/kW) instead of the 930 planned value -
+    # the US keeps adding utility PV despite tariffs; 930 vs 680.6 is likely an
+    # AC-vs-DC basis discrepancy flagged to the LCOE-file owners.
+    PV_EIA_ANCHOR = 680.6
     pv = S("PV: Utility scale", "CAPEX")
-    pv = {y: pv[y] * pvmult[y] for y in YEARS}
+    pv = {y: PV_EIA_ANCHOR * pvmult[y] for y in YEARS}
     for t in ("P_PV_Utility_Opt", "P_PV_Utility_Avg", "P_PV_Utility_Inf"):
-        capex[t] = (pv, "planned x PV learning multiplier")
+        capex[t] = (pv, "EIA backup anchor 680.6 EUR/kW x PV learning multiplier")
     capex["P_PV_Rooftop_Commercial"] = (S("PV: Residential/Commercial", "CAPEX"), "")
     onsh = S("Wind Onshore", "CAPEX")
     for t in ("P_Wind_Onshore_Opt", "P_Wind_Onshore_Avg", "P_Wind_Onshore_Inf"):
