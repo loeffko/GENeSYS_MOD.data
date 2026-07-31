@@ -4099,486 +4099,486 @@ Canada,P_PV_Rooftop_Commercial,2037,1006,,MEUR/GW,"FEL2026 LCOE Model file V1.4,
 Canada,P_PV_Rooftop_Commercial,2038,970,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
 Canada,P_PV_Rooftop_Commercial,2039,938,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
 Canada,P_PV_Rooftop_Commercial,2040,908,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_PV_Utility_Avg,2025,911.4,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_PV_Utility_Avg,2026,893.172,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_PV_Utility_Avg,2027,875.309,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_PV_Utility_Avg,2028,857.802,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_PV_Utility_Avg,2029,840.646,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_PV_Utility_Avg,2030,823.833,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_PV_Utility_Avg,2031,807.357,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_PV_Utility_Avg,2032,791.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_PV_Utility_Avg,2033,775.385,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_PV_Utility_Avg,2034,759.878,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_PV_Utility_Avg,2035,744.68,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_PV_Utility_Avg,2036,729.787,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_PV_Utility_Avg,2037,715.191,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_PV_Utility_Avg,2038,700.887,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_PV_Utility_Avg,2039,686.869,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_PV_Utility_Avg,2040,673.132,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_PV_Utility_Avg,2025,911.4,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_PV_Utility_Avg,2026,893.172,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_PV_Utility_Avg,2027,875.309,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_PV_Utility_Avg,2028,857.802,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_PV_Utility_Avg,2029,840.646,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_PV_Utility_Avg,2030,823.833,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_PV_Utility_Avg,2031,807.357,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_PV_Utility_Avg,2032,791.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_PV_Utility_Avg,2033,775.385,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_PV_Utility_Avg,2034,759.878,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_PV_Utility_Avg,2035,744.68,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_PV_Utility_Avg,2036,729.787,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_PV_Utility_Avg,2037,715.191,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_PV_Utility_Avg,2038,700.887,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_PV_Utility_Avg,2039,686.869,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_PV_Utility_Avg,2040,673.132,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_PV_Utility_Avg,2025,911.4,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_PV_Utility_Avg,2026,893.172,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_PV_Utility_Avg,2027,875.309,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_PV_Utility_Avg,2028,857.802,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_PV_Utility_Avg,2029,840.646,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_PV_Utility_Avg,2030,823.833,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_PV_Utility_Avg,2031,807.357,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_PV_Utility_Avg,2032,791.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_PV_Utility_Avg,2033,775.385,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_PV_Utility_Avg,2034,759.878,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_PV_Utility_Avg,2035,744.68,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_PV_Utility_Avg,2036,729.787,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_PV_Utility_Avg,2037,715.191,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_PV_Utility_Avg,2038,700.887,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_PV_Utility_Avg,2039,686.869,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_PV_Utility_Avg,2040,673.132,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_PV_Utility_Avg,2025,911.4,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_PV_Utility_Avg,2026,893.172,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_PV_Utility_Avg,2027,875.309,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_PV_Utility_Avg,2028,857.802,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_PV_Utility_Avg,2029,840.646,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_PV_Utility_Avg,2030,823.833,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_PV_Utility_Avg,2031,807.357,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_PV_Utility_Avg,2032,791.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_PV_Utility_Avg,2033,775.385,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_PV_Utility_Avg,2034,759.878,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_PV_Utility_Avg,2035,744.68,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_PV_Utility_Avg,2036,729.787,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_PV_Utility_Avg,2037,715.191,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_PV_Utility_Avg,2038,700.887,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_PV_Utility_Avg,2039,686.869,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_PV_Utility_Avg,2040,673.132,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_PV_Utility_Avg,2025,911.4,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_PV_Utility_Avg,2026,893.172,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_PV_Utility_Avg,2027,875.309,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_PV_Utility_Avg,2028,857.802,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_PV_Utility_Avg,2029,840.646,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_PV_Utility_Avg,2030,823.833,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_PV_Utility_Avg,2031,807.357,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_PV_Utility_Avg,2032,791.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_PV_Utility_Avg,2033,775.385,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_PV_Utility_Avg,2034,759.878,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_PV_Utility_Avg,2035,744.68,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_PV_Utility_Avg,2036,729.787,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_PV_Utility_Avg,2037,715.191,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_PV_Utility_Avg,2038,700.887,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_PV_Utility_Avg,2039,686.869,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_PV_Utility_Avg,2040,673.132,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_PV_Utility_Avg,2025,911.4,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_PV_Utility_Avg,2026,893.172,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_PV_Utility_Avg,2027,875.309,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_PV_Utility_Avg,2028,857.802,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_PV_Utility_Avg,2029,840.646,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_PV_Utility_Avg,2030,823.833,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_PV_Utility_Avg,2031,807.357,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_PV_Utility_Avg,2032,791.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_PV_Utility_Avg,2033,775.385,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_PV_Utility_Avg,2034,759.878,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_PV_Utility_Avg,2035,744.68,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_PV_Utility_Avg,2036,729.787,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_PV_Utility_Avg,2037,715.191,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_PV_Utility_Avg,2038,700.887,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_PV_Utility_Avg,2039,686.869,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_PV_Utility_Avg,2040,673.132,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_PV_Utility_Avg,2025,911.4,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_PV_Utility_Avg,2026,893.172,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_PV_Utility_Avg,2027,875.309,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_PV_Utility_Avg,2028,857.802,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_PV_Utility_Avg,2029,840.646,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_PV_Utility_Avg,2030,823.833,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_PV_Utility_Avg,2031,807.357,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_PV_Utility_Avg,2032,791.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_PV_Utility_Avg,2033,775.385,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_PV_Utility_Avg,2034,759.878,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_PV_Utility_Avg,2035,744.68,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_PV_Utility_Avg,2036,729.787,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_PV_Utility_Avg,2037,715.191,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_PV_Utility_Avg,2038,700.887,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_PV_Utility_Avg,2039,686.869,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_PV_Utility_Avg,2040,673.132,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_PV_Utility_Avg,2025,911.4,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_PV_Utility_Avg,2026,893.172,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_PV_Utility_Avg,2027,875.309,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_PV_Utility_Avg,2028,857.802,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_PV_Utility_Avg,2029,840.646,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_PV_Utility_Avg,2030,823.833,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_PV_Utility_Avg,2031,807.357,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_PV_Utility_Avg,2032,791.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_PV_Utility_Avg,2033,775.385,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_PV_Utility_Avg,2034,759.878,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_PV_Utility_Avg,2035,744.68,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_PV_Utility_Avg,2036,729.787,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_PV_Utility_Avg,2037,715.191,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_PV_Utility_Avg,2038,700.887,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_PV_Utility_Avg,2039,686.869,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_PV_Utility_Avg,2040,673.132,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_PV_Utility_Avg,2025,911.4,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_PV_Utility_Avg,2026,893.172,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_PV_Utility_Avg,2027,875.309,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_PV_Utility_Avg,2028,857.802,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_PV_Utility_Avg,2029,840.646,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_PV_Utility_Avg,2030,823.833,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_PV_Utility_Avg,2031,807.357,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_PV_Utility_Avg,2032,791.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_PV_Utility_Avg,2033,775.385,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_PV_Utility_Avg,2034,759.878,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_PV_Utility_Avg,2035,744.68,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_PV_Utility_Avg,2036,729.787,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_PV_Utility_Avg,2037,715.191,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_PV_Utility_Avg,2038,700.887,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_PV_Utility_Avg,2039,686.869,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_PV_Utility_Avg,2040,673.132,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_PV_Utility_Avg,2025,911.4,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_PV_Utility_Avg,2026,893.172,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_PV_Utility_Avg,2027,875.309,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_PV_Utility_Avg,2028,857.802,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_PV_Utility_Avg,2029,840.646,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_PV_Utility_Avg,2030,823.833,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_PV_Utility_Avg,2031,807.357,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_PV_Utility_Avg,2032,791.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_PV_Utility_Avg,2033,775.385,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_PV_Utility_Avg,2034,759.878,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_PV_Utility_Avg,2035,744.68,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_PV_Utility_Avg,2036,729.787,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_PV_Utility_Avg,2037,715.191,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_PV_Utility_Avg,2038,700.887,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_PV_Utility_Avg,2039,686.869,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_PV_Utility_Avg,2040,673.132,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_PV_Utility_Inf,2025,911.4,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_PV_Utility_Inf,2026,893.172,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_PV_Utility_Inf,2027,875.309,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_PV_Utility_Inf,2028,857.802,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_PV_Utility_Inf,2029,840.646,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_PV_Utility_Inf,2030,823.833,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_PV_Utility_Inf,2031,807.357,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_PV_Utility_Inf,2032,791.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_PV_Utility_Inf,2033,775.385,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_PV_Utility_Inf,2034,759.878,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_PV_Utility_Inf,2035,744.68,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_PV_Utility_Inf,2036,729.787,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_PV_Utility_Inf,2037,715.191,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_PV_Utility_Inf,2038,700.887,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_PV_Utility_Inf,2039,686.869,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_PV_Utility_Inf,2040,673.132,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_PV_Utility_Inf,2025,911.4,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_PV_Utility_Inf,2026,893.172,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_PV_Utility_Inf,2027,875.309,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_PV_Utility_Inf,2028,857.802,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_PV_Utility_Inf,2029,840.646,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_PV_Utility_Inf,2030,823.833,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_PV_Utility_Inf,2031,807.357,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_PV_Utility_Inf,2032,791.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_PV_Utility_Inf,2033,775.385,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_PV_Utility_Inf,2034,759.878,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_PV_Utility_Inf,2035,744.68,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_PV_Utility_Inf,2036,729.787,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_PV_Utility_Inf,2037,715.191,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_PV_Utility_Inf,2038,700.887,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_PV_Utility_Inf,2039,686.869,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_PV_Utility_Inf,2040,673.132,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_PV_Utility_Inf,2025,911.4,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_PV_Utility_Inf,2026,893.172,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_PV_Utility_Inf,2027,875.309,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_PV_Utility_Inf,2028,857.802,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_PV_Utility_Inf,2029,840.646,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_PV_Utility_Inf,2030,823.833,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_PV_Utility_Inf,2031,807.357,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_PV_Utility_Inf,2032,791.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_PV_Utility_Inf,2033,775.385,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_PV_Utility_Inf,2034,759.878,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_PV_Utility_Inf,2035,744.68,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_PV_Utility_Inf,2036,729.787,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_PV_Utility_Inf,2037,715.191,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_PV_Utility_Inf,2038,700.887,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_PV_Utility_Inf,2039,686.869,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_PV_Utility_Inf,2040,673.132,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_PV_Utility_Inf,2025,911.4,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_PV_Utility_Inf,2026,893.172,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_PV_Utility_Inf,2027,875.309,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_PV_Utility_Inf,2028,857.802,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_PV_Utility_Inf,2029,840.646,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_PV_Utility_Inf,2030,823.833,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_PV_Utility_Inf,2031,807.357,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_PV_Utility_Inf,2032,791.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_PV_Utility_Inf,2033,775.385,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_PV_Utility_Inf,2034,759.878,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_PV_Utility_Inf,2035,744.68,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_PV_Utility_Inf,2036,729.787,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_PV_Utility_Inf,2037,715.191,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_PV_Utility_Inf,2038,700.887,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_PV_Utility_Inf,2039,686.869,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_PV_Utility_Inf,2040,673.132,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_PV_Utility_Inf,2025,911.4,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_PV_Utility_Inf,2026,893.172,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_PV_Utility_Inf,2027,875.309,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_PV_Utility_Inf,2028,857.802,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_PV_Utility_Inf,2029,840.646,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_PV_Utility_Inf,2030,823.833,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_PV_Utility_Inf,2031,807.357,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_PV_Utility_Inf,2032,791.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_PV_Utility_Inf,2033,775.385,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_PV_Utility_Inf,2034,759.878,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_PV_Utility_Inf,2035,744.68,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_PV_Utility_Inf,2036,729.787,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_PV_Utility_Inf,2037,715.191,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_PV_Utility_Inf,2038,700.887,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_PV_Utility_Inf,2039,686.869,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_PV_Utility_Inf,2040,673.132,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_PV_Utility_Inf,2025,911.4,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_PV_Utility_Inf,2026,893.172,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_PV_Utility_Inf,2027,875.309,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_PV_Utility_Inf,2028,857.802,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_PV_Utility_Inf,2029,840.646,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_PV_Utility_Inf,2030,823.833,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_PV_Utility_Inf,2031,807.357,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_PV_Utility_Inf,2032,791.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_PV_Utility_Inf,2033,775.385,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_PV_Utility_Inf,2034,759.878,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_PV_Utility_Inf,2035,744.68,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_PV_Utility_Inf,2036,729.787,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_PV_Utility_Inf,2037,715.191,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_PV_Utility_Inf,2038,700.887,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_PV_Utility_Inf,2039,686.869,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_PV_Utility_Inf,2040,673.132,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_PV_Utility_Inf,2025,911.4,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_PV_Utility_Inf,2026,893.172,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_PV_Utility_Inf,2027,875.309,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_PV_Utility_Inf,2028,857.802,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_PV_Utility_Inf,2029,840.646,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_PV_Utility_Inf,2030,823.833,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_PV_Utility_Inf,2031,807.357,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_PV_Utility_Inf,2032,791.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_PV_Utility_Inf,2033,775.385,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_PV_Utility_Inf,2034,759.878,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_PV_Utility_Inf,2035,744.68,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_PV_Utility_Inf,2036,729.787,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_PV_Utility_Inf,2037,715.191,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_PV_Utility_Inf,2038,700.887,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_PV_Utility_Inf,2039,686.869,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_PV_Utility_Inf,2040,673.132,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_PV_Utility_Inf,2025,911.4,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_PV_Utility_Inf,2026,893.172,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_PV_Utility_Inf,2027,875.309,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_PV_Utility_Inf,2028,857.802,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_PV_Utility_Inf,2029,840.646,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_PV_Utility_Inf,2030,823.833,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_PV_Utility_Inf,2031,807.357,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_PV_Utility_Inf,2032,791.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_PV_Utility_Inf,2033,775.385,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_PV_Utility_Inf,2034,759.878,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_PV_Utility_Inf,2035,744.68,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_PV_Utility_Inf,2036,729.787,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_PV_Utility_Inf,2037,715.191,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_PV_Utility_Inf,2038,700.887,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_PV_Utility_Inf,2039,686.869,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_PV_Utility_Inf,2040,673.132,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_PV_Utility_Inf,2025,911.4,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_PV_Utility_Inf,2026,893.172,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_PV_Utility_Inf,2027,875.309,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_PV_Utility_Inf,2028,857.802,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_PV_Utility_Inf,2029,840.646,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_PV_Utility_Inf,2030,823.833,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_PV_Utility_Inf,2031,807.357,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_PV_Utility_Inf,2032,791.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_PV_Utility_Inf,2033,775.385,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_PV_Utility_Inf,2034,759.878,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_PV_Utility_Inf,2035,744.68,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_PV_Utility_Inf,2036,729.787,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_PV_Utility_Inf,2037,715.191,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_PV_Utility_Inf,2038,700.887,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_PV_Utility_Inf,2039,686.869,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_PV_Utility_Inf,2040,673.132,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_PV_Utility_Inf,2025,911.4,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_PV_Utility_Inf,2026,893.172,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_PV_Utility_Inf,2027,875.309,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_PV_Utility_Inf,2028,857.802,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_PV_Utility_Inf,2029,840.646,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_PV_Utility_Inf,2030,823.833,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_PV_Utility_Inf,2031,807.357,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_PV_Utility_Inf,2032,791.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_PV_Utility_Inf,2033,775.385,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_PV_Utility_Inf,2034,759.878,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_PV_Utility_Inf,2035,744.68,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_PV_Utility_Inf,2036,729.787,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_PV_Utility_Inf,2037,715.191,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_PV_Utility_Inf,2038,700.887,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_PV_Utility_Inf,2039,686.869,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_PV_Utility_Inf,2040,673.132,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_PV_Utility_Opt,2025,911.4,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_PV_Utility_Opt,2026,893.172,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_PV_Utility_Opt,2027,875.309,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_PV_Utility_Opt,2028,857.802,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_PV_Utility_Opt,2029,840.646,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_PV_Utility_Opt,2030,823.833,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_PV_Utility_Opt,2031,807.357,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_PV_Utility_Opt,2032,791.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_PV_Utility_Opt,2033,775.385,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_PV_Utility_Opt,2034,759.878,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_PV_Utility_Opt,2035,744.68,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_PV_Utility_Opt,2036,729.787,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_PV_Utility_Opt,2037,715.191,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_PV_Utility_Opt,2038,700.887,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_PV_Utility_Opt,2039,686.869,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_PV_Utility_Opt,2040,673.132,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_PV_Utility_Opt,2025,911.4,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_PV_Utility_Opt,2026,893.172,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_PV_Utility_Opt,2027,875.309,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_PV_Utility_Opt,2028,857.802,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_PV_Utility_Opt,2029,840.646,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_PV_Utility_Opt,2030,823.833,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_PV_Utility_Opt,2031,807.357,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_PV_Utility_Opt,2032,791.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_PV_Utility_Opt,2033,775.385,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_PV_Utility_Opt,2034,759.878,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_PV_Utility_Opt,2035,744.68,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_PV_Utility_Opt,2036,729.787,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_PV_Utility_Opt,2037,715.191,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_PV_Utility_Opt,2038,700.887,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_PV_Utility_Opt,2039,686.869,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_PV_Utility_Opt,2040,673.132,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_PV_Utility_Opt,2025,911.4,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_PV_Utility_Opt,2026,893.172,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_PV_Utility_Opt,2027,875.309,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_PV_Utility_Opt,2028,857.802,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_PV_Utility_Opt,2029,840.646,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_PV_Utility_Opt,2030,823.833,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_PV_Utility_Opt,2031,807.357,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_PV_Utility_Opt,2032,791.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_PV_Utility_Opt,2033,775.385,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_PV_Utility_Opt,2034,759.878,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_PV_Utility_Opt,2035,744.68,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_PV_Utility_Opt,2036,729.787,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_PV_Utility_Opt,2037,715.191,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_PV_Utility_Opt,2038,700.887,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_PV_Utility_Opt,2039,686.869,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_PV_Utility_Opt,2040,673.132,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_PV_Utility_Opt,2025,911.4,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_PV_Utility_Opt,2026,893.172,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_PV_Utility_Opt,2027,875.309,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_PV_Utility_Opt,2028,857.802,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_PV_Utility_Opt,2029,840.646,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_PV_Utility_Opt,2030,823.833,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_PV_Utility_Opt,2031,807.357,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_PV_Utility_Opt,2032,791.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_PV_Utility_Opt,2033,775.385,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_PV_Utility_Opt,2034,759.878,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_PV_Utility_Opt,2035,744.68,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_PV_Utility_Opt,2036,729.787,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_PV_Utility_Opt,2037,715.191,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_PV_Utility_Opt,2038,700.887,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_PV_Utility_Opt,2039,686.869,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_PV_Utility_Opt,2040,673.132,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_PV_Utility_Opt,2025,911.4,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_PV_Utility_Opt,2026,893.172,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_PV_Utility_Opt,2027,875.309,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_PV_Utility_Opt,2028,857.802,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_PV_Utility_Opt,2029,840.646,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_PV_Utility_Opt,2030,823.833,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_PV_Utility_Opt,2031,807.357,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_PV_Utility_Opt,2032,791.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_PV_Utility_Opt,2033,775.385,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_PV_Utility_Opt,2034,759.878,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_PV_Utility_Opt,2035,744.68,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_PV_Utility_Opt,2036,729.787,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_PV_Utility_Opt,2037,715.191,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_PV_Utility_Opt,2038,700.887,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_PV_Utility_Opt,2039,686.869,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_PV_Utility_Opt,2040,673.132,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_PV_Utility_Opt,2025,911.4,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_PV_Utility_Opt,2026,893.172,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_PV_Utility_Opt,2027,875.309,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_PV_Utility_Opt,2028,857.802,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_PV_Utility_Opt,2029,840.646,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_PV_Utility_Opt,2030,823.833,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_PV_Utility_Opt,2031,807.357,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_PV_Utility_Opt,2032,791.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_PV_Utility_Opt,2033,775.385,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_PV_Utility_Opt,2034,759.878,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_PV_Utility_Opt,2035,744.68,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_PV_Utility_Opt,2036,729.787,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_PV_Utility_Opt,2037,715.191,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_PV_Utility_Opt,2038,700.887,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_PV_Utility_Opt,2039,686.869,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_PV_Utility_Opt,2040,673.132,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_PV_Utility_Opt,2025,911.4,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_PV_Utility_Opt,2026,893.172,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_PV_Utility_Opt,2027,875.309,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_PV_Utility_Opt,2028,857.802,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_PV_Utility_Opt,2029,840.646,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_PV_Utility_Opt,2030,823.833,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_PV_Utility_Opt,2031,807.357,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_PV_Utility_Opt,2032,791.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_PV_Utility_Opt,2033,775.385,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_PV_Utility_Opt,2034,759.878,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_PV_Utility_Opt,2035,744.68,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_PV_Utility_Opt,2036,729.787,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_PV_Utility_Opt,2037,715.191,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_PV_Utility_Opt,2038,700.887,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_PV_Utility_Opt,2039,686.869,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_PV_Utility_Opt,2040,673.132,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_PV_Utility_Opt,2025,911.4,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_PV_Utility_Opt,2026,893.172,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_PV_Utility_Opt,2027,875.309,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_PV_Utility_Opt,2028,857.802,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_PV_Utility_Opt,2029,840.646,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_PV_Utility_Opt,2030,823.833,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_PV_Utility_Opt,2031,807.357,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_PV_Utility_Opt,2032,791.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_PV_Utility_Opt,2033,775.385,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_PV_Utility_Opt,2034,759.878,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_PV_Utility_Opt,2035,744.68,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_PV_Utility_Opt,2036,729.787,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_PV_Utility_Opt,2037,715.191,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_PV_Utility_Opt,2038,700.887,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_PV_Utility_Opt,2039,686.869,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_PV_Utility_Opt,2040,673.132,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_PV_Utility_Opt,2025,911.4,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_PV_Utility_Opt,2026,893.172,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_PV_Utility_Opt,2027,875.309,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_PV_Utility_Opt,2028,857.802,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_PV_Utility_Opt,2029,840.646,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_PV_Utility_Opt,2030,823.833,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_PV_Utility_Opt,2031,807.357,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_PV_Utility_Opt,2032,791.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_PV_Utility_Opt,2033,775.385,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_PV_Utility_Opt,2034,759.878,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_PV_Utility_Opt,2035,744.68,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_PV_Utility_Opt,2036,729.787,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_PV_Utility_Opt,2037,715.191,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_PV_Utility_Opt,2038,700.887,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_PV_Utility_Opt,2039,686.869,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_PV_Utility_Opt,2040,673.132,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_PV_Utility_Opt,2025,911.4,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_PV_Utility_Opt,2026,893.172,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_PV_Utility_Opt,2027,875.309,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_PV_Utility_Opt,2028,857.802,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_PV_Utility_Opt,2029,840.646,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_PV_Utility_Opt,2030,823.833,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_PV_Utility_Opt,2031,807.357,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_PV_Utility_Opt,2032,791.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_PV_Utility_Opt,2033,775.385,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_PV_Utility_Opt,2034,759.878,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_PV_Utility_Opt,2035,744.68,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_PV_Utility_Opt,2036,729.787,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_PV_Utility_Opt,2037,715.191,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_PV_Utility_Opt,2038,700.887,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_PV_Utility_Opt,2039,686.869,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_PV_Utility_Opt,2040,673.132,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (planned x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_PV_Utility_Avg,2025,666.988,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_PV_Utility_Avg,2026,653.648,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_PV_Utility_Avg,2027,640.575,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_PV_Utility_Avg,2028,627.764,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_PV_Utility_Avg,2029,615.208,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_PV_Utility_Avg,2030,602.904,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_PV_Utility_Avg,2031,590.846,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_PV_Utility_Avg,2032,579.029,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_PV_Utility_Avg,2033,567.449,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_PV_Utility_Avg,2034,556.1,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_PV_Utility_Avg,2035,544.978,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_PV_Utility_Avg,2036,534.078,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_PV_Utility_Avg,2037,523.397,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_PV_Utility_Avg,2038,512.929,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_PV_Utility_Avg,2039,502.67,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_PV_Utility_Avg,2040,492.617,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_PV_Utility_Avg,2025,666.988,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_PV_Utility_Avg,2026,653.648,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_PV_Utility_Avg,2027,640.575,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_PV_Utility_Avg,2028,627.764,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_PV_Utility_Avg,2029,615.208,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_PV_Utility_Avg,2030,602.904,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_PV_Utility_Avg,2031,590.846,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_PV_Utility_Avg,2032,579.029,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_PV_Utility_Avg,2033,567.449,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_PV_Utility_Avg,2034,556.1,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_PV_Utility_Avg,2035,544.978,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_PV_Utility_Avg,2036,534.078,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_PV_Utility_Avg,2037,523.397,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_PV_Utility_Avg,2038,512.929,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_PV_Utility_Avg,2039,502.67,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_PV_Utility_Avg,2040,492.617,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_PV_Utility_Avg,2025,666.988,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_PV_Utility_Avg,2026,653.648,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_PV_Utility_Avg,2027,640.575,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_PV_Utility_Avg,2028,627.764,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_PV_Utility_Avg,2029,615.208,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_PV_Utility_Avg,2030,602.904,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_PV_Utility_Avg,2031,590.846,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_PV_Utility_Avg,2032,579.029,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_PV_Utility_Avg,2033,567.449,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_PV_Utility_Avg,2034,556.1,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_PV_Utility_Avg,2035,544.978,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_PV_Utility_Avg,2036,534.078,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_PV_Utility_Avg,2037,523.397,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_PV_Utility_Avg,2038,512.929,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_PV_Utility_Avg,2039,502.67,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_PV_Utility_Avg,2040,492.617,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_PV_Utility_Avg,2025,666.988,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_PV_Utility_Avg,2026,653.648,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_PV_Utility_Avg,2027,640.575,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_PV_Utility_Avg,2028,627.764,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_PV_Utility_Avg,2029,615.208,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_PV_Utility_Avg,2030,602.904,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_PV_Utility_Avg,2031,590.846,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_PV_Utility_Avg,2032,579.029,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_PV_Utility_Avg,2033,567.449,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_PV_Utility_Avg,2034,556.1,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_PV_Utility_Avg,2035,544.978,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_PV_Utility_Avg,2036,534.078,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_PV_Utility_Avg,2037,523.397,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_PV_Utility_Avg,2038,512.929,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_PV_Utility_Avg,2039,502.67,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_PV_Utility_Avg,2040,492.617,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_PV_Utility_Avg,2025,666.988,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_PV_Utility_Avg,2026,653.648,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_PV_Utility_Avg,2027,640.575,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_PV_Utility_Avg,2028,627.764,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_PV_Utility_Avg,2029,615.208,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_PV_Utility_Avg,2030,602.904,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_PV_Utility_Avg,2031,590.846,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_PV_Utility_Avg,2032,579.029,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_PV_Utility_Avg,2033,567.449,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_PV_Utility_Avg,2034,556.1,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_PV_Utility_Avg,2035,544.978,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_PV_Utility_Avg,2036,534.078,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_PV_Utility_Avg,2037,523.397,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_PV_Utility_Avg,2038,512.929,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_PV_Utility_Avg,2039,502.67,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_PV_Utility_Avg,2040,492.617,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_PV_Utility_Avg,2025,666.988,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_PV_Utility_Avg,2026,653.648,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_PV_Utility_Avg,2027,640.575,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_PV_Utility_Avg,2028,627.764,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_PV_Utility_Avg,2029,615.208,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_PV_Utility_Avg,2030,602.904,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_PV_Utility_Avg,2031,590.846,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_PV_Utility_Avg,2032,579.029,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_PV_Utility_Avg,2033,567.449,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_PV_Utility_Avg,2034,556.1,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_PV_Utility_Avg,2035,544.978,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_PV_Utility_Avg,2036,534.078,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_PV_Utility_Avg,2037,523.397,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_PV_Utility_Avg,2038,512.929,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_PV_Utility_Avg,2039,502.67,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_PV_Utility_Avg,2040,492.617,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_PV_Utility_Avg,2025,666.988,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_PV_Utility_Avg,2026,653.648,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_PV_Utility_Avg,2027,640.575,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_PV_Utility_Avg,2028,627.764,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_PV_Utility_Avg,2029,615.208,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_PV_Utility_Avg,2030,602.904,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_PV_Utility_Avg,2031,590.846,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_PV_Utility_Avg,2032,579.029,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_PV_Utility_Avg,2033,567.449,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_PV_Utility_Avg,2034,556.1,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_PV_Utility_Avg,2035,544.978,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_PV_Utility_Avg,2036,534.078,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_PV_Utility_Avg,2037,523.397,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_PV_Utility_Avg,2038,512.929,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_PV_Utility_Avg,2039,502.67,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_PV_Utility_Avg,2040,492.617,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_PV_Utility_Avg,2025,666.988,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_PV_Utility_Avg,2026,653.648,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_PV_Utility_Avg,2027,640.575,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_PV_Utility_Avg,2028,627.764,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_PV_Utility_Avg,2029,615.208,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_PV_Utility_Avg,2030,602.904,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_PV_Utility_Avg,2031,590.846,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_PV_Utility_Avg,2032,579.029,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_PV_Utility_Avg,2033,567.449,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_PV_Utility_Avg,2034,556.1,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_PV_Utility_Avg,2035,544.978,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_PV_Utility_Avg,2036,534.078,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_PV_Utility_Avg,2037,523.397,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_PV_Utility_Avg,2038,512.929,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_PV_Utility_Avg,2039,502.67,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_PV_Utility_Avg,2040,492.617,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_PV_Utility_Avg,2025,666.988,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_PV_Utility_Avg,2026,653.648,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_PV_Utility_Avg,2027,640.575,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_PV_Utility_Avg,2028,627.764,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_PV_Utility_Avg,2029,615.208,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_PV_Utility_Avg,2030,602.904,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_PV_Utility_Avg,2031,590.846,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_PV_Utility_Avg,2032,579.029,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_PV_Utility_Avg,2033,567.449,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_PV_Utility_Avg,2034,556.1,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_PV_Utility_Avg,2035,544.978,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_PV_Utility_Avg,2036,534.078,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_PV_Utility_Avg,2037,523.397,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_PV_Utility_Avg,2038,512.929,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_PV_Utility_Avg,2039,502.67,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_PV_Utility_Avg,2040,492.617,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_PV_Utility_Avg,2025,666.988,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_PV_Utility_Avg,2026,653.648,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_PV_Utility_Avg,2027,640.575,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_PV_Utility_Avg,2028,627.764,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_PV_Utility_Avg,2029,615.208,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_PV_Utility_Avg,2030,602.904,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_PV_Utility_Avg,2031,590.846,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_PV_Utility_Avg,2032,579.029,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_PV_Utility_Avg,2033,567.449,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_PV_Utility_Avg,2034,556.1,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_PV_Utility_Avg,2035,544.978,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_PV_Utility_Avg,2036,534.078,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_PV_Utility_Avg,2037,523.397,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_PV_Utility_Avg,2038,512.929,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_PV_Utility_Avg,2039,502.67,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_PV_Utility_Avg,2040,492.617,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_PV_Utility_Inf,2025,666.988,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_PV_Utility_Inf,2026,653.648,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_PV_Utility_Inf,2027,640.575,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_PV_Utility_Inf,2028,627.764,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_PV_Utility_Inf,2029,615.208,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_PV_Utility_Inf,2030,602.904,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_PV_Utility_Inf,2031,590.846,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_PV_Utility_Inf,2032,579.029,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_PV_Utility_Inf,2033,567.449,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_PV_Utility_Inf,2034,556.1,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_PV_Utility_Inf,2035,544.978,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_PV_Utility_Inf,2036,534.078,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_PV_Utility_Inf,2037,523.397,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_PV_Utility_Inf,2038,512.929,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_PV_Utility_Inf,2039,502.67,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_PV_Utility_Inf,2040,492.617,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_PV_Utility_Inf,2025,666.988,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_PV_Utility_Inf,2026,653.648,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_PV_Utility_Inf,2027,640.575,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_PV_Utility_Inf,2028,627.764,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_PV_Utility_Inf,2029,615.208,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_PV_Utility_Inf,2030,602.904,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_PV_Utility_Inf,2031,590.846,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_PV_Utility_Inf,2032,579.029,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_PV_Utility_Inf,2033,567.449,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_PV_Utility_Inf,2034,556.1,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_PV_Utility_Inf,2035,544.978,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_PV_Utility_Inf,2036,534.078,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_PV_Utility_Inf,2037,523.397,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_PV_Utility_Inf,2038,512.929,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_PV_Utility_Inf,2039,502.67,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_PV_Utility_Inf,2040,492.617,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_PV_Utility_Inf,2025,666.988,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_PV_Utility_Inf,2026,653.648,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_PV_Utility_Inf,2027,640.575,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_PV_Utility_Inf,2028,627.764,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_PV_Utility_Inf,2029,615.208,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_PV_Utility_Inf,2030,602.904,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_PV_Utility_Inf,2031,590.846,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_PV_Utility_Inf,2032,579.029,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_PV_Utility_Inf,2033,567.449,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_PV_Utility_Inf,2034,556.1,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_PV_Utility_Inf,2035,544.978,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_PV_Utility_Inf,2036,534.078,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_PV_Utility_Inf,2037,523.397,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_PV_Utility_Inf,2038,512.929,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_PV_Utility_Inf,2039,502.67,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_PV_Utility_Inf,2040,492.617,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_PV_Utility_Inf,2025,666.988,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_PV_Utility_Inf,2026,653.648,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_PV_Utility_Inf,2027,640.575,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_PV_Utility_Inf,2028,627.764,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_PV_Utility_Inf,2029,615.208,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_PV_Utility_Inf,2030,602.904,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_PV_Utility_Inf,2031,590.846,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_PV_Utility_Inf,2032,579.029,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_PV_Utility_Inf,2033,567.449,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_PV_Utility_Inf,2034,556.1,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_PV_Utility_Inf,2035,544.978,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_PV_Utility_Inf,2036,534.078,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_PV_Utility_Inf,2037,523.397,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_PV_Utility_Inf,2038,512.929,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_PV_Utility_Inf,2039,502.67,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_PV_Utility_Inf,2040,492.617,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_PV_Utility_Inf,2025,666.988,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_PV_Utility_Inf,2026,653.648,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_PV_Utility_Inf,2027,640.575,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_PV_Utility_Inf,2028,627.764,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_PV_Utility_Inf,2029,615.208,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_PV_Utility_Inf,2030,602.904,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_PV_Utility_Inf,2031,590.846,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_PV_Utility_Inf,2032,579.029,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_PV_Utility_Inf,2033,567.449,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_PV_Utility_Inf,2034,556.1,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_PV_Utility_Inf,2035,544.978,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_PV_Utility_Inf,2036,534.078,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_PV_Utility_Inf,2037,523.397,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_PV_Utility_Inf,2038,512.929,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_PV_Utility_Inf,2039,502.67,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_PV_Utility_Inf,2040,492.617,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_PV_Utility_Inf,2025,666.988,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_PV_Utility_Inf,2026,653.648,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_PV_Utility_Inf,2027,640.575,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_PV_Utility_Inf,2028,627.764,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_PV_Utility_Inf,2029,615.208,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_PV_Utility_Inf,2030,602.904,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_PV_Utility_Inf,2031,590.846,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_PV_Utility_Inf,2032,579.029,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_PV_Utility_Inf,2033,567.449,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_PV_Utility_Inf,2034,556.1,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_PV_Utility_Inf,2035,544.978,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_PV_Utility_Inf,2036,534.078,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_PV_Utility_Inf,2037,523.397,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_PV_Utility_Inf,2038,512.929,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_PV_Utility_Inf,2039,502.67,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_PV_Utility_Inf,2040,492.617,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_PV_Utility_Inf,2025,666.988,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_PV_Utility_Inf,2026,653.648,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_PV_Utility_Inf,2027,640.575,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_PV_Utility_Inf,2028,627.764,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_PV_Utility_Inf,2029,615.208,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_PV_Utility_Inf,2030,602.904,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_PV_Utility_Inf,2031,590.846,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_PV_Utility_Inf,2032,579.029,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_PV_Utility_Inf,2033,567.449,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_PV_Utility_Inf,2034,556.1,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_PV_Utility_Inf,2035,544.978,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_PV_Utility_Inf,2036,534.078,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_PV_Utility_Inf,2037,523.397,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_PV_Utility_Inf,2038,512.929,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_PV_Utility_Inf,2039,502.67,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_PV_Utility_Inf,2040,492.617,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_PV_Utility_Inf,2025,666.988,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_PV_Utility_Inf,2026,653.648,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_PV_Utility_Inf,2027,640.575,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_PV_Utility_Inf,2028,627.764,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_PV_Utility_Inf,2029,615.208,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_PV_Utility_Inf,2030,602.904,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_PV_Utility_Inf,2031,590.846,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_PV_Utility_Inf,2032,579.029,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_PV_Utility_Inf,2033,567.449,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_PV_Utility_Inf,2034,556.1,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_PV_Utility_Inf,2035,544.978,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_PV_Utility_Inf,2036,534.078,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_PV_Utility_Inf,2037,523.397,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_PV_Utility_Inf,2038,512.929,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_PV_Utility_Inf,2039,502.67,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_PV_Utility_Inf,2040,492.617,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_PV_Utility_Inf,2025,666.988,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_PV_Utility_Inf,2026,653.648,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_PV_Utility_Inf,2027,640.575,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_PV_Utility_Inf,2028,627.764,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_PV_Utility_Inf,2029,615.208,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_PV_Utility_Inf,2030,602.904,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_PV_Utility_Inf,2031,590.846,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_PV_Utility_Inf,2032,579.029,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_PV_Utility_Inf,2033,567.449,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_PV_Utility_Inf,2034,556.1,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_PV_Utility_Inf,2035,544.978,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_PV_Utility_Inf,2036,534.078,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_PV_Utility_Inf,2037,523.397,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_PV_Utility_Inf,2038,512.929,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_PV_Utility_Inf,2039,502.67,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_PV_Utility_Inf,2040,492.617,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_PV_Utility_Inf,2025,666.988,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_PV_Utility_Inf,2026,653.648,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_PV_Utility_Inf,2027,640.575,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_PV_Utility_Inf,2028,627.764,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_PV_Utility_Inf,2029,615.208,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_PV_Utility_Inf,2030,602.904,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_PV_Utility_Inf,2031,590.846,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_PV_Utility_Inf,2032,579.029,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_PV_Utility_Inf,2033,567.449,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_PV_Utility_Inf,2034,556.1,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_PV_Utility_Inf,2035,544.978,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_PV_Utility_Inf,2036,534.078,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_PV_Utility_Inf,2037,523.397,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_PV_Utility_Inf,2038,512.929,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_PV_Utility_Inf,2039,502.67,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_PV_Utility_Inf,2040,492.617,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_PV_Utility_Opt,2025,666.988,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_PV_Utility_Opt,2026,653.648,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_PV_Utility_Opt,2027,640.575,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_PV_Utility_Opt,2028,627.764,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_PV_Utility_Opt,2029,615.208,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_PV_Utility_Opt,2030,602.904,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_PV_Utility_Opt,2031,590.846,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_PV_Utility_Opt,2032,579.029,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_PV_Utility_Opt,2033,567.449,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_PV_Utility_Opt,2034,556.1,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_PV_Utility_Opt,2035,544.978,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_PV_Utility_Opt,2036,534.078,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_PV_Utility_Opt,2037,523.397,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_PV_Utility_Opt,2038,512.929,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_PV_Utility_Opt,2039,502.67,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_PV_Utility_Opt,2040,492.617,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_PV_Utility_Opt,2025,666.988,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_PV_Utility_Opt,2026,653.648,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_PV_Utility_Opt,2027,640.575,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_PV_Utility_Opt,2028,627.764,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_PV_Utility_Opt,2029,615.208,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_PV_Utility_Opt,2030,602.904,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_PV_Utility_Opt,2031,590.846,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_PV_Utility_Opt,2032,579.029,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_PV_Utility_Opt,2033,567.449,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_PV_Utility_Opt,2034,556.1,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_PV_Utility_Opt,2035,544.978,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_PV_Utility_Opt,2036,534.078,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_PV_Utility_Opt,2037,523.397,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_PV_Utility_Opt,2038,512.929,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_PV_Utility_Opt,2039,502.67,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_PV_Utility_Opt,2040,492.617,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_PV_Utility_Opt,2025,666.988,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_PV_Utility_Opt,2026,653.648,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_PV_Utility_Opt,2027,640.575,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_PV_Utility_Opt,2028,627.764,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_PV_Utility_Opt,2029,615.208,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_PV_Utility_Opt,2030,602.904,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_PV_Utility_Opt,2031,590.846,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_PV_Utility_Opt,2032,579.029,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_PV_Utility_Opt,2033,567.449,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_PV_Utility_Opt,2034,556.1,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_PV_Utility_Opt,2035,544.978,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_PV_Utility_Opt,2036,534.078,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_PV_Utility_Opt,2037,523.397,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_PV_Utility_Opt,2038,512.929,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_PV_Utility_Opt,2039,502.67,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_PV_Utility_Opt,2040,492.617,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_PV_Utility_Opt,2025,666.988,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_PV_Utility_Opt,2026,653.648,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_PV_Utility_Opt,2027,640.575,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_PV_Utility_Opt,2028,627.764,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_PV_Utility_Opt,2029,615.208,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_PV_Utility_Opt,2030,602.904,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_PV_Utility_Opt,2031,590.846,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_PV_Utility_Opt,2032,579.029,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_PV_Utility_Opt,2033,567.449,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_PV_Utility_Opt,2034,556.1,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_PV_Utility_Opt,2035,544.978,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_PV_Utility_Opt,2036,534.078,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_PV_Utility_Opt,2037,523.397,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_PV_Utility_Opt,2038,512.929,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_PV_Utility_Opt,2039,502.67,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_PV_Utility_Opt,2040,492.617,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_PV_Utility_Opt,2025,666.988,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_PV_Utility_Opt,2026,653.648,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_PV_Utility_Opt,2027,640.575,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_PV_Utility_Opt,2028,627.764,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_PV_Utility_Opt,2029,615.208,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_PV_Utility_Opt,2030,602.904,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_PV_Utility_Opt,2031,590.846,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_PV_Utility_Opt,2032,579.029,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_PV_Utility_Opt,2033,567.449,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_PV_Utility_Opt,2034,556.1,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_PV_Utility_Opt,2035,544.978,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_PV_Utility_Opt,2036,534.078,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_PV_Utility_Opt,2037,523.397,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_PV_Utility_Opt,2038,512.929,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_PV_Utility_Opt,2039,502.67,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_PV_Utility_Opt,2040,492.617,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_PV_Utility_Opt,2025,666.988,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_PV_Utility_Opt,2026,653.648,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_PV_Utility_Opt,2027,640.575,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_PV_Utility_Opt,2028,627.764,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_PV_Utility_Opt,2029,615.208,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_PV_Utility_Opt,2030,602.904,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_PV_Utility_Opt,2031,590.846,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_PV_Utility_Opt,2032,579.029,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_PV_Utility_Opt,2033,567.449,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_PV_Utility_Opt,2034,556.1,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_PV_Utility_Opt,2035,544.978,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_PV_Utility_Opt,2036,534.078,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_PV_Utility_Opt,2037,523.397,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_PV_Utility_Opt,2038,512.929,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_PV_Utility_Opt,2039,502.67,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_PV_Utility_Opt,2040,492.617,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_PV_Utility_Opt,2025,666.988,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_PV_Utility_Opt,2026,653.648,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_PV_Utility_Opt,2027,640.575,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_PV_Utility_Opt,2028,627.764,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_PV_Utility_Opt,2029,615.208,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_PV_Utility_Opt,2030,602.904,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_PV_Utility_Opt,2031,590.846,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_PV_Utility_Opt,2032,579.029,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_PV_Utility_Opt,2033,567.449,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_PV_Utility_Opt,2034,556.1,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_PV_Utility_Opt,2035,544.978,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_PV_Utility_Opt,2036,534.078,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_PV_Utility_Opt,2037,523.397,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_PV_Utility_Opt,2038,512.929,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_PV_Utility_Opt,2039,502.67,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_PV_Utility_Opt,2040,492.617,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_PV_Utility_Opt,2025,666.988,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_PV_Utility_Opt,2026,653.648,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_PV_Utility_Opt,2027,640.575,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_PV_Utility_Opt,2028,627.764,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_PV_Utility_Opt,2029,615.208,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_PV_Utility_Opt,2030,602.904,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_PV_Utility_Opt,2031,590.846,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_PV_Utility_Opt,2032,579.029,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_PV_Utility_Opt,2033,567.449,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_PV_Utility_Opt,2034,556.1,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_PV_Utility_Opt,2035,544.978,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_PV_Utility_Opt,2036,534.078,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_PV_Utility_Opt,2037,523.397,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_PV_Utility_Opt,2038,512.929,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_PV_Utility_Opt,2039,502.67,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_PV_Utility_Opt,2040,492.617,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_PV_Utility_Opt,2025,666.988,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_PV_Utility_Opt,2026,653.648,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_PV_Utility_Opt,2027,640.575,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_PV_Utility_Opt,2028,627.764,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_PV_Utility_Opt,2029,615.208,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_PV_Utility_Opt,2030,602.904,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_PV_Utility_Opt,2031,590.846,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_PV_Utility_Opt,2032,579.029,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_PV_Utility_Opt,2033,567.449,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_PV_Utility_Opt,2034,556.1,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_PV_Utility_Opt,2035,544.978,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_PV_Utility_Opt,2036,534.078,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_PV_Utility_Opt,2037,523.397,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_PV_Utility_Opt,2038,512.929,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_PV_Utility_Opt,2039,502.67,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_PV_Utility_Opt,2040,492.617,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_PV_Utility_Opt,2025,666.988,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_PV_Utility_Opt,2026,653.648,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_PV_Utility_Opt,2027,640.575,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_PV_Utility_Opt,2028,627.764,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_PV_Utility_Opt,2029,615.208,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_PV_Utility_Opt,2030,602.904,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_PV_Utility_Opt,2031,590.846,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_PV_Utility_Opt,2032,579.029,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_PV_Utility_Opt,2033,567.449,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_PV_Utility_Opt,2034,556.1,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_PV_Utility_Opt,2035,544.978,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_PV_Utility_Opt,2036,534.078,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_PV_Utility_Opt,2037,523.397,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_PV_Utility_Opt,2038,512.929,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_PV_Utility_Opt,2039,502.67,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_PV_Utility_Opt,2040,492.617,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (EIA backup anchor 680.6 EUR/kW x PV learning multiplier)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
 California,P_Wind_Offshore_Deep,2025,5497.91,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (Transitional anchor x base depth ratio)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
 California,P_Wind_Offshore_Deep,2026,5537.47,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (Transitional anchor x base depth ratio)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
 California,P_Wind_Offshore_Deep,2027,5580.26,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (Transitional anchor x base depth ratio)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
