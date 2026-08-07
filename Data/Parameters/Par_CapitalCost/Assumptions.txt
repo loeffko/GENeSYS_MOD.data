@@ -127,3 +127,43 @@ AEO2025 benchmarking):
 	  re-anchored on empirical US installed-price data; the concern with
 	  ATB/EIA is that they embed module import tariffs whose persistence
 	  to 2040 is a policy assumption rather than a measurement.
+
+	- Utility PV RESOLVED 2026-08-02 (option B, faster premium erosion):
+	  1245 / 980 / 600 EUR/kW-AC at 2025 / 2030 / 2040 (linear between),
+	  fixed O&M 19 / 16 / 13 EUR/kW-AC/yr.
+	  2025 anchor = LBNL Utility-Scale Solar 2025 ed., >250 MW-AC cohort
+	  (1.38 USD/W-AC, 2024 COD) - the empirical price of the large projects a
+	  capacity-expansion model actually builds, vs a 1.61 USD/W-AC fleet mean.
+	  2040 = NREL ATB 2024 ADVANCED case, i.e. the global-module-spot-price
+	  basis: assumes the US cost premium erodes essentially fully by 2040.
+	  Cross-checks for 2025 (EUR2023/kW-AC): EIA/S&L AEO2025 1389, ATB 2024
+	  Moderate 1381, NREL benchmark 2024 1370, IRENA US 1260, SEIA/WoodMac
+	  Q4-2025 1564. Conversion: US GDP implicit deflator to 2023 + ECB 2023
+	  average 1.0813 USD/EUR. Fixed O&M is ATB full scope (system + property
+	  tax/insurance/admin), consistent with EIA/S&L 18.7; use 13/11/9 instead
+	  if land lease and property tax are ever booked elsewhere.
+	  WHY THE PREVIOUS VALUE WAS WRONG: the "EIA backup 680.6 EUR/kW" taken
+	  from the LCOE file is IRENA's GLOBAL average on a DC basis
+	  (~624 EUR2023/kW-DC). Using it for the US on an AC basis stacked three
+	  errors (region: US is ~1.53x the global average per IRENA; denominator:
+	  ILR 1.32-1.34; deflator). 650-700 EUR/kW-AC implies 546-588 USD/kW-DC,
+	  below China and at India's level.
+	  ON TARIFFS: the US premium is structural, not policy. Rebuilding NREL's
+	  own PV cost model (PVSCM, Q1-2025) gives gross tariff content
+	  6.2 ct/W-DC (5.6% of price) against a 45X pass-through of -7.5 ct/W-DC,
+	  i.e. a NET policy effect near zero; ATB out-year projections are
+	  tariff-free by construction. Fraunhofer ISE puts the genuine US
+	  manufacturing-cost disadvantage at 12.8 EURct/Wp (labour 3-4x,
+	  equipment capex +40-70%). Option B assumes this erodes fully by 2040 -
+	  the optimistic end of the defensible range, and the reason the 2040
+	  value sits below every Moderate-case projection.
+	  RISK FLAGS: observed direction of travel is currently UP, not down
+	  (LBNL real capex flat-to-rising 2022-24; SEIA/WoodMac +14% through 2025;
+	  Lazard LCOE +18% v18->v19), and a Section 232 polysilicon proclamation
+	  (signed 2026-08-06, effective 2026-12-04) sets a 0.38 USD/W-DC minimum
+	  module import price, above current import prices. 45X also phases out
+	  2030-2032, removing the credit that currently offsets tariffs.
+	  KNOWN OMISSION: these are UNSUBSIDISED costs. Real US projects carry a
+	  30-50% investment tax credit, and the investment model has no
+	  investment-subsidy mechanism (the IRA bid adders act in dispatch only),
+	  so PV build-out is biased low until an ITC representation exists.
