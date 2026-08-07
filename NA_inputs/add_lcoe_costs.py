@@ -146,9 +146,27 @@ def main():
     for t in ("P_PV_Utility_Opt", "P_PV_Utility_Avg", "P_PV_Utility_Inf"):
         capex[t] = (pv, "EIA backup anchor 680.6 EUR/kW x PV learning multiplier")
     capex["P_PV_Rooftop_Commercial"] = (S("PV: Residential/Commercial", "CAPEX"), "")
-    onsh = S("Wind Onshore", "CAPEX")
+    # Onshore wind (user decision 2026-08-02): keep the LCOE-model 2025 anchor
+    # (1563 EUR/kW) but adopt the NREL ATB 2024 learning curve, which declines
+    # faster (-10% by 2030, -20% by 2040) than the LCOE file's own -9%/2040.
+    # ATB levels themselves were not adopted: the ATB/LCOE spread is small for
+    # onshore and the 2025 anchor is considered sound.
+    ATB_ONSHORE_INDEX = {2025: 1.000, 2030: 0.897, 2040: 0.804}
+    onsh_raw = S("Wind Onshore", "CAPEX")
+    def _interp_index(idx, years):
+        ks = sorted(idx)
+        def at(y):
+            if y in idx: return idx[y]
+            lo = [k for k in ks if k < y]; hi = [k for k in ks if k > y]
+            if lo and hi:
+                a, b = lo[-1], hi[0]
+                return idx[a] + (idx[b]-idx[a])*(y-a)/(b-a)
+            return idx[lo[-1]] if lo else idx[hi[0]]
+        return {y: at(y) for y in years}
+    onsh_idx = _interp_index(ATB_ONSHORE_INDEX, YEARS)
+    onsh = {y: onsh_raw[YEARS[0]] * onsh_idx[y] for y in YEARS}
     for t in ("P_Wind_Onshore_Opt", "P_Wind_Onshore_Avg", "P_Wind_Onshore_Inf"):
-        capex[t] = (onsh, "")
+        capex[t] = (onsh, "2025 anchor x NREL ATB 2024 learning curve")
     # offshore: anchor Transitional, keep the base depth-cost structure
     off = S("Wind Offshore", "CAPEX")
     base_cc = pd.read_csv(os.path.join(PARDIR, "Par_CapitalCost", "Par_CapitalCost.csv"),

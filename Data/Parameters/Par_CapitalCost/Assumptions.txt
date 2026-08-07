@@ -100,3 +100,30 @@ HMLI_Heatpump:
 
 P_PV_Utility:
 	- For NECPEssentials and REPowerEU++ data from the IEA: World Energy Outlook 2025 was taken for the years 2030 and 2050. The rest of the years was interpolated. For PV_Tracking 	cost for the Tracker was taken from the DEA source and added to the IEA cost projections. 
+NA renewables cost basis (decisions 2026-08-02, after NREL ATB 2024 / EIA
+AEO2025 benchmarking):
+	- Onshore wind: 2025 anchor kept from the FEL2026 LCOE model
+	  (1563 EUR/kW); the DECLINE follows the NREL ATB 2024 learning curve
+	  (index 1.000 / 0.897 / 0.804 at 2025 / 2030 / 2040) rather than the
+	  LCOE file's flatter -9%. ATB's absolute levels (1426/1279/1146) were
+	  not adopted: the ATB-vs-LCOE spread is modest for onshore and the
+	  2025 anchor is considered sound. NOTE: ATB and EIA both put US
+	  onshore fixed O&M near 30 EUR/kW/yr, ~40% above the value used here
+	  (21.6) - open item.
+	- Offshore wind: LCOE-model values kept (4571 / 4700 / 4040 EUR/kW at
+	  2025 / 2030 / 2040), including the RISE from 2025 to 2030. This is
+	  deliberate, not a data error: the US offshore pipeline is currently
+	  stalled, so the learning-curve declines that ATB projects through
+	  2030 have no basis in installed volume. Costs are held elevated while
+	  the pipeline is frozen and decline afterwards as it restarts. ATB
+	  Moderate (5105 / 3865 / 2871) and EIA (3412 for 2025) differ by ~50%
+	  from each other, mainly over export-cable and interconnection scope,
+	  so this parameter is genuinely uncertain; the values used sit between
+	  the two sources in the start year. Fixed O&M kept at 132/123/105
+	  (EIA ~142 supports this; ATB's ~80 looks low).
+	- Utility PV: under review (the previously cited "EIA backup 680.6
+	  EUR/kW" is NOT supported by the actual EIA source, which gives
+	  ~1389 EUR/kW for 2025; ATB 2024 agrees at ~1387). Level to be
+	  re-anchored on empirical US installed-price data; the concern with
+	  ATB/EIA is that they embed module import tariffs whose persistence
+	  to 2040 is a policy assumption rather than a measurement.
