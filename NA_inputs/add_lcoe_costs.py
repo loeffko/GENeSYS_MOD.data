@@ -81,6 +81,21 @@ WACC_NOTE = {
 }
 
 
+def _interp_milestones(milestones, years):
+    """Linear interpolation of a {year: value} dict over `years`; flat outside."""
+    ks = sorted(milestones)
+    def at(y):
+        if y in milestones:
+            return milestones[y]
+        lo = [k for k in ks if k < y]
+        hi = [k for k in ks if k > y]
+        if lo and hi:
+            a, b = lo[-1], hi[0]
+            return milestones[a] + (milestones[b] - milestones[a]) * (y - a) / (b - a)
+        return milestones[lo[-1]] if lo else milestones[hi[0]]
+    return {y: at(y) for y in years}
+
+
 def _csv_path(par):
     if SUBDIR:
         d = os.path.join(PARDIR, par, SUBDIR)
@@ -136,15 +151,19 @@ def main():
                               "Recip engines, Customized_LCOE SOFC US sheet")
     for t in ("P_Coal_Hardcoal", "P_Coal_Lignite"):
         capex[t] = (S("Coal", "CAPEX"), "LCOE 'Coal' applied to both coal techs")
-    # PV anchor (user decision 2026-07-31): use the LCOE file's own EIA backup
-    # (CAPEX PV Backup sheet: 680.6 EUR/kW) instead of the 930 planned value -
-    # the US keeps adding utility PV despite tariffs; 930 vs 680.6 is likely an
-    # AC-vs-DC basis discrepancy flagged to the LCOE-file owners.
-    PV_EIA_ANCHOR = 680.6
-    pv = S("PV: Utility scale", "CAPEX")
-    pv = {y: PV_EIA_ANCHOR * pvmult[y] for y in YEARS}
+    # Utility PV (user decision 2026-08-02, option B): re-anchored on US
+    # benchmark evidence, taking the empirical LARGE-PROJECT anchor for 2025
+    # and the full-premium-erosion path to 2040.
+    #   2025 = LBNL Utility-Scale Solar 2025 ed., >250 MW-AC cohort (1.38
+    #          USD/W-AC, 2024 COD) = 1245 EUR2023/kW-AC
+    #   2040 = NREL ATB 2024 ADVANCED (global module spot price basis) ~600
+    #   2030 = interpolated on that path
+    # The previous 680.6 EUR/kW "EIA backup" value from the LCOE file is
+    # IRENA's GLOBAL average on a DC basis (~624 EUR2023/kW-DC), not a US AC
+    # figure - three stacked errors (region, AC/DC, deflator).
+    PV_CAPEX = _interp_milestones({2025: 1245.0, 2030: 980.0, 2040: 600.0}, YEARS)
     for t in ("P_PV_Utility_Opt", "P_PV_Utility_Avg", "P_PV_Utility_Inf"):
-        capex[t] = (pv, "EIA backup anchor 680.6 EUR/kW x PV learning multiplier")
+        capex[t] = (PV_CAPEX, "US benchmark re-anchor, see Assumptions.txt")
     capex["P_PV_Rooftop_Commercial"] = (S("PV: Residential/Commercial", "CAPEX"), "")
     # Onshore wind (user decision 2026-08-02): keep the LCOE-model 2025 anchor
     # (1563 EUR/kW) but adopt the NREL ATB 2024 learning curve, which declines
@@ -200,8 +219,9 @@ def main():
                             "Recip engines, Customized_LCOE SOFC US sheet")
     for t in ("P_Coal_Hardcoal", "P_Coal_Lignite"):
         fom[t] = (S("Coal", "Fixed OPEX"), "LCOE 'Coal' applied to both coal techs")
+    PV_FOM = _interp_milestones({2025: 19.0, 2030: 16.0, 2040: 13.0}, YEARS)
     for t in ("P_PV_Utility_Opt", "P_PV_Utility_Avg", "P_PV_Utility_Inf"):
-        fom[t] = (S("PV: Utility scale", "Fixed OPEX"), "")
+        fom[t] = (PV_FOM, "ATB full-scope fixed O&M, see Assumptions.txt")
     fom["P_PV_Rooftop_Commercial"] = (S("PV: Residential/Commercial", "Fixed OPEX"), "")
     for t in ("P_Wind_Onshore_Opt", "P_Wind_Onshore_Avg", "P_Wind_Onshore_Inf"):
         fom[t] = (S("Wind Onshore", "Fixed OPEX"), "")
