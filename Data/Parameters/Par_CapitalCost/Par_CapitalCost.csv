@@ -5059,483 +5059,483 @@ Canada,P_Wind_Offshore_Transitional,2037,4227.67,,MEUR/GW,"FEL2026 LCOE Model fi
 Canada,P_Wind_Offshore_Transitional,2038,4164.47,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
 Canada,P_Wind_Offshore_Transitional,2039,4102.38,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
 Canada,P_Wind_Offshore_Transitional,2040,4040.29,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Onshore_Avg,2025,1562.59,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Onshore_Avg,2026,1557.08,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Onshore_Avg,2027,1559.02,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Onshore_Avg,2028,1552.34,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Onshore_Avg,2029,1547.08,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Onshore_Avg,2030,1530.9,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Onshore_Avg,2031,1507.88,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Onshore_Avg,2032,1489.48,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Onshore_Avg,2033,1490.77,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Onshore_Avg,2034,1482.04,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Onshore_Avg,2035,1470.7,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Onshore_Avg,2036,1459.66,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Onshore_Avg,2037,1448.9,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Onshore_Avg,2038,1438.42,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Onshore_Avg,2039,1428.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Onshore_Avg,2040,1418.27,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Onshore_Avg,2025,1562.59,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Onshore_Avg,2026,1557.08,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Onshore_Avg,2027,1559.02,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Onshore_Avg,2028,1552.34,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Onshore_Avg,2029,1547.08,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Onshore_Avg,2030,1530.9,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Onshore_Avg,2031,1507.88,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Onshore_Avg,2032,1489.48,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Onshore_Avg,2033,1490.77,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Onshore_Avg,2034,1482.04,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Onshore_Avg,2035,1470.7,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Onshore_Avg,2036,1459.66,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Onshore_Avg,2037,1448.9,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Onshore_Avg,2038,1438.42,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Onshore_Avg,2039,1428.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Onshore_Avg,2040,1418.27,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Onshore_Avg,2025,1562.59,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Onshore_Avg,2026,1557.08,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Onshore_Avg,2027,1559.02,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Onshore_Avg,2028,1552.34,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Onshore_Avg,2029,1547.08,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Onshore_Avg,2030,1530.9,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Onshore_Avg,2031,1507.88,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Onshore_Avg,2032,1489.48,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Onshore_Avg,2033,1490.77,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Onshore_Avg,2034,1482.04,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Onshore_Avg,2035,1470.7,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Onshore_Avg,2036,1459.66,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Onshore_Avg,2037,1448.9,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Onshore_Avg,2038,1438.42,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Onshore_Avg,2039,1428.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Onshore_Avg,2040,1418.27,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_Wind_Onshore_Avg,2025,1562.59,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_Wind_Onshore_Avg,2026,1557.08,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_Wind_Onshore_Avg,2027,1559.02,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_Wind_Onshore_Avg,2028,1552.34,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_Wind_Onshore_Avg,2029,1547.08,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_Wind_Onshore_Avg,2030,1530.9,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_Wind_Onshore_Avg,2031,1507.88,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_Wind_Onshore_Avg,2032,1489.48,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_Wind_Onshore_Avg,2033,1490.77,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_Wind_Onshore_Avg,2034,1482.04,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_Wind_Onshore_Avg,2035,1470.7,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_Wind_Onshore_Avg,2036,1459.66,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_Wind_Onshore_Avg,2037,1448.9,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_Wind_Onshore_Avg,2038,1438.42,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_Wind_Onshore_Avg,2039,1428.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_Wind_Onshore_Avg,2040,1418.27,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Onshore_Avg,2025,1562.59,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Onshore_Avg,2026,1557.08,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Onshore_Avg,2027,1559.02,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Onshore_Avg,2028,1552.34,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Onshore_Avg,2029,1547.08,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Onshore_Avg,2030,1530.9,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Onshore_Avg,2031,1507.88,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Onshore_Avg,2032,1489.48,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Onshore_Avg,2033,1490.77,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Onshore_Avg,2034,1482.04,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Onshore_Avg,2035,1470.7,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Onshore_Avg,2036,1459.66,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Onshore_Avg,2037,1448.9,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Onshore_Avg,2038,1438.42,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Onshore_Avg,2039,1428.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Onshore_Avg,2040,1418.27,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Onshore_Avg,2025,1562.59,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Onshore_Avg,2026,1557.08,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Onshore_Avg,2027,1559.02,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Onshore_Avg,2028,1552.34,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Onshore_Avg,2029,1547.08,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Onshore_Avg,2030,1530.9,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Onshore_Avg,2031,1507.88,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Onshore_Avg,2032,1489.48,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Onshore_Avg,2033,1490.77,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Onshore_Avg,2034,1482.04,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Onshore_Avg,2035,1470.7,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Onshore_Avg,2036,1459.66,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Onshore_Avg,2037,1448.9,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Onshore_Avg,2038,1438.42,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Onshore_Avg,2039,1428.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Onshore_Avg,2040,1418.27,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Onshore_Avg,2025,1562.59,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Onshore_Avg,2026,1557.08,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Onshore_Avg,2027,1559.02,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Onshore_Avg,2028,1552.34,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Onshore_Avg,2029,1547.08,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Onshore_Avg,2030,1530.9,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Onshore_Avg,2031,1507.88,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Onshore_Avg,2032,1489.48,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Onshore_Avg,2033,1490.77,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Onshore_Avg,2034,1482.04,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Onshore_Avg,2035,1470.7,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Onshore_Avg,2036,1459.66,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Onshore_Avg,2037,1448.9,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Onshore_Avg,2038,1438.42,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Onshore_Avg,2039,1428.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Onshore_Avg,2040,1418.27,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Onshore_Avg,2025,1562.59,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Onshore_Avg,2026,1557.08,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Onshore_Avg,2027,1559.02,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Onshore_Avg,2028,1552.34,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Onshore_Avg,2029,1547.08,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Onshore_Avg,2030,1530.9,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Onshore_Avg,2031,1507.88,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Onshore_Avg,2032,1489.48,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Onshore_Avg,2033,1490.77,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Onshore_Avg,2034,1482.04,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Onshore_Avg,2035,1470.7,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Onshore_Avg,2036,1459.66,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Onshore_Avg,2037,1448.9,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Onshore_Avg,2038,1438.42,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Onshore_Avg,2039,1428.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Onshore_Avg,2040,1418.27,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Onshore_Avg,2025,1562.59,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Onshore_Avg,2026,1557.08,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Onshore_Avg,2027,1559.02,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Onshore_Avg,2028,1552.34,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Onshore_Avg,2029,1547.08,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Onshore_Avg,2030,1530.9,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Onshore_Avg,2031,1507.88,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Onshore_Avg,2032,1489.48,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Onshore_Avg,2033,1490.77,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Onshore_Avg,2034,1482.04,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Onshore_Avg,2035,1470.7,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Onshore_Avg,2036,1459.66,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Onshore_Avg,2037,1448.9,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Onshore_Avg,2038,1438.42,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Onshore_Avg,2039,1428.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Onshore_Avg,2040,1418.27,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Onshore_Avg,2025,1562.59,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Onshore_Avg,2026,1557.08,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Onshore_Avg,2027,1559.02,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Onshore_Avg,2028,1552.34,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Onshore_Avg,2029,1547.08,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Onshore_Avg,2030,1530.9,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Onshore_Avg,2031,1507.88,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Onshore_Avg,2032,1489.48,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Onshore_Avg,2033,1490.77,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Onshore_Avg,2034,1482.04,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Onshore_Avg,2035,1470.7,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Onshore_Avg,2036,1459.66,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Onshore_Avg,2037,1448.9,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Onshore_Avg,2038,1438.42,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Onshore_Avg,2039,1428.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Onshore_Avg,2040,1418.27,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Onshore_Inf,2025,1562.59,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Onshore_Inf,2026,1557.08,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Onshore_Inf,2027,1559.02,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Onshore_Inf,2028,1552.34,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Onshore_Inf,2029,1547.08,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Onshore_Inf,2030,1530.9,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Onshore_Inf,2031,1507.88,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Onshore_Inf,2032,1489.48,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Onshore_Inf,2033,1490.77,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Onshore_Inf,2034,1482.04,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Onshore_Inf,2035,1470.7,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Onshore_Inf,2036,1459.66,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Onshore_Inf,2037,1448.9,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Onshore_Inf,2038,1438.42,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Onshore_Inf,2039,1428.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Onshore_Inf,2040,1418.27,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Onshore_Inf,2025,1562.59,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Onshore_Inf,2026,1557.08,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Onshore_Inf,2027,1559.02,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Onshore_Inf,2028,1552.34,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Onshore_Inf,2029,1547.08,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Onshore_Inf,2030,1530.9,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Onshore_Inf,2031,1507.88,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Onshore_Inf,2032,1489.48,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Onshore_Inf,2033,1490.77,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Onshore_Inf,2034,1482.04,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Onshore_Inf,2035,1470.7,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Onshore_Inf,2036,1459.66,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Onshore_Inf,2037,1448.9,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Onshore_Inf,2038,1438.42,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Onshore_Inf,2039,1428.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Onshore_Inf,2040,1418.27,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Onshore_Inf,2025,1562.59,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Onshore_Inf,2026,1557.08,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Onshore_Inf,2027,1559.02,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Onshore_Inf,2028,1552.34,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Onshore_Inf,2029,1547.08,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Onshore_Inf,2030,1530.9,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Onshore_Inf,2031,1507.88,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Onshore_Inf,2032,1489.48,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Onshore_Inf,2033,1490.77,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Onshore_Inf,2034,1482.04,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Onshore_Inf,2035,1470.7,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Onshore_Inf,2036,1459.66,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Onshore_Inf,2037,1448.9,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Onshore_Inf,2038,1438.42,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Onshore_Inf,2039,1428.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Onshore_Inf,2040,1418.27,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_Wind_Onshore_Inf,2025,1562.59,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_Wind_Onshore_Inf,2026,1557.08,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_Wind_Onshore_Inf,2027,1559.02,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_Wind_Onshore_Inf,2028,1552.34,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_Wind_Onshore_Inf,2029,1547.08,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_Wind_Onshore_Inf,2030,1530.9,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_Wind_Onshore_Inf,2031,1507.88,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_Wind_Onshore_Inf,2032,1489.48,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_Wind_Onshore_Inf,2033,1490.77,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_Wind_Onshore_Inf,2034,1482.04,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_Wind_Onshore_Inf,2035,1470.7,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_Wind_Onshore_Inf,2036,1459.66,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_Wind_Onshore_Inf,2037,1448.9,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_Wind_Onshore_Inf,2038,1438.42,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_Wind_Onshore_Inf,2039,1428.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_Wind_Onshore_Inf,2040,1418.27,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Onshore_Inf,2025,1562.59,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Onshore_Inf,2026,1557.08,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Onshore_Inf,2027,1559.02,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Onshore_Inf,2028,1552.34,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Onshore_Inf,2029,1547.08,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Onshore_Inf,2030,1530.9,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Onshore_Inf,2031,1507.88,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Onshore_Inf,2032,1489.48,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Onshore_Inf,2033,1490.77,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Onshore_Inf,2034,1482.04,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Onshore_Inf,2035,1470.7,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Onshore_Inf,2036,1459.66,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Onshore_Inf,2037,1448.9,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Onshore_Inf,2038,1438.42,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Onshore_Inf,2039,1428.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Onshore_Inf,2040,1418.27,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Onshore_Inf,2025,1562.59,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Onshore_Inf,2026,1557.08,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Onshore_Inf,2027,1559.02,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Onshore_Inf,2028,1552.34,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Onshore_Inf,2029,1547.08,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Onshore_Inf,2030,1530.9,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Onshore_Inf,2031,1507.88,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Onshore_Inf,2032,1489.48,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Onshore_Inf,2033,1490.77,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Onshore_Inf,2034,1482.04,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Onshore_Inf,2035,1470.7,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Onshore_Inf,2036,1459.66,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Onshore_Inf,2037,1448.9,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Onshore_Inf,2038,1438.42,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Onshore_Inf,2039,1428.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Onshore_Inf,2040,1418.27,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Onshore_Inf,2025,1562.59,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Onshore_Inf,2026,1557.08,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Onshore_Inf,2027,1559.02,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Onshore_Inf,2028,1552.34,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Onshore_Inf,2029,1547.08,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Onshore_Inf,2030,1530.9,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Onshore_Inf,2031,1507.88,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Onshore_Inf,2032,1489.48,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Onshore_Inf,2033,1490.77,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Onshore_Inf,2034,1482.04,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Onshore_Inf,2035,1470.7,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Onshore_Inf,2036,1459.66,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Onshore_Inf,2037,1448.9,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Onshore_Inf,2038,1438.42,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Onshore_Inf,2039,1428.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Onshore_Inf,2040,1418.27,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Onshore_Inf,2025,1562.59,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Onshore_Inf,2026,1557.08,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Onshore_Inf,2027,1559.02,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Onshore_Inf,2028,1552.34,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Onshore_Inf,2029,1547.08,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Onshore_Inf,2030,1530.9,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Onshore_Inf,2031,1507.88,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Onshore_Inf,2032,1489.48,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Onshore_Inf,2033,1490.77,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Onshore_Inf,2034,1482.04,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Onshore_Inf,2035,1470.7,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Onshore_Inf,2036,1459.66,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Onshore_Inf,2037,1448.9,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Onshore_Inf,2038,1438.42,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Onshore_Inf,2039,1428.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Onshore_Inf,2040,1418.27,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Onshore_Inf,2025,1562.59,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Onshore_Inf,2026,1557.08,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Onshore_Inf,2027,1559.02,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Onshore_Inf,2028,1552.34,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Onshore_Inf,2029,1547.08,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Onshore_Inf,2030,1530.9,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Onshore_Inf,2031,1507.88,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Onshore_Inf,2032,1489.48,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Onshore_Inf,2033,1490.77,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Onshore_Inf,2034,1482.04,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Onshore_Inf,2035,1470.7,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Onshore_Inf,2036,1459.66,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Onshore_Inf,2037,1448.9,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Onshore_Inf,2038,1438.42,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Onshore_Inf,2039,1428.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Onshore_Inf,2040,1418.27,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Onshore_Inf,2025,1562.59,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Onshore_Inf,2026,1557.08,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Onshore_Inf,2027,1559.02,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Onshore_Inf,2028,1552.34,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Onshore_Inf,2029,1547.08,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Onshore_Inf,2030,1530.9,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Onshore_Inf,2031,1507.88,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Onshore_Inf,2032,1489.48,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Onshore_Inf,2033,1490.77,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Onshore_Inf,2034,1482.04,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Onshore_Inf,2035,1470.7,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Onshore_Inf,2036,1459.66,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Onshore_Inf,2037,1448.9,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Onshore_Inf,2038,1438.42,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Onshore_Inf,2039,1428.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Onshore_Inf,2040,1418.27,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Onshore_Opt,2025,1562.59,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Onshore_Opt,2026,1557.08,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Onshore_Opt,2027,1559.02,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Onshore_Opt,2028,1552.34,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Onshore_Opt,2029,1547.08,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Onshore_Opt,2030,1530.9,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Onshore_Opt,2031,1507.88,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Onshore_Opt,2032,1489.48,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Onshore_Opt,2033,1490.77,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Onshore_Opt,2034,1482.04,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Onshore_Opt,2035,1470.7,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Onshore_Opt,2036,1459.66,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Onshore_Opt,2037,1448.9,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Onshore_Opt,2038,1438.42,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Onshore_Opt,2039,1428.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-California,P_Wind_Onshore_Opt,2040,1418.27,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Onshore_Opt,2025,1562.59,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Onshore_Opt,2026,1557.08,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Onshore_Opt,2027,1559.02,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Onshore_Opt,2028,1552.34,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Onshore_Opt,2029,1547.08,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Onshore_Opt,2030,1530.9,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Onshore_Opt,2031,1507.88,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Onshore_Opt,2032,1489.48,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Onshore_Opt,2033,1490.77,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Onshore_Opt,2034,1482.04,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Onshore_Opt,2035,1470.7,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Onshore_Opt,2036,1459.66,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Onshore_Opt,2037,1448.9,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Onshore_Opt,2038,1438.42,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Onshore_Opt,2039,1428.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-WECC,P_Wind_Onshore_Opt,2040,1418.27,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Onshore_Opt,2025,1562.59,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Onshore_Opt,2026,1557.08,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Onshore_Opt,2027,1559.02,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Onshore_Opt,2028,1552.34,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Onshore_Opt,2029,1547.08,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Onshore_Opt,2030,1530.9,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Onshore_Opt,2031,1507.88,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Onshore_Opt,2032,1489.48,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Onshore_Opt,2033,1490.77,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Onshore_Opt,2034,1482.04,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Onshore_Opt,2035,1470.7,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Onshore_Opt,2036,1459.66,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Onshore_Opt,2037,1448.9,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Onshore_Opt,2038,1438.42,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Onshore_Opt,2039,1428.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Wind_Onshore_Opt,2040,1418.27,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_Wind_Onshore_Opt,2025,1562.59,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_Wind_Onshore_Opt,2026,1557.08,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_Wind_Onshore_Opt,2027,1559.02,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_Wind_Onshore_Opt,2028,1552.34,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_Wind_Onshore_Opt,2029,1547.08,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_Wind_Onshore_Opt,2030,1530.9,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_Wind_Onshore_Opt,2031,1507.88,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_Wind_Onshore_Opt,2032,1489.48,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_Wind_Onshore_Opt,2033,1490.77,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_Wind_Onshore_Opt,2034,1482.04,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_Wind_Onshore_Opt,2035,1470.7,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_Wind_Onshore_Opt,2036,1459.66,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_Wind_Onshore_Opt,2037,1448.9,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_Wind_Onshore_Opt,2038,1438.42,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_Wind_Onshore_Opt,2039,1428.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_Wind_Onshore_Opt,2040,1418.27,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Onshore_Opt,2025,1562.59,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Onshore_Opt,2026,1557.08,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Onshore_Opt,2027,1559.02,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Onshore_Opt,2028,1552.34,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Onshore_Opt,2029,1547.08,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Onshore_Opt,2030,1530.9,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Onshore_Opt,2031,1507.88,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Onshore_Opt,2032,1489.48,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Onshore_Opt,2033,1490.77,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Onshore_Opt,2034,1482.04,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Onshore_Opt,2035,1470.7,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Onshore_Opt,2036,1459.66,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Onshore_Opt,2037,1448.9,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Onshore_Opt,2038,1438.42,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Onshore_Opt,2039,1428.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-MISO,P_Wind_Onshore_Opt,2040,1418.27,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Onshore_Opt,2025,1562.59,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Onshore_Opt,2026,1557.08,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Onshore_Opt,2027,1559.02,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Onshore_Opt,2028,1552.34,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Onshore_Opt,2029,1547.08,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Onshore_Opt,2030,1530.9,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Onshore_Opt,2031,1507.88,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Onshore_Opt,2032,1489.48,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Onshore_Opt,2033,1490.77,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Onshore_Opt,2034,1482.04,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Onshore_Opt,2035,1470.7,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Onshore_Opt,2036,1459.66,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Onshore_Opt,2037,1448.9,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Onshore_Opt,2038,1438.42,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Onshore_Opt,2039,1428.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-SERC,P_Wind_Onshore_Opt,2040,1418.27,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Onshore_Opt,2025,1562.59,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Onshore_Opt,2026,1557.08,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Onshore_Opt,2027,1559.02,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Onshore_Opt,2028,1552.34,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Onshore_Opt,2029,1547.08,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Onshore_Opt,2030,1530.9,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Onshore_Opt,2031,1507.88,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Onshore_Opt,2032,1489.48,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Onshore_Opt,2033,1490.77,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Onshore_Opt,2034,1482.04,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Onshore_Opt,2035,1470.7,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Onshore_Opt,2036,1459.66,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Onshore_Opt,2037,1448.9,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Onshore_Opt,2038,1438.42,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Onshore_Opt,2039,1428.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-PJM,P_Wind_Onshore_Opt,2040,1418.27,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Onshore_Opt,2025,1562.59,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Onshore_Opt,2026,1557.08,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Onshore_Opt,2027,1559.02,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Onshore_Opt,2028,1552.34,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Onshore_Opt,2029,1547.08,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Onshore_Opt,2030,1530.9,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Onshore_Opt,2031,1507.88,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Onshore_Opt,2032,1489.48,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Onshore_Opt,2033,1490.77,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Onshore_Opt,2034,1482.04,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Onshore_Opt,2035,1470.7,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Onshore_Opt,2036,1459.66,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Onshore_Opt,2037,1448.9,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Onshore_Opt,2038,1438.42,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Onshore_Opt,2039,1428.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Wind_Onshore_Opt,2040,1418.27,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Onshore_Opt,2025,1562.59,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Onshore_Opt,2026,1557.08,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Onshore_Opt,2027,1559.02,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Onshore_Opt,2028,1552.34,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Onshore_Opt,2029,1547.08,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Onshore_Opt,2030,1530.9,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Onshore_Opt,2031,1507.88,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Onshore_Opt,2032,1489.48,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Onshore_Opt,2033,1490.77,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Onshore_Opt,2034,1482.04,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Onshore_Opt,2035,1470.7,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Onshore_Opt,2036,1459.66,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Onshore_Opt,2037,1448.9,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Onshore_Opt,2038,1438.42,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Onshore_Opt,2039,1428.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Wind_Onshore_Opt,2040,1418.27,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Onshore_Opt,2025,1562.59,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Onshore_Opt,2026,1557.08,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Onshore_Opt,2027,1559.02,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Onshore_Opt,2028,1552.34,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Onshore_Opt,2029,1547.08,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Onshore_Opt,2030,1530.9,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Onshore_Opt,2031,1507.88,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Onshore_Opt,2032,1489.48,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Onshore_Opt,2033,1490.77,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Onshore_Opt,2034,1482.04,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Onshore_Opt,2035,1470.7,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Onshore_Opt,2036,1459.66,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Onshore_Opt,2037,1448.9,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Onshore_Opt,2038,1438.42,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Onshore_Opt,2039,1428.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Wind_Onshore_Opt,2040,1418.27,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Onshore_Avg,2025,1562.59,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Onshore_Avg,2026,1530.4,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Onshore_Avg,2027,1498.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Onshore_Avg,2028,1466.03,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Onshore_Avg,2029,1433.84,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Onshore_Avg,2030,1401.65,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Onshore_Avg,2031,1387.11,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Onshore_Avg,2032,1372.58,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Onshore_Avg,2033,1358.05,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Onshore_Avg,2034,1343.52,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Onshore_Avg,2035,1328.99,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Onshore_Avg,2036,1314.45,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Onshore_Avg,2037,1299.92,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Onshore_Avg,2038,1285.39,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Onshore_Avg,2039,1270.86,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Onshore_Avg,2040,1256.33,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Onshore_Avg,2025,1562.59,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Onshore_Avg,2026,1530.4,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Onshore_Avg,2027,1498.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Onshore_Avg,2028,1466.03,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Onshore_Avg,2029,1433.84,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Onshore_Avg,2030,1401.65,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Onshore_Avg,2031,1387.11,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Onshore_Avg,2032,1372.58,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Onshore_Avg,2033,1358.05,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Onshore_Avg,2034,1343.52,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Onshore_Avg,2035,1328.99,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Onshore_Avg,2036,1314.45,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Onshore_Avg,2037,1299.92,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Onshore_Avg,2038,1285.39,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Onshore_Avg,2039,1270.86,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Onshore_Avg,2040,1256.33,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Onshore_Avg,2025,1562.59,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Onshore_Avg,2026,1530.4,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Onshore_Avg,2027,1498.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Onshore_Avg,2028,1466.03,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Onshore_Avg,2029,1433.84,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Onshore_Avg,2030,1401.65,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Onshore_Avg,2031,1387.11,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Onshore_Avg,2032,1372.58,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Onshore_Avg,2033,1358.05,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Onshore_Avg,2034,1343.52,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Onshore_Avg,2035,1328.99,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Onshore_Avg,2036,1314.45,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Onshore_Avg,2037,1299.92,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Onshore_Avg,2038,1285.39,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Onshore_Avg,2039,1270.86,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Onshore_Avg,2040,1256.33,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Onshore_Avg,2025,1562.59,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Onshore_Avg,2026,1530.4,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Onshore_Avg,2027,1498.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Onshore_Avg,2028,1466.03,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Onshore_Avg,2029,1433.84,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Onshore_Avg,2030,1401.65,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Onshore_Avg,2031,1387.11,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Onshore_Avg,2032,1372.58,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Onshore_Avg,2033,1358.05,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Onshore_Avg,2034,1343.52,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Onshore_Avg,2035,1328.99,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Onshore_Avg,2036,1314.45,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Onshore_Avg,2037,1299.92,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Onshore_Avg,2038,1285.39,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Onshore_Avg,2039,1270.86,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Onshore_Avg,2040,1256.33,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Onshore_Avg,2025,1562.59,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Onshore_Avg,2026,1530.4,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Onshore_Avg,2027,1498.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Onshore_Avg,2028,1466.03,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Onshore_Avg,2029,1433.84,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Onshore_Avg,2030,1401.65,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Onshore_Avg,2031,1387.11,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Onshore_Avg,2032,1372.58,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Onshore_Avg,2033,1358.05,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Onshore_Avg,2034,1343.52,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Onshore_Avg,2035,1328.99,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Onshore_Avg,2036,1314.45,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Onshore_Avg,2037,1299.92,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Onshore_Avg,2038,1285.39,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Onshore_Avg,2039,1270.86,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Onshore_Avg,2040,1256.33,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Onshore_Avg,2025,1562.59,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Onshore_Avg,2026,1530.4,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Onshore_Avg,2027,1498.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Onshore_Avg,2028,1466.03,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Onshore_Avg,2029,1433.84,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Onshore_Avg,2030,1401.65,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Onshore_Avg,2031,1387.11,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Onshore_Avg,2032,1372.58,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Onshore_Avg,2033,1358.05,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Onshore_Avg,2034,1343.52,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Onshore_Avg,2035,1328.99,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Onshore_Avg,2036,1314.45,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Onshore_Avg,2037,1299.92,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Onshore_Avg,2038,1285.39,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Onshore_Avg,2039,1270.86,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Onshore_Avg,2040,1256.33,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Onshore_Avg,2025,1562.59,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Onshore_Avg,2026,1530.4,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Onshore_Avg,2027,1498.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Onshore_Avg,2028,1466.03,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Onshore_Avg,2029,1433.84,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Onshore_Avg,2030,1401.65,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Onshore_Avg,2031,1387.11,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Onshore_Avg,2032,1372.58,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Onshore_Avg,2033,1358.05,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Onshore_Avg,2034,1343.52,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Onshore_Avg,2035,1328.99,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Onshore_Avg,2036,1314.45,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Onshore_Avg,2037,1299.92,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Onshore_Avg,2038,1285.39,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Onshore_Avg,2039,1270.86,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Onshore_Avg,2040,1256.33,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Onshore_Avg,2025,1562.59,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Onshore_Avg,2026,1530.4,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Onshore_Avg,2027,1498.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Onshore_Avg,2028,1466.03,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Onshore_Avg,2029,1433.84,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Onshore_Avg,2030,1401.65,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Onshore_Avg,2031,1387.11,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Onshore_Avg,2032,1372.58,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Onshore_Avg,2033,1358.05,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Onshore_Avg,2034,1343.52,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Onshore_Avg,2035,1328.99,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Onshore_Avg,2036,1314.45,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Onshore_Avg,2037,1299.92,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Onshore_Avg,2038,1285.39,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Onshore_Avg,2039,1270.86,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Onshore_Avg,2040,1256.33,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Onshore_Avg,2025,1562.59,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Onshore_Avg,2026,1530.4,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Onshore_Avg,2027,1498.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Onshore_Avg,2028,1466.03,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Onshore_Avg,2029,1433.84,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Onshore_Avg,2030,1401.65,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Onshore_Avg,2031,1387.11,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Onshore_Avg,2032,1372.58,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Onshore_Avg,2033,1358.05,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Onshore_Avg,2034,1343.52,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Onshore_Avg,2035,1328.99,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Onshore_Avg,2036,1314.45,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Onshore_Avg,2037,1299.92,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Onshore_Avg,2038,1285.39,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Onshore_Avg,2039,1270.86,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Onshore_Avg,2040,1256.33,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Onshore_Avg,2025,1562.59,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Onshore_Avg,2026,1530.4,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Onshore_Avg,2027,1498.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Onshore_Avg,2028,1466.03,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Onshore_Avg,2029,1433.84,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Onshore_Avg,2030,1401.65,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Onshore_Avg,2031,1387.11,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Onshore_Avg,2032,1372.58,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Onshore_Avg,2033,1358.05,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Onshore_Avg,2034,1343.52,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Onshore_Avg,2035,1328.99,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Onshore_Avg,2036,1314.45,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Onshore_Avg,2037,1299.92,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Onshore_Avg,2038,1285.39,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Onshore_Avg,2039,1270.86,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Onshore_Avg,2040,1256.33,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Onshore_Inf,2025,1562.59,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Onshore_Inf,2026,1530.4,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Onshore_Inf,2027,1498.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Onshore_Inf,2028,1466.03,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Onshore_Inf,2029,1433.84,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Onshore_Inf,2030,1401.65,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Onshore_Inf,2031,1387.11,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Onshore_Inf,2032,1372.58,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Onshore_Inf,2033,1358.05,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Onshore_Inf,2034,1343.52,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Onshore_Inf,2035,1328.99,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Onshore_Inf,2036,1314.45,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Onshore_Inf,2037,1299.92,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Onshore_Inf,2038,1285.39,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Onshore_Inf,2039,1270.86,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Onshore_Inf,2040,1256.33,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Onshore_Inf,2025,1562.59,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Onshore_Inf,2026,1530.4,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Onshore_Inf,2027,1498.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Onshore_Inf,2028,1466.03,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Onshore_Inf,2029,1433.84,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Onshore_Inf,2030,1401.65,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Onshore_Inf,2031,1387.11,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Onshore_Inf,2032,1372.58,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Onshore_Inf,2033,1358.05,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Onshore_Inf,2034,1343.52,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Onshore_Inf,2035,1328.99,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Onshore_Inf,2036,1314.45,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Onshore_Inf,2037,1299.92,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Onshore_Inf,2038,1285.39,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Onshore_Inf,2039,1270.86,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Onshore_Inf,2040,1256.33,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Onshore_Inf,2025,1562.59,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Onshore_Inf,2026,1530.4,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Onshore_Inf,2027,1498.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Onshore_Inf,2028,1466.03,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Onshore_Inf,2029,1433.84,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Onshore_Inf,2030,1401.65,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Onshore_Inf,2031,1387.11,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Onshore_Inf,2032,1372.58,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Onshore_Inf,2033,1358.05,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Onshore_Inf,2034,1343.52,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Onshore_Inf,2035,1328.99,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Onshore_Inf,2036,1314.45,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Onshore_Inf,2037,1299.92,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Onshore_Inf,2038,1285.39,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Onshore_Inf,2039,1270.86,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Onshore_Inf,2040,1256.33,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Onshore_Inf,2025,1562.59,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Onshore_Inf,2026,1530.4,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Onshore_Inf,2027,1498.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Onshore_Inf,2028,1466.03,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Onshore_Inf,2029,1433.84,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Onshore_Inf,2030,1401.65,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Onshore_Inf,2031,1387.11,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Onshore_Inf,2032,1372.58,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Onshore_Inf,2033,1358.05,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Onshore_Inf,2034,1343.52,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Onshore_Inf,2035,1328.99,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Onshore_Inf,2036,1314.45,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Onshore_Inf,2037,1299.92,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Onshore_Inf,2038,1285.39,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Onshore_Inf,2039,1270.86,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Onshore_Inf,2040,1256.33,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Onshore_Inf,2025,1562.59,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Onshore_Inf,2026,1530.4,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Onshore_Inf,2027,1498.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Onshore_Inf,2028,1466.03,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Onshore_Inf,2029,1433.84,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Onshore_Inf,2030,1401.65,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Onshore_Inf,2031,1387.11,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Onshore_Inf,2032,1372.58,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Onshore_Inf,2033,1358.05,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Onshore_Inf,2034,1343.52,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Onshore_Inf,2035,1328.99,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Onshore_Inf,2036,1314.45,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Onshore_Inf,2037,1299.92,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Onshore_Inf,2038,1285.39,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Onshore_Inf,2039,1270.86,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Onshore_Inf,2040,1256.33,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Onshore_Inf,2025,1562.59,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Onshore_Inf,2026,1530.4,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Onshore_Inf,2027,1498.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Onshore_Inf,2028,1466.03,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Onshore_Inf,2029,1433.84,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Onshore_Inf,2030,1401.65,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Onshore_Inf,2031,1387.11,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Onshore_Inf,2032,1372.58,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Onshore_Inf,2033,1358.05,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Onshore_Inf,2034,1343.52,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Onshore_Inf,2035,1328.99,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Onshore_Inf,2036,1314.45,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Onshore_Inf,2037,1299.92,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Onshore_Inf,2038,1285.39,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Onshore_Inf,2039,1270.86,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Onshore_Inf,2040,1256.33,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Onshore_Inf,2025,1562.59,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Onshore_Inf,2026,1530.4,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Onshore_Inf,2027,1498.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Onshore_Inf,2028,1466.03,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Onshore_Inf,2029,1433.84,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Onshore_Inf,2030,1401.65,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Onshore_Inf,2031,1387.11,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Onshore_Inf,2032,1372.58,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Onshore_Inf,2033,1358.05,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Onshore_Inf,2034,1343.52,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Onshore_Inf,2035,1328.99,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Onshore_Inf,2036,1314.45,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Onshore_Inf,2037,1299.92,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Onshore_Inf,2038,1285.39,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Onshore_Inf,2039,1270.86,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Onshore_Inf,2040,1256.33,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Onshore_Inf,2025,1562.59,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Onshore_Inf,2026,1530.4,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Onshore_Inf,2027,1498.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Onshore_Inf,2028,1466.03,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Onshore_Inf,2029,1433.84,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Onshore_Inf,2030,1401.65,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Onshore_Inf,2031,1387.11,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Onshore_Inf,2032,1372.58,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Onshore_Inf,2033,1358.05,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Onshore_Inf,2034,1343.52,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Onshore_Inf,2035,1328.99,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Onshore_Inf,2036,1314.45,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Onshore_Inf,2037,1299.92,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Onshore_Inf,2038,1285.39,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Onshore_Inf,2039,1270.86,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Onshore_Inf,2040,1256.33,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Onshore_Inf,2025,1562.59,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Onshore_Inf,2026,1530.4,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Onshore_Inf,2027,1498.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Onshore_Inf,2028,1466.03,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Onshore_Inf,2029,1433.84,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Onshore_Inf,2030,1401.65,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Onshore_Inf,2031,1387.11,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Onshore_Inf,2032,1372.58,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Onshore_Inf,2033,1358.05,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Onshore_Inf,2034,1343.52,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Onshore_Inf,2035,1328.99,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Onshore_Inf,2036,1314.45,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Onshore_Inf,2037,1299.92,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Onshore_Inf,2038,1285.39,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Onshore_Inf,2039,1270.86,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Onshore_Inf,2040,1256.33,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Onshore_Inf,2025,1562.59,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Onshore_Inf,2026,1530.4,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Onshore_Inf,2027,1498.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Onshore_Inf,2028,1466.03,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Onshore_Inf,2029,1433.84,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Onshore_Inf,2030,1401.65,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Onshore_Inf,2031,1387.11,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Onshore_Inf,2032,1372.58,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Onshore_Inf,2033,1358.05,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Onshore_Inf,2034,1343.52,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Onshore_Inf,2035,1328.99,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Onshore_Inf,2036,1314.45,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Onshore_Inf,2037,1299.92,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Onshore_Inf,2038,1285.39,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Onshore_Inf,2039,1270.86,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Onshore_Inf,2040,1256.33,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Onshore_Opt,2025,1562.59,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Onshore_Opt,2026,1530.4,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Onshore_Opt,2027,1498.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Onshore_Opt,2028,1466.03,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Onshore_Opt,2029,1433.84,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Onshore_Opt,2030,1401.65,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Onshore_Opt,2031,1387.11,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Onshore_Opt,2032,1372.58,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Onshore_Opt,2033,1358.05,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Onshore_Opt,2034,1343.52,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Onshore_Opt,2035,1328.99,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Onshore_Opt,2036,1314.45,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Onshore_Opt,2037,1299.92,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Onshore_Opt,2038,1285.39,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Onshore_Opt,2039,1270.86,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+California,P_Wind_Onshore_Opt,2040,1256.33,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Onshore_Opt,2025,1562.59,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Onshore_Opt,2026,1530.4,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Onshore_Opt,2027,1498.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Onshore_Opt,2028,1466.03,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Onshore_Opt,2029,1433.84,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Onshore_Opt,2030,1401.65,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Onshore_Opt,2031,1387.11,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Onshore_Opt,2032,1372.58,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Onshore_Opt,2033,1358.05,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Onshore_Opt,2034,1343.52,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Onshore_Opt,2035,1328.99,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Onshore_Opt,2036,1314.45,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Onshore_Opt,2037,1299.92,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Onshore_Opt,2038,1285.39,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Onshore_Opt,2039,1270.86,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,P_Wind_Onshore_Opt,2040,1256.33,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Onshore_Opt,2025,1562.59,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Onshore_Opt,2026,1530.4,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Onshore_Opt,2027,1498.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Onshore_Opt,2028,1466.03,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Onshore_Opt,2029,1433.84,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Onshore_Opt,2030,1401.65,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Onshore_Opt,2031,1387.11,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Onshore_Opt,2032,1372.58,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Onshore_Opt,2033,1358.05,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Onshore_Opt,2034,1343.52,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Onshore_Opt,2035,1328.99,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Onshore_Opt,2036,1314.45,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Onshore_Opt,2037,1299.92,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Onshore_Opt,2038,1285.39,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Onshore_Opt,2039,1270.86,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Wind_Onshore_Opt,2040,1256.33,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Onshore_Opt,2025,1562.59,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Onshore_Opt,2026,1530.4,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Onshore_Opt,2027,1498.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Onshore_Opt,2028,1466.03,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Onshore_Opt,2029,1433.84,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Onshore_Opt,2030,1401.65,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Onshore_Opt,2031,1387.11,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Onshore_Opt,2032,1372.58,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Onshore_Opt,2033,1358.05,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Onshore_Opt,2034,1343.52,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Onshore_Opt,2035,1328.99,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Onshore_Opt,2036,1314.45,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Onshore_Opt,2037,1299.92,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Onshore_Opt,2038,1285.39,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Onshore_Opt,2039,1270.86,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Wind_Onshore_Opt,2040,1256.33,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Onshore_Opt,2025,1562.59,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Onshore_Opt,2026,1530.4,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Onshore_Opt,2027,1498.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Onshore_Opt,2028,1466.03,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Onshore_Opt,2029,1433.84,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Onshore_Opt,2030,1401.65,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Onshore_Opt,2031,1387.11,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Onshore_Opt,2032,1372.58,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Onshore_Opt,2033,1358.05,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Onshore_Opt,2034,1343.52,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Onshore_Opt,2035,1328.99,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Onshore_Opt,2036,1314.45,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Onshore_Opt,2037,1299.92,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Onshore_Opt,2038,1285.39,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Onshore_Opt,2039,1270.86,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,P_Wind_Onshore_Opt,2040,1256.33,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Onshore_Opt,2025,1562.59,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Onshore_Opt,2026,1530.4,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Onshore_Opt,2027,1498.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Onshore_Opt,2028,1466.03,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Onshore_Opt,2029,1433.84,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Onshore_Opt,2030,1401.65,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Onshore_Opt,2031,1387.11,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Onshore_Opt,2032,1372.58,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Onshore_Opt,2033,1358.05,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Onshore_Opt,2034,1343.52,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Onshore_Opt,2035,1328.99,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Onshore_Opt,2036,1314.45,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Onshore_Opt,2037,1299.92,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Onshore_Opt,2038,1285.39,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Onshore_Opt,2039,1270.86,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,P_Wind_Onshore_Opt,2040,1256.33,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Onshore_Opt,2025,1562.59,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Onshore_Opt,2026,1530.4,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Onshore_Opt,2027,1498.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Onshore_Opt,2028,1466.03,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Onshore_Opt,2029,1433.84,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Onshore_Opt,2030,1401.65,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Onshore_Opt,2031,1387.11,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Onshore_Opt,2032,1372.58,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Onshore_Opt,2033,1358.05,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Onshore_Opt,2034,1343.52,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Onshore_Opt,2035,1328.99,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Onshore_Opt,2036,1314.45,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Onshore_Opt,2037,1299.92,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Onshore_Opt,2038,1285.39,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Onshore_Opt,2039,1270.86,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,P_Wind_Onshore_Opt,2040,1256.33,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Onshore_Opt,2025,1562.59,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Onshore_Opt,2026,1530.4,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Onshore_Opt,2027,1498.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Onshore_Opt,2028,1466.03,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Onshore_Opt,2029,1433.84,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Onshore_Opt,2030,1401.65,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Onshore_Opt,2031,1387.11,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Onshore_Opt,2032,1372.58,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Onshore_Opt,2033,1358.05,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Onshore_Opt,2034,1343.52,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Onshore_Opt,2035,1328.99,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Onshore_Opt,2036,1314.45,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Onshore_Opt,2037,1299.92,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Onshore_Opt,2038,1285.39,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Onshore_Opt,2039,1270.86,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Wind_Onshore_Opt,2040,1256.33,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Onshore_Opt,2025,1562.59,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Onshore_Opt,2026,1530.4,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Onshore_Opt,2027,1498.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Onshore_Opt,2028,1466.03,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Onshore_Opt,2029,1433.84,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Onshore_Opt,2030,1401.65,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Onshore_Opt,2031,1387.11,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Onshore_Opt,2032,1372.58,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Onshore_Opt,2033,1358.05,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Onshore_Opt,2034,1343.52,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Onshore_Opt,2035,1328.99,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Onshore_Opt,2036,1314.45,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Onshore_Opt,2037,1299.92,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Onshore_Opt,2038,1285.39,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Onshore_Opt,2039,1270.86,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Wind_Onshore_Opt,2040,1256.33,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Onshore_Opt,2025,1562.59,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Onshore_Opt,2026,1530.4,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Onshore_Opt,2027,1498.21,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Onshore_Opt,2028,1466.03,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Onshore_Opt,2029,1433.84,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Onshore_Opt,2030,1401.65,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Onshore_Opt,2031,1387.11,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Onshore_Opt,2032,1372.58,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Onshore_Opt,2033,1358.05,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Onshore_Opt,2034,1343.52,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Onshore_Opt,2035,1328.99,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Onshore_Opt,2036,1314.45,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Onshore_Opt,2037,1299.92,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Onshore_Opt,2038,1285.39,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Onshore_Opt,2039,1270.86,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Onshore_Opt,2040,1256.33,,MEUR/GW,"FEL2026 LCOE Model file V1.4, dated 2026-06-18 (2025 anchor x NREL ATB 2024 learning curve)",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
