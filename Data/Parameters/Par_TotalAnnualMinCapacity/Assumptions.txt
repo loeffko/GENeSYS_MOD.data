@@ -1,0 +1,33 @@
+
+NorthAmerica_nuclear_announced scenario (2026-08-02):
+	Nuclear corridor (min AND max) replaced by the full announced-projects
+	pipeline from the two SNL-based reviews in NA_inputs/ ("Nuclear Review w
+	Distributed Breakout_5.7.2026.xlsx", "Canadian Nuclear Review_5.7.2026.xlsx"),
+	assuming every announced/planned/IRP/RFP unit, restart and uprate arrives
+	ON TIME. Built on the v6-freeze data state for comparability with the v6
+	base case.
+	Method:
+	- Anchor = v6 2025 min corridor (= operating fleet).
+	- Additions dated by 'Scenario In Service Date' year; units with dates
+	  <= 2025 treated as already in the operating fleet (excludes the Bruce
+	  CDU 3/4 rows carrying their 1978/79 original in-service dates).
+	- Unit class split: <= 500 MW/unit -> P_Nuclear_SMR (BWRX-300, AP300,
+	  Natrium, Entra1, Cascade, TVA/Holtec SMR fleet, Oklo micro-fleets ...);
+	  > 500 MW -> P_Nuclear. Restarts (Palisades, Crane, Duane Arnold) and
+	  uprates (existing plants) -> P_Nuclear. Canadian uprates use the
+	  per-unit uprate DELTA (75 MW Bruce units), not nameplate.
+	- Refurbishment outages: where the v6 min dips below the 2025 fleet
+	  (Canada 2026-2034, Bruce/Darlington refurb), the outage is kept in the
+	  scenario path - those units are offline, not new builds.
+	- Max corridor = max(v6 max, announced path + 0.001) so the forced path
+	  is always feasible; where v6 assumed MORE capacity than the pipeline
+	  supports (ERCOT +3.2 GW, SPP +2.4 GW, some SERC by 2040), the
+	  scenario REPLACES the corridor with the announced path (scenario
+	  question is "what the pipeline delivers", not "pipeline + old
+	  assumptions").
+	- Levy County units excluded (Postponed/Cancelled). Units with in-service
+	  2041+ excluded (model horizon 2040): Comanche Peak 4, Blue Castle 2,
+	  Turkey Point 7, Stewart County, Vogtle 5, Portland General IRP wave -
+	  ~10 GW sits just past the horizon.
+	Capex/params deliberately unchanged: capacity is forced via the corridor,
+	so cost assumptions only affect the objective value, not the buildout.
