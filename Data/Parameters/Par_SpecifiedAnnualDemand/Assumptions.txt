@@ -65,3 +65,13 @@ Parameters:
 			- NECP Essentials and REPowerEU++ assume the Global Ambition Scenario
 			- Go RES assumes the Distributed Energy Scenario
 			- The TYNDP scenario results are added on top of the historic existing hydrogen demands
+
+Space-DC sensitivities (2026-08-12): NorthAmerica_space_dc / _disruptive /
+	_spacex. Power_DataCenter demand reduced by the US percentage share of
+	data-center capacity moved to orbit, from 'DC in space - assumptions
+	sheet.xlsx' (NA_inputs/; scenarios Base / Disruptive / SpaceX Vision,
+	'GW moved to space - US' rows). Uniform cut across US + Canada (user
+	decision). Zero until 2032; from 2033 linear along the 2030/2035/2040
+	anchors (Base: 3.78% @2035, 5.11% @2040; Disruptive: 8.56/12.77;
+	SpaceX: 16.46/25.54). v6-freeze demand basis. Other Power_* carriers
+	untouched.
