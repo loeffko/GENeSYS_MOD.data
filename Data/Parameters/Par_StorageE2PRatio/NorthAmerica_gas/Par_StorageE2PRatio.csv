@@ -1,0 +1,2 @@
+Storage,Year,Value,,Unit,Source,Updated at,Updated by
+S_Gas_Methane,All,800,,GWh/GW,NA underground storage: working gas / peak deliverability ~ 33 days (EIA-191 2024: 4.9 EJ / 118 Bcf/d); scenario override of the EU 167 h; see NA_inputs/gas_research + docs/proposals/NA_GAS_INFRASTRUCTURE_PROPOSAL_2026-09-12.md,2026-09-15,Konstantin Loffler <kl@wip.tu-berlin.de>
