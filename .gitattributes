@@ -1,0 +1,7 @@
+# Binary formats: never apply CRLF conversion or diffs
+*.xlsx binary
+*.xls binary
+*.pdf binary
+*.duckdb binary
+*.png binary
+*.zip binary

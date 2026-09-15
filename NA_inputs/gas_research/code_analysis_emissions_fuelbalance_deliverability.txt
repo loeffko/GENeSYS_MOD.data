@@ -1,0 +1,272 @@
+
+##### emissions
+--- full_mode_mechanism:
+FULL model (Gas_Natural explicit): emissions are INPUT-FUEL based and land 100% on the combustion technology. E1 (src/genesysmod_equ.jl:1069-1077) builds, per (y,t,m,r,e): AnnualTechnologyEmissionByMode = EmissionActivityRatio[r,t,m,e,y] * sum_{f in Maps.Tech_Fuel[t]} TotalAnnualTechnologyActivityByMode[y,t,m,r] * EmissionContentPerFuel[f,e] * InputActivityRatio[r,t,f,m,y]  (+ the power-only OutputEmissionRatio term, which is 0 here). For P_Gas_CCGT mode 1: EAR = 1.0 (Par_EmissionActivityRatio.csv:160 'P_Gas_CCGT,All,CO2,All,1.0' = fraction released to atmosphere), ECPF[Gas_Natural,CO2] = 5.58e-05 Gt/PJ (Par_EmissionContentPerFuel.csv:4, Umweltbundesamt 2022), IAR[P_Gas_CCGT,Gas_Natural,1,2025] = 1.7857 PJ_gas/PJ_act (Par_InputActivityRatio.csv:1621-1630) => 9.96e-05 Gt CO2 per PJ activity (= per PJ power since OAR=1, Par_OutputActivityRatio.csv:326). E2 (equ.jl:1090) sums modes -> AnnualTechnologyEmission; E3 (1093) x EmissionsPenalty[r,e,y] x EmissionsPenaltyTagTechnology; E4 (1097) sums emissions; E5 (1100) discounts into the objective; E6 (1108) regional total; E8/E9/E10-13 limits. Supply side: R_Gas and Z_Import_Gas produce Gas_Natural (OAR csv:358, 389) and have NO InputActivityRatio rows and NO EmissionActivityRatio rows (grep ',R_Gas,' / ',Z_Import' in Par_EmissionActivityRatio.csv returns nothing; Sets_Emission.csv = CO2 only). Because E1 multiplies by IAR, an R_/Z_ tech contributes exactly 0 emission even if an EAR row were added. Their contribution is COST only: VariableCost[R_Gas,1,y] = 4.21-8.39 MEUR/PJ, VariableCost[Z_Import_Gas,1,y] = 4.44-8.84 MEUR/PJ (Par_VariableCost.csv:940-949, 990-999; NA regional overrides e.g. ERCOT R_Gas 2025 8.3933, California Z_Import_Gas 2025 3.306), charged via their activity in the operating-cost equations, linked to P_Gas_CCGT's fuel Use through the Gas_Natural energy balance and (in EU) the gas trade constraints TrC4a/TrPA (equ.jl:525-547, 586-627 - both commented out '#=' for the NA power-only build). Params are loaded by create_daa in src/genesysmod_dataload.jl:392 (EmissionActivityRatio, inherit_base_world) and :415 (EmissionContentPerFuel, Fuel x Emission, no region); OutputEmissionRatio is a zeros array (:416). Same input-side formula reappears in results.jl:403 (levelized emission cost), variable_parameter.jl:91 (CCSByTechnologyAnnual) and the CCS2 storage limit equ.jl:783-784. Sector attribution of any emission follows TagTechnologyToSector (results.jl:329-335): P_Gas_CCGT -> Power (Par_TagTechnologyToSector.csv:90); R_Gas / Z_Import_Gas -> 'Resources' (:109, :152).
+--- power_only_mechanism:
+POWER-ONLY (switch_power_only_mode=1, test/test_northamerica.jl:31-32): the set filter (Conversion Script/Set_filter_file_NorthAmerica.xlsx, Fuel_selection = Power + 6 Power_* only) strips Gas_Natural, so the loaded workbook has no IAR rows for any P_Gas_* tech, an EMPTY Par_EmissionContentPerFuel sheet (header only), no R_/Z_ techs, and Sets.Fuel = [Power, Power_General, ...] (read from the 'Sets' sheet col D in read_sets, dataload.jl:173). Consequently Maps.Tech_Fuel[P_Gas_CCGT] = ["Power"] and E1's first term is identically 0. Emissions and fuel cost are instead injected by power_only_precompute!(Params, Sets, Switch) (src/genesysmod_precompute_powerOnly.jl:38-190), called right after dataload in genesysmod_main.jl:114, genesysmod_dispatch.jl:106 and genesysmod_dispatch_fullyear.jl:398. It reads the allFuels workbook (RegularParameters_NorthAmerica_allFuels.xlsx, which still has Gas_Natural, R_Gas, Z_Import_Gas, the ECPF rows) - sheets IAR/OAR/VariableCost/ECPF (lines 50-53). For every allFuels IAR group (r,t,m,y) with t in the power-only Sets.Technology (line 138-139): (a) modes using a SKIP fuel (Gas_Synth) get their Power OAR zeroed (144-150); (b) fuel_cost_pa = sum_f IAR*upstream_vc(r,f,y) where upstream_vc looks up VariableCost of 'Z_Import_'*alias(f) (FUEL_ALIAS Gas_Natural->Gas, LBG/LSG->LNG, H2_Blend->H2, lines 105-122) or UPSTREAM_TECH (Gas_Bio->R_Biogas w/ emission 0, Nuclear->R_Nuclear, 96-101), and Params.VariableCost[r,t,m,y] += fuel_cost_pa (163-170); (c) for each e: emission_pa = sum_f IAR*ECPF[alias(f),e] and Params.OutputEmissionRatio[r,t,e,m,y] = emission_pa / OAR_Power (173-182). E1 then adds OutputEmissionRatio[r,t,e,m,y] * OutputActivityRatio[r,t,"Power",m,y] * TotalAnnualTechnologyActivityByMode (equ.jl:1073-1075, guarded by Switch.switch_power_only_mode == 1). For P_Gas_CCGT mode 1 this yields OER = 1.7857*5.58e-05/1 = 9.96e-05 Gt/PJ_power, i.e. numerically identical to the full model - attributed to the plant, on the OUTPUT side. Note: (i) the precompute NEVER multiplies by EmissionActivityRatio (ec_lookup, line 123-129), so CCS residual fractions (P_Gas_CCS EAR 0.10 in 2025, rows in the PO workbook) and BECCS negatives are ignored in power-only - CCS plants are charged full CO2; (ii) CHP cogen modes are charged the full fuel emission against Power (documented lines 20-25); (iii) heat-only modes (OAR_Power==0) are skipped; (iv) cost uses Z_Import_Gas's VC, never R_Gas's; (v) the merit-order dispatch (dispatch_fullyear.jl:419-421, 447-449) reads CO2 intensity from OutputEmissionRatio and marginal cost from the folded VariableCost.
+--- required_precompute_change:
+If Gas_Natural is re-enabled as an explicit fuel in the power-only workbook (Fuel_selection += Gas_Natural; Technology_selection += R_Gas, Z_Import_Gas; the filter then automatically re-includes P_Gas_*/CHP_Gas_*_Natural IAR rows, the EAR rows already there, the ECPF Gas_Natural row, and any Gas_Natural TradeRoute/TradeCapacity rows), the model itself charges: cost via R_Gas / Z_Import_Gas VariableCost x their activity (plus the Gas_Natural energy balance and generic trade TrC2a/b, TrCMax/Min over Maps.Set_Fuel_Regions), and emissions via E1 term 1 = EAR[r,t,m,CO2,y] x ECPF[Gas_Natural,CO2] x IAR x activity ON THE COMBUSTION TECH (R_Gas / Z_Import_Gas stay at zero - no IAR, no EAR rows). Therefore BOTH precompute contributions for that fuel must be skipped, per input fuel, in every (r,t,m,y) group: (1) the VariableCost += IAR*upstream_vc term (line 163/170) - otherwise fuel cost is paid twice (folded Z_Import_Gas price + real R_Gas/Z_Import_Gas activity cost); (2) the OutputEmissionRatio term (line 174/180) - otherwise E1 counts 2x 9.96e-05 Gt/PJ (term 1 + term 2). Also the SKIP_FUELS OAR-zeroing (line 144) must only apply to fuels that are NOT explicit. Do this data-driven: build explicit_fuels = Set(String.(Sets.Fuel)) from the loaded power-only workbook and filter each fuel out of both sums; a mode whose input fuels are all explicit is left untouched (no VC add, OER stays 0). No hardcoded fuel list; when Sets.Fuel later gains Hardcoal/Nuclear/etc. the same guard applies. Nothing needs undoing elsewhere: VariableCost is an '+=' on the plant's own O&M value; OutputEmissionRatio is zero-initialised (dataload.jl:416); the E1 power-only term then evaluates to 0 for those modes. Emissions end up attributed to P_Gas_CCGT (Sector 'Power') exactly as in the full model; nothing is attributed to R_Gas or Z_Import_Gas because the data carries no upstream (methane/process) emission for them - Sets_Emission = {CO2}, no EAR rows for R_/Z_ techs, and E1's IAR multiplication would zero such rows anyway (an upstream emission would need an output-side term or a dummy input fuel, not an EAR row).
+--- proposed_diff:
+--- a/src/genesysmod_precompute_powerOnly.jl
++++ b/src/genesysmod_precompute_powerOnly.jl
+@@ -128,6 +128,18 @@ function power_only_precompute!(Params, Sets, Switch)
+         get(ecpf_d, (alias(f), String(e)), get(ecpf_d, (f, String(e)), 0.0))
+     end
+ 
++    # ---- fuels the power-only workbook models EXPLICITLY (present in its Sets/Fuel,
++    # i.e. fuel balance + R_/Z_Import_ supply techs + trade are in the model) ----
++    # For those the model already charges the fuel cost (VariableCost of the supply
++    # techs x activity) and the emission (E1: EmissionActivityRatio x
++    # EmissionContentPerFuel x InputActivityRatio on the combustion tech). Folding
++    # them here as well would double-count both, so they are excluded from BOTH sums
++    # below and from the SKIP-fuel OAR zeroing. Data-driven: whatever the loaded
++    # power-only workbook lists as a fuel is left to the model - no hardcoded list.
++    explicit_fuels = Set(String.(Sets.Fuel))
++    folded(f) = !(f in explicit_fuels)
++
+     # ---- main loop: iterate IAR groups, apply formulas to power-only Params ----
+     techs_pwr = Set(String.(Sets.Technology))
+     regions   = Set(String.(Sets.Region_full))
+@@ -141,13 +153,16 @@ function power_only_precompute!(Params, Sets, Switch)
+         # modelled in pwr-only — without a Z_Import_Gas_Synth this mode would have
+         # near-zero cost and emissions and dominate, so we zero its Power OAR so the
+         # model literally cannot produce Power from it).
+-        if any(f in SKIP_FUELS for (f, _) in fuel_in_vals_raw)
++        if any(f in SKIP_FUELS && folded(f) for (f, _) in fuel_in_vals_raw)
+             try
+                 Params.OutputActivityRatio[r, t, "Power", m, y] = 0.0
+             catch
+             end
+             continue
+         end
+-        fuel_in_vals = fuel_in_vals_raw
++        # Only the fuels NOT modelled explicitly are folded; a mode whose inputs are
++        # all explicit is left entirely to the model (no VC add, OER stays 0).
++        fuel_in_vals = [(f, v) for (f, v) in fuel_in_vals_raw if folded(f)]
++        isempty(fuel_in_vals) && continue
+         oar_list = get(oar_g, (r, t, m, y), Tuple{String,Float64}[])
+         oar_total = sum(v for (_, v) in oar_list; init=0.0)
+         oar_power = 0.0
+
+(Optional follow-up hunk, separate concern - apply the CCS residual fraction the way E1 does in the full model, so folded CCS techs are not charged 100%:)
+@@ -173,7 +188,10 @@
+         for e in Sets.Emission
+-            emission_pa = sum(v * ec_lookup(f, e) for (f, v) in fuel_in_vals; init=0.0)
++            ear = Params.EmissionActivityRatio[r, t, m, e, y]   # 1 = all released; CCS residual; BECCS < 0
++            emission_pa = ear * sum(v * ec_lookup(f, e) for (f, v) in fuel_in_vals; init=0.0)
+--- pitfalls:
+[
+"DOUBLE-COUNT SURFACE: with Gas_Natural explicit, E1 (equ.jl:1069-1077) has BOTH terms live for P_Gas_* modes unless the precompute skips the fuel: term 1 (EAR x ECPF x IAR x act) from the re-included workbook rows AND term 2 (OutputEmissionRatio x OAR_Power x act) from the fold. Same for cost: R_Gas/Z_Import_Gas activity cost + folded VariableCost. The skip must be per input FUEL, not per tech: P_Gas_CCGT has mode 1 Gas_Natural (explicit), mode 2 Gas_Bio (still folded via R_Biogas, emission 0) and mode 3 Gas_Synth (still SKIP -> OAR zeroed). If the guard were per tech, modes 2/3 would become free-of-cost/emission and dominate.",
+"CCS in power-only is currently WRONG regardless of this change: ec_lookup (precompute :123-129, :174) never multiplies by EmissionActivityRatio, and E1 term 1 is 0 in power-only (Tech_Fuel = [Power], ECPF empty), so P_Gas_CCS / P_Coal_*_CCS / CHP_*_CCS are charged 100% CO2 and BECCS gets no negative credit. Once Gas_Natural is explicit, P_Gas_CCS mode 1 suddenly gets its proper EAR=0.10 (2025) residual via term 1 while coal-CCS stays at 100% - an inconsistency between fuels until the optional EAR hunk is applied (EAR rows for these techs ARE in the power-only workbook, e.g. ERCOT P_Gas_CCS 2025 0.1).",
+"Cogeneration: CHP_Gas_CCGT_Natural has modes 1 (power only), 2 (power + Heat_District 0.5263, IAR 1.8929) and 3 (heat only, OAR_Power = 0 -> skipped by the precompute). With explicit gas, E1 term 1 charges every mode by activity x IAR, including mode 3 if its IAR row survives the filter while Heat_District (no sink in power-only) is dropped - that mode then just burns gas for nothing; harmless in the optimum but keep it out of dispatch summaries. The fold's 'heat is free, full emission on power' convention (precompute docstring :20-25) is reproduced by term 1, so results stay comparable.",
+"Aliases: FUEL_ALIAS (precompute :105-110) keys LBG/LSG->LNG and H2_Blend->H2 by their OWN fuel names; making Gas_Natural explicit does not change them - but if any of those fuels is later added to Sets.Fuel the guard skips them and their supply chain (Z_Import_LNG / H2 chain) must also be in the workbook or they become free. Gas_Bio stays folded (UPSTREAM_TECH R_Biogas, emission 0); Gas_Synth stays SKIP (OAR zeroed) unless explicit - the diff makes the SKIP conditional on folded(f) for that reason.",
+"The guard only checks Sets.Fuel. It cannot verify that a supply path exists: if Gas_Natural is in Sets.Fuel but R_Gas/Z_Import_Gas (or trade) are not in Sets.Technology, the fuel balance has no source -> infeasible (or served by the Infeasibility dummy). Consider a warning when an explicit fuel has neither an R_ nor a 'Z_Import_'*alias(f) tech in Sets.Technology.",
+"Upstream methane / process emissions: NONE in the data. Sets_Emission.csv = CO2 only; Par_EmissionActivityRatio has no R_Gas / Z_Import_Gas rows; Par_EmissionContentPerFuel is CO2 only (no NA subfolder). Even if EAR rows were added for R_Gas, E1 multiplies by InputActivityRatio (R_Gas has none) so they would evaluate to 0 - an upstream emission needs either a dummy input fuel on R_Gas/Z_Import_Gas or an output-side emission term (the OutputEmissionRatio term is only active under switch_power_only_mode == 1 and only against OAR 'Power'). Any such emission would be booked to Sector 'Resources' (TagTechnologyToSector.csv:109,152), not 'Power'.",
+"Dispatch consumers: genesysmod_dispatch_fullyear.jl:419-421 and :447-449 take CO2 intensity from OutputEmissionRatio and :417 marginal cost from the folded VariableCost. With the fold skipped, the merit-order heuristic sees gas plants with 0 CO2 and 0 fuel cost unless it is extended to read R_Gas/Z_Import_Gas cost + ECPF x IAR itself. genesysmod_dispatch.jl:106 runs the same precompute before aggregate_params and then builds the full equation set, so it is fine as long as the dispatch workbook also carries the explicit fuel.",
+"Trade: the gas-specific blocks TrC4a (equ.jl:525-547) and the pipeline accounting TrPA/TrPl (equ.jl:586-627) are commented out for NA; the generic TrC2a/b, TrCMax/TrCMin (equ.jl:494-522) and energy balances iterate Maps.Set_Fuel_Regions, so Gas_Natural trade only exists if Par_TradeRoute
+--- refs:
+[
+"C:/Users/testbed/Documents/GENeSYSMOD.jl_SE/src/genesysmod_equ.jl:1065-1101 (E1 :1069-1077 incl. power-only OER term :1073-1075; E2 :1090; E3 :1093; E4 :1097; E5 :1100; E6 :1108; E8/E9 :1113-1120)",
+"C:/Users/testbed/Documents/GENeSYSMOD.jl_SE/src/genesysmod_equ.jl:783-784 (CCS2 uses EAR x ECPF x IAR), :494-522 (generic trade TrC2a/b, TrCMax/Min), :525-547 (TrC4a gas trade, commented out), :586-627 (TrPA gas pipeline accounting, commented out)",
+"C:/Users/testbed/Documents/GENeSYSMOD.jl_SE/src/genesysmod_precompute_powerOnly.jl:38-190 (entry :38; sheet reads :50-53; SKIP_FUELS/UPSTREAM_TECH/FUEL_ALIAS :95-111; upstream_vc :113-122; ec_lookup :123-129; main loop :138-184; VC add :163-170; OER set :173-182)",
+"C:/Users/testbed/Documents/GENeSYSMOD.jl_SE/src/genesysmod_dataload.jl:173 (Sets.Fuel from 'Sets' sheet col D), :392 (EmissionActivityRatio create_daa), :415 (EmissionContentPerFuel), :416 (OutputEmissionRatio zeros), :151-156 (Map_Tech_Fuel from nonzero IAR/OAR)",
+"C:/Users/testbed/Documents/GENeSYSMOD.jl_SE/src/genesysmod_main.jl:112-115; src/genesysmod_dispatch.jl:102-107; src/genesysmod_dispatch_fullyear.jl:398, :417-421, :447-449 (precompute call sites and OER/VC consumers)",
+"C:/Users/testbed/Documents/GENeSYSMOD.jl_SE/src/genesysmod_results.jl:321-335 (output_emissions by TagTechnologyToSector), :403 (lc_em = Penalty x IAR x ECPF x EAR); src/genesysmod_variable_parameter.jl:90-92; src/genesysmod_levelizedcosts.jl:105-107, :133; src/genesysmod_bounds.jl:111, :288-290 (EAR overrides for dummies/DAC)",
+"C:/Users/testbed/Documents/GENeSYSMOD.jl_SE/src/datastructures.jl:369-373 (EmissionActivityRatio, EmissionContentPerFuel, OutputEmissionRatio fields); test/test_northamerica.jl:29-32 (data_file / allfuels_data_file / switch_power_only_mode)",
+"C:/Users/testbed/Documents/GENeSYS-MOD.data_francesca/Data/Parameters/Par_EmissionActivityRatio/Par_EmissionActivityRatio.csv:160-174 (P_Gas_CCGT 1.0, P_Gas_CCS 0.12->0.02, P_Gas_OCGT/Engines/Steam 1.0; no R_Gas / Z_Import_Gas rows) + Assumptions.txt (residual-fraction semantics)",
+"C:/Users/testbed/Documents/GENeSYS-MOD.data_francesca/Data/Parameters/Par_EmissionContentPerFuel/Par_EmissionContentPerFuel.csv:4 (Gas_Natural,CO2,5.58e-05 Gt/PJ), :8 (LNG = Gas_Natural); 00_Sets&Tags/Sets_Emission.csv (CO2 only)",
+"C:/Users/testbed/Documents/GENeSYS-MOD.data_francesca/Data/Parameters/Par_InputActivityRatio/Par_InputActivityRatio.csv:1621-1650 (P_Gas_CCGT modes 1/2/3 = Gas_Natural/Gas_Bio/Gas_Synth; no rows for R_Gas / Z_Import_Gas); Par_OutputActivityRatio.csv:326-328, :358 (R_Gas->Gas_Natural), :389 (Z_Import_Gas->Gas_Natural)",
+"C:/Users/testbed/Documents/GENeSYS-MOD.data_francesca/Data/Parameters/Par_VariableCost/Par_VariableCost.csv:940-949 (Z_Import_Gas), :990-999 (R_Gas), :510-517 (P_Gas_CCGT O&M); 00_Sets&Tags/Par_TagTechnologyToSector.csv:90 (P_Gas_CCGT->Power), :109 (R_Gas->Resources), :152 (Z_Import_Gas->Resources)",
+"C:/Users/testbed/Documents/GENeSYS-MOD.data_francesca/Conversion Script/Set_filter_file_NorthAmerica.xlsx (Fuel_selection = Power + Power_*; Technology_selection has no R_/Z_ techs); C:/Users/testbed/Documents/GENeSYSMOD.jl_SE/InputData/RegularParameters_NorthAmerica.xlsx (Sets/Fuel = Power + 6 Power_*, Par_EmissionContentPerFuel header-only, no P_Gas IAR rows, EAR rows present) vs RegularParameters_NorthAmerica_allFuels.xlsx (Gas_Natural, R_Gas, Z_Import_Gas, ECPF rows present)"
+]
+
+##### pipelines: pairs 30 | no_connection: ['California-ERCOT', 'California-SPP', 'California-MISO', 'California-SERC', 'California-PJM', 'California-NewYork', 'California-NewEngland', 'California-Canada', 'WECC-ERCOT', 'WECC-MISO', 'WECC-SERC', 'WECC-PJM', 'WECC-NewYork', 'WECC-NewEngland', 'ERCOT-SERC', 'ERCOT-PJM', 'ERCOT-NewYork', 'ERCOT-NewEngland', 'ERCOT-Canada', 'SPP-SERC', 'SPP-PJM', 'SPP-NewYork', 'SPP-NewEngland', 'MISO-NewYork', 'MISO-NewEngland', 'SERC-NewYork', 'SERC-NewEngland', 'SERC-Canada', 'PJM-NewEngland', 'PJM-Canada'] | confidence medium
+notes: METHOD
+- Source table: EIA 'Pipeline State2State Capacity' sheet (13,000+ border-crossing records by pipeline, state, county, year). Filtered year=2025 (latest; 664 records, 589,777 MMcf/d gross). Each record's From/To county mapped to a model region via the mapping table; records with RegionFrom==RegionTo are intra-regional and excluded; records involving Mexico or Gulf-of-America offshore are excluded. Directed pair capacity = sum of remaining records. Units: MMcf/d /1000 = Bcf/d; PJ/yr = Bcf/d x 385.1 (1.0551 PJ/Bcf x 365).
+- Files: C:\Users\testbed\AppData\Local\Temp\claude\c--Users-testbed-Documents-GENeSYSMOD-jl-SE\2420f1fc-ea9b-4f28-9c52-ae28a46e44d3\scratchpad\{EIA-StatetoStateCapacity_Jan2026.xlsx, s2s_2025.csv, s2s_2025_mapped.csv (row-level with RF/RT), region_matrix_2025.csv, pairs.json, agg.py}.
+
+TOTALS (2025, MMcf/d): gross 589,777 = inter-regional 146,802 (24.9%) + intra-regional excluded 398,242 (67.5%) + Mexico/GOM 44,733 (7.6%).
+- Intra-regional excluded by region: SERC 103,733; PJM 95,488; MISO 94,912; SPP 49,833; WECC 46,328; NewEngland 7,888; California 60 (+ GOM-internal 6,010). Largest excluded state pairs: MS->AL 20,438; TN->KY 12,596; PA->NJ 11,625; KY->TN 10,188; MS->TN 10,029; WV->OH 9,785; AL->GA 8,930; PA->WV 8,116; LA->AR 7,903; TX(Panola/Cass/Harrison, SPP)->LA(Caddo/De Soto, SPP) 10,349 (Haynesville corridor: Gulf South 3203, Enable 2087, MEP 1833, Gulf Crossing 1726, ETC Tiger 1000 -> all intra-SPP under the county rule).
+- State pairs split b
+
+##### deliverability
+--- options:
+[
+{
+"name": "A — Par_GroupMaxRateOfActivity: subset-keyed per-timeslice activity-rate cap (new constraint CA6)",
+"description": "New optional parameter Par_GroupMaxRateOfActivity[TechnologySubset, RegionSubset, Year] (GW, sentinel 999999 = no limit) plus optional Par_GroupMaxRateOfActivityMonth[TechnologySubset, RegionSubset, Month] (multiplier, default 1) for the seasonal shape. One constraint per (y, l, ts, rs): sum over the tagged techs (all their modes) and the subset's regions of Vars.RateOfActivity[y,l,t,m,r] <= Limit * MonthFactor * 31.536. Exactly the TCC3/TrC4 pattern (dataload.jl:458-479, equ.jl:892-952) but on the activity RATE per timeslice instead of on capacity per year. The 'fuel' is carried by the technology subset (e.g. a GasDeliverability subset in Par_TagTechnologyToSubsets), NOT by a Fuel column. Variant A-fuel (later, full-sector phase): weight each (t,m) with sum_f InputActivityRatio[r,t,f,m,y] so the limit is in GW_thermal; needs a derived per-tech fuel-input ratio in power-only mode (from the allFuels IAR that power_only_precompute! already reads, genesysmod_precompute_powerOnly.jl:50-67).",
+"pros": "Works identically in power-only NA and full-sector EU data: no dependence on the Gas_Natural fuel (which does not exist in the NA power-only workbook: Fuel_selection = Power + Power_* only, gas plants have no InputActivityRatio by design) and a TechnologySubset/RegionSubset column survives the converter's set filter (process_parameters.py:145-147 only filters columns whose header is a set-sheet header). Fleet-level pool cap = the real physics (the optimiser chooses which plants get the scarce gas). Re-uses existing tags, 999999 sentinel, create_daa_init, get_aggregate_params slicing, automatic input_* DB dump (db.jl:395-402) and output_switches. Use-case agnostic: shared grid connection, cooling-water limit, biomass supply chain, etc. No new Switch needed (data presence activates it, like TCC3/TrC4). Monthly factor keeps the winter-only nature of the New England/California problem without touching the timeseries-reduction NLP or the hardcoded keys_mapping (timeseries_reduction.jl:111-150).",
+"cons": "Limit unit is activity (GW_e for P_ techs, OAR Power = 1) so the data pipeline must convert pipeline deliverability (Bcf/d -> GW_th) to GW_e with a fleet-average heat rate (documented in Assumptions.txt); CCGT/OCGT heat-rate differences are not endogenous until variant A-fuel. Adds |L| x active (ts,rs,y) constraints (e.g. 2x per-region caps x 16 years x 8760/49 slices = a few thousand rows: negligible). Rows whose subset name is not a key of Par_TagTechnologyToSubsets/Par_TagRegionToSubsets are silently dropped by create_daa_init's membership pre-check (utils.jl:233-236) -> needs a dataload/errorcheck warning. Monthly shaping relies on the timeslice index being hour-of-year (read_sets, dataload.jl:187) - true for elmod_nthhour and dispatch_week paths."
+},
+{
+"name": "B — Implicit via R_Gas capacity + D_Gas_Methane/S_Gas_Methane storage + inbound gas TradeCapacity (no new constraint)",
+"description": "Rely on what already binds per timeslice in the full-sector formulation: (1) CA3b (equ.jl:356-369): sum_m RateOfActivity[y,l,R_Gas,m,r] == TotalCapacityAnnual * CapacityFactor[r,t,l,y] * CapacityToActivityUnit - curtailment, so R_Gas capacity is a per-timeslice production-rate cap; CapacityFactor defaults to 1 in every slice (dataload.jl:404) and only keys_mapping techs get profiles, so it is FLAT over the year; R_Gas is expandable at CapitalCost unless TotalAnnualMaxCapacity (resource potential, not delivery capacity) binds. (2) Storage: S6 (equ.jl:1254-1258) discharge in slice <= StorageLevelTSStart, S5b level <= TotalStorageCapacityAnnual, S7a/b (1262-1265) tie energy to D_Gas_Methane power capacity via StorageE2PRatio; D_Gas_Methane's own CA3b caps withdrawal rate per slice. (3) Trade: TrPA1a-d (equ.jl:598-611) Import[y,l,gas fuels] <= TotalTradeCapacity*YearSplit per slice, TrC7 annual, TrPA2b 1.05 flatness on Z_Import_Gas (620-626) — ALL of these are inside the '#= =#' POWER-ONLY comment block (equ.jl:522-627) in this branch, and Set_filter_file_NorthAmerica.xlsx drops R_Gas, Z_Import_Gas, D_Gas_Methane, S
+--- recommended:
+A — Par_GroupMaxRateOfActivity (subset-keyed, per-timeslice activity-rate cap, constraint CA6, optional monthly factor). It is the only option that is data-driven, region/use-case agnostic, active in the current power-only NA phase AND unchanged in the full-sector phase, and that models the physics as a shared pool with a proper shadow price. Key finding driving the choice: the user's proposed Par_FuelDeliverabilityLimit[Region, Fuel, Year] cannot work in phase 1 because (i) the NA power-only workbook has no Gas_Natural fuel and gas plants carry no InputActivityRatio (thermal plants are fuel-less by design; Set_filter_file_NorthAmerica.xlsx Fuel_selection = Power + Power_* only), so RateOfUse of gas is identically 0, and (ii) any CSV column named Fuel is filtered against Fuel_selection by the converter (process_parameters.py:145-147), so Gas_Natural rows would be dropped from the Excel before the model sees them. Subset columns are not filtered. Keep the fuel-side weighting (variant A-fuel) as a follow-up for the gas phase.
+--- implementation:
+## 0. Findings that shape the design
+
+- NA power-only: gas plants have no input fuel (memory project-us-power-only-phase; IAR only has Power for the 4 charging storages). `Set_filter_file_NorthAmerica.xlsx` Fuel_selection has no gas fuel, Storage_selection has no S_Gas_Methane, Technology_selection has P_Gas_* but no R_Gas / Z_Import_Gas / D_Gas_Methane. All gas trade constraints (TrC4a/TrC5a, TrC7, TrPA1a-d, TrPA2a/b) are inside `#= =#` at `src/genesysmod_equ.jl:522-627`.
+- Converter set filter: `GENeSYS-MOD.data_francesca/Conversion Script/functions/process_parameters.py:145-147` drops rows for every column whose header equals a set-sheet header (Region, Region2, Technology, Fuel, Storage, Year, ...). `TechnologySubset` / `RegionSubset` / `Month` columns are NOT filtered. Sheet names are truncated to 31 chars (`process_parameters.py:5-8`; this is why `Par_GroupTotalAnnualMaxNewCap` is spelled that way).
+- Existing group pattern end-to-end: dataload axes `𝓣𝓼 = keys(Tags.TagTechnologyToSubsets)`, `𝓡𝓼 = keys(Tags.TagRegionToSubsets)` (`src/genesysmod_dataload.jl:463-464`), optional-sheet + 999999 sentinel (`465-467`, `477-479`), struct fields (`src/datastructures.jl:324-339`, field-order NOTE at `343-345`), two positional `Parameters(...)` constructor calls (`dataload.jl:606-625` and `796-815`, group entries at `616-617` / `807-808`), dispatch slicing (`dataload.jl:726-730`), constraints TCC3/TCC5/TCC4/TrC4 (`src/genesysmod_equ.jl:892-952`, inside the `NoDispatch` guard at `899`), errorcheck `#9` (`src/genesysmod_errorcheck.jl:214-220`) and `#24` (`286-312`), GAMS mirror TCC3 (`GENeSYS_MOD.gms/genesysmod_equ.gms:509-510`).
+- `create_daa_init` (`src/utils.jl:221-260`) silently skips rows whose keys are not on the axes (`233-236`); `inherit_base_world` requires Region as dim 1 (`utils.jl:109-123`) — do not use it for subset-keyed params.
+- Units: `RateOfActivity` is a rate in PJ/a (CA3b: `= TotalCapacityAnnual[GW] * CapacityFactor * CapacityToActivityUnit(31.536)`, `equ.jl:366`); GW -> PJ/a uses the 31.536 literal already in TrC1 (`equ.jl:480`). A rate cap therefore needs no YearSplit (energy form `<= limit*YearSplit` is equivalent).
+- Timeslices are hour-of-year indices (`read_sets`, `dataload.jl:187`), so month-of-hour is calendar arithmetic (like 31.536 / 8760), not data.
+
+## 1. New parameters (data-repo CSV, long format)
+
+1. `Par_GroupMaxRateOfActivity` — dims `[TechnologySubset, RegionSubset, Year]`, unit **GW** (activity rate of the subset; = GW_e for P_ techs since OAR Power = 1), neutral default **999999** (= no limit; absent sheet -> all 999999). Meaning: in every timeslice the summed activity rate of all techs in TechnologySubset over all regions in RegionSubset may not exceed the value (x month factor).
+2. `Par_GroupMaxRateOfActivityMonth` (31 chars exactly) — dims `[TechnologySubset, RegionSubset, Month]` (Month = 1..12), unit **Fraction**, neutral default **1.0**. Seasonal multiplier (winter-only takeaway limit). Same Annual x Profile split as SpecifiedAnnualDemand x SpecifiedDemandProfile.
+
+No new Set members, no new tag types: the "which techs" question is answered by a row set in `00_Sets&Tags/Par_TagTechnologyToSubsets.csv` (free subset name, e.g. `GasDeliverability`; `GasPlants` already exists with P_Gas_CCGT/CCS/OCGT/Steam/CCGT_Residual + CHP_Gas_* at lines ~637-645, reusable but a dedicated subset lets dual-fuel/firm-contract units be excluded later), and "which regions" by `00_Sets&Tags/Par_TagRegionToSubsets.csv` (add singleton subsets, e.g. `NewEngland,NewEngland,1`; a multi-region subset models a shared pipeline system).
+
+## 2. datastructures.jl
+
+`src/datastructures.jl` after `GroupAnnualMaxTradeCapacity` (line 339), before `TagTimeIndependentFuel` (342) — and update the field-order NOTE at 343-345:
+```julia
+    # Joint upper bound on the summed activity RATE (per timeslice) of a
+    # technology subset inside a region subset, (TechSubset, RegionSubset, Year),
+    # GW. Generic "shared delivery system" cap (intra-regional gas
+    # deliverability, shared grid connection, ...). 999999 = no limit. Optional sheet.
+    GroupMaxRateOfActivity ::JuMP.Containers.DenseAxisArray
+    # Month multiplier (TechSubs
+--- refs:
+[
+"C:/Users/testbed/Documents/GENeSYSMOD.jl_SE/src/genesysmod_dataload.jl:187 (read_sets: Timeslice = hour-of-year indices)",
+"C:/Users/testbed/Documents/GENeSYSMOD.jl_SE/src/genesysmod_dataload.jl:240-262 (read_tags: TagTechnologyToSubsets/TagRegionToSubsets + default-fill of missing subset keys)",
+"C:/Users/testbed/Documents/GENeSYSMOD.jl_SE/src/genesysmod_dataload.jl:404 (CapacityFactor default ones -> flat per-timeslice availability)",
+"C:/Users/testbed/Documents/GENeSYSMOD.jl_SE/src/genesysmod_dataload.jl:418-431 (optional-sheet pattern: InitialMaxNewTradeCapacity, AnnualMax/MinTradeCapacity)",
+"C:/Users/testbed/Documents/GENeSYSMOD.jl_SE/src/genesysmod_dataload.jl:458-479 (group params: subset axes 463-464, GroupTotalAnnualMaxCapacity 465-467, GroupAnnualMaxTradeCapacity 477-479)",
+"C:/Users/testbed/Documents/GENeSYSMOD.jl_SE/src/genesysmod_dataload.jl:606-625 (Parameters(...) constructor #1; group entries 616-617)",
+"C:/Users/testbed/Documents/GENeSYSMOD.jl_SE/src/genesysmod_dataload.jl:726-730 (get_aggregate_params: dispatch-path year slicing of group params)",
+"C:/Users/testbed/Documents/GENeSYSMOD.jl_SE/src/genesysmod_dataload.jl:796-815 (Parameters(...) constructor #2; group entries 807-808)",
+"C:/Users/testbed/Documents/GENeSYSMOD.jl_SE/src/datastructures.jl:9-22 (Tags struct)",
+"C:/Users/testbed/Documents/GENeSYSMOD.jl_SE/src/datastructures.jl:324-353 (Parameters group fields; field-order NOTE 343-345)",
+"C:/Users/testbed/Documents/GENeSYSMOD.jl_SE/src/datastructures.jl:836-897 (Switch struct; switch_districtheat 896)",
+"C:/Users/testbed/Documents/GENeSYSMOD.jl_SE/src/genesysmod_equ.jl:325-340 (RateOfActivity fixed to 0 for dead (t,m,l))",
+"C:/Users/testbed/Documents/GENeSYSMOD.jl_SE/src/genesysmod_equ.jl:356-369 (CA3b: RateOfActivity = Capacity*CF*CapacityToActivityUnit per timeslice)",
+"C:/Users/testbed/Documents/GENeSYSMOD.jl_SE/src/genesysmod_equ.jl:386-396 (CA5 annual availability cap)",
+"C:/Users/testbed/Documents/GENeSYSMOD.jl_SE/src/genesysmod_equ.jl:427-436 (EB2 per-timeslice energy balance; considered_duals push 434)",
+"C:/Users/testbed/Documents/GENeSYSMOD.jl_SE/src/genesysmod_equ.jl:476-482 (TrC1 power import cap with the 31.536 GW->PJ/a literal)",
+"C:/Users/testbed/Documents/GENeSYSMOD.jl_SE/src/genesysmod_equ.jl:500-508 (TrC3 virgin-corridor bootstrap using InitialMaxNewTradeCapacity)",
+"C:/Users/testbed/Documents/GENeSYSMOD.jl_SE/src/genesysmod_equ.jl:522-627 (POWER-ONLY commented-out gas/H2 trade blocks: TrC4a/TrC5a, TrC7, TrPA1a-d 598-611, TrPA2a/b 620-626)",
+"C:/Users/testbed/Documents/GENeSYSMOD.jl_SE/src/genesysmod_equ.jl:892-953 (TCC3/TCC5/TCC4 + TrC4 group constraints inside NoDispatch guard 899; insertion point for CA6 after 952)",
+"C:/Users/testbed/Documents/GENeSYSMOD.jl_SE/src/genesysmod_equ.jl:1254-1265 (S6 storage discharge limit, S7a/b E2P coupling)",
+"C:/Users/testbed/Documents/GENeSYSMOD.jl_SE/src/genesysmod_equ.jl:1467-1522 (peaking block; PC2 uses AvailabilityFactor 1483-1488)",
+"C:/Users/testbed/Documents/GENeSYSMOD.jl_SE/src/utils.jl:109-123 (_inherit_base_world!: Region must be dim 1)",
+"C:/Users/testbed/Documents/GENeSYSMOD.jl_SE/src/utils.jl:221-260 (create_daa_init; membership pre-check silently drops unknown-key rows 233-236)",
+"C:/Users/testbed/Documents/GENeSYSMOD.jl_SE/src/utils.jl:171-179 (read_subsets)",
+"C:/Users/testbed/Documents/GENeSYSMOD.jl_SE/src/genesysmod_errorcheck.jl:96-110 (report! helper)",
+"C:/Users/testbed/Documents/GENeSYSMOD.jl_SE/src/genesysmod_errorcheck.jl:199-222 (check #9 MinAboveMax incl. group 214-220)",
+"C:/Users/testbed/Documents/GENeSYSMOD.jl_SE/src/genesysmod_errorcheck.jl:275-284 (check #14 NegativeValues list)",
+"C:/Users/testbed/Documents/GENeSYSMOD.jl_SE/src/genesysmod_errorcheck.jl:286-312 (check #24 base-year group cone)",
+"C:/Users/testbed/Documents/GENeSYSMOD.jl_SE/src/genesysmod_main.jl:5-23,47-101,180-200,226-238 (Switch kwargs/constructor/wrapper passthrough; switch_districtheat at 22/101/193/237)",
+"C:/Users/testbed/Documents/GENeSYSMOD.jl_SE/src/genesysmod_dispatch.jl:9-18,40-92,152-181 (dispatch Switch sites; constructor 90-92 ends at switch_errorcheck)",
+"C:/Users/testbed/Documents/GENeSYSMOD.jl_SE/src/genesysmod_db.jl:395-4
+
+##### fuelbalance
+--- filter_flips:
+[
+"Conversion Script/Set_filter_file_NorthAmerica.xlsx / Fuel_selection: Gas_Natural 0 -> 1 (only fuel needed; leave LNG, Gas_Bio, Gas_Synth at 0 - the P_Gas_* mode-2/3 IAR rows on Gas_Bio/Gas_Synth are then dropped by the fuel filter and mode 1 = Gas_Natural is what remains)",
+"Technology_selection: R_Gas 0 -> 1 (regional extraction, OAR World row R_Gas->Gas_Natural mode 1)",
+"Technology_selection: Z_Import_Gas 0 -> 1 (imports from outside the modelled regions; do NOT flip Z_Import_LNG - it outputs fuel LNG, not Gas_Natural, and would need the LNG fuel + a regasification chain)",
+"Technology_selection: D_Gas_Methane 0 -> 1 (storage charge/discharge dummy; modes 1 = charge, 2 = discharge via World IAR/OAR rows)",
+"Storage_selection: S_Gas_Methane 0 -> 1",
+"Mode_of_operation_selection: nothing - modes 1..6 are already 1",
+"Sector_selection: nothing - Resources (R_Gas, Z_Import_Gas) and Storages (D_Gas_Methane) are already 1",
+"Timeseries_selection: ONLY if a dedicated non-power gas demand profile is created (new folder Data/Timeseries/TS_GAS_NONPOWER/ with HOUR + the 10 NA columns, same layout as TS_POWER_DATACENTER) - add a row TS_GAS_NONPOWER = 1; without it the gas demand silently takes the electric LOAD shape (genesysmod_timeseries_reduction.jl:466-468)",
+"No flips needed in Region_selection, Emission_selection, Year_selection; the ETS fuel stays 0 (the 90 NA ETS TradeRoute dummy rows stay filtered out)"
+]
+--- parameter_checklist:
+[
+{
+"parameter": "Par_TagTimeIndependentFuel (00_Sets&Tags)",
+"keys": "Fuel",
+"needed": "NO row for Gas_Natural (keep it absent -> timeslice balance EB2). Adding Gas_Natural=1 would switch it to the annual EB3 balance, which has no Demand term (see time_independent_analysis).",
+"world_default": "n/a (fuel-only, region-free). Optional sheet; absent row = 0 (dataload.jl:483-485)",
+"na_rows_state": "absent for Gas_Natural (rows only for Area_*, Biomass, Hardcoal, Nuclear, Oil, Lignite, Biofuel, Powerfuel, LBG, Air, DAC_Dummy, ETS, ETS_Source) - correct as is"
+},
+{
+"parameter": "Par_TagCanFuelBeTraded",
+"keys": "Fuel",
+"needed": "Gas_Natural = 1 (already present). Gate for Set_Fuel_Regions (dataload.jl:146), EB4/EB5, NewTradeCapacity fix rule.",
+"world_default": "n/a fuel-only",
+"na_rows_state": "present, real"
+},
+{
+"parameter": "Par_TagFuelToSubsets",
+"keys": "Fuel, Subset",
+"needed": "Gas_Natural,GasFuels,1 (present) - only consumed by the (disabled) TrPA1a-d pipeline-accounting block; dataload.jl:250 guarantees the GasFuels key exists.",
+"world_default": "n/a",
+"na_rows_state": "present"
+},
+{
+"parameter": "Par_TagTechnologyToSector / Par_TagTechnologyToSubsets / Par_CapacityToActivityUnit",
+"keys": "Technology(,Subset)",
+"needed": "Nothing new: R_Gas->Resources, Z_Import_Gas->Resources, D_Gas_Methane->Storages; subsets R_Gas=FossilFuelGeneration, Z_Import_Gas=FossilFuelGeneration+ImportTechnology, D_Gas_Methane=StorageDummies+Transformation+PhaseInSet (+ all three in the TEMP-DIAGNOSTIC BaseYearBuildable subset dated 2026-08-02 - decide whether that stays); CapacityToActivityUnit = 31.536 for all three.",
+"world_default": "n/a (tech-level)",
+"na_rows_state": "present, real"
+},
+{
+"parameter": "Par_OutputActivityRatio",
+"keys": "Region, Technology, Fuel, Mode_of_operation, Year",
+"needed": "R_Gas->Gas_Natural m1 =1, Z_Import_Gas->Gas_Natural m1 =1, D_Gas_Methane->Gas_Natural m2 =1 (all 'All' years).",
+"world_default": "World rows exist for all three; conversion copies World rows to every selected region (process_parameters.py:101-127 set_values_from_world) AND Julia inherit_base_world=true (dataload.jl:386) -> inherited, no NA rows needed",
+"na_rows_state": "none needed"
+},
+{
+"parameter": "Par_InputActivityRatio",
+"keys": "Region, Technology, Fuel, Mode_of_operation, Year",
+"needed": "D_Gas_Methane<-Gas_Natural m1 =1 (World row exists). P_Gas_CCGT/OCGT/Steam/Engines/CCS/CCGT_Residual and CHP_Gas_CCGT_Natural mode-1 Gas_Natural heat-rate rows (World, DEA) become ACTIVE for the first time once the fuel is selected - they are the link from the power fleet into the gas balance. Check P_Gas_Steam/P_Gas_CCGT_Residual NA-specific heat rates if any exist.",
+"world_default": "World rows, expanded at conversion + inherit_base_world=true (dataload.jl:385)",
+"na_rows_state": "none needed (World)"
+},
+{
+"parameter": "Par_VariableCost",
+"keys": "Region, Technology, Mode_of_operation, Year (MEUR/PJ)",
+"needed": "R_Gas: NA rows per region for every modelled year 2025-2040 (wellhead / HH-minus-basis price). Z_Import_Gas: NA rows exist (10 regions x 20 years, HH forward path 2.6-3.6 MEUR/PJ, FEL LCOE v1.4, 2026-07-23 - real). D_Gas_Methane: World 0.01 all years, fine.",
+"world_default": "inherit_base_world=true (dataload.jl:390): a missing NA R_Gas row is filled first from California (none) then World = EU-derived 8.39 MEUR/PJ (2025) = ~3x the NA Z_Import_Gas price -> the model would import everything from 'outside' and never extract. World row therefore NOT usable for NA.",
+"na_rows_state": "R_Gas: NO NA rows (World EU-priced only) -> must add. Z_Import_Gas: real NA rows present."
+},
+{
+"parameter": "Par_CapitalCost + Par_FixedCost",
+"keys": "Region, Technology, Year (MEUR/GW)",
+"needed": "R_Gas / Z_Import_Gas: no rows -> 0 -> capacity free, activity-cost only (same as EU) - acceptable. D_Gas_Methane: World rows only at 2018/2020/2021/2025/2030/2035/2040/... -> the NA interior years 2026-29, 2031-34, 2036-39 are ZERO (create_daa does not interpolate) -> free D_Gas_Methane builds in off-years + errorcheck #25 cost year-gap warning (the Redox lesson, memory feedback-storage-both-components-allyears). Add World rows for every modelled year in BOTH
+--- time_independent_analysis:
+How the tag is built (src/genesysmod_equ.jl:252-259): TagTimeIndependentFuel[y,f,r] = CanFuelBeUsedOrDemanded * (1 - CanFuelBeProduced), then any fuel with Par_TagTimeIndependentFuel[f]==1 is forced to 1 for all (y,r). CanFuelBeUsedOrDemanded (equ.jl:181-192) is 1 if some tech consumes the fuel with positive TotalAnnualMaxCapacity*CF*AF*ModelPeriodLimit*AnnualLimit OR SpecifiedAnnualDemand>0; CanFuelBeProduced (equ.jl:227-237) is 1 if some tech outputs it with the same positive-capacity product. Two regimes:
+
+(a) Tag == 0 -> EB2_EnergyBalanceEachTS (equ.jl:428-436, GAMS genesysmod_equ.gms:243-244): for every y,l,f,r an EQUALITY  sum_out(RateOfActivity*OAR)*YearSplit == Demand[y,l,f,r] + sum_in(RateOfActivity*IAR*TimeDepEfficiency)*YearSplit + NetTrade[y,l,f,r]. Demand[y,l] = SpecifiedAnnualDemand * SpecifiedDemandProfile / YearSplit * YearSplit (dataload.jl:889-892). The dual is pushed to considered_duals -> an hourly regional gas price comes out of the run. Trade enters per timeslice via EB4 (equ.jl:419-422) and Import/Export vars per (f,r,rr,l).
+
+(b) Tag != 0 -> EB3_EnergyBalanceEachYear (equ.jl:463-467, gms:246-247): one INEQUALITY per y,f,r: annual production >= annual use + NetTradeAnnual. Note: EB3 contains NO Demand / SpecifiedAnnualDemand term at all (both Julia and GAMS) - an exogenous non-power gas demand on a time-independent fuel is silently dropped from the balance (it still influences CanFuelBeUsedOrDemanded, SC3 phase-in scaling and errorcheck #8/#11, but nothing has to supply it). It is also '>=' (free disposal), so surplus extraction is unconstrained.
+
+Current state for Gas_Natural: there is no Par_TagTimeIndependentFuel row (docs parameters.rst:589-593 describe it as 'commodities where no flow or trade restrictions are assumed, e.g. Lignite, HardCoal'). With R_Gas / Z_Import_Gas selected and their capacity-product positive in a region, CanFuelBeProduced=1 -> derived tag 0 -> timeslice balance. Pitfall: in any region where BOTH producers are dead (e.g. Z_Import_Gas AvailabilityFactor missing = 0, R_Gas ModelPeriodActivityMaxLimit zeroed by bounds.jl:43-47) and no trade route exists, the derived tag flips to 1 there and EB3 reads 0 >= use + NetTradeAnnual -> gas plants in that region are forced to zero activity (no infeasibility tech exists for Gas_Natural: update_inftechs_params! dataload.jl:307-310 only creates Infeasibility_<end_use> for Power/HeatFuels/TransportFuels).
+
+Recommendation for an infrastructure model: keep Gas_Natural timeslice-resolved (no tag row). Consequences: (1) LP size: +|R| x |L| x |Y| equalities (10 x 8760 x 16 = 1.4M rows at nthhour=1) plus Import/Export vars per routed pair and hour, plus D_Gas_Methane RateOfActivity and storage-level rows per hour; (2) the exogenous demand profile actually binds hour by hour (needs a gas-shaped TS, otherwise it is the electric LOAD shape); (3) R_Gas / Z_Import_Gas have AF=CF=1 and no ramping, so extraction/imports can swing freely per hour - the only things that make the hourly gas balance meaningful are per-timeslice pipeline caps (TrPA1a, disabled), the flat-import rule TrPA2b (disabled: Z_Import_Gas[l] <= 1.05 x annual share), storage E2P (S7a/b) and the demand shape; (4) gas storage S_Gas_Methane only has a role under (a) - under (b) it is pointless. Tagging it time-independent instead gives one annual '>=' per region: cheap, no storage/pipeline timing, trade capped only annually (and only if TrC7 is re-enabled), and the non-power demand must be modelled some other way (e.g. as a dedicated consuming technology) because EB3 ignores Demand.
+--- trade_machinery_notes:
+Pair set: Maps.Set_Fuel_Regions = {(f,r1,r2): TradeRoute[r1,r2,f,y]!=0 && TagCanFuelBeTraded[f]!=0} (src/genesysmod_dataload.jl:143-149); Import/Export are sparse variables over exactly that set (src/genesysmod_dec.jl:136-138); NetTrade/NetTradeAnnual dense (dec.jl:143-144). TradeRoute is read year-free and copied to every year with a symmetry warning (dataload.jl:437-447); TradeCosts = TradeCostFactor x TradeRoute (dataload.jl:549-550); TradeLossBetweenRegions = TradeLossFactor x km (dataload.jl:838-843). Data structs: src/datastructures.jl:388-402 (TradeRoute, TradeCosts, TradeLossFactor, TradeCapacity, CommissionedTradeCapacity, TradeCapacityGrowthCosts, GrowthRateTradeCapacity, AnnualMax/MinTradeCapacity), 339 GroupAnnualMaxTradeCapacity, 342 TagTimeIndependentFuel, 353 InitialMaxNewTradeCapacity, 504-511 trade variables.
+
+Constraint inventory (src/genesysmod_equ.jl): EB1 trade balance per l (425); EB4 NetTrade per l with losses (429-434) or NetTrade fixed 0 when no route / not tradable; EB5 NetTradeAnnual (459-462); TrC1 Power-only per-timeslice import cap with the GW->PJ factor 31.536 (479-481) - NOT applicable to gas (gas TotalTradeCapacity is already PJ/yr); TrC4/TrC5 new-trade-capacity cost + discounting, only when TradeCapacityGrowthCosts != 0 (483-485); TrC2a start-year pin to Par_TradeCapacity and TrC2b capacity roll-forward + CommissionedTradeCapacity for ALL fuels in Set_Fuel_Regions (494-500); TrC3 Power growth with InitialMaxNewTradeCapacity bootstrap (502-508); TrCMax/TrCMin absolute bounds (510-518); TrC4a gas growth cap + TrC5a H2 - COMMENTED OUT under 'POWER-ONLY (US)' (520-546); TrC7 non-power flow cap sum_l Import <= TotalTradeCapacity - COMMENTED OUT (549-554; GAMS gms:297-298); TrC6 Power symmetry (556-558); NewTradeCapacity fix-to-0 rule: fixed when GrowthRate==0 or first year, unless AnnualMaxTradeCapacity<999999 (562-570); TrPA1a-d per-timeslice pipeline accounting over the GasFuels subset against TotalTradeCapacity['Gas_Natural'] - COMMENTED OUT (573-611; gms:322-324); TrPA2b flat gas imports - COMMENTED OUT (615-621; gms:351-352); TC1/TC2 trade costs (626-634); TrC4 group budget (932-951).
+
+Consequences for gas if only data is flipped: (1) gas Import between routed regions is NOT limited by TotalTradeCapacity at all (TrC7 and TrPA1a both disabled) - pipeline capacity data would be decorative; the only brake is TC1 at 0.000054 MEUR/PJ/km (~0.2 EUR/MWh per 1000 km). Re-enable TrC7 (annual) or, consistent with an hourly balance, TrPA1a (per timeslice; with GasFuels ∩ Fuel = {Gas_Natural} it collapses to Import[y,l,Gas_Natural,rr,r] <= TotalTradeCapacity[y,Gas_Natural,r,rr]*YearSplit - mind the direction convention: capacity r->rr bounds what rr imports from r). (2) NewTradeCapacity for gas is fixed to 0 in all years (no NA-NA GrowthRateTradeCapacity, no AnnualMaxTradeCapacity gas rows), so the corridor network is frozen at Par_TradeCapacity - which is 100% dummy. Either re-enable TrC4a and add GrowthRate + GrowthCosts + (existing) InitialMaxNewTradeCapacity gas rows, or add AnnualMaxTradeCapacity gas rows (bounded path) plus GrowthCosts. (3) Without Par_TradeCapacityGrowthCosts gas rows, any freed NewTradeCapacity is costless. (4) Errorcheck (src/genesysmod_errorcheck.jl): #7 TradeCapacityMismatch aborts on the 26 dummy gas TradeCapacity rows as soon as Gas_Natural is in the fuel set without matching TradeRoute rows (169-178); #2 TradeCosts missing (118-132); #19 asymmetric routes warning (355-368); #8 DemandWithoutProducer (183-196) for the new SpecifiedAnnualDemand; #13 storage orphans (261-275); #25 cost year-gaps (419) hits the D_Gas_Methane CapitalCost/FixedCost milestone-only rows.
+
+Power-only precompute interaction (src/genesysmod_precompute_powerOnly.jl:104-106 FUEL_ALIAS Gas_Natural=>Gas, 153-168): for every IAR fuel of a kept thermal tech it ADDS Z_Import_<fuel> VariableCost x IAR to Params.VariableCost and sets OutputEmissionRatio from EmissionContentPerFuel. Once Gas_Natural is explicit, P_Gas_* pay the fuel twice (baked VC + R_Gas/Z_Import_Gas activity cost) and emit CO2 twice (E1 equ.jl:1070-1077 sums EAR*IAR*EmissionContentPerFuel and the OutputEmissionRatio term). Required code cha
+--- refs:
+[
+"C:/Users/testbed/Documents/GENeSYSMOD.jl_SE/src/genesysmod_equ.jl:181-192 CanFuelBeUsedOrDemanded; :227-237 CanFuelBeProduced; :252-259 TagTimeIndependentFuel derivation + Par override",
+"C:/Users/testbed/Documents/GENeSYSMOD.jl_SE/src/genesysmod_equ.jl:419-436 EB1/EB4/EB2 (timeslice balance, EB2 dual recorded); :459-467 EB5/EB3 (annual balance, no Demand term)",
+"C:/Users/testbed/Documents/GENeSYSMOD.jl_SE/src/genesysmod_equ.jl:479-518 TrC1/TrC4/TrC5/TrC2a/TrC2b/TrC3/TrCMax/TrCMin; :520-546 TrC4a/TrC5a disabled; :549-554 TrC7 disabled; :556-558 TrC6; :562-570 NewTradeCapacity fix rule; :573-621 TrPA1a-d + TrPA2b disabled; :626-634 TC1/TC2; :932-951 TrC4 group budget; :1070-1077 E1 emission double-count path; :1180-1268 S1-S7 storage block",
+"C:/Users/testbed/Documents/GENeSYS_MOD.gms/genesysmod_equ.gms:139-169 TagTimeIndependentFuel; :243-247 EB2/EB3; :277-278 TrC4a; :297-298 TrC7; :322-324 TrPA1a; :351-352 TrPA2b",
+"C:/Users/testbed/Documents/GENeSYSMOD.jl_SE/src/genesysmod_dataload.jl:143-149 Set_Fuel_Regions; :307-310 infeasibility techs only for Power/Heat/Transport; :338-365 D_Trade_Storage per traded fuel (old dispatch); :384-401 inherit_base_world params; :419-433 trade params + optional sheets; :437-451 TradeRoute/GrowthCosts/CostFactor; :454-456 ResidualCapacity/TotalAnnualMaxCapacity (no inherit); :483-485 TagTimeIndependentFuel sheet; :491-495 TotalAnnualMaxActivity/ModelPeriodActivityMaxLimit(999999)/OperationalLife; :549-552 TradeCosts + growth-rate fill; :828-850 update_trade_params!; :889-892 Demand from profile",
+"C:/Users/testbed/Documents/GENeSYSMOD.jl_SE/src/utils.jl:103-123 _inherit_base_world! (base region California first, then World)",
+"C:/Users/testbed/Documents/GENeSYSMOD.jl_SE/src/genesysmod_bounds.jl:28-35 AnnualActivityUpperLimit 0->999999; :43-47 FossilFuelGeneration model-period limit zeroed; :118-125 TotalAnnualMaxCapacity 0->999999 for Transformation/FossilFuelGeneration/ImportTechnology; :137-149 ImportTechnology CF/life/model-period; :179 D_Gas_Methane start-year unfix",
+"C:/Users/testbed/Documents/GENeSYSMOD.jl_SE/src/genesysmod_precompute_powerOnly.jl:104-106 FUEL_ALIAS Gas_Natural->Z_Import_Gas; :153-168 VariableCost add + OutputEmissionRatio",
+"C:/Users/testbed/Documents/GENeSYSMOD.jl_SE/src/genesysmod_timeseries_reduction.jl:111-149 keys_mapping (hard-coded fuel->TS); :421-424 sdp_list; :450-475 profile assignment (LOAD default for any demanded fuel, end_uses override)",
+"C:/Users/testbed/Documents/GENeSYSMOD.jl_SE/src/genesysmod_errorcheck.jl:118-132 check 2; :169-178 check 7; :183-196 check 8; :241-253 check 11; :261-275 check 13; :355-368 check 19; :419 check 25",
+"C:/Users/testbed/Documents/GENeSYSMOD.jl_SE/src/genesysmod_dispatch_fullyear.jl:331-333 Power-only NTC; :382-386 Power* demand fuels; :417-421 VC 'fuel baked' + OutputEmissionRatio; :452-462 fuel-factor/year/CO2 cost basis; C:/Users/testbed/Documents/GENeSYSMOD.jl_SE/src/genesysmod_dispatch.jl:374-383 GrowthCosts-based free-trade rule (old path)",
+"C:/Users/testbed/Documents/GENeSYSMOD.jl_SE/src/genesysmod_dec.jl:136-144 Import/Export/NetTrade declarations; src/datastructures.jl:339,342,353,388-402,504-511",
+"C:/Users/testbed/Documents/GENeSYSMOD.jl_SE/src/genesysmod_main.jl:21 switch_endogenous_specifieddemandforecasting default 0; test/test_northamerica.jl:29-32 data_file / allfuels_data_file / switch_power_only_mode=1; test/test_northamerica_dispatch.jl:20-31",
+"C:/Users/testbed/Documents/GENeSYSMOD.jl_SE/src/genesysmod_results.jl:85,162,654; src/genesysmod_levelizedcosts.jl:26,43,45,390",
+"C:/Users/testbed/Documents/GENeSYS-MOD.data_francesca/Conversion Script/Set_filter_file_NorthAmerica.xlsx (sheets Fuel_selection, Technology_selection, Storage_selection, Mode_of_operation_selection, Timeseries_selection); Set_filter_file_NorthAmerica_allFuels.xlsx (has Gas_Natural/R_Gas/Z_Import_Gas/D_Gas_Methane/S_Gas_Methane = 1)",
+"C:/Users/testbed/Documents/GENeSYS-MOD.data_francesca/Conversion Script/functions/process_parameters.py:21-60 scenario-subfolder upsert; :87-101 set_regional_values_from_base list; :101-127 set_values_from_world list; :263-269 process_all_fuel; :294-340 base-region expansion; :343-390 World expan
+--- dispatch_notes:
+Data/Dispatch/* needs no structural change (Par_DispatchTechClass already classes P_Gas_CCGT/CCGT_Residual/OCGT/Engines/Steam/SOFC under Fuel 'Gas'), but the fullyear dispatch code assumes fuel cost is baked into VariableCost (genesysmod_dispatch_fullyear.jl:417-418) and scales that VC by Par_DispatchFuelCostFactor regional basis and Par_DispatchFuelPriceYear (462). With an explicit Gas_Natural the thermal VC drops to O&M only, so the dispatch must add a gas price term (preferably the investment run's hourly regional EB2 dual for Gas_Natural, which the results DB already stores under duals_*; or R_Gas/Z_Import_Gas VC x IAR) and the regional basis multipliers should then be retired to avoid double-counting. It also ignores gas trade (reads only Power NTC, 331-333) and gas demand (only Power* fuels, 382-386) - both fine for a power-only hourly re-dispatch as long as the gas price input is fixed. The memory note 'No parallel invest+dispatch' (both open genesysmod_db.duckdb) still applies.
