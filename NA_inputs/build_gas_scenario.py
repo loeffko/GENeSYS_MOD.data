@@ -275,6 +275,22 @@ ov('Par_ResidualStorageCapacity', [
 ov('Par_StorageE2PRatio', [{'Storage': 'S_Gas_Methane', 'Year': 'All', 'Value': '800', 'Unit': 'GWh/GW',
     'Source': 'NA underground storage: working gas / peak deliverability ~ 33 days (EIA-191 2024: 4.9 EJ / 118 Bcf/d); scenario override of the EU 167 h; ' + DOC}])
 ov('Par_CapitalCost', [{'Region': r, 'Technology': 'D_Gas_Methane', 'Year': str(y), 'Value': '1', 'Unit': 'MEUR/GW', 'Source': 'World value copied to every modelled year (milestone-only World rows leave off-years at 0)'} for r in NA for y in YEARS])
+# FixedCost: the base World series is milestone-only (2025/2030/2035/2040); create_daa
+# leaves the gap years at 0 (errorcheck CostYearGap, 120 offenders in the first 49 run),
+# so the fixed cost of the storage-deliverability fleet appeared only every fifth year.
+# Interpolate the World milestones linearly onto every modelled year per NA region.
+_fc = pd.read_csv(os.path.join(PAR, 'Par_FixedCost', 'Par_FixedCost.csv'), dtype=str, keep_default_na=False)
+_fc = _fc[(_fc.Region == 'World') & (_fc.Technology == 'D_Gas_Methane') & (_fc.Year.str.isdigit())]
+_fc_pts = sorted((int(y), float(v)) for y, v in zip(_fc.Year, _fc.Value) if v != '')
+def _fc_interp(y):
+    ys, vs = [a for a, _ in _fc_pts], [b for _, b in _fc_pts]
+    if y <= ys[0]: return vs[0]
+    if y >= ys[-1]: return vs[-1]
+    import bisect as _b
+    i = _b.bisect_right(ys, y); y0, y1, v0, v1 = ys[i-1], ys[i], vs[i-1], vs[i]
+    return v0 + (v1 - v0) * (y - y0) / (y1 - y0)
+ov('Par_FixedCost', [{'Region': r, 'Technology': 'D_Gas_Methane', 'Year': str(y), 'Value': f'{_fc_interp(y):.3f}', 'Unit': 'MEUR/GW',
+    'Source': 'World milestone series (base Par_FixedCost) interpolated linearly to every modelled year; ' + DOC} for r in NA for y in YEARS])
 
 # ---------------------------------------------------------------- 5. deliverability (CA6)
 SUPPLY_BCFD = {'NewEngland': 5.9, 'California': 7.1, 'NewYork': 14.4 + 2.85}
