@@ -1,0 +1,665 @@
+year,Pipeline,Region From,Region To,State From,County From,State To,County To,Capacity (mmcfd),Notes,RF,RT
+2025,Florida Gas Trans Co,South Central,Intra-regional,Alabama,Mobile,Mississippi,Greene,75.0,,SERC,SERC
+2025,Florida Gas Trans Co,South Central,Southeast,Alabama,Escambia,Florida,Santa Rosa,3235.0,,SERC,SERC
+2025,Gulf South Pipeline Co,South Central,Southeast,Alabama,Baldwin,Florida,Escambia,190.0,,SERC,SERC
+2025,Gulf South Pipeline Co,South Central,Intra-regional,Alabama,Mobile,Mississippi,George,200.0,,SERC,SERC
+2025,Gulfstream Natural Gas System (via the Gulf of America),South Central,Southeast,Alabama,Mobile,Florida,Manatee,1435.0,,SERC,SERC
+2025,Sabal Trail,South Central,Southeast,Alabama,Russell,Georgia,Stewart,1052.0,,SERC,SERC
+2025,Southern Natural Gas Co,South Central,Southeast,Alabama,Russell,Georgia,Muscogee,2760.0,,SERC,SERC
+2025,Tennessee Gas Pipeline Co,South Central,Intra-regional,Alabama,Lamar,Mississippi,Lowndes,1450.0,,SERC,SERC
+2025,Tennessee Gas Pipeline Co,South Central,Midwest,Alabama,Lauderdale,Tennessee,Wayne,1832.0,,SERC,SERC
+2025,Texas Eastern Trans Corp,South Central,Intra-regional,Alabama,Franklin,Mississippi,Itawamba,1820.0,,SERC,SERC
+2025,Texas Eastern Trans Corp,South Central,Midwest,Alabama,Lauderdale,Tennessee,Lawrence,2308.0,,SERC,SERC
+2025,Transcontinental Gas P L Co,South Central,Southeast,Alabama,Randolph,Georgia,Heard,5118.0,Alabama Georgia Connector Project (FERC docket CP23-194),SERC,SERC
+2025,Connector Pipeline Co,Canada,Mountain,Alberta,Alberta,Montana,Glacier,20.0,,Canada,WECC
+2025,EnCana Pipeline Ltd,Canada,Mountain,Alberta,Alberta,Montana,Toole,100.0,,Canada,WECC
+2025,Sierra Production Co,Canada,Mountain,Alberta,Saskatchewan,Montana,Toole,24.0,,Canada,WECC
+2025,El Paso Nat Gas Co,Mountain,Pacific,Arizona,Mohave,California,San Bernardino,2080.0,,WECC,California
+2025,El Paso Nat Gas Co,Mountain,Pacific,Arizona,LaPaz,California,Riverside,2424.0,,WECC,California
+2025,El Paso Nat Gas Co,Mountain,Mexico,Arizona,Cochise,Mexico,Sonora,503.0,,WECC,Mexico
+2025,El Paso Nat Gas Co,Mountain,Mexico,Arizona,Santa Cruz,Mexico,Sonora,9.0,,WECC,Mexico
+2025,Mohave Pipeline Co,Mountain,Pacific,Arizona,Mohave,California,San Bernardino,400.0,,WECC,California
+2025,North Baja Pipeline Co,Mountain,Pacific,Arizona,La Paz,California,Riverside,995.0,,WECC,California
+2025,Questar Southern Trails Pipeline Co,Mountain,Pacific,Arizona,Mohave,California,San Bernardino,80.0,,WECC,California
+2025,Sierrita Gas Pipeline,Mountain,Mexico,Arizona,Pima,Mexico,Sonora,524.0,,WECC,Mexico
+2025,Southwest Gas Transmission Co,Mountain,Intra-regional,Arizona,Mohave,Nevada,Clark,165.0,,WECC,WECC
+2025,Transwestern Pipeline Co,Mountain,Pacific,Arizona,Mohave,California,San Bernardino,1285.0,,WECC,California
+2025,ANR Pipeline Co,South Central,Intra-regional,Arkansas,Chicot,Louisiana,West Carroll,1315.0,,MISO,MISO
+2025,ANR Pipeline Co,South Central,Intra-regional,Arkansas,Chicot,Mississippi,Washington,1430.0,,MISO,MISO
+2025,Arkansas Oklahoma Gas Corp,South Central,Intra-regional,Arkansas,Le Flore,Oklahoma,Sebastian,20.0,,SPP,SPP
+2025,"Enable Gas Transmission, LLC",South Central,Intra-regional,Arkansas,Columbia,Louisiana,Webster,156.0,,SPP,SPP
+2025,"Enable Gas Transmission, LLC",South Central,Midwest,Arkansas,Benton,Missouri,Mc Donald,100.0,,SPP,SPP
+2025,"Enable Gas Transmission, LLC",South Central,Intra-regional,Arkansas,Miller,Texas,Bowie,150.0,,SPP,SPP
+2025,"Enable Mississippi River Transmission, LLC",South Central,Intra-regional,Arkansas,Ashley,Louisiana,Morehouse,550.0,,MISO,MISO
+2025,"Enable Mississippi River Transmission, LLC",South Central,Midwest,Arkansas,Clay,Missouri,Ripley,730.0,,MISO,MISO
+2025,Fayetteville Express Pipeline,South Central,Intra-regional,Arkansas,Phillips,Mississippi,Coahoma,2000.0,,MISO,MISO
+2025,Nat Gas P L Co Of America,South Central,Midwest,Arkansas,Clay,Missouri,Butler,1574.0,,MISO,MISO
+2025,Nat Gas P L Co Of America,South Central,Intra-regional,Arkansas,Miller,Texas,Cass,760.0,,SPP,SPP
+2025,Nat Gas P L Co Of America,South Central,Intra-regional,Arkansas,Miller,Texas,Cass,600.0,,SPP,SPP
+2025,NOARK Pipeline System,South Central,Midwest,Arkansas,Clay,Missouri,Dunklin,33.0,,MISO,MISO
+2025,Tennessee Gas Pipeline Co,South Central,Intra-regional,Arkansas,Ashley,Louisiana,Morehouse,1707.0,,MISO,MISO
+2025,Tennessee Gas Pipeline Co,South Central,Intra-regional,Arkansas,Chicot,Mississippi,Washington,1573.0,,MISO,MISO
+2025,Texas Eastern Trans Corp,South Central,Midwest,Arkansas,Clay,Missouri,Butler,324.0,,MISO,MISO
+2025,Texas Gas Transmission Co,South Central,Intra-regional,Arkansas,Ashley,Louisiana,Morehouse,1042.0,,MISO,MISO
+2025,Texas Gas Transmission Co,South Central,Intra-regional,Arkansas,Phillips,Mississippi,De Soto,4810.0,,MISO,SERC
+2025,Trunkline Gas Co,South Central,Intra-regional,Arkansas,Chicot,Mississippi,Washington,1598.0,,MISO,MISO
+2025,Ferndale P L Co,Canada,Pacific,British Columbia,British Columbia,Washington,Whatcom,105.0,,Canada,WECC
+2025,Gas Transmission Northwest,Canada,Mountain,British Columbia,Alberta,Idaho,Boundary,2891.0,,Canada,WECC
+2025,Northwest Pipeline Corp,Canada,Pacific,British Columbia,British Columbia,Washington,Whatcom,1562.0,,Canada,WECC
+2025,Sumas Cascade PL Co,Canada,Pacific,British Columbia,British Columbia,Washington,Whatcom,120.0,,Canada,WECC
+2025,Sumas Energy Usa Inc,Canada,Pacific,British Columbia,British Columbia,Washington,Whatcom,45.0,,Canada,WECC
+2025,Sumas International Pl Co,Canada,Pacific,British Columbia,British Columbia,Washington,Whatcom,0.0,,Canada,WECC
+2025,North Baja Pipeline Co,Pacific,Mountain,California,,Arizona,La Paz,81.0,,California,WECC
+2025,North Baja Pipeline Co,Pacific,Mountain,California,Riverside,Arizona,La Paz,614.0,,California,WECC
+2025,North Baja Pipeline Co,Pacific,Mexico,California,Imperial,Mexico,Baja California,995.0,,California,Mexico
+2025,Pacific  Interstate Offshore Co,Pacific,Intra-regional,California,Offshore Pacific,California,Santa Barbara,60.0,,California,California
+2025,San Diego Gas & Electric Co,Pacific,Mexico,California,San Diego,Mexico,Baja Calif. Norte,400.0,,California,Mexico
+2025,Southern California Gas Co,Pacific,Mexico,California,Imperial,Mexico,Baja Calif. Norte,25.0,,California,Mexico
+2025,Tuscarora Pipeline Co,Pacific,Mountain,California,Sierra,Nevada,Washoe,177.0,,California,WECC
+2025,Cheyenne Plains Pipeline,Mountain,South Central,Colorado,Kit Carson,Kansas,Sherman,820.0,,WECC,SPP
+2025,Colorado Interstate Gas,Mountain,South Central,Colorado,Baca,Kansas,Morton,463.0,,WECC,SPP
+2025,Colorado Interstate Gas,Mountain,South Central,Colorado,Baca,Oklahoma,Cimarron,514.0,,WECC,SPP
+2025,Colorado Interstate Gas,Mountain,Intra-regional,Colorado,Moffat,Wyoming,Sweetwater,180.0,,WECC,WECC
+2025,El Paso Nat Gas Co,Mountain,Intra-regional,Colorado,Laplata,New Mexico,San Juan,790.0,,WECC,WECC
+2025,Northwest Pipeline Corp,Mountain,Intra-regional,Colorado,Rio Blanco,Utah,Uintah,308.0,,WECC,WECC
+2025,Questar P L Co,Mountain,Intra-regional,Colorado,Rio Blanco,Utah,Uintah,255.0,,WECC,WECC
+2025,Questar P L Co,Mountain,Intra-regional,Colorado,Moffat,Wyoming,Sweetwater,165.0,,WECC,WECC
+2025,Raton Gas Transmission Co,Mountain,Intra-regional,Colorado,Las Animas,New Mexico,Colfax,10.0,,WECC,WECC
+2025,Rockies Express Pipeline,Mountain,Intra-regional,Colorado,Sedgwick,Nebraska,Perkins,1800.0,,WECC,SPP
+2025,Rockies Express Pipeline,Mountain,Intra-regional,Colorado,Moffat,Wyoming,Sweetwater,1400.0,,WECC,WECC
+2025,Rockies Express Pipeline,Mountain,Intra-regional,Colorado,Weld,Wyoming,Larimie,1800.0,,WECC,WECC
+2025,Southern Star Central Gas PL Co,Mountain,South Central,Colorado,Yuma,Kansas,Cheyenne,216.0,,WECC,SPP
+2025,Tallgrass Interstate Gas Transmission,Mountain,South Central,Colorado,Yuma,Kansas,Cheyenne,20.0,,WECC,SPP
+2025,Tallgrass Interstate Gas Transmission,Mountain,Intra-regional,Colorado,Logan,Nebraska,Cheyenne,222.0,,WECC,SPP
+2025,Trailblazer Pipeline Co,Mountain,Intra-regional,Colorado,Sedgwick,Nebraska,Perkins,816.0,,WECC,SPP
+2025,Trailblazer Pipeline Co,Mountain,Intra-regional,Colorado,Weld,Wyoming,Laramie,816.0,,WECC,WECC
+2025,Transcolorado Gas Trans Co,Mountain,Intra-regional,Colorado,Laplata,New Mexico,San Juan,692.0,,WECC,WECC
+2025,Transwestern Pipeline Co,Mountain,Intra-regional,Colorado,La Plata,New Mexico,San Juan,500.0,,WECC,WECC
+2025,Westgas Interstate Gas,Mountain,Intra-regional,Colorado,Larimer,Wyoming,Laramie,13.0,,WECC,WECC
+2025,Wyoming Interstate Co,Mountain,Intra-regional,Colorado,Moffet,Wyoming,Sweetwater,341.0,,WECC,WECC
+2025,Algonquin Gas Trans Co,Northeast,Intra-regional,Connecticut,Fairfield,New York,Putnam,275.0,,NewEngland,NewYork
+2025,Algonquin Gas Trans Co,Northeast,Intra-regional,Connecticut,Windham,Rhode Island,Providence,1235.0,,NewEngland,NewEngland
+2025,Iroquois Pipeline Co,Northeast,Intra-regional,Connecticut,New Haven,New York,Suffolk,620.0,,NewEngland,NewYork
+2025,Tennessee Gas Pipeline Co,Northeast,Intra-regional,Connecticut,Hartford,Massachusetts,Hampden,125.0,,NewEngland,NewEngland
+2025,Columbia Gas Trans Corp,Northeast,Intra-regional,Delaware,New Castle,New Jersey,Gloucester,141.0,,PJM,PJM
+2025,Eastern Shore Nat Gas Co,Northeast,Intra-regional,Delaware,Sussex,Maryland,Dorchester,22.0,,PJM,PJM
+2025,Eastern Shore Nat Gas Co,Northeast,Intra-regional,Delaware,Sussex,Maryland,Wicomico,14.0,,PJM,PJM
+2025,Dominion Carolina Gas Transmission,Southeast,Intra-regional,Georgia,Effingham,South Carolina,Jasper,190.0,,SERC,SERC
+2025,Sabal Trail,Southeast,Intra-regional,Georgia,Lowndes,Florida,Hamilton,1052.0,,SERC,SERC
+2025,Southern Natural Gas Co,Southeast,Intra-regional,Georgia,Decatur,Florida,Gadsden,646.0,,SERC,SERC
+2025,Southern Natural Gas Co,Southeast,Intra-regional,Georgia,Richmond,South Carolina,Aiken,454.0,,SERC,SERC
+2025,Southern Natural Gas Co,Southeast,Midwest,Georgia,Catoosa,Tennessee,Hamilton,151.0,,SERC,SERC
+2025,Transcontinental Gas P L Co,Southeast,South Central,Georgia,Heard,Alabama,Randolph,1996.0,,SERC,SERC
+2025,Transcontinental Gas P L Co,Southeast,Intra-regional,Georgia,Hart,South Carolina,Anderson,4495.0,,SERC,SERC
+2025,Discovery PL Co,Gulf of America,South Central,Gulf of America,Ewing Bank 873,Louisiana,Lafourche,750.0,,GOM,MISO
+2025,Blue Dolphin Pipeline Co,Gulf of America,South Central,Gulf of America,Galveston Area 350,Texas,Brazoria,235.0,,GOM,ERCOT
+2025,Black Marlin Pipeline Co,Gulf of America,South Central,Gulf of America,Gulf of America,Texas,Galveston,163.0,,GOM,ERCOT
+2025,Chandeleur Pipeline Co,Gulf of America,South Central,Gulf of America,Gulf of America,Mississippi,Jackson,322.0,,GOM,SERC
+2025,Columbia Gulf Trans Co,Gulf of America,South Central,Gulf of America,Gulf of America,Louisiana,Vermillion,0.0,,GOM,MISO
+2025,Dauphin Island Gathering System,Gulf of America,South Central,Gulf of America,Gulf of America,Alabama,Mobile,1100.0,,GOM,SERC
+2025,Delfin LNG (UTOS Pipeline),Gulf of America,South Central,Gulf of America,Gulf of America,Louisiana,Cameron,1040.0,,GOM,MISO
+2025,Florida Gas Trans Co,Gulf of America,South Central,Gulf of America,Gulf of America,Texas,Matagorda,0.0,,GOM,ERCOT
+2025,Gulf South Pipeline Co,Gulf of America,South Central,Gulf of America,Gulf of America,Louisiana,St. Mary,0.0,,GOM,MISO
+2025,High Point Gas Transmission,Gulf of America,South Central,Gulf of America,Gulf of America,Louisiana,Plaquemines,650.0,,GOM,MISO
+2025,Houston Pipeline Co,Gulf of America,South Central,Gulf of America,Gulf of America,Texas,Kleberg,230.0,,GOM,ERCOT
+2025,"Kinetica Partners, LLC",Gulf of America,South Central,Gulf of America,Gulf of America,Louisiana,Cameron,1919.0,,GOM,MISO
+2025,Matagorda Offshore Pipeline System (MOPS),Gulf of America,South Central,Gulf of America,Gulf of America,Texas,Calhoun,0.0,,GOM,ERCOT
+2025,Mobile Bay Producers,Gulf of America,South Central,Gulf of America,Gulf of America,Alabama,Mobile,600.0,,GOM,SERC
+2025,Mustang Island,Gulf of America,South Central,Gulf of America,Gulf of America,Texas,Nueces,200.0,,GOM,ERCOT
+2025,Nat Gas P L Co Of America,Gulf of America,South Central,Gulf of America,Gulf of America,Texas,Jefferson,150.0,,GOM,ERCOT
+2025,Sea Robin Pipeline Co,Gulf of America,South Central,Gulf of America,Gulf of America,Louisiana,Terrebonne,1455.0,,GOM,MISO
+2025,Sea Robin Pipeline Co,Gulf of America,South Central,Gulf of America,Gulf of America,Louisiana,Vermilion,1338.0,,GOM,MISO
+2025,Southern Natural Gas Co,Gulf of America,South Central,Gulf of America,Gulf of America,Texas,Brazoria,0.0,,GOM,ERCOT
+2025,Stingray Pipeline Co,Gulf of America,South Central,Gulf of America,Gulf of America,Louisiana,Cameron,560.0,,GOM,MISO
+2025,Texas Eastern Trans Corp,Gulf of America,South Central,Gulf of America,Gulf of America,Louisiana,Cameron,990.0,,GOM,MISO
+2025,Texas Gas Transmission Co,Gulf of America,South Central,Gulf of America,Gulf of America,Louisiana,Vermilion,501.0,,GOM,MISO
+2025,Transcontinental Gas P L Co,Gulf of America,South Central,Gulf of America,Gulf of America,Alabama,Mobile,612.0,,GOM,SERC
+2025,Transcontinental Gas P L Co,Gulf of America,South Central,Gulf of America,Gulf of America,Louisiana,Vermillion,2644.0,,GOM,MISO
+2025,Transcontinental Gas P L Co,Gulf of America,South Central,Gulf of America,Gulf of America,Texas,Kenedy,200.0,,GOM,ERCOT
+2025,Transcontinental Gas P L Co,Gulf of America,South Central,Gulf of America,Gulf of America,Texas,Matagorda,400.0,,GOM,ERCOT
+2025,Trunkline Gas Co,Gulf of America,South Central,Gulf of America,Gulf of America,Louisiana,Vermilion,0.0,,GOM,MISO
+2025,Venice Gathering System,Gulf of America,South Central,Gulf of America,Gulf of America,Louisiana,Plaquemines,320.0,,GOM,MISO
+2025,Panther Interstate Pipeline Energy Fish Hook,Gulf of America,South Central,Gulf of America,High Island Area,Texas,Jefferson,150.0,,GOM,ERCOT
+2025,"Kinetica Partners, LLC",Gulf of America,South Central,Gulf of America,Main Pass 27,Louisiana,Plaquemines,3217.0,,GOM,MISO
+2025,TOMCAT Matagorda Gathering,Gulf of America,South Central,Gulf of America,Matagorda Island,Texas,Calhoun,450.0,,GOM,ERCOT
+2025,Chandeleur Pipeline Co,Gulf of America,South Central,Gulf of America,Mobile,Alabama,Gulf of America,75.0,,GOM,SERC
+2025,Nautilus Pipeline Co,Gulf of America,South Central,Gulf of America,Ship Shoal 207,Louisiana,St. Mary,600.0,,GOM,MISO
+2025,Destin Pipeline Co,Gulf of America,South Central,Gulf of America,Viosca Knoll 900,Mississippi,Jackson,1000.0,,GOM,SERC
+2025,Mississippi Canyon Gas PL Co,Gulf of America,South Central,Gulf of America,West Delta 143,Louisiana,Plaquemines,800.0,,GOM,MISO
+2025,Anaconda Gathering System,Gulf of America,Intra-regional,Gulf of America - Deepwater,Green Canyon 608,Gulf of America,Ship Shoal 207,550.0,,GOM,GOM
+2025,Canyon Chief,Gulf of America,Intra-regional,Gulf of America - Deepwater,Gulf of America,Gulf of America,Main Pass 261A,500.0,,GOM,GOM
+2025,East Breaks Gathering,Gulf of America,Intra-regional,Gulf of America - Deepwater,Alimos Canyon AC25,Gulf of America,HI A573,400.0,,GOM,GOM
+2025,Guarden Banks Pipeline,Gulf of America,Intra-regional,Gulf of America - Deepwater,Guarden Banks 128A,Gulf of America,South Marsh Island 76,1000.0,,GOM,GOM
+2025,High Island Offshore Sys,Gulf of America,Intra-regional,Gulf of America - Deepwater,High Island South,Gulf of America,WC167,500.0,,GOM,GOM
+2025,Independence Trail,Gulf of America,Intra-regional,Gulf of America - Deepwater,Mississippi Canyon 920,Gulf of America,West Delta 68,1000.0,,GOM,GOM
+2025,Manta Ray Gathering,Gulf of America,Intra-regional,Gulf of America - Deepwater,Green Canyon-Ship Shoal,Gulf of America,Ship Shoal 207,800.0,,GOM,GOM
+2025,Peridido Norte,Gulf of America,Intra-regional,Gulf of America - Deepwater,Alimos Canyon,Gulf of America,East Breaks 602,300.0,,GOM,GOM
+2025,Seahawk,Gulf of America,Intra-regional,Gulf of America - Deepwater,East Breaks 602,Gulf of America,BAA 538,360.0,,GOM,GOM
+2025,Viosca Knoll Gathering,Gulf of America,Intra-regional,Gulf of America - Deepwater,Viosca Knoll 817,Gulf of America,Viosca Knoll,600.0,,GOM,GOM
+2025,Gas Transmission Northwest,Mountain,Pacific,Idaho,Kootenai,Washington,Spokane,2711.0,,WECC,WECC
+2025,Northwest Pipeline Corp,Mountain,Intra-regional,Idaho,Owyhee,Nevada,Elko,158.0,,WECC,WECC
+2025,Northwest Pipeline Corp,Mountain,Pacific,Idaho,Payette,Oregon,Malheur,429.0,,WECC,WECC
+2025,Northwest Pipeline Corp,Mountain,Intra-regional,Idaho,Bear Lake,Utah,Rich,298.0,,WECC,WECC
+2025,ANR Pipeline Co,Midwest,Intra-regional,Illinois,Cook,Indiana,Lake,1384.0,,PJM,MISO
+2025,ANR Pipeline Co,Midwest,Intra-regional,Illinois,Mc Herny,Wisconsin,Walworth,1892.0,,PJM,MISO
+2025,"Enable Mississippi River Transmission, LLC",Midwest,Intra-regional,Illinois,St. Clair,Missouri,St Louis,870.0,,MISO,MISO
+2025,Guardian Pipeline Co,Midwest,Intra-regional,Illinois,Mchenry,Wisconsin,Walworth,1287.0,,PJM,MISO
+2025,Interstate Power Co,Midwest,Intra-regional,Illinois,Carroll,Iowa,Clinton,75.0,,PJM,MISO
+2025,Midwestern Gas Trans Co,Midwest,Intra-regional,Illinois,Clark,Indiana,Vigo,715.0,,MISO,MISO
+2025,Missouri Interstate Pipeline Co,Midwest,Intra-regional,Illinois,Madison,Missouri,St Charles,20.0,,MISO,MISO
+2025,Nat Gas P L Co Of America,Midwest,Intra-regional,Illinois,Cook,Indiana,Lake,710.0,,PJM,MISO
+2025,Nat Gas P L Co Of America,Midwest,Intra-regional,Illinois,Jackson,Missouri,Perry,760.0,,MISO,MISO
+2025,Nat Gas P L Co Of America,Midwest,Intra-regional,Illinois,Mchenry,Wisconsin,Kenosha,55.0,,PJM,MISO
+2025,North Shore Gas Co,Midwest,Intra-regional,Illinois,Lake,Wisconsin,Kenosha,40.0,,PJM,MISO
+2025,Northern Border Pipeline Co,Midwest,Intra-regional,Illinois,Will,Indiana,Lake,917.0,,PJM,MISO
+2025,Northern Natural Gas Co,Midwest,Intra-regional,Illinois,Jo Daviess,Wisconsin,Lafayette,335.0,,PJM,MISO
+2025,Panhandle Eastern P L Co,Midwest,Intra-regional,Illinois,Edgar,Indiana,Vermillion,1573.0,,MISO,MISO
+2025,Rockies Express Pipeline,Midwest,Intra-regional,Illinois,Edgar,Indiana,Vermillion,1800.0,,MISO,MISO
+2025,Rockies Express Pipeline,Midwest,Intra-regional,Illinois,Pike,Missouri,Pike,2000.0,,MISO,MISO
+2025,Spire St. Louis Pipeline,Midwest,Intra-regional,Illinois,Jersey,Missouri,St. Charles,400.0,,MISO,MISO
+2025,Texas Eastern Trans Corp,Midwest,Intra-regional,Illinois,White,Indiana,Posey,400.0,,MISO,MISO
+2025,Trunkline Gas Co,Midwest,Intra-regional,Illinois,Vermillion,Indiana,Benton,745.0,,MISO,MISO
+2025,Trunkline Gas Co,Midwest,Intra-regional,Illinois,Vermillion,Kentucky,Mccracken,750.0,,MISO,SERC
+2025,Vector Pipeline Co,Midwest,Intra-regional,Illinois,Will,Indiana,Lake,1350.0,,PJM,MISO
+2025,ANR Pipeline Co,Midwest,Intra-regional,Indiana,Lake,Illinois,Cook,1384.0,,MISO,PJM
+2025,ANR Pipeline Co,Midwest,Intra-regional,Indiana,Spencer,Kentucky,Daviees,915.0,,MISO,MISO
+2025,ANR Pipeline Co,Midwest,Intra-regional,Indiana,Elkhart,Michigan,Cass,1520.0,,PJM,PJM
+2025,ANR Pipeline Co,Midwest,Northeast,Indiana,Steuben,Ohio,Williams,1748.0,,PJM,PJM
+2025,Crossroads Pipeline Co,Midwest,Northeast,Indiana,De Kalb,Ohio,Defiance,250.0,,PJM,PJM
+2025,Midwestern Gas Trans Co,Midwest,Intra-regional,Indiana,Vigo,Illinois,Clark,500.0,,MISO,MISO
+2025,Midwestern Gas Trans Co,Midwest,Intra-regional,Indiana,Spencer,Kentucky,Davees,350.0,,MISO,MISO
+2025,Panhandle Eastern P L Co,Midwest,Intra-regional,Indiana,Vermillion,Illinois,Edgar,1100.0,,MISO,MISO
+2025,Panhandle Eastern P L Co,Midwest,Northeast,Indiana,Randolph,Ohio,Darke,1314.0,,MISO,PJM
+2025,Rockies Express Pipeline,Midwest,Intra-regional,Indiana,Vermillion,Illinois,Edgar,2000.0,,MISO,MISO
+2025,Rockies Express Pipeline,Midwest,Northeast,Indiana,Franklin,Ohio,Butler,1800.0,,MISO,PJM
+2025,Texas Eastern Trans Corp,Midwest,Northeast,Indiana,Randolph,Ohio,Darke,976.0,,MISO,PJM
+2025,Texas Gas Transmission Co,Midwest,Intra-regional,Indiana,Knox,Illinois,Crawford,44.0,,MISO,MISO
+2025,Texas Gas Transmission Co,Midwest,Intra-regional,Indiana,Jefferson,Kentucky,Trimble,1042.0,,MISO,SERC
+2025,Texas Gas Transmission Co,Midwest,Northeast,Indiana,Dearborn,Ohio,Hamilton,1007.0,,MISO,PJM
+2025,Trunkline Gas Co,Midwest,Intra-regional,Indiana,Elkhart,Michigan,St Joseph,739.0,,PJM,PJM
+2025,Vector Pipeline Co,Midwest,Intra-regional,Indiana,St Joseph,Michigan,Berrien,1350.0,,PJM,PJM
+2025,Alliance Pipeline Co,Midwest,Intra-regional,Iowa,Scott,Illinois,Rock Island,1875.0,,MISO,MISO
+2025,ANR Pipeline Co,Midwest,Intra-regional,Iowa,Louisa,Illinois,Mercer,653.0,,MISO,MISO
+2025,Interstate Power Co,Midwest,Intra-regional,Iowa,Clinton,Illinois,Carroll,75.0,,MISO,PJM
+2025,Nat Gas P L Co Of America,Midwest,Intra-regional,Iowa,Muscatine,Illinois,Rock Island,1777.0,,MISO,MISO
+2025,Northern Border Pipeline Co,Midwest,Intra-regional,Iowa,Scott,Illinois,Rock Island,988.0,,MISO,MISO
+2025,Northern Natural Gas Co,Midwest,Intra-regional,Iowa,Dubuque,Illinois,Jo Daviess,575.0,,MISO,PJM
+2025,Northern Natural Gas Co,Midwest,Intra-regional,Iowa,Worth,Minnesota,Freeborn,1930.0,,MISO,MISO
+2025,Northern Natural Gas Co,Midwest,Mountain,Iowa,Lyon,South Dakota,Lincoln,94.0,,MISO,SPP
+2025,ANR Pipeline Co,South Central,Mountain,Kansas,Brown,Nebraska,Richardson,693.0,,SPP,SPP
+2025,Colorado Interstate Gas,South Central,Mountain,Kansas,Morton,Colorado,Baca,340.0,,SPP,WECC
+2025,Colorado Interstate Gas,South Central,Intra-regional,Kansas,Baca,Oklahoma,Cimarron,323.0,,SPP,SPP
+2025,"KPC Pipeline, LLC",South Central,Midwest,Kansas,Wyandotte,Missouri,Jackson,50.0,,SPP,SPP
+2025,Nat Gas P L Co Of America,South Central,Mountain,Kansas,Washington,Nebraska,Jefferson,1224.0,,SPP,SPP
+2025,Nat Gas P L Co Of America,South Central,Intra-regional,Kansas,Meade,Oklahoma,Beaver,300.0,,SPP,SPP
+2025,Northern Natural Gas Co,South Central,Mountain,Kansas,Washington,Nebraska,Jefferson,2172.0,,SPP,SPP
+2025,Panhandle Eastern P L Co,South Central,Mountain,Kansas,Morton,Colorado,Baca,45.0,,SPP,WECC
+2025,Panhandle Eastern P L Co,South Central,Midwest,Kansas,Miami,Missouri,Cass,1559.0,,SPP,SPP
+2025,Rockies Express Pipeline,South Central,Midwest,Kansas,Doniphan,Missouri,Buchanan,1800.0,,SPP,SPP
+2025,Southern Star Central Gas PL Co,South Central,Midwest,Kansas,Leavenworth,Missouri,Platte,1270.0,,SPP,SPP
+2025,Southern Star Central Gas PL Co,South Central,Mountain,Kansas,Brown,Nebraska,Richardson,6.0,,SPP,SPP
+2025,Southern Star Central Gas PL Co,South Central,Intra-regional,Kansas,Barber,Oklahoma,Woods,259.0,,SPP,SPP
+2025,Tallgrass Interstate Gas Transmission,South Central,Midwest,Kansas,Miami,Missouri,Cass,255.0,,SPP,SPP
+2025,Tallgrass Interstate Gas Transmission,South Central,Mountain,Kansas,Decatur,Nebraska,Red Wallow,210.0,,SPP,SPP
+2025,Tallgrass Interstate Gas Transmission,South Central,Intra-regional,Kansas,Seward,Oklahoma,Texas,5.0,,SPP,SPP
+2025,ANR Pipeline Co,Midwest,Intra-regional,Kentucky,Daviees,Indiana,Spencer,1386.0,,MISO,MISO
+2025,ANR Pipeline Co,Midwest,Intra-regional,Kentucky,Calloway,Tennessee,Henry,915.0,,SERC,SERC
+2025,Columbia Gas Trans Corp,Midwest,Northeast,Kentucky,Mason,Ohio,Adams,57.0,,SERC,PJM
+2025,Columbia Gas Trans Corp,Midwest,Northeast,Kentucky,Boyd,West Virginia,Wayne,2162.0,,PJM,PJM
+2025,Columbia Gulf Trans Co,Midwest,Intra-regional,Kentucky,Macon,Tennessee,Monroe,2545.0,,SERC,SERC
+2025,Delta Natural Gas Co,Midwest,Intra-regional,Kentucky,Whitley,Tennessee,Campbell,5.0,,SERC,SERC
+2025,KO Transmission Co,Midwest,Northeast,Kentucky,Campbell,Ohio,Hamilton,219.0,,PJM,PJM
+2025,Midwestern Gas Trans Co,Midwest,Intra-regional,Kentucky,Davees,Indiana,Spencer,664.0,,MISO,MISO
+2025,Midwestern Gas Trans Co,Midwest,Intra-regional,Kentucky,Simpson,Tennessee,Sumner,350.0,,SERC,SERC
+2025,Nora Transmission Co,Midwest,Northeast,Kentucky,Pike,Virginia,Wise,50.0,,PJM,PJM
+2025,Tennessee Gas Pipeline Co,Midwest,Northeast,Kentucky,Greenup,Ohio,Scioto,1777.0,,PJM,PJM
+2025,Tennessee Gas Pipeline Co,Midwest,Intra-regional,Kentucky,Simpson,Tennessee,Sumner,2636.0,,SERC,SERC
+2025,Tennessee Gas Pipeline Co,Midwest,Northeast,Kentucky,Boyd,West Virginia,Wayne,681.0,,PJM,PJM
+2025,Texas Eastern Trans Corp,Midwest,Northeast,Kentucky,Greenup,Ohio,Scioto,2066.0,,PJM,PJM
+2025,Texas Eastern Trans Corp,Midwest,Intra-regional,Kentucky,Monroe,Tennessee,Macon,1920.0,,SERC,SERC
+2025,Texas Gas Transmission Co,Midwest,Intra-regional,Kentucky,Hancock,Indiana,Perry,1510.0,,MISO,MISO
+2025,Texas Gas Transmission Co,Midwest,Intra-regional,Kentucky,Henderson,Indiana,Posey,274.0,,MISO,MISO
+2025,Texas Gas Transmission Co,Midwest,Intra-regional,Kentucky,Graves,Tennessee,Weakley,1042.0,,SERC,SERC
+2025,Texas Gas Transmission Co,Midwest,Intra-regional,Kentucky,Simpson,Tennessee,Sumner,25.0,,SERC,SERC
+2025,Trunkline Gas Co,Midwest,Intra-regional,Kentucky,Mccracken,Illinois,Massac,1544.0,,SERC,MISO
+2025,Trunkline Gas Co,Midwest,Intra-regional,Kentucky,Fulton,Tennessee,Obion,750.0,,SERC,SERC
+2025,Union Light Heat & Power,Midwest,Northeast,Kentucky,Kenton,Ohio,Hamilton,45.0,,PJM,PJM
+2025,American Midstream (Midla),South Central,Intra-regional,Louisiana,Concordia,Mississippi,Adams,70.0,,MISO,MISO
+2025,ANR Pipeline Co,South Central,Intra-regional,Louisiana,West Carroll,Arkansas,Chicot,1430.0,,MISO,MISO
+2025,Columbia Gulf Trans Co,South Central,Intra-regional,Louisiana,Richland,Mississippi,Warren,2576.0,,MISO,MISO
+2025,"Enable Gas Transmission, LLC",South Central,Intra-regional,Louisiana,Webster,Arkansas,Columbia,135.0,,SPP,SPP
+2025,"Enable Gas Transmission, LLC",South Central,Intra-regional,Louisiana,Caddo,Texas,Harrison,25.0,,SPP,SPP
+2025,"Enable Mississippi River Transmission, LLC",South Central,Intra-regional,Louisiana,Morehouse,Arkansas,Ashley,730.0,,MISO,MISO
+2025,Florida Gas Trans Co,South Central,Intra-regional,Louisiana,Washington,Mississippi,Pearl River,1300.0,,MISO,SERC
+2025,Florida Gas Trans Co,South Central,Intra-regional,Louisiana,Calcasieu,Texas,Orange,275.0,,MISO,ERCOT
+2025,Gulf South Pipeline Co,South Central,Intra-regional,Louisiana,Sabine,Texas,Sabine,575.0,,MISO,ERCOT
+2025,Gulf South Pipeline Co,South Central,Intra-regional,Louisiana,Madison,Mississippi,Warren,2346.0,,MISO,MISO
+2025,Gulf South Pipeline Co,South Central,Intra-regional,Louisiana,St. Tammany,Mississippi,Hancock,950.0,,MISO,SERC
+2025,Gulf South Pipeline Co,South Central,Intra-regional,Louisiana,Caddo,Texas,Harrison,20.0,,SPP,SPP
+2025,International Paper Pipeline,South Central,Intra-regional,Louisiana,Concorde,Mississippi,Adams,15.0,,MISO,MISO
+2025,Midcontinent Express Pipeline LLC,South Central,Intra-regional,Louisiana,Madison,Mississippi,Warren,1533.0,,MISO,MISO
+2025,Nat Gas P L Co Of America,South Central,Intra-regional,Louisiana,Cameron,Texas,Jefferson,140.0,,MISO,ERCOT
+2025,Sabine LLC,South Central,Intra-regional,Louisiana,Cameron,Texas,Orange,140.0,,MISO,ERCOT
+2025,Southeast Supply Header Pipeline,South Central,Intra-regional,Louisiana,Madison,Mississippi,Warren,1545.0,,MISO,MISO
+2025,Southern Natural Gas Co,South Central,Intra-regional,Louisiana,East Carroll,Mississippi,Issaquena,1853.0,,MISO,MISO
+2025,Tennessee Gas Pipeline Co,South Central,Intra-regional,Louisiana,Morehouse,Arkansas,Ashley,1581.0,,MISO,MISO
+2025,Tennessee Gas Pipeline Co,South Central,Intra-regional,Louisiana,St Bernard,Mississippi,Hancock,2520.0,,MISO,SERC
+2025,Tennessee Gas Pipeline Co,South Central,Intra-regional,Louisiana,Sabine,Texas,Sabine,1317.0,,MISO,ERCOT
+2025,Texas Eastern Trans Corp,South Central,Intra-regional,Louisiana,East Carroll,Mississippi,Issaquena,2202.0,,MISO,MISO
+2025,Texas Eastern Trans Corp,South Central,Intra-regional,Louisiana,Calcasieu,Texas,Orange,1040.0,,MISO,ERCOT
+2025,Texas Eastern Trans Corp,South Central,Intra-regional,Louisiana,De Soto,Texas,Shelby,433.0,,SPP,ERCOT
+2025,Texas Gas Transmission Co,South Central,Intra-regional,Louisiana,Morehouse,Arkansas,Ashley,2002.0,,MISO,MISO
+2025,Transcontinental Gas P L Co,South Central,Intra-regional,Louisiana,St Helena,Mississippi,Amite,4052.0,,MISO,MISO
+2025,Transcontinental Gas P L Co,South Central,Intra-regional,Louisiana,Calcasieu,Texas,Orange,475.0,,MISO,ERCOT
+2025,Trans-Union Pipeline Co,South Central,Intra-regional,Louisiana,Union,Arkansas,Clairborne,427.0,,MISO,MISO
+2025,Trunkline Gas Co,South Central,Intra-regional,Louisiana,West Carroll,Arkansas,Chicot,1598.0,,MISO,MISO
+2025,Granite State Gas Trans Inc,Northeast,Intra-regional,Maine,York,New Hampshire,Rockingham,31.0,,NewEngland,NewEngland
+2025,Maritimes/Northeast PL Co,Northeast,Canada,Maine,Washington,New Brunswick,New Brunswick,926.0,,NewEngland,Canada
+2025,Maritimes/Northeast PL Co,Northeast,Intra-regional,Maine,York,New Hampshire,Rockingham,896.0,,NewEngland,NewEngland
+2025,Portland Gas Trans Co,Northeast,Intra-regional,Maine,Oxford,New Hampshire,Coos,251.0,,NewEngland,NewEngland
+2025,Centra Minnesota Pipeline Inc,Canada,Midwest,Manitoba,Manitoba,Minnesota,Roseau,63.0,,Canada,MISO
+2025,Great Lakes Gas Trans Ltd,Canada,Midwest,Manitoba,Manitoba,Minnesota,Kittson,2412.0,,Canada,MISO
+2025,Viking Gas Transmission Co,Canada,Midwest,Manitoba,Manitoba,Minnesota,Kittson,516.0,,Canada,MISO
+2025,Columbia Gas Trans Corp,Northeast,Intra-regional,Maryland,Cecil,Pennsylvania,Lancaster,206.0,,PJM,PJM
+2025,Columbia Gas Trans Corp,Northeast,Intra-regional,Maryland,Allegany,West Virginia,Mineral,52.0,Eastern Panhandle Expansion Project (FERC docket CP17-80),PJM,PJM
+2025,Dominion Cove Point LNG LP,Northeast,Intra-regional,Maryland,Charles,Virginia,Fairfax,1535.0,,PJM,PJM
+2025,Dominion Transmission Co,Northeast,Intra-regional,Maryland,Washington,Pennsylvania,Franklin,700.0,,PJM,PJM
+2025,Dominion Transmission Co,Northeast,Intra-regional,Maryland,Frederick,Virginia,Loudoun,622.0,,PJM,PJM
+2025,Eastern Shore Nat Gas Co,Northeast,Intra-regional,Maryland,Cecil,Delaware,New Castle,206.0,,PJM,PJM
+2025,Texas Eastern Trans Corp,Northeast,Intra-regional,Maryland,Garrett,Pennsylvania,Fayette,300.0,,PJM,PJM
+2025,Transcontinental Gas P L Co,Northeast,Intra-regional,Maryland,Harford,Pennsylvania,York,2100.0,,PJM,PJM
+2025,Transcontinental Gas P L Co,Northeast,Intra-regional,Maryland,Montgomery,Virginia,Fairfax,2251.0,,PJM,PJM
+2025,Washington Gas Light Co,Northeast,Intra-regional,Maryland,Montgomery,District of Columbia,District Columbia,80.0,,PJM,PJM
+2025,Algonquin Gas Trans Co,Northeast,Intra-regional,Massachusetts,Worcester,Rhode Island,Providence,275.0,,NewEngland,NewEngland
+2025,Granite State Gas Trans Inc,Northeast,Intra-regional,Massachusetts,Essex,New Hampshire,Rockingham,31.0,,NewEngland,NewEngland
+2025,Maritimes/Northeast PL Co,Northeast,Intra-regional,Massachusetts,Essex,New Hampshire,Rockingham,846.0,,NewEngland,NewEngland
+2025,Tennessee Gas Pipeline Co,Northeast,Intra-regional,Massachusetts,Hampden,Connecticut,Hartford,164.0,,NewEngland,NewEngland
+2025,Tennessee Gas Pipeline Co,Northeast,Intra-regional,Massachusetts,Essex,New Hampshire,Rockingham,201.0,,NewEngland,NewEngland
+2025,Tennessee Gas Pipeline Co,Northeast,Intra-regional,Massachusetts,Norfolk,Rhode Island,Providence,173.0,,NewEngland,NewEngland
+2025,Encinal Gathering Ltd.,Mexico,South Central,Mexico,Tamaulipas,Texas,Webb,60.0,,Mexico,ERCOT
+2025,Kinder Morgan Border Pipeline LP,Mexico,South Central,Mexico,Tamaulipas,Texas,Hidalgo,300.0,,Mexico,ERCOT
+2025,North Baja Pipeline Co,Mexico,Pacific,Mexico,Baja California,California,Riverside,614.0,,Mexico,California
+2025,Tennessee Gas Pipeline Co,Mexico,South Central,Mexico,Tamaulipas,Texas,Hidalgo,215.0,,Mexico,ERCOT
+2025,Texas Eastern Trans Corp,Mexico,South Central,Mexico,Tamaulipas,Texas,Hidalgo,350.0,,Mexico,ERCOT
+2025,ANR Pipeline Co,Midwest,Intra-regional,Michigan,Cass,Indiana,Elkhart,1567.0,,PJM,PJM
+2025,ANR Pipeline Co,Midwest,Northeast,Michigan,Lawnee,Ohio,Fulton,100.0,,MISO,PJM
+2025,ANR Pipeline Co,Midwest,Canada,Michigan,St. Clair,Ontario,Ontario,150.0,,MISO,Canada
+2025,ANR Pipeline Co,Midwest,Intra-regional,Michigan,Iron,Wisconsin,Florence,860.0,,MISO,MISO
+2025,Bluewater Pipeline Co,Midwest,Canada,Michigan,St. Clair,Ontario,Sarnia,500.0,,MISO,Canada
+2025,Great Lakes Gas Trans Ltd,Midwest,Canada,Michigan,Chippewa,Ontario,Ontario,317.0,,MISO,Canada
+2025,Great Lakes Gas Trans Ltd,Midwest,Canada,Michigan,St. Clair,Ontario,Ontario,1482.0,,MISO,Canada
+2025,Great Lakes Gas Trans Ltd,Midwest,Intra-regional,Michigan,Gogebic,Wisconsin,Iron,2226.0,,MISO,MISO
+2025,Panhandle Eastern P L Co,Midwest,Canada,Michigan,Wayne,Ontario,Ontario,150.0,,MISO,Canada
+2025,Vector Pipeline Co,Midwest,Canada,Michigan,St. Clair,Ontario,Lambton,1560.0,,MISO,Canada
+2025,Alliance Pipeline Co,Midwest,Intra-regional,Minnesota,Mower,Iowa,Mitchell,1875.0,,MISO,MISO
+2025,Centra Minnesota Pipeline Inc,Midwest,Canada,Minnesota,Lake Of The Woods,Ontario,Ontario,63.0,,MISO,Canada
+2025,Great Lakes Gas Trans Ltd,Midwest,Canada,Minnesota,Kittson,Manitoba,Manitoba,713.0,,MISO,Canada
+2025,Great Lakes Gas Trans Ltd,Midwest,Intra-regional,Minnesota,St Louis,Wisconsin,Douglas,2226.0,,MISO,MISO
+2025,Northern Border Pipeline Co,Midwest,Intra-regional,Minnesota,Martin,Iowa,Kossuth,2250.0,,MISO,MISO
+2025,Northern Natural Gas Co,Midwest,Intra-regional,Minnesota,Chisago,Wisconsin,Burnett,310.0,Northern Lights 2025 Expansion (FERC docket CP24-60),MISO,MISO
+2025,Viking Gas Transmission Co,Midwest,Mountain,Minnesota,Polk,North Dakota,Grand Forks,101.0,,MISO,SPP
+2025,Viking Gas Transmission Co,Midwest,Intra-regional,Minnesota,Chisago,Wisconsin,Polk,437.0,,MISO,MISO
+2025,WBI Energy Transmission,Midwest,Mountain,Minnesota,Clay,North Dakota,Cass,33.0,,MISO,SPP
+2025,"American Midstream (AlaTenn), LLC",South Central,Intra-regional,Mississippi,Tishomingo,Alabama,Colbert,35.0,,SERC,SERC
+2025,"American Midstream (AlaTenn), LLC",South Central,Midwest,Mississippi,Alcorn,Tennessee,Mcnairy,91.0,,SERC,SERC
+2025,American Midstream (Midla),South Central,Intra-regional,Mississippi,Wilkinson,Louisiana,West Feliciana,70.0,,MISO,MISO
+2025,ANR Pipeline Co,South Central,Intra-regional,Mississippi,Washington,Arkansas,Chicot,1315.0,,MISO,MISO
+2025,ANR Pipeline Co,South Central,Midwest,Mississippi,Marshall,Tennessee,Fayette,1753.0,,SERC,SERC
+2025,Columbia Gulf Trans Co,South Central,Intra-regional,Mississippi,Warren,Louisiana,Richland,2823.0,,MISO,MISO
+2025,Columbia Gulf Trans Co,South Central,Midwest,Mississippi,Tishomingo,Tennessee,Hardin,2268.0,,SERC,SERC
+2025,"Enable Gas Transmission, LLC",South Central,Midwest,Mississippi,De Soto,Tennessee,Shelby,25.0,,SERC,SERC
+2025,Florida Gas Trans Co,South Central,Intra-regional,Mississippi,Pearl River,Louisiana,Washington,75.0,,SERC,MISO
+2025,Florida Gas Trans Co,South Central,Intra-regional,Mississippi,Greene,Alabama,Mobile,2127.0,,SERC,SERC
+2025,Gulf South Pipeline Co,South Central,Intra-regional,Mississippi,Clarke,Alabama,Choctaw,1272.0,,SERC,SERC
+2025,Gulf South Pipeline Co,South Central,Intra-regional,Mississippi,George,Alabama,Mobile,611.0,,SERC,SERC
+2025,Gulf South Pipeline Co,South Central,Intra-regional,Mississippi,Jackson,Alabama,Mobile,1200.0,,SERC,SERC
+2025,Gulf South Pipeline Co,South Central,Intra-regional,Mississippi,Hancock,Louisiana,St. Tammany,310.0,,SERC,MISO
+2025,Midcontinent Express Pipeline LLC,South Central,Intra-regional,Mississippi,Clarke,Alabama,Choctaw,1533.0,,SERC,SERC
+2025,Southeast Supply Header Pipeline,South Central,Intra-regional,Mississippi,Jackson,Alabama,Mobile,1070.0,,SERC,SERC
+2025,Southern Natural Gas Co,South Central,Intra-regional,Mississippi,Lauderdale,Alabama,Choctaw,3126.0,,SERC,SERC
+2025,Southern Pines Energy Center,South Central,Intra-regional,Mississippi,Greene,Alabama,Mobile,1000.0,,SERC,SERC
+2025,Tennessee Gas Pipeline Co,South Central,Intra-regional,Mississippi,Lowndes,Alabama,Lamar,1899.0,,SERC,SERC
+2025,Tennessee Gas Pipeline Co,South Central,Intra-regional,Mississippi,Washington,Arkansas,Chicot,1707.0,,MISO,MISO
+2025,Tennessee Gas Pipeline Co,South Central,Midwest,Mississippi,Alcorn,Tennessee,Mcnairy,2332.0,,SERC,SERC
+2025,Texas Eastern Trans Corp,South Central,Intra-regional,Mississippi,Itawamba,Alabama,Franklin,2222.0,,SERC,SERC
+2025,Texas Eastern Trans Corp,South Central,Intra-regional,Mississippi,Issaquena,Louisiana,East Carroll,1386.0,,MISO,MISO
+2025,Texas Gas Transmission Co,South Central,Intra-regional,Mississippi,Washington,Arkansas,Chicot,1042.0,,MISO,MISO
+2025,Texas Gas Transmission Co,South Central,Midwest,Mississippi,De Soto,Tennessee,Shelby,1980.0,,SERC,SERC
+2025,Transcontinental Gas P L Co,South Central,Intra-regional,Mississippi,Clarke,Alabama,Choctaw,4343.0,,SERC,SERC
+2025,Transcontinental Gas P L Co,South Central,Intra-regional,Mississippi,Amite,Louisiana,St Helena,1971.0,,MISO,MISO
+2025,Trunkline Gas Co,South Central,Midwest,Mississippi,Marshall,Tennessee,Shelby,1580.0,,SERC,SERC
+2025,Southern Natural Gas Co,South Central,Intra-regional,Mississippi,Clarke,Louisiana,Plaquemines,1100.0,Evangeline Pass Expansion Project (Phase 2) (FERC docket CP20-51),SERC,MISO
+2025,ANR Pipeline Co,Midwest,Intra-regional,Missouri,Harrison,Iowa,Decatur,680.0,,SPP,MISO
+2025,"Enable Gas Transmission, LLC",Midwest,South Central,Missouri,Mc Donald,Arkansas,Benton,25.0,,SPP,SPP
+2025,"Enable Mississippi River Transmission, LLC",Midwest,Intra-regional,Missouri,St Louis,Illinois,St Clair,715.0,,MISO,MISO
+2025,Nat Gas P L Co Of America,Midwest,South Central,Missouri,Butler,Arkansas,Clay,760.0,,MISO,MISO
+2025,Nat Gas P L Co Of America,Midwest,Intra-regional,Missouri,Perry,Illinois,Jackson,1650.0,,MISO,MISO
+2025,Panhandle Eastern P L Co,Midwest,Intra-regional,Missouri,Pike,Illinois,Pike,1422.0,,MISO,MISO
+2025,Rockies Express Pipeline,Midwest,Intra-regional,Missouri,Pike,Illinois,Pike,1800.0,,MISO,MISO
+2025,Texas Eastern Trans Corp,Midwest,Intra-regional,Missouri,Scott,Illinois,Alexander,300.0,,MISO,MISO
+2025,Bison Pipeline LLC,Mountain,Intra-regional,Montana,Fallon,North Dakota,Bowman,477.0,,WECC,SPP
+2025,Chinook Pipeline Co,Mountain,Canada,Montana,Blaine,Saskatchewan,Saskatchewan,15.0,,WECC,Canada
+2025,EnCana Pipeline Ltd,Mountain,Canada,Montana,Toole,Saskatchewan,Saskatchewan,6.0,,WECC,Canada
+2025,Havre Pipeline Co,Mountain,Canada,Montana,Blaine,Saskatchewan,Saskatchewan,60.0,,WECC,Canada
+2025,Northern Border Pipeline Co,Mountain,Intra-regional,Montana,Roosevelt,North Dakota,Williams,2180.0,,WECC,SPP
+2025,WBI Energy Transmission,Mountain,Intra-regional,Montana,Wibaux,North Dakota,Golden Valley,542.0,,WECC,SPP
+2025,WBI Energy Transmission,Mountain,Intra-regional,Montana,Carbon,Wyoming,Park,275.0,,WECC,WECC
+2025,WBI Energy Transmission,Mountain,Intra-regional,Montana,Fallon,Wyoming,Sheridan,94.0,,WECC,WECC
+2025,ANR Pipeline Co,Mountain,Midwest,Nebraska,Richardson,Missouri,Holt,693.0,,SPP,SPP
+2025,Nat Gas P L Co Of America,Mountain,Midwest,Nebraska,Cass,Iowa,Mills,1389.0,,SPP,MISO
+2025,Northern Natural Gas Co,Mountain,Midwest,Nebraska,Dakota,Iowa,Woodbury,1913.0,,SPP,MISO
+2025,Northern Natural Gas Co,Mountain,Intra-regional,Nebraska,Dakota,South Dakota,Union,125.0,,SPP,SPP
+2025,Rockies Express Pipeline,Mountain,Intra-regional,Nebraska,Kimball,Colorado,Logon,1800.0,,SPP,WECC
+2025,Rockies Express Pipeline,Mountain,South Central,Nebraska,Gage,Kansas,Marshall,1800.0,,SPP,SPP
+2025,Tallgrass Interstate Gas Transmission,Mountain,Intra-regional,Nebraska,Cheyenne,Colorado,Logan,97.0,,SPP,WECC
+2025,Tallgrass Interstate Gas Transmission,Mountain,South Central,Nebraska,Dundy,Kansas,Rawlins,40.0,,SPP,SPP
+2025,Trailblazer Pipeline Co,Mountain,Intra-regional,Nebraska,Kimball,Colorado,Logan,816.0,,SPP,WECC
+2025,Kern River Gas Trans Co,Mountain,Pacific,Nevada,Clark,California,San Bernardino,2146.0,,WECC,California
+2025,Paiute Pipeline Co,Mountain,Pacific,Nevada,Douglas,California,El Dorado,43.0,,WECC,California
+2025,Ruby Pipeline LLC,Mountain,Pacific,Nevada,Washoe,Oregon,Lake,1500.0,,WECC,WECC
+2025,Maritimes/Northeast PL Co,Canada,Northeast,New Brunswick,New Brunswick,Maine,Washington,833.0,,Canada,NewEngland
+2025,Granite State Gas Trans Inc,Northeast,Intra-regional,New Hampshire,Rockingham,Maine,York,31.0,,NewEngland,NewEngland
+2025,Maritimes/Northeast PL Co,Northeast,Intra-regional,New Hampshire,Rockingham,Massachusetts,Essex,846.0,,NewEngland,NewEngland
+2025,Maritimes/Northeast PL Co,Northeast,Intra-regional,New Hampshire,Rockingham,Maine,York,896.0,,NewEngland,NewEngland
+2025,Portland Gas Trans Co,Northeast,Intra-regional,New Hampshire,Coos,Maine,Oxford,432.0,,NewEngland,NewEngland
+2025,Portland Gas Trans Co,Northeast,Canada,New Hampshire,Coos,Quebec,Quebec,216.0,,NewEngland,Canada
+2025,Algonquin Gas Trans Co,Northeast,Intra-regional,New Jersey,Bergen,New York,Rockland,1625.0,,PJM,NewYork
+2025,Tennessee Gas Pipeline Co,Northeast,Intra-regional,New Jersey,Bergen,New York,Rockland,377.0,,PJM,NewYork
+2025,Texas Eastern Trans Corp,Northeast,Intra-regional,New Jersey,Hudson,New York,Richmond,700.0,,PJM,NewYork
+2025,Texas Eastern Trans Corp,Northeast,Intra-regional,New Jersey,Linden,New York,Manhattan,800.0,,PJM,NewYork
+2025,Transcontinental Gas P L Co,Northeast,Intra-regional,New Jersey,Bergen,New York,New York,1696.0,,PJM,NewYork
+2025,Transcontinental Gas P L Co,Northeast,Intra-regional,New Jersey,Burlington,Pennsylvania,Philadelphia,1921.0,,PJM,PJM
+2025,Double E Pipeline,Mountain,South Central,New Mexico,Eddy,Texas,Loving,1350.0,,SPP,ERCOT
+2025,El Paso Nat Gas Co,Mountain,Intra-regional,New Mexico,Hidalgo,Arizona,Cochise,2672.0,,WECC,WECC
+2025,El Paso Nat Gas Co,Mountain,Intra-regional,New Mexico,Mckinley,Arizona,Apache,2247.0,,WECC,WECC
+2025,El Paso Nat Gas Co,Mountain,South Central,New Mexico,Lea,Texas,Yoakum,700.0,,SPP,SPP
+2025,El Paso Nat Gas Co,Mountain,South Central,New Mexico,Eddy,Texas,Winkler,159.0,,SPP,ERCOT
+2025,Nat Gas P L Co Of America,Mountain,South Central,New Mexico,Roosevelt,Texas,Cochran,656.0,,SPP,SPP
+2025,Northern Natural Gas Co,Mountain,South Central,New Mexico,Lea,Texas,Winkler,245.0,,SPP,ERCOT
+2025,Questar Southern Trails Pipeline Co,Mountain,Intra-regional,New Mexico,San Juan,Arizona,Apache,87.0,,WECC,WECC
+2025,Sendero Carlsbad Gateway,Mountain,South Central,New Mexico,Eddy,Texas,Culberson,400.0,,SPP,WECC
+2025,Transcolorado Gas Trans Co,Mountain,Intra-regional,New Mexico,San Juan,Colorado,La Plata,250.0,,WECC,WECC
+2025,Transwestern Pipeline Co,Mountain,Intra-regional,New Mexico,Mckinlely,Arizona,Apache,1226.0,,WECC,WECC
+2025,Transwestern Pipeline Co,Mountain,Intra-regional,New Mexico,San Juan,Colorado,La Plata,0.0,,WECC,WECC
+2025,Transwestern Pipeline Co,Mountain,South Central,New Mexico,Curry,Texas,Parmer,795.0,,SPP,SPP
+2025,Algonquin Gas Trans Co,Northeast,Intra-regional,New York,Putnam,Connecticut,Fairfield,1830.0,,NewYork,NewEngland
+2025,Algonquin Gas Trans Co,Northeast,Intra-regional,New York,Rockland,New Jersey,Bergen,275.0,,NewYork,PJM
+2025,Central New York Oil and Gas Company,Northeast,Intra-regional,New York,Tioga,Pennsylvania,Bradford,812.0,,NewYork,PJM
+2025,Dominion Transmission Co,Northeast,Intra-regional,New York,Allegany,Pennsylvania,Potter,150.0,,NewYork,PJM
+2025,Empire Pipeline Inc,Northeast,Canada,New York,Erie,Ontario,Ontario,650.0,,NewYork,Canada
+2025,Iroquois Pipeline Co,Northeast,Intra-regional,New York,Dutchess,Connecticut,Litchfield,866.0,,NewYork,NewEngland
+2025,National Fuel Gas Supply Co,Northeast,Intra-regional,New York,Allegany,Pennsylvania,Potter,368.0,,NewYork,PJM
+2025,National Fuel Gas Supply Co,Northeast,Intra-regional,New York,Steuben,Pennsylvania,Potter,116.0,,NewYork,PJM
+2025,Norse Pipeline Co,Northeast,Intra-regional,New York,Chautauqua,Pennsylvania,Warren,2.0,,NewYork,PJM
+2025,Penn York Energy Corp,Northeast,Intra-regional,New York,Allegany,Pennsylvania,Potter,60.0,,NewYork,PJM
+2025,Tennessee Gas Pipeline Co,Northeast,Intra-regional,New York,Westchester,Connecticut,Fairfield,222.0,,NewYork,NewEngland
+2025,Tennessee Gas Pipeline Co,Northeast,Intra-regional,New York,Columbia,Massachusetts,Berkshire,1169.0,,NewYork,NewEngland
+2025,Tennessee Gas Pipeline Co,Northeast,Canada,New York,Niagara,Ontario,Ontario,700.0,,NewYork,Canada
+2025,Tennessee Gas Pipeline Co,Northeast,Intra-regional,New York,Tioga,Pennsylvania,Bradford,0.0,,NewYork,PJM
+2025,Transcontinental Gas P L Co,Southeast,Intra-regional,North Carolina,Cleveland,South Carolina,Cherokee,1996.0,,SERC,SERC
+2025,Transcontinental Gas P L Co,Southeast,Northeast,North Carolina,Rockingham,Virginia,Pittsylvania,3754.0,,SERC,PJM
+2025,Alliance Pipeline Co,Mountain,Midwest,North Dakota,Roberts,Minnesota,Traverse,1875.0,,SPP,MISO
+2025,Northern Border Pipeline Co,Mountain,Intra-regional,North Dakota,Mcintosh,South Dakota,Mcpherson,2375.0,,SPP,SPP
+2025,South Saskatchewan Access Pipeline,Mountain,Canada,North Dakota,Burke,Saskatchewan,Estevan,30.0,,SPP,Canada
+2025,WBI Energy Transmission,Mountain,Intra-regional,North Dakota,Bowman,Montana,Fallon,268.0,,SPP,WECC
+2025,WBI Energy Transmission,Mountain,Intra-regional,North Dakota,Bowman,South Dakota,Harding,54.0,,SPP,SPP
+2025,WBI Energy Transmission,Mountain,Intra-regional,North Dakota,Dunn,Montana,Fallon,94.0,,SPP,WECC
+2025,ANR Pipeline Co,Northeast,Midwest,Ohio,Williams,Indiana,Steuben,617.0,,PJM,PJM
+2025,ANR Pipeline Co,Northeast,Midwest,Ohio,Fulton,Michigan,Lawnee,932.0,,PJM,MISO
+2025,Columbia Gas Trans Corp,Northeast,Intra-regional,Ohio,Columbiana,Pennsylvania,Beaver,7.0,,PJM,PJM
+2025,Columbia Gas Trans Corp,Northeast,Intra-regional,Ohio,Gallia,West Virginia,Mason,15.0,,PJM,PJM
+2025,Columbia Gas Trans Corp,Northeast,Intra-regional,Ohio,Lawrence,West Virginia,Wayne,1500.0,,PJM,PJM
+2025,Dominion Transmission Co,Northeast,Intra-regional,Ohio,Columbiana,Pennsylvania,Beaver,560.0,,PJM,PJM
+2025,KO Transmission Co,Northeast,Midwest,Ohio,Hamilton,Kentucky,Campbell,219.0,,PJM,PJM
+2025,NEXUS Pipeline,Northeast,Midwest,Ohio,Fulton,Michigan,Lenawee,1500.0,,PJM,MISO
+2025,Panhandle Eastern P L Co,Northeast,Midwest,Ohio,Darke,Indiana,Randolph,1100.0,,PJM,MISO
+2025,Panhandle Eastern P L Co,Northeast,Midwest,Ohio,Preble,Indiana,Wayne,150.0,,PJM,MISO
+2025,Panhandle Eastern P L Co,Northeast,Midwest,Ohio,Fulton,Michigan,Lenawee,960.0,,PJM,MISO
+2025,Rockies Express Pipeline,Northeast,Midwest,Ohio,Butler,Indiana,Franklin,2000.0,,PJM,MISO
+2025,Rover Pipeline,Northeast,Midwest,Ohio,Fulton,Michigan,Lenawee,1620.0,,PJM,MISO
+2025,Tennessee Gas Pipeline Co,Northeast,Midwest,Ohio,Scioto,Kentucky,Greenup,1777.0,,PJM,PJM
+2025,Tennessee Gas Pipeline Co,Northeast,Intra-regional,Ohio,Mahoning,Pennsylvania,Lawrence,1575.0,,PJM,PJM
+2025,Texas Eastern Trans Corp,Northeast,Midwest,Ohio,Darke,Indiana,Randolph,716.0,,PJM,MISO
+2025,Texas Eastern Trans Corp,Northeast,Midwest,Ohio,Scioto,Kentucky,Greenup,2247.0,,PJM,PJM
+2025,Texas Eastern Trans Corp,Northeast,Intra-regional,Ohio,Monroe,West Virginia,Marshall,3340.0,,PJM,PJM
+2025,Texas Gas Transmission Co,Northeast,Midwest,Ohio,Hamilton,Indiana,Dearborn,1042.0,,PJM,MISO
+2025,ANR Pipeline Co,South Central,Intra-regional,Oklahoma,Beaver,Kansas,Meade,853.0,,SPP,SPP
+2025,ANR Pipeline Co,South Central,Intra-regional,Oklahoma,Beckham,Texas,Wheeler,180.0,,SPP,SPP
+2025,Arkansas Oklahoma Gas Corp,South Central,Intra-regional,Oklahoma,Sequoyah,Arkansas,Sebastian,18.0,,SPP,SPP
+2025,Colorado Interstate Gas,South Central,Mountain,Oklahoma,Cimarron,Colorado,Baca,200.0,,SPP,WECC
+2025,Colorado Interstate Gas,South Central,Intra-regional,Oklahoma,Cimarron,Texas,Sherman,284.0,,SPP,SPP
+2025,El Paso Nat Gas Co,South Central,Intra-regional,Oklahoma,Beckham,Texas,Wheeler,250.0,,SPP,SPP
+2025,"Enable Gas Transmission, LLC",South Central,Intra-regional,Oklahoma,Le Flore,Arkansas,Sebastian,1786.0,,SPP,SPP
+2025,"Enable Gas Transmission, LLC",South Central,Intra-regional,Oklahoma,Kay,Kansas,Sumner,40.0,,SPP,SPP
+2025,"Enable Gas Transmission, LLC",South Central,Intra-regional,Oklahoma,Roger Mills,Texas,Hemphill,512.0,,SPP,SPP
+2025,Gulf Crossing Pipeline,South Central,Intra-regional,Oklahoma,Bryan,Texas,Lamar,1726.0,,SPP,ERCOT
+2025,"KPC Pipeline, LLC",South Central,Intra-regional,Oklahoma,Osage,Kansas,Cowley,50.0,,SPP,SPP
+2025,Midcontinent Express Pipeline LLC,South Central,Intra-regional,Oklahoma,Bryan,Texas,Fannin,1833.0,,SPP,ERCOT
+2025,Nat Gas P L Co Of America,South Central,Intra-regional,Oklahoma,Beaver,Kansas,Meade,1202.0,,SPP,SPP
+2025,Nat Gas P L Co Of America,South Central,Intra-regional,Oklahoma,Beaver,Texas,Ochiltree,1390.0,,SPP,SPP
+2025,Northern Natural Gas Co,South Central,Intra-regional,Oklahoma,Harper,Kansas,Clark,1566.0,,SPP,SPP
+2025,Northern Natural Gas Co,South Central,Intra-regional,Oklahoma,Roger Mills,Texas,Hemphill,913.0,,SPP,SPP
+2025,Ozark Gas Tranmission LLC,South Central,Intra-regional,Oklahoma,Le Flore,Arkansas,Sebastian,355.0,,SPP,SPP
+2025,Panhandle Eastern P L Co,South Central,Intra-regional,Oklahoma,Texas,Kansas,Morton,1395.0,,SPP,SPP
+2025,Southern Star Central Gas PL Co,South Central,Intra-regional,Oklahoma,Osage,Kansas,Cowley,401.0,,SPP,SPP
+2025,Southern Star Central Gas PL Co,South Central,Intra-regional,Oklahoma,Washington,Kansas,Montgomery,496.0,,SPP,SPP
+2025,Southern Star Central Gas PL Co,South Central,Midwest,Oklahoma,Ottawa,Missouri,Newton,80.0,,SPP,SPP
+2025,Tallgrass Interstate Gas Transmission,South Central,Intra-regional,Oklahoma,Roger Mills,Texas,Hemphill,35.0,,SPP,SPP
+2025,Transok Inc,South Central,Intra-regional,Oklahoma,Roger Mills,Texas,Wheeler,50.0,,SPP,SPP
+2025,Transwestern Pipeline Co,South Central,Intra-regional,Oklahoma,Harper,Kansas,Clark,5.0,,SPP,SPP
+2025,Transwestern Pipeline Co,South Central,Intra-regional,Oklahoma,Texas,Texas,Sherman,115.0,,SPP,SPP
+2025,Bluewater Pipeline Co,Canada,Midwest,Ontario,Sarnia,Michigan,St. Clair,250.0,,Canada,MISO
+2025,Centra Minnesota Pipeline Inc,Canada,Midwest,Ontario,Ontario,Minnesota,Koochiching,25.0,,Canada,MISO
+2025,Empire Pipeline Inc,Canada,Northeast,Ontario,Ontario,New York,Erie,750.0,,Canada,NewYork
+2025,Great Lakes Gas Trans Ltd,Canada,Midwest,Ontario,Ontario,Michigan,St. Clair,1482.0,,Canada,MISO
+2025,Iroquois Pipeline Co,Canada,Northeast,Ontario,Ontario,New York,St Lawrence,1150.0,,Canada,NewYork
+2025,North Country P L Co,Canada,Northeast,Ontario,Ontario,New York,Franklin,56.0,,Canada,NewYork
+2025,St Lawrence Gas,Canada,Northeast,Ontario,Ontario,New York,St Lawrence,62.0,,Canada,NewYork
+2025,Tennessee Gas Pipeline Co,Canada,Northeast,Ontario,Ontario,New York,Niagara,1297.0,,Canada,NewYork
+2025,Vector Pipeline Co,Canada,Midwest,Ontario,Lambton,Michigan,St. Clair,1350.0,,Canada,MISO
+2025,Gas Transmission Northwest,Pacific,Intra-regional,Oregon,Klamath,California,Modoc,2071.0,,WECC,California
+2025,Northwest Pipeline Corp,Pacific,Mountain,Oregon,Malheur,Idaho,Payette,561.0,Stanfield South Project (FERC docket CP26-18),WECC,WECC
+2025,Northwest Pipeline Corp,Pacific,Intra-regional,Oregon,Columbia,Washington,Cowlitz,883.0,,WECC,WECC
+2025,Tuscarora Pipeline Co,Pacific,Intra-regional,Oregon,Klamath,California,Modoc,199.0,,WECC,California
+2025,Central New York Oil and Gas Company,Northeast,Intra-regional,Pennsylvania,Bradford,New York,Tioga,812.0,,PJM,NewYork
+2025,Columbia Gas Trans Corp,Northeast,Intra-regional,Pennsylvania,Delaware,Delaware,New Castle,174.0,,PJM,PJM
+2025,Columbia Gas Trans Corp,Northeast,Intra-regional,Pennsylvania,Fulton,Maryland,Washington,104.0,Eastern Panhandle Expansion Project (FERC docket CP17-80),PJM,PJM
+2025,Columbia Gas Trans Corp,Northeast,Intra-regional,Pennsylvania,Northampton,New Jersey,Warren,423.0,,PJM,PJM
+2025,Columbia Gas Trans Corp,Northeast,Intra-regional,Pennsylvania,Pike,New York,Orange,281.0,,PJM,NewYork
+2025,Columbia Gas Trans Corp,Northeast,Intra-regional,Pennsylvania,Fayette,West Virginia,Monongalia,1285.0,,PJM,PJM
+2025,Columbia Gas Trans Corp,Northeast,Intra-regional,Pennsylvania,Greene,West Virginia,Marshall,1500.0,,PJM,PJM
+2025,Columbia Gas Trans Corp,Northeast,Intra-regional,Pennsylvania,Washington,West Virginia,Brooke,1095.0,,PJM,PJM
+2025,Dominion Transmission Co,Northeast,Intra-regional,Pennsylvania,Franklin,Maryland,Washington,924.0,,PJM,PJM
+2025,Dominion Transmission Co,Northeast,Intra-regional,Pennsylvania,Potter,New York,Allegany,125.0,,PJM,NewYork
+2025,Dominion Transmission Co,Northeast,Intra-regional,Pennsylvania,Tioga,New York,Steuben,998.0,,PJM,NewYork
+2025,Dominion Transmission Co,Northeast,Intra-regional,Pennsylvania,Crawford,Ohio,Ashtabula,595.0,,PJM,PJM
+2025,Dominion Transmission Co,Northeast,Intra-regional,Pennsylvania,Buchanan,West Virginia,Mcdowell,245.0,,PJM,PJM
+2025,Dominion Transmission Co,Northeast,Intra-regional,Pennsylvania,Beaver,Ohio,Columbiana,150.0,,PJM,PJM
+2025,Eastern Shore Nat Gas Co,Northeast,Intra-regional,Pennsylvania,Chester,Delaware,New Castle,80.0,,PJM,PJM
+2025,Eastern Shore Nat Gas Co,Northeast,Intra-regional,Pennsylvania,Chester,Maryland,Cecil,206.0,,PJM,PJM
+2025,Empire Pipeline Inc,Northeast,Intra-regional,Pennsylvania,Tioga,New York,Steuben,650.0,,PJM,NewYork
+2025,Equitrans Inc,Northeast,Intra-regional,Pennsylvania,Greene,West Virginia,Monongalia,670.0,,PJM,PJM
+2025,National Fuel Gas Supply Co,Northeast,Intra-regional,Pennsylvania,McKean,New York,Cattaraugus,50.0,,PJM,NewYork
+2025,National Fuel Gas Supply Co,Northeast,Intra-regional,Pennsylvania,Potter,New York,Allegany,621.0,,PJM,NewYork
+2025,National Fuel Gas Supply Co,Northeast,Intra-regional,Pennsylvania,Potter,New York,Steuben,116.0,,PJM,NewYork
+2025,Norse Pipeline Co,Northeast,Intra-regional,Pennsylvania,Warren,New York,Chautauqua,10.0,,PJM,NewYork
+2025,Penn Jersey Pipeline Co,Northeast,Intra-regional,Pennsylvania,Northhampton,New Jersey,Warren,10.0,,PJM,PJM
+2025,Penn York Energy Corp,Northeast,Intra-regional,Pennsylvania,Potter,New York,Allegany,95.0,,PJM,NewYork
+2025,Risberg Line,Northeast,Intra-regional,Pennsylvania,Crawford,Ohio,Ashtabula,55.0,,PJM,PJM
+2025,Rover Pipeline,Northeast,Intra-regional,Pennsylvania,Washington,West Virginia,Hancock,400.0,,PJM,PJM
+2025,Tennessee Gas Pipeline Co,Northeast,Intra-regional,Pennsylvania,Pike,New Jersey,Sussex,1586.0,,PJM,PJM
+2025,Tennessee Gas Pipeline Co,Northeast,Intra-regional,Pennsylvania,Bradford,New York,Tioga,0.0,,PJM,NewYork
+2025,Tennessee Gas Pipeline Co,Northeast,Intra-regional,Pennsylvania,Erie,New York,Chautauqua,575.0,,PJM,NewYork
+2025,Tennessee Gas Pipeline Co,Northeast,Intra-regional,Pennsylvania,Potter,New York,Steuben,655.0,,PJM,NewYork
+2025,Tennessee Gas Pipeline Co,Northeast,Intra-regional,Pennsylvania,Lawrence,Ohio,Mahoning,1575.0,,PJM,PJM
+2025,Tennessee Gas Pipeline Co,Northeast,Intra-regional,Pennsylvania,Susquehanna,New Jersey,Passaic,115.0,,PJM,PJM
+2025,Texas Eastern Trans Corp,Northeast,Intra-regional,Pennsylvania,Delaware,Delaware,New Castle,295.0,,PJM,PJM
+2025,Texas Eastern Trans Corp,Northeast,Intra-regional,Pennsylvania,Fayette,Maryland,Garrett,300.0,,PJM,PJM
+2025,Texas Eastern Trans Corp,Northeast,Intra-regional,Pennsylvania,Delaware,New Jersey,Gloucester,3850.0,,PJM,PJM
+2025,Texas Eastern Trans Corp,Northeast,Intra-regional,Pennsylvania,Greene,West Virginia,Marshall,2921.0,,PJM,PJM
+2025,Transcontinental Gas P L Co,Northeast,Intra-regional,Pennsylvania,Chester,Delaware,New Castle,180.0,,PJM,PJM
+2025,Transcontinental Gas P L Co,Northeast,Intra-regional,Pennsylvania,Lancaster,Maryland,Cecil,192.0,,PJM,PJM
+2025,Transcontinental Gas P L Co,Northeast,Intra-regional,Pennsylvania,York,Maryland,Harford,2551.0,,PJM,PJM
+2025,Transcontinental Gas P L Co,Northeast,Intra-regional,Pennsylvania,Bucks,New Jersey,Mercer,2017.0,,PJM,PJM
+2025,Transcontinental Gas P L Co,Northeast,Intra-regional,Pennsylvania,Northhampton,New Jersey,Warren,2795.0,,PJM,PJM
+2025,Transcontinental Gas P L Co,Northeast,Intra-regional,Pennsylvania,Luzerne,New Jersey,Middlesex,829.0,,PJM,PJM
+2025,Granite State Gas Trans Inc,Canada,Northeast,Quebec,Quebec,Vermont,Orleans,0.0,,Canada,NewEngland
+2025,Portland Gas Trans Co,Canada,Northeast,Quebec,Quebec,New Hampshire,Coos,555.0,,Canada,NewEngland
+2025,Vermont Gas Sys Inc,Canada,Northeast,Quebec,Quebec,Vermont,Franklin,62.0,,Canada,NewEngland
+2025,Algonquin Gas Trans Co,Northeast,Intra-regional,Rhode Island,Providence,Connecticut,Windham,275.0,,NewEngland,NewEngland
+2025,Algonquin Gas Trans Co,Northeast,Intra-regional,Rhode Island,Providence,Massachusetts,Worcester,1180.0,,NewEngland,NewEngland
+2025,Alliance Pipeline Co,Canada,Mountain,Saskatchewan,Saskatchewan,North Dakota,Renville,1875.0,,Canada,SPP
+2025,EnCana Pipeline Ltd,Canada,Mountain,Saskatchewan,Saskatchewan,Montana,Phillips,10.0,,Canada,WECC
+2025,Interenergy Sheffield Pipeline,Canada,Mountain,Saskatchewan,Saskatchewan,North Dakota,Burke,3.0,,Canada,SPP
+2025,Northern Border Pipeline Co,Canada,Mountain,Saskatchewan,Saskatchewan,Montana,Phillips,2373.0,,Canada,WECC
+2025,WBI Energy Transmission,Canada,Mountain,Saskatchewan,Saskatchewan,North Dakota,Burke,46.0,,Canada,SPP
+2025,Dominion Carolina Gas Transmission,Southeast,Intra-regional,South Carolina,Jasper,Georgia,Chatham,190.0,,SERC,SERC
+2025,Transcontinental Gas P L Co,Southeast,Intra-regional,South Carolina,Anderson,Georgia,Hart,1996.0,,SERC,SERC
+2025,Transcontinental Gas P L Co,Southeast,Intra-regional,South Carolina,Cherokee,North Carolina,Cleveland,4302.0,,SERC,SERC
+2025,Northern Border Pipeline Co,Mountain,Midwest,South Dakota,Deuel,Minnesota,Lincoln,2355.0,,SPP,MISO
+2025,Northern Natural Gas Co,Mountain,Midwest,South Dakota,Lincoln,Iowa,Lyon,20.0,,SPP,MISO
+2025,Northern Natural Gas Co,Mountain,Midwest,South Dakota,Moody,Minnesota,Pipestone,20.0,,SPP,MISO
+2025,Northern Natural Gas Co,Mountain,Intra-regional,South Dakota,Union,Nebraska,Dakota,125.0,,SPP,SPP
+2025,WBI Energy Transmission,Mountain,Intra-regional,South Dakota,Harding,North Dakota,Bowman,53.0,,SPP,SPP
+2025,WBI Energy Transmission,Mountain,Intra-regional,South Dakota,Butte,Wyoming,Crook,85.0,,SPP,WECC
+2025,ANR Pipeline Co,Midwest,Intra-regional,Tennessee,Henry,Kentucky,Calloway,1398.0,,SERC,SERC
+2025,ANR Pipeline Co,Midwest,South Central,Tennessee,Fayette,Mississippi,Marshall,1540.0,,SERC,SERC
+2025,B-R Pipeline Co,Midwest,South Central,Tennessee,Marion,Alabama,Jackson,21.0,,SERC,SERC
+2025,Columbia Gulf Trans Co,Midwest,Intra-regional,Tennessee,Monroe,Kentucky,Macon,2317.0,,SERC,SERC
+2025,Columbia Gulf Trans Co,Midwest,South Central,Tennessee,Monroe,Mississippi,Corinth,2591.0,,SERC,SERC
+2025,East Tennessee Nat Gas Co,Midwest,Southeast,Tennessee,Hamilton,Georgia,Catoosa,222.0,,SERC,SERC
+2025,East Tennessee Nat Gas Co,Midwest,Northeast,Tennessee,Washington,Virginia,Sullivan,70.0,,SERC,SERC
+2025,"Enable Gas Transmission, LLC",Midwest,South Central,Tennessee,Shelby,Arkansas,Crittenden,25.0,,SERC,MISO
+2025,Marion Natural Gas System Co,Midwest,South Central,Tennessee,Marion,Alabama,Jackson,10.0,,SERC,SERC
+2025,Midwestern Gas Trans Co,Midwest,Intra-regional,Tennessee,Sumner,Kentucky,Simpson,665.0,,SERC,SERC
+2025,Tennessee Gas Pipeline Co,Midwest,South Central,Tennessee,Wayne,Alabama,Lauderdale,1753.0,,SERC,SERC
+2025,Tennessee Gas Pipeline Co,Midwest,Intra-regional,Tennessee,Sumner,Kentucky,Simpson,2771.0,,SERC,SERC
+2025,Tennessee Gas Pipeline Co,Midwest,South Central,Tennessee,Mcnairy,Mississippi,Alcorn,1500.0,,SERC,SERC
+2025,Texas Eastern Trans Corp,Midwest,South Central,Tennessee,Lawrence,Alabama,Lauderdale,1820.0,,SERC,SERC
+2025,Texas Eastern Trans Corp,Midwest,Intra-regional,Tennessee,Macon,Kentucky,Monroe,2200.0,,SERC,SERC
+2025,Texas Gas Transmission Co,Midwest,Intra-regional,Tennessee,Weakley,Kentucky,Graves,1675.0,,SERC,SERC
+2025,Texas Gas Transmission Co,Midwest,South Central,Tennessee,Shelby,Mississippi,De Soto,1042.0,,SERC,SERC
+2025,Trunkline Gas Co,Midwest,Intra-regional,Tennessee,Obion,Kentucky,Fulton,1570.0,,SERC,SERC
+2025,Trunkline Gas Co,Midwest,South Central,Tennessee,Shelby,Mississippi,Marshall,750.0,,SERC,SERC
+2025,ANR Pipeline Co,South Central,Intra-regional,Texas,Wheeler,Oklahoma,Roger Mills,580.0,,SPP,SPP
+2025,Colorado Interstate Gas,South Central,Intra-regional,Texas,Sherman,Oklahoma,Cimarron,200.0,,SPP,SPP
+2025,Comanche Trail Pipeline,South Central,Mexico,Texas,El Paso,Mexico,Mexico,1100.0,,WECC,Mexico
+2025,El Paso Nat Gas Co,South Central,Mountain,Texas,El Paso,New Mexico,Dona Ana,2822.0,,WECC,WECC
+2025,El Paso Nat Gas Co,South Central,Mexico,Texas,El Paso,Mexico,Chihuahua,910.0,,WECC,Mexico
+2025,El Paso Nat Gas Co,South Central,Mountain,Texas,Yoakum,New Mexico,Lea,700.0,,SPP,SPP
+2025,El Paso Nat Gas Co,South Central,Intra-regional,Texas,Wheeler,Oklahoma,Roger Mills,152.0,,SPP,SPP
+2025,"Enable Gas Transmission, LLC",South Central,Intra-regional,Texas,Panola,Louisiana,Caddo,2087.0,,SPP,SPP
+2025,"Enable Gas Transmission, LLC",South Central,Intra-regional,Texas,Wheeler,Oklahoma,Beckham,100.0,,SPP,SPP
+2025,"Enable Mississippi River Transmission, LLC",South Central,Intra-regional,Texas,Harrison,Louisiana,Caddo,85.0,,SPP,SPP
+2025,Encinal Gathering Ltd.,South Central,Mexico,Texas,Webb,Mexico,Tamaulipas,60.0,,ERCOT,Mexico
+2025,"ETC Tiger Pipeline, LLC",South Central,Intra-regional,Texas,Panola,Louisiana,Caddo,1000.0,,SPP,SPP
+2025,Florida Gas Trans Co,South Central,Intra-regional,Texas,Orange,Louisiana,Calcasieu,320.0,,ERCOT,MISO
+2025,Golden Pass Pipeline,South Central,Intra-regional,Texas,Orange,Louisiana,Calcasieu,2500.0,,ERCOT,MISO
+2025,Gulf Crossing Pipeline,South Central,Intra-regional,Texas,Cass,Louisiana,Caddo,1726.0,,SPP,SPP
+2025,Gulf South Pipeline Co,South Central,Intra-regional,Texas,Panola,Louisiana,De Soto,3203.0,,SPP,SPP
+2025,Gulf States Transmission Corp,South Central,Intra-regional,Texas,Harrison,Louisiana,Caddo,155.0,,SPP,SPP
+2025,Houston Pipeline Co,South Central,Mexico,Texas,Hidalgo,Mexico,Reynosa,140.0,,ERCOT,Mexico
+2025,Impulsora Pipeline,South Central,Mexico,Texas,Webb,Mexico,Mexico,600.0,,ERCOT,Mexico
+2025,Kinder Morgan Border Pipeline LP,South Central,Mexico,Texas,Hidalgo,Mexico,Tamaulipas,450.0,,ERCOT,Mexico
+2025,Kinder-Morgan Texas Pipeline Co,South Central,Mexico,Texas,Starr,Mexico,Tamaulipas,640.0,,ERCOT,Mexico
+2025,Midcontinent Express Pipeline LLC,South Central,Intra-regional,Texas,Cass,Louisiana,Caddo,1833.0,,SPP,SPP
+2025,Nat Gas P L Co Of America,South Central,Intra-regional,Texas,Cass,Arkansas,Miller,1805.0,,SPP,SPP
+2025,Nat Gas P L Co Of America,South Central,Intra-regional,Texas,Jefferson,Louisiana,Cameron,996.0,,ERCOT,MISO
+2025,Nat Gas P L Co Of America,South Central,Mountain,Texas,Cochran,New Mexico,Roosevelt,550.0,,SPP,SPP
+2025,Nat Gas P L Co Of America,South Central,Intra-regional,Texas,Wheeler,Oklahoma,Beckham,1433.0,,SPP,SPP
+2025,NET Mexico Pipeline,South Central,Mexico,Texas,Nueces,Mexico,Rio Grande,2100.0,,ERCOT,Mexico
+2025,Northern Natural Gas Co,South Central,Intra-regional,Texas,Hemphill,Oklahoma,Roger Mills,1230.0,,SPP,SPP
+2025,ONEOK WesTex Transmission,South Central,Mexico,Texas,El Paso,Mexico,Chihuahua,90.0,,WECC,Mexico
+2025,Panhandle Eastern P L Co,South Central,Intra-regional,Texas,Hansford,Oklahoma,Texas,445.0,,SPP,SPP
+2025,Roadrunner Gas Transmission LLC,South Central,Mexico,Texas,El Paso,Mexico,Chihuahua,570.0,,WECC,Mexico
+2025,Sabine LLC,South Central,Intra-regional,Texas,Orange,Louisiana,Cameron,180.0,,ERCOT,MISO
+2025,Southern Natural Gas Co,South Central,Intra-regional,Texas,Shelby,Louisiana,De Soto,110.0,,ERCOT,SPP
+2025,Southern Star Central Gas PL Co,South Central,Intra-regional,Texas,Hemphill,Oklahoma,Ellis,145.0,,SPP,SPP
+2025,Tallgrass Interstate Gas Transmission,South Central,Intra-regional,Texas,Hemphill,Oklahoma,Roger Mills,135.0,,SPP,SPP
+2025,Tennessee Gas Pipeline Co,South Central,Intra-regional,Texas,Sabine,Louisiana,Sabine,1407.0,,ERCOT,MISO
+2025,Tennessee Gas Pipeline Co,South Central,Mexico,Texas,Hidalgo,Mexico,Tamaulipas,468.0,,ERCOT,Mexico
+2025,Tennessee Gas Pipeline Co,South Central,Mexico,Texas,Webb,Mexico,Tamaulipas,420.0,,ERCOT,Mexico
+2025,Texas Eastern Trans Corp,South Central,Intra-regional,Texas,Cass,Arkansas,Miller,379.0,,SPP,SPP
+2025,Texas Eastern Trans Corp,South Central,Intra-regional,Texas,Orange,Louisiana,Calcasieu,746.0,,ERCOT,MISO
+2025,Texas Eastern Trans Corp,South Central,Intra-regional,Texas,Shelby,Louisiana,De Soto,199.0,,ERCOT,SPP
+2025,Texas Eastern Trans Corp,South Central,Mexico,Texas,Hidalgo,Mexico,Tamaulipas,431.0,,ERCOT,Mexico
+2025,Texas Gas Transmission Co,South Central,Intra-regional,Texas,Panola,Louisiana,Caddo,260.0,,SPP,SPP
+2025,Tidelands Oil & Gas Co,South Central,Mexico,Texas,Maverick,Mexico,Coahuila,15.0,,ERCOT,Mexico
+2025,Transcontinental Gas P L Co,South Central,Intra-regional,Texas,Orange,Louisiana,Calcasieu,1174.0,Texas to Louisiana Energy Pathway (FERC docket CP22-495),ERCOT,MISO
+2025,Transok Inc,South Central,Intra-regional,Texas,Hemphill,Oklahoma,Roger Mills,30.0,,SPP,SPP
+2025,Trans-Pecos Pipeline,South Central,Mexico,Texas,Presidio,Mexico,Mexico,1400.0,,ERCOT,Mexico
+2025,Transwestern Pipeline Co,South Central,Mountain,Texas,Loving,New Mexico,Lea,950.0,,ERCOT,SPP
+2025,Trunkline Gas Co,South Central,Intra-regional,Texas,Newton,Louisiana,Beauregard,960.0,,ERCOT,MISO
+2025,Valley Crossing Pipeline,South Central,Mexico,Texas,Cameron,Mexico,Veracruz,2600.0,,ERCOT,Mexico
+2025,West Texas Gas Co,South Central,Mexico,Texas,Maverick,Mexico,Coahuila,38.0,,ERCOT,Mexico
+2025,West Texas Gas Co,South Central,Mexico,Texas,Val Verde,Mexico,Coahuila,25.0,,ERCOT,Mexico
+2025,Western Gas Interstate Co,South Central,Intra-regional,Texas,Sherman,Oklahoma,Texas,91.0,,SPP,SPP
+2025,Colorado Interstate Gas,Mountain,Intra-regional,Utah,Uintah,Colorado,Rio Blanco,165.0,,WECC,WECC
+2025,Kern River Gas Trans Co,Mountain,Intra-regional,Utah,Washington,Nevada,Lincoln,2445.0,,WECC,WECC
+2025,Northwest Pipeline Corp,Mountain,Intra-regional,Utah,San Juan,Colorado,San Miguel,337.0,,WECC,WECC
+2025,Northwest Pipeline Corp,Mountain,Intra-regional,Utah,Rich,Idaho,Bear Lake,680.0,,WECC,WECC
+2025,Northwest Pipeline Corp,Mountain,Intra-regional,Utah,Rich,Wyoming,Lincoln,510.0,,WECC,WECC
+2025,Questar P L Co,Mountain,Intra-regional,Utah,Uintah,Colorado,Rio Blanco,221.0,,WECC,WECC
+2025,Questar P L Co,Mountain,Intra-regional,Utah,Daggett,Wyoming,Sweetwater,354.0,,WECC,WECC
+2025,Ruby Pipeline LLC,Mountain,Intra-regional,Utah,Box Elder,Nevada,Elko,1500.0,,WECC,WECC
+2025,Wyoming Interstate Co,Mountain,Intra-regional,Utah,Daggett,Wyoming,Sweetwater,586.0,,WECC,WECC
+2025,Columbia Gas Trans Corp,Northeast,Intra-regional,Virginia,Fairfax,Maryland,Montgomery,1680.0,,PJM,PJM
+2025,Columbia Gas Trans Corp,Northeast,Southeast,Virginia,Greenville,North Carolina,Northampton,37.0,,PJM,PJM
+2025,Dominion Cove Point LNG LP,Northeast,Intra-regional,Virginia,Fairfax,Maryland,Charles,1257.0,,PJM,PJM
+2025,Dominion Transmission Co,Northeast,Intra-regional,Virginia,Loudoun,Maryland,Montgomery,700.0,,PJM,PJM
+2025,East Tennessee Nat Gas Co,Northeast,Southeast,Virginia,Henry,North Carolina,Rockingham,570.0,,PJM,SERC
+2025,East Tennessee Nat Gas Co,Northeast,Midwest,Virginia,Sullivan,Tennessee,Washington,220.0,,SERC,SERC
+2025,Transcontinental Gas P L Co,Northeast,Intra-regional,Virginia,Fairfax,Maryland,Montgomery,2265.0,,PJM,PJM
+2025,Transcontinental Gas P L Co,Northeast,Southeast,Virginia,Mecklenburg,North Carolina,Warren,690.0,,PJM,PJM
+2025,Transcontinental Gas P L Co,Northeast,Southeast,Virginia,Pittsylvania,North Carolina,Rockingham,2119.0,,PJM,SERC
+2025,Washington Gas Light Co,Northeast,Intra-regional,Virginia,Arlington,District of Columbia,District Columbia,180.0,,PJM,PJM
+2025,Gas Transmission Northwest,Pacific,Intra-regional,Washington,Walla Walla,Oregon,Umatilla,2281.0,,WECC,WECC
+2025,Kelso-Beaver Pipeline Co,Pacific,Intra-regional,Washington,Cowlitz,Oregon,Columbia,200.0,,WECC,WECC
+2025,Northwest Pipeline Corp,Pacific,Canada,Washington,Whatcom,British Columbia,British Columbia,51.0,,WECC,Canada
+2025,Northwest Pipeline Corp,Pacific,Mountain,Washington,Whitman,Idaho,Kootena,59.0,,WECC,WECC
+2025,Northwest Pipeline Corp,Pacific,Intra-regional,Washington,Cowlitz,Oregon,Columbia,1289.0,,WECC,WECC
+2025,Bluefield Gas Co,Northeast,Intra-regional,West Virginia,Mercer,Virginia,Tazwell,12.0,,PJM,PJM
+2025,Columbia Gas Trans Corp,Northeast,Midwest,West Virginia,Wayne,Kentucky,Boyd,3050.0,,PJM,PJM
+2025,Columbia Gas Trans Corp,Northeast,Midwest,West Virginia,Mingo,Kentucky,Martin,76.0,,PJM,PJM
+2025,Columbia Gas Trans Corp,Northeast,Intra-regional,West Virginia,Mineral,Maryland,Garret,4.0,,PJM,PJM
+2025,Columbia Gas Trans Corp,Northeast,Intra-regional,West Virginia,Marshall,Ohio,Monroe,2230.0,,PJM,PJM
+2025,Columbia Gas Trans Corp,Northeast,Intra-regional,West Virginia,Mason,Ohio,Gallia,896.0,,PJM,PJM
+2025,Columbia Gas Trans Corp,Northeast,Intra-regional,West Virginia,Monongalia,Pennsylvania,Fayette,1275.0,,PJM,PJM
+2025,Columbia Gas Trans Corp,Northeast,Intra-regional,West Virginia,Hardy,Virginia,Shenandoah,2644.0,,PJM,PJM
+2025,Dominion Transmission Co,Northeast,Intra-regional,West Virginia,Wetzel,Ohio,Monroe,959.0,,PJM,PJM
+2025,Dominion Transmission Co,Northeast,Intra-regional,West Virginia,Marshall,Pennsylvania,Greene,185.0,,PJM,PJM
+2025,Dominion Transmission Co,Northeast,Intra-regional,West Virginia,Monongalia,Pennsylvania,Greene,1284.0,,PJM,PJM
+2025,Equitrans Inc,Northeast,Intra-regional,West Virginia,Wetzel,Ohio,Monroe,1150.0,,PJM,PJM
+2025,Equitrans Inc,Northeast,Intra-regional,West Virginia,Monongalia,Pennsylvania,Greene,334.0,,PJM,PJM
+2025,Equitrans Inc,Northeast,Intra-regional,West Virginia,Wetzel,Pennsylvania,Greene,600.0,,PJM,PJM
+2025,Gas Transport Inc,Northeast,Intra-regional,West Virginia,Wood,Ohio,Washington,30.0,,PJM,PJM
+2025,Mountain Valley Pipeline,Northeast,Intra-regional,West Virginia,Wetzel,Virginia,Pittsylvania,2000.0,,PJM,PJM
+2025,Rover Pipeline,Northeast,Intra-regional,West Virginia,Hancock,Ohio,Jefferson,400.0,,PJM,PJM
+2025,Rover Pipeline,Northeast,Intra-regional,West Virginia,Marshall,Ohio,Belmont,400.0,,PJM,PJM
+2025,Rover Pipeline,Northeast,Intra-regional,West Virginia,Wetzel,Ohio,Monroe,800.0,,PJM,PJM
+2025,Tennessee Gas Pipeline Co,Northeast,Midwest,West Virginia,Wayne,Kentucky,Boyd,902.0,,PJM,PJM
+2025,Texas Eastern Trans Corp,Northeast,Intra-regional,West Virginia,Marshall,Ohio,Monroe,2920.0,,PJM,PJM
+2025,Texas Eastern Trans Corp,Northeast,Intra-regional,West Virginia,Marshall,Pennsylvania,Greene,3225.0,,PJM,PJM
+2025,ANR Pipeline Co,Midwest,Intra-regional,Wisconsin,Walworth,Illinois,Mc Herny,700.0,,MISO,PJM
+2025,ANR Pipeline Co,Midwest,Intra-regional,Wisconsin,Marinette,Michigan,Menominee,148.0,,MISO,MISO
+2025,Great Lakes Gas Trans Ltd,Midwest,Intra-regional,Wisconsin,Iron,Michigan,Gogebic,2226.0,,MISO,MISO
+2025,Great Lakes Gas Trans Ltd,Midwest,Intra-regional,Wisconsin,Douglas,Minnesota,St Louis,2226.0,,MISO,MISO
+2025,Northern Natural Gas Co,Midwest,Intra-regional,Wisconsin,Iron,Michigan,Gogebic,82.0,,MISO,MISO
+2025,Bison Pipeline LLC,Mountain,Intra-regional,Wyoming,Campbell,Montana,Powder River,477.0,,WECC,WECC
+2025,Colorado Interstate Gas,Mountain,Intra-regional,Wyoming,Laramie,Colorado,Weld,625.0,,WECC,WECC
+2025,Colorado Interstate Gas,Mountain,Intra-regional,Wyoming,Park,Montana,Carbon,60.0,,WECC,WECC
+2025,Kern River Gas Trans Co,Mountain,Intra-regional,Wyoming,Uinta,Utah,Summit,2276.0,,WECC,WECC
+2025,Northwest Pipeline Corp,Mountain,Intra-regional,Wyoming,Lincoln,Utah,Rich,625.0,,WECC,WECC
+2025,Northwestern Energy Co,Mountain,Intra-regional,Wyoming,Park,Montana,Carbon,2.0,,WECC,WECC
+2025,Questar P L Co,Mountain,Intra-regional,Wyoming,Sweetwater,Colorado,Moffat,145.0,,WECC,WECC
+2025,Questar P L Co,Mountain,Intra-regional,Wyoming,Summit,Utah,Uinta,1423.0,,WECC,WECC
+2025,Rockies Express Pipeline,Mountain,Intra-regional,Wyoming,Laramie,Colorado,Weld,1800.0,,WECC,WECC
+2025,Rockies Express Pipeline,Mountain,Intra-regional,Wyoming,Laramie,Nebraska,Kimball,1800.0,,WECC,SPP
+2025,Ruby Pipeline LLC,Mountain,Intra-regional,Wyoming,Uinta,Utah,Rich,1500.0,,WECC,WECC
+2025,Shoshone Pipeline Co,Mountain,Intra-regional,Wyoming,Park,Montana,Carbon,14.0,,WECC,WECC
+2025,Southern Star Central Gas PL Co,Mountain,Intra-regional,Wyoming,Laramie,Colorado,Larimer,208.0,,WECC,WECC
+2025,Tallgrass Interstate Gas Transmission,Mountain,Intra-regional,Wyoming,Goshen,Nebraska,Banner,120.0,,WECC,SPP
+2025,Trailblazer Pipeline Co,Mountain,Intra-regional,Wyoming,Laramie,Nebraska,Kimball,816.0,,WECC,SPP
+2025,WBI Energy Transmission,Mountain,Intra-regional,Wyoming,Park,Montana,Carbon,421.0,,WECC,WECC
+2025,WBI Energy Transmission,Mountain,Intra-regional,Wyoming,Crook,South Dakota,Butte,27.0,,WECC,SPP
+2025,Wyoming Interstate Co,Mountain,Intra-regional,Wyoming,Laramine,Colorado,Weld,2477.0,,WECC,WECC

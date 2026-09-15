@@ -1,0 +1,247 @@
+[
+ [
+  "Canada:AECO/NIT (Suffield AB)",
+  "MISO:Chicago Citygate (Joliet IL)",
+  2014,
+  2518,
+  "Alliance/NB route; Alliance 3850 km actual"
+ ],
+ [
+  "Canada:Empress AB",
+  "Canada:Dawn ON",
+  2277,
+  2846,
+  "TC Mainline Empress-Dawn; reported ~2,400 km"
+ ],
+ [
+  "Canada:Dawn ON",
+  "MISO:Chicago Citygate (Joliet IL)",
+  513,
+  641,
+  "Vector 348 mi = 560 km"
+ ],
+ [
+  "Canada:Dawn ON",
+  "NewYork:Transco Z6 NY (NYC)",
+  718,
+  898,
+  "via Niagara/Iroquois"
+ ],
+ [
+  "Canada:Dawn ON",
+  "NewEngland:Algonquin Citygate (Boston)",
+  909,
+  1136,
+  "via TCPL Eastern Triangle + PNGTS/Iroquois"
+ ],
+ [
+  "Canada:Dawn ON",
+  "PJM:Dominion South (Washington Co PA)",
+  344,
+  430,
+  "Dawn-Niagara-Leidy/TETCO M2"
+ ],
+ [
+  "Canada:AECO/NIT (Suffield AB)",
+  "WECC:Malin OR",
+  1209,
+  1511,
+  "via Kingsgate/GTN ~ NGTL+Foothills+GTN"
+ ],
+ [
+  "Canada:AECO/NIT (Suffield AB)",
+  "SPP:Ventura IA",
+  1551,
+  1939,
+  "Northern Border route Port of Morgan MT to Ventura"
+ ],
+ [
+  "Canada:AECO/NIT (Suffield AB)",
+  "WECC:Opal WY",
+  941,
+  1177,
+  "no direct large line; proxy"
+ ],
+ [
+  "NewYork:Transco Z6 NY (NYC)",
+  "NewEngland:Algonquin Citygate (Boston)",
+  306,
+  383,
+  "Algonquin/TGP"
+ ],
+ [
+  "NewYork:Transco Z6 NY (NYC)",
+  "PJM:Dominion South (Washington Co PA)",
+  531,
+  664,
+  "Transco Leidy/TETCO M2-M3"
+ ],
+ [
+  "PJM:Dominion South (Washington Co PA)",
+  "MISO:Chicago Citygate (Joliet IL)",
+  675,
+  844,
+  "Rover/NEXUS/ANR/REX"
+ ],
+ [
+  "PJM:Dominion South (Washington Co PA)",
+  "SERC:Transco Z4 Station 85 (Choctaw Co AL)",
+  1152,
+  1440,
+  "Transco mainline Z6->Z4 backhaul; MVP/Columbia Gulf"
+ ],
+ [
+  "PJM:Dominion South (Washington Co PA)",
+  "MISO:Henry Hub (Erath LA)",
+  1560,
+  1950,
+  "Columbia Gulf/TETCO/TGP"
+ ],
+ [
+  "MISO:Henry Hub (Erath LA)",
+  "SERC:Transco Z4 Station 85 (Choctaw Co AL)",
+  433,
+  541,
+  "Transco Z3-Z4/SoNat/Gulf South"
+ ],
+ [
+  "MISO:Henry Hub (Erath LA)",
+  "ERCOT:Katy TX",
+  366,
+  457,
+  "Gulf coast intrastates/TETCO/Transco Z2-Z3"
+ ],
+ [
+  "MISO:Henry Hub (Erath LA)",
+  "MISO:Chicago Citygate (Joliet IL)",
+  1335,
+  1668,
+  "NGPL Louisiana/ANR SE"
+ ],
+ [
+  "MISO:Chicago Citygate (Joliet IL)",
+  "SPP:ONEOK/ NGPL Midcontinent (Tulsa OK)",
+  909,
+  1136,
+  "NGPL Amarillo/Midcon line, Panhandle Eastern"
+ ],
+ [
+  "SPP:ONEOK/ NGPL Midcontinent (Tulsa OK)",
+  "ERCOT:Waha (Pecos Co TX)",
+  833,
+  1041,
+  "Oklahoma-West Texas intrastate/NGPL"
+ ],
+ [
+  "SPP:Panhandle Eastern Pool (Beaver Co OK)",
+  "ERCOT:Waha (Pecos Co TX)",
+  630,
+  788,
+  "Panhandle-Waha"
+ ],
+ [
+  "SPP:ONEOK/ NGPL Midcontinent (Tulsa OK)",
+  "ERCOT:Katy TX",
+  707,
+  884,
+  "Enable/ONEOK Gas Transportation/Gulf South"
+ ],
+ [
+  "ERCOT:Waha (Pecos Co TX)",
+  "ERCOT:Katy TX",
+  717,
+  896,
+  "Matterhorn 580 mi / PHP 430 mi / GCX 500 mi"
+ ],
+ [
+  "ERCOT:Waha (Pecos Co TX)",
+  "California:SoCal Border (Ehrenberg AZ)",
+  1100,
+  1375,
+  "EPNG South mainline Waha-Ehrenberg"
+ ],
+ [
+  "ERCOT:Waha (Pecos Co TX)",
+  "WECC:El Paso Permian/San Juan (Blanco NM)",
+  737,
+  921,
+  "EPNG north/Transwestern"
+ ],
+ [
+  "WECC:El Paso Permian/San Juan (Blanco NM)",
+  "California:Topock AZ",
+  642,
+  803,
+  "EPNG/Transwestern to Topock"
+ ],
+ [
+  "WECC:Opal WY",
+  "California:Daggett CA",
+  957,
+  1197,
+  "Kern River 1,400 mi mainline (~1,340 mi 36in)"
+ ],
+ [
+  "WECC:Opal WY",
+  "MISO:Chicago Citygate (Joliet IL)",
+  1843,
+  2304,
+  "REX Z1-Z3 1,679 mi"
+ ],
+ [
+  "WECC:Opal WY",
+  "SPP:Ventura IA",
+  1388,
+  1734,
+  "Northern Natural/Trailblazer-REX"
+ ],
+ [
+  "WECC:Opal WY",
+  "SPP:Panhandle Eastern Pool (Beaver Co OK)",
+  1012,
+  1265,
+  "CIG/Trailblazer/WIC via Cheyenne"
+ ],
+ [
+  "WECC:Malin OR",
+  "California:PG&E Citygate (Malin entry)",
+  0,
+  0,
+  "GTN/PG&E Redwood path Malin-Bay Area ~ 500 km"
+ ],
+ [
+  "WECC:Sumas WA",
+  "Canada:AECO/NIT (Suffield AB)",
+  817,
+  1021,
+  "Westcoast/NGTL to Sumas"
+ ],
+ [
+  "MISO:Chicago Citygate (Joliet IL)",
+  "SERC:SoNat Atlanta (Zone 3)",
+  924,
+  1155,
+  "ETNG/Columbia Gulf backhaul; weak link"
+ ],
+ [
+  "SERC:Transco Z4 Station 85 (Choctaw Co AL)",
+  "NewYork:Transco Z6 NY (NYC)",
+  1591,
+  1988,
+  "Transco Z4->Z6 mainline"
+ ],
+ [
+  "NewYork:Iroquois Waddington",
+  "NewYork:Transco Z6 NY (NYC)",
+  472,
+  589,
+  "Iroquois 414 mi = 666 km"
+ ],
+ [
+  "Canada:Dawn ON",
+  "NewYork:Iroquois Waddington",
+  596,
+  745,
+  "TCPL Eastern Triangle Parkway-Iroquois"
+ ]
+]
