@@ -303,32 +303,31 @@ ov('Par_TagFuelToTimeseries', [
    cols=['Fuel', 'Profile', 'Value'])
 
 # ---------------------------------------------------------------- 7. TS_GAS_NONPOWER hourly profile
-heat = pd.read_csv(os.path.join(REPO, 'Data', 'Timeseries', 'TS_HEAT_LOW', 'TS_HEAT_LOW.csv'), skiprows=1)
-prof = pd.DataFrame({'HOUR': heat['HOUR']})
+# EIA 2024 monthly non-power consumption shape per region (TS_HEAT_LOW carries only
+# zero placeholders for the NA columns), flat within each month, mean = 1.
+# Canada: MISO (northern US) shape as proxy.
+DAYS_M = [31,28,31,30,31,30,31,31,30,31,30,31]
+hour_month = []
+for m, d in enumerate(DAYS_M):
+    hour_month += [m] * (d*24)
+prof = pd.DataFrame({'HOUR': list(range(1, 8761))})
 for r in NA:
-    h = heat[r].astype(float)
-    prof[r] = 0.41 * h / h.mean() + 0.59
+    rs = 'MISO' if r == 'Canada' else r
+    sh = [float(shape.loc[m if m in shape.index else int(m), rs]) for m in ['01','02','03','04','05','06','07','08','09','10','11','12']]
+    w = [sh[m] * 8760 / (DAYS_M[m]*24) for m in range(12)]      # share_m / hours_m x 8760 -> mean 1
+    prof[r] = [w[hour_month[i]] for i in range(8760)]
 if APPLY:
     d = os.path.join(REPO, 'Data', 'Timeseries', 'TS_GAS_NONPOWER'); os.makedirs(d, exist_ok=True)
     with open(os.path.join(d, 'TS_GAS_NONPOWER.csv'), 'w', encoding='utf-8', newline='') as f:
-        f.write(f'Source: non-power gas demand shape = 0.41 x TS_HEAT_LOW (ERA5 heating, normalised) + 0.59 flat (EIA 2024 res+com 41 % / industrial 59 %); {TODAY}; {WHO}' + ',' * (len(NA)) + '\n')
+        f.write(f'Source: non-power gas demand shape = EIA 2024 monthly consumption (total minus electric power) by state mapped to ISO regions, flat within month, mean 1; Canada = MISO shape proxy; {TODAY}; {WHO}' + ',' * len(NA) + '\n')
         prof.to_csv(f, index=False, lineterminator='\n')
-    # inject into a copy of the 2015 NA timeseries workbook for the model
     src = os.path.join(JL_INPUT, 'Timeseries_NorthAmerica_2015.xlsx'); dst = os.path.join(JL_INPUT, 'Timeseries_NorthAmerica_gas_2015.xlsx')
     shutil.copy(src, dst)
     wb = openpyxl.load_workbook(dst)
-    ref = wb['TS_POWER_DATACENTER']
-    ws = wb.create_sheet('TS_GAS_NONPOWER')
-    hdr = [c.value for c in ref[1]]
-    ws.append(hdr)
-    col_of = {h: i for i, h in enumerate(hdr)}
-    for i in range(len(prof)):
-        row = [None] * len(hdr)
-        for h in hdr:
-            if h == 'HOUR': row[col_of[h]] = int(prof.HOUR[i])
-            elif h == 'TIMESLICE': row[col_of[h]] = ref.cell(row=i+2, column=col_of[h]+1).value
-            elif h in NA: row[col_of[h]] = float(prof[h][i])
-        ws.append(row)
+    ref = wb['TS_POWER_DATACENTER']; hdr = [c.value for c in ref[1]]
+    ws = wb.create_sheet('TS_GAS_NONPOWER'); ws.append(hdr)
+    for i in range(8760):
+        ws.append([int(prof.HOUR.iloc[i]) if h == 'HOUR' else (float(prof[h].iloc[i]) if h in prof.columns else None) for h in hdr])
     wb.save(dst)
     print('TS_GAS_NONPOWER written + injected into', os.path.basename(dst))
 
@@ -365,7 +364,9 @@ follows an AEO2026-type blended trajectory (+5.4 % by 2040, proxy); v6-freeze ba
 if APPLY:
     for par in ['Par_TradeCapacity', 'Par_TradeRoute', 'Par_GrowthRateTradeCapacity', 'Par_TradeCapacityGrowthCosts', 'Par_CommissionedTradeCapacity',
                 'Par_SpecifiedAnnualDemand', 'Par_VariableCost', 'Par_TotalAnnualMaxActivity', 'Par_ResidualStorageCapacity', 'Par_FuelUseRateLimit', 'Par_TagFuelToTimeseries']:
-        with open(os.path.join(PAR, par, 'Assumptions.txt'), 'a', encoding='utf-8') as f:
-            f.write(NOTE)
+        ap = os.path.join(PAR, par, 'Assumptions.txt')
+        if not (os.path.exists(ap) and NOTE.strip()[:60] in open(ap, encoding='utf-8').read()):
+            with open(ap, 'a', encoding='utf-8') as f:
+                f.write(NOTE)
 print('\noverlay rows per parameter:'); [print(f'  {k:34s} {v:5d}') for k, v in written.items()]
 print('APPLIED' if APPLY else 'DRY RUN (use --apply)')
