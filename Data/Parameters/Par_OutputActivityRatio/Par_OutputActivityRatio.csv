@@ -602,3 +602,6 @@ World,P_Gas_CCGT_Residual,Power,2,All,0,,PJ,biogas co-firing mode disabled for N
 World,P_Gas_CCGT_Residual,Power,3,All,1.0,,PJ,Energy Agency Denmark (2024): Gas turb. Cc - average,26.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
 World,P_SOFC,Power,1,All,1.0,,PJ,"Bloom Energy Server ~60% net el. efficiency (LHV), slight gain over time; TU Berlin assumption",2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 World,P_SOFC,Power,2,All,1.0,,PJ,"Bloom Energy Server ~60% net el. efficiency (LHV), slight gain over time; TU Berlin assumption",2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,X_Convert_Power,Power_LargeLoads,7,All,1.0,,PJ,"power demand splitter (eff=1), flat large-load fuel",2026-09-22,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Fusion,Power,1,All,1.0,,PJ,"fusion plant, no fuel input modelled",2026-09-22,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_IronAir,Power,2,All,1.0,,PJ,efficiency in TechnologyFromStorage,2026-09-22,Konstantin Loffler <kl@wip.tu-berlin.de>
