@@ -687,6 +687,11 @@ def s14_decarb():
             v = ann_min.get((r, y), base_min.get((r, y), 0.0)) + up * b25.get(r, 0) / tot25
             rows.append({'Region': r, 'Technology': 'P_Nuclear', 'Year': str(y), 'Value': fmt(v, 3), 'Unit': 'GW'})
     ov(S, 'Par_TotalAnnualMinCapacity', rows, 'S14: DOE UPRISE uprates +2.5 GW by 2027, +5 GW by 2029 on top of the announced-nuclear minima (allocated by 2025 fleet share)')
+    # the EU biogas co-firing mode (mode 2, R_Biogas folded at ~5.8 MEUR/PJ, no CO2, unlimited in the
+    # power-only data) would absorb all gas generation under a CO2 price -> disable it in this scenario
+    ov(S, 'Par_OutputActivityRatio', [{'Region': 'World', 'Technology': t, 'Fuel': 'Power', 'Mode_of_operation': '2', 'Year': 'All', 'Value': '0', 'Unit': 'PJ'}
+                                      for t in GAS_TECHS + ['CHP_Gas_CCGT_Natural']],
+       'S14: biogas co-firing mode (mode 2) disabled - the NA power-only data has no biogas resource limit, so with a CO2 price the whole gas fleet would switch to it (found in the first s14 run)')
     # state CES proxy: regional power CO2 caps vs 2025 (v6c: NY 57.9, NE 67.8, CA 138.5, PJM 244.5 Mt)
     caps = {'NewYork': (57.9, .80), 'NewEngland': (67.8, .70), 'California': (138.5, .60), 'PJM': (244.5, .40)}
     rows = []
