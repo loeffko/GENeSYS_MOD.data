@@ -506,7 +506,11 @@ def s07_tech():
     smr40 = {r.Region: num(r.Value) or 0.0 for r in mx[(mx.Technology == 'P_Nuclear_SMR') & (mx.Year == '2040') & mx.Region.isin(NA)].itertuples(index=False)}
     tot40 = sum(smr40.values())
     tot = {2029: 0, 2030: 2, 2032: 5, 2035: 15, 2040: 40}
-    rows = [{'Region': r, 'Technology': 'P_Nuclear_SMR', 'Year': str(y), 'Value': fmt(interp(tot, y) * smr40.get(r, 0) / tot40, 3), 'Unit': 'GW'} for r in NA for y in YEARS]
+    base_max = {(r.Region, r.Year): num(r.Value) or 0.0 for r in mx[(mx.Technology == 'P_Nuclear_SMR') & mx.Region.isin(NA)].itertuples(index=False)}
+    mn_smr = read_base('Par_TotalAnnualMinCapacity'); mn_smr = mn_smr[(mn_smr.Technology == 'P_Nuclear_SMR') & mn_smr.Region.isin(NA)]
+    base_min = {(r.Region, r.Year): num(r.Value) or 0.0 for r in mn_smr.itertuples(index=False)}
+    # never below the base maximum or the base (committed) minimum, e.g. Darlington in Canada
+    rows = [{'Region': r, 'Technology': 'P_Nuclear_SMR', 'Year': str(y), 'Value': fmt(max(interp(tot, y) * smr40.get(r, 0) / tot40, base_max.get((r, str(y)), 0.0) if base_max.get((r, str(y)), 0.0) < 99999 else 0.0, base_min.get((r, str(y)), 0.0) * 1.001), 4), 'Unit': 'GW'} for r in NA for y in YEARS]
     ov(S, 'Par_TotalAnnualMaxCapacity', rows, 'S7 SMR fast: available 2030, 2/5/15/40 GW (2030/32/35/40) split by the base 2040 regional SMR potential (Darlington, Natrium, Clinch River, Hermes 2; TVA/ENTRA1 6 GW, Meta/Google/Amazon deals)')
     capex = {2030: 5500 * USD, 2035: 4300 * USD, 2040: 3600 * USD}
     ov(S, 'Par_CapitalCost', [{'Region': 'World', 'Technology': 'P_Nuclear_SMR', 'Year': str(y), 'Value': fmt(interp(capex, y), 1), 'Unit': 'MEUR/GW'} for y in YEARS], 'S7 SMR capex: INL/NREL ATB 2025 advanced BOAK 5,500 USD/kW (2030) with 9.5 % learning to the DOE Liftoff NOAK ~3,600 USD/kW by 2040 (base 9,091 EUR/kW flat)')
