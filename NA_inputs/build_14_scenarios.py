@@ -340,6 +340,7 @@ def base_additions():
     n += add_base_rows('Par_TagTechnologyToSector.csv', [{'Technology': 'D_IronAir', 'Sector': 'Storages', 'Value': '1'}], ['Technology', 'Sector'])
     n += add_base_rows('Par_TagTechnologyToSubsets.csv', [{'Technology': 'D_IronAir', 'Subset': s, 'Value': '1', 'Unit': 'Binary', 'Source': 'scenario s07'} for s in ('PhaseInSet', 'StorageDummies', 'Transformation', 'IronAir')], ['Technology', 'Subset'])
     n += add_base_rows('Par_TagTechnologyToSubsets.csv', [{'Technology': 'D_Battery_Li-Ion', 'Subset': 'LiIon', 'Value': '1', 'Unit': 'Binary', 'Source': 'scenario s11 group cap'}], ['Technology', 'Subset'])
+    n += add_base_rows('Par_TagTechnologyToSubsets.csv', [{'Technology': 'P_Gas_CCS', 'Subset': 'GasCCS', 'Value': '1', 'Unit': 'Binary', 'Source': 'scenario s14 group cap (the switch_ccs bounds blanket-enable any CCS TotalAnnualMaxCapacity above the 0.001 marker)'}], ['Technology', 'Subset'])
     n += add_base_rows('Par_CapacityToActivityUnit.csv', [{'Technology': 'D_IronAir', 'Value': '31.536'}], ['Technology'])
     n += add_base_rows('Par_OperationalLife/Par_OperationalLife.csv', [{'Technology': 'D_IronAir', 'Value': '20', 'Unit': 'Years', 'Source': 'Form Energy iron-air, assumed 20 yr'}], ['Technology'], sub='')
     n += add_base_rows('Par_OperationalLifeStorage/Par_OperationalLifeStorage.csv', [{'Storage': 'S_IronAir', 'Value': '20', 'Unit': 'Years', 'Source': 'assumed as D_IronAir'}], ['Storage'], sub='')
@@ -663,7 +664,8 @@ def s14_decarb():
     cost_multiplier(S, 'Par_CapitalCost', 'Technology', res, m, 'S14: restored 30 % ITC on RES and storage from 2029 (45Y/48E ended for wind/solar under OBBBA)')
     cost_multiplier(S, 'Par_CapitalCostStorage', 'Storage', ['S_Battery_Li-Ion', 'S_Battery_Redox'], m, 'S14: restored 30 % ITC (storage energy component)', storage=True)
     ccs_tot = {2029: 0, 2030: 2, 2035: 15, 2040: 40}; ccs_sh = {'SERC': .30, 'ERCOT': .25, 'PJM': .20, 'MISO': .15, 'California': .10}
-    ov(S, 'Par_TotalAnnualMaxCapacity', [{'Region': r, 'Technology': 'P_Gas_CCS', 'Year': str(y), 'Value': fmt(interp(ccs_tot, y) * ccs_sh.get(r, 0), 3), 'Unit': 'GW'} for r in US for y in YEARS], 'S14: CCPP+CCUS enabled 2/15/40 GW (2030/35/40) (Sutter 550 MW, Baytown 810 MW as FOAK; NETL Rev 3 costs)')
+    ov(S, 'Par_TotalAnnualMaxCapacity', [{'Region': r, 'Technology': 'P_Gas_CCS', 'Year': str(y), 'Value': fmt(interp(ccs_tot, y) * ccs_sh.get(r, 0), 3), 'Unit': 'GW'} for r in US for y in YEARS], 'S14: CCPP+CCUS enabled 2/15/40 GW (2030/35/40) (Sutter 550 MW, Baytown 810 MW as FOAK; NETL Rev 3 costs) - regional rows only enable the technology (the model blanket-lifts CCS caps > 0.001 GW); the binding limit is the GasCCS group cap')
+    ov(S, 'Par_GroupTotalAnnualMaxCapacity', group_cap_rows('GasCCS', 'USA', {y: interp(ccs_tot, y) for y in YEARS}), 'S14: US-wide CCPP+CCUS capacity cap 0 (to 2029) -> 2 (2030) -> 15 (2035) -> 40 GW (2040), FOAK-limited pipeline')
     vc = read_base('Par_VariableCost'); base_vc = [r for r in vc.itertuples(index=False) if r.Technology == 'P_Gas_CCS' and r.Region == 'World']
     bv = {r.Year: num(r.Value) or 0.0 for r in base_vc}
     def b(y):
