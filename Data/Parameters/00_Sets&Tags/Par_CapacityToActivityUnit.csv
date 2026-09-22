@@ -169,3 +169,5 @@ P_Gas_CCGT_Residual,31.536
 P_SOFC,31.536
 X_Gas_Export,31.536
 Infeasibility_Gas_Natural,31.536
+P_Fusion,31.536
+D_IronAir,31.536

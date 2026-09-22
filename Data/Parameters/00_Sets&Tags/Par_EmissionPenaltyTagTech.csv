@@ -1119,3 +1119,11 @@ DE,P_Gas_CCGT_Residual,CO2,2045,1
 DE,P_Gas_CCGT_Residual,CO2,2050,1
 DE,P_Gas_CCGT_Residual,CO2,2055,1
 DE,P_Gas_CCGT_Residual,CO2,2060,1
+World,P_Gas_CCGT,CO2,All,1
+World,P_Gas_CCGT_Residual,CO2,All,1
+World,P_Gas_OCGT,CO2,All,1
+World,P_Gas_Steam,CO2,All,1
+World,P_Gas_Engines,CO2,All,1
+World,CHP_Gas_CCGT_Natural,CO2,All,1
+World,P_Biomass,CO2,All,1
+World,CHP_Biomass_Solid,CO2,All,1

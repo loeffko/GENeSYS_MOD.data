@@ -263,3 +263,4 @@ Canada,P_Wind_Offshore_Transitional,0.07,,Fraction,"FEL2026 LCOE Model file V1.4
 Canada,P_Wind_Onshore_Avg,0.055,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
 Canada,P_Wind_Onshore_Inf,0.055,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
 Canada,P_Wind_Onshore_Opt,0.055,,Fraction,"FEL2026 LCOE Model file V1.4, dated 2026-06-18",2026-07-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Fusion,0.07,,Fraction,Fusion_Market_Model_v09.xlsx wacc base 7 %,2026-09-22,Konstantin Loffler <kl@wip.tu-berlin.de>

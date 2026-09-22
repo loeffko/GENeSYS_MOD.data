@@ -16,3 +16,4 @@ Power_Hydrogen,Power,1
 Power_BEVs,Power,1
 Gas_Export,Transformation,1
 Gas_Natural,Industry,1
+Power_LargeLoads,Power,1

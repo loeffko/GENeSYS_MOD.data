@@ -59,3 +59,4 @@ P_Gas_Steam,All,4.16667,,M€/PJ,"Kumar 2012 gas-steam wear ~6 USD/MW-swing, sta
 P_H2_OCGT,All,2.77778,,M€/PJ,frame-CT class = P_Gas_OCGT (H2 fuel does not change thermal cycling); see Assumptions.txt,2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
 CHP_WasteToEnergy,All,8.33333,,M€/PJ,"DEA v0009 WtE grate: 70% min load, 8h warm start; lignite-level; see Assumptions.txt",2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
 CHP_Hydrogen_FuelCell,All,0.555556,,M€/PJ,"electrochemical, no thermal-fatigue cycling (engineering judgment); see Assumptions.txt",2026-07-30,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Fusion,All,5.55556,,M€/PJ,as P_Nuclear_SMR,2026-09-22,Konstantin Loffler <kl@wip.tu-berlin.de>
