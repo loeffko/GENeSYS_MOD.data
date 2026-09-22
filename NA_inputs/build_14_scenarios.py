@@ -432,6 +432,8 @@ def s05_brakes():
     mx = read_base('Par_TotalAnnualMaxCapacity')
     reps = ['P_PV_Utility_Opt', 'P_Wind_Onshore_Opt', 'P_Wind_Offshore_Shallow', 'P_Wind_Offshore_Deep', 'P_Wind_Offshore_Transitional']
     mx = mx[mx.Region.isin(US) & mx.Technology.isin(reps)]
+    mn = read_base('Par_TotalAnnualMinCapacity'); mn = mn[mn.Region.isin(US) & mn.Technology.isin(reps)]
+    minv = {(r.Region, r.Technology, r.Year): num(r.Value) or 0.0 for r in mn.itertuples(index=False)}
     rows = []
     for r in mx.itertuples(index=False):
         if not r.Year.isdigit() or num(r.Value) is None:
@@ -440,7 +442,8 @@ def s05_brakes():
         if v >= 99999 or y < 2029:
             continue
         f = 1 + 0.30 * min(y - 2028, 7) / 7
-        rows.append({'Region': r.Region, 'Technology': r.Technology, 'Year': r.Year, 'Value': fmt(v / f, 3), 'Unit': 'GW'})
+        # never below the base minimum (offshore minima are contracted pipelines, not funnel floors)
+        rows.append({'Region': r.Region, 'Technology': r.Technology, 'Year': r.Year, 'Value': fmt(max(v / f, minv.get((r.Region, r.Technology, r.Year), 0.0)), 3), 'Unit': 'GW'})
     ov(S, 'Par_TotalAnnualMaxCapacity', rows, 'S5: RES funnel max = announced pipeline (base x1.30 widening removed)')
 
 
