@@ -442,8 +442,10 @@ def s05_brakes():
         if v >= 99999 or y < 2029:
             continue
         f = 1 + 0.30 * min(y - 2028, 7) / 7
-        # never below the base minimum (offshore minima are contracted pipelines, not funnel floors)
-        rows.append({'Region': r.Region, 'Technology': r.Technology, 'Year': r.Year, 'Value': fmt(max(v / f, minv.get((r.Region, r.Technology, r.Year), 0.0) * 1.001), 6), 'Unit': 'GW'})
+        # never below the running maximum of the base minima up to this year (capacity built to meet an
+        # earlier minimum persists; offshore minima are contracted pipelines, not funnel floors)
+        floor = max([minv.get((r.Region, r.Technology, str(yy)), 0.0) for yy in range(2025, y + 1)] + [0.0])
+        rows.append({'Region': r.Region, 'Technology': r.Technology, 'Year': r.Year, 'Value': fmt(max(v / f, floor * 1.001), 6), 'Unit': 'GW'})
     ov(S, 'Par_TotalAnnualMaxCapacity', rows, 'S5: RES funnel max = announced pipeline (base x1.30 widening removed)')
 
 
