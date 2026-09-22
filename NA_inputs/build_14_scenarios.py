@@ -632,7 +632,7 @@ def s13_reindustrial():
 def s14_decarb():
     S = 'NorthAmerica_s14_decarb'
     price = {2028: 0, 2029: 30, 2035: 60, 2040: 90}     # USD/t -> MEUR/Gt: x 1e3 x EUR/USD
-    ov(S, 'Par_EmissionsPenalty', [{'Region': r, 'Emission': 'CO2', 'Year': str(y), 'Value': fmt(interp(price, y) * 1e3 * USD, 1), 'Unit': 'M€ / Gt'} for r in US for y in YEARS], 'S14: US CO2 price 30 (2029) -> 60 (2035) -> 90 USD/t (2040), anchored on 45Q 85 USD/t as the revealed federal CO2 value; Canada 0')
+    ov(S, 'Par_EmissionsPenalty', [{'Region': r, 'Emission': 'CO2', 'Year': str(y), 'Value': fmt(interp(price, y) * 1e3 * USD, 1), 'Unit': 'M€ / Gt'} for r in NA for y in YEARS], 'S14: CO2 price 30 (2029) -> 60 (2035) -> 90 USD/t (2040) in the US, anchored on 45Q 85 USD/t as the revealed federal CO2 value; Canada follows the same path (its industrial OBPS benchmark price, C$95/t 2026 -> C$170/t 2030, is of the same order)')
     m = {y: 0.70 for y in range(2029, 2041)}
     cc = read_base('Par_CapitalCost')
     res = sorted({t for t in cc.Technology.unique() if t.startswith(('P_PV', 'P_Wind', 'D_Battery', 'P_Geothermal', 'P_EGS'))})
