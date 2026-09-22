@@ -619,13 +619,16 @@ def s11_feoc():
     # scale the 2026/2027 minimum increments so the forced build fits under the cap (2028+ minima unchanged)
     mn = read_base('Par_TotalAnnualMinCapacity'); mn = mn[(mn.Technology == 'D_Battery_Li-Ion') & mn.Region.isin(US)]
     m = {(r.Region, int(r.Year)): num(r.Value) or 0.0 for r in mn.itertuples(index=False) if r.Year.isdigit()}
+    rc = read_base('Par_ResidualCapacity'); rc = rc[(rc.Technology == 'D_Battery_Li-Ion') & rc.Region.isin(US)]
+    res = {(r.Region, int(r.Year)): num(r.Value) or 0.0 for r in rc.itertuples(index=False) if r.Year.isdigit()}
     rows = []
     for y, cap_cum in ((2026, 17.0), (2027, 34.0)):
-        inc = {r: max(m.get((r, y), 0.0) - m.get((r, 2025), 0.0), 0.0) for r in US}
+        # new build needed above the (retiring) residual fleet; NewCapacity is fixed to 0 in 2025
+        inc = {r: max(m.get((r, y), 0.0) - res.get((r, y), 0.0), 0.0) for r in US}
         tot = sum(inc.values())
-        scale = min(1.0, cap_cum / tot) if tot > 0 else 1.0
+        scale = min(1.0, 0.98 * cap_cum / tot) if tot > 0 else 1.0
         for r in US:
-            rows.append({'Region': r, 'Technology': 'D_Battery_Li-Ion', 'Year': str(y), 'Value': fmt(m.get((r, 2025), 0.0) + inc[r] * scale, 4), 'Unit': 'GW'})
+            rows.append({'Region': r, 'Technology': 'D_Battery_Li-Ion', 'Year': str(y), 'Value': fmt(res.get((r, y), 0.0) + inc[r] * scale, 4), 'Unit': 'GW'})
     ov(S, 'Par_TotalAnnualMinCapacity', rows, 'S11 FEOC: Li-ion forced minimum for 2026-27 scaled to fit under the 17 GW/yr US cap (base minimum increments scaled proportionally; 2028+ unchanged)')
 
 
