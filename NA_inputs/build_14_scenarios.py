@@ -611,6 +611,18 @@ def s11_feoc():
     tc = read_base('Par_TradeCapacityGrowthCosts')
     ov(S, 'Par_TradeCapacityGrowthCosts', [{'Region': r.Region, 'Region2': r.Region2, 'Fuel': r.Fuel, 'Value': fmt(num(r.Value) * 1.2, 6), 'Unit': 'M€/GWkm'} for r in tc.itertuples(index=False) if r.Fuel == 'Power' and r.Region in NA and r.Region2 in NA and num(r.Value) is not None], 'S11 FEOC: transformer prices +77 % / lead times 128-144 wk -> IC expansion cost x1.2 (whole horizon; parameter has no year dimension, mean of x1.30 2026-30 -> x1.10 2035)')
     ov(S, 'Par_GroupTotalAnnualMaxNewCap', group_cap_rows('LiIon', 'USA', {2026: 17.0, 2027: 17.0}), 'S11 FEOC: US Li-ion additions capped at 17 GW/yr 2026-27 (WoodMac/ACP: 2026 below the 18.9 GW of 2025 for lack of FEOC-compliant BESS)')
+    # the base Li-ion minimum path (US Pools storage trajectory) forces more than 17 GW/yr in 2026-27:
+    # scale the 2026/2027 minimum increments so the forced build fits under the cap (2028+ minima unchanged)
+    mn = read_base('Par_TotalAnnualMinCapacity'); mn = mn[(mn.Technology == 'D_Battery_Li-Ion') & mn.Region.isin(US)]
+    m = {(r.Region, int(r.Year)): num(r.Value) or 0.0 for r in mn.itertuples(index=False) if r.Year.isdigit()}
+    rows = []
+    for y, cap_cum in ((2026, 17.0), (2027, 34.0)):
+        inc = {r: max(m.get((r, y), 0.0) - m.get((r, 2025), 0.0), 0.0) for r in US}
+        tot = sum(inc.values())
+        scale = min(1.0, cap_cum / tot) if tot > 0 else 1.0
+        for r in US:
+            rows.append({'Region': r, 'Technology': 'D_Battery_Li-Ion', 'Year': str(y), 'Value': fmt(m.get((r, 2025), 0.0) + inc[r] * scale, 4), 'Unit': 'GW'})
+    ov(S, 'Par_TotalAnnualMinCapacity', rows, 'S11 FEOC: Li-ion forced minimum for 2026-27 scaled to fit under the 17 GW/yr US cap (base minimum increments scaled proportionally; 2028+ unchanged)')
 
 
 def s12_overbuild():
