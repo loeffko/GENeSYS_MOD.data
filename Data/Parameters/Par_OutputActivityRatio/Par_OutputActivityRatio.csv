@@ -117,7 +117,7 @@ World,CHP_Gas_CCGT_Natural,Heat_District,2,2045,0.4651,,PJ,Energy Agency Denmark
 World,CHP_Gas_CCGT_Natural,Heat_District,2,2050,0.4545,,PJ,Energy Agency Denmark (2024): CHP Coal (Calculation through elec. Efficiency/cb/cv: see assumption.txt),27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
 World,CHP_Gas_CCGT_Natural,Heat_District,2,2055,0.4545,,PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 World,CHP_Gas_CCGT_Natural,Heat_District,2,2060,0.4545,,PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,CHP_Gas_CCGT_Natural,Power,2,All,1.0,,PJ,Energy Agency Denmark (2024): Gas turb. CC steam extract,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Gas_CCGT_Natural,Power,2,All,0,,PJ,biogas co-firing mode disabled for North America (no biogas resource limit in the power-only data; 2026-09-23 wave-2 fix),2026-09-23,Konstantin Loffler <kl@wip.tu-berlin.de>
 World,CHP_Gas_CCGT_Natural,Heat_District,3,All,1.0,,PJ,Energy Agency Denmark (2024): Gas turb. CC steam extract,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
 World,CHP_Gas_CCGT_Natural_CCS,Power,1,All,1.0,,PJ,Energy Agency Denmark (2024): Generation efficiency decrease 10%,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
 World,CHP_Gas_CCGT_Natural_CCS,Heat_District,2,2018,0.5682,,PJ,Energy Agency Denmark (2024): Generation efficiency decrease 10%,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
@@ -130,7 +130,7 @@ World,CHP_Gas_CCGT_Natural_CCS,Heat_District,2,2045,0.4651,,PJ,Energy Agency Den
 World,CHP_Gas_CCGT_Natural_CCS,Heat_District,2,2050,0.4545,,PJ,Energy Agency Denmark (2024): Generation efficiency decrease 10%,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
 World,CHP_Gas_CCGT_Natural_CCS,Heat_District,2,2055,0.4545,,PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
 World,CHP_Gas_CCGT_Natural_CCS,Heat_District,2,2060,0.4545,,PJ,same as 2050 for now,29.01.2025,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,CHP_Gas_CCGT_Natural_CCS,Power,2,All,1.0,,PJ,Energy Agency Denmark (2024): Generation efficiency decrease 10%,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,CHP_Gas_CCGT_Natural_CCS,Power,2,All,0,,PJ,biogas co-firing mode disabled for North America (no biogas resource limit in the power-only data; 2026-09-23 wave-2 fix),2026-09-23,Konstantin Loffler <kl@wip.tu-berlin.de>
 World,CHP_Gas_CCGT_Natural_CCS,Heat_District,3,All,1.0,,PJ,Energy Agency Denmark (2024): Generation efficiency decrease 10%,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
 World,CHP_Gas_CCGT_SynGas,Power,1,All,1.0,,PJ,Energy Agency Denmark (2024): Gas turb. CC steam extract,27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
 World,CHP_Gas_CCGT_SynGas,Heat_District,2,2018,0.5682,,PJ,Energy Agency Denmark (2024): CHP Coal (Calculation through elec. Efficiency/cb/cv: see assumption.txt),27.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
@@ -324,14 +324,14 @@ World,P_Coal_Hardcoal_CCS,Power,1,All,1.0,,PJ,Energy Agency Denmark (2024): Gene
 World,P_Coal_Lignite,Power,1,All,1.0,,PJ,eurostat (2023): Production of lignite in the EU - statistics + learning rate from CHP_Coal,28.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
 World,P_Coal_Lignite_CCS,Power,1,All,1.0,,PJ,Energy Agency Denmark (2024): Generation efficiency decrease 10%,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
 World,P_Gas_CCGT,Power,1,All,1.0,,PJ,Energy Agency Denmark (2024): Gas turb. Cc - average,26.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Gas_CCGT,Power,2,All,1.0,,PJ,Energy Agency Denmark (2024): Gas turb. Cc - average,26.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,P_Gas_CCGT,Power,2,All,0,,PJ,biogas co-firing mode disabled for North America (no biogas resource limit in the power-only data; 2026-09-23 wave-2 fix),2026-09-23,Konstantin Loffler <kl@wip.tu-berlin.de>
 World,P_Gas_CCGT,Power,3,All,1.0,,PJ,Energy Agency Denmark (2024): Gas turb. Cc - average,26.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
 World,P_Gas_CCS,Power,1,All,1.0,,PJ,Energy Agency Denmark (2024): Generation efficiency decrease 10%,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
 World,P_Gas_Engines,Power,1,All,1.0,,PJ,Energy Agency Denmark (2024): Natural gas engine plant,07.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Gas_Engines,Power,2,All,1.0,,PJ,Energy Agency Denmark (2024): Natural gas engine plant - p. 373,07.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,P_Gas_Engines,Power,2,All,0,,PJ,biogas co-firing mode disabled for North America (no biogas resource limit in the power-only data; 2026-09-23 wave-2 fix),2026-09-23,Konstantin Loffler <kl@wip.tu-berlin.de>
 World,P_Gas_Engines,Power,3,All,1.0,,PJ,Abouemara et al. (2024): upper bound: https://doi.org/10.1016/j.fuel.2023.130511 - same learning curve as as natural gas / biogas,07.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
 World,P_Gas_OCGT,Power,1,All,1.0,,PJ,Energy Agency Denmark (2024): OCGT - Natural gas,07.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Gas_OCGT,Power,2,All,1.0,,PJ,Energy Agency Denmark (2024): Open Cycle Gas Turbine - p. 382,07.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,P_Gas_OCGT,Power,2,All,0,,PJ,biogas co-firing mode disabled for North America (no biogas resource limit in the power-only data; 2026-09-23 wave-2 fix),2026-09-23,Konstantin Loffler <kl@wip.tu-berlin.de>
 World,P_Gas_OCGT,Power,3,All,1.0,,PJ,Abouemara et al. (2024): upper bound: https://doi.org/10.1016/j.fuel.2023.130511 - same learning curve as as natural gas / biogas,07.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
 World,P_Geothermal,Power,1,All,1.0,,PJ,irrelevant - no input fuel,05.09.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
 World,P_H2_OCGT,Power,1,All,1.0,,PJ,Assumption: Same as Gas_OCGT,26.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
@@ -598,7 +598,7 @@ World,P_EGS_R2,Power,1,All,1.0,,PJ,EGS dispatchable geothermal,2026-06-04,Konsta
 World,P_EGS_R3,Power,1,All,1.0,,PJ,EGS dispatchable geothermal,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 World,P_EGS_R4,Power,1,All,1.0,,PJ,EGS dispatchable geothermal,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 World,P_Gas_CCGT_Residual,Power,1,All,1.0,,PJ,Energy Agency Denmark (2024): Gas turb. Cc - average,26.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
-World,P_Gas_CCGT_Residual,Power,2,All,1.0,,PJ,Energy Agency Denmark (2024): Gas turb. Cc - average,26.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
+World,P_Gas_CCGT_Residual,Power,2,All,0,,PJ,biogas co-firing mode disabled for North America (no biogas resource limit in the power-only data; 2026-09-23 wave-2 fix),2026-09-23,Konstantin Loffler <kl@wip.tu-berlin.de>
 World,P_Gas_CCGT_Residual,Power,3,All,1.0,,PJ,Energy Agency Denmark (2024): Gas turb. Cc - average,26.08.2024,Nikita Moskalenko <nim@wip.tu-berlin.de>
 World,P_SOFC,Power,1,All,1.0,,PJ,"Bloom Energy Server ~60% net el. efficiency (LHV), slight gain over time; TU Berlin assumption",2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 World,P_SOFC,Power,2,All,1.0,,PJ,"Bloom Energy Server ~60% net el. efficiency (LHV), slight gain over time; TU Berlin assumption",2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>

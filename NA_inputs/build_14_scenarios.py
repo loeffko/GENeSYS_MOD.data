@@ -37,7 +37,7 @@ NA = US + ['Canada']
 YEARS = list(range(2025, 2041))
 TWH = 3.6                      # PJ per TWh
 WHO = 'Konstantin Loffler <kl@wip.tu-berlin.de>'
-TODAY = '2026-09-22'
+TODAY = '2026-09-23'
 PLAN = 'NA_scenario_plan_2026-09-18_v3.xlsx (Assumptions sheet)'
 USD = 0.925                    # EUR per USD (EUR2023)
 GAS_TECHS = ['P_Gas_CCGT', 'P_Gas_CCGT_Residual', 'P_Gas_OCGT', 'P_Gas_Steam', 'P_Gas_Engines']
@@ -286,6 +286,35 @@ def filter_file(name, fuels=(), techs=(), storages=(), modes=()):
     wb.save(dst)
 
 
+def set_base_rows(fname, keycols, keyvals, newval, note, sub=''):
+    """Overwrite Value of existing base rows matching any of keyvals (tuples over keycols)."""
+    p = os.path.join(PAR, sub, fname) if sub else os.path.join(PAR, fname)
+    df = pd.read_csv(p, dtype=str, keep_default_na=False, encoding='utf-8-sig')
+    df.columns = [c.strip() for c in df.columns]
+    keyset = set(keyvals)
+    mask = df[keycols].apply(tuple, axis=1).isin(keyset)
+    n = int(mask.sum())
+    if n and APPLY:
+        df.loc[mask, 'Value'] = str(newval)
+        if 'Source' in df.columns:
+            df.loc[mask, 'Source'] = note
+        if 'Updated at' in df.columns:
+            df.loc[mask, 'Updated at'] = TODAY; df.loc[mask, 'Updated by'] = WHO
+        df.to_csv(p, index=False, header=[('' if h.startswith('Unnamed') else h) for h in df.columns], lineterminator='\n')
+    return n
+
+
+def base_fixes():
+    """Wave-2 base fix (applies to the base workbook AND every scenario): the EU biogas co-firing mode
+    (mode 2, Gas_Bio folded from R_Biogas without a resource limit) is disabled for the NA gas plants -
+    it produced 1,710 TWh of zero-CO2 'biogas' generation in 2030 in every v6 run (Henry-Hub peak year)
+    and absorbs the whole gas fleet under a CO2 price."""
+    techs = GAS_TECHS + ['CHP_Gas_CCGT_Natural', 'CHP_Gas_CCGT_Natural_CCS']
+    return set_base_rows('Par_OutputActivityRatio/Par_OutputActivityRatio.csv', ['Region', 'Technology', 'Fuel', 'Mode_of_operation', 'Year'],
+                         [('World', t, 'Power', '2', 'All') for t in techs], '0',
+                         'biogas co-firing mode disabled for North America (no biogas resource limit in the power-only data; 2026-09-23 wave-2 fix)')
+
+
 # ---------------------------------------------------------------- 0. base additions (new set members)
 def base_additions():
     n = 0
@@ -340,6 +369,7 @@ def base_additions():
     n += add_base_rows('Par_TagTechnologyToSector.csv', [{'Technology': 'D_IronAir', 'Sector': 'Storages', 'Value': '1'}], ['Technology', 'Sector'])
     n += add_base_rows('Par_TagTechnologyToSubsets.csv', [{'Technology': 'D_IronAir', 'Subset': s, 'Value': '1', 'Unit': 'Binary', 'Source': 'scenario s07'} for s in ('PhaseInSet', 'StorageDummies', 'Transformation', 'IronAir')], ['Technology', 'Subset'])
     n += add_base_rows('Par_TagTechnologyToSubsets.csv', [{'Technology': 'D_Battery_Li-Ion', 'Subset': 'LiIon', 'Value': '1', 'Unit': 'Binary', 'Source': 'scenario s11 group cap'}], ['Technology', 'Subset'])
+    n += add_base_rows('Par_TagTechnologyToSubsets.csv', [{'Technology': 'P_Gas_Engines', 'Subset': 'GasPlants', 'Value': '1', 'Unit': 'Binary', 'Source': 'scenario s05 group cap covers engines too (reviewer check 2026-09-23)'}], ['Technology', 'Subset'])
     n += add_base_rows('Par_TagTechnologyToSubsets.csv', [{'Technology': 'P_Gas_CCS', 'Subset': 'GasCCS', 'Value': '1', 'Unit': 'Binary', 'Source': 'scenario s14 group cap (the switch_ccs bounds blanket-enable any CCS TotalAnnualMaxCapacity above the 0.001 marker)'}], ['Technology', 'Subset'])
     n += add_base_rows('Par_CapacityToActivityUnit.csv', [{'Technology': 'D_IronAir', 'Value': '31.536'}], ['Technology'])
     n += add_base_rows('Par_OperationalLife/Par_OperationalLife.csv', [{'Technology': 'D_IronAir', 'Value': '20', 'Unit': 'Years', 'Source': 'Form Energy iron-air, assumed 20 yr'}], ['Technology'], sub='')
@@ -391,7 +421,7 @@ def s03_compute():
     S = 'NorthAmerica_s03_compute'
     src = 'S3 age of compute: DC base to 2030, BNEF 194 GW (2035) x 0.85 LF, +9 %/yr to 2040; Canada scaled with the US ratio'
     demand_rows(S, 'Power_DataCenter', scale_path('Power_DataCenter', {2030: sum(dem('Power_DataCenter', r, 2030) for r in US) / TWH, 2035: 1450, 2040: 2230}, canada='ratio', years_from=2031), src)
-    crypto = by_share({2026: 60, 2035: 80, 2040: 80}, {'ERCOT': .40, 'SPP': .15, 'MISO': .15, 'SERC': .10, 'PJM': .10, 'WECC': .10})
+    crypto = by_share({2026: 0, 2030: 10, 2035: 20, 2040: 20}, {'ERCOT': .40, 'SPP': .15, 'MISO': .15, 'SERC': .10, 'PJM': .10, 'WECC': .10})   # growth above today's ~60 TWh (already in the base load)
     ind = general_share(US)
     robo = by_share({2027: 0, 2028: 5, 2035: 90, 2040: 150}, ind)
     tele = by_share({2029: 0, 2030: 10, 2040: 50}, ind)
@@ -401,7 +431,7 @@ def s03_compute():
             adders.setdefault(r, [])
             adders[r].append(pts)
     merged = {r: {y: sum(interp(p, y) for p in lst) for y in YEARS} for r, lst in adders.items()}
-    flat_adder(S, 'Power_LargeLoads', merged, 'S3 second-wave flat loads: crypto (CCAF 138 TWh global x 40 % US), robotics/dark factories (Wood Mackenzie 363 TWh global 2035 x 25 % US), telecom/edge/defense (stated dial)')
+    flat_adder(S, 'Power_LargeLoads', merged, 'S3 second-wave flat loads: crypto growth above today (+20 TWh by 2035; CCAF 138 TWh global x 40 % US today, already in the base load), robotics/dark factories (Wood Mackenzie 363 TWh global 2035 x 25 % US), telecom/edge/defense (stated dial)')
     ov(S, 'Par_TagFuelToTimeseries', [{'Fuel': 'Power_LargeLoads', 'Profile': 'POWER_DATACENTER', 'Value': '1', 'Unit': 'Binary'}], 'flat profile for large loads')
 
 
@@ -453,10 +483,10 @@ def s05_brakes():
 def s06_hormuz():
     S = 'NorthAmerica_s06_hormuz'
     # macro leg: capex x1.35 (2026-28: +15 % equipment, +18 % = WACC +150 bp via CRF), x1.18 (2029-30), x1.09 (2031), 1.0 from 2032
-    m = {2026: 1.35, 2027: 1.35, 2028: 1.35, 2029: 1.18, 2030: 1.18, 2031: 1.09}
+    m = {2028: 1.35, 2029: 1.35, 2030: 1.18, 2031: 1.09}   # 2026-27 vintages are procured (reviewer check 2026-09-23): uplift from 2028
     cc = read_base('Par_CapitalCost')
     techs = sorted({t for t in cc.Technology.unique() if t.startswith(('P_', 'D_', 'CHP_'))})
-    cost_multiplier(S, 'Par_CapitalCost', 'Technology', techs, m, 'S6 Hormuz macro leg: equipment inflation +15 % 2026-28 (turbines +195 % vs 2019, CT in-service 562 -> 728-1,544 USD/kW) and WACC +150 bp 2026-30 folded into capex via CRF(6.5 %)/CRF(5 %) = 1.18, decaying to 1.0 by 2032')
+    cost_multiplier(S, 'Par_CapitalCost', 'Technology', techs, m, 'S6 Hormuz macro leg (2028-31 vintages; 2026-27 already procured): equipment inflation +15 % (turbines +195 % vs 2019, CT in-service 562 -> 728-1,544 USD/kW) and WACC +150 bp 2026-30 folded into capex via CRF(6.5 %)/CRF(5 %) = 1.18, decaying to 1.0 by 2032')
     cs = read_base('Par_CapitalCostStorage')
     cost_multiplier(S, 'Par_CapitalCostStorage', 'Storage', sorted(cs.Storage.unique()), m, 'S6 Hormuz macro leg (storage energy component), same multiplier', storage=True)
     copy_overlay(S, 'NorthAmerica_grid_low', 'Par_AnnualMaxTradeCapacity', 'S6: IC growth capped at 0.75 %/yr 2026-30 (utility capex freeze proxy; ~60 % of solar / 50 % of battery projects delayed early 2026)', year_filter=lambda y: 2026 <= y <= 2030)
@@ -658,10 +688,10 @@ def s14_decarb():
     S = 'NorthAmerica_s14_decarb'
     price = {2028: 0, 2029: 30, 2035: 60, 2040: 90}     # USD/t -> MEUR/Gt: x 1e3 x EUR/USD
     ov(S, 'Par_EmissionsPenalty', [{'Region': r, 'Emission': 'CO2', 'Year': str(y), 'Value': fmt(interp(price, y) * 1e3 * USD, 1), 'Unit': 'M€ / Gt'} for r in NA for y in YEARS], 'S14: CO2 price 30 (2029) -> 60 (2035) -> 90 USD/t (2040) in the US, anchored on 45Q 85 USD/t as the revealed federal CO2 value; Canada follows the same path (its industrial OBPS benchmark price, C$95/t 2026 -> C$170/t 2030, is of the same order)')
-    m = {y: 0.70 for y in range(2029, 2041)}
+    m = {2029: 0.90, 2030: 0.80, **{y: 0.70 for y in range(2031, 2041)}}   # phased in 2029-31 to avoid a single-year build spike (reviewer check 2026-09-23)
     cc = read_base('Par_CapitalCost')
     res = sorted({t for t in cc.Technology.unique() if t.startswith(('P_PV', 'P_Wind', 'D_Battery', 'P_Geothermal', 'P_EGS'))})
-    cost_multiplier(S, 'Par_CapitalCost', 'Technology', res, m, 'S14: restored 30 % ITC on RES and storage from 2029 (45Y/48E ended for wind/solar under OBBBA)')
+    cost_multiplier(S, 'Par_CapitalCost', 'Technology', res, m, 'S14: restored 30 % ITC on RES and storage phased in 2029-31 (x0.9/0.8/0.7; 45Y/48E ended for wind/solar under OBBBA)')
     cost_multiplier(S, 'Par_CapitalCostStorage', 'Storage', ['S_Battery_Li-Ion', 'S_Battery_Redox'], m, 'S14: restored 30 % ITC (storage energy component)', storage=True)
     ccs_tot = {2029: 0, 2030: 2, 2035: 15, 2040: 40}; ccs_sh = {'SERC': .30, 'ERCOT': .25, 'PJM': .20, 'MISO': .15, 'California': .10}
     ov(S, 'Par_TotalAnnualMaxCapacity', [{'Region': r, 'Technology': 'P_Gas_CCS', 'Year': str(y), 'Value': fmt(interp(ccs_tot, y) * ccs_sh.get(r, 0), 3), 'Unit': 'GW'} for r in US for y in YEARS], 'S14: CCPP+CCUS enabled 2/15/40 GW (2030/35/40) (Sutter 550 MW, Baytown 810 MW as FOAK; NETL Rev 3 costs) - regional rows only enable the technology (the model blanket-lifts CCS caps > 0.001 GW); the binding limit is the GasCCS group cap')
@@ -727,6 +757,8 @@ if __name__ == '__main__':
     print('repo:', REPO, '| apply:', APPLY)
     nb = base_additions()
     print(f'base additions (new set members / properties): {nb} rows')
+    nf = base_fixes()
+    print(f'base fixes (biogas mode disabled for gas plants): {nf} rows')
     for key, (name, fn, filt) in SCEN.items():
         if ONLY and key not in ONLY:
             continue
