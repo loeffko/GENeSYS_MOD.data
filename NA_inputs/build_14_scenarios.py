@@ -304,12 +304,26 @@ def set_base_rows(fname, keycols, keyvals, newval, note, sub=''):
     return n
 
 
+def remove_base_rows(fname, keycols, keyvals, sub='00_Sets&Tags'):
+    p = os.path.join(PAR, sub, fname) if sub else os.path.join(PAR, fname)
+    df = pd.read_csv(p, dtype=str, keep_default_na=False, encoding='utf-8-sig')
+    df.columns = [c.strip() for c in df.columns]
+    mask = df[keycols].apply(tuple, axis=1).isin(set(keyvals))
+    n = int(mask.sum())
+    if n and APPLY:
+        df[~mask].to_csv(p, index=False, header=[('' if h.startswith('Unnamed') else h) for h in df.columns], lineterminator='
+')
+    return n
+
+
 def base_fixes():
     """Wave-2 base fix (applies to the base workbook AND every scenario): the EU biogas co-firing mode
     (mode 2, Gas_Bio folded from R_Biogas without a resource limit) is disabled for the NA gas plants -
     it produced 1,710 TWh of zero-CO2 'biogas' generation in 2030 in every v6 run (Henry-Hub peak year)
     and absorbs the whole gas fleet under a CO2 price."""
     techs = GAS_TECHS + ['CHP_Gas_CCGT_Natural', 'CHP_Gas_CCGT_Natural_CCS']
+    # (2026-09-23) engines must stay outside GasPlants: the base has separate GasPlants and GasEngines new-build caps
+    remove_base_rows('Par_TagTechnologyToSubsets.csv', ['Technology', 'Subset'], [('P_Gas_Engines', 'GasPlants')])
     return set_base_rows('Par_OutputActivityRatio/Par_OutputActivityRatio.csv', ['Region', 'Technology', 'Fuel', 'Mode_of_operation', 'Year'],
                          [('World', t, 'Power', '2', 'All') for t in techs], '0',
                          'biogas co-firing mode disabled for North America (no biogas resource limit in the power-only data; 2026-09-23 wave-2 fix)')
@@ -369,7 +383,6 @@ def base_additions():
     n += add_base_rows('Par_TagTechnologyToSector.csv', [{'Technology': 'D_IronAir', 'Sector': 'Storages', 'Value': '1'}], ['Technology', 'Sector'])
     n += add_base_rows('Par_TagTechnologyToSubsets.csv', [{'Technology': 'D_IronAir', 'Subset': s, 'Value': '1', 'Unit': 'Binary', 'Source': 'scenario s07'} for s in ('PhaseInSet', 'StorageDummies', 'Transformation', 'IronAir')], ['Technology', 'Subset'])
     n += add_base_rows('Par_TagTechnologyToSubsets.csv', [{'Technology': 'D_Battery_Li-Ion', 'Subset': 'LiIon', 'Value': '1', 'Unit': 'Binary', 'Source': 'scenario s11 group cap'}], ['Technology', 'Subset'])
-    n += add_base_rows('Par_TagTechnologyToSubsets.csv', [{'Technology': 'P_Gas_Engines', 'Subset': 'GasPlants', 'Value': '1', 'Unit': 'Binary', 'Source': 'scenario s05 group cap covers engines too (reviewer check 2026-09-23)'}], ['Technology', 'Subset'])
     n += add_base_rows('Par_TagTechnologyToSubsets.csv', [{'Technology': 'P_Gas_CCS', 'Subset': 'GasCCS', 'Value': '1', 'Unit': 'Binary', 'Source': 'scenario s14 group cap (the switch_ccs bounds blanket-enable any CCS TotalAnnualMaxCapacity above the 0.001 marker)'}], ['Technology', 'Subset'])
     n += add_base_rows('Par_CapacityToActivityUnit.csv', [{'Technology': 'D_IronAir', 'Value': '31.536'}], ['Technology'])
     n += add_base_rows('Par_OperationalLife/Par_OperationalLife.csv', [{'Technology': 'D_IronAir', 'Value': '20', 'Unit': 'Years', 'Source': 'Form Energy iron-air, assumed 20 yr'}], ['Technology'], sub='')
@@ -454,7 +467,11 @@ def s05_brakes():
             if y >= 2027:
                 vals.setdefault(r, {})[y] = d26 + mult[r](y) * (dem('Power_DataCenter', r, y) - d26)
     demand_rows(S, 'Power_DataCenter', vals, 'S5 political brakes: regional multipliers on the base DC increment after 2026 (ERCOT anchored on BNEF ~8 GW adds through 2030 after the Aug-2026 interconnection pause; NY EO 62; moratoria leaders CA/GA/FL/NJ/NC)')
-    ov(S, 'Par_GroupTotalAnnualMaxNewCap', group_cap_rows('GasPlants', 'USA', {y: 10.0 for y in range(2027, 2032)}), 'S5: US gas new-build cap 10 GW/yr 2027-31 = 50 % of the IIR schedule (~107 GW starts 2026-30); turbine slots into 2031')
+    gc = read_base('Par_GroupTotalAnnualMaxNewCap')
+    base_cap = {(r.TechnologySubset, r.RegionSubset, r.Year): num(r.Value) for r in gc.itertuples(index=False)}
+    rows = [{'TechnologySubset': 'GasPlants', 'RegionSubset': 'USA', 'Year': str(y), 'Value': fmt(min(10.0, base_cap.get(('GasPlants', 'USA', str(y)), 999999) or 999999), 3), 'Unit': 'GW'} for y in range(2027, 2032)]
+    rows += [{'TechnologySubset': 'GasEngines', 'RegionSubset': 'USA', 'Year': str(y), 'Value': fmt(min(1.0, base_cap.get(('GasEngines', 'USA', str(y)), 999999) or 999999), 3), 'Unit': 'GW'} for y in range(2027, 2032)]
+    ov(S, 'Par_GroupTotalAnnualMaxNewCap', rows, 'S5: US gas new-build cap 10 GW/yr (GasPlants) + 1 GW/yr (GasEngines) 2027-31, never above the base caps (base: GasPlants 6/9/10/35/47 GW 2026-31, GasEngines 2.5); other years keep the base caps')
     # gas guardrail minimum removed: min = residual capacity
     res = read_base('Par_ResidualCapacity'); res = res[res.Region.isin(US) & res.Technology.isin(GAS_TECHS)]
     rows = [{'Region': r.Region, 'Technology': r.Technology, 'Year': r.Year, 'Value': r.Value, 'Unit': 'GW'} for r in res.itertuples(index=False) if r.Year.isdigit() and int(r.Year) >= 2027 and num(r.Value) is not None]
