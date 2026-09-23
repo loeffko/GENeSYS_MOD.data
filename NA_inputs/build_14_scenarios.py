@@ -311,8 +311,7 @@ def remove_base_rows(fname, keycols, keyvals, sub='00_Sets&Tags'):
     mask = df[keycols].apply(tuple, axis=1).isin(set(keyvals))
     n = int(mask.sum())
     if n and APPLY:
-        df[~mask].to_csv(p, index=False, header=[('' if h.startswith('Unnamed') else h) for h in df.columns], lineterminator='
-')
+        df[~mask].to_csv(p, index=False, header=[('' if h.startswith('Unnamed') else h) for h in df.columns], lineterminator='\n')
     return n
 
 
