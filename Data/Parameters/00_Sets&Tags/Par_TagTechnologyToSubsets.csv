@@ -688,4 +688,3 @@ D_IronAir,Transformation,1,,Binary,scenario s07,2026-09-22,Konstantin Loffler <k
 D_IronAir,IronAir,1,,Binary,scenario s07,2026-09-22,Konstantin Loffler <kl@wip.tu-berlin.de>
 D_Battery_Li-Ion,LiIon,1,,Binary,scenario s11 group cap,2026-09-22,Konstantin Loffler <kl@wip.tu-berlin.de>
 P_Gas_CCS,GasCCS,1,,Binary,scenario s14 group cap (the switch_ccs bounds blanket-enable any CCS TotalAnnualMaxCapacity above the 0.001 marker),2026-09-22,Konstantin Loffler <kl@wip.tu-berlin.de>
-P_Gas_Engines,GasPlants,1,,Binary,scenario s05 group cap covers engines too (reviewer check 2026-09-23),2026-09-23,Konstantin Loffler <kl@wip.tu-berlin.de>
