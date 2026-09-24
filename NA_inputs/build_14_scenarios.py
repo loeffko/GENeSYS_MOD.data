@@ -12,7 +12,8 @@ files (only selected by the scenario filter files that need them):
   tech  D_IronAir + storage S_IronAir (100 h iron-air, Form-type)      s07
   tag   Par_EmissionPenaltyTagTech = 1 for the gas plants (a CO2 price otherwise skips them) s14
 
-Usage:  python NA_inputs/build_14_scenarios.py [--apply] [--repo <path>] [--only s01,s07]
+Usage:  python NA_inputs/build_14_scenarios.py [--apply] [--repo <path>] [--only s01,s07,open]
+        ('open' = the funnel-released twins sNN_<name>_open; built after the scenarios unless --only excludes it)
         (dry run prints the row counts; --repo builds against another checkout, e.g. the
          v6-freeze worktree C:/v6wt). Runs are always v6-based (user decision 2026-09-22).
 """
@@ -37,7 +38,7 @@ NA = US + ['Canada']
 YEARS = list(range(2025, 2041))
 TWH = 3.6                      # PJ per TWh
 WHO = 'Konstantin Loffler <kl@wip.tu-berlin.de>'
-TODAY = '2026-09-23'
+TODAY = '2026-09-24'
 PLAN = 'NA_scenario_plan_2026-09-18_v3.xlsx (Assumptions sheet)'
 USD = 0.925                    # EUR per USD (EUR2023)
 GAS_TECHS = ['P_Gas_CCGT', 'P_Gas_CCGT_Residual', 'P_Gas_OCGT', 'P_Gas_Steam', 'P_Gas_Engines']
@@ -315,6 +316,43 @@ def remove_base_rows(fname, keycols, keyvals, sub='00_Sets&Tags'):
     return n
 
 
+def set_base_rows_map(fname, keycols, newvals, note, sub=''):
+    """Overwrite Value of existing base rows per key: newvals = {keytuple: value}. One pass."""
+    p = os.path.join(PAR, sub, fname) if sub else os.path.join(PAR, fname)
+    df = pd.read_csv(p, dtype=str, keep_default_na=False, encoding='utf-8-sig')
+    df.columns = [c.strip() for c in df.columns]
+    keys = df[keycols].apply(tuple, axis=1)
+    mask = keys.isin(set(newvals))
+    n = int(mask.sum())
+    if n and APPLY:
+        df.loc[mask, 'Value'] = [str(newvals[k]) for k in keys[mask]]
+        if 'Source' in df.columns:
+            df.loc[mask, 'Source'] = note
+        if 'Updated at' in df.columns:
+            df.loc[mask, 'Updated at'] = TODAY; df.loc[mask, 'Updated by'] = WHO
+        df.to_csv(p, index=False, header=[('' if h.startswith('Unnamed') else h) for h in df.columns], lineterminator='\n')
+    return n
+
+
+def release_gas_minima(scen, year_from, source):
+    """Funnel release: gas guardrail minimum = residual capacity from year_from (US regions)."""
+    res = read_base('Par_ResidualCapacity'); res = res[res.Region.isin(US) & res.Technology.isin(GAS_TECHS)]
+    rows = [{'Region': r.Region, 'Technology': r.Technology, 'Year': r.Year, 'Value': r.Value, 'Unit': 'GW'}
+            for r in res.itertuples(index=False) if r.Year.isdigit() and int(r.Year) >= year_from and num(r.Value) is not None]
+    ov(scen, 'Par_TotalAnnualMinCapacity', rows, source)
+
+
+def open_variant(key):
+    """Funnel-released twin of a scenario: every overlay of the parent copied, then the gas minima released from 2031."""
+    name, fn, filt = SCEN[key]
+    S = name + '_open'
+    for par in sorted(os.listdir(PAR)):
+        if par.startswith('Par_') and sub_path(par, name):
+            copy_overlay(S, name, par, f'{key} definition')
+    release_gas_minima(S, 2031, f'{key} open: no forced gas builds after 2030 (guardrail minimum = residual capacity from 2031; announced projects through 2030 kept; build-rate caps unchanged)')
+    return S, filt
+
+
 def base_fixes():
     """Wave-2 base fix (applies to the base workbook AND every scenario): the EU biogas co-firing mode
     (mode 2, Gas_Bio folded from R_Biogas without a resource limit) is disabled for the NA gas plants -
@@ -323,9 +361,22 @@ def base_fixes():
     techs = GAS_TECHS + ['CHP_Gas_CCGT_Natural', 'CHP_Gas_CCGT_Natural_CCS']
     # (2026-09-23) engines must stay outside GasPlants: the base has separate GasPlants and GasEngines new-build caps
     remove_base_rows('Par_TagTechnologyToSubsets.csv', ['Technology', 'Subset'], [('P_Gas_Engines', 'GasPlants')])
-    return set_base_rows('Par_OutputActivityRatio/Par_OutputActivityRatio.csv', ['Region', 'Technology', 'Fuel', 'Mode_of_operation', 'Year'],
-                         [('World', t, 'Power', '2', 'All') for t in techs], '0',
-                         'biogas co-firing mode disabled for North America (no biogas resource limit in the power-only data; 2026-09-23 wave-2 fix)')
+    n = set_base_rows('Par_OutputActivityRatio/Par_OutputActivityRatio.csv', ['Region', 'Technology', 'Fuel', 'Mode_of_operation', 'Year'],
+                      [('World', t, 'Power', '2', 'All') for t in techs], '0',
+                      'biogas co-firing mode disabled for North America (no biogas resource limit in the power-only data; 2026-09-23 wave-2 fix)')
+    # (2026-09-24, wave-3 fix, review N4) gas steam: the guardrail minimum is held flat after 2035 while the residual
+    # fleet keeps retiring, which forced ~12 GW of new steam units 2026-40 -> clamp the minimum to the residual path
+    res = read_base('Par_ResidualCapacity'); res = res[res.Technology == 'P_Gas_Steam']
+    resv = {(r.Region, r.Year): num(r.Value) for r in res.itertuples(index=False) if num(r.Value) is not None}
+    mn = read_base('Par_TotalAnnualMinCapacity'); mn = mn[mn.Technology == 'P_Gas_Steam']
+    clamp = {}
+    for r in mn.itertuples(index=False):
+        v = num(r.Value); rv = resv.get((r.Region, r.Year))
+        if v is not None and rv is not None and v > rv + 1e-6:
+            clamp[(r.Region, 'P_Gas_Steam', r.Year)] = fmt(rv, 6)
+    n += set_base_rows_map('Par_TotalAnnualMinCapacity/Par_TotalAnnualMinCapacity.csv', ['Region', 'Technology', 'Year'], clamp,
+                           'US Pools widening band (min) clamped to the residual fleet: no new gas steam builds (2026-09-24 wave-3 fix)')
+    return n
 
 
 # ---------------------------------------------------------------- 0. base additions (new set members)
@@ -346,6 +397,17 @@ def base_additions():
                        [{'Region': 'World', 'Technology': t, 'Emission': 'CO2', 'Year': 'All', 'Value': '1'}
                         for t in GAS_TECHS + ['CHP_Gas_CCGT_Natural', 'P_Biomass', 'CHP_Biomass_Solid']],
                        ['Region', 'Technology', 'Emission', 'Year'])
+    # ---- (2026-09-24, wave-3 fix, review N1) rooftop PV build-rate cap: rooftop had no pipeline minimum and no
+    # build-rate limit (only the flat restool potential), so it bypassed the utility-PV pipeline funnel at ~31 GW/yr
+    # (4x the US record). National cap on new capacity via a group limit (per-tech investment caps are not a data
+    # sheet): EIA small-scale solar additions 6.4 GW in 2022 (record; 39.5 GW total) and STEO 44 GW (Jun-2023)
+    # -> 55 GW (end-2024) = ~7.7 GW/yr -> 7 GW/yr 2026-30, growing to 10 GW/yr by 2040 (assumption, flagged).
+    n += add_base_rows('Par_TagTechnologyToSubsets.csv', [{'Technology': 'P_PV_Rooftop_Commercial', 'Subset': 'RooftopPV', 'Value': '1', 'Unit': 'Binary', 'Source': 'rooftop build-rate group cap (wave-3 fix, review N1)'}], ['Technology', 'Subset'])
+    roof = {2026: 7.0, 2030: 7.0, 2040: 10.0}
+    n += add_base_rows('Par_GroupTotalAnnualMaxNewCap/Par_GroupTotalAnnualMaxNewCap.csv',
+                       [{'TechnologySubset': 'RooftopPV', 'RegionSubset': 'USA', 'Year': str(y), 'Value': fmt(interp(roof, y) if y >= 2026 else 999999, 3), 'Unit': 'GW',
+                         'Source': 'US distributed-PV build rate: EIA small-scale additions 6.4 GW 2022 (TIE 2023-09-11), STEO 44 GW Jun-2023 -> 55 GW end-2024 (~7.7 GW/yr); 7 GW/yr 2026-30 -> 10 GW/yr 2040 (growth assumed)'} for y in YEARS],
+                       ['TechnologySubset', 'RegionSubset', 'Year'], sub='')
     # ---- P_Fusion (Fusion_Market_Model_v09.xlsx, bull: FOAK 2034, Class IV x0.7, FOM 2 %, VOM 10 EUR/MWh, CF 0.88, life 60)
     n += add_base_rows('Sets_Technology.csv', [{'Technology': 'P_Fusion'}], ['Technology'])
     n += add_base_rows('Par_TagTechnologyToSector.csv', [{'Technology': 'P_Fusion', 'Sector': 'Power', 'Value': '1'}], ['Technology', 'Sector'])
@@ -647,8 +709,9 @@ def s10_climate():
             for y in YEARS:
                 if y >= 2030:
                     v = vals.get(y, interp(vals, y))
-                    rows.append({'Region': reg, 'Technology': t, 'Year': str(y), 'Value': fmt(max(v - 0.05, 0.05), 4), 'Unit': 'Fraction'})
-    ov(S, 'Par_AvailabilityFactor', rows, 'S10: storm outages, coastal gas/nuclear availability -5 pp from 2030')
+                    cut = min(0.01 * (y - 2029), 0.05)                       # -1 pp/yr 2030-34, -5 pp from 2034 (wave 3: ramp instead of step)
+                    rows.append({'Region': reg, 'Technology': t, 'Year': str(y), 'Value': fmt(max(v - cut, 0.05), 4), 'Unit': 'Fraction'})
+    ov(S, 'Par_AvailabilityFactor', rows, 'S10: storm outages, coastal gas/nuclear availability -1 pp/yr from 2030 to -5 pp in 2034')
 
 
 def s11_feoc():
@@ -782,4 +845,12 @@ if __name__ == '__main__':
         if filt:
             filter_file(name, **filt)
         print(f'{name:32s}', {p: n for p, n in written.get(name, {}).items()}, '| filter:', 'own' if filt else 'base')
+    if not ONLY or 'open' in ONLY:
+        for key in SCEN:
+            if key == 's05':
+                continue
+            S, filt = open_variant(key)
+            if filt:
+                filter_file(S, **filt)
+            print(f'{S:32s}', {p: n for p, n in written.get(S, {}).items()}, '| filter:', 'own' if filt else 'base')
     print('APPLIED' if APPLY else 'DRY RUN (use --apply)')
