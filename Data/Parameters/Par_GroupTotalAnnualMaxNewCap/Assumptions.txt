@@ -1,0 +1,15 @@
+Par_GroupTotalAnnualMaxNewCap - assumptions
+
+RooftopPV x USA (added 2026-09-24, wave-3 fix, review finding N1)
+- Subset RooftopPV = P_PV_Rooftop_Commercial (Par_TagTechnologyToSubsets). Residential rooftop is forbidden in the NA data,
+  so this technology carries all US distributed PV.
+- Purpose: rooftop PV had no pipeline minimum and no build-rate limit (only the flat restool potential), so the model used
+  it as an uncapped bypass of the utility-PV pipeline funnel (PJM 16.8 GW/yr, SERC 12.7 GW/yr 2026-31, ~31 GW/yr US =
+  4x the US record). Per-technology investment caps are not a data sheet in the model, hence a group cap.
+- Values: 7.0 GW/yr 2026-2030, linear to 10.0 GW/yr in 2040; 2025 unconstrained (base year).
+  Source: EIA Today in Energy 2023-09-11 (small-scale additions 6.4 GW in 2022 = record, 39.5 GW total;
+  Data/Sources/EIA2023_SmallScaleSolar_TodayInEnergy_60341.html) and EIA STEO Between the Lines 2023-09-12
+  (44 GW Jun-2023 -> 55 GW end-2024, i.e. ~7.7 GW/yr; Data/Sources/EIA2023_STEO_SmallScaleSolar_Sep2023.html).
+  The growth to 10 GW/yr by 2040 is an assumption (no EIA long-term series), flagged as such.
+- National cap only; the regional split is left to the model. Canada keeps its own CER rooftop path (not in USA).
+- Full-year rows: a subset row-set with missing years would be read as 0.
