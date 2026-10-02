@@ -84,3 +84,17 @@ Units: 1 Bcf = 1.094 PJ (1,037 Btu/cf); 1 Bcf/d = 399.4 PJ/yr = 12.66 GW-th; EUR
 Decisions (user, 2026-09-15): Z_Import_Gas physical-only; deliverability cap
 (Par_FuelUseRateLimit) active for NewEngland/California/NewYork; non-power demand
 follows an AEO2026-type blended trajectory (+5.4 % by 2040, proxy); v6-freeze basis.
+
+Wave 4 (2026-10-02): NA Hub market-intelligence feedback ("Input Scenarios (v3)", docs/proposals/scenario_results of the model repo)
+- s01 EV: the hub sizes the full snap-back at +16-21 TWh/yr by 2030 (BEV share ~23 % vs ~10 %; hybrids add no load).
+  Power_BEVs = FEL path + 20 TWh in 2030 with the AEO2026-upside shape after 2030 (about +50 TWh in 2040); Canada base.
+- s05 political brakes: "delay, not destruction" - the DC increment above 2026 is shifted 2 years (ERCOT and New York 3:
+  Texas audit + TCEQ permit halt, NY moratorium) and only the credible tranche is kept (55 %; ERCOT 66 %); Canada base.
+- s12 AI overbuild: speculative tranche only - of 182 GW planned for 2026-30 ~101 GW is credible (55 %, Currence/Jefferies);
+  ERCOT TSP 218 vs ERCOT-adjusted 145 GW (66 %); flat 2031-32 (capex digestion, Piper Sandler); FEL growth after; Canada base.
+- s13 reindustrialization: ~30 GW of new US load by 2035 (TransAlta via the hub) = 236 TWh at 90 % LF, flat after, on the
+  wave-3 regional pattern; plus Starbase Louisiana 2 GW (SERC, 2029-35), Starbase TX + chip plant 2 GW (ERCOT, 2028-33),
+  Permian oil & gas electrification 1.6 GW at 0.8 LF (SPP, by 2032; SPS summer peak +32 %). Point-load sizes are assumptions.
+- s15 affordability / cost allocation (new): large-load tariffs with deposits, collateral and ramp schedules delay the
+  grid-connected DC increment by one year (US); Canada base.
+- s10 climate: relocation share 0 % (2035) / 5 % (2040) instead of 10/20 % (relocation lags beyond the MEP27 horizon).

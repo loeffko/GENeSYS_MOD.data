@@ -38,8 +38,8 @@ NA = US + ['Canada']
 YEARS = list(range(2025, 2041))
 TWH = 3.6                      # PJ per TWh
 WHO = 'Konstantin Loffler <kl@wip.tu-berlin.de>'
-TODAY = '2026-09-24'
-PLAN = 'NA_scenario_plan_2026-09-18_v3.xlsx (Assumptions sheet)'
+TODAY = '2026-10-02'
+PLAN = 'FEEDBACK_PLAN_wave4_2026-10-02.md (wave 4; waves 1-3: NA_scenario_plan_2026-09-18_v4.xlsx)'
 USD = 0.925                    # EUR per USD (EUR2023)
 GAS_TECHS = ['P_Gas_CCGT', 'P_Gas_CCGT_Residual', 'P_Gas_OCGT', 'P_Gas_Steam', 'P_Gas_Engines']
 
@@ -469,10 +469,15 @@ def base_additions():
 # ---------------------------------------------------------------- scenario blocks
 def s01_ev():
     S = 'NorthAmerica_s01_ev'
-    src = 'S1 EV comeback: EIA AEO2026 reference transport electricity 146/408/624 TWh (2030/35/40), base to 2027; Canada CER EF2026 net-zero 29/72/125 TWh'
-    us = blend_from_base('Power_BEVs', {2030: 146, 2035: 408, 2040: 624})
-    ca = {2027: dem('Power_BEVs', 'Canada', 2027) / TWH, 2030: 29, 2035: 72, 2040: 125}
-    demand_rows(S, 'Power_BEVs', scale_path('Power_BEVs', us, canada=ca), src)
+    # wave 4 (NA Hub): even the full snap-back adds only ~16-21 TWh/yr by 2030 (BEV share ~23 % vs ~10 %; hybrids do
+    # not plug in). Keep the AEO2026 upside shape but scale it to +20 TWh in 2030 (about +50 TWh in 2040); Canada base.
+    src = 'S1 EV comeback (wave 4): NA Hub sizing +20 TWh in 2030 (BEV share 23 % vs 10 % baseline; Cox Automotive / Urban Science via NA Hub), AEO2026-shaped upside after 2030; Canada base'
+    aeo = blend_from_base('Power_BEVs', {2030: 146, 2035: 408, 2040: 624})
+    base_us = {y: sum(dem('Power_BEVs', r, y) for r in US) / TWH for y in YEARS}
+    up = {y: max(interp(aeo, y) - base_us[y], 0.0) for y in YEARS if y >= 2028}
+    k = 20.0 / up[2030]
+    us = {y: base_us[y] + k * up[y] for y in up}
+    demand_rows(S, 'Power_BEVs', scale_path('Power_BEVs', us), src)
 
 
 def s02_h2():
@@ -519,15 +524,18 @@ def s04_space():
 
 def s05_brakes():
     S = 'NorthAmerica_s05_brakes'
-    mult = {'ERCOT': lambda y: 0.3 if y <= 2030 else 0.6, 'California': lambda y: .5, 'NewYork': lambda y: .5, 'NewEngland': lambda y: .5,
-            'PJM': lambda y: .7, 'MISO': lambda y: .7, 'SERC': lambda y: .7, 'WECC': lambda y: .8, 'SPP': lambda y: .9, 'Canada': lambda y: 1.0}
+    # wave 4 (NA Hub): "delay, not destruction" plus the speculative tranche only - the DC increment above 2026 is
+    # shifted 2 years (ERCOT / New York 3: Texas audit + permit halt, NY moratorium) and only the credible tranche is
+    # kept (55 %; ERCOT 66 % = ERCOT-adjusted 145 vs TSP 218 GW; Currence / Jefferies via NA Hub); Canada base
+    delay = {r: 2 for r in US}; delay.update({'ERCOT': 3, 'NewYork': 3})
+    cred = {r: 0.55 for r in US}; cred['ERCOT'] = 0.66
     vals = {}
-    for r in NA:
+    for r in US:
         d26 = dem('Power_DataCenter', r, 2026)
         for y in YEARS:
             if y >= 2027:
-                vals.setdefault(r, {})[y] = d26 + mult[r](y) * (dem('Power_DataCenter', r, y) - d26)
-    demand_rows(S, 'Power_DataCenter', vals, 'S5 political brakes: regional multipliers on the base DC increment after 2026 (ERCOT anchored on BNEF ~8 GW adds through 2030 after the Aug-2026 interconnection pause; NY EO 62; moratoria leaders CA/GA/FL/NJ/NC)')
+                vals.setdefault(r, {})[y] = d26 + cred[r] * (dem('Power_DataCenter', r, max(y - delay[r], 2026)) - d26)
+    demand_rows(S, 'Power_DataCenter', vals, 'S5 political brakes (wave 4): DC increment above 2026 delayed 2 years (ERCOT/NY 3: Texas audit + TCEQ permit halt, NY moratorium) and cut to the credible tranche (55 %, ERCOT 66 %; NA Hub / Currence / Jefferies); Canada base')
     gc = read_base('Par_GroupTotalAnnualMaxNewCap')
     base_cap = {(r.TechnologySubset, r.RegionSubset, r.Year): num(r.Value) for r in gc.itertuples(index=False)}
     rows = [{'TechnologySubset': 'GasPlants', 'RegionSubset': 'USA', 'Year': str(y), 'Value': fmt(min(10.0, base_cap.get(('GasPlants', 'USA', str(y)), 999999) or 999999), 3), 'Unit': 'GW'} for y in range(2027, 2032)]
@@ -559,33 +567,11 @@ def s05_brakes():
 
 
 def s06_hormuz():
-    S = 'NorthAmerica_s06_hormuz'
-    # macro leg: capex x1.35 (2026-28: +15 % equipment, +18 % = WACC +150 bp via CRF), x1.18 (2029-30), x1.09 (2031), 1.0 from 2032
-    m = {2028: 1.35, 2029: 1.35, 2030: 1.18, 2031: 1.09}   # 2026-27 vintages are procured (reviewer check 2026-09-23): uplift from 2028
-    cc = read_base('Par_CapitalCost')
-    techs = sorted({t for t in cc.Technology.unique() if t.startswith(('P_', 'D_', 'CHP_'))})
-    cost_multiplier(S, 'Par_CapitalCost', 'Technology', techs, m, 'S6 Hormuz macro leg (2028-31 vintages; 2026-27 already procured): equipment inflation +15 % (turbines +195 % vs 2019, CT in-service 562 -> 728-1,544 USD/kW) and WACC +150 bp 2026-30 folded into capex via CRF(6.5 %)/CRF(5 %) = 1.18, decaying to 1.0 by 2032')
-    cs = read_base('Par_CapitalCostStorage')
-    cost_multiplier(S, 'Par_CapitalCostStorage', 'Storage', sorted(cs.Storage.unique()), m, 'S6 Hormuz macro leg (storage energy component), same multiplier', storage=True)
-    copy_overlay(S, 'NorthAmerica_grid_low', 'Par_AnnualMaxTradeCapacity', 'S6: IC growth capped at 0.75 %/yr 2026-30 (utility capex freeze proxy; ~60 % of solar / 50 % of battery projects delayed early 2026)', year_filter=lambda y: 2026 <= y <= 2030)
-    # demand: recession FEL 2026-2030, blend back to base by 2033
-    rec = pd.read_csv(sub_path('Par_SpecifiedAnnualDemand', 'NorthAmerica_recession'), dtype=str, keep_default_na=False, encoding='utf-8-sig')
-    rec.columns = [c.strip() for c in rec.columns]
-    vals = {}
-    for r in rec.itertuples(index=False):
-        if not r.Year.isdigit() or r.Region not in NA:
-            continue
-        y = int(r.Year); v = num(r.Value); b = dem(r.Fuel, r.Region, y)
-        if v is None:
-            continue
-        if 2026 <= y <= 2030:
-            vals.setdefault(r.Fuel, {}).setdefault(r.Region, {})[y] = v
-        elif 2031 <= y <= 2032:
-            w = (y - 2030) / 3
-            vals.setdefault(r.Fuel, {}).setdefault(r.Region, {})[y] = v + (b - v) * w
-    for f, d in vals.items():
-        demand_rows(S, f, d, 'S6: recession-FEL demand 2026-30 (Dallas Fed: 3-quarter closure +1.1 pp PCE, oil-shock analogues 1974/1982/2009), blended back to base by 2033')
-    # LNG / fuel leg -> separate allFuels workbook (Henry Hub +10 % 2026, +2 USD/MMBtu 2027-29, +1 in 2030), written by build_s06_allfuels()
+    """wave 4 (NA Hub): Hormuz is a live condition; utility capex plans have risen, not frozen -> only the fuel-price
+    channel is kept (Henry-Hub uplift 2026-30 in the s06 allFuels workbook, build_s06_allfuels). The capex/WACC
+    uplift, the IC cap and the recession demand of waves 1-3 are dropped. No RegularParameters overlay: the run uses
+    the base workbook with allFuels_v6_s06; the same workbook swap gives the _hormuz variants of s03/s05/s12/s14."""
+    print('  s06: fuel-only (allFuels_v6_s06 workbook), no overlay rows')
 
 
 def build_s06_allfuels(src_xlsx, dst_xlsx):
@@ -608,8 +594,20 @@ def build_s06_allfuels(src_xlsx, dst_xlsx):
     return n
 
 
-def s07_tech():
-    S = 'NorthAmerica_s07_tech'
+def s07a_ldes():
+    S = 'NorthAmerica_s07a_ldes'
+    # wave 4 (NA Hub): split - LDES is a 2027-31 question that erodes peaking economics
+    # iron-air: enable from 2028 with a NA build cap; Li-ion optimistic reused
+    ov(S, 'Par_TotalAnnualMaxCapacity', [{'Region': r, 'Technology': 'D_IronAir', 'Year': str(y), 'Value': '0' if y < 2027 else '999999', 'Unit': 'GW'} for r in NA for y in YEARS], 'S7a iron-air available from 2027')
+    ov(S, 'Par_GroupTotalAnnualMaxNewCap', group_cap_rows('IronAir', 'NorthAmerica', {2025: 0, 2026: 0, 2027: 0.5, 2028: 1.0, 2029: 2.0, 2030: 3.0, 2031: 4.0, **{y: 5.0 for y in range(2032, 2041)}}), 'S7a iron-air build cap: Form pipeline >65 GWh incl. Xcel/Google 30 GWh and Crusoe 12 GWh from 2027 -> 0.5/1/2/3/4/5 GW/yr from 2027')
+    for par in ('Par_CapitalCost', 'Par_CapitalCostStorage', 'Par_StorageE2PRatio'):
+        copy_overlay(S, 'NorthAmerica_bess_optimistic', par, 'S7a: Li-ion optimistic cost + 7 h duration')
+    release_gas_minima(S, 2031, 'S7a: no forced gas builds after 2030 (guardrail minimum = residual from 2031; the breakthrough displaces the speculative gas pipeline; build-rate caps unchanged)')
+
+
+def s07b_fusion():
+    S = 'NorthAmerica_s07b_fusion'
+    # wave 4 (NA Hub): split - fusion and SMR are post-2032 and erode baseload
     # SMR fast: max 2/5/15/40 GW (2030/32/35/40), base 2040 regional shares; capex INL advanced -> Liftoff NOAK
     mx = read_base('Par_TotalAnnualMaxCapacity')
     smr40 = {r.Region: num(r.Value) or 0.0 for r in mx[(mx.Technology == 'P_Nuclear_SMR') & (mx.Year == '2040') & mx.Region.isin(NA)].itertuples(index=False)}
@@ -623,11 +621,6 @@ def s07_tech():
     ov(S, 'Par_TotalAnnualMaxCapacity', rows, 'S7 SMR fast: available 2030, 2/5/15/40 GW (2030/32/35/40) split by the base 2040 regional SMR potential (Darlington, Natrium, Clinch River, Hermes 2; TVA/ENTRA1 6 GW, Meta/Google/Amazon deals)')
     capex = {2030: 5500 * USD, 2035: 4300 * USD, 2040: 3600 * USD}
     ov(S, 'Par_CapitalCost', [{'Region': 'World', 'Technology': 'P_Nuclear_SMR', 'Year': str(y), 'Value': fmt(interp(capex, y), 1), 'Unit': 'MEUR/GW'} for y in YEARS], 'S7 SMR capex: INL/NREL ATB 2025 advanced BOAK 5,500 USD/kW (2030) with 9.5 % learning to the DOE Liftoff NOAK ~3,600 USD/kW by 2040 (base 9,091 EUR/kW flat)')
-    # iron-air: enable from 2028 with a NA build cap; Li-ion optimistic reused
-    ov(S, 'Par_TotalAnnualMaxCapacity', [{'Region': r, 'Technology': 'D_IronAir', 'Year': str(y), 'Value': '0' if y < 2028 else '999999', 'Unit': 'GW'} for r in NA for y in YEARS], 'S7 iron-air available from 2028')
-    ov(S, 'Par_GroupTotalAnnualMaxNewCap', group_cap_rows('IronAir', 'NorthAmerica', {2025: 0, 2026: 0, 2027: 0, 2028: 0.5, 2029: 1.0, 2030: 2.0, 2031: 3.0, **{y: 5.0 for y in range(2032, 2041)}}), 'S7 iron-air build cap: Weirton 500 MW/yr by 2028, Google/Xcel 300 MW/30 GWh, pipeline 750 MW / 75 GWh -> 0.5/1/2/3/5 GW/yr')
-    for par in ('Par_CapitalCost', 'Par_CapitalCostStorage', 'Par_StorageE2PRatio'):
-        copy_overlay(S, 'NorthAmerica_bess_optimistic', par, 'S7: Li-ion optimistic cost + 7 h duration')
     # fusion (bull ramp, 100 % located in NA): min = max = cumulative backed ramp
     shares = {'PJM': .4, 'WECC': .2, 'SERC': .2, 'California': .1, 'ERCOT': .1}
     ramp = {2034: 2.0, 2036: 4.25, 2038: 6.75, 2040: 9.5}
@@ -637,6 +630,7 @@ def s07_tech():
     rows_max += [{'Region': r, 'Technology': 'P_Fusion', 'Year': str(y), 'Value': '0', 'Unit': 'GW'} for r in NA if r not in shares for y in YEARS]
     ov(S, 'Par_TotalAnnualMaxCapacity', rows_max, 'S7 fusion: Fusion_Market_Model_v09 bull backed ramp (5 developers x 400/450/500/550 MW at 2034/36/38/40 = 2.0/4.25/6.75/9.5 GW cumulative), 100 % located in NA at announced sites (CFS VA, Helion WA, Type One TN, Pacific Fusion CA, ERCOT)')
     ov(S, 'Par_TotalAnnualMinCapacity', [x for x in rows_max if float(x['Value']) > 0], 'S7 fusion: the backed ramp is must-build (workbook logic)')
+    release_gas_minima(S, 2031, 'S7b: no forced gas builds after 2030 (guardrail minimum = residual from 2031; the breakthrough displaces the speculative gas pipeline; build-rate caps unchanged)')
 
 
 def s08_canada():
@@ -660,7 +654,7 @@ def s10_climate():
     S = 'NorthAmerica_s10_climate'
     donors = ['SERC', 'ERCOT', 'California']; receivers = ['MISO', 'PJM', 'NewEngland', 'NewYork', 'WECC']
     rshare = general_share(receivers)
-    s = {2029: 0, 2035: .10, 2040: .20}
+    s = {2029: 0, 2035: 0.0, 2040: .05}   # wave 4 (NA Hub): relocation lags beyond the MEP27 horizon
     cool = {2029: 0, 2040: .08}
     vals = {'Power_General': {}, 'Power_DataCenter': {}}
     for y in YEARS:
@@ -681,7 +675,7 @@ def s10_climate():
         for r in receivers:
             vals['Power_General'][r][y] += moved['Power_General'] * rshare[r]
             vals['Power_DataCenter'][r][y] += moved['Power_DataCenter'] * rshare[r]
-    src = 'S10 Great Reshuffle: 10 % (2035) / 20 % (2040) of SERC+ERCOT+California General and DC load re-allocated to MISO/PJM/NewEngland/NewYork/WECC by load share (First Street: 55 M movers by 2055); Sunbelt cooling +8 % by 2040 (CDD +10-80 %); rebuild load +1 %'
+    src = 'S10 Great Reshuffle (wave 4): 0 % (2035) / 5 % (2040) of SERC+ERCOT+California General and DC load re-allocated to MISO/PJM/NewEngland/NewYork/WECC by load share (First Street: 55 M movers by 2055); Sunbelt cooling +8 % by 2040 (CDD +10-80 %); rebuild load +1 %'
     for f, d in vals.items():
         demand_rows(S, f, d, src)
     # coastal IC cost x1.5 (no year dimension), coastal thermal availability -5 pp from 2030
@@ -723,7 +717,7 @@ def s11_feoc():
     cc = read_base('Par_CapitalCost'); pv = sorted({t for t in cc.Technology.unique() if t.startswith('P_PV')})
     cost_multiplier(S, 'Par_CapitalCost', 'Technology', pv, {y: 1.02 for y in range(2026, 2031)}, 'S11 FEOC: western inverter premium ~2 % of PV capex 2026-30 (Wood Mackenzie)')
     tc = read_base('Par_TradeCapacityGrowthCosts')
-    ov(S, 'Par_TradeCapacityGrowthCosts', [{'Region': r.Region, 'Region2': r.Region2, 'Fuel': r.Fuel, 'Value': fmt(num(r.Value) * 1.2, 6), 'Unit': 'M€/GWkm'} for r in tc.itertuples(index=False) if r.Fuel == 'Power' and r.Region in NA and r.Region2 in NA and num(r.Value) is not None], 'S11 FEOC: transformer prices +77 % / lead times 128-144 wk -> IC expansion cost x1.2 (whole horizon; parameter has no year dimension, mean of x1.30 2026-30 -> x1.10 2035)')
+    ov(S, 'Par_TradeCapacityGrowthCosts', [{'Region': r.Region, 'Region2': r.Region2, 'Fuel': r.Fuel, 'Value': fmt(num(r.Value) * 1.2 * 1.15, 6), 'Unit': 'M€/GWkm'} for r in tc.itertuples(index=False) if r.Fuel == 'Power' and r.Region in NA and r.Region2 in NA and num(r.Value) is not None], 'S11 FEOC + tariffs (wave 4): transformer prices +77 % / lead times 128-144 wk -> IC expansion cost x1.2, times x1.15 for the Section 232 transformer tariff (NA Hub proposal D); whole horizon, parameter has no year dimension')
     ov(S, 'Par_GroupTotalAnnualMaxNewCap', group_cap_rows('LiIon', 'USA', {2026: 17.0, 2027: 17.0}), 'S11 FEOC: US Li-ion additions capped at 17 GW/yr 2026-27 (WoodMac/ACP: 2026 below the 18.9 GW of 2025 for lack of FEOC-compliant BESS)')
     # the base Li-ion minimum path (US Pools storage trajectory) forces more than 17 GW/yr in 2026-27:
     # scale the 2026/2027 minimum increments so the forced build fits under the cap (2028+ minima unchanged)
@@ -744,8 +738,20 @@ def s11_feoc():
 
 def s12_overbuild():
     S = 'NorthAmerica_s12_overbuild'
-    us = blend_from_base('Power_DataCenter', {2030: 540, 2035: 620, 2040: 690})
-    demand_rows(S, 'Power_DataCenter', scale_path('Power_DataCenter', us, canada='ratio'), 'S12 AI overbuild correction: Grid Strategies (utility DC forecasts overstated ~25 GW / 40 %) ~ LBNL 2026 low case 521 TWh in 2030, then +2 %/yr; Canada scaled with the US ratio')
+    # wave 4 (NA Hub): stress the speculative tranche only - of 182 GW planned for 2026-30 only ~101 GW is credible
+    # (55 %; ERCOT TSP 218 vs ERCOT-adjusted 145 GW = 66 %), hyperscaler capex digestion with negative growth 2031-32,
+    # growth resumes at the FEL rate after; Canada base (US scope)
+    cred = {r: 0.55 for r in US}; cred['ERCOT'] = 0.66
+    vals = {}
+    for r in US:
+        d26 = dem('Power_DataCenter', r, 2026)
+        path = {y: d26 + cred[r] * (dem('Power_DataCenter', r, y) - d26) for y in range(2027, 2031)}
+        path[2031] = path[2030]; path[2032] = path[2030]
+        for y in range(2033, 2041):
+            path[y] = path[2032] + (dem('Power_DataCenter', r, y) - dem('Power_DataCenter', r, 2032))
+        vals[r] = path
+    demand_rows(S, 'Power_DataCenter', vals, 'S12 AI overbuild (wave 4): credible tranche only (55 % of the 2026-30 DC increment, ERCOT 66 %: Currence / Jefferies / Greenwich via NA Hub), flat 2031-32 (capex digestion, Piper Sandler), FEL growth rate after; Canada base')
+    release_gas_minima(S, 2031, 'S12: no forced gas builds after 2030 (guardrail minimum = residual from 2031; the overbuild correction cancels the speculative gas pipeline; build-rate caps unchanged)')
 
 
 def s13_reindustrial():
@@ -759,7 +765,21 @@ def s13_reindustrial():
         'MISO': {2027: 0, 2030: 3, 2035: 6, 2040: 8},            # steel EAF/DRI, battery, defense (stylised)
         'SERC': {2027: 0, 2030: 3, 2035: 6, 2040: 8},
     }
-    flat_adder(S, 'Power_LargeLoads', adders, 'S13 reindustrialization: fabs ~3.6 TWh/yr per 100k-wafer/month fab (TSMC 37.1 kWh per 12-inch wafer mask layer x ~80 layers), Century/EGA smelter, 25 % realisation of the ERCOT non-DC queue (~45 GW), stylised steel/battery/defense adders')
+    # wave 4 (NA Hub): elevate - up to ~30 GW of new US load from reindustrialization (TransAlta; 1/3-1/2 of non-AI
+    # growth), i.e. ~236 TWh at 90 % LF by 2035, flat after; the wave-3 regional pattern is kept and scaled
+    target35 = 30.0 * 8.76 * 0.9
+    k = target35 / sum(interp(p, 2035) for p in adders.values())
+    scaled = {r: {y: interp(p, min(y, 2035)) * k for y in YEARS} for r, p in adders.items()}
+    # named point loads: Starbase Louisiana (Pecan Island; construction 2027, first launch 2029; own methane
+    # production and power = propellant/industrial load), Starbase TX + central-Texas chip plant, Permian oil & gas
+    # electrification (SPS summer peak +32 %). 2 GW each at 0.9 LF, Permian +1.6 GW at 0.8 LF (NA Hub; sizes assumed)
+    pts = {'SERC': {2028: 0, 2029: 3.0, 2032: 10.0, 2035: 2 * 8.76 * 0.9},
+           'ERCOT': {2027: 0, 2028: 2.0, 2031: 8.0, 2033: 2 * 8.76 * 0.9},
+           'SPP': {2027: 0, 2032: 1.6 * 8.76 * 0.8}}
+    for r, p in pts.items():
+        for y in YEARS:
+            scaled.setdefault(r, {})[y] = scaled[r].get(y, 0.0) + interp(p, y)
+    flat_adder(S, 'Power_LargeLoads', scaled, 'S13 reindustrialization (wave 4): ~30 GW by 2035 (TransAlta via NA Hub; 236 TWh at 90 % LF, flat after) on the wave-3 regional pattern (fabs AZ/ID/NY/TX, Century/EGA smelter, ERCOT non-DC queue, stylised steel/battery/defense) + Starbase Louisiana 2 GW (SERC), Starbase TX + chip plant 2 GW (ERCOT), Permian O&G electrification 1.6 GW (SPP)')
     ov(S, 'Par_TagFuelToTimeseries', [{'Fuel': 'Power_LargeLoads', 'Profile': 'POWER_DATACENTER', 'Value': '1', 'Unit': 'Binary'}], 'flat profile for large loads')
 
 
@@ -813,6 +833,34 @@ def s14_decarb():
             else:
                 rows.append({'Region': r, 'Emission': 'CO2', 'Year': str(y), 'Value': fmt(e25 / 1000 * (1 - red * (y - 2028) / 12), 5), 'Unit': 'Gigatonnes'})
     ov(S, 'Par_RegionalAnnualEmissionLimit', rows, 'S14: state 100 %-clean targets as regional power-CO2 caps (NY 2040, CT 2040, NJ 2035, CA 2045; PJM partial): -80/-70/-60/-40 % by 2040 vs the v6c 2025 level, linear from 2029')
+    release_gas_minima(S, 2031, 'S14: no forced gas builds after 2030 (guardrail minimum = residual from 2031; a 90 USD/t policy world cancels the speculative gas pipeline; build-rate caps unchanged)')
+
+
+def s15_afford():
+    S = 'NorthAmerica_s15_afford'
+    # wave 4 (NA Hub proposal A, "affordability backlash and the large-load cost-allocation fight"):
+    # (1) large-load tariffs with deposits, collateral and ramp schedules (PA PUC, Texas, Louisiana EO, Ratepayer
+    #     Protection Act H.R. 9340, FERC 206) delay the grid-connected DC increment by one year (US; Canada base)
+    vals = {}
+    for r in US:
+        for y in YEARS:
+            if y >= 2027:
+                vals.setdefault(r, {})[y] = dem('Power_DataCenter', r, y - 1)
+    demand_rows(S, 'Power_DataCenter', vals, 'S15 affordability / cost allocation: large-load tariffs with deposits, collateral and ramp schedules delay the grid-connected DC increment by one year (NA Hub proposal A); Canada base')
+    # (2) ratepayer protection limits the socialised transmission build: IC growth = v6 grid_low path (0.75 %/yr)
+    copy_overlay(S, 'NorthAmerica_grid_low', 'Par_AnnualMaxTradeCapacity', 'S15: ratepayer protection limits socialised transmission build - interconnector growth capped at 0.75 %/yr (v6 grid_low path)')
+    # (3) bring-your-own-generation (40 % of the DC increment served by dedicated gas) is an ownership shift: in a
+    #     nodal model it adds no capacity beyond the announced-pipeline minimum (which already exceeds the
+    #     BYOG-equivalent) -> reported as a metric in the analysis, not forced here
+
+
+def s16_gridhigh():
+    S = 'NorthAmerica_s16_gridhigh'
+    # wave 4 (NA Hub proposal F, transmission supercycle): the v6 grid_high interconnector path only (aggregate IC
+    # budget 2x the 2025 installed by 2040 with the corridor funnel); approved programmes as the narrative anchor
+    # (MISO Tranche 2.1 22 bn, PJM 11.8 bn, SPP 9-10 bn USD). The gas-funnel part of grid_high is NOT used.
+    for par in ('Par_AnnualMaxTradeCapacity', 'Par_AnnualMinTradeCapacity', 'Par_GroupAnnualMaxTradeCapacity'):
+        copy_overlay(S, 'NorthAmerica_grid_high', par, 'S16 transmission supercycle: v6 grid_high interconnector path (aggregate IC budget 2x installed by 2040; MISO Tranche 2.1 / PJM RTEP / SPP approved programmes as the anchor, NA Hub proposal F)')
 
 
 SCEN = {
@@ -822,7 +870,8 @@ SCEN = {
     's04': ('NorthAmerica_s04_space', s04_space, dict(fuels=['Power_LargeLoads'], modes=[7])),
     's05': ('NorthAmerica_s05_brakes', s05_brakes, None),
     's06': ('NorthAmerica_s06_hormuz', s06_hormuz, None),
-    's07': ('NorthAmerica_s07_tech', s07_tech, dict(techs=['P_Fusion', 'D_IronAir', 'P_Nuclear_SMR'], storages=['S_IronAir'])),
+    's07a': ('NorthAmerica_s07a_ldes', s07a_ldes, dict(techs=['D_IronAir'], storages=['S_IronAir'])),
+    's07b': ('NorthAmerica_s07b_fusion', s07b_fusion, dict(techs=['P_Fusion', 'P_Nuclear_SMR'])),
     's08': ('NorthAmerica_s08_canada', s08_canada, None),
     's09': ('NorthAmerica_s09_water', s09_water, dict(fuels=['Power_LargeLoads'], modes=[7])),
     's10': ('NorthAmerica_s10_climate', s10_climate, None),
@@ -830,6 +879,8 @@ SCEN = {
     's12': ('NorthAmerica_s12_overbuild', s12_overbuild, None),
     's13': ('NorthAmerica_s13_reindustrial', s13_reindustrial, dict(fuels=['Power_LargeLoads'], modes=[7])),
     's14': ('NorthAmerica_s14_decarb', s14_decarb, None),
+    's15': ('NorthAmerica_s15_afford', s15_afford, None),
+    's16': ('NorthAmerica_s16_gridhigh', s16_gridhigh, None),
 }
 
 if __name__ == '__main__':
