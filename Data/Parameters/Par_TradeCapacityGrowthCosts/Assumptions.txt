@@ -80,3 +80,6 @@ Units: 1 Bcf = 1.094 PJ (1,037 Btu/cf); 1 Bcf/d = 399.4 PJ/yr = 12.66 GW-th; EUR
 Decisions (user, 2026-09-15): Z_Import_Gas physical-only; deliverability cap
 (Par_FuelUseRateLimit) active for NewEngland/California/NewYork; non-power demand
 follows an AEO2026-type blended trajectory (+5.4 % by 2040, proxy); v6-freeze basis.
+
+Wave 4 (2026-10-02): s11 FEOC + tariffs - the FEOC factor x1.2 is multiplied by x1.15 for the Section 232 tariff on
+imported large power transformers (15 %, 10 % with >= 85 % domestic steel; NA Hub proposal D). Whole horizon (no year dim).
