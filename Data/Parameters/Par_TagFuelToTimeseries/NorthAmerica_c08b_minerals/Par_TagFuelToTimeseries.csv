@@ -1,0 +1,2 @@
+Fuel,Profile,Value,,Unit,Source,Updated at,Updated by
+Power_LargeLoads,POWER_DATACENTER,1,,Binary,"flat profile for large loads; CA_scenario_plan_2026-10-04.xlsx (Canada set, priority 1)",2026-10-05,Konstantin Loffler <kl@wip.tu-berlin.de>
