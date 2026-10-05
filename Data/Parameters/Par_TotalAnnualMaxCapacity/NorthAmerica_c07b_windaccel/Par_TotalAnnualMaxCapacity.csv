@@ -1,0 +1,4 @@
+Region,Technology,Year,Value,,Unit,Source,Updated at,Updated by
+Canada,P_Wind_Onshore_Avg,2028,29.8504,,GW,"C7B: corridor ceiling lifted to the accelerated floor (+2 %) where the base ceiling is below it; CA_scenario_plan_2026-10-04.xlsx (Canada set, priority 1)",2026-10-05,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Onshore_Avg,2029,37.8752,,GW,"C7B: corridor ceiling lifted to the accelerated floor (+2 %) where the base ceiling is below it; CA_scenario_plan_2026-10-04.xlsx (Canada set, priority 1)",2026-10-05,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Wind_Onshore_Avg,2030,45.9000,,GW,"C7B: corridor ceiling lifted to the accelerated floor (+2 %) where the base ceiling is below it; CA_scenario_plan_2026-10-04.xlsx (Canada set, priority 1)",2026-10-05,Konstantin Loffler <kl@wip.tu-berlin.de>
