@@ -115,8 +115,8 @@ def c01a_gridmix():
             continue
         need = interp(target, y) - res_cc.get(y, 0.0) - sum(o.get(y, 0.0) for o in others.values())
         v = max(mn.get(y, 0.0), need)
-        if v > mx[y]:
-            clamped.append(y); v = mx[y]
+        if v > mx[y] * 0.999:
+            clamped.append(y); v = mx[y] * 0.999      # just under the ceiling (a rounded minimum must not exceed the maximum)
         if v > mn.get(y, 0.0) + 1e-6:
             new[y] = v
     print('   c01a new-CCGT minimum (GW):', {y: round(v, 2) for y, v in new.items() if y in (2026, 2028, 2030, 2035, 2040)}, '| held at the corridor ceiling in', clamped)
