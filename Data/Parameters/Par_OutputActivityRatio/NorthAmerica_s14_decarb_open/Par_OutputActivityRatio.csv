@@ -1,0 +1,7 @@
+Region,Technology,Fuel,Mode_of_operation,Year,Value,,Unit,Source,Updated at,Updated by
+World,P_Gas_CCGT,Power,2,All,0,,PJ,s14 definition (rows reused from NorthAmerica_s14_decarb); NA_scenario_plan_2026-09-18_v3.xlsx (Assumptions sheet),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Gas_CCGT_Residual,Power,2,All,0,,PJ,s14 definition (rows reused from NorthAmerica_s14_decarb); NA_scenario_plan_2026-09-18_v3.xlsx (Assumptions sheet),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Gas_OCGT,Power,2,All,0,,PJ,s14 definition (rows reused from NorthAmerica_s14_decarb); NA_scenario_plan_2026-09-18_v3.xlsx (Assumptions sheet),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Gas_Steam,Power,2,All,0,,PJ,s14 definition (rows reused from NorthAmerica_s14_decarb); NA_scenario_plan_2026-09-18_v3.xlsx (Assumptions sheet),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Gas_Engines,Power,2,All,0,,PJ,s14 definition (rows reused from NorthAmerica_s14_decarb); NA_scenario_plan_2026-09-18_v3.xlsx (Assumptions sheet),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,CHP_Gas_CCGT_Natural,Power,2,All,0,,PJ,s14 definition (rows reused from NorthAmerica_s14_decarb); NA_scenario_plan_2026-09-18_v3.xlsx (Assumptions sheet),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>

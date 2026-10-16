@@ -1,2 +1,2 @@
 Fuel,Profile,Value,,Unit,Source,Updated at,Updated by
-Power_LargeLoads,POWER_DATACENTER,1,,Binary,flat profile for large loads; NA_scenario_plan_2026-09-18_v3.xlsx (Assumptions sheet),2026-09-23,Konstantin Loffler <kl@wip.tu-berlin.de>
+Power_LargeLoads,POWER_DATACENTER,1,,Binary,flat profile for large loads; FEEDBACK_PLAN_wave4_2026-10-02.md (wave 4; waves 1-3: NA_scenario_plan_2026-09-18_v4.xlsx),2026-10-02,Konstantin Loffler <kl@wip.tu-berlin.de>

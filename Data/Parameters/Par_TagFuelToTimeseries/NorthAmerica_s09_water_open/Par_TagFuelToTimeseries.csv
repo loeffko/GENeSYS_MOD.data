@@ -1,0 +1,2 @@
+Fuel,Profile,Value,,Unit,Source,Updated at,Updated by
+Power_LargeLoads,POWER_DATACENTER,1,,Binary,s09 definition (rows reused from NorthAmerica_s09_water); NA_scenario_plan_2026-09-18_v3.xlsx (Assumptions sheet),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>

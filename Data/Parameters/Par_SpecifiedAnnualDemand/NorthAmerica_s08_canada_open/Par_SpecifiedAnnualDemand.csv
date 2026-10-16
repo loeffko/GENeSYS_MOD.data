@@ -1,0 +1,14 @@
+Region,Fuel,Year,Value,,Unit,Source,Updated at,Updated by
+Canada,Power_DataCenter,2028,132.5514,,PJ,s08 definition (rows reused from NorthAmerica_s08_canada); NA_scenario_plan_2026-09-18_v3.xlsx (Assumptions sheet),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,Power_DataCenter,2029,140.0757,,PJ,s08 definition (rows reused from NorthAmerica_s08_canada); NA_scenario_plan_2026-09-18_v3.xlsx (Assumptions sheet),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,Power_DataCenter,2030,147.6000,,PJ,s08 definition (rows reused from NorthAmerica_s08_canada); NA_scenario_plan_2026-09-18_v3.xlsx (Assumptions sheet),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,Power_DataCenter,2031,211.6800,,PJ,s08 definition (rows reused from NorthAmerica_s08_canada); NA_scenario_plan_2026-09-18_v3.xlsx (Assumptions sheet),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,Power_DataCenter,2032,275.7600,,PJ,s08 definition (rows reused from NorthAmerica_s08_canada); NA_scenario_plan_2026-09-18_v3.xlsx (Assumptions sheet),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,Power_DataCenter,2033,339.8400,,PJ,s08 definition (rows reused from NorthAmerica_s08_canada); NA_scenario_plan_2026-09-18_v3.xlsx (Assumptions sheet),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,Power_DataCenter,2034,403.9200,,PJ,s08 definition (rows reused from NorthAmerica_s08_canada); NA_scenario_plan_2026-09-18_v3.xlsx (Assumptions sheet),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,Power_DataCenter,2035,468.0000,,PJ,s08 definition (rows reused from NorthAmerica_s08_canada); NA_scenario_plan_2026-09-18_v3.xlsx (Assumptions sheet),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,Power_DataCenter,2036,532.8000,,PJ,s08 definition (rows reused from NorthAmerica_s08_canada); NA_scenario_plan_2026-09-18_v3.xlsx (Assumptions sheet),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,Power_DataCenter,2037,597.6000,,PJ,s08 definition (rows reused from NorthAmerica_s08_canada); NA_scenario_plan_2026-09-18_v3.xlsx (Assumptions sheet),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,Power_DataCenter,2038,662.4000,,PJ,s08 definition (rows reused from NorthAmerica_s08_canada); NA_scenario_plan_2026-09-18_v3.xlsx (Assumptions sheet),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,Power_DataCenter,2039,727.2000,,PJ,s08 definition (rows reused from NorthAmerica_s08_canada); NA_scenario_plan_2026-09-18_v3.xlsx (Assumptions sheet),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,Power_DataCenter,2040,792.0000,,PJ,s08 definition (rows reused from NorthAmerica_s08_canada); NA_scenario_plan_2026-09-18_v3.xlsx (Assumptions sheet),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>

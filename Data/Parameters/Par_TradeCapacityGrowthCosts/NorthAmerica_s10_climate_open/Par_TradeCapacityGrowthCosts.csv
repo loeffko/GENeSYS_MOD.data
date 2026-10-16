@@ -1,0 +1,25 @@
+Region,Region2,Fuel,Value,,Unit,Source,Updated at,Updated by
+California,WECC,Power,2.250000,,M€/GWkm,s10 definition (rows reused from NorthAmerica_s10_climate); NA_scenario_plan_2026-09-18_v3.xlsx (Assumptions sheet),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,NewEngland,Power,2.250000,,M€/GWkm,s10 definition (rows reused from NorthAmerica_s10_climate); NA_scenario_plan_2026-09-18_v3.xlsx (Assumptions sheet),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,NewYork,Power,2.250000,,M€/GWkm,s10 definition (rows reused from NorthAmerica_s10_climate); NA_scenario_plan_2026-09-18_v3.xlsx (Assumptions sheet),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,MISO,Power,2.250000,,M€/GWkm,s10 definition (rows reused from NorthAmerica_s10_climate); NA_scenario_plan_2026-09-18_v3.xlsx (Assumptions sheet),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,SERC,Power,2.250000,,M€/GWkm,s10 definition (rows reused from NorthAmerica_s10_climate); NA_scenario_plan_2026-09-18_v3.xlsx (Assumptions sheet),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,SPP,Power,2.250000,,M€/GWkm,s10 definition (rows reused from NorthAmerica_s10_climate); NA_scenario_plan_2026-09-18_v3.xlsx (Assumptions sheet),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,WECC,Power,2.250000,,M€/GWkm,s10 definition (rows reused from NorthAmerica_s10_climate); NA_scenario_plan_2026-09-18_v3.xlsx (Assumptions sheet),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,ERCOT,Power,2.250000,,M€/GWkm,s10 definition (rows reused from NorthAmerica_s10_climate); NA_scenario_plan_2026-09-18_v3.xlsx (Assumptions sheet),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+MISO,SERC,Power,2.250000,,M€/GWkm,s10 definition (rows reused from NorthAmerica_s10_climate); NA_scenario_plan_2026-09-18_v3.xlsx (Assumptions sheet),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,Canada,Power,2.250000,,M€/GWkm,s10 definition (rows reused from NorthAmerica_s10_climate); NA_scenario_plan_2026-09-18_v3.xlsx (Assumptions sheet),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,NewYork,Power,2.250000,,M€/GWkm,s10 definition (rows reused from NorthAmerica_s10_climate); NA_scenario_plan_2026-09-18_v3.xlsx (Assumptions sheet),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,Canada,Power,2.250000,,M€/GWkm,s10 definition (rows reused from NorthAmerica_s10_climate); NA_scenario_plan_2026-09-18_v3.xlsx (Assumptions sheet),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,NewEngland,Power,2.250000,,M€/GWkm,s10 definition (rows reused from NorthAmerica_s10_climate); NA_scenario_plan_2026-09-18_v3.xlsx (Assumptions sheet),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,PJM,Power,2.250000,,M€/GWkm,s10 definition (rows reused from NorthAmerica_s10_climate); NA_scenario_plan_2026-09-18_v3.xlsx (Assumptions sheet),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,NewYork,Power,2.250000,,M€/GWkm,s10 definition (rows reused from NorthAmerica_s10_climate); NA_scenario_plan_2026-09-18_v3.xlsx (Assumptions sheet),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+PJM,SERC,Power,2.250000,,M€/GWkm,s10 definition (rows reused from NorthAmerica_s10_climate); NA_scenario_plan_2026-09-18_v3.xlsx (Assumptions sheet),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,ERCOT,Power,2.250000,,M€/GWkm,s10 definition (rows reused from NorthAmerica_s10_climate); NA_scenario_plan_2026-09-18_v3.xlsx (Assumptions sheet),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,MISO,Power,2.250000,,M€/GWkm,s10 definition (rows reused from NorthAmerica_s10_climate); NA_scenario_plan_2026-09-18_v3.xlsx (Assumptions sheet),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,PJM,Power,2.250000,,M€/GWkm,s10 definition (rows reused from NorthAmerica_s10_climate); NA_scenario_plan_2026-09-18_v3.xlsx (Assumptions sheet),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+SERC,SPP,Power,2.250000,,M€/GWkm,s10 definition (rows reused from NorthAmerica_s10_climate); NA_scenario_plan_2026-09-18_v3.xlsx (Assumptions sheet),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,ERCOT,Power,2.250000,,M€/GWkm,s10 definition (rows reused from NorthAmerica_s10_climate); NA_scenario_plan_2026-09-18_v3.xlsx (Assumptions sheet),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,SERC,Power,2.250000,,M€/GWkm,s10 definition (rows reused from NorthAmerica_s10_climate); NA_scenario_plan_2026-09-18_v3.xlsx (Assumptions sheet),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,California,Power,2.250000,,M€/GWkm,s10 definition (rows reused from NorthAmerica_s10_climate); NA_scenario_plan_2026-09-18_v3.xlsx (Assumptions sheet),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+WECC,ERCOT,Power,2.250000,,M€/GWkm,s10 definition (rows reused from NorthAmerica_s10_climate); NA_scenario_plan_2026-09-18_v3.xlsx (Assumptions sheet),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
