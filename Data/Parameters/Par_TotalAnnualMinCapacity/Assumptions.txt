@@ -39,3 +39,9 @@ NorthAmerica_nuclear_announced_ccgtrelax variant (2026-08-02):
 	announced nuclear displaces the FORCED gas build once the funnel lower
 	bound gives it room, instead of crowding out economic renewables.
 	Gas max corridor and the (non-retirable) residual gas fleet untouched.
+
+P_Gas_Steam clamp (2026-09-24, wave-3 fix, review finding N4)
+- The US Pools widening-band minimum is held flat after 2035 while the residual steam fleet keeps retiring (US 40.1 GW
+  minimum vs 30.6 GW residual in 2040), which forced ~12 GW of new gas-steam units 2026-40 at the placeholder capex.
+  New gas steam units are not built in practice, so every P_Gas_Steam minimum above the residual capacity of the same
+  region/year is clamped to the residual (min <= residual). Applied by NA_inputs/build_14_scenarios.py base_fixes().
