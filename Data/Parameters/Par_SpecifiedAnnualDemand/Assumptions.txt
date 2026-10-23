@@ -83,3 +83,12 @@ Units: 1 Bcf = 1.094 PJ (1,037 Btu/cf); 1 Bcf/d = 399.4 PJ/yr = 12.66 GW-th; EUR
 Decisions (user, 2026-09-15): Z_Import_Gas physical-only; deliverability cap
 (Par_FuelUseRateLimit) active for NewEngland/California/NewYork; non-power demand
 follows an AEO2026-type blended trajectory (+5.4 % by 2040, proxy); v6-freeze basis.
+
+NorthAmerica_climate_* scenarios (2026-10-23) - climate-adaptation set on the v6-freeze basis.
+Demand overlays from the FEL 2026 Base run with the cooling split and the climate adjustment
+(NA_inputs/SU Climate/base_fel_v261023_cooling_climate.xlsx) via NA_inputs/convert_fel_to_demand.py:
+the new 'cooling' busbar sector -> Power_Buildings_Cooling (previously part of Power_General);
+buildings heating (Electric_Boiler + HP_* incl. Heating_Climate_Adj) -> Power_Buildings_Heat as before;
+data centres, industry, hydrogen and transport unchanged against base_fel_v260707_v2.xlsx. The four
+scenario options (climate_base, climate_central, climate_extreme, climate_severe) share one demand overlay;
+they differ only in the thermal-stress capacity factors (Par_TagTechnologyToTimeseries + TS_CF_THERMAL_*).

@@ -13,7 +13,9 @@ Mapping (per project spec):
   transport    : BEV_2W3W+BEV_Buses+BEV_LCV+BEV_MHDV+'BEV_Passenger Cars' -> Power_BEVs
                  Maritime+Rail+Road_NonBEV              -> Power_General
                  + transport td_loss_twh distributed by at-meter share across the two
-  Power_Buildings_Cooling : left empty for now (cooling not separable in this data).
+  cooling      : _Data_Grid busbar_twh (FEL files with a 'cooling' sector,
+                 e.g. base_fel_v261023_cooling_climate.xlsx) -> Power_Buildings_Cooling;
+                 files without that sector leave Power_Buildings_Cooling empty.
 
 FRCC merged into SERC. US_R_OTHER and all non-NA (EU/aggregate) rows ignored.
 'TOTAL' sub_segments dropped (avoid double counting). Values written as-is (the
@@ -31,7 +33,7 @@ from collections import defaultdict
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA_REPO = os.path.normpath(os.path.join(HERE, ".."))
 XLSX = os.path.join(HERE, "base_fel_v260707_v2.xlsx")
-# sensitivity FEL override:  python convert_fel_to_demand.py --fel <file.xlsx>
+# sensitivity FEL override:  python convert_fel_to_demand.py --fel <file.xlsx> [--source <tag>] [--date <YYYY-MM-DD>]
 if "--fel" in sys.argv:
     XLSX = os.path.join(HERE, sys.argv[sys.argv.index("--fel") + 1])
 CSV = os.path.join(DATA_REPO, "Data", "Parameters",
@@ -63,9 +65,14 @@ BUILD_HEAT    = {"Electric_Boiler", "HP_Commercial", "HP_Residential"}
 BUILD_GENERAL = {"Buildings_Trajectory_Adjustment", "Other_Buildings"}
 TRANS_BEV     = {"BEV_2W3W", "BEV_Buses", "BEV_LCV", "BEV_MHDV", "BEV_Passenger Cars"}
 TRANS_GENERAL = {"Maritime", "Rail", "Road_NonBEV"}
+COOLING_IN_GENERAL = {"Canada"}   # see the cooling block in main(); empty set = every region to Power_Buildings_Cooling
 
 SOURCE = "FEL 2026 Base (NA_inputs/base_fel_v260707_v2.xlsx)"
 DATE = "2026-05-28"
+if "--source" in sys.argv:
+    SOURCE = sys.argv[sys.argv.index("--source") + 1]
+if "--date" in sys.argv:
+    DATE = sys.argv[sys.argv.index("--date") + 1]
 WHO = "Konstantin Loffler <kl@wip.tu-berlin.de>"
 
 
@@ -95,6 +102,14 @@ def main():
         acc[(r, y, "Power_DataCenter")] += v
     for (r, y), v in grid("industry", "busbar_twh").items():
         acc[(r, y, "Power_General")] += v
+    # cooling: own busbar sector in FEL files with the cooling split (absent otherwise).
+    # Regions in COOLING_IN_GENERAL keep their cooling inside Power_General (load shape):
+    # Canada has no temperature projection and its region-mean cooling profile
+    # (max(T - 22, 0)) peaks at ~30x its mean, which turned 26 TWh of cooling into
+    # ~20 PJ/yr of infeasibility slack in the 49-hour probe of 2026-10-23.
+    has_cooling = (dg["sector"] == "cooling").any()
+    for (r, y), v in grid("cooling", "busbar_twh").items():
+        acc[(r, y, "Power_General" if r in COOLING_IN_GENERAL else "Power_Buildings_Cooling")] += v
 
     # hydrogen: no grid losses
     for (r, y), v in sectoral("hydrogen", {"Green H2"}).items():
@@ -159,8 +174,8 @@ def main():
     piv = df_new.pivot_table(index="Fuel", values="Value", aggfunc=["count", "sum"])
     print("\nPer-fuel row count + total PJ written:")
     print(piv.to_string())
-    print("\nNote: Power_Buildings_Cooling intentionally left empty (cooling not "
-          "separable in this dataset yet).")
+    if not has_cooling:
+        print("\nNote: Power_Buildings_Cooling left empty (no 'cooling' sector in this FEL file).")
 
 
 if __name__ == "__main__":

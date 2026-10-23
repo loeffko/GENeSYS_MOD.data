@@ -69,3 +69,14 @@ Par_CapitalCostStorage,Capital Cost of storages per energy content.,M€/PJ
 Par_ResidualStorageCapacity,Residual Storage Capacity.,PJ
 Par_AnnualExogenousEmission,Amount of external Emissions for a year in a certain region.,Megatonnes
 Par_StorageLevelStart,Defines the level of storage at the beginning of a year.,PJ
+TS_POWER_BUILDINGS_HEAT_2030,Hourly buildings electric heating profile valid from model year 2030 on (year-banded variant of TS_POWER_BUILDINGS_HEAT),
+TS_POWER_BUILDINGS_COOLING_2030,Hourly buildings electric cooling profile valid from model year 2030 on (year-banded variant of TS_POWER_BUILDINGS_COOLING),
+TS_POWER_BUILDINGS_HEAT_2035,Hourly buildings electric heating profile valid from model year 2035 on (year-banded variant of TS_POWER_BUILDINGS_HEAT),
+TS_POWER_BUILDINGS_COOLING_2035,Hourly buildings electric cooling profile valid from model year 2035 on (year-banded variant of TS_POWER_BUILDINGS_COOLING),
+TS_CF_THERMAL_CCGT,Hourly availability (capacity factor) profile of the CCGT thermal technology class (1 = no derate),
+TS_CF_THERMAL_CCGT_2030,Hourly availability profile of the CCGT thermal class valid from model year 2030 on,
+TS_CF_THERMAL_OCGT,Hourly availability (capacity factor) profile of the OCGT thermal technology class (1 = no derate),
+TS_CF_THERMAL_OCGT_2030,Hourly availability profile of the OCGT thermal class valid from model year 2030 on,
+TS_CF_THERMAL_STEAM,Hourly availability (capacity factor) profile of the STEAM thermal technology class (1 = no derate),
+TS_CF_THERMAL_STEAM_2030,Hourly availability profile of the STEAM thermal class valid from model year 2030 on,
+Par_TagTechnologyToTimeseries,Binds a technology capacity factor to the hourly profile TS_<Profile> (optional; absent = no binding),Tag

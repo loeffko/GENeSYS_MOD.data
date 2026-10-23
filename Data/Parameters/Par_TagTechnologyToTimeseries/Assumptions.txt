@@ -1,0 +1,8 @@
+Par_TagTechnologyToTimeseries (Technology, Profile) - optional, 2026-10-23
+Binds a technology's capacity factor to an hourly timeseries sheet TS_<Profile> of the timeseries workbook,
+the way the renewables follow their resource profiles (reduced and scaled by the model's timeseries
+reduction; year-banded TS_<Profile>_<YYYY> variants apply from year YYYY on). Meant for data-declared
+availability profiles of otherwise firm plants. The model also credits a tagged plant in the peaking
+constraint with its worst-timeslice capacity factor instead of the variable-RES credit. The column is
+named Profile (a 'Timeseries' header would be filtered by the converter). The base CSV is header-only;
+the NorthAmerica_climate_<central|extreme|severe> overlays bind the thermal classes to TS_CF_THERMAL_<group>.
