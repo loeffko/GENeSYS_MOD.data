@@ -65,7 +65,7 @@ BUILD_HEAT    = {"Electric_Boiler", "HP_Commercial", "HP_Residential"}
 BUILD_GENERAL = {"Buildings_Trajectory_Adjustment", "Other_Buildings"}
 TRANS_BEV     = {"BEV_2W3W", "BEV_Buses", "BEV_LCV", "BEV_MHDV", "BEV_Passenger Cars"}
 TRANS_GENERAL = {"Maritime", "Rail", "Road_NonBEV"}
-COOLING_IN_GENERAL = {"Canada"}   # see the cooling block in main(); empty set = every region to Power_Buildings_Cooling
+COOLING_IN_GENERAL = set()   # see the cooling block in main(); regions listed here keep cooling in Power_General (Canada did so until the residual load shape, 2026-10-23)
 
 SOURCE = "FEL 2026 Base (NA_inputs/base_fel_v260707_v2.xlsx)"
 DATE = "2026-05-28"

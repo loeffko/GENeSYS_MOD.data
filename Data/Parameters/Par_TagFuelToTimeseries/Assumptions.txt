@@ -1,0 +1,4 @@
+Par_TagFuelToTimeseries (Fuel, Profile) - optional. Binds a demand fuel to the hourly profile TS_<Profile> of the
+timeseries workbook instead of the model's built-in mapping (column named Profile because the converter filters a
+'Timeseries' header). Base CSV header-only; the NorthAmerica_climate_* overlays bind Power_General to the residual
+load shape TS_POWER_GENERAL (2026-10-23).

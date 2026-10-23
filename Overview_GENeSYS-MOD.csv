@@ -80,3 +80,5 @@ TS_CF_THERMAL_OCGT_2030,Hourly availability profile of the OCGT thermal class va
 TS_CF_THERMAL_STEAM,Hourly availability (capacity factor) profile of the STEAM thermal technology class (1 = no derate),
 TS_CF_THERMAL_STEAM_2030,Hourly availability profile of the STEAM thermal class valid from model year 2030 on,
 Par_TagTechnologyToTimeseries,Binds a technology capacity factor to the hourly profile TS_<Profile> (optional; absent = no binding),Tag
+Par_TagFuelToTimeseries,Binds a demand fuel to the hourly profile TS_<Profile> instead of the built-in mapping (optional),Tag
+TS_POWER_GENERAL,Hourly residual load shape of the Power_General end use (load minus the heating and cooling components of the base year),

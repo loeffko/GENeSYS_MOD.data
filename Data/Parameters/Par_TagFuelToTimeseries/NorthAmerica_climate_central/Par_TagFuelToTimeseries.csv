@@ -1,0 +1,2 @@
+Fuel,Profile,Value,,Unit,Source,Updated at,Updated by
+Power_General,POWER_GENERAL,1,,Tag,residual load shape (TS_POWER_GENERAL): load minus the heating and cooling components of the base year,2026-10-23,Konstantin Loffler <kl@wip.tu-berlin.de>
