@@ -453,8 +453,8 @@ ERCOT,P_Gas_Steam,2035,5.762559,,GW,US Pools widening band (min); Nuclear=LSR tr
 ERCOT,P_Gas_Steam,2036,5.762559,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 ERCOT,P_Gas_Steam,2037,5.762559,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 ERCOT,P_Gas_Steam,2038,5.762559,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Gas_Steam,2039,5.762559,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-ERCOT,P_Gas_Steam,2040,5.762559,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Gas_Steam,2039,5.301135,,GW,US Pools widening band (min) clamped to the residual fleet: no new gas steam builds (2026-09-24 wave-3 fix),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+ERCOT,P_Gas_Steam,2040,4.629204,,GW,US Pools widening band (min) clamped to the residual fleet: no new gas steam builds (2026-09-24 wave-3 fix),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
 ERCOT,P_Gas_Engines,2026,1.108576,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 ERCOT,P_Gas_Engines,2027,2.151394,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 ERCOT,P_Gas_Engines,2028,3.448522,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
@@ -886,11 +886,11 @@ NewEngland,P_Gas_Steam,2032,0.76685,,GW,US Pools widening band (min); Nuclear=LS
 NewEngland,P_Gas_Steam,2033,0.76685,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewEngland,P_Gas_Steam,2034,0.650328,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewEngland,P_Gas_Steam,2035,0.258328,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Gas_Steam,2036,0.258328,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Gas_Steam,2037,0.258328,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Gas_Steam,2038,0.258328,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Gas_Steam,2039,0.258328,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewEngland,P_Gas_Steam,2040,0.258328,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Gas_Steam,2036,0.205991,,GW,US Pools widening band (min) clamped to the residual fleet: no new gas steam builds (2026-09-24 wave-3 fix),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Gas_Steam,2037,0.098804,,GW,US Pools widening band (min) clamped to the residual fleet: no new gas steam builds (2026-09-24 wave-3 fix),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Gas_Steam,2038,0.037695,,GW,US Pools widening band (min) clamped to the residual fleet: no new gas steam builds (2026-09-24 wave-3 fix),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Gas_Steam,2039,0.031093,,GW,US Pools widening band (min) clamped to the residual fleet: no new gas steam builds (2026-09-24 wave-3 fix),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewEngland,P_Gas_Steam,2040,0.026408,,GW,US Pools widening band (min) clamped to the residual fleet: no new gas steam builds (2026-09-24 wave-3 fix),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewEngland,P_Gas_Engines,2026,0.289394,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewEngland,P_Gas_Engines,2027,0.289394,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewEngland,P_Gas_Engines,2028,0.289492,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
@@ -1117,11 +1117,11 @@ NewYork,P_Gas_Steam,2032,8.247582,,GW,US Pools widening band (min); Nuclear=LSR 
 NewYork,P_Gas_Steam,2033,7.232596,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewYork,P_Gas_Steam,2034,5.63647,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewYork,P_Gas_Steam,2035,5.418126,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Gas_Steam,2036,5.418126,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Gas_Steam,2037,5.418126,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Gas_Steam,2038,5.418126,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Gas_Steam,2039,5.418126,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-NewYork,P_Gas_Steam,2040,5.418126,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Gas_Steam,2036,4.925560,,GW,US Pools widening band (min) clamped to the residual fleet: no new gas steam builds (2026-09-24 wave-3 fix),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Gas_Steam,2037,4.322420,,GW,US Pools widening band (min) clamped to the residual fleet: no new gas steam builds (2026-09-24 wave-3 fix),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Gas_Steam,2038,3.719280,,GW,US Pools widening band (min) clamped to the residual fleet: no new gas steam builds (2026-09-24 wave-3 fix),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Gas_Steam,2039,3.116140,,GW,US Pools widening band (min) clamped to the residual fleet: no new gas steam builds (2026-09-24 wave-3 fix),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+NewYork,P_Gas_Steam,2040,2.513000,,GW,US Pools widening band (min) clamped to the residual fleet: no new gas steam builds (2026-09-24 wave-3 fix),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewYork,P_Gas_Engines,2026,0.140042,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewYork,P_Gas_Engines,2027,0.141316,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewYork,P_Gas_Engines,2028,0.141316,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
@@ -1789,8 +1789,8 @@ SPP,P_Gas_OCGT,2040,28.474541,,GW,US Pools widening band (min); Nuclear=LSR traj
 SPP,P_Gas_Steam,2026,9.586458,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 SPP,P_Gas_Steam,2027,9.588516,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 SPP,P_Gas_Steam,2028,9.115862,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_Gas_Steam,2029,10.065993,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_Gas_Steam,2030,10.050607,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Gas_Steam,2029,9.764500,,GW,US Pools widening band (min) clamped to the residual fleet: no new gas steam builds (2026-09-24 wave-3 fix),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Gas_Steam,2030,9.764500,,GW,US Pools widening band (min) clamped to the residual fleet: no new gas steam builds (2026-09-24 wave-3 fix),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
 SPP,P_Gas_Steam,2031,8.788212,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 SPP,P_Gas_Steam,2032,7.67994,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 SPP,P_Gas_Steam,2033,6.935475,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
@@ -1799,8 +1799,8 @@ SPP,P_Gas_Steam,2035,5.624733,,GW,US Pools widening band (min); Nuclear=LSR traj
 SPP,P_Gas_Steam,2036,5.624733,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 SPP,P_Gas_Steam,2037,5.624733,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 SPP,P_Gas_Steam,2038,5.624733,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_Gas_Steam,2039,5.624733,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-SPP,P_Gas_Steam,2040,5.624733,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Gas_Steam,2039,4.475667,,GW,US Pools widening band (min) clamped to the residual fleet: no new gas steam builds (2026-09-24 wave-3 fix),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+SPP,P_Gas_Steam,2040,3.330310,,GW,US Pools widening band (min) clamped to the residual fleet: no new gas steam builds (2026-09-24 wave-3 fix),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
 SPP,P_Gas_Engines,2026,1.58662,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 SPP,P_Gas_Engines,2027,1.684718,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 SPP,P_Gas_Engines,2028,1.684718,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
@@ -2236,21 +2236,21 @@ Canada,P_Gas_OCGT,2038,5.180978,,GW,US Pools widening band (min); Nuclear=LSR tr
 Canada,P_Gas_OCGT,2039,5.180978,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 Canada,P_Gas_OCGT,2040,5.180978,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 Canada,P_Gas_Steam,2025,6.684709,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Gas_Steam,2026,6.861593,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Gas_Steam,2027,6.861593,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Gas_Steam,2028,6.96194,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Gas_Steam,2029,6.96194,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Gas_Steam,2030,6.96194,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Gas_Steam,2031,6.96194,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Gas_Steam,2032,6.96194,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Gas_Steam,2033,6.96194,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Gas_Steam,2034,6.96194,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Gas_Steam,2035,6.96194,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Gas_Steam,2036,6.96194,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Gas_Steam,2037,6.96194,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Gas_Steam,2038,6.96194,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Gas_Steam,2039,6.96194,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
-Canada,P_Gas_Steam,2040,6.96194,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Gas_Steam,2026,6.615076,,GW,US Pools widening band (min) clamped to the residual fleet: no new gas steam builds (2026-09-24 wave-3 fix),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Gas_Steam,2027,6.266914,,GW,US Pools widening band (min) clamped to the residual fleet: no new gas steam builds (2026-09-24 wave-3 fix),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Gas_Steam,2028,5.918752,,GW,US Pools widening band (min) clamped to the residual fleet: no new gas steam builds (2026-09-24 wave-3 fix),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Gas_Steam,2029,5.570590,,GW,US Pools widening band (min) clamped to the residual fleet: no new gas steam builds (2026-09-24 wave-3 fix),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Gas_Steam,2030,5.222429,,GW,US Pools widening band (min) clamped to the residual fleet: no new gas steam builds (2026-09-24 wave-3 fix),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Gas_Steam,2031,4.874267,,GW,US Pools widening band (min) clamped to the residual fleet: no new gas steam builds (2026-09-24 wave-3 fix),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Gas_Steam,2032,4.526105,,GW,US Pools widening band (min) clamped to the residual fleet: no new gas steam builds (2026-09-24 wave-3 fix),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Gas_Steam,2033,4.177943,,GW,US Pools widening band (min) clamped to the residual fleet: no new gas steam builds (2026-09-24 wave-3 fix),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Gas_Steam,2034,3.829781,,GW,US Pools widening band (min) clamped to the residual fleet: no new gas steam builds (2026-09-24 wave-3 fix),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Gas_Steam,2035,3.481619,,GW,US Pools widening band (min) clamped to the residual fleet: no new gas steam builds (2026-09-24 wave-3 fix),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Gas_Steam,2036,3.133457,,GW,US Pools widening band (min) clamped to the residual fleet: no new gas steam builds (2026-09-24 wave-3 fix),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Gas_Steam,2037,2.785295,,GW,US Pools widening band (min) clamped to the residual fleet: no new gas steam builds (2026-09-24 wave-3 fix),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Gas_Steam,2038,2.437133,,GW,US Pools widening band (min) clamped to the residual fleet: no new gas steam builds (2026-09-24 wave-3 fix),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Gas_Steam,2039,2.088971,,GW,US Pools widening band (min) clamped to the residual fleet: no new gas steam builds (2026-09-24 wave-3 fix),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
+Canada,P_Gas_Steam,2040,1.740810,,GW,US Pools widening band (min) clamped to the residual fleet: no new gas steam builds (2026-09-24 wave-3 fix),2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>
 Canada,P_Hydro_Reservoir,2025,59.314767,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 Canada,P_Hydro_Reservoir,2026,59.312667,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 Canada,P_Hydro_Reservoir,2027,59.349067,,GW,US Pools widening band (min); Nuclear=LSR trajectory (PMK); Coal=US Coal Trajectory CENTRAL,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>

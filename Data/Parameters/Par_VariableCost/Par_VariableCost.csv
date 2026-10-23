@@ -3119,3 +3119,6 @@ World,P_SOFC,2,2039,0.4,,MEUR/PJ,non-fuel VOM; fuel cost via input-fuel chain; T
 World,P_SOFC,2,2040,0.4,,MEUR/PJ,non-fuel VOM; fuel cost via input-fuel chain; TU Berlin assumption,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 World,P_SOFC,2,2045,0.4,,MEUR/PJ,non-fuel VOM; fuel cost via input-fuel chain; TU Berlin assumption,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 World,P_SOFC,2,2050,0.4,,MEUR/PJ,non-fuel VOM; fuel cost via input-fuel chain; TU Berlin assumption,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Fusion,1,All,2.7778,,MEUR/PJ,Fusion_Market_Model_v09.xlsx variable_om bull 10 EUR/MWh,2026-09-22,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_IronAir,1,All,0.5,,MEUR/PJ,as D_Battery_Redox,2026-09-22,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_IronAir,2,All,0.5,,MEUR/PJ,as D_Battery_Redox,2026-09-22,Konstantin Loffler <kl@wip.tu-berlin.de>

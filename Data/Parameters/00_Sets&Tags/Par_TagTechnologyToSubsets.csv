@@ -646,3 +646,13 @@ P_SOFC,PowerSupply,1,,Binary,not relevant,2026-07-04,Konstantin Loffler <kl@wip.
 P_SOFC,SOFC,1,,Binary,not relevant,2026-07-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 P_Gas_Engines,GasEngines,1,,Binary,not relevant,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
 D_Battery_Li-Ion,BESS_LiIon,1,,Binary,not relevant,2026-06-04,Konstantin Loffler <kl@wip.tu-berlin.de>
+X_Gas_Export,Transformation,1,,Binary,NA gas infrastructure feature 2026-09 (NorthAmerica_gas scenario); see NA_inputs/gas_research + docs/proposals/NA_GAS_INFRASTRUCTURE_PROPOSAL_2026-09-12.md,2026-09-15,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Fusion,PowerSupply,1,,Binary,scenario s07,2026-09-22,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Fusion,EmergingTechnologies,1,,Binary,scenario s07,2026-09-22,Konstantin Loffler <kl@wip.tu-berlin.de>
+D_IronAir,PhaseInSet,1,,Binary,scenario s07,2026-09-22,Konstantin Loffler <kl@wip.tu-berlin.de>
+D_IronAir,StorageDummies,1,,Binary,scenario s07,2026-09-22,Konstantin Loffler <kl@wip.tu-berlin.de>
+D_IronAir,Transformation,1,,Binary,scenario s07,2026-09-22,Konstantin Loffler <kl@wip.tu-berlin.de>
+D_IronAir,IronAir,1,,Binary,scenario s07,2026-09-22,Konstantin Loffler <kl@wip.tu-berlin.de>
+D_Battery_Li-Ion,LiIon,1,,Binary,scenario s11 group cap,2026-09-22,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_Gas_CCS,GasCCS,1,,Binary,scenario s14 group cap (the switch_ccs bounds blanket-enable any CCS TotalAnnualMaxCapacity above the 0.001 marker),2026-09-22,Konstantin Loffler <kl@wip.tu-berlin.de>
+P_PV_Rooftop_Commercial,RooftopPV,1,,Binary,"rooftop build-rate group cap (wave-3 fix, review N1)",2026-09-24,Konstantin Loffler <kl@wip.tu-berlin.de>

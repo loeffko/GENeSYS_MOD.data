@@ -3162,3 +3162,35 @@ World,P_Wind_Offshore_Deep,2039,3308.2,,MEUR/GW,"DEA 0017 21 Far shore Wind DC F
 World,P_Wind_Offshore_Deep,2040,3222.3,,MEUR/GW,"DEA 0017 21 Far shore Wind DC Floating, nominal total investment incl. grid connection",2026-07-08,Konstantin Loffler <kl@wip.tu-berlin.de>
 World,P_Wind_Offshore_Deep,2045,3073.0,,MEUR/GW,"DEA 0017 21 Far shore Wind DC Floating, nominal total investment incl. grid connection",2026-07-08,Konstantin Loffler <kl@wip.tu-berlin.de>
 World,P_Wind_Offshore_Deep,2050,2923.7,,MEUR/GW,"DEA 0017 21 Far shore Wind DC Floating, nominal total investment incl. grid connection",2026-07-08,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Fusion,2025,21700.0,,MEUR/GW,"Fusion_Market_Model_v09.xlsx capex sheet, bull (Class IV x0.7), reactor N1-N4 at 2034-2040",2026-09-22,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Fusion,2026,21700.0,,MEUR/GW,"Fusion_Market_Model_v09.xlsx capex sheet, bull (Class IV x0.7), reactor N1-N4 at 2034-2040",2026-09-22,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Fusion,2027,21700.0,,MEUR/GW,"Fusion_Market_Model_v09.xlsx capex sheet, bull (Class IV x0.7), reactor N1-N4 at 2034-2040",2026-09-22,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Fusion,2028,21700.0,,MEUR/GW,"Fusion_Market_Model_v09.xlsx capex sheet, bull (Class IV x0.7), reactor N1-N4 at 2034-2040",2026-09-22,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Fusion,2029,21700.0,,MEUR/GW,"Fusion_Market_Model_v09.xlsx capex sheet, bull (Class IV x0.7), reactor N1-N4 at 2034-2040",2026-09-22,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Fusion,2030,21700.0,,MEUR/GW,"Fusion_Market_Model_v09.xlsx capex sheet, bull (Class IV x0.7), reactor N1-N4 at 2034-2040",2026-09-22,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Fusion,2031,21700.0,,MEUR/GW,"Fusion_Market_Model_v09.xlsx capex sheet, bull (Class IV x0.7), reactor N1-N4 at 2034-2040",2026-09-22,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Fusion,2032,21700.0,,MEUR/GW,"Fusion_Market_Model_v09.xlsx capex sheet, bull (Class IV x0.7), reactor N1-N4 at 2034-2040",2026-09-22,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Fusion,2033,21700.0,,MEUR/GW,"Fusion_Market_Model_v09.xlsx capex sheet, bull (Class IV x0.7), reactor N1-N4 at 2034-2040",2026-09-22,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Fusion,2034,21700.0,,MEUR/GW,"Fusion_Market_Model_v09.xlsx capex sheet, bull (Class IV x0.7), reactor N1-N4 at 2034-2040",2026-09-22,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Fusion,2035,19159.6,,MEUR/GW,"Fusion_Market_Model_v09.xlsx capex sheet, bull (Class IV x0.7), reactor N1-N4 at 2034-2040",2026-09-22,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Fusion,2036,16619.2,,MEUR/GW,"Fusion_Market_Model_v09.xlsx capex sheet, bull (Class IV x0.7), reactor N1-N4 at 2034-2040",2026-09-22,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Fusion,2037,14586.8,,MEUR/GW,"Fusion_Market_Model_v09.xlsx capex sheet, bull (Class IV x0.7), reactor N1-N4 at 2034-2040",2026-09-22,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Fusion,2038,12554.5,,MEUR/GW,"Fusion_Market_Model_v09.xlsx capex sheet, bull (Class IV x0.7), reactor N1-N4 at 2034-2040",2026-09-22,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Fusion,2039,10891.7,,MEUR/GW,"Fusion_Market_Model_v09.xlsx capex sheet, bull (Class IV x0.7), reactor N1-N4 at 2034-2040",2026-09-22,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Fusion,2040,9228.9,,MEUR/GW,"Fusion_Market_Model_v09.xlsx capex sheet, bull (Class IV x0.7), reactor N1-N4 at 2034-2040",2026-09-22,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_IronAir,2025,277.5,,MEUR/GW,"iron-air power component ~300 USD/kW backed out of the DOE LDES Liftoff multi-day 2030 target (1,100 USD/kW system)",2026-09-22,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_IronAir,2026,277.5,,MEUR/GW,"iron-air power component ~300 USD/kW backed out of the DOE LDES Liftoff multi-day 2030 target (1,100 USD/kW system)",2026-09-22,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_IronAir,2027,277.5,,MEUR/GW,"iron-air power component ~300 USD/kW backed out of the DOE LDES Liftoff multi-day 2030 target (1,100 USD/kW system)",2026-09-22,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_IronAir,2028,277.5,,MEUR/GW,"iron-air power component ~300 USD/kW backed out of the DOE LDES Liftoff multi-day 2030 target (1,100 USD/kW system)",2026-09-22,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_IronAir,2029,277.5,,MEUR/GW,"iron-air power component ~300 USD/kW backed out of the DOE LDES Liftoff multi-day 2030 target (1,100 USD/kW system)",2026-09-22,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_IronAir,2030,277.5,,MEUR/GW,"iron-air power component ~300 USD/kW backed out of the DOE LDES Liftoff multi-day 2030 target (1,100 USD/kW system)",2026-09-22,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_IronAir,2031,277.5,,MEUR/GW,"iron-air power component ~300 USD/kW backed out of the DOE LDES Liftoff multi-day 2030 target (1,100 USD/kW system)",2026-09-22,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_IronAir,2032,277.5,,MEUR/GW,"iron-air power component ~300 USD/kW backed out of the DOE LDES Liftoff multi-day 2030 target (1,100 USD/kW system)",2026-09-22,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_IronAir,2033,277.5,,MEUR/GW,"iron-air power component ~300 USD/kW backed out of the DOE LDES Liftoff multi-day 2030 target (1,100 USD/kW system)",2026-09-22,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_IronAir,2034,277.5,,MEUR/GW,"iron-air power component ~300 USD/kW backed out of the DOE LDES Liftoff multi-day 2030 target (1,100 USD/kW system)",2026-09-22,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_IronAir,2035,277.5,,MEUR/GW,"iron-air power component ~300 USD/kW backed out of the DOE LDES Liftoff multi-day 2030 target (1,100 USD/kW system)",2026-09-22,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_IronAir,2036,277.5,,MEUR/GW,"iron-air power component ~300 USD/kW backed out of the DOE LDES Liftoff multi-day 2030 target (1,100 USD/kW system)",2026-09-22,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_IronAir,2037,277.5,,MEUR/GW,"iron-air power component ~300 USD/kW backed out of the DOE LDES Liftoff multi-day 2030 target (1,100 USD/kW system)",2026-09-22,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_IronAir,2038,277.5,,MEUR/GW,"iron-air power component ~300 USD/kW backed out of the DOE LDES Liftoff multi-day 2030 target (1,100 USD/kW system)",2026-09-22,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_IronAir,2039,277.5,,MEUR/GW,"iron-air power component ~300 USD/kW backed out of the DOE LDES Liftoff multi-day 2030 target (1,100 USD/kW system)",2026-09-22,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_IronAir,2040,277.5,,MEUR/GW,"iron-air power component ~300 USD/kW backed out of the DOE LDES Liftoff multi-day 2030 target (1,100 USD/kW system)",2026-09-22,Konstantin Loffler <kl@wip.tu-berlin.de>

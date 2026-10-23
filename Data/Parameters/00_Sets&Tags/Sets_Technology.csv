@@ -161,3 +161,7 @@ P_Gas_Steam
 P_Nuclear_SMR
 P_Gas_CCGT_Residual
 P_SOFC
+X_Gas_Export
+Infeasibility_Gas_Natural
+P_Fusion
+D_IronAir

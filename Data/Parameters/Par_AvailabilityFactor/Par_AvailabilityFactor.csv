@@ -2515,3 +2515,5 @@ SERC,P_Biomass,All,0.5,,share,EIA 2024 biomass fleet CF ~46%; AF = annual CF cap
 PJM,P_Biomass,All,0.5,,share,EIA 2024 biomass fleet CF ~46%; AF = annual CF cap,2026-07-13,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewYork,P_Biomass,All,0.5,,share,EIA 2024 biomass fleet CF ~46%; AF = annual CF cap,2026-07-13,Konstantin Loffler <kl@wip.tu-berlin.de>
 NewEngland,P_Biomass,All,0.5,,share,EIA 2024 biomass fleet CF ~46%; AF = annual CF cap,2026-07-13,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,P_Fusion,All,0.88,,Fraction,Fusion_Market_Model_v09.xlsx capacity_factor bull,2026-09-22,Konstantin Loffler <kl@wip.tu-berlin.de>
+World,D_IronAir,All,1.0,,Fraction,as other storage dummies,2026-09-22,Konstantin Loffler <kl@wip.tu-berlin.de>

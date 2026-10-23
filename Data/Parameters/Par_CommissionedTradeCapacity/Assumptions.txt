@@ -13,3 +13,21 @@ H2: 	Data given for 2025, 2030, 2040, 2050.
 		
 				
 				
+
+NorthAmerica_gas scenario (2026-09-15) - explicit natural gas infrastructure in the NA
+power model. All numbers derived from EIA/CER primary data in NA_inputs/gas_research/
+by NA_inputs/build_gas_scenario.py; design and sources documented in
+GENeSYSMOD.jl_SE/docs/proposals/NA_GAS_INFRASTRUCTURE_PROPOSAL_2026-09-12.md.
+Units: 1 Bcf = 1.094 PJ (1,037 Btu/cf); 1 Bcf/d = 399.4 PJ/yr = 12.66 GW-th; EUR2023 at 1.0813 USD/EUR.
+Decisions (user, 2026-09-15): Z_Import_Gas physical-only; deliverability cap
+(Par_FuelUseRateLimit) active for NewEngland/California/NewYork; non-power demand
+follows an AEO2026-type blended trajectory (+5.4 % by 2040, proxy); v6-freeze basis.
+
+NorthAmerica_gas scenario (2026-09-15) - explicit natural gas infrastructure in the NA
+power model. All numbers derived from EIA/CER primary data in NA_inputs/gas_research/
+by NA_inputs/build_gas_scenario.py; design and sources documented in
+GENeSYSMOD.jl_SE/docs/proposals/NA_GAS_INFRASTRUCTURE_PROPOSAL_2026-09-12.md.
+Units: 1 Bcf = 1.094 PJ (1,037 Btu/cf); 1 Bcf/d = 399.4 PJ/yr = 12.66 GW-th; EUR2023 at 1.0813 USD/EUR.
+Decisions (user, 2026-09-15): Z_Import_Gas physical-only; deliverability cap
+(Par_FuelUseRateLimit) active for NewEngland/California/NewYork; non-power demand
+follows an AEO2026-type blended trajectory (+5.4 % by 2040, proxy); v6-freeze basis.
