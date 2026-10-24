@@ -6,7 +6,9 @@ import os, shutil, sys, time
 from functions.function_import import master_function
 
 SCEN = {'base': 'NorthAmerica_climate_base', 'central': 'NorthAmerica_climate_central',
-        'extreme': 'NorthAmerica_climate_extreme', 'severe': 'NorthAmerica_climate_severe'}
+        'extreme': 'NorthAmerica_climate_extreme', 'severe': 'NorthAmerica_climate_severe',
+        'base_nofossil': 'NorthAmerica_climate_base_nofossil', 'extreme_nofossil': 'NorthAmerica_climate_extreme_nofossil',
+        'severe_nofossil': 'NorthAmerica_climate_severe_nofossil'}
 FILTER = 'Set_filter_file_NorthAmerica_climate.xlsx'
 WEATHER_YEAR = 2015
 OUT = os.path.join('..', 'Output', 'output_excel')
